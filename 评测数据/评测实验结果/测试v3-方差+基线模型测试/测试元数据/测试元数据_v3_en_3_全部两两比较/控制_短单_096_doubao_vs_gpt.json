@@ -1,0 +1,15 @@
+{
+    "sample_index": 32,
+    "model_a": "doubao",
+    "model_b": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a dragging rhythm: 'Alright…I…will…handle…this matter.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

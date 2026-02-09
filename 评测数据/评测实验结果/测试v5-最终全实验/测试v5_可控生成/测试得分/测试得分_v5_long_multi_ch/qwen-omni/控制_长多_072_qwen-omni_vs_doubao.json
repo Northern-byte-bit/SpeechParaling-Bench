@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy and high fluency; the speech is clear and intelligible. However, it completely fails to adhere to the specific paralinguistic instructions. \n1. **Pitch (音高):** The user requested an 'extremely low tone' (极低音). The generated voice is a standard mid-to-high pitch female voice, which is the complete opposite of the request.\n2. **Rhythm (节奏):** The request was for 'steady' (平稳). While the speech is fluent, the rhythm is upbeat, lively, and conversational (typical of a customer service assistant), rather than the solemn, unwavering pacing required for a cold, authoritative announcement.\n3. **Attitude (态度):** The request was for 'cold' (冷淡). The actual tone is friendly, helpful, and polite, lacking any sense of distance, authority, or coldness.",
+    "reasoning_model_2": "The model follows the paralinguistic instructions exceptionally well.\n1. **Pitch (音高):** The voice is extremely deep and resonant, fitting the 'extremely low tone' (极低音) description perfectly. It sounds like a grave male narration.\n2. **Rhythm (节奏):** The pacing is slow, deliberate, and very steady (平稳). There are appropriate pauses (e.g., after '项目进展', '原计划执行') that add weight to the statement, matching the requirement.\n3. **Attitude (态度):** The tone is serious, detached, and authoritative, accurately conveying the 'cold' (冷淡) attitude. It sounds like a final, non-negotiable directive.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 essentially ignored the style prompts ('extremely low pitch', 'steady', 'cold') and generated a default, friendly female voice. Model 2 successfully modulated the voice to be very deep, slow, and grave, perfectly matching the user's intent for a cold and authoritative announcement. The contrast is stark: Model 1 conveys a helpful assistant, while Model 2 conveys a strict decision-maker.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

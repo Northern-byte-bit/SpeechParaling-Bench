@@ -1,0 +1,14 @@
+{
+    "sample_index": 39,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用中速开始，然后逐渐提高语速用极快速说: 我们先将溶液加热到沸腾，然后加入催化剂，观察反应，接着就会看到它迅速发生变化，变成蓝色，太神奇了！",
+    "dimensions": [
+        "语速"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

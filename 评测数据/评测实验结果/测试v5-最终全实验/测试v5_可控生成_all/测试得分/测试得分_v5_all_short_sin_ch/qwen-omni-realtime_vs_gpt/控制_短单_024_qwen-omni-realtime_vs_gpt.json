@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the spoken content '请注意，演出即将开始。' without any hallucinations or omissions. Regarding the core paralinguistic requirement '音高' (Pitch), the audio utilizes a very distinct, deep, and resonant voice (low bass). The pitch is significantly lowered compared to a standard conversational tone, creating a solemn and announcer-like quality that perfectly matches the 'low pitch' instruction. The pacing and prosody are natural and stable.",
+    "reasoning_model_2": "The model fails significant content accuracy requirements. While it starts with the target sentence '请注意，演出即将开始', it continues to hallucinate a long descriptive passage ('低沉的嗓音缓缓铺开...') which was not part of the requested script. Regarding the '音高' (Pitch) dimension, the voice used is a standard, relatively bright female timbre. It does not exhibit the requested 'low pitch' characteristic; in fact, it sounds quite standard and narrative rather than deep or bass-heavy. The audio describes a low voice but does not embody it.",
+    "model_comparison": "Model 1 is the clear winner. It followed the content instructions perfectly and successfully applied the requested paralinguistic feature (low pitch), resulting in a deep, resonant audio. Model 2 failed on two counts: first, it hallucinated a large amount of extra text not requested by the user; second, it failed to alter the pitch of the voice to be 'low'—it used a standard pitch that contradicted the prompt's requirement for a deep tone. Therefore, Model 1 receives a high score for perfect compliance, while Model 2 receives a 0 due to significant content deviation and failure to implement the target feature.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates an audio with an adult voice, satisfying the Age dimension. However, regarding the Cognitive State (Hesitant), the performance is mixed. While the model attempts to convey hesitancy through the repetition of phrases ('I am, I am'), it incorrectly expands the contraction 'I'm' from the prompt into 'I am'. This alters the stylistic delivery, making it sound more formal and stiff rather than naturally hesitant. The pauses (e.g., between 'good' and 'some data') are present but feel somewhat mechanical and fragmented rather than a result of cognitive processing or uncertainty. The prosody is relatively flat, and the hesitancy feels scripted rather than genuinely felt.",
+    "reasoning_model_2": "The model accurately portrays an adult voice, meeting the Age requirement perfectly. For the Cognitive State (Hesitant), the model excels. It adheres strictly to the text, correctly pronouncing the stammer 'I'm, I'm' which contributes significantly to the natural feeling of hesitation. The pacing is deliberate, with appropriate pauses (00:03-00:05) that mimic a person thinking and weighing options. The tone shifts appropriately at 'makes me feel rather uncertain,' effectively conveying the lack of confidence requested. The prosody is natural and fluid, enhancing the perception of the cognitive state.",
+    "model_comparison": "Both models successfully achieve the 'Age' dimension, sounding like adults. However, Model 2 significantly outperforms Model 1 in the 'Cognitive State' dimension. Model 1 alters the text by expanding 'I'm' to 'I am', which creates a formal, robotic cadence that undermines the requested hesitant tone. Model 1's delivery feels somewhat stilted and the hesitancy appears artificial. In contrast, Model 2 adheres perfectly to the script (keeping 'I'm') and uses natural pauses and prosody to convincingly convey uncertainty and hesitation. The emotional expression in Model 2 is much more vivid and human-like.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

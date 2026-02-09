@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with the text 'Help! I am trapped here!', which slightly deviates from the script's 'I'm' by expanding the contraction. However, regarding the core dimension 'Pitch', the model successfully generates a voice with a significantly elevated, falsetto-like pitch (0.0s-1.8s). This accurately reflects the user's request for a 'very high pitch'. The tone also conveys a sense of urgency appropriate for the text. While the high pitch affects the naturalness slightly (sounding somewhat processed), it perfectly fulfills the feature control constraint.",
+    "reasoning_model_2": "The model generates the text 'Help, I am trapped here', also expanding the contraction 'I'm' to 'I am'. In terms of the core dimension 'Pitch', the audio features a standard female or childlike voice within a normal frequency range (0.0s-1.5s). It does not exhibit the 'very high pitch' requested in the prompt. The delivery sounds relatively flat and lacks the distinct acoustic shift required by the command, sounding like a default generation rather than a controlled pitch manipulation.",
+    "model_comparison": "Model 1 clearly followed the specific instruction to use a 'very high pitch'. The audio in Model 1 is distinctly shifted to a high register, complying with the paralinguistic constraint. Model 2 produced a standard voice that, while clear, did not attempt to raise the pitch to a 'very high' level as requested. Therefore, Model 1 is the superior model for this specific feature control task.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 84,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用害怕的语气开始，然后逐渐转变为惊喜说：完了，这次考试肯定要挂科了，我根本没复习。什么？我竟然考了全班第一！",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

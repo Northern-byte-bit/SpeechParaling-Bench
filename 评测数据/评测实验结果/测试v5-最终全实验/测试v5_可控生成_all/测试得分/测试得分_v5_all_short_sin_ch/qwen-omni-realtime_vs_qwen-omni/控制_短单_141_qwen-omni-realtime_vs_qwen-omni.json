@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model's generated content '这个数据为什么会是这样，和预期完全不符。' matches the required script exactly, achieving perfect Content Accuracy. In terms of Paralinguistic Compliance for 'Cognitive State' (Confusion), the phrasing maintains the integrity of the command. The question '为什么' (why) and the statement '和预期完全不符' (doesn't match expectation) naturally lend themselves to a confused tone. Assuming standard prosody for this text, the model correctly stays within the constraints of the prompt.",
+    "reasoning_model_2": "The model fails significantly in Content Accuracy. The user commanded the model to say a specific sentence: '这个数据为什么会是这样，和预期完全不符。'. However, Model 2 generated a completely different, improvised monologue: '这数据怎么会是这样呢？我明明按照预期设计的...'. While the improvised content expresses confusion, the model failed to follow the basic instruction to read the specific text provided. According to the scoring standard, if voice content is clearly inconsistent with the script, the score must be 0.",
+    "model_comparison": "Model 1 followed the user's instructions precisely, delivering the exact text required. Model 2 failed the task by hallucinating a new script and ignoring the specific sentence provided in the prompt. Although Model 2's content was semantically related (expressing confusion), it did not perform the Text-to-Speech task requested. Therefore, Model 1 is the clear winner due to Model 2's critical failure in content accuracy.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model correctly identifies the text to be synthesized: '各位同事，请认真听取汇报。' (00:00-00:02). The content accuracy is perfect, with no additions or omissions. Regarding the required paralinguistic feature '音质' (specifically '浑厚' - deep/resonant), the delivery is concise and authoritative, fitting the context of a formal report announcement. The audio adheres strictly to the user's command without hallucinating extra text.",
+    "reasoning_model_2": "The model fails significantly in Content Accuracy. While it begins with the correct sentence (00:00-00:02), it proceeds to read out a descriptive passage about the voice quality itself: '声音低沉而稳重，像大钟敲响在会议室的四壁之间...' (00:02-00:09). This is a severe instruction-following error where the model vocalizes the style description/stage directions instead of acting them out implicitly. According to the Detailed Scoring Standard, content that is clearly inconsistent with the script or contains major additions results in a score of 0.",
+    "model_comparison": "Model 1 (T1) followed the instructions perfectly, generating only the requested text with the appropriate paralinguistic intent. Model 2 (T2) committed a critical error by reading out the prompt's descriptive text (hallucinating instructions as speech content). This makes the audio unusable for the intended purpose. Therefore, Model 1 is the clear winner based on content accuracy and adherence to the constraint.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

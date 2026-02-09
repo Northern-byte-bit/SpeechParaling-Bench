@@ -1,0 +1,14 @@
+{
+    "sample_index": 120,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a contemptuous tone initially, suddenly switching to a polite tone: 'Who does he think he is? He's not fit to boss people around. Oh, it's you, teacher, my apologies, I didn't see you coming.'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

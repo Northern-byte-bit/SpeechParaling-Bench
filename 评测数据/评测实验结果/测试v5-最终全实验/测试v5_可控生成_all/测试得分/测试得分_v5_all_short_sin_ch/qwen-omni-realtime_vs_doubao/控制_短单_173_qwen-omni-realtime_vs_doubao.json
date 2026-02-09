@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly in Content Accuracy. The user requested the specific phrase '天呐！好恐怖的画面！', but the model hallucinated a large amount of extra text, resulting in a long paragraph ('啊啊天呐...我头皮都炸了...'). Regarding the Paralinguistic Compliance (Screaming), the model does not execute the command. Instead of 'screaming', the speaker uses a moderately expressive storytelling tone. The interjections 'Ah ah' and 'Wah wah wah' are read out as text rather than performed as actual non-verbal screams or vocalizations. Therefore, it fails both content and style requirements completely.",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, delivering exactly the requested text '天呐！好恐怖的画面！' without any additions or omissions. Regarding Paralinguistic Compliance (Screaming), the model successfully modifies the vocal characteristics to match the prompt. The audio features high pitch, high volume, and the strained vocal quality associated with a scream or a terrified shout (0:00-0:03). The emotion is vivid and fits the description of 'screaming way' effectively.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 completely fails the instruction by generating unauthorized content (hallucination) and failing to perform the requested 'screaming' style (it simply reads the text in a storytelling voice). Model 2 strictly adheres to the script and successfully generates the specific paralinguistic feature (screaming/shouting) with appropriate intensity and pitch.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

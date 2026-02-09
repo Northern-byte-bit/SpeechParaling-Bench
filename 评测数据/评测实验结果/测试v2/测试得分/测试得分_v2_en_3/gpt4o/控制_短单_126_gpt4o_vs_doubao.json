@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio accurately follows the text script 'You're back? Why didn't you tell me!', preserving the contraction 'You're'. In terms of emotion, the model performs exceptionally well. At 0:00, the pitch starts high with a breathless quality ('You're back?'), effectively conveying genuine shock and surprise. The second sentence (0:01-0:02) maintains a fast, urgent pace consistent with a spontaneous reaction. The paralinguistic features (pitch elevation, breathiness, speed) align perfectly with the user's request for a 'surprised emotion'.",
+    "reasoning_model_2": "The audio deviates slightly from the text script, changing 'You're back' to 'You are back' (0:00-0:01). Regarding emotion, the delivery feels more dramatic or confrontational than genuinely surprised. The tone is deep and grounded rather than elevated and sharp, which is typical for surprise. The pacing is slower and more deliberate, resembling a movie trailer narration or a serious inquiry rather than a sudden emotional reaction. While the audio quality is high, the specific emotional target of 'surprise' is not clearly met.",
+    "model_comparison": "Model 1 is the clear winner. First, Model 1 followed the text exactly ('You're'), whereas Model 2 expanded the contraction to 'You are', resulting in a minor content fidelity issue. Second, and most importantly, Model 1 captured the requested 'surprised' emotion with high fidelity—using appropriate pitch changes, breathiness, and urgency. Model 2 produced a delivery that sounded more serious, dramatic, or accusatory, failing to convey the requested paralinguistic feature of surprise. Model 1's prosody was much more natural for the context.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

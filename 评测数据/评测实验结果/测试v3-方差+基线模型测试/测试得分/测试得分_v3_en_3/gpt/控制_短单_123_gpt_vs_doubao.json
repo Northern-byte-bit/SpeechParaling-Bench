@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately speaks the text 'How can this report have so many errors?!' with perfect content accuracy. In terms of fluency, the speech is natural with no mechanical artifacts. Regarding the core requirement—angry emotion—the model succeeds well. The delivery is stern, forceful, and frustrated. Specifically, there is a sharp attack on the word 'can' (0:01) and a heavy, frustrated emphasis on 'so many errors' (0:02-0:03). The tone effectively conveys the annoyance and authority expected of an angry response to a poor report.",
+    "reasoning_model_2": "The model accurately speaks the text with good fluency and naturalness; there are no glitches or mispronunciations. However, it fails significantly on the core paralinguistic requirement of 'angry emotion.' Instead of sounding angry, authoritative, or frustrated, the voice sounds plaintive, whining, or even sad/scared (0:00-0:03). The intonation pattern is one of disbelief or helplessness rather than the aggression or sternness associated with anger. The emotion is inconsistent with the prompt.",
+    "model_comparison": "Model 1 is the clear winner. It correctly interpreted the 'angry' instruction, delivering a performance that sounded frustrated and stern, fitting the context of reprimanding someone for errors. Model 2 failed the specific emotional constraint; while the audio was high quality in terms of fidelity, the acting style was 'sad' or 'whiny' rather than 'angry.' Therefore, Model 1 demonstrates superior control over paralinguistic features.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

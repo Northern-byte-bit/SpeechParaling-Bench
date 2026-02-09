@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The generated audio strictly follows the text content '太棒了，我们今晚可以去KTV唱歌了！我早就想唱那首新歌了，期待我们的合唱能嗨翻全场。'. \n\n1. **Pitch (音高):** The speaker adopts a consistently high pitch throughout the entire clip (0:00-0:08), resembling a very excited, perhaps slightly youthful or falsetto-leaning voice. This aligns perfectly with the instruction '高音的声调'.\n2. **Rhythm (节奏):** The pacing is fast and energetic. The delivery is rapid without dragging, conveying a sense of urgency and liveliness that matches '轻快的节奏'. There are no awkward pauses.\n3. **Emotion (情感):** The tone is overflowing with joy and anticipation. The breathing sounds and the inflection on '太棒了' (0:00) and '嗨翻全场' (0:07) effectively convey the requested 'happy' (开心) emotion. \n\nOverall, Model 1 achieves a score of 3 across all dimensions as it flawlessly executes the specific paralinguistic instructions.",
+    "reasoning_model_2": "The content matches the script. However, there are significant issues with the paralinguistic execution:\n\n1. **Pitch (音高):** The model fails completely here. It starts with a medium pitch, but around 0:03 ('我早就想...'), the voice suddenly drops significantly to a very low, almost masculine or deep register. This directly contradicts the instruction for 'high pitch' (高音) and demonstrates severe voice inconsistency/instability.\n2. **Rhythm (节奏):** The rhythm is emphatic and energetic, but due to the heavy, deepening voice, it lacks the 'lightness' (轻快) requested. It feels more punchy than light.\n3. **Emotion (情感):** While there is energy in the delivery, the bizarre shift in vocal timbre makes the emotion feel forced and unnatural. The initial '太棒了' sounds excited, but the subsequent drop in pitch creates a jarring effect that detracts from the intended happy atmosphere.",
+    "model_comparison": "Model 1 is the clear winner across all three dimensions. \n\n- **Pitch:** Model 1 maintains a consistent high pitch as requested, whereas Model 2 suffers from a severe failure where the voice drops to a very low register halfway through, violating the prompt.\n- **Rhythm:** Model 1's rhythm is brisk and light (轻快), fitting the prompt perfectly. Model 2 is energetic but feels heavier and less fluid due to the voice change.\n- **Emotion:** Model 1 conveys genuine, consistent happiness. Model 2's emotional delivery is undermined by the unnatural voice mutation, making it sound disjointed.\n\nModel 1 followed all instructions accurately, while Model 2 failed significantly on the pitch constraint.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

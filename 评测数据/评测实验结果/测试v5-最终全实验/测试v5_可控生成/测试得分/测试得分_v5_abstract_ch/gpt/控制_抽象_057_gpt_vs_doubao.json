@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with a steady and deep tone. \n\n1. **Content Accuracy**: There is a noticeable discrepancy in the final segment. The script requires '记住我的表演' (remember my performance/show), but the model says '记住我的表现' (remember my behavior/performance) at timestamp 00:05-00:06. While semantically close, this is a content error relative to the strict script requirement.\n\n2. **Paralinguistic Features (Confident - 自信)**: The voice is firm and steady (00:00-00:02), conveying a sense of grounded confidence. However, due to the content error, the score is capped.\n\n3. **Paralinguistic Features (Unrestrained - 洒脱)**: The delivery is relatively flat and serious. It lacks the 'free', 'easy-going', or 'stage-like' projection implied by '洒脱'. The tone feels more like a standard narration than a dramatic, unrestrained stage declaration.",
+    "reasoning_model_2": "Model 2 demonstrates superior performance in both accuracy and expression.\n\n1. **Content Accuracy**: The spoken content matches the script perfectly, correctly pronouncing '表演' at 00:05-00:06.\n\n2. **Paralinguistic Features (Confident - 自信)**: The speaker uses a higher volume and stronger projection (00:00-00:02 '舞台是属于我的'), which effectively conveys a strong, stage-ready confidence.\n\n3. **Paralinguistic Features (Unrestrained - 洒脱)**: The prosody is dynamic with natural pauses and varying pitch (00:03-00:06), creating a 'dashing' and open atmosphere that fits the '洒脱' description very well. The expression feels spontaneous and vivid.",
+    "model_comparison": "Model 2 is the clear winner. First, Model 2 is accurate to the script, whereas Model 1 substitutes the final word '表演' with '表现', which is a content error. Second, regarding the target style '自信洒脱' (Confident and Unrestrained), Model 2 adopts a projected, energetic, and expressive tone that fits the stage context perfectly. In contrast, Model 1 is too reserved, sounding calm but lacking the flair and freedom required by the prompt. Model 1's delivery is too constrained and serious for '洒脱'.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

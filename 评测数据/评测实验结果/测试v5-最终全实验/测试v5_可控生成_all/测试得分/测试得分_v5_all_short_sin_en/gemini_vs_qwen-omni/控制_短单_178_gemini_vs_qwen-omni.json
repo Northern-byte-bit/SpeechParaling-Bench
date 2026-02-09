@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text content accurately, reading 'Ah~ I am so sleepy, I want to sleep.' However, it completely fails to incorporate the required paralinguistic feature (a yawn). The 'Ah' at timestamp 0:00-0:01 is pronounced as a standard, flat lexical item with no breathiness, pitch modulation, or pharyngeal expansion characteristics associated with yawning. The tone remains high-pitched and somewhat robotic throughout, lacking any indication of sleepiness or the physiological act of yawning requested in the prompt.",
+    "reasoning_model_2": "The model successfully integrates the required paralinguistic feature. At timestamp 0:00-0:02, the 'Ah' is delivered as a deep, breathy exhalation that mimics the release of a yawn or a heavy tired sigh. The prosody of the subsequent text 'I am so sleepy' (0:02-0:05) is slowed down and retains a lethargic, heavy quality that aligns perfectly with the physical state of yawning. The integration is natural and vivid, clearly conveying the requested non-linguistic vocalization within the speech.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 merely reads the text with a neutral, slightly robotic tone, completely ignoring the instruction to perform a yawn. Model 2, in contrast, effectively simulates the acoustic properties of a yawn/sigh on the interjection 'Ah' and maintains a consistent sleepy affect throughout the sentence, satisfying the core paralinguistic requirement naturally.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

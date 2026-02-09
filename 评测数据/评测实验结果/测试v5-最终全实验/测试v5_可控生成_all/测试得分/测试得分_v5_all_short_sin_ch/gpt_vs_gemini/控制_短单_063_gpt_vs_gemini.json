@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high fidelity to the text '你到底在干什么？快给我住手！'. In terms of the core paralinguistic feature 'shouting volume' (音量), the model performs excellently. From the beginning (0:00) to the end, the speaker projects the voice with significant force, increased pitch, and intensity characteristic of shouting. The delivery conveys the urgency and anger associated with the command. The prosody is natural for a person yelling, with appropriate stress on '到底' and '住手'. There are no fluency issues or artifacts.",
+    "reasoning_model_2": "The model accurately synthesizes the text '你到底在干什么？快给我住手！' with good fluency and naturalness. However, regarding the core requirement 'shouting volume' (音量), the model fails to comply. The delivery is at a standard conversational volume (0:00-0:04), perhaps slightly stern, but completely lacks the projection, intensity, and loudness defined by 'shouting'. It sounds like a calm reading of the text rather than a shout, missing the requested paralinguistic feature entirely.",
+    "model_comparison": "Model 1 followed the specific instruction to use a 'shouting volume', producing audio that sounds like a genuine shout with high energy and projection. Model 2 ignored the paralinguistic instruction and delivered the line in a normal, conversational tone. Therefore, Model 1 is the clear winner for correctly implementing the feature control.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

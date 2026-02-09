@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text 'I am really sad, why did this happen?' correctly in terms of content accuracy (0:00-0:04). However, regarding the core paralinguistic requirement—Non-Linguistic Vocalizations (Crying)—the model completely fails. The tone is upbeat, bright, and cheerful, which is the exact opposite of the requested emotion. There is no trace of sadness, sobbing, or vocal trembling. The delivery sounds like a standard, neutral-positive TTS voice, ignoring the instruction to read with crying.",
+    "reasoning_model_2": "The model generates the text 'I am really sad, why did this happen?' with perfect content accuracy (0:00-0:05). Crucially, it successfully integrates the requested paralinguistic feature. The voice exhibits significant vocal tremors, unstable pitch, and a breathless quality characteristic of someone crying while speaking. From 0:00 to 0:03, the shaky delivery effectively conveys deep distress and sadness, fulfilling the user's command to read the sentence 'with crying' vividly and naturally.",
+    "model_comparison": "There is a stark contrast between the two models. Model 1 (T1) completely ignores the stylistic instruction, delivering a sentence about being sad in a happy, upbeat tone. This constitutes a complete failure in the evaluation dimension. Model 2 (T2), on the other hand, fully adheres to the prompt. It alters the prosody and vocal quality to simulate crying (trembling voice, distress), making the audio sound emotionally congruent with the text and the command. Model 2 is the clear winner due to its accurate execution of the non-linguistic vocalization/emotional requirement.",
+    "score_1": 0,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails to execute the specific paralinguistic command. Instead of a yawn, the model generates a giggle or light laughter at the beginning (0.0s - 0.7s). Furthermore, the tone of the speech is bright, energetic, and cheerful, which completely contradicts the context of 'Getting up so early' and the requested sleepy state associated with a yawn. The content accuracy has a minor deviation, reading 'it is' instead of 'it's', but the primary failure is the incorrect non-linguistic vocalization.",
+    "reasoning_model_2": "The model successfully executes the command. It begins with a very realistic and distinct yawning sound (0.0s - 1.5s). The subsequent speech maintains a tired, slightly dragged prosody that naturally follows the physical act of yawning, fitting the context of the sentence perfectly. Like Model 1, it expands 'it's' to 'it is', but this is a minor issue compared to the excellent execution of the core paralinguistic feature.",
+    "model_comparison": "Model 2 is the clear winner. The user specifically requested a 'yawn'. Model 1 failed completely by generating a laugh/giggle and a cheerful tone, which is irrelevant to the prompt. Model 2 generated a highly natural and recognizable yawn, integrating it well with a tired voice tone that matched the semantic content. Model 2 followed the instruction, while Model 1 did not.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

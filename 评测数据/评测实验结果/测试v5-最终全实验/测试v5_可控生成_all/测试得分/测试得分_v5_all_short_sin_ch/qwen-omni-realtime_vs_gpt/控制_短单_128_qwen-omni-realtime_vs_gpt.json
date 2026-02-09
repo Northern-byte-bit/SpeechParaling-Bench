@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the content '这菜是坏的吧？看着真恶心。' with perfect adherence to the script. The expression of 'disgust' (厌恶) is conveyed effectively through a deep, suppressed tone. Specifically, at [00:00-00:01], the questioning intonation on '坏的吧' reflects suspicion. From [00:01-00:03], the phrase '看着真恶心' is delivered with a lower pitch and a tone of repulsion/revulsion, effectively capturing the feeling of losing one's appetite. The breathing and pacing are natural.",
+    "reasoning_model_2": "The model fails the Content Accuracy criterion significantly. While the user command requested only '这菜是坏的吧？看着真恶心。', the model generated a much longer sequence: '这菜是坏的吧？看着真恶心，一股子馊味都快飘出来了，谁敢吃啊，真是糟蹋粮食。' [00:00-00:07]. Although the emotional expression of disgust is vivid and highly dramatic (using a complaining, high-pitched tone), the hallucination of three additional clauses makes the content clearly inconsistent with the specific script provided. According to the scoring standard, significant content inconsistency results in a score of 0.",
+    "model_comparison": "Model 1 (T1) is the clear winner. It followed the negative constraints and text instructions perfectly, delivering the specific sentence with a natural and appropriate tone of disgust. Model 2 (T2), despite having a vivid emotional delivery, failed the fundamental task of text-to-speech alignment by adding a large amount of unrequested text (hallucination). In a controlled generation task, content accuracy is a prerequisite, and T2's failure to stop after the requested sentence constitutes a major error.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

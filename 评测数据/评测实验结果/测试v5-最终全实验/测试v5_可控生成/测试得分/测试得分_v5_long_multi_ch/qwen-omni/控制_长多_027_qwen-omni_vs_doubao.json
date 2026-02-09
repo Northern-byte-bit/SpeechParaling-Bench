@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 performs excellently in controlling the specified features. Regarding Pitch (音高), the model adopts an extremely high, falsetto-like tone throughout the entire segment (00:00-00:06), strictly adhering to the 'extremely high pitch' instruction. Regarding Volume (音量), the speech is projected with high energy and loudness, effectively simulating a shouting voice suitable for a concert setting. Although the initial interjection '啊' is omitted, the rest of the script is complete and accurate, and the stylistic execution is distinct and vivid.",
+    "reasoning_model_2": "Model 2 fails to execute the command effectively. Regarding Pitch (音高), the audio uses a standard, neutral female speaking range, completely ignoring the instruction to use an 'extremely high pitch'. Regarding Volume (音量), the speech is delivered at a normal conversational level rather than 'loudly'. Furthermore, the model has a critical content failure, terminating the speech abruptly at 00:01 after '我们爱你', thereby omitting the majority of the required text. Consequently, it fails to convey the required paralinguistic features entirely.",
+    "model_comparison": "Model 1 wins decisively on both dimensions. Model 1 accurately interprets and applies the constraints for both 'extremely high pitch' and 'loud volume,' delivering an energetic performance that matches the user's intent. In contrast, Model 2 produces a neutral, conversational output that ignores both style instructions and fails to complete the text script. Model 1's control over the audio features is significantly superior.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

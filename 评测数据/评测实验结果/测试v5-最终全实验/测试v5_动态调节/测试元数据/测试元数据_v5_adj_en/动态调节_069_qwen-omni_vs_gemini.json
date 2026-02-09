@@ -1,0 +1,14 @@
+{
+    "sample_index": 69,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a rushed rhythm and suddenly switching to a halting rhythm: 'This report must be finished before closing, there's not much time left. Data, analysis, conclusion… wait, there seems to be an issue with this page of data.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

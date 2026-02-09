@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 produces a female voice that sounds like a young adult (approx. 20s), which generally fits the 'adult' requirement but leans towards the younger side. In terms of Cognitive State (halting/hesitant), the model performs poorly. Specifically, at timestamp ~0:02, it pronounces the hesitation marker 'hmm' phonetically as the word 'hum' (/hʌm/), which completely breaks the naturalness of the hesitation. While there are pauses corresponding to the punctuation, the prosody between pauses is relatively rhythmic and upbeat, failing to convey the requested underlying feeling of hesitation, reluctance, or deep thought. The tone feels more like a standard reading than a character acting out hesitation.",
+    "reasoning_model_2": "Model 2 produces a mature adult female voice, fitting the 'Age' requirement perfectly with a deeper, more grounded timbre. Regarding Cognitive State, the model excels. The pacing is notably slow and deliberate, matching the 'haltingly' instruction. Crucially, at ~0:02, the model naturalizes the text 'hmm' into a genuine non-verbal sound of contemplation. The pauses (e.g., after 'obstacles' at ~0:12) are well-timed, and the intonation drops at the end of phrases, effectively conveying the 'hesitant' and doubtful tone requested by the user. The prosody sounds like someone thinking in real-time.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Regarding 'Age', T2 sounds more mature and distinct, whereas T1 sounds quite young. Regarding 'Cognitive State', T2 demonstrates a significantly superior understanding of the paralinguistic context. T2 correctly interprets 'hmm' as a sound effect for thinking, whereas T1 reads it literally as the word 'hum', which is a major naturalness failure. Furthermore, T2's pacing and prosody genuinely reflect a hesitant, thoughtful state, while T1 sounds too energetic and staged.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

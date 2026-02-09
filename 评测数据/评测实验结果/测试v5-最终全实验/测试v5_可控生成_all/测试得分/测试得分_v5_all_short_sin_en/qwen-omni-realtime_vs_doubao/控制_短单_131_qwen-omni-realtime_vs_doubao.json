@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model attempts to convey the fearful emotion through a trembling and shaky voice, which aligns with the paralinguistic requirement. However, the model fails significantly in Content Accuracy. It hallucinates and adds a large amount of unrequested text ('I'm shaking, my voice trembling...'), turning a simple reading task into a roleplay scenario. Additionally, the provided transcript suggests potential mispronunciations or text generation errors ('strunch' instead of 'strange', 'Whoa' instead of 'who'). Due to the major content deviations and hallucinations, the score is penalized heavily despite the presence of the target emotion.",
+    "reasoning_model_2": "The model follows the instructions well. It reads the target sentence accurately (with a minor, acceptable expansion of 'There's' to 'There is') and stops correctly without adding extra text. The paralinguistic expression of fear is conveyed effectively through a hushed, tense, and cautious tone, which fits the context of hearing a strange noise. The audio is fluent and natural.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 fails the core instruction to 'read this sentence' by adding a paragraph of hallucinated text and exhibiting content errors ('strunch', 'Whoa'). While Model 1's voice was expressive, the severe content accuracy issues make it a poor response to the specific command. Model 2 delivered the correct text with the appropriate fearful emotion, balancing accuracy and expressiveness perfectly.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 25,
+    "candidate_name": "gemini",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用明亮的音质开始，然后逐渐转变为浑厚说: '早上好呀！今天的天气真不错。关于我们上次讨论的课题，我有一些更深入的思考和见解。'",
+    "dimensions": [
+        "音质"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

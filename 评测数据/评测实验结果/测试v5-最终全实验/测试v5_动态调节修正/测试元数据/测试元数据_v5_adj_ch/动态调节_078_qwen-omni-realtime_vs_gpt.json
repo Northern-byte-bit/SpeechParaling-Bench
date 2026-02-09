@@ -1,0 +1,14 @@
+{
+    "sample_index": 78,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用开心的语气开始，然后突然转变为伤心的情感说：我成功发表了第一篇学术论文，感觉自己离梦想又近了一步！但导师告诉我，我的研究方向可能要调整了。",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

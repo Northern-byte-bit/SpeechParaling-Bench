@@ -1,0 +1,14 @@
+{
+    "sample_index": 118,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用轻蔑的态度开始，然后突然转变为礼貌说：就凭你？这个想法简直幼稚。不过，听你这么一说，我好像误会了，请问您能再详细解释一下吗？",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

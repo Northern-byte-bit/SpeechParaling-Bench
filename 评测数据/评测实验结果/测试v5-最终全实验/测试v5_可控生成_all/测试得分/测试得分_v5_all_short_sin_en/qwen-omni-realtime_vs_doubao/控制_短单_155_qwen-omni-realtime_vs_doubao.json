@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly adheres to the provided text with 100% accuracy. The audio demonstrates high fluency with a natural, human-like pacing that reflects the requested cognitive state. From 0:00 to 0:05, the speaker employs a slower tempo, lower pitch, and a downward inflection at the end of the sentence. The breathiness in the voice and the resigned delivery of 'I really can't do anything about him' effectively convey a sense of defeat and powerlessness, perfectly matching the 'helpless' tone required.",
+    "reasoning_model_2": "Model 2 fails the content accuracy criterion significantly. While it reads the target sentence, it hallucinates an additional phrase at the end: 'Not even a little bit' (0:04-0:06). Regarding the cognitive state, the tone leans more towards active annoyance or petulant complaining (higher pitch, faster pace) rather than genuine helplessness or resignation. The delivery lacks the weight and defeat associated with a helpless state. The combination of text addition and mismatched emotional intensity results in a low score.",
+    "model_comparison": "Model 1 is the clear winner. It accurately reproduces the text without additions and perfectly captures the 'helpless' cognitive state through a resigned, defeated vocal style. Model 2 fails on two fronts: it violates content accuracy by adding words ('Not even a little bit') and misinterprets the tone, sounding more annoyed/sassy than helpless.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

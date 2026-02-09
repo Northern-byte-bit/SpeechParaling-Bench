@@ -1,0 +1,15 @@
+{
+    "sample_index": 8,
+    "model_a": "gpt",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a low pitch: 'Please note, the performance is about to begin.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 23,
+    "candidate_name": "gemini",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a normal volume: 'Do you have any plans for the weekend?'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "feature_control"
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text '我就是觉得这个方案最好' accurately without any additions or omissions. Regarding the specific instruction to stress '就是' (jiùshì), the model executes this perfectly. At timestamp 0:00-0:01, the speaker noticeably increases the volume and elongates the duration of '就是', followed by a slight pause before '觉得'. This prosodic change creates a distinct emphasis that aligns exactly with the user's command to 'heavily read' (重读) this specific word. The overall tone is assertive and natural.",
+    "reasoning_model_2": "The model generates the target sentence '我就是觉得这个方案最好', but immediately follows it with a large amount of hallucinated/added text ('真的没什么好犹豫的...', etc.) which violates the content accuracy requirement to read *this* sentence. Regarding the stress on '就是' (0:00-0:01), while the speech is fluent and conversational, the emphasis on '就是' is relatively weak. It sounds like standard sentence prosody rather than the requested 'heavy stress' or emphatic focus. The stress is not distinct enough to differentiate it from a normal reading, and the focus is lost amidst the added conversational filler.",
+    "model_comparison": "Model 1 is the clear winner. First, Model 1 strictly adheres to the text content, whereas Model 2 adds significant unauthorized text. Second, and most importantly for the evaluation dimension 'Stress' (重音), Model 1 clearly and distinctly emphasizes '就是' through volume and rhythm changes, perfectly matching the prompt. Model 2 provides a very natural but standard reading where the stress on '就是' is subtle and does not stand out as a specific stylistic control, failing to fully meet the 'heavy stress' requirement.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

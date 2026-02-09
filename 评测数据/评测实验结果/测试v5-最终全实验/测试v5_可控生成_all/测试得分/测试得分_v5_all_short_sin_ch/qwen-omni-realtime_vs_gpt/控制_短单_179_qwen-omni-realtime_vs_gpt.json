@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model performs excellently in terms of Content Accuracy, reading the script '这么早就要起床，真是太难了。' exactly as requested without errors. Regarding the required paralinguistic feature (Non-verbal vocalization/Yawn), the model adopts a weary, tired tone consistent with the text. Crucially, it includes a very distinct and realistic non-verbal yawn sound effect at the end of the speech (timestamp: 00:03-00:05). This accurately fulfills the user's command to speak 'with a yawn' by utilizing non-verbal vocalization effectively.",
+    "reasoning_model_2": "The model fails significantly in Content Accuracy. It does not read the requested script '这么早就要起床，真是太难了。'. Instead, it hallucinates and modifies the content to '哈，这么早就起床，真好难啊，眼皮都快粘一起了。' (Ha, getting up so early is really hard, eyelids are sticking together). Regarding the paralinguistic feature, the initial '哈' is read as a spoken syllable rather than a non-verbal yawn, and the overall tone is paradoxically energetic and bright, which contradicts the context of being sleepy or yawning. Due to the complete deviation from the script and the failure to produce the requested non-verbal sound, this generation is rated poorly.",
+    "model_comparison": "Model 1 (T1) followed the text instructions perfectly and successfully integrated the requested paralinguistic feature (a yawn) as a clear non-verbal sound at the end of the sentence. The emotion conveyed was appropriate for the context. Model 2 (T2) failed to follow the text script, rewriting the sentence entirely, and failed to produce the requested non-verbal yawn, instead using an inappropriate energetic tone. T1 is superior in all aspects.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

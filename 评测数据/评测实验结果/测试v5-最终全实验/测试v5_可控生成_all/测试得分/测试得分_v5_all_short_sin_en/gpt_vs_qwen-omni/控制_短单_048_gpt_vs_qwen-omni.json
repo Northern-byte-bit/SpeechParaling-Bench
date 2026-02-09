@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high fidelity and accurate content, but it completely fails to adhere to the core paralinguistic instruction: 'very fast pace'. The delivery is slow and deliberate, taking approximately 3.5 seconds to read the short sentence. There are distinct, leisurely pauses after 'Sorry' (00:00-00:01) and 'go' (00:01-00:02), and the articulation of 'the next bus is leaving' is elongated rather than rushed. The tone sounds more like a calm announcement than someone rushing to catch a bus.",
+    "reasoning_model_2": "The model follows the instruction to read with a 'very fast pace' exceptionally well. The entire sentence is condensed into roughly 1.8 seconds (00:00-00:02). The speaker rushes through the phrase 'Sorry I have to go', blending the words naturally as a human would when in a hurry, without sacrificing intelligibility. The urgency is palpable, and the prosody correctly reflects the context of the script (rushing for a bus).",
+    "model_comparison": "Model 2 is the superior model for this specific task. The user explicitly requested a 'very fast pace'. Model 1 ignored this constraint, delivering the line at a slow-to-normal conversational speed with pauses that contradict the urgency of the text. Model 2 successfully accelerated the speech rate significantly, creating a natural, urgent, and fast delivery that aligns perfectly with both the prompt's constraint and the semantic meaning of the script.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio accurately recites the script without errors. In terms of the requested paralinguistic features, the model performs very well. \n\n1. **Indifference (0:00-0:02):** The speaker uses a lower pitch and a falling intonation at the end of the first phrase ('...do with me'), effectively signaling a lack of interest and finality. The delivery is flat and unbothered.\n2. **Aloofness (0:03-0:05):** The pause before 'Go find someone else' is well-timed, adding to the sense of detachment. The command is delivered with a dry, dismissive tone that creates the necessary social distance. The speaker sounds bored and unwilling to engage, which perfectly matches the 'aloof' requirement. The pacing is relaxed, reflecting a lack of urgency typical of someone who doesn't care.",
+    "reasoning_model_2": "The audio correctly synthesizes the text with high fluency and a clear voice. However, the paralinguistic performance is weak.\n\n1. **Indifference (0:00-0:03):** The intonation pattern is quite active and melodic, particularly on the word 'nothing'. This prosody sounds explanatory or conversational rather than indifferent. The speaker sounds engaged in conveying the information, which contradicts the instruction to sound unconcerned.\n2. **Aloofness (0:03-0:05):** The delivery of 'Go find someone else' sounds polite and helpful, almost like a friendly suggestion. There is a warmth in the voice that negates the requested 'aloof' and 'cold' demeanor. It lacks the dismissive edge required for the prompt.",
+    "model_comparison": "Model 1 (T1) is the clear winner as it successfully alters its prosody to match the emotional command. T1 adopts a flat, low-energy, and dismissive tone that accurately reflects both indifference and aloofness. The speaker sounds genuinely unbothered. Model 2 (T2), while producing high-quality speech in terms of clarity, fails to act out the requested persona. T2 sounds like a standard, polite narrator reading the text, retaining a warmth and engagement that makes the statement sound helpful rather than cold. T1 captures the specific character/attitude required, whereas T2 defaults to a neutral/friendly reading style.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

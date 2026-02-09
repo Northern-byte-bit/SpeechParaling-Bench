@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with accurate content and high fluency, delivering the sentence in a natural, rapid pace (~2 seconds). However, regarding the specific instruction to emphasize the word 'is', the model fails completely. The prosody follows a standard neutral declaration where the primary stress falls on the final adjective 'best' (00:01-00:02). The word 'is' remains a weak, unstressed function word, blended quickly between 'plan' and 'the' without any pitch accent, elongation, or volume increase.",
+    "reasoning_model_2": "The model accurately reproduces the content and follows the paralinguistic instruction effectively. The delivery is significantly slower (~4 seconds) and more deliberate than Model 1. Specifically, the model isolates the target word 'is' (positioned around 00:02-00:03), giving it distinct prominence through duration and pausing relative to the surrounding text. This successfully conveys the requested emphasis, altering the meaning to imply a strong conviction or contrast (e.g., 'I *do* feel it *is* the best'). While the overall pace is slow, the target feature (Stress) is clearly identifiable.",
+    "model_comparison": "Model 1 provides a natural but standard reading that ignores the user's specific command to add stress to the word 'is'; it sounds like a default generation with end-focus on 'best'. Model 2 prioritizes the instruction, successfully placing emphatic stress on 'is' through pacing and isolation. Although Model 2 is slower, it is the only model that correctly implements the requested feature control.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

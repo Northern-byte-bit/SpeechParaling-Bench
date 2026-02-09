@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully executes the command to speak with a 'high pitch' (音高). Throughout the entire audio (00:00-00:10), the speaker utilizes a significantly elevated register, sounding like a male voice projecting in falsetto or a very high head voice. The pitch is consistently high, distinctly separating it from a normal conversational tone. The content is accurate, and the prosody, while stylized due to the pitch constraint, remains fluent and matches the excited nature of the text.",
+    "reasoning_model_2": "The model generates a standard female voice with accurate content and high fluency. However, regarding the core constraint of 'high pitch' (音高), the performance is lacking. The voice operates within a comfortable, middle-range pitch for a female speaker (00:00-00:09). There is no perceptible effort to raise the pitch or adopt a 'high pitch' style relative to the speaker's baseline. It sounds like a default reading rather than a controlled generation of a specific pitch characteristic.",
+    "model_comparison": "Model 1 (T1) is the clear winner in terms of feature control. The prompt explicitly requested 'high pitch'. T1 provided a voice that was undeniably manipulated to be high-pitched, maintaining this constraint consistently. T2 provided a natural-sounding female voice, but failed to apply the specific 'high pitch' modification requested; it sounded like a standard, neutral-to-warm reading without the requested paralinguistic feature. T1 demonstrates superior control over the pitch dimension.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

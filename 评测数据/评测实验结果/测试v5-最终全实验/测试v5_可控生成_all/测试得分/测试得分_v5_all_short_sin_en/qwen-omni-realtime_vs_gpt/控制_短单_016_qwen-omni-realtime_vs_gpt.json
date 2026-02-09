@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully synthesizes the text 'Good morning! The weather is really nice today, I feel great.' with 100% content accuracy. In terms of the core feature 'Pitch', the audio (00:00-00:03) exhibits a consistently elevated fundamental frequency throughout the utterance, distinctly adhering to the 'high pitch' command. The voice sounds significantly higher than a neutral baseline, akin to a high-register stylization. While the speech rate is relatively fast (spanning only 3 seconds), the articulation remains clear and the high pitch is applied uniformly without artifacts, warranting a perfect score for compliance.",
+    "reasoning_model_2": "The model provides an accurate reading of the script with high fluency and naturalness, spanning a duration of roughly 5 seconds (00:00-00:05). However, critically, the audio fails to incorporate the required 'high pitch' paralinguistic feature. The voice maintains a standard, neutral pitch range (typical of a normal adult speaking voice) throughout the clip. While the audio is pleasant and high-fidelity, it does not demonstrate the specific feature control requested by the user, resulting in a low score for the core dimension.",
+    "model_comparison": "Model 1 strictly follows the user's explicit command to generate audio with a 'high pitch', delivering a result that is acoustically distinct and compliant with the prompt. Model 2 ignores the paralinguistic instruction, producing a standard voice instead. Although Model 2 has a slightly more natural pacing, the evaluation prioritizes Feature Control (Pitch). Therefore, Model 1 wins due to its ability to execute the specific constraint.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script 'What on earth are you doing? Stop it right now!' word for word. In terms of the core paralinguistic requirement (Volume/Shouting), the model performs excellently. From 0:00 to 0:02 ('What on earth are you doing'), the voice exhibits strong projection, increased vocal tension, and higher volume characteristic of shouting. The second phrase, 'Stop it right now' (0:02-0:04), maintains this high intensity and stern authority. The delivery sounds natural, angry, and appropriately loud without audio clipping or artifacts. It is a convincing execution of the command.",
+    "reasoning_model_2": "The model correctly speaks the script content without errors. However, the execution of the 'shouting manner' is weak. From 0:00 to 0:02, the pitch rises, but the voice lacks the necessary projection, volume, and acoustic energy to constitute a real shout; it sounds more like a high-pitched complaint or a 'stage whisper' than a genuine yell. The segment 'Stop it right now' (0:02-0:04) similarly lacks authority and force. The paralinguistic compliance is poor because the intensity does not match the prompt's demand for high volume/shouting.",
+    "model_comparison": "Model 1 is significantly superior in adhering to the 'shouting' constraint. T1 successfully simulates the vocal timbre, projection, and volume associated with yelling, making the emotion feel visceral and authoritative. T2, while accurate in text, fails to deliver the required volume or intensity; the voice sounds thin and lacks the power of a shout. T1 captures the essence of the prompt, while T2 falls short on the core feature.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

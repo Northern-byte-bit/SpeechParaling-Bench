@@ -1,0 +1,14 @@
+{
+    "sample_index": 18,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a smooth timbre and gradually becoming hoarse: 'I have prepared this report very thoroughly; the data is detailed, and the conclusions are clear. But after working overtime for several consecutive days, I feel like I'm about to collapse.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

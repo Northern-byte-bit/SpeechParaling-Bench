@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio content exactly matches the text 'I think this plan is quite creative' (0:00-0:02). The pronunciation is clear and the delivery is highly fluent with no artifacts. Regarding the core paralinguistic requirement 'youthful', the model generates a voice with a bright timbre, slightly higher pitch, and an energetic, optimistic tone characteristic of a young adult (likely late teens or early twenties). The intonation is lively, fitting the persona perfectly. The prompt adherence is excellent.",
+    "reasoning_model_2": "The audio content is accurate to the script 'I think this plan is quite creative' (0:00-0:02). The speech is natural and fluent with good audio quality. However, regarding the 'youthful' constraint, the voice sounds more like a mature adult (likely 30s) rather than distinctly youthful. It has a more grounded, lower-pitched resonance compared to a typical youthful target. While it is not an 'old' voice, it lacks the specific brightness and lightness associated with the requested parameter, making the feature control less effective.",
+    "model_comparison": "Both models achieve perfect scores on content accuracy and fluency/naturalness; neither has artifacts or mispronunciations. The deciding factor is the 'Age' feature control. Model 1 (T1) successfully adopts a specific vocal persona that sounds distinctly young (bright, higher pitch, energetic), aligning perfectly with the 'youthful' instruction. Model 2 (T2) produces a high-quality voice, but it sounds like a standard mature adult rather than explicitly youthful. Therefore, Model 1 is the clear winner for better adherence to the paralinguistic instruction.",
+    "score_1": 3,
+    "score_2": 2,
+    "winner": 1
+}

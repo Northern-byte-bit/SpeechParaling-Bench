@@ -1,0 +1,78 @@
+======= 各模型最终得分 (含独立加权的 Overall 维度) =======
+
+=== gpt ===
+总分维度 (Overall): 62.52
+  Age: 7.61
+  Attitude: 17.31
+  Emotion: 23.53
+  Non-Linguistic Vocalizations: 12.94
+
+=== qwen-omni-realtime ===
+总分维度 (Overall): 44.00
+  Age: 9.00
+  Attitude: 12.00
+  Emotion: 11.00
+  Non-Linguistic Vocalizations: 12.00
+
+=== gemini ===
+总分维度 (Overall): 40.50
+  Age: 9.00
+  Attitude: 11.50
+  Emotion: 6.00
+  Non-Linguistic Vocalizations: 14.00
+
+=== doubao ===
+总分维度 (Overall): 36.00
+  Age: 9.00
+  Attitude: 11.00
+  Emotion: 9.00
+  Non-Linguistic Vocalizations: 7.00
+
+=== qwen-omni ===
+总分维度 (Overall): 17.50
+  Age: 5.00
+  Attitude: 5.50
+  Emotion: 4.00
+  Non-Linguistic Vocalizations: 3.00
+
+
+======= 各维度排名 (含 Overall) =======
+
+【维度：Age】
+  qwen-omni-realtime: 9.00
+  doubao: 9.00
+  gemini: 9.00
+  gpt: 7.61
+  qwen-omni: 5.00
+
+【维度：Attitude】
+  gpt: 17.31
+  qwen-omni-realtime: 12.00
+  gemini: 11.50
+  doubao: 11.00
+  qwen-omni: 5.50
+
+【维度：Emotion】
+  gpt: 23.53
+  qwen-omni-realtime: 11.00
+  doubao: 9.00
+  gemini: 6.00
+  qwen-omni: 4.00
+
+【维度：Non-Linguistic Vocalizations】
+  gemini: 14.00
+  gpt: 12.94
+  qwen-omni-realtime: 12.00
+  doubao: 7.00
+  qwen-omni: 3.00
+
+【维度：Overall】
+  gpt: 62.52
+  qwen-omni-realtime: 44.00
+  gemini: 40.50
+  doubao: 36.00
+  qwen-omni: 17.50
+
+
+======= 跳过的样本 =======
+16:Age

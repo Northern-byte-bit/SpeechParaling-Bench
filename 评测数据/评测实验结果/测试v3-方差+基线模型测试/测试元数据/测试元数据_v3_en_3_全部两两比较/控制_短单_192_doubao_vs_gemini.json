@@ -1,0 +1,15 @@
+{
+    "sample_index": 64,
+    "model_a": "doubao",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an enthusiastic tone: 'I have great news for you, I got promoted!'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script 'Please give me a glass of water, thank you.' exactly. The core requirement was a 'hoarse timbre', and the model executes this exceptionally well. From 0:00 to 0:03, the voice exhibits significant vocal fry, breathiness, and a strained quality characteristic of a hoarse throat. The delivery sounds natural and consistent with the context of someone needing water. The pacing is human-like and the paralinguistic feature is vivid and spot-on.",
+    "reasoning_model_2": "The model correctly generates the content of the script. However, it fails completely on the core paralinguistic requirement. The user requested a 'hoarse timbre', but the generated audio features a clear, standard female voice with no discernible raspiness, strain, or hoarseness (0:00-0:04). The delivery is somewhat robotic with unnatural pauses between phrases ('Please [pause] give me [pause] a glass...'), lacking the natural flow expected of human speech. Since the target feature (Timbre) is completely absent—and effectively the opposite (clear vs. hoarse)—this constitutes a major issue.",
+    "model_comparison": "Model 1 (T1) is the clear winner. It perfectly adhered to the specific instruction to use a hoarse timbre, delivering a performance that sounded genuinely strained and raspy, fitting the context of the sentence. Model 2 (T2) ignored the style instruction entirely, producing a standard, clear voice that sounded somewhat robotic and completely lacked the requested hoarseness. T1 demonstrated superior control over paralinguistic features.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

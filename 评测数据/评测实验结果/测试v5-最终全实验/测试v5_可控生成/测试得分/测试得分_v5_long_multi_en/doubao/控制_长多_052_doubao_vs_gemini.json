@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately speaks the content of the script without errors. However, it fails significantly in adhering to the specific paralinguistic instructions. \n1. **Age**: The voice is distinctly that of an adult female, sounding like a teacher or mother reading a storybook, rather than a child's voice as requested.\n2. **Pace**: The pace is slow to moderate (taking about 10 seconds). There are distinct, deliberate pauses between sentences (e.g., at 00:04 and 00:07) which directly contradicts the command for a 'very fast pace'.\n3. **Emotion**: The model conveys a sense of surprise and enthusiasm through pitch variation, but it feels performative and controlled (like a narrator) rather than the raw, impulsive excitement of catching a shiny Pokémon.",
+    "reasoning_model_2": "Model 2 accurately follows the script and excels in paralinguistic compliance.\n1. **Age**: The timbre is convincingly that of a young boy, perfectly matching the 'child voice' requirement.\n2. **Pace**: The delivery is much faster than Model 1 (approx. 7 seconds). The speech feels rushed and eager, effectively simulating a 'very fast pace' driven by excitement.\n3. **Emotion**: The model integrates non-verbal cues like breathlessness and gasping (audible at 00:03 and 00:05) to convey genuine shock and disbelief. The tone is awestruck and high-energy, making the 'surprised' emotion feel authentic and vivid.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. \n\n**Age**: Model 1 produced an adult voice (Score 0), while Model 2 produced a convincing child voice (Score 3).\n\n**Emotion**: Model 1 provided a standard 'reading aloud' tone that was polite but lacked intensity. Model 2 delivered a performance with breathy, stunned vocals that perfectly captured the high-stakes surprise of the scenario.\n\n**Pace**: Model 1 was slow and measured (Score 0). Model 2 was fast, hurried, and breathless, aligning well with the request for a very fast pace (Score 3). \n\nModel 2 followed all instructions, whereas Model 1 ignored the age and pace constraints almost entirely.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

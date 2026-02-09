@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio from Model 1 strictly follows the provided script with zero errors or hallucinations. The paralinguistic performance is excellent; the speaker adopts a slow, weary pace with a lower pitch that perfectly embodies '无可奈何' (helplessness/resignation). Specifically, at 00:04-00:06 ('我也真是拿他没办法了'), the voice trails off with a sigh-like quality, effectively conveying the sense of giving up. The prosody is natural and the emotional coloring is distinct and appropriate for the context.",
+    "reasoning_model_2": "The audio from Model 2 fails the content accuracy check significantly. It introduces unrequested interjections ('哎'), modifies the sentence structure (adding '了', changing '我也真是' to '我真是'), and hallucinates an entire additional sentence ('你说气不气人，可又能怎么办呢，只能干瞪眼') that was not in the prompt. While the tone has a complaining quality, it leans more towards annoyance/gossip than the heavy, weary resignation of 'helplessness'. The severe content deviation makes this a poor generation despite the fluency.",
+    "model_comparison": "Model 1 is the clear winner. It adheres strictly to the text script and delivers a highly accurate emotional performance of helplessness/resignation through pacing, pitch, and a sighing tone. Model 2 fails on content accuracy by adding significant unauthorized text (hallucination) and modifying the target sentence. Furthermore, Model 2's tone is more akin to active complaining rather than the passive resignation requested. Model 1 meets all criteria, while Model 2 fails the foundational content requirement.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

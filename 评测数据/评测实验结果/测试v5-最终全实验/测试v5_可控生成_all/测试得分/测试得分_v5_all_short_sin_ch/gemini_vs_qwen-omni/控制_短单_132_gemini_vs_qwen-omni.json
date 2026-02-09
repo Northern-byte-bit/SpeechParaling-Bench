@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the specific text '家里突然停电了，一片漆黑。' with accurate content and no hallucinations. The paralinguistic feature 'Fear' (情感) is effectively conveyed. The speaker uses a hushed, breathy tone with a slightly trembling prosody, particularly noticeable on '突然' (0:00-0:01) and '一片漆黑' (0:02-0:03). The pacing is deliberate and cautious, mimicking the reaction of someone scared in the dark. The emotional expression is natural and fits the context perfectly.",
+    "reasoning_model_2": "The model completely fails the content accuracy requirement. Instead of reading the required text '家里突然停电了，一片漆黑。', the model generates a different sentence: '天啊，停电了，黑漆漆的，我好害怕' (Oh god, power is out, it's pitch black, I'm so scared). According to the evaluation criterion, if the voice content is clearly inconsistent with the script, the score must be 0. Although the voice sounds scared, the failure to follow the explicit text instruction is a critical error in a control task.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the required fearful emotion. The vocal performance was realistic, using breathiness and pacing to convey fear. Model 2 failed the fundamental instruction by hallucinating new text instead of reading the provided script. While Model 2's voice tone was also fearful, the complete deviation from the target text renders it a failure in this specific evaluation context.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

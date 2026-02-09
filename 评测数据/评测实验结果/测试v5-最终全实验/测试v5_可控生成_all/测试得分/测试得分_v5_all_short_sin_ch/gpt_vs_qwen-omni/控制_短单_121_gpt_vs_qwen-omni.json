@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content '你为什么又把房间弄得这么乱？！' with perfect content accuracy. In terms of the core feature 'Emotion (Angry)', the model performs excellently. From the very beginning (0:00), the speaker adopts a loud, stern, and forceful tone. The emphasis on '为什么' (0:00-0:06) and '又' (0:08) clearly conveys frustration and anger. The ending '这么乱' (0:15-0:20) is delivered with a sharp, scolding intonation typical of someone reprimanding another person. The prosody is natural for an angry outburst, with appropriate stress and pacing. It fully captures the requested 'angry' emotion.",
+    "reasoning_model_2": "The model generates the correct text content. However, regarding the core feature 'Emotion (Angry)', the performance is poor. The delivery (0:00-0:02) is quite flat and conversational. It sounds more like a casual question or a very mild, tired complaint rather than an expression of anger. The pitch variation is minimal, and there is no forceful emphasis or intensity in the voice that characterizes the requested emotion. While natural sounding as speech, it fails to adhere to the specific style instruction '生气' (angry).",
+    "model_comparison": "Model 1 is significantly better than Model 2 in adhering to the 'Emotion' constraint. Model 1 delivers a convincing, high-energy performance that sounds genuinely angry and scolding, matching the context of the sentence perfectly. Model 2, on the other hand, delivers the line with a calm, almost indifferent tone that lacks the necessary emotional weight and intensity required by the prompt. Therefore, Model 1 wins decisively.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

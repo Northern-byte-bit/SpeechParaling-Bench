@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully adopts a lively, excited tone that naturally elevates the pitch ('音高'), complying with the paralinguistic request. The expression effectively conveys the feeling of sharing gossip. However, the model fails significantly in Content Accuracy. While it reads the required text ('真的吗？你快跟我说说细节！') (0.0s-2.3s), it hallucinates and appends a significant amount of unrequested text ('我耳朵都竖起来了，这事听着就让人心里痒痒的，你可别卖关子啊') (2.3s-end). This violation of the strict script requirement is a major flaw, capping the score despite the correct pitch control.",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading exactly the requested text without any additions or omissions. The Fluency is also high, with natural articulation. However, regarding the core dimension '音高' (Pitch), the model fails to execute the command. The generated audio uses a standard, calm, and neutral pitch range (almost slightly hushed), rather than the requested 'High Pitch'. There is no perceptible effort to raise the pitch or increase the intensity as requested.",
+    "model_comparison": "Model 2 (T2) is the winner. While Model 1 (T1) actually achieved the target paralinguistic feature (High Pitch/Excitement) much better than T2, it committed a critical error in Content Accuracy by hallucinating a large amount of extra text. In a text-to-speech task, strict adherence to the script is the primary prerequisite. Model 2 followed the text constraints perfectly, even though it failed to apply the requested style (Pitch). Model 2's output is usable (though plain), whereas Model 1's output is incorrect due to the added content.",
+    "score_1_1": 1,
+    "score_2_1": 1,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 44,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用慢速开始，然后突然提速到快速说: 我记得那本书好像放在书架的哪一层来着？哦，对了！就在我床头柜上！",
+    "dimensions": [
+        "语速"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

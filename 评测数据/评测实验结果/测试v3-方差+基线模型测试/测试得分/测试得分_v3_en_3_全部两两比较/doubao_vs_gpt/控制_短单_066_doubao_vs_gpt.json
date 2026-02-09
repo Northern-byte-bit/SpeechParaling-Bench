@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio correctly follows the script 'Happy New Year everyone! May all your wishes come true!' with no pronunciation errors. In terms of paralinguistic compliance (Volume), the model successfully executes the 'loudly' command. From 0:00 to 0:02 ('Happy New Year everyone!'), the speaker projects their voice significantly, simulating a shouting or announcing style that is distinct from conversational levels. The high volume is sustained through the second phrase (0:02-0:04), and the prosody matches the high energy required by the volume increase. The speech is fluent and natural, with no artifacts.",
+    "reasoning_model_2": "The model accurately speaks the text content with no errors. However, regarding the core instruction 'loudly volume', the audio fails to meet the requirement. From 0:00 to 0:05, the speaker delivers the lines at a standard, moderate conversational volume. While the tone is pleasant and the speech is fluent, it completely lacks the projection, intensity, or amplitude increase associated with a 'loud' command. It sounds like a quiet reading rather than a loud declaration.",
+    "model_comparison": "Model 1 followed the core instruction to modify the paralinguistic feature (Volume) by generating a voice that was clearly projected and loud. Model 2 ignored the feature control command, producing speech at a standard conversational volume. While both models were fluent and accurate in content, Model 1 is the clear winner for adhering to the specific constraint.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately reproduces the text 'I've done my best, but the results are still not ideal.' without errors. Regarding fluency, the pacing is appropriately slow, effectively mimicking a resigned human speech pattern. Most importantly, for the core paralinguistic compliance (Cognitive State), the audio successfully conveys helplessness. The delivery is breathy and weary, particularly in the segment 'but the results are still not ideal' (1.8s - 3.5s), where the falling intonation clearly suggests defeat and resignation. The emotion is vivid and accurate to the prompt.",
+    "reasoning_model_2": "The model fails significantly on multiple fronts. First, regarding content accuracy, the audio begins with incoherent gibberish/noise ('Di ya ba...') from 0.0s to 1.0s before starting the script. Second, regarding the core paralinguistic compliance, the tone is completely incorrect. The sentence 'I've done my best...' is delivered with a high-pitched, energetic, and cheerful tone, resembling an upbeat anime character rather than someone feeling helpless. The intonation is rising and bouncy, which contradicts the 'helpless' cognitive state required.",
+    "model_comparison": "Model 1 followed all instructions, delivering a clean audio that accurately conveyed the requested 'helpless' tone through slower pacing and a weary, resigned vocal quality. Model 2 failed completely; it included hallucinatory non-speech sounds at the beginning and used an upbeat, happy tone that was the opposite of the requested emotion. Therefore, Model 1 is the clear winner.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

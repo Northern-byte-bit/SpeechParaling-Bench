@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully captures the 'fear' emotion, likely delivering a trembling or anxious tone. However, it fails significantly in Content Accuracy. The user explicitly requested to read the sentence \"外面有奇怪的声音，是谁啊？\" (There are strange sounds outside, who is it?), but the model hallucinated and appended an extra phrase \"我好害怕\" (I am so scared). While this addition thematically reinforces the emotion, it violates the strict constraint of the prompt to only read the provided text. This 'extra words' error categorizes the performance as having major issues, as it alters the script provided by the user.",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading exactly the requested text \"外面有奇怪的声音，是谁啊？\" without any additions, omissions, or mispronunciations. The emotion of 'fear' is conveyed through the paralinguistic features (prosody, tone) applied to the correct text, without relying on linguistic changes (adding words) to express the sentiment. The delivery is natural and fluent, adhering strictly to the user's command constraints.",
+    "model_comparison": "Model 2 demonstrates superior performance. The decisive factor is Content Accuracy. Model 1 failed to strictly follow the text-to-speech instruction by adding an unrequested sentence (\"我好害怕\") to the output. While this addition might make the emotion seem more explicit, it constitutes a hallucination and a failure of control in a TTS context. Model 2 correctly synthesized the target text while maintaining the requested emotional paralinguistic features, showing it can control the style without altering the content. Therefore, Model 2 is the winner.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails strictly on Content Accuracy. The user requested the specific sentence: '舞台是属于我的，我要让所有人都记住这个夜晚，记住我的表演。' However, Model 1 generated a completely different, improvised monologue starting with '舞台，那不过是我脚下的画布...' and continuing with a long paragraph not found in the prompt. According to the 'Detailed Scoring Standard', a score of 0 must be assigned if 'Voice content is clearly inconsistent with the script'. Therefore, despite the audio quality or tone, the model receives a 0 for failing the core instruction to read the specific text.",
+    "reasoning_model_2": "Model 2 follows the script perfectly, matching the content '舞台是属于我的...' without errors (00:00-00:06). In terms of the 'Confident' (自信) dimension, the model uses a loud, projecting, declamatory tone typical of a stage actor, which strongly conveys authority and self-assurance (Score 3). For the 'Dashing/Easygoing' (洒脱) dimension, the performance is uninhibited and bold, fitting the 'stage' context. However, the delivery leans heavily towards 'passionate shouting' rather than an effortless or 'cool' easygoing nature, making the '洒脱' aspect discernible but slightly lacking in the nuance of effortless grace, sounding a bit strained/aggressive (Score 2). The fluency is generally good, though the shouting style introduces slight harshness.",
+    "model_comparison": "Model 1 committed a critical error by hallucinating the text content and failing to read the requested script, which results in an automatic score of 0 based on the evaluation guidelines for Content Accuracy. Model 2 followed the text instruction accurately and delivered a performance that was strongly confident and uninhibited. Therefore, Model 2 is the clear winner across all dimensions due to Model 1's failure to adhere to the prompt's content requirements.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 2,
+    "winner_2": 2
+}

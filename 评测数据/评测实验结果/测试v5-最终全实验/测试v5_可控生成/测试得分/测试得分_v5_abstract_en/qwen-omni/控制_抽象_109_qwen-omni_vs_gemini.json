@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model fails to interpret the paralinguistic requirements. At 00:00, it reads the word 'Sigh' literally rather than performing the sound or conveying the emotion, which disrupts the naturalness of the 'helpless' persona. The overall tone is bright, energetic, and high-pitched (e.g., the rising intonation on 'done' at 00:02), which contradicts the 'resigned' and 'helpless' descriptors; it sounds more like a cheerful announcement. Furthermore, there is a significant content error at 00:05 where 'leave' is mispronounced as 'live' (/lɪv/ instead of /liːv/), altering the meaning of the phrase 'leave it to fate' to 'live it to fate'.",
+    "reasoning_model_2": "The model successfully captures the required paralinguistic features. It interprets the text 'Sigh' as a stage direction, performing a realistic audible exhale at 00:00, which sets a strong 'helpless' context immediately. The prosody from 00:01 to 00:07 is slow, breathy, and features downward inflections, perfectly conveying 'resignation'. The pacing on 'Things are already like this' (00:03) sounds weary and defeated. However, regarding content accuracy, the model inserts the word 'But' at 00:01 ('But what else can be done?'), which is a minor addition not present in the script. While this aids the natural flow of the emotion, it prevents a perfect score for content accuracy.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 provides a flat, overly bright delivery that completely misses the emotional target, reads the stage direction 'Sigh' literally, and includes a pronunciation error ('live' for 'leave'). Model 2 delivers a nuanced performance with an actual sigh and a tone that effectively conveys helplessness and resignation. Although Model 2 adds a filler word ('But'), its paralinguistic performance is vivid and fits the user's intent, whereas Model 1 fails both the style and strict content checks.",
+    "score_1_1": 0,
+    "score_2_1": 2,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 2,
+    "winner_2": 2
+}

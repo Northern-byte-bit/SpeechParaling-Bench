@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully captures the 'scream' instruction by delivering the line with high pitch, high volume, and intense energy, characteristic of a shout of excitement. The emotional expression is vivid and clearly discernible from the start (0.0s). However, there is a minor content accuracy issue: the script specifies \"That's amazing!\" but the model articulates \"That is amazing!\" (1.5s - 2.5s). While the paralinguistic compliance is excellent and fits the 'Non-Linguistic Vocalizations' category in terms of vocal mode (screaming/shouting), the textual deviation prevents a perfect score.",
+    "reasoning_model_2": "The model completely fails to follow the paralinguistic instruction. Instead of a scream, the audio features a soft, breathy, and low-energy delivery that resembles a whisper or a seductive tone. This is the polar opposite of the high-arousal 'scream' requested. Additionally, like Model 1, it expands the contraction \"That's\" to \"That is\". Due to the complete failure to implement the core feature (delivering a whisper instead of a scream), the score is heavily penalized.",
+    "model_comparison": "The user requested the text to be read with a 'scream'. Model 1 (T1) adhered to this by generating a loud, enthusiastic shout that fits the description of a scream of joy. Model 2 (T2) ignored the constraint entirely, producing a soft, breathy whisper. Both models had a minor content accuracy flaw by expanding 'That's' to 'That is', but Model 1 is the clear winner because it correctly interpreted and applied the paralinguistic control, whereas Model 2 produced the opposite effect.",
+    "score_1": 2,
+    "score_2": 0,
+    "winner": 1
+}

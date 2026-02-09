@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the sentence be read with a yawn, specifically targeting the 'Ah~' segment. Model 1 (T1) fails to generate this non-linguistic vocalization. At 00:00, the model reads the word 'Ah' literally with a standard, clear articulation and a neutral or slightly cheerful tone. There is no audible yawning sound, spectral distortion, or characteristic prosody associated with tiredness. The pacing is regular and does not reflect the lethargy of the requested state. Consequently, the model ignores the core paralinguistic instruction.",
+    "reasoning_model_2": "Model 2 (T2) successfully executes the command. At 00:00, instead of reading 'Ah' as a standard word, the model generates a distinct, realistic yawn sound (a non-linguistic vocalization) that naturally flows into the speech. The physiological act of yawning is audible through the inhalation and the modified resonance of the voice. Following the yawn, the phrase 'I am so sleepy' (00:01-00:03) is delivered with a tired, drowsy cadence, maintaining consistency with the initial vocalization. This represents a high level of control over the required feature.",
+    "model_comparison": "In the dimension of Non-Linguistic Vocalizations, T2 is the clear winner. T1 failed completely to produce the required feature, opting for a literal and neutral reading of the text that ignored the 'yawn' instruction. T2, conversely, accurately generated a convincing yawn sound at the appropriate timestamp (00:00) and maintained the associated sleepy paralinguistic style throughout the sentence. T2 demonstrated superior instruction following and expressiveness.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

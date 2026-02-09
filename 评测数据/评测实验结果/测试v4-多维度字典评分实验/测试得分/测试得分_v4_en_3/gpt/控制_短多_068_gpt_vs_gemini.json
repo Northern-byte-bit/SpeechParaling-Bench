@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates a female voice with a very warm, soft, and soothing quality, perfectly matching the 'gentle timbre' requirement (0:00-7:00). Regarding stress, the model places exceptionally heavy emphasis on the words 'most important' (5:10-6:30). It achieves this by significantly slowing down, elongating the vowel in 'most', and isolating the phrase with pauses before and after, effectively conveying 'heavy stress'. However, regarding pace, the model is quite slow. There are long pauses between phrases (e.g., after 'Darling' at 0:80 and 'story' at 2:00). The total duration suggests a slow, deliberate storytelling pace rather than the requested 'medium pace'. While appropriate for the mood, it deviates from the specific speed constraint.",
+    "reasoning_model_2": "Model 2 provides a male voice that is soft, breathy, and calm, effectively satisfying the 'gentle timbre' requirement throughout the clip. The pace is conversational and fluid, matching the 'medium pace' constraint very well (0:00-3:50); it flows naturally without dragging. Regarding stress, the model does emphasize 'most important' (2:50-3:20) by slightly increasing intensity and pitch. However, this stress is relatively natural and integrated into the flow of the sentence. While audible, it lacks the 'heavy' distinctiveness requested by the prompt compared to a more exaggerated delivery. It is a correct interpretation of emphasis but perhaps not 'heavy' enough to be rated as fully capturing that specific adjective compared to the first model.",
+    "model_comparison": "Both models succeed in the 'Timbre' dimension, producing high-quality, gentle voices suitable for the text. \n\nFor 'Pace', Model 2 is the clear winner. The user requested a 'medium pace'. Model 2 delivers a natural conversational speed. Model 1, conversely, is very slow with significant pauses, fitting a 'slow' or 'storytelling' pace rather than 'medium'.\n\nFor 'Stress', Model 1 is the winner. The prompt asked for 'heavy stress'. Model 1 utilizes elongation and pauses to isolate 'most important', creating a very strong, heavy emphasis. Model 2 provides standard prosodic stress, which is natural but less 'heavy' than requested.\n\nOverall, both models trade off on strict adherence to Pace vs. Stress constraints.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

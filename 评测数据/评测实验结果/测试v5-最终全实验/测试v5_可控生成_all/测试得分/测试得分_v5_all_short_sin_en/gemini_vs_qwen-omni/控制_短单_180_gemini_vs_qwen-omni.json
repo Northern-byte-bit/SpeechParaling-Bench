@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the user's command to include non-linguistic vocalizations. Specifically, at timestamp 00:00-00:01, the model generates a very distinct and natural-sounding yawn/sigh before beginning the speech. The delivery of the text 'This lecture is so boring, it makes me yawn' (00:01-00:05) adopts a lethargic, dragged-out prosody that perfectly aligns with the physiological state of yawning and the semantic context of boredom. The content is accurate, and the integration of the vocalization is seamless.",
+    "reasoning_model_2": "Model 2 fails completely to incorporate the required paralinguistic feature. There is no yawn audible in the clip. The speech is delivered at a fast pace (00:00-00:02) that contradicts the 'boring' context. Furthermore, the model exhibits a content accuracy failure, mispronouncing the final word 'yawn' as 'young' (as transcribed in the provided text 'it makes me young'). The absence of the target feature results in a score of 0 for the controllable characteristic.",
+    "model_comparison": "Model 1 is the superior model. It successfully generates the requested non-linguistic vocalization (yawn) and adapts its speaking style (prosody) to match the tired/bored context naturally. Model 2 fails on multiple fronts: it does not generate the yawn, it uses an inappropriately fast pace, and it hallucinates/mispronounces the final word of the script. Model 1 fully satisfies the prompt, while Model 2 fails content and style requirements.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

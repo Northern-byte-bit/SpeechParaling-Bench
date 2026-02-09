@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with high content accuracy and fluency. \n1. **Speech Rate (语速):** The total duration is approximately 8 seconds. The pacing is consistent and falls squarely within the 'medium' range (中速). It is brisk but clear.\n2. **Non-verbal vocalizations (非语言发声):** The model explicitly pronounces 'Haha' (哈哈) at the beginning (00:00-00:01). While the tone is cheerful and bright, indicating a 'smiling' voice, the laughter itself sounds slightly staged and closer to a standard TTS 'happy' style rather than a natural, organic laugh. The 'smiling' quality is maintained throughout, but lacks the subtle breathiness of genuine amusement.",
+    "reasoning_model_2": "Model 2 generates the audio with high content accuracy and a natural conversational flow. \n1. **Speech Rate (语速):** The duration is approximately 10 seconds. The speaking rate is medium, but the model incorporates natural pauses (e.g., 00:03-00:04) appropriate for a storytelling context. This fits the 'medium' requirement while adding expressiveness.\n2. **Non-verbal vocalizations (非语言发声):** The model converts the text '哈哈' into a genuine, breathy chuckle/laugh at the start (00:00-00:01) rather than just reading the characters. This is a high-quality non-verbal execution. Throughout the clip, the speaker's tone carries a distinct sense of amusement and irony (the 'smiling' voice), making the storytelling very vivid.",
+    "model_comparison": "Both models successfully follow the content and speed instructions. \nIn terms of **Speech Rate**, both fall within the acceptable 'medium' range. T1 is more continuous, while T2 uses pauses for effect; both are rated highly as they fit the command.\nIn terms of **Non-verbal vocalizations**, Model 2 is superior. Model 1 reads 'Haha' with a happy tone, whereas Model 2 actually generates the sound of laughter (a chuckle), which is much more natural and aligned with the instruction to 'say it laughingly'. Model 2's overall prosody better captures the nuance of gossiping with a friend.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

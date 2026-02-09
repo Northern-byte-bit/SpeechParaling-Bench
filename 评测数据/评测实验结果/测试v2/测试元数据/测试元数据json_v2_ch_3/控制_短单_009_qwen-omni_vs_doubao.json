@@ -1,0 +1,14 @@
+{
+    "sample_index": 3,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中年的声音说：明天早上我会去健身房锻炼身体。",
+    "dimensions": [
+        "年龄"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

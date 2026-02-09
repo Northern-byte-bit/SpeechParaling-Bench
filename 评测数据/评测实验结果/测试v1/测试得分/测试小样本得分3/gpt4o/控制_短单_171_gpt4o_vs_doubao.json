@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text content '我刚才呛到了，有点不舒服' accurately (00:00-00:03). However, regarding the core instruction '带咳嗽的方式' (with coughing) and the feature 'Non-verbal vocalization', the model fails significantly. There is no coughing sound generated either before, during, or after the speech. The tone is slightly lowered to sound serious or uncomfortable, but it completely lacks the required non-verbal paralinguistic feature (the actual cough). It sounds like a standard reading of the text rather than a performance involving the physical act of coughing.",
+    "reasoning_model_2": "The model follows the instruction exceptionally well. It begins with a realistic sequence of coughing sounds (00:00-00:04) before speaking. When the speech begins at 00:04 ('我刚才呛到了...'), the voice quality is strained and breathless, realistically simulating the physical aftermath of choking. There is a natural pause and breath intake, followed by '有点不舒服', with a trailing breath/particle at the end that enhances naturalness. The integration of the non-verbal vocalization (coughing) with the verbal content is vivid and spot-on.",
+    "model_comparison": "Model 2 is the clear winner. The user specifically requested the speech to be delivered 'with coughing' (Non-verbal vocalization). Model 1 merely read the text with a slightly grave tone but failed to generate any coughing sounds, missing the core constraint of the prompt. Model 2 generated realistic coughing sounds and modulated the speech prosody to reflect the physical state of having choked (breathlessness, strain), resulting in a highly natural and compliant output.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio content accurately matches the script 'How can this report have so many errors' with no pronunciation errors. The fluency is high, with a steady and clear rhythm (0:00-0:03). However, regarding the core evaluation dimension (Emotion), the model fails significantly. The delivery is completely neutral and flat, sounding like a standard non-emotional reading. There is no change in pitch, volume, or intensity to indicate 'anger'. It sounds like a calm inquiry rather than a frustrated exclamation. Therefore, while fluent, it does not meet the paralinguistic criteria.",
+    "reasoning_model_2": "The model correctly speaks the text with high fluency and naturalness. Crucially, it successfully integrates the required 'angry' emotion. From 0:00 to 0:01, there is a sharp attack on the word 'How', and the volume is noticeably louder than a neutral reading. The word 'errors' at 0:02 is emphasized with a downward, gritty inflection that conveys frustration and disbelief. The overall pacing is slightly aggressive/urgent, fitting the context of the complaint perfectly.",
+    "model_comparison": "Both models achieved perfect content accuracy and high fluency. The decisive difference lies in the 'Feature Control' (Emotion). Model 1 produced a flat, neutral reading that ignored the instruction to be angry. Model 2 successfully modulated prosody, dynamics, and tone to create a convincing angry expression, specifically highlighting the frustration in the text. Model 2 followed the user's specific paralinguistic command, while Model 1 did not.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

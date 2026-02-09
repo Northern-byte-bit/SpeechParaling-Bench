@@ -1,0 +1,15 @@
+{
+    "sample_index": 10,
+    "model_a": "doubao",
+    "model_b": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a bright timbre: 'The ending of this story is truly beautiful.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

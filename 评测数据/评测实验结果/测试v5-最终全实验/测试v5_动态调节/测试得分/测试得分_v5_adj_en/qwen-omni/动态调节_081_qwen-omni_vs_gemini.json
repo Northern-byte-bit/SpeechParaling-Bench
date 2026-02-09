@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately follows the content script, with a minor text normalization where 'I'm' is spoken as 'I am'. In terms of the core paralinguistic requirement, the audio begins with a neutral, professional tone suitable for the first sentence (0:00-0:05). At the transition point 'But why are you always late?' (0:05), the tone noticeably shifts to become more stern and emphatic. The final sentence, 'I am telling you for the last time', conveys a clear sense of frustration and annoyance, effectively satisfying the instruction to transition to an angry emotion. The change is smooth and natural.",
+    "reasoning_model_2": "The model follows the text script (also normalizing 'I'm' to 'I am'), but fails completely on the core paralinguistic instruction. The entire utterance is delivered in a soft, gentle, and consistently pleasant tone from start to finish. There is no detectable shift towards anger or even annoyance in the second half. The features remain constant throughout, ignoring the request for a dynamic adjustment.",
+    "model_comparison": "Model 1 successfully executes the dynamic emotional transition required by the prompt, starting neutral and ending with evident frustration/anger. Model 2 maintains a static, soft tone throughout the entire clip, completely failing to convey the requested anger in the latter half. Therefore, Model 1 is the clear winner.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

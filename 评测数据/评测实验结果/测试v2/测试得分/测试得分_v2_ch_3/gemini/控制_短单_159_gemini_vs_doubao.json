@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script '飞机快起飞了，我有点恐高' exactly. The fluency is high, sounding very human-like. Crucially, the model excels in the 'Paralinguistic Compliance' dimension. From 0.0s to 1.2s ('飞机快起飞了'), the pacing is hurried and the voice has a breathy, anxious quality. From 1.3s to the end ('我有点恐高'), there is a distinct tremor and a tone of genuine apprehension/fear. The expression of nervousness is vivid and spot-on, perfectly matching the user's request for a 'nervous tone' regarding fear of heights.",
+    "reasoning_model_2": "The model produces the correct text content with high clarity and a standard, fluent rhythm. However, it completely fails the 'Paralinguistic Compliance' instruction. The sentence is read in a calm, steady, and neutral broadcasting style (0.0s - 3.0s). There is absolutely no trace of nervousness, tension, or fear in the prosody. It sounds like a narrator reading a fact rather than a character experiencing the emotion. Because the core requirement was a specific tone which is entirely absent, this constitutes a failure in feature control.",
+    "model_comparison": "Model 1 followed the user's specific instruction to use a 'nervous tone,' delivering a performance with appropriate breathiness, trembling, and urgency that conveyed the cognitive state of fear of heights. Model 2, while intelligible, ignored the emotional instruction entirely, delivering a neutral, flat reading. Therefore, Model 1 is the clear winner for successfully implementing the requested paralinguistic feature.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

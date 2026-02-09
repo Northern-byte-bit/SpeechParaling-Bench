@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly adheres to the provided text script: 'I believe I can handle this job, I will give my best.' There are no pronunciation errors or hallucinations. Regarding the target paralinguistic feature 'Cognitive State (Confidence)', the model delivers the lines with a firm, steady, and assertive tone. The downward inflection at the end of the sentences (0:02-0:04) indicates certainty and determination. The pacing is deliberate, reinforcing the sense of confidence required by the prompt. It sounds natural and professional.",
+    "reasoning_model_2": "Model 2 fails the primary criterion of Content Accuracy. The model reads: 'I believe I can handle this job, I'll give my absolute best, no doubt about it.' It hallucinates and adds the words 'absolute' and 'no doubt about it', and changes 'I will' to 'I'll'. While the tone attempts to be energetic and confident, the significant deviation from the script constitutes a critical failure in following the command 'read this sentence'. The voice also has a slightly exaggerated, less professional quality compared to T1.",
+    "model_comparison": "Model 1 is the clear winner. It follows the text instructions perfectly and delivers a high-quality, natural, and confident audio performance. Model 2 fails significantly on content accuracy by adding multiple words and phrases not present in the prompt (hallucination), which violates the basic requirement of text-to-speech generation. Therefore, Model 2 receives a minimum score.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

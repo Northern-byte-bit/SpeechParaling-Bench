@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, strictly following the script '记住，不可以随便和陌生人说话。'. In terms of the required paralinguistic feature (Stress/重音) on '记住', the speaker delivers the word '记住' (0.0s - 0.5s) with a distinct, firm tone and a slightly higher pitch, followed by a well-timed pause. This effectively highlights the word as a serious instruction or warning. The overall fluency is excellent, sounding natural and human-like.",
+    "reasoning_model_2": "The model performs poorly on multiple fronts. First, there is a content error: the script requires '不可以', but the audio omits the character '以', saying '不可' instead. Second, the fluency is extremely low; the speech is robotic and disjointed, with unnatural pauses separating almost every word (e.g., '记住... 不可... 随便...'). Regarding the specific request to emphasize '记住', while the word is isolated due to the broken rhythm, the mechanical delivery prevents any natural or expressive stress from being conveyed. The severe lack of fluency makes the audio sound artificial.",
+    "model_comparison": "Model 1 demonstrates superior quality by generating fluent, natural speech that accurately reflects the script and the user's command to emphasize '记住'. The stress is conveyed naturally through prosody and pausing. Model 2, in contrast, sounds mechanical and disjointed, fails to pronounce the full text correctly (omitting '以'), and lacks the natural prosody required to express the emphasis effectively. Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

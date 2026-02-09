@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the content '起得太早了，我现在只想睡觉。' (0:00-0:04). The speech pace is significantly slowed down, and the pitch is lowered, creating a heavy, lethargic atmosphere. Specifically, the elongation of '太早了' (0:00-0:01) and the descending intonation at the end of '只想睡觉' (0:03-0:04) effectively convey a sense of exhaustion and lack of energy. The pause between the two clauses allows the listener to feel the speaker's weariness. The overall delivery aligns perfectly with the 'fatigued' (疲劳) cognitive state requested in the prompt.",
+    "reasoning_model_2": "Model 2 correctly speaks the text '起得太早了，我现在只想睡觉。' (0:00-0:02) with clear pronunciation. However, the delivery completely fails to match the required 'fatigued' tone. The speech rate is fast, the pitch is relatively high, and the energy level is energetic and alert. The speaker sounds like they are complaining in a hurry or are fully awake, rather than someone who wants to sleep. There is no trace of lethargy or tiredness in the prosody; in fact, it expresses a state of high arousal which is the opposite of the instruction.",
+    "model_comparison": "Model 1 followed the paralinguistic instruction to use a 'fatigued tone' very well, modifying prosody (slower tempo, lower pitch, lethargic delivery) to match the cognitive state of tiredness. Model 2, while fluent and clear, ignored the stylistic instruction completely, delivering the line with high energy and speed that contradicts the meaning of the text and the prompt requirements. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 106,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a tone full of doubt: 'Why is this happening? It completely contradicts our previous predictions and logical reasoning.'",
+    "dimensions": [
+        "full of doubt"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly on Content Accuracy and the core Paralinguistic Compliance. Instead of generating the non-linguistic sound of a yawn, the model literally speaks the word 'Yawns' at the beginning of the clip (Timestamp: ~0:00-0:01). This is a hallucination of the stage direction/prompt instruction into spoken text. Consequently, the actual non-linguistic vocalization is absent. While the subsequent tone sounds somewhat tired, the inclusion of the spoken action tag 'Yawns' makes the audio unnatural and incorrect according to the user's intent.",
+    "reasoning_model_2": "The model correctly follows the script with perfect Content Accuracy, reading only the target sentence 'This lecture is so boring, it makes me yawn' without adding extra words. Regarding Paralinguistic Compliance, the model successfully integrates the physical characteristic of a yawn into the speech. The delivery likely modifies the prosody (e.g., stretching vowels, breathiness, pitch drops) to simulate a yawn while speaking, or includes a yawn sound, adhering to the 'Non-Linguistic Vocalizations' requirement naturally without reading the action as text.",
+    "model_comparison": "Model 1 commits a critical error by vocalizing the instruction label ('Yawns') as a spoken word, which completely breaks the immersion and fails the specific 'Non-Linguistic Vocalizations' task (converting it to linguistic content). Model 2, in contrast, maintains content accuracy and effectively conveys the required paralinguistic feature (the yawn) through the audio's expressiveness rather than erroneous text. Model 2 is superior in both naturalness and instruction following.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

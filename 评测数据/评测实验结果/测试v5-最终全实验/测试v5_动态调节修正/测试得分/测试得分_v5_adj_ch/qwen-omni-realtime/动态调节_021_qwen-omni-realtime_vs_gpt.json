@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model failed significantly in Content Accuracy and instruction following. Instead of directly synthesizing the target sentence ('各位，今天我们来讨论一下...'), the model generated and vocalized a long, descriptive narrative about the voice quality and the act of speaking (e.g., '嗯，声音轻轻的...', '然后刷的一下...'). It treated the prompt as a creative writing or roleplay exercise rather than a direct text-to-speech command. While the description of the tone shift is detailed, reading these instructions aloud renders the audio unusable for the intended purpose.",
+    "reasoning_model_2": "The model followed the instructions perfectly regarding Content Accuracy. The generated speech contains exactly the target text ('各位，今天我们来讨论一下新的市场策略。我有一个大胆的想法，可以彻底改变我们的产品定位！') with no hallucinations, added descriptions, or meta-commentary. By adhering strictly to the script, it allows the listener to focus on the requested paralinguistic changes (Soft to Bright) without the distraction of incorrect content.",
+    "model_comparison": "Model 1 suffered from a critical failure in instruction adherence. The prompt explicitly asked the model to read a specific sentence with certain tonal features. Model 1 instead narrated a story *about* reading the sentence with those features, vocalizing stage directions and internal thoughts ('like dust', 'sunlight filling the room'). This violates the Content Accuracy criterion completely, as the output audio contains more hallucinated text than target text. Model 2, in contrast, correctly identified the target text and synthesized only that, adhering strictly to the script. This makes Model 2 the only valid generation between the two.",
+    "score_1": 0,
+    "score_2": 3,
+    "winner": 2
+}

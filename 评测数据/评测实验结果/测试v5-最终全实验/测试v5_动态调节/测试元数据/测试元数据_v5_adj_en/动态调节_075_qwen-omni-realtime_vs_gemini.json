@@ -1,0 +1,14 @@
+{
+    "sample_index": 75,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a lighthearted rhythm and suddenly switching to a steady rhythm: 'This new game console is so much fun, I can't put it down! Well, it seems it's time to turn it off and go to bed; ensuring enough sleep keeps me energetic.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

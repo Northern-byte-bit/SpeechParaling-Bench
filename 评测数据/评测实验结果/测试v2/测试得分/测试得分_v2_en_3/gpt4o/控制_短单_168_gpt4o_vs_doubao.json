@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text with a weary, lethargic tone that fits the semantic context of being hot. However, regarding the specific paralinguistic command ('with a sigh'), the model fails to generate a distinct non-linguistic vocalization. There is no audible sigh (exhalation of breath) at the beginning or end of the clip; the expression relies solely on prosody (slow pace, low pitch) rather than the requested vocal feature. Additionally, the model expands the contraction 'I'm' to 'I am', which is a minor deviation from the script.",
+    "reasoning_model_2": "The model successfully executes the core instruction by starting the audio with a clear, natural-sounding sigh (0:00-0:01) before beginning the speech. The subsequent delivery maintains an exasperated tone that aligns perfectly with the sigh. The audio quality is high and natural. Like Model 1, this model also expands 'I'm' to 'I am', but the primary objective of generating the specific non-linguistic vocalization (sigh) is achieved flawlessly, making the speech sound vivid and human-like.",
+    "model_comparison": "Model 2 is the clear winner. The user specifically requested a 'sigh' (a non-linguistic vocalization). Model 1 attempted to convey the *emotion* of the sentence through a tired tone but failed to produce the actual *sound* of a sigh. Model 2 explicitly generated the non-linguistic sigh sound at the beginning of the clip, fulfilling the prompt's feature control requirement perfectly. Both models had a minor text normalization issue (expanding 'I'm' to 'I am'), but Model 2's adherence to the paralinguistic instruction makes it superior.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

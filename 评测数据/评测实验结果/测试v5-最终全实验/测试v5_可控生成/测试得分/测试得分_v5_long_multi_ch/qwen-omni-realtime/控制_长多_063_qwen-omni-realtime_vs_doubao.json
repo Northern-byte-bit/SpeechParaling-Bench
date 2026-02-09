@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 fails completely on **Content Accuracy**. Instead of simply speaking the target sentence, the model hallucinates and reads out a script that includes stage directions and descriptions of the vocal performance (e.g., reading out '停顿，音调微微上扬' / 'Pause, pitch slightly rising', '语速放慢' / 'Slow down pace', etc.). Furthermore, it alters the original text (e.g., adding '啊', changing '不尽如人意' to '不尽人意'). Because the content is clearly inconsistent with the script and includes non-speech instructions, it is deemed 'Completely incorrect' (Score 0) for all dimensions as per the scoring standard for extremely poor content/hallucinations.",
+    "reasoning_model_2": "Model 2 demonstrates excellent performance. \n1. **Content Accuracy:** The spoken text matches the script perfectly with no errors.\n2. **Sound Quality (音质):** The voice timbre is clear, youthful, and 'bright', fitting the '明亮' requirement well.\n3. **Pause (停顿):** The model executes the specific instruction to pause after '努力'. At approximately 0:07, there is a clear, deliberate silence after '努力' before starting the next phrase '结果...', effectively creating the requested rhythmic break.\n4. **Attitude (态度):** The sarcastic tone is conveyed effectively. The initial 'Hmm' (嗯) sounds judgmental. The phrase '真是让人印象深刻' is delivered with an exaggerated stress that implies the opposite of its literal meaning. The final clause drops in pitch to emphasize the disappointing result, completing the sarcastic arc.",
+    "model_comparison": "Model 1 is a complete failure because it read the stage directions (descriptions of the audio) aloud rather than performing the text. This is a critical instruction-following error. Model 2, in contrast, followed all instructions perfectly: the text is accurate, the sound quality is bright, the requested pause after '努力' is distinct, and the sarcastic attitude is vivid and natural. Therefore, Model 2 wins in all dimensions.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

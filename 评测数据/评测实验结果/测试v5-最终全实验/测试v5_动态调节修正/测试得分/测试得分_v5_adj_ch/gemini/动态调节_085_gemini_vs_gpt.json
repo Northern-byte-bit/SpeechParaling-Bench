@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately synthesizes the text content without errors. However, regarding the paralinguistic instruction, the model fails significantly. The instruction requires starting with a 'tone of disgust' and transitioning to 'neutral'. The generated audio (00:00-00:09) maintains a flat, mechanical, and monotone delivery throughout. There is no audible expression of disgust in the first sentence; it sounds identical in tone to the second sentence. The voice lacks natural human prosody and sounds like a standard non-expressive TTS engine. Consequently, there is no dynamic adjustment, as the features remain constant.",
+    "reasoning_model_2": "The model follows the instructions perfectly. From 00:00 to 00:03 ('这味道真恶心...'), the voice exhibits a strong tone of disgust, evident in the stressed articulation and disgusted prosody. Following a natural pause, the tone shifts significantly from 00:04 to 00:08 ('不过既然是...'). The voice drops in pitch and intensity, becoming calm and resigned (neutral), exactly as requested. The content is accurate, the fluency is high with natural breathing and pacing, and the dynamic emotional adjustment is precise and convincing.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 completely fails to implement the required emotional change, producing a flat, robotic reading where the tone remains constant throughout the clip. Model 2, in contrast, delivers a highly expressive performance that starts with a distinct feeling of disgust and transitions naturally into a neutral/resigned tone. Model 2 effectively demonstrates the capability for dynamic adjustment of paralinguistic features, whereas Model 1 does not.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

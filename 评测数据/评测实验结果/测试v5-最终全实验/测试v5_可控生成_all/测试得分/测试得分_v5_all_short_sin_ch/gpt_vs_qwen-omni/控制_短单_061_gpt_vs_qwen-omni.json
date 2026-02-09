@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the instruction to use a 'shouting volume'. From the very beginning (0:00), the speaker projects their voice with high intensity and volume, consistent with someone yelling for help in an emergency. The phrase '救命啊！' is delivered with a sharp, forceful attack and sustained loudness. The subsequent sentence '这里有人受伤了！' maintains this high energy and projection. The emotion conveys urgency and distress, perfectly matching the semantic content and the style prompt. The audio is clear, natural, and accurately reflects a human shout without clipping or unnatural artifacts.",
+    "reasoning_model_2": "Model 2 fails to follow the instruction regarding 'shouting volume'. The delivery (0:00-0:04) is surprisingly soft, slow, and lacks the necessary projection and intensity of a shout. The tone sounds more like a whiny or slightly theatrical reading in a normal to low volume, rather than a loud cry for help. The intonation is dragged out ('jiu... ming... a...'), which makes it sound unnatural and completely devoid of the urgency or loudness required by the prompt. It essentially performs the opposite of the requested feature (quiet/whiny vs. shouting).",
+    "model_comparison": "There is a stark contrast between the two models. Model 1 perfectly executes the command, delivering the line with a genuine shouting volume, vocal strain, and urgency appropriate for the text. Model 2, on the other hand, completely ignores the 'shouting volume' constraint. Its output is quiet, slow, and stylistically inappropriate for a cry for help. Model 1 is the clear winner as it is the only one that followed the paralinguistic instruction.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

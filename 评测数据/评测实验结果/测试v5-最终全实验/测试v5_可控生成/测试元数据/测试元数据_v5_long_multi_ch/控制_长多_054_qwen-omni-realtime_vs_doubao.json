@@ -1,0 +1,18 @@
+{
+    "sample_index": 54,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用高音的声调，轻快的节奏，开心地说: 太棒了，我们今晚可以去KTV唱歌了！我早就想唱那首新歌了，期待我们的合唱能嗨翻全场。",
+    "dimensions": [
+        "音高",
+        "节奏",
+        "情感"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

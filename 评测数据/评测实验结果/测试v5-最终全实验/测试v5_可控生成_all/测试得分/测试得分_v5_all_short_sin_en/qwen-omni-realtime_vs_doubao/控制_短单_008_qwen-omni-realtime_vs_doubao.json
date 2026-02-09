@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully articulates the target sentence 'Kids, remember to tidy up your rooms after dinner' between 00:00 and 00:02. However, from 00:03 to 00:11, the model commits a severe content accuracy error by reading the prompt description itself ('This is an adult voice speaking. Calm but firm...'). Regarding the 'Age' dimension, the voice timbre resembles a young female adult. While the vocal age characteristic is technically present (it is not a child's voice), the significant hallucination and inclusion of non-script instruction text constitute a major issue, rendering the audio unusable and distracting from the target feature.",
+    "reasoning_model_2": "The model generates the audio with perfect content accuracy, speaking only the required text 'Kids, remember to tidy up your rooms after dinner' (00:00-00:03). The voice is unequivocally that of an adult male, characterized by a deep, mature timbre and natural resonance. The prosody is calm and authoritative, fitting the context of a parent. The 'Age' dimension is conveyed perfectly with high naturalness and no artifacts.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 fails the fundamental criterion of Content Accuracy by reading the style description instructions included in the prompt ('This is an adult voice speaking...') after the target sentence, which is a critical failure in instruction following (prompt leakage). Model 2 follows the command perfectly, delivering the script with a distinct, natural, and appropriate adult male voice. While Model 1's voice sounds like a young adult, the severe content error significantly degrades the quality.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

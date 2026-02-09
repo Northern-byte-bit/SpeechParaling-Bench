@@ -1,0 +1,14 @@
+{
+    "sample_index": 79,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a neutral emotion and gradually transitioning to an angry emotion: 'I have reviewed this document, and the content is fine. However, why is my name misspelled again? This is the third time!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text 'The meeting time has been adjusted, please check the email notification' with perfect content accuracy. In terms of fluency (0:00-0:06), the speech is natural, with a clear voice and appropriate pacing. Regarding the core paralinguistic requirement 'neutral emotion', the model delivers the sentence with a standard, declarative tone suitable for a business notification. There are no significant emotional inflections (joy, anger, sadness) present. The delivery is calm and matter-of-fact, fitting the definition of neutral perfectly.",
+    "reasoning_model_2": "The model generates the correct text content. However, the paralinguistic delivery (0:00-0:05) deviates significantly from a standard 'neutral' instruction. The voice sounds breathy, shaky, and slightly whispery, almost as if the speaker is secretive or anxious/distressed. Instead of a flat, professional delivery, the audio exhibits a specific stylistic affectation (stage whisper/low projection) that does not align with a standard requested 'neutral emotion' for a meeting notification. The audio quality also feels slightly muffled compared to a clear neutral synthesis.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the sentence with a clear, standard, and professional neutral tone. Model 2 failed to produce a standard neutral tone, instead generating a voice that sounded shaky, breathy, and whisper-like, which introduces an unintended emotional or stylistic coloring (anxiety or secrecy) that contradicts the 'neutral' prompt. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

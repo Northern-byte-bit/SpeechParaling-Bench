@@ -1,0 +1,14 @@
+{
+    "sample_index": 25,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a whisper: 'Hurry, someone's coming.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

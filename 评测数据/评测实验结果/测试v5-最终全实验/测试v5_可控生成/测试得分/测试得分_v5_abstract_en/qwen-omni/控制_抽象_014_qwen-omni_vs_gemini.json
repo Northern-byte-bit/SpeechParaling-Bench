@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately speaks the content without errors. The audio is high quality and fluent. Regarding the 'lazy' dimension, the tone is soft and relaxed, but it lacks the distinct lethargy or low energy associated with being lazy. The speaker sounds pleasant, somewhat bright, and engaged (e.g., the pitch rises on 'weekend' at 0:01 and remains relatively buoyed throughout). It sounds more like a gentle audiobook narration than a person feeling lazy. For the 'casual' dimension, the delivery is conversational, but the slightly polished and 'performative' prosody makes it feel a bit less authentic to a casual, do-nothing context.",
+    "reasoning_model_2": "Model 2 speaks the content accurately with excellent naturalness. For the 'lazy' dimension, the model excels by incorporating specific paralinguistic features such as a slower tempo, elongated vowels (e.g., 'curl up' at 0:03, 'movies' at 0:05), and significant vocal fry (creaky voice), particularly noticeable on 'couch' (0:04) and 'movies' (0:05). The energy level drops appropriately towards the end on 'absolutely nothing' (0:08), effectively conveying exhaustion or a desire for idleness. For the 'casual' dimension, the use of these vocal textures and the relaxed articulation makes the speech sound highly authentic and conversational, fitting the prompt perfectly.",
+    "model_comparison": "Model 2 is significantly superior in capturing the target paralinguistic features. While Model 1 provides a clean and soft reading, it fails to capture the physical sensation of laziness; the voice retains too much brightness and energy. Model 2, conversely, effectively modifies the vocal texture (adding vocal fry/creakiness) and slows the pacing to mimic genuine lethargy. This makes Model 2 sound authentically 'lazy' and 'casual', whereas Model 1 just sounds 'soft' and 'polite'.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

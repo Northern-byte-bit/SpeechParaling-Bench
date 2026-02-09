@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the sentence '我就是觉得这个方案最好' with high content accuracy. Regarding the core requirement to emphasize '就是' (0.3s - 1.0s), the model executes this perfectly. The speaker slows down significantly, elongating the duration of '就是' and using a distinct pitch contour to make it stand out prominently against the rest of the sentence. The pause after '就是' further reinforces the emphasis. While the overall pace is quite slow and deliberate, it effectively serves the purpose of the command without sounding robotic. The expression is spot-on for the requested feature.",
+    "reasoning_model_2": "The model generates the correct text content '我就是觉得这个方案最好' with good fluency and a natural, conversational pace. However, regarding the core requirement to emphasize '就是' (0.2s - 0.5s), the performance is lacking. The word '就是' is spoken quickly as part of the flow, with no noticeable increase in loudness, pitch, or duration compared to the surrounding words. The stress pattern sounds like a standard, neutral reading rather than one complying with the specific instruction to stress that particular word. The target feature is barely perceptible.",
+    "model_comparison": "Model 1 strictly follows the user's specific paralinguistic instruction. By elongating the target word '就是' and adjusting the prosody, it clearly conveys the requested stress. Model 2, while sounding more conversationally fluent in a general sense, completely misses the specific constraint to emphasize '就是', treating the sentence with a neutral, flat delivery where the target word is rushed over. Therefore, Model 1 is the clear winner for its adherence to the specific feature control command.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

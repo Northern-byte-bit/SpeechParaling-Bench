@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully integrates the required text and paralinguistic features. At [0.00-0.40s], the speaker produces a distinct, natural-sounding scoff/snort corresponding to 'Hmph'. The subsequent phrase 'not worth mentioning' [0.45-1.50s] is delivered with a dismissive, flat, and quick cadence that perfectly aligns with a 'contemptuous' attitude. The tone effectively conveys the feeling that the subject is beneath the speaker's notice. Content accuracy is perfect, and naturalness is high.",
+    "reasoning_model_2": "The model fails significantly in both content accuracy and paralinguistic compliance. Firstly, the word 'Hmph' is completely omitted from the audio; the speech begins directly with 'not...' at [0.00s]. Secondly, the tone employed is a standard, polite, and slightly cheerful narration style suitable for an audiobook or assistant, completely missing the 'contemptuous' requirement. There is no disdain or dismissiveness in the delivery.",
+    "model_comparison": "Model 1 followed all instructions, including the specific text 'Hmph' (rendering it as a non-verbal scoff) and the requested emotional tone (contempt/dismissiveness). Model 2 failed to read the full text (omitted 'Hmph') and failed to apply the requested tone, producing a neutral/friendly output instead. Model 1 is the clear winner for adhering to the prompt.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text content without errors. The delivery is highly natural, featuring realistic pauses and breath sounds (e.g., audible intake of breath at the beginning) that enhance the human-like quality. Regarding Emotion, the voice is distinctively sad, somber, and melancholic. The slow pacing and heavy tone (00:00-00:16) perfectly convey heartbreak. Regarding Pitch, the speaker utilizes a lower register consistent with the instruction. The voice drops significantly in pitch compared to a neutral baseline, reinforcing the gravity of the emotional content. Both controllable features are executed perfectly.",
+    "reasoning_model_2": "Model 2 synthesizes the text accurately. However, the paralinguistic performance is a complete failure regarding the prompt's requirements. The Emotion is upbeat, bright, and energetic, sounding more like a cheerful narrator in a children's cartoon than someone mourning a pet. There is no trace of sadness; it almost sounds happy. Regarding Pitch, the voice is high-pitched and bright, directly contradicting the instruction for a 'low pitch'. The tone is light and airy (00:00-00:11), completely missing the target acoustic characteristics.",
+    "model_comparison": "Model 1 followed all instructions perfectly, delivering a genuinely sad and low-pitched performance that matched the context of the script. Model 2 failed completely on both paralinguistic dimensions, delivering a high-pitched, cheerful/energetic audio that was tonally inappropriate for the text and opposite to the user's constraints. Therefore, Model 1 is the clear winner across all dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

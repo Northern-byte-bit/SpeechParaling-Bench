@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with the text 'What on earth are you doing? It is outrageous', expanding the contraction 'It's' to 'It is', which is a minor content accuracy deviation. \n\n1. **Age**: The voice timbre is that of a young adult female. It sounds clear and mature enough to fit the 'adult' category [00:00-00:04].\n2. **Emotion**: The emotional delivery falls short of 'angry'. The tone is characterized by a high-pitched, breathy, and whining quality [00:00-00:02], sounding more like someone complaining or pleading rather than expressing outrage or anger. The delivery of 'It is outrageous' [00:02-00:04] lacks the force, weight, and sharpness associated with anger, feeling flat and plaintive instead. The intended aggression or sternness is missing.",
+    "reasoning_model_2": "The model also expands the contraction 'It's' to 'It is', matching the minor content deviation of Model 1. \n\n1. **Age**: The voice is a standard adult female, sounding mature and grounded [00:00-00:05].\n2. **Emotion**: The model successfully captures the 'angry' emotion. There is distinct emphasis and a sharper attack on the words 'What on earth' [00:00-00:02], simulating a scolding tone. The phrasing of 'It is outrageous' [00:03-00:05] utilizes a firm, downward inflection that effectively conveys disapproval and sternness. The pacing and prosody naturally reflect a human state of being upset or angry.",
+    "model_comparison": "Both models technically meet the 'Age' requirement, presenting adult female voices, though Model 1 sounds slightly younger and whinier while Model 2 sounds more authoritative. Regarding 'Emotion', Model 2 is the clear winner. Model 1 interprets the prompt as a whining or complaining tone, lacking the intensity and sternness required for anger. Model 2 delivers a convincing scolding tone with appropriate stress and intonation that aligns perfectly with the text's semantic meaning of outrage. Therefore, Model 2 is superior in emotional expression.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

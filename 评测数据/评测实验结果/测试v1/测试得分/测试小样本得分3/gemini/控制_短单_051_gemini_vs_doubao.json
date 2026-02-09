@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '比赛快开始了，大家准备好入场了吗？' accurately with no errors. Regarding the core requirement 'fast speaking rate' (快速的语速), the audio demonstrates excellent compliance. The entire sentence is spoken rapidly and urgently, condensing the speech into a very short duration without sacrificing clarity. The rhythm is consistent with a sense of urgency typical of an announcement before a match starts. The prosody is natural and high-energy, effectively conveying the requested paralinguistic feature.",
+    "reasoning_model_2": "The model generates the content '比赛快开始了，大家准备好入场了吗？' accurately. However, regarding the core requirement 'fast speaking rate', the model fails significantly. The speech is delivered at a slow-to-moderate pace with distinct, deliberate pauses (e.g., after '开始了' and '大家准备好'). The tone is calm and measured rather than fast or urgent. While the audio is high-quality and fluent in terms of pronunciation, it expresses the opposite characteristic of the user's prompt (slow/normal instead of fast).",
+    "model_comparison": "Model 1 strictly adhered to the user's constraint to speak with a 'fast speaking rate'. The delivery was rapid, urgent, and natural. Model 2, while producing high-quality speech, completely ignored the speed constraint, delivering the line at a slow, measured pace with pauses. Therefore, Model 1 is the clear winner for following the specific paralinguistic instruction.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

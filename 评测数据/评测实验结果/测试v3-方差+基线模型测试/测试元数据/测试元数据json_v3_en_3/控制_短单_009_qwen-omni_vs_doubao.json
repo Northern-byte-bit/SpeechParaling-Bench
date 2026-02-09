@@ -1,0 +1,14 @@
+{
+    "sample_index": 3,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an adult voice: 'I'll go to the gym to work out tomorrow morning.'",
+    "dimensions": [
+        "Age"
+    ],
+    "candidate_position": 1,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "feature_control"
+}

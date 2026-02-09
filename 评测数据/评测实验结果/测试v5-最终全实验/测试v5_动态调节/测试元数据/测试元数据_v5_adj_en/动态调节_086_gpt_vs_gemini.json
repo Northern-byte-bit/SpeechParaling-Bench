@@ -1,0 +1,14 @@
+{
+    "sample_index": 86,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a disgusted emotion and gradually calming down to a neutral emotion: 'This pile of documents is a mess; it's a headache. Never mind, work always has to be done, I might as well start organizing it.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

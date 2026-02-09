@@ -1,0 +1,14 @@
+{
+    "sample_index": 119,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用轻蔑的态度开始，然后突然转变为礼貌说：哼，你懂什么？简直是胡说八道。抱歉，刚才我情绪激动了，请原谅我的失态，我们能好好谈谈吗？",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

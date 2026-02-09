@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the specific text '妈妈做的饭真好吃，我吃得好饱' without any errors or omissions. In terms of the 'Happy' (开心) emotion, the audio demonstrates a high level of expressiveness. Specifically, at the segment '真好吃' (approx. 0.8s - 1.5s), the pitch is elevated and the tone is bright and enthusiastic, conveying genuine delight. The ending phrase '我吃得好饱' (approx. 2.0s - 2.8s) carries a tone of satisfaction and contentment, fitting the context of a happy, full meal perfectly. The pacing is natural, and the prosody sounds human-like.",
+    "reasoning_model_2": "The model fails the Content Accuracy criterion completely. The user requested to say '妈妈做的饭真好吃，我吃得好饱' (Mom's cooking is delicious, I am so full). However, the model generated a completely different, longer paragraph: '妈妈做的饭真的太香了，我吃的肚子圆滚滚的...' (Mom's cooking is really too fragrant, my belly is round...). While the voice sounds fluent and the emotion is indeed happy and lively, the content is clearly inconsistent with the script provided in the prompt. According to the scoring criteria, if voice content is clearly inconsistent with the script, it falls into the lowest score category.",
+    "model_comparison": "Model 1 followed all instructions perfectly: the content matches the script exactly, and the required 'Happy' emotion is conveyed naturally and vividly through bright tonal shifts and a satisfied cadence. Model 2, while having a very expressive and happy voice, failed the fundamental task of reading the specific sentence provided. It hallucinated a completely different and longer text. Therefore, Model 2 is penalized heavily for content inaccuracy, making Model 1 the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

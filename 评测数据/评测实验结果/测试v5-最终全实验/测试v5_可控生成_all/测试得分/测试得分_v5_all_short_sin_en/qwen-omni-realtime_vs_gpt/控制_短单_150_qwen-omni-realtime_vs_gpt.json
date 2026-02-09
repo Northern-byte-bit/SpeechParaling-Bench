@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the audio matching the provided text script exactly: 'This new technology sounds interesting, how does it work?'. \n- **00:01-00:02**: The word 'interesting' is spoken with a slight lift in pitch, indicating engagement.\n- **00:02-00:04**: The question 'How does it work?' features a standard rising intonation typical of an inquiry.\nThe tone effectively conveys a cognitive state of curiosity, albeit in a somewhat restrained, professional manner. The speech is fluent, natural, and free of artifacts.",
+    "reasoning_model_2": "The model fails significantly in **Content Accuracy**. \n- **00:00**: It adds an unprompted interjection 'Oh'.\n- **00:04**: It adds the word 'exactly'.\n- **00:06-00:08**: It hallucinates an entire additional sentence: 'I'm genuinely curious now, tell me more.'\nAccording to the detailed scoring standard, a score of 0 is assigned because the voice content is clearly inconsistent with the script due to major additions (hallucinations), despite the tone actually being quite expressive.",
+    "model_comparison": "Model 1 is the clear winner. Model 1 followed the instructions perfectly, delivering the correct text with a natural, curious tone that fits the 'Cognitive State' requirement. Model 2, while expressive, failed the fundamental requirement of Content Accuracy by adding significant unprompted text ('Oh', 'exactly', and a follow-up sentence). Under the strict scoring criteria, Model 2's content inconsistency results in a fatal penalty.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

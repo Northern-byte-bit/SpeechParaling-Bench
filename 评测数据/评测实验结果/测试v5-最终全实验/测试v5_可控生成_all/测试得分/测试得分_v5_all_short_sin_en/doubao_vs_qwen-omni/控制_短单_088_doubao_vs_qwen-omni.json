@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio correctly recites the target sentence 'Time is running out, we must make a decision quickly.' without any errors. The delivery effectively captures the requested 'rushed rhythm'. The speaker uses a fast pace, urgent tone, and short pauses to convey anxiety and the pressure of time. Specifically, the acceleration in 'we must make a decision quickly' (00:01-00:03) aligns perfectly with the command. The audio is fluent and high-quality.",
+    "reasoning_model_2": "The audio fails significantly in content accuracy. Instead of reading the English sentence provided ('Time is running out...'), the model translates large portions of it into Chinese mixed with English (e.g., 'Shijian shi running out', 'women bixu make a decision', 'kuai dian'). This completely violates the instruction to read the specific sentence. Furthermore, the rhythm is not rushed; it is slow, disjointed, and lacks urgency. Due to the severe content hallucination/modification (changing language), the score is penalized heavily.",
+    "model_comparison": "Model 1 followed all instructions perfectly, delivering the correct text with the requested rushed and urgent rhythm. Model 2 failed completely by hallucinating a translation into Chinese/Chinglish instead of reading the provided English text, and it also failed to produce a rushed rhythm. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

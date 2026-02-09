@@ -1,0 +1,14 @@
+{
+    "sample_index": 101,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with indignant emotion: 'How can they treat innocent people like this? This is clearly an abuse of power and a blatant challenge to the law!'",
+    "dimensions": [
+        "indignant"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

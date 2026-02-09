@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with high content accuracy, containing no mispronunciations or omissions. However, regarding the paralinguistic features: \n1. **Pace**: The total duration is approximately 13 seconds for a text of about 40 words. This results in a speaking rate that feels rushed and fast (approx. 185 words per minute), rather than the requested 'medium pace'. The segment from 00:00 to 00:02 ('Thank you very much for your suggestion') is delivered particularly quickly.\n2. **Attitude**: While the voice is clear, the tone is relatively flat and somewhat robotic/chirpy. It lacks the nuances of a 'polite' but firm refusal required by the context. It sounds more like a standard reading than a socially aware interaction.\n3. **Stress**: There is no discernible 'heavy stress' on the word 'final' (around 00:03). The word is pronounced with the same intensity and intonation as the surrounding text ('regarding the final decision'), failing to meet the specific emphasis command.",
+    "reasoning_model_2": "Model 2 demonstrates excellent performance across all dimensions. \n1. **Pace**: The audio lasts approximately 19 seconds, resulting in a pace of about 125 words per minute. This is a very natural, steady 'medium pace' that allows the listener to process the information, fitting the formal context perfectly.\n2. **Attitude**: The tone is distinctly polite, calm, and professional. The delivery of 'Thank you very much' (00:00-00:02) sounds sincere, and the refusal ('but regarding...') is handled with a gentle, apologetic, yet firm cadence that perfectly embodies the requested 'polite tone'.\n3. **Stress**: The model successfully applies heavy stress to the word 'final'. Based on the flow, the model isolates the phrase 'regarding the final decision' (00:04-00:06), likely using a combination of a slight pause before the word, increased duration, or pitch change to highlight 'final' as the key constraint, making the decision sound definitive yet polite.",
+    "model_comparison": "Model 2 vastly outperforms Model 1 in all controllable feature dimensions. Model 1 fails to adhere to the 'medium pace' constraint, delivering the text too quickly (approx. 13s vs 19s for Model 2), which negatively impacts the perceived politeness and gravitas of the message. Model 1 also fails to apply the specific stress on 'final', rendering the sentence with a flat, standard prosody. In contrast, Model 2 accurately synthesizes a 'medium pace', adopts a highly appropriate 'polite and professional' attitude suitable for a business rejection, and correctly emphasizes the target word 'final'. Model 2 sounds natural and human-like, whereas Model 1 sounds somewhat mechanical and rushed.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

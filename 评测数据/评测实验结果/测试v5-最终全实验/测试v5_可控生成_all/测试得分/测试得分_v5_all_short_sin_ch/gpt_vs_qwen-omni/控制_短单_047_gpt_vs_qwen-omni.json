@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the text '快看，那是什么？一闪而过！' with high content accuracy. Regarding the core evaluation dimension '语速' (speaking speed), the model adheres strictly to the instruction 'extremely fast' (极快速). The entire sentence is spoken in a very rapid burst, compressing the syllables significantly while remaining intelligible. The pacing conveys a strong sense of urgency and surprise (0.0s - 1.5s), which perfectly matches the semantic context of something flashing by quickly. The paralinguistic execution is vivid and spot-on.",
+    "reasoning_model_2": "The model generates the text with accurate content, although the pronunciation is somewhat relaxed. Regarding the core evaluation dimension '语速' (speaking speed), the model completely fails to follow the instruction 'extremely fast'. The speech is delivered at a normal, even slightly leisurely pace (0.0s - 3.0s). The tone is casual and calm, lacking the urgency or rapidity required by the prompt. Instead of a fast burst, the audio drags out the sentence, making it sound like a casual observation rather than a quick reaction to something flashing by. The target characteristic is not present.",
+    "model_comparison": "Model 1 followed the specific paralinguistic instruction ('extremely fast speaking speed') perfectly. It delivered the line rapidly and urgently, fitting the context of the text. Model 2 ignored the speed instruction entirely, delivering the line at a normal or slow pace, which contradicts the prompt's requirement. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

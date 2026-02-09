@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content 'My puppy is missing, I am so sad.' Note that the model expands the contraction 'I'm' from the prompt to 'I am'. The voice has a high-pitched, child-like timbre. In terms of emotion, the delivery attempts sadness through a slower pace and a downward inflection at the end of the sentence (00:02-00:03). However, the overall tone feels slightly artificial and performative, resembling a cartoon character rather than a genuine human expression of grief. The emotional weight is present but lacks depth and natural resonance.",
+    "reasoning_model_2": "The model generates the audio content 'My puppy is missing, I am so sad.' Like Model 1, it expands 'I'm' to 'I am'. The delivery is highly natural with an adult female voice. The emotion is conveyed effectively through prosody; there is a distinct melancholic tone, appropriate pausing between the two clauses (00:01-00:02), and a 'heavy' vocal quality characteristic of sadness. The pacing is deliberate, and the intonation on 'so sad' (00:03-00:04) accurately reflects the requested emotion with a convincing, human-like sound.",
+    "model_comparison": "Both models slightly deviate from the strict text by expanding 'I'm' to 'I am', but this is a minor issue. Model 2 is superior in terms of the requested 'sad emotion' and overall naturalness. Model 1 uses a voice that sounds somewhat synthetic and stylized (like a child or cartoon), and while the sadness is recognizable, it feels shallow. Model 2 employs a very natural, high-fidelity voice where the sadness is expressed through realistic breathiness, pacing, and pitch modulation, making the emotion feel genuine and vivid.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2
+}

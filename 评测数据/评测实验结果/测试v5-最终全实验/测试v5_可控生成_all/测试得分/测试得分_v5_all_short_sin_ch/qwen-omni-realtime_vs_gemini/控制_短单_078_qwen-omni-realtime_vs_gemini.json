@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the content '这个方案，好，我们通过了。'. Regarding the specific requirement to pause after the word '好' (good), the audio demonstrates a very clear and deliberate silence immediately following '好' (occurring roughly around the 1.5s mark). The pause is distinct and natural, effectively separating the affirmation '好' from the conclusion '我们通过了', exactly as requested. The overall prosody is natural and the pacing is appropriate.",
+    "reasoning_model_2": "The model fails to follow the instruction correctly. Instead of performing the action of pausing (停顿) after the word '好', the model literally speaks the word '停顿' (Pause) out loud. The generated audio is '这个方案，好，停顿，我们通过了' (This plan, good, pause, we passed). This is a severe hallmark of instruction-following failure where paralinguistic instructions are treated as text to be read. Consequently, the content is inaccurate and the target feature is not performed.",
+    "model_comparison": "Model 1 followed the instruction perfectly, delivering the correct text with the requested paralinguistic feature (a physical pause in the audio after the specific word). Model 2 failed completely by hallucinating the instruction word '停顿' into the speech text instead of executing the silence. Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

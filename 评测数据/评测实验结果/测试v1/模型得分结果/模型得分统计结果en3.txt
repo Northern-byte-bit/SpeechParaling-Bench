@@ -1,0 +1,111 @@
+======= 各模型最终得分 =======
+
+=== qwen-omni ===
+总分：21.00
+  Age: 2.50
+  Emotion: 3.50
+  Stress: 1.50
+  Pitch: 2.00
+  Rhythm: 2.00
+  Cognitive State: 2.00
+  Non-Linguistic Vocalizations: 2.00
+  Attitude: 1.00
+  Volume: 1.50
+  Timbre: 3.00
+
+=== gemini ===
+总分：56.00
+  Non-Linguistic Vocalizations: 7.00
+  Stress: 3.50
+  Volume: 2.50
+  Attitude: 8.00
+  Timbre: 4.00
+  Pitch: 3.00
+  Pace: 5.00
+  Cognitive State: 5.50
+  Rhythm: 6.50
+  Age: 3.50
+  Emotion: 7.00
+  Pause: 0.50
+
+=== doubao ===
+总分：31.50
+  Volume: 3.00
+  Stress: 1.50
+  Attitude: 4.50
+  Cognitive State: 5.25
+  Pause: 0.75
+  Rhythm: 2.75
+  Pitch: 2.50
+  Pace: 2.50
+  Emotion: 1.75
+  Age: 1.00
+  Timbre: 2.50
+  Non-Linguistic Vocalizations: 3.50
+
+
+======= 各维度排名 =======
+
+【维度：Emotion】
+  gemini: 7.00
+  qwen-omni: 3.50
+  doubao: 1.75
+
+【维度：Pause】
+  doubao: 0.75
+  gemini: 0.50
+  qwen-omni: 0.00
+
+【维度：Timbre】
+  gemini: 4.00
+  qwen-omni: 3.00
+  doubao: 2.50
+
+【维度：Attitude】
+  gemini: 8.00
+  doubao: 4.50
+  qwen-omni: 1.00
+
+【维度：Non-Linguistic Vocalizations】
+  gemini: 7.00
+  doubao: 3.50
+  qwen-omni: 2.00
+
+【维度：Stress】
+  gemini: 3.50
+  qwen-omni: 1.50
+  doubao: 1.50
+
+【维度：Cognitive State】
+  gemini: 5.50
+  doubao: 5.25
+  qwen-omni: 2.00
+
+【维度：Age】
+  gemini: 3.50
+  qwen-omni: 2.50
+  doubao: 1.00
+
+【维度：Volume】
+  doubao: 3.00
+  gemini: 2.50
+  qwen-omni: 1.50
+
+【维度：Rhythm】
+  gemini: 6.50
+  doubao: 2.75
+  qwen-omni: 2.00
+
+【维度：Pace】
+  gemini: 5.00
+  doubao: 2.50
+  qwen-omni: 0.00
+
+【维度：Pitch】
+  gemini: 3.00
+  doubao: 2.50
+  qwen-omni: 2.00
+
+
+======= 跳过的样本编号（winner_position = -1）=======
+无

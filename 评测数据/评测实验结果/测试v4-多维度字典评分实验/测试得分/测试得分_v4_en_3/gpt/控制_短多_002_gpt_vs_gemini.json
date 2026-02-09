@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately speaks the text 'My keys are gone, what should I do?' without any pronunciation errors. However, regarding the paralinguistic features: \n1. **Cognitive State (Anxious):** The delivery (0.0s - 2.8s) is slow, calm, and measured. The tone is relatively flat with a standard interrogative lift at the end, but it lacks any urgency, breathiness, or pace variation associated with anxiety. It sounds like a casual, neutral statement.\n2. **Timbre (Hoarse):** The voice is very clear, smooth, and polished. There is no audible roughness, raspiness, or strain in the vocal quality. It completely fails to exhibit the requested 'hoarse' characteristic.",
+    "reasoning_model_2": "Model 2 speaks the text accurately and clearly. Regarding the paralinguistic features: \n1. **Cognitive State (Anxious):** From 0.0s to 2.5s, the model employs a breathless, urgent delivery. The pacing is quicker, and the pitch modulation suggests genuine distress and worry, effectively capturing the requested cognitive state.\n2. **Timbre (Hoarse):** The audio demonstrates a distinct raspiness and breathy quality throughout the clip (especially on 'keys' and 'what'). The voice sounds strained and rough, perfectly matching the definition of a hoarse voice.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Model 1 produced a standard, high-quality, but neutral and clear speech sample that completely ignored the style prompts. It was neither hoarse nor anxious. Model 2, on the other hand, successfully integrated both constraints. The voice was noticeably raspy (hoarse) and the prosody was urgent and distressed (anxious). The difference is significant, with Model 2 being fully compliant and Model 1 being non-compliant.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

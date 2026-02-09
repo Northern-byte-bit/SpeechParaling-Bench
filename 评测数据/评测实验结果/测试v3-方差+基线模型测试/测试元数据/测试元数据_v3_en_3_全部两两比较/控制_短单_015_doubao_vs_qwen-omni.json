@@ -1,0 +1,15 @@
+{
+    "sample_index": 5,
+    "model_a": "doubao",
+    "model_b": "qwen-omni",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very high pitch: 'Help! I'm trapped here!'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

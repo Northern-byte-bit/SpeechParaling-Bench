@@ -1,0 +1,16 @@
+{
+    "sample_index": 37,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用低音的声调敷衍地说：嗯，好。知道了。你看着办吧。反正最后结果跟我没关系，你们自己决定就好。",
+    "dimensions": [
+        "音高",
+        "态度"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

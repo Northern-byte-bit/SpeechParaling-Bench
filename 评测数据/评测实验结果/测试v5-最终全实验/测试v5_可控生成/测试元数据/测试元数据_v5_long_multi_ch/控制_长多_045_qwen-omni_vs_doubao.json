@@ -1,0 +1,16 @@
+{
+    "sample_index": 45,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中速的语速，笑着说：哈哈，你猜我昨天在路上碰见谁了？竟然是高中时候那个总爱迟到的王老师！他现在也开始跳广场舞了呢！",
+    "dimensions": [
+        "语速",
+        "非语言发声"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 0
+}

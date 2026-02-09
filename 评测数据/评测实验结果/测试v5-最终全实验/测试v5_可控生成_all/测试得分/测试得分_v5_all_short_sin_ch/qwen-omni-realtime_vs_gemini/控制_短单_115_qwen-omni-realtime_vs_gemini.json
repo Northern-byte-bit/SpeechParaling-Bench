@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model perfectly follows the script '太好了！我们好久没见了，今晚尽情玩！' without any omissions or hallucinations. The audio length is concise (approx 5 seconds). Regarding the 'Happy' (开心) emotion, the speaker adopts a bright, warm, and smiling tone. At 00:00, the pitch on '太好了' is elevated, indicating excitement. The pacing is natural and enthusiastic, fitting the context of reuniting with a friend. The paralinguistic expression is clear, natural, and accurate to the requested emotion.",
+    "reasoning_model_2": "The model fails significantly on **Content Accuracy**. The requested script was '太好了！我们好久没见了，今晚尽情玩！'. However, the model generates a much longer text: '太好了太好了，我们好久没见了，今晚一定要玩到尽兴，笑声别停，快乐别收...' extending the audio to 11 seconds. It repeats words ('太好了太好了'), changes the phrasing ('今晚一定要玩到尽兴' instead of '今晚尽情玩'), and hallucinates several sentences. According to the scoring criteria, if 'Voice content is clearly inconsistent with the script', the score must be 0. Although the tone used is indeed happy and lively, the severe violation of the content constraint renders the generation invalid for the specific TTS task requested.",
+    "model_comparison": "Model 1 followed the user's instructions perfectly, delivering the exact script with the correct 'Happy' emotion. The tone was natural, pleasant, and fitting. Model 2, while expressive, completely failed the Content Accuracy dimension by hallucinating a large amount of extra text and modifying the original script. Under the strict evaluation criteria, a major failure in content accuracy results in a score of 0. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

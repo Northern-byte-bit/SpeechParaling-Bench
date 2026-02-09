@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested a 'shouting' manner. Model 1 completely fails to adhere to this paralinguistic constraint. Instead of shouting, the audio begins with a distinct non-speech yawning sound (0.0s - 1.2s), followed by a delivery that sounds whining, unstable, and tired (1.2s - 3.5s). There is another hallucinated humming sound ('Mmm') at 3.6s before the second sentence. The tone is the opposite of a shout; it is weak and pleading. Additionally, the inclusion of yawning and humming artifacts violates the Content Accuracy criterion (additions).",
+    "reasoning_model_2": "Model 2 generates the text with a highly robotic, mechanical quality that lacks any human-like prosody or emotion (0.0s - 3.2s). The volume is static, and the delivery is completely flat/monotone, failing to convey any sense of 'shouting', anger, or urgency. It sounds like a low-quality legacy text-to-speech system. While the content is technically present without extra words, the 'Fluency and Naturalness' is very poor (strong mechanical tone), and the 'Paralinguistic Compliance' is non-existent.",
+    "model_comparison": "Both models receive a score of 0 as they completely fail to execute the core instruction of 'shouting'. T1 hallucinates non-speech sounds (yawning, humming) and delivers the text in a whining/tired tone, which is unrelated to the prompt. T2 produces a flat, emotionless, and robotic output that also fails to shout. T1 fails on Content Accuracy and Core Compliance. T2 fails on Fluency/Naturalness and Core Compliance. Neither audio is usable.",
+    "score_1": 0,
+    "score_2": 0,
+    "winner": 0
+}

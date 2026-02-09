@@ -1,0 +1,14 @@
+{
+    "sample_index": 70,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a teasing tone: 'Oh my, blushing? Did I hit a nerve?'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

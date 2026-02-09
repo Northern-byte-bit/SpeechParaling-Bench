@@ -1,0 +1,14 @@
+{
+    "sample_index": 42,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-2.5-pro",
+    "demand": "请用惊喜的情感说：你回来了？怎么没告诉我一声！",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

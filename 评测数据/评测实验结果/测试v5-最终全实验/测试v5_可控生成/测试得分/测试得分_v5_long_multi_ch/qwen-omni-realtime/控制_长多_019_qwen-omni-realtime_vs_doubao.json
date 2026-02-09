@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the script content with no errors or hallucinations. The voice volume is normal and consistent throughout the audio, adhering to the 'normal volume' (正常音量) instruction. Regarding the required 'obvious pause' (明显停顿) after the word '未来' (Future): at timestamp 00:03, after saying '未来', the model inserts a clear silence of approximately 1 second before continuing with '我们的努力方向'. This pause is distinct and effectively conveys the requested paralinguistic feature while maintaining natural prosody. The overall delivery is fluent, steady, and contemplative, matching the context of the text.",
+    "reasoning_model_2": "Model 2 completely fails the content accuracy requirement. Instead of simply reading the script with the requested features, the model hallucinates meta-commentary and extra content. After saying '未来' at 00:03, it repeats the word and proceeds to describe its own action ('I specifically paused after the word future...') and continues with additional sentences not present in the user's prompt ('Those roads stepped over by hurried footsteps...'). Due to this severe content deviation and the inclusion of internal reasoning/stage directions into the final speech, the audio is deemed completely incorrect according to the scoring standard (0 = Content is clearly inconsistent). Consequently, it fails to validly demonstrate the specific paralinguistic controls requested.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. It followed the content instructions perfectly and successfully implemented the specific paralinguistic requests (normal volume and a distinct pause after the keyword). Model 2 failed fundamentally on content accuracy by reading out stage directions/internal thoughts and adding unauthorized text, which renders its performance on specific volume or pause control irrelevant and invalid (score 0). Model 1 provided a high-quality, natural generation that adhered strictly to the prompt.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

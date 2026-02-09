@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails on Content Accuracy. The target script was '皮肤护理，每天都要坚持才有效。'. However, the model read the prompt instruction '每天说' (Say every day) at the beginning, resulting in the output: '每天说皮肤护理，每天都要坚持才有效' (00:00-00:05). This is a hallucination/prompt leakage error. Regarding the 'Stress' (重音) feature, while the model may have emphasized '每天' in the latter part of the sentence, the inclusion of the instruction text at the start disrupts the prosody and focus. Due to the significant content error significantly affecting naturalness, the score is penalized.",
+    "reasoning_model_2": "Model 2 completely fails on Content Accuracy and Instruction Following. The user requested to read a specific sentence, but the model generated a free-form, long-winded response behaving like a chat assistant: '皮肤护理不是一天两天的事，每天坚持才看得见效果...' (00:00-00:15). Since the content is completely inconsistent with the required script, it is impossible to evaluate the target paralinguistic feature (Stress) on the correct text. According to the global considerations ('If the generated audio is extremely poor or the content is empty/wrong... assign 0'), this model receives a 0.",
+    "model_comparison": "Model 2 failed completely by ignoring the provided script and generating a different paragraph of text. Model 1 attempted to follow the script but erred by reading part of the prompt instruction ('每天说') into the audio. Although Model 1 has a major content flaw, it is strictly better than Model 2, which did not perform the specific reading task at all. Therefore, Model 1 wins.",
+    "score_1_1": 1,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 38,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用明亮的声音礼貌地说：您好，张总。非常高兴您能抽出宝贵时间莅临我们公司。会议室已经准备好了，请随我这边走。",
+    "dimensions": [
+        "音质",
+        "态度"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

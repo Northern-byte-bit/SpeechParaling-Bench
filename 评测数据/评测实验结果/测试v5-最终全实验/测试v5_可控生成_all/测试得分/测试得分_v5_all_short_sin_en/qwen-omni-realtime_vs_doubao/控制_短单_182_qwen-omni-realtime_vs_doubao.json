@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model failed to adhere to the requested script. Specifically, it replaced the opening 'Tsk' with 'Mmm' and significantly hallucinated additional content ('Smack, every bite hit just right, didn't it?') that was not part of the user's command. According to the evaluation criteria, major content errors where voice content is clearly inconsistent with the script result in a score of 0. Due to these hallucinations, the model failed to correctly integrate the required non-linguistic vocalization ('smack of the lips') into the specific target sentence.",
+    "reasoning_model_2": "The model followed the script perfectly, reading 'Tsk, that was a truly satisfying meal today.' without additions or omissions. The 'Tsk' at the beginning (timestamp 00:00-00:01) was rendered as a series of dental clicks/smacks ('T-t-t'), which accurately corresponds to the requested 'smack of the lips' non-linguistic vocalization. The execution was natural and directly addressed the paralinguistic instruction within the correct context.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated a significant amount of text not present in the prompt and altered the beginning of the required sentence, failing the 'Content Accuracy' criterion completely. Model 2 accurately synthesized the text and correctly interpreted the 'Tsk' as the requested non-linguistic vocalization (lip smack/clicks), delivering a high-quality result that met all constraints.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

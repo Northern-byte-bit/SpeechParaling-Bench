@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates high content accuracy, reproducing the target script '这个新的技术听起来很有趣，它是怎么运作的' with the addition of a single modal particle '呢' at the end (00:00-00:04). This minor addition is non-distracting and actually enhances the naturalness of the inquisitive tone in Chinese. The speech effectively conveys the 'curious' cognitive state (认知状态) by correctly intoning the statement of interest ('听起来很有趣') and the subsequent question ('它是怎么运作的呢'), satisfying the core paralinguistic requirement.",
+    "reasoning_model_2": "Model 2 completely fails the content accuracy criterion. The prompt explicitly requested the model to read a specific sentence. Instead, the model generated a lengthy, improvised paragraph (00:00-00:15) containing extra dialogue, rhetorical questions, and roleplay elements ('哇', '像魔法一样', '讲讲它背后的故事'). Although the improvised tone is curious, the model failed to follow the text-to-speech constraint. According to the scoring standard, voice content that is clearly inconsistent with the script results in a score of 0, as the model did not generate the requested audio.",
+    "model_comparison": "Model 1 is the clear winner. It followed the user's command to speak the specific text with the required curious tone. Model 2 failed the fundamental instruction by hallucinating a large amount of text instead of reading the provided script. While Model 2's hallucinated content was stylistically curious, its total failure in content accuracy renders the generation invalid for a Feature Control evaluation based on specific text.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

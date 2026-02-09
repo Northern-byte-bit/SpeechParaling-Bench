@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 synthesizes the text 'I am about to give a speech on stage, my heart is racing.' The audio content matches the script accurately (00:00-00:03). However, the delivery fails to effectively capture the requested 'nervous tone'. The pacing is quite fast and rushed, which could imply urgency, but the tonal quality is relatively flat and mechanical, lacking the trembling, breathiness, or hesitation associated with nervousness. It sounds more like a standard high-pitched TTS voice reading quickly rather than a person experiencing stage fright.",
+    "reasoning_model_2": "Model 2 synthesizes the text accurately. The delivery is significantly more expressive and aligned with the prompt. From 00:00 to 00:02 ('I am about to give a speech on stage'), the voice is breathy and slightly shaky. There is a natural, hesitant pause before the second clause. The phrase 'my heart is racing' (00:03-00:05) is delivered with a lower volume and a trembling quality that vividly conveys anxiety and fear. The pacing is slower, allowing the emotional weight of the nervousness to be felt.",
+    "model_comparison": "Model 2 is the clear winner. T1 attempts to simulate the state perhaps through speed, but the result is a mechanical and emotionally ambiguous delivery that sounds more like a rushed reading than a nervous speaker. T2 successfully implements paralinguistic features specific to nervousness, such as breathiness, vocal tremors, hesitation, and a softer volume, making the audio sound genuine and emotionally resonant. T2 follows the core requirement of the Cognitive State ('nervous tone') perfectly, while T1 largely fails to convey it.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

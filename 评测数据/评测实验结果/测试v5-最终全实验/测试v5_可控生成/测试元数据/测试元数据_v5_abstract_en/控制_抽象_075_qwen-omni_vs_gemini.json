@@ -1,0 +1,14 @@
+{
+    "sample_index": 75,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an impatient and irritable tone: 'This repetitive work is simply a waste of life. Can we have something more challenging?'",
+    "dimensions": [
+        "impatient and irritable"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

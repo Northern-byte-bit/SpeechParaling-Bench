@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 interprets the context as a junior speaking to an elder, using the address 'Uncle' (叔叔). The response content 'Yes, Uncle, I haven't seen you for a long time' (00:00-00:02) and the inquiry about health (00:03-00:04) reflect a polite, respectful, and warm attitude. However, regarding the specific paralinguistic constraints: 1. Attitude: While warm, it leans more towards 'Respectful/Concerned' (2/3) rather than the high-energy 'Enthusiastic' tone established by the user's 'Missed you to death!'. 2. Laughter: There is no textual or prosodic evidence of 'Laughter' in this response; it remains calm and formal, thus failing the non-verbal vocalization constraint completely.",
+    "reasoning_model_2": "Model 2 adopts a highly intimate and lively persona, treating the user as a peer. The opening segment 'Aiya, you saying this makes me embarrassed' (00:00-00:02) is designed to be delivered with a shy, giggling tone, directly satisfying the 'Laughter' constraint and demonstrating a high level of 'Enthusiasm'. The subsequent invitation to eat snacks (00:04-00:06) maintains this high energy. Although there is a minor logical inconsistency where the model says 'Come in, come in' (00:02-00:03) despite the user being the host inviting the model in, this does not overshadow the model's superior performance in capturing the requested emotional and paralinguistic features.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 in adhering to the specific paralinguistic instructions. Model 1 provides a logically safe but emotionally mismatched response; its formal tone lacks the requested 'Laughter' and falls short of the 'Enthusiastic' intensity required to match the user's prompt. Model 2, conversely, fully embraces the 'Enthusiastic' attitude and successfully integrates the 'Laughter' non-verbal feature (contextually implied by the 'Aiya... embarrassed' reaction), creating a much more engaging and emotionally resonant interaction that aligns with the user's high spirits.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

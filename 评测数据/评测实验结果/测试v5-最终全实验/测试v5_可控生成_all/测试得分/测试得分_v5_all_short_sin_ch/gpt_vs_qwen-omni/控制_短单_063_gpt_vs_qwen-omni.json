@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the text to be spoken with a 'shouting volume' (喊叫的音量). Model 1 successfully follows this instruction. From 0.0s to the end, the voice projects with high intensity and volume, consistent with someone shouting or yelling in an urgent situation. The articulation remains clear despite the increased volume, and the emotional tone matches the urgency of the script ('Stop it immediately!'). The prosody and stress (e.g., on '到底', '快') naturally reflect the physiology of shouting. The content is accurate.",
+    "reasoning_model_2": "The user requested a 'shouting volume'. Model 2 fails to adhere to this paralinguistic constraint. The audio provided (0.0s - 3.0s) is spoken in a normal, calm, slightly questioning conversational tone. The volume is low to moderate, and there is no projection or intensity associated with shouting. While the content is accurate and the speech is fluent, the core requirement of 'shouting' is completely absent. It sounds more like a gentle inquiry or mild scolding rather than a shout.",
+    "model_comparison": "The specific instruction was to control the 'Volume' (音量) to simulate 'shouting' (喊叫). Model 1 followed this instruction perfectly, generating audio with high volume, strong projection, and the appropriate urgency. Model 2 completely ignored the volume constraint, producing a standard conversational output that is soft and calm. Therefore, Model 1 is the clear winner as it is the only one that satisfied the specific feature control request.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

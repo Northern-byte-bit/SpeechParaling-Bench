@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script word-for-word. Regarding the paralinguistic features: \n1. **Emotion**: The user requested a 'neutral' emotion. However, the model produced a speech style that is distinctly upbeat, enthusiastic, and bright (e.g., the rising intonation on 'notice', 'meeting', 'floor'). It sounds like a cheerful announcement rather than a neutral, matter-of-fact statement. The tone is too expressive and positive, failing the 'neutral' constraint.\n2. **Pitch**: While the average pitch sits within a medium range, the intonation is highly dynamic with frequent high-pitch variances associated with the enthusiastic delivery. It does not feel like a standard 'medium' baseline associated with neutrality, but rather a variable pitch curve.",
+    "reasoning_model_2": "The model generates the audio with perfect content accuracy and excellent fluency. Regarding the paralinguistic features:\n1. **Emotion**: The model adheres strictly to the 'neutral' command. The tone is professional, calm, and objective, suitable for a corporate announcement. There is no unnecessary excitement or negativity; it is a textbook example of a neutral delivery.\n2. **Pitch**: The pitch is consistently held at a medium level throughout the utterance. It avoids the excessive highs of excitement or deep lows, maintaining a steady, flat contour that aligns perfectly with the requested pitch and emotion requirements.",
+    "model_comparison": "Model 2 is the clear winner. The primary differentiator is the 'Emotion' dimension. The prompt explicitly requested a 'neutral' emotion. Model 1 ignored this constraint, generating a highly expressive, upbeat, and enthusiastic reading that, while pleasant, contradicted the user's instruction. Model 2 provided a calm, professional, and truly neutral delivery. Consequently, Model 2's pitch control was also superior, as it maintained a steady medium range without the distracting inflections found in Model 1.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 40,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very fast pace and gradually slowing down to a slow pace: 'We rushed to the airport, finally caught the flight, now we can relax and really enjoy this slow-paced journey.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

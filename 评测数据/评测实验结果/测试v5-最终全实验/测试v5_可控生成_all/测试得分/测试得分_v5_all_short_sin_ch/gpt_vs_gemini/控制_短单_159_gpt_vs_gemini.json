@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio content '飞机快起飞了，我有点恐高' matches the script perfectly. Regarding the core dimension '认知状态' (Cognitive State - specifically Nervousness/Fear), the model performs exceptionally well. From 0.0s to 1.5s, the phrase '飞机快起飞了' is delivered with a breathy, slightly trembling voice, indicating immediate anxiety. The pause before '我有点恐高' (1.5s) adds to the hesitation typical of fear. The final segment (1.6s-2.8s) maintains a lower, shaky pitch, effectively conveying the cognitive state of fear of heights. The emotion is vivid and spot-on, making it a fully correct execution.",
+    "reasoning_model_2": "The audio content matches the script accurately. However, regarding the core dimension '认知状态', the model fails completely. The delivery from 0.0s to 2.8s is calm, steady, and composed, resembling a standard news broadcast or audiobook narration. There is absolutely no trace of 'nervousness' or 'fear' in the prosody, pitch, or breathing. While the audio is fluent and natural in a general sense, it completely ignores the specific instruction to use a 'nervous tone', resulting in a flat emotional profile relative to the prompt.",
+    "model_comparison": "Model 1 is the clear winner. The user specifically requested a 'nervous tone' to express the cognitive state of fear/anxiety regarding the plane taking off. Model 1 successfully modulated the voice to sound shaky, breathy, and anxious, fitting the context perfectly. Model 2 produced a high-quality but completely neutral reading, ignoring the stylistic instruction entirely. Therefore, Model 1 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

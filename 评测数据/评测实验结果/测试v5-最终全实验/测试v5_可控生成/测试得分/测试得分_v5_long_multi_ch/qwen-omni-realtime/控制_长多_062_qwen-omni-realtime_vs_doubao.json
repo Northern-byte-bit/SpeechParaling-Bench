@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The generated audio strictly adheres to the text script: '快看！那里有一道双彩虹！我从来没见过这么清晰、这么完整的彩虹，简直美得像一幅画一样！'. The speaker successfully adopts an 'extremely high pitch' (极高音), sounding like a male voice using falsetto or significantly pitch-shifted upwards to meet the constraint (00:00-00:07). This creates a very distinct, almost cartoonish but compliant tonal quality. regarding speed (语速), the delivery is urgent and rapid, particularly in the segments '快看' (00:00) and '我从来没见过' (00:02-00:04), effectively simulating a fast-paced reaction. The emotion (情感) is vividly 'surprised' (惊喜); the breathless quality, the gasping intake of breath before speaking, and the dynamic intonation curves strongly convey genuine awe and excitement, perfectly matching the 'surprise' requirement.",
+    "reasoning_model_2": "The audio accurately reads the text content without errors. However, it fails significantly in the paralinguistic dimensions requested. Regarding pitch (音高), the voice is a standard, comfortable female range, completely ignoring the instruction for 'extremely high pitch' (极高音). Regarding speed (语速), the pacing is moderate to slow, with clear, leisurely articulation and distinct pauses (e.g., 00:01, 00:03) that contradict the 'fast' (快速) command. In terms of emotion (情感), while the tone is pleasant and warm, it lacks the high arousal and intensity of 'surprise' (惊喜). It sounds like a calm narration or a bedtime story reading rather than an immediate, shocked reaction to a visual spectacle.",
+    "model_comparison": "Model 1 is the clear winner across all three dimensions. Model 1 took the user's specific constraints ('extremely high pitch', 'fast', 'surprise') literally and executed them effectively. It produced a voice that was noticeably high-pitched (almost falsetto), spoke with urgency, and sounded genuinely breathless with surprise. Model 2, in contrast, produced a high-quality but generic 'reading' style audio. It completely ignored the 'extremely high pitch' constraint (staying in a normal range), failed to speed up (remaining leisurely), and substituted the requested 'surprise' with a mild, flat happiness. Model 1 demonstrated superior control over specific paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

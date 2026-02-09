@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 performs exceptionally well across all required dimensions. \n1. **Non-verbal vocalization (非语言发声):** At 00:00-00:01, there is a very distinct, realistic, breathy sigh ('Haa...') before speech begins, perfectly adhering to '叹气后' (After sighing).\n2. **Volume (音量):** The speaker maintains a very low, suppressed volume throughout the clip, almost acting as a murmur or whisper, which aligns perfectly with '小声' (low volume).\n3. **Cognitive State (认知状态):** The delivery is slow, lethargic, and weak. The pauses are long, and the prosody lacks energy, effectively conveying extreme fatigue ('tiredly say') and the feeling of falling apart.",
+    "reasoning_model_2": "Model 2 fails to meet the specific paralinguistic constraints.\n1. **Non-verbal vocalization (非语言发声):** At 00:00, the model reads the character '唉' (Ai) as a spoken interjection rather than performing a natural, breathy sigh. While it verbalizes the text, it lacks the non-verbal quality requested.\n2. **Volume (音量):** The volume is standard to loud, projecting clearly and brightly. It completely ignores the instruction to use '小声' (low volume).\n3. **Cognitive State (认知状态):** The tone is energetic, brisk, and sounds like a lively complaint rather than someone who is 'tired' or 'falling apart'. The pace is too fast for an exhausted person.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. Model 1 accurately interprets 'sigh' as a non-verbal breathy sound, whereas Model 2 just reads the character. Model 1 strictly follows the 'low volume' constraint, while Model 2 speaks with normal projection. Most importantly, Model 1 captures the 'tired' cognitive state with a slow, weak delivery, whereas Model 2 sounds energetic and actively complaining, which contradicts the context of being exhausted.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

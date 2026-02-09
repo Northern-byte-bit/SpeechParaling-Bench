@@ -1,0 +1,15 @@
+{
+    "sample_index": 22,
+    "model_a": "doubao",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a loudly volume: 'Happy New Year everyone! May all your wishes come true!'",
+    "dimensions": [
+        "Volume"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

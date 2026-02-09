@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully synthesized the requested text 'Really? Quick, tell me the details!' with perfect content accuracy. There are no omissions or hallucinations. The content matches the script exactly. Assuming the model applied the requested 'high pitch' paralinguistic feature effectively to this correct content, the generation is high quality. The delivery appears fluent and follows the prompt's structural requirements.",
+    "reasoning_model_2": "The model completely failed to generate the required content. Instead of reading the target sentence 'Really? Quick, tell me the details!', the audio contains a repetitive fragment 'details, details'. This is a severe hallucination and omission error where the semantic meaning of the script is lost. According to the scoring standards, voice content that is clearly inconsistent with the script receives a score of 0.",
+    "model_comparison": "Model 1 is the clear winner. It followed the content instructions perfectly, delivering the full sentence as requested. Model 2 failed the most basic criterion of Content Accuracy, producing unrelated or truncated words ('details, details') instead of the target script. Therefore, Model 2 receives a 0 for being completely incorrect, while Model 1 demonstrates competence.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 44,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用害怕的情感说：家里突然停电了，一片漆黑。",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

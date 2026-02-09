@@ -1,0 +1,14 @@
+{
+    "sample_index": 98,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a curious tone initially, gradually transitioning to a doubting tone: 'Did you hear? The library is extending its opening hours! But is this news reliable? I kind of feel like it's not entirely true.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

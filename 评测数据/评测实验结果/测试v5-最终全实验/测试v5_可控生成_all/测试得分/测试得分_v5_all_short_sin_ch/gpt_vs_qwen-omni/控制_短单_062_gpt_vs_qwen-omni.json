@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content '加油！我们一定能赢！'. However, regarding the core paralinguistic instruction 'shouting volume' (喊叫的音量), the model fails completely. The audio is delivered in a soft, gentle, and somewhat cute tone (0.0s - 2.5s). The volume is low, and the projection is minimal, resembling a whisper or soft encouragement rather than a shout. It expresses the opposite characteristic of what was requested.",
+    "reasoning_model_2": "The model accurately generates the text content. Crucially, it adheres perfectly to the 'shouting volume' instruction. From 0.0s to 2.8s, the voice is loud, forceful, and projected with high energy. The stress on '加油' and the emphatic delivery of '我们一定能赢' demonstrate a clear shouting style consistent with cheering at a high volume. The emotional intensity matches the requirement well.",
+    "model_comparison": "Model 2 is the clear winner. The user specifically requested the speech to be delivered with a 'shouting volume'. Model 1 ignored this constraint entirely, producing a soft, gentle voice that is the polar opposite of shouting. Model 2 successfully generated audio with high volume, strong projection, and the appropriate shouting timbre required by the prompt.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

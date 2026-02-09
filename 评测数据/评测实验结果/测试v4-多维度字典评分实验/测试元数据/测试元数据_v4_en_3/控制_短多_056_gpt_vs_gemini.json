@@ -1,0 +1,18 @@
+{
+    "sample_index": 56,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a smooth voice, a medium pace, and a polite tone: 'Hello, I'm Li Ming, it's a pleasure to meet you today.'",
+    "dimensions": [
+        "Attitude",
+        "Pace",
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 1,
+    "winner_position_3": 0
+}

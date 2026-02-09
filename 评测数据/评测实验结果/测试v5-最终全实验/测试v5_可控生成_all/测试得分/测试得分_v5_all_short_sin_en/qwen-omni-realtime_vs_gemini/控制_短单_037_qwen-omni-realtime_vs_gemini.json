@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model demonstrates perfect Content Accuracy, reciting the script 'Dear colleagues, please listen carefully to the report' exactly as requested without any omissions or hallucinations. The duration (approx. 4 seconds) suggests a measured, deliberate pace suitable for a 'rich timbre' which often requires a slower speed to allow resonance to be heard. The delivery appears professional and focused, adhering strictly to the user's command.",
+    "reasoning_model_2": "The model completely fails on Content Accuracy. The user explicitly requested the model to read the specific sentence: 'Dear colleagues, please listen carefully to the report.' However, the model generated a completely different, hallucinated script: 'Mm, ah, dear colleagues, please lend your ears with care to the report, let every word settle like velvet...' It also included unsolicited non-verbal fillers ('Mm, ah'). According to the Detailed Scoring Standard, a score of 0 must be assigned because the voice content is clearly inconsistent with the script.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct script with appropriate pacing. Model 2 suffered from a catastrophic failure in Content Accuracy, hallucinating a long, poetic paragraph instead of reading the provided sentence. Consequently, Model 2 is unusable. Model 1 wins by default due to Model 2's failure to follow basic content instructions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

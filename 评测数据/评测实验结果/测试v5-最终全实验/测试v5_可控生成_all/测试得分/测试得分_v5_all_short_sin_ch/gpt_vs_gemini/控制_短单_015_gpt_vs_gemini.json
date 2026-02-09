@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with a distinctively high-pitched, child-like or young female timbre (00:00 - 00:02). This aligns well with the user's specific command for 'extremely high pitch' (极高音). The content is accurate to the script '救命啊！我被困在这里了！'. The delivery has a frantic, anxious tone that matches the semantic meaning of calling for help. The audio is fluent and natural.",
+    "reasoning_model_2": "The model generates the audio using a deep, adult male voice (00:00 - 00:02). While the delivery is loud and urgent (shouting), which fits the text 'Help!', it fails to adhere to the specific paralinguistic instruction of 'extremely high pitch'. The pitch is in the low-to-mid range typical of an adult male, which is the opposite of the requested feature. The content accuracy and fluency are otherwise good.",
+    "model_comparison": "The user explicitly requested the audio to be generated with an 'extremely high pitch' (极高音). Model 1 (T1) successfully complied by utilizing a voice with a high fundamental frequency (sounding like a young girl), creating a result that is perceptually high-pitched. Model 2 (T2), despite capturing the urgency of the text through shouting, utilized a deep male voice, which inherently contradicts the 'high pitch' requirement. Therefore, T1 is the clear winner for following the specific feature control instruction.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

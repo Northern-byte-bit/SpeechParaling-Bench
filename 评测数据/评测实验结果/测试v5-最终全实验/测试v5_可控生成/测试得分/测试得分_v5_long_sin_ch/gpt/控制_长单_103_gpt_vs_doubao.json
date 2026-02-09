@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the content of the text '我就不相信凭我的努力...'. The speech is fluent and natural, with appropriate pacing (0-3). However, regarding the core instruction to emphasize the word '就' (jiù), the model fails to execute this effectively. In the segment '我就不相信' (00:00-00:01), the word '就' is spoken with standard intensity and blends into the flow of the sentence without any distinct acoustic prominence, volume increase, or elongation. The stress appears to fall more naturally on '不' or '相信' rather than the requested character. Consequently, the specific paralinguistic command is not reflected in the audio.",
+    "reasoning_model_2": "The model generates the content accurately and maintains high fluency and naturalness throughout the clip. Crucially, it successfully adheres to the user's specific command to emphasize '就'. At timestamp 00:00, the word '就' is delivered with a noticeable increase in energy and a punchy, emphatic tone, distinct from the surrounding words '我' and '不'. This prosodic change effectively conveys the determined and defiant nuance requested by the user ('I *just* don't believe...'). The emphasis is clear and vivid without sounding mechanical.",
+    "model_comparison": "Both models produce fluent and accurately spoken text. The decisive difference lies in the 'Feature Control' dimension regarding the emphasis on the word '就'. Model 1 ignores the instruction, producing a standard reading where '就' receives no special stress. Model 2 clearly highlights '就' with increased intensity and emphatic tone, strictly following the paralinguistic instruction. Therefore, Model 2 is superior in controllability.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

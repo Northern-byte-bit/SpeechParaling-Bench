@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The generated audio accurately reflects the content of the script 'I must complete this task today.' with no pronunciation errors. In terms of fluency, the speech is natural and smooth. However, regarding the paralinguistic request for a 'slow pace', the model delivers the sentence at a standard conversational speed (approx. 0.0s - 2.5s), failing to slow down significantly. Regarding the request for 'heavy stress' on 'today', the word is pronounced with standard falling intonation at the end of the sentence (1.8s - 2.5s), without the distinct emphasis or weight required by the command. The delivery sounds like a normal statement rather than one with the specified feature controls.",
+    "reasoning_model_2": "The audio content is perfectly accurate to the script. The model successfully implements the 'slow pace' instruction, extending the duration of the sentence (approx. 0.0s - 4.5s) with noticeable pauses between key phrases, particularly before the last word. This creates a deliberate and measured rhythm. Furthermore, the 'heavy stress' on the word 'today' is clearly audible; the model isolates the word (3.5s - 4.5s) and delivers it with increased intensity and elongation, making it the clear focal point of the sentence as requested.",
+    "model_comparison": "Both models achieved perfect content accuracy and natural fluency. The decisive difference lies in the paralinguistic compliance with the specific constraints of 'slow pace' and 'heavy stress'. Model 1 provided a high-quality but standard reading that ignored the stylistic instructions. Model 2, in contrast, effectively manipulated the prosody to slow the pace significantly and placed a distinct, heavy emphasis on the target word 'today'. Therefore, Model 2 is the superior model for Feature Control in this context.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio accurately captures the text content, although it expands the contractions 'I'm' and 'you're' to 'I am' and 'you are'. This expansion actually supports the target emotion by slowing the pacing. The model effectively conveys a 'confused and puzzled' tone through several prosodic features: a slower, hesitant speaking rate (e.g., the drawn-out 'I am' at 00:00-00:01); a thoughtful pause between the two sentences (00:04-00:05); and uncertain, rising intonation at the end of phrases (00:03, 00:07). The vocal delivery sounds natural and genuinely perplexed, perfectly aligning with the command.",
+    "reasoning_model_2": "The audio captures the text content but expands 'I'm' to 'I am'. The delivery fails to convey the requested 'confused and puzzled' tone. The pacing is rapid and rushed (00:00-00:03), and the tone is surprisingly upbeat, bright, and confident, which contradicts the semantic meaning of the text. While there is a standard rising intonation for the question at the end (00:05), the overall expression sounds like a cheerful, standard reading rather than someone who is struggling to understand concepts. The emotion is mismatched.",
+    "model_comparison": "Model 1 (T1) is the clear winner. T1 successfully modifies the prosody—slowing down, adding hesitation, and using uncertain intonation—to create a convincing portrayal of confusion. Model 2 (T2) delivers the lines with a fast, upbeat, and confident tone that completely misses the 'confused and puzzled' instruction. T1 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

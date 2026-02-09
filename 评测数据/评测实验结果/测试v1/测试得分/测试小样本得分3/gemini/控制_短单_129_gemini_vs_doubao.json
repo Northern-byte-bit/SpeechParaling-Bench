@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '天啊，这里怎么会有这种东西' accurately with no pronunciation errors. In terms of fluency, the speech is smooth and the audio quality is high. However, regarding the core paralinguistic requirement 'disgust' (厌恶), the model fails significantly. The tone used is bright, high-pitched, and sounds more like mild surprise or even a neutral inquiry (0:00-0:02). There is no audible sign of aversion, repulsion, or negative valence in the prosody. The delivery feels like a standard 'broadcasting' reading rather than an emotional expression of seeing something gross.",
+    "reasoning_model_2": "The model accurately speaks the required text. The fluency is excellent, with a very natural, human-like rhythm. Crucially, the model successfully captures the 'disgust' emotion. The utterance starts with a breathy, sigh-like '天啊' (0:00-0:08) that indicates a physical reaction of disbelief or repulsion. The subsequent phrase '这里怎么会有这种东西' is delivered with a lower pitch and a tone of rejection/annoyance, fitting the context of encountering something unpleasant. The prosody feels grounded and expressive.",
+    "model_comparison": "Model 2 is the clear winner. While both models are accurate in content and fluent, Model 1 fails to execute the specific emotional command. Model 1's tone is too upbeat and neutral, sounding like a polite question rather than an expression of disgust. Model 2, on the other hand, employs specific vocal modulation—breathiness, lower pitch, and a repulsed tone—that accurately conveys the requested emotion of disgust. Model 2's performance is vivid and fits the semantic context of the sentence perfectly.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,15 @@
+{
+    "sample_index": 25,
+    "model_a": "gpt",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a whisper: 'Hurry, someone's coming.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "feature_control"
+}

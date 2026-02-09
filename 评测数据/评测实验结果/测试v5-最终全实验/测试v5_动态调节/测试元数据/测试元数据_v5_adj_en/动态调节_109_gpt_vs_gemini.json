@@ -1,0 +1,14 @@
+{
+    "sample_index": 109,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a perfunctory tone initially, suddenly switching to a sincere tone: 'Uh-huh, okay, I get it, I'll pay attention next time. Wait, the issue you raised is indeed very important, I never realized it before, thank you for reminding me.'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

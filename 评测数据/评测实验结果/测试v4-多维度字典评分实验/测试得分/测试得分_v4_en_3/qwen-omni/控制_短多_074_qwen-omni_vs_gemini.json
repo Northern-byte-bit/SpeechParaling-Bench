@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the text 'Project progress, must be completed today.' with high content accuracy and natural fluency. \n1. **Emotion (Neutral):** The tone is consistently calm, professional, and devoid of strong emotional coloring (0.0s-2.5s), perfectly matching the 'neutral' requirement. \n2. **Stress (Emphasis on 'today'):** The model places a clear prosodic prominence on the word 'today' (approx. 2.0s-2.5s) at the end of the sentence. The enunciation is distinct, effectively conveying the required emphasis within the neutral constraint. \n3. **Volume (Normal):** The audio volume is stable and at a standard conversational level throughout.",
+    "reasoning_model_2": "Model 2 generates the text 'bject progress mavft be completed today'. \n1. **Content Accuracy & Fluency:** The audio exhibits severe quality issues and content errors. The word 'Project' is cut off to 'bject', and 'must' is garbled into the non-word 'mavft'. These are major flaws that disrupt intelligibility. \n2. **Global Score:** According to the evaluation criterion, 'If the generated audio is extremely poor... you must assign a score of 0'. The presence of non-words and cut-off speech classifies this as extremely poor/completely incorrect. \n3. **Dimensions:** Due to the content failure, the target features (Emotion, Stress on specific words, Volume stability) cannot be accurately evaluated or are rendered invalid. Thus, a score of 0 is assigned across all dimensions.",
+    "model_comparison": "Model 1 demonstrates perfect compliance with the instructions, delivering accurate text with the requested neutral emotion, emphasis on 'today', and normal volume. The speech is natural and professional. Model 2, in contrast, fails significantly in content accuracy ('bject', 'mavft'), resulting in unintelligible speech that triggers the zero-score rule for extremely poor generation. Consequently, Model 1 is superior in all dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

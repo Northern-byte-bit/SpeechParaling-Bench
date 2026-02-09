@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '我警告你，不要再犯错了' accurately (0.0s - 2.8s). Regarding the core dimension 'Pitch' (音高), the model successfully executes the command 'extremely low pitch'. The voice drops significantly into the lower register, utilizing vocal fry and deep chest resonance effectively throughout the entire sentence. This low pitch aligns perfectly with the 'warning' context, creating an intimidating and serious atmosphere. The audio is highly natural and fluent, with appropriate pacing and no artifacts.",
+    "reasoning_model_2": "The model generates the content '我警告你，不要再犯错了' accurately (0.0s - 2.5s). However, regarding the core dimension 'Pitch' (音高), the performance is lacking. The audio features a standard male voice with a normal speaking pitch. While the tone is somewhat serious, it does not adhere to the specific instruction of 'extremely low pitch' (极低音). The pitch remains within a very standard, comfortable speaking range rather than pushing the lower boundaries as requested. The naturalness is fine, but the instruction compliance is poor.",
+    "model_comparison": "Model 1 (T1) is the clear winner. It correctly interprets and executes the instruction to use an 'extremely low pitch'. The resulting audio is deep, resonant, and fits the semantic context of a warning perfectly. Model 2 (T2) merely reads the text in a standard male voice without any noticeable attempt to lower the pitch to an 'extreme' level. T1 demonstrates superior control over the paralinguistic feature.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

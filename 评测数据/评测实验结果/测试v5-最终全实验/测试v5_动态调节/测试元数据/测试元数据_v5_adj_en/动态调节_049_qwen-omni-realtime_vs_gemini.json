@@ -1,0 +1,14 @@
+{
+    "sample_index": 49,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a normal volume and suddenly increasing the volume in a shouting manner: 'What are you doing now? Watch out! Car! Get out of the way!'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

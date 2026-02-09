@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with perfect content accuracy and high fluency. However, regarding the paralinguistic requirement 'Awe and Admiration' (敬畏和赞叹), the performance is somewhat lacking in emotional depth. The speaker adopts a standard, formal documentary narration style (00:00-00:08). While the tone is serious and respectful, it lacks the breathiness, hushed quality, or dynamic range typically associated with 'Awe' (敬畏). The expression of 'Admiration' (赞叹) relies mostly on standard stress and volume increases on keywords like '伟大的成就' (00:04), rather than emotional coloring. The delivery feels projected and professional but fails to convey the visceral feeling of being moved or humbled.",
+    "reasoning_model_2": "Model 2 demonstrates excellent content accuracy and naturalness. Crucially, it captures the target paralinguistic features vividly. From the very beginning (00:00), the speaker introduces a breathy, slightly trembling texture to the voice, which immediately establishes a sense of deep 'Awe' (敬畏). The pacing is deliberate, with meaningful pauses (e.g., 00:03) that allow the weight of the words to sink in. The delivery of '如此伟大的成就' (00:04) carries a tone of disbelief and wonder, effectively hitting the 'Admiration' (赞叹) dimension. The final phrase '真是令人肃然起敬' (00:06-00:08) is delivered with a downward inflection and a hushed tone, perfectly encapsulating the feeling of reverence.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in conveying the specific emotions of 'Awe and Admiration'. Model 1 provides a high-quality, standard TTS reading that sounds like a formal broadcast or audiobook narration; it is polished but emotionally distant. In contrast, Model 2 provides a 'performance'. It utilizes changes in voice quality (breathiness), tempo rubato, and pitch dynamics to simulate a human genuinely moved by the content. Model 2 effectively differentiates itself by sounding internalized and sincere, whereas Model 1 sounds external and performative only in a technical sense.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

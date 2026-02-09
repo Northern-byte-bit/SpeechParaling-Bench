@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with correct content accuracy, reading the script 'Mommy, my toy is broken, boohoohoo!' clearly (0:00-0:04). regarding the 'Age' dimension, the voice has a high pitch consistent with a child's voice, but the timbre feels slightly synthetic, resembling an adult voice pitch-shifted or a generic 'anime' style rather than a realistic biological child. regarding 'Non-Linguistic Vocalizations' (Crying), the model fails to effectively convey the physiological state of crying. The phrase 'boohoohoo' is read out as distinct literal words ('Boo. Hoo. Hoo.') with a sad intonation, but without the trembling, breathiness, or sobbing texture required for the 'crying' feature. It sounds like a calm reading of a sad sentence rather than an emotional enactment.",
+    "reasoning_model_2": "The model accurately produces the script content. regarding the 'Age' dimension, the timbre and resonance are very convincing, sounding authentically like a young child with a softer, breathier vocal quality. regarding 'Non-Linguistic Vocalizations' (Crying), the model performs exceptionally well. From 0:00 to 0:06, there is a distinct trembling and cracking in the voice (tremolo) characteristic of crying. The delivery of 'boohoohoo' is not just read as words but is elongated and infused with a sobbing texture, effectively translating the onomatopoeia into the target vocal act. The emotional intensity is high and vivid.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 in both dimensions. In terms of 'Age', Model 2 offers a natural, realistic child voice, whereas Model 1 sounds somewhat artificial and closer to a pitch-shifted adult. In terms of 'Non-Linguistic Vocalizations' (specifically crying), Model 2 captures the trembling, unstable pitch, and breathiness of a crying child, transforming the text 'boohoohoo' into a convincing sob. Model 1 merely reads the text 'boohoohoo' with a flat, sad tone, lacking the requested paralinguistic features of actual crying.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

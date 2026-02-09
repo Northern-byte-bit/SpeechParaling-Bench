@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the content accurately with no pronunciation errors. Regarding the dimension '音质' (Timbre/Tone Quality), the user requested a 'round/mellow' (圆润) voice. The generated voice is a high-pitched, bright, and somewhat thin female voice (00:00-00:08). While clear, it leans towards 'crisp' (清脆) rather than 'round' or 'resonant', failing to capture the requested acoustic weight and fullness. Regarding '语速' (Speed), the user requested 'medium speed' (中速). The model speaks the ~38 characters in roughly 8 seconds (~285 characters/minute), which feels rushed and fast-paced, lacking the composure expected for a formal presentation introduction. There are minimal pauses between phrases (e.g., '各位同事上午好' is run together), making it sound hurried.",
+    "reasoning_model_2": "Model 2 generates the content accurately. regarding '音质' (Timbre/Tone Quality), the voice is a male tone with good resonance and warmth. From 00:00 to 00:10, the voice maintains a smooth, full-bodied quality that aligns well with the description of 'round/mellow' (圆润). It lacks sharpness and has a pleasant, professional weight. Regarding '语速' (Speed), the pacing is excellent. The clip lasts roughly 10 seconds for ~38 characters (~228 characters/minute), which falls squarely into the 'medium' category. The model inserts appropriate, natural pauses (e.g., after '各位同事' at 00:00 and '上午好' at 00:01), creating a steady and clear rhythmic flow suitable for a presentation.",
+    "model_comparison": "In terms of '音质' (Timbre), Model 2 strictly follows the 'round/mellow' instruction, providing a resonant and warm voice. Model 1 provides a standard bright/thin female voice that does not fit the 'round' descriptor. In terms of '语速' (Speed), Model 2 adheres to 'medium speed' perfectly with natural pausing, whereas Model 1 is noticeably fast and rushed. Model 2 is the clear winner in both controllable dimensions.",
+    "score_1_1": "1",
+    "score_2_1": "3",
+    "winner_1": 2,
+    "score_1_2": "1",
+    "score_2_2": "3",
+    "winner_2": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in Content Accuracy. It incorrectly incorporates part of the prompt instruction '每天说' (Every day say) into the spoken audio at 00:00, resulting in the phrase '每天说皮肤护理' instead of just '皮肤护理'. Regarding the required paralinguistic feature (Stress/Emphasis) on the word '每天' in the core sentence '每天都要坚持才有效' (00:01-00:02): the delivery is flat. There is no noticeable change in pitch, intensity, or duration to highlight the word '每天'. The audio sounds like a standard, monotonous reading without the requested emphasis.",
+    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, correctly filtering out the instruction and speaking only the target script: '皮肤护理，每天都要坚持才有效。'. regarding the required feature (Stress/Emphasis) on '每天' (00:01): The model successfully emphasizes the target word. There is a clear rhythmic stress and slight elongation on '每天', distinguishing it from the surrounding text and effectively conveying the insistence implied by the prompt. The prosody is natural and the emphasis enhances the semantic delivery.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 commits a critical instruction-following error by reading the prompt text ('每天说') aloud, which disrupts the content accuracy. Furthermore, Model 1 fails to apply the requested emphasis, resulting in a flat delivery. Model 2 accurately reproduces the text and effectively implements the requested stress on '每天', resulting in a natural and expressive output that meets all criteria.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

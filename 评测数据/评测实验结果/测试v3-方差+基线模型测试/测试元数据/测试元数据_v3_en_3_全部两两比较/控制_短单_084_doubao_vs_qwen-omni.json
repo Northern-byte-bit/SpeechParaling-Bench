@@ -1,0 +1,15 @@
+{
+    "sample_index": 28,
+    "model_a": "doubao",
+    "model_b": "qwen-omni",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a lighthearted rhythm: 'Doing chores while listening to music, time flies so fast.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

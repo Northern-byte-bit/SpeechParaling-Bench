@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content 'What on earth are you doing? Stop it right now!' (0:00-0:05). However, the execution of the specific paralinguistic feature 'shouting manner' is weak. While the pitch is slightly raised, the volume and projection do not resemble a genuine shout. The delivery lacks the necessary energy, vocal strain, and intensity; it sounds more like a slightly emphatic reading than a person shouting. Additionally, the overall audio quality has a hollow, slightly robotic timbre that detracts from the naturalness.",
+    "reasoning_model_2": "The model generates the text perfectly with high fidelity and naturalness (0:00-0:05). Regarding the core requirement of 'shouting manner', this model performs very well. The delivery conveys a strong sense of urgency and increased volume, specifically stressing 'EARTH' and 'STOP'. The tone effectively captures a loud, scolding demeanor consistent with the command. The emotion is vivid, and the volume dynamics clearly distinguish it as a 'shouting manner' compared to normal speech, satisfying the core criteria fully.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 attempts to change the tone but fails to achieve the acoustic characteristics of a shout, resulting in a performance that feels restrained and artificial (Score 1). Model 2, in contrast, provides a high-fidelity output where the volume, stress, and intonation accurately reflect the user's request for a shouting manner. The difference in expressiveness and adherence to the volume constraint is significant.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

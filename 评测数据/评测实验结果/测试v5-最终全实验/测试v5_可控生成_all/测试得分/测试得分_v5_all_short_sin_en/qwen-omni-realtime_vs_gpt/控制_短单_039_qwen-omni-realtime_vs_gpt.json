@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in Content Accuracy. While the prompt asked to read the sentence 'Home is our warmest harbor', the model output contains a severe mispronunciation of the word 'harbor' (sounding like 'haber' at 00:01) and hallucinates a lengthy continuation: '...speaking with a rich, resonant timbre that carries the weight of comfort and belonging...' (00:02-00:10). Instead of simply applying the rich timbre to the target sentence, the model read a description of the style. Due to the mispronunciation and the inclusion of non-script content, the audio is deemed completely incorrect.",
+    "reasoning_model_2": "Model 2 demonstrates excellent Content Accuracy, reading only the target sentence 'Home is our warmest harbor' (00:00-00:04) without error. In terms of Paralinguistic Compliance, the model successfully adopts a 'rich timbre'. The voice is deep, resonant, and warm, fitting the semantic context of a 'warmest harbor' perfectly. The pacing is deliberate and natural, effectively conveying the requested vocal characteristic.",
+    "model_comparison": "Model 2 wins decisively. Model 1 produced a critical failure by mispronouncing a key word ('harbor') and hallucinating a long description of the voice style instead of strictly adhering to the script. Model 2 accurately followed the text instructions and successfully synthesized the audio with the requested rich and resonant timbre, making it the superior generation.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

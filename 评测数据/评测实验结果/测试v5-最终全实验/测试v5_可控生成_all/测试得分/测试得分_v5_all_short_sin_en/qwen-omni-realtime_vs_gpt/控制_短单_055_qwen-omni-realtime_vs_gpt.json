@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails on multiple levels regarding the prompt instructions. First, Content Accuracy is compromised because the model reads the instruction itself ('Please read the sentence with a slow pace') before reading the target text. The target sentence starts at 00:03 and ends at 00:05. Secondly, regarding Paralinguistic Compliance for 'Pace', the model completely ignores the 'slow' constraint. The target sentence is spoken hurriedly in about 2 seconds, which is a fast/normal pace, directly opposite to the requested feature. The tone is high-pitched and rushed.",
+    "reasoning_model_2": "The model demonstrates excellent instruction following. Content Accuracy is perfect; it isolates the target text 'Please listen carefully, this step is very important' without reading the prompt instructions. Regarding Paralinguistic Compliance for 'Pace', the model executes this perfectly. The speech is stretched over 7 seconds (00:00-00:07). There are deliberate, heavy pauses between keywords (e.g., 'Please... listen... carefully'), and the articulation of each word is elongated. This effectively conveys the importance of the step through a significantly slowed tempo.",
+    "model_comparison": "Model 2 represents a complete success, while Model 1 is a complete failure. Model 1 hallucinated the prompt instructions into the speech and spoke at a fast pace, violating the core constraint. Model 2 correctly isolated the text and applied a very distinct, deliberate slow pace that perfectly matched the user's request. Model 2 is superior in both content accuracy and feature control.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

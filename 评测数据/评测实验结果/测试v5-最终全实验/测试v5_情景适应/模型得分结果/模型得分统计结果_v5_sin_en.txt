@@ -1,0 +1,87 @@
+======= 各模型最终得分 (含独立加权的 Overall 维度) =======
+
+=== gpt ===
+  Overall: 58.00
+  Age: 12.00
+  Attitude: 16.50
+  Emotion: 17.50
+  Non-Linguistic Vocalizations: 12.00
+
+=== gemini ===
+  Overall: 52.01
+  Age: 6.17
+  Attitude: 13.72
+  Emotion: 17.85
+  Non-Linguistic Vocalizations: 13.63
+
+=== doubao ===
+  Overall: 46.00
+  Age: 11.00
+  Attitude: 15.00
+  Emotion: 12.00
+  Non-Linguistic Vocalizations: 8.00
+
+=== qwen-omni-realtime ===
+  Overall: 44.00
+  Age: 8.00
+  Attitude: 12.00
+  Emotion: 12.00
+  Non-Linguistic Vocalizations: 12.00
+
+=== qwen-omni ===
+  Overall: 22.00
+  Age: 5.00
+  Attitude: 7.00
+  Emotion: 4.00
+  Non-Linguistic Vocalizations: 6.00
+
+
+======= 各维度排名 (含 Overall) =======
+
+【维度：Age】
+  gpt: 12.00
+  doubao: 11.00
+  qwen-omni-realtime: 8.00
+  gemini: 6.17
+  qwen-omni: 5.00
+
+【维度：Attitude】
+  gpt: 16.50
+  doubao: 15.00
+  gemini: 13.72
+  qwen-omni-realtime: 12.00
+  qwen-omni: 7.00
+
+【维度：Emotion】
+  gemini: 17.85
+  gpt: 17.50
+  doubao: 12.00
+  qwen-omni-realtime: 12.00
+  qwen-omni: 4.00
+
+【维度：Non-Linguistic Vocalizations】
+  gemini: 13.63
+  qwen-omni-realtime: 12.00
+  gpt: 12.00
+  doubao: 8.00
+  qwen-omni: 6.00
+
+【维度：Overall】
+  gpt: 58.00
+  gemini: 52.01
+  doubao: 46.00
+  qwen-omni-realtime: 44.00
+  qwen-omni: 22.00
+
+
+======= 跳过的样本 =======
+17, 50, 18, 76, 65, 35, 77
+
+======= Baseline 与各 Candidate 比较的【Overall 原始得分】 =======
+
+### Baseline: gemini ###
+  vs doubao: 53.00
+  vs gpt: 41.00
+  vs qwen-omni: 75.00
+  vs qwen-omni-realtime: 54.00
+

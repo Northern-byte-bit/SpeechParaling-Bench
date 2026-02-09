@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model strictly adheres to the provided text script, generating only '去旅游，你一定要尝尝当地美食！' without any hallucinations or omissions. Regarding the specific paralinguistic feature '重音' (Stress/Emphasis), the model successfully highlights the target phrase. At approximately **00:01**, the phrase '一定要' is pronounced with increased intensity and a deliberate, slower pace compared to the surrounding text, effectively conveying the strong recommendation requested by the prompt. The overall fluency is high, and the prosody is natural.",
+    "reasoning_model_2": "The model fails strictly on Content Accuracy. While it correctly reads the initial target sentence '去旅游，你一定要尝尝当地美食', it proceeds to hallucinate a significant amount of unrequested text starting from **00:03** ('那可是旅行里最不能错过的味道......'), continuing for several seconds. According to the evaluation criteria, 'Content Accuracy' requires voice content to be consistent with the script without extra words. Although the stress on '一定要' (around **00:00-00:01**) might be audible, the generation of a large paragraph of extra content constitutes a major flaw, significantly deviating from the 'read this sentence' command.",
+    "model_comparison": "Model 1 is the clear winner. It followed the user's command perfectly, reading only the specific sentence requested and successfully applying the required '重音' (stress) on '一定要'. Model 2, while potentially having a natural voice, failed the fundamental instruction by generating a long, unprompted continuation (hallucination) after the target sentence. This violation of Content Accuracy heavily penalizes its score, as it did not respect the boundaries of the script provided.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

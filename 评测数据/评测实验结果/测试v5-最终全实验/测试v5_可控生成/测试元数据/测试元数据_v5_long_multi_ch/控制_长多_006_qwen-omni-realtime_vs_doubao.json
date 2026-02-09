@@ -1,0 +1,16 @@
+{
+    "sample_index": 6,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用极低音的声调缓慢地说：孩子们，你们可知道，很久很久以前，这片土地上流传着一个古老的传说。那个时候啊，人们的生活远比现在要艰难得多，但他们也更懂得珍惜。",
+    "dimensions": [
+        "音高",
+        "语速"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

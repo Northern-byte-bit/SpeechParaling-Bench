@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with high clarity. \n1. **Text Analysis**: The model expands the contractions in the script ('I'm' to 'I am', 'it's' to 'It is'), likely to enhance the formal/polite tone, resulting in 'Hello, I am Li Ming. It is a pleasure to meet you today.' The content is otherwise accurate.\n2. **Attitude**: The tone is extremely polite, warm, and welcoming (0:00-0:05). The soft intonation and gentle delivery perfectly match the requested 'polite tone'.\n3. **Pace**: The speech has a deliberate, measured medium pace with natural pauses between sentences, fitting the command well.\n4. **Timbre**: The voice is exceptionally smooth, clean, and free of artifacts or harshness. The audio fidelity is high, contributing to the perception of a 'smooth voice'.",
+    "reasoning_model_2": "The model generates the audio with noticeable reverb.\n1. **Text Analysis**: Similar to Model 1, this model expands contractions ('I'm' to 'I am', 'it's' to 'It is'), speaking 'Hello, I am Li Ming. It is a pleasure to meet you today.'\n2. **Attitude**: The tone is generally polite and formal, but it feels somewhat more neutral and less emotionally engaging compared to a dedicated polite style. It is acceptable but lacks the vivid warmth found in human polite speech.\n3. **Pace**: The pace is medium and steady, complying with the prompt.\n4. **Timbre**: While the voice actor's underlying tone is arguably smooth, the audio quality suffers from significant room echo/reverb (0:00-0:04), which adds a rougher texture and makes it sound distant, detracting from the 'smooth voice' requirement.",
+    "model_comparison": "Both models deviated slightly from the text by expanding contractions ('I'm' -> 'I am'), likely to sound more formal, which is acceptable given the context. Model 1 is the clear winner across the paralinguistic dimensions. regarding **Attitude**, Model 1 employs a very soft, warm, and customer-service-like polite tone that is vivid and effective, whereas Model 2 is polite but sounds more like a standard neutral TTS. Regarding **Pace**, both models perform well with a medium speed, resulting in a tie. Regarding **Timbre**, Model 1 offers a pristine, high-fidelity smooth voice. In contrast, Model 2 has noticeable reverberation/echo that degrades the listening experience and negates the 'smooth' quality commanded. Therefore, Model 1 is superior in Attitude and Timbre.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text 'Please note, the performance is about to begin' with perfect accuracy. Regarding the core paralinguistic requirement (Pitch), the audio adopts a noticeably deep, resonant tone consistent with a 'low pitch' command. From 0.0s to 3.2s, the voice maintains a stable, low-frequency register typical of a theater announcement. The pacing is deliberate and the prosody is natural, effectively conveying the requested feature without artifacts or mechanical noise.",
+    "reasoning_model_2": "The model fails significantly in content accuracy. Instead of the target script, the audio begins with hallucinated gibberish resembling 'Audrey the' or 'Audrey that' before saying 'please note, some performance is about to begin' (mispronouncing 'the' as 'some' or slurring heavily). Furthermore, regarding the core feature (Pitch), the voice does not exhibit a low pitch; instead, it has a warped, somewhat high-pitched and strained quality due to severe audio distortion. The fluency is extremely poor with heavy electronic artifacts.",
+    "model_comparison": "Model 1 followed all instructions perfectly. It delivered the correct text with high fidelity and applied the requested 'low pitch' feature effectively, resulting in a deep, announcer-like voice. Model 2 failed on all fronts: it hallucinated words ('Audrey...'), distorted the remaining text, and failed to apply the low pitch control, resulting in a low-quality, garbled output. Model 1 is the clear winner.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

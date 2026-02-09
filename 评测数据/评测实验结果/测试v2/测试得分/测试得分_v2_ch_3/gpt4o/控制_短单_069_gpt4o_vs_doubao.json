@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio accurately reflects the script '周末你有什么计划吗？' without any omissions or mispronunciations. The content matches the text perfectly (0:00-0:02). In terms of the paralinguistic feature 'normal volume' (正常音量), the speaker uses a standard, conversational volume level that is neither whispering nor shouting, fitting the requirement perfectly. The prosody is natural, casual, and human-like, with appropriate intonation for a question.",
+    "reasoning_model_2": "The audio attempts to follow the command but omits the final character '吗' (ma) from the script, saying only '周末，你有什么计划' (0:00-0:03). This is a content accuracy error. Regarding the 'normal volume' requirement, the volume level is technically within a normal range, but the delivery style is somewhat breathy and dramatic, with a distinct, slightly unnatural pause after '周末'. The intonation feels less like a standard casual question due to the missing particle and the breathy quality.",
+    "model_comparison": "Model 1 is significantly better than Model 2. Model 1 strictly adheres to the text content, including the final particle '吗', whereas Model 2 omits it. Furthermore, Model 1 sounds very natural and conversational, fitting the 'normal volume' instruction perfectly. Model 2 has a slightly affected, breathy tone and unnatural pausing, in addition to the content error.",
+    "score_1": 3,
+    "score_2": 2,
+    "winner": 1
+}

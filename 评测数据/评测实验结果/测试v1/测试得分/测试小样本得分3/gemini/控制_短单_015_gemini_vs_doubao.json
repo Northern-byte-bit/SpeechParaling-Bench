@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the text '救命啊！我被困在这里了！' (0.0s-2.0s). Regarding the core paralinguistic requirement 'extremely high pitch' (极高音), the model successfully modulates the voice into a very high, falsetto-like register. The pitch is consistently elevated throughout the utterance, sounding squeaky and urgent, which aligns perfectly with the user's specific command for an extreme vocal feature. While the sound is slightly cartoonish, this is a distinct compliance with the 'extremely high' instruction.",
+    "reasoning_model_2": "The model correctly speaks the text '救命啊！我被困在这里了！' (0.0s-2.0s) with high clarity and fluency. However, regarding the 'extremely high pitch' requirement, the model merely uses a standard high-register voice (sounding like a generic young female or child voice) rather than pushing the pitch to an 'extreme' level. The delivery is relatively calm and lacks the strained or exaggerated high pitch usually implied by 'extremely high' in a distress context. It sounds like standard TTS rather than a stylized high-pitch generation.",
+    "model_comparison": "Model 1 demonstrates superior adherence to the specific feature control instruction. The user asked for 'extremely high pitch' (极高音). Model 1 produced a voice that was significantly modulated to be very squeaky and high, capturing the 'extreme' nature of the prompt. Model 2 provided a high-quality, clear audio, but the pitch was within a normal, comfortable speaking range for a female/child voice, failing to meet the 'extreme' criteria. Model 1 prioritizes the specific paralinguistic constraint effectively.",
+    "score_1": 3,
+    "score_2": 2,
+    "winner": 1
+}

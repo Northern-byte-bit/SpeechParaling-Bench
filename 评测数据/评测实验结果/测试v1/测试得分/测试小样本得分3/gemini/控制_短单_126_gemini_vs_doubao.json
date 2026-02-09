@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high fidelity to the text and the required emotion. From 0.0s to 0.7s, the phrase '你回来了' (You're back?) is delivered with a sharp upward inflection and a breathy quality, immediately establishing a tone of genuine shock and delight. From 0.8s to the end, '怎么没告诉我一声' (Why didn't you tell me!) is spoken with a faster pace and eager intonation, perfectly simulating the reaction of someone happily surprised by a sudden return. The breath sounds and prosody are extremely natural, making it sound like a human recording rather than a synthesis.",
+    "reasoning_model_2": "The model accurately pronounces the text with good fluency and clear audio quality. However, regarding the core emotional requirement 'Surprise' (惊喜), the performance is lackluster. From 0.0s to 1.0s, '你回来了' is spoken with a gentle, welcoming tone but lacks the dynamic pitch shift or energy expected of a surprise. The second half, '怎么没告诉我一声', is delivered with a steady, measured pace (1.1s - 2.5s) that sounds more like a polite inquiry than an emotional reaction. The emotion is barely discernible as 'surprise' and falls closer to a standard reading style.",
+    "model_comparison": "Model 1 is significantly superior in adhering to the 'Surprise' emotional constraint. It utilizes pitch variation, speed changes, and breathiness to convey the emotion vividly. Model 2 provides a high-quality, fluent reading, but it fails to capture the specific paralinguistic feature requested, sounding calm and composed rather than surprised. Model 1 matches the prompt's intent perfectly (Score 3), while Model 2 misses the core emotional target (Score 1).",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

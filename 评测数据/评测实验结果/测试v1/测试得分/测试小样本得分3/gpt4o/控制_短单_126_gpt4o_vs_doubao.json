@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the text '你回来了？怎么没告诉我一声！' exactly. The paralinguistic performance is outstanding. From 0.0s to 0.7s, the phrase '你回来了' is delivered with a higher pitch and an audible intake of breath/gasp, effectively conveying the sudden shock and joy associated with the prompt's requirement for 'surprise' (惊喜). The second part, '怎么没告诉我一声' (0.8s-2.0s), maintains a fast, energetic pace with a bright tone, reinforcing the emotional context of a pleasant surprise. The prosody is highly natural and indistinguishable from human speech.",
+    "reasoning_model_2": "The model generates the audio with a minor content issue: it adds the particle '啦' at the end of the sentence ('...怎么没告诉我一声啦'), which deviates from the strict text script. In terms of emotion, while the tone is friendly and lively, it lacks the specific intensity of 'surprise' requested. The delivery of '你回来了' (0.0s-0.7s) is relatively calm compared to the high energy usually associated with shock or surprise. The prosody is fluent, but the emotional interpretation leans more towards a casual greeting or mild coquettishness rather than the genuine, high-arousal surprise demonstrated in the prompt requirements.",
+    "model_comparison": "Model 1 is the clear winner. It strictly adheres to the text, whereas Model 2 adds an extra word ('啦'). Crucially, Model 1 captures the 'surprise' emotion vividly through pitch modulation, breathiness, and pacing, perfectly matching the '惊喜' (pleasant surprise) requirement. Model 2's delivery is flatter and feels more like a standard casual reading, lacking the dynamic range to convey the requested emotion convincingly.",
+    "score_1": 3,
+    "score_2": 2,
+    "winner": 1
+}

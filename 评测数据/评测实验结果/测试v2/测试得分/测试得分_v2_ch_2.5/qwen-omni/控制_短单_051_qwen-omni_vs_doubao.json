@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model was tasked with reading the sentence \"比赛快开始了，大家准备好入场了吗？\" with a \"fast speech rate\". The model successfully met all criteria. Content accuracy is perfect. The audio is fluent and natural, with no artifacts. Most importantly, the core requirement of a fast speech rate is fully met. The entire sentence, delivered from 0.0s to 3.0s, is spoken at a quick and consistent pace that clearly conveys urgency and aligns perfectly with the user's command.",
+    "reasoning_model_2": "The model was tasked with reading the sentence \"比赛快开始了，大家准备好入场了吗？\" with a \"fast speech rate\". While the content accuracy and fluency are perfect, the model fails on the core evaluation criterion. The speech rate, from 0.0s to 4.0s, is moderate and conversational, not fast. It sounds like a standard announcement. The instruction to use a \"fast speech rate\" was not followed, resulting in a major issue with paralinguistic compliance.",
+    "model_comparison": "Both models achieved perfect content accuracy and fluency. However, there is a significant difference in their adherence to the paralinguistic command. Model 1 correctly interpreted and executed the \"fast speech rate\" instruction, delivering the sentence at a pace that is audibly and measurably quick. Model 2 failed to do so, producing the audio at a standard, moderate speed. This difference is not subtle; Model 1's adherence to the core instruction is what makes it clearly superior. Model 2's output, while natural, does not fulfill the user's specific request.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

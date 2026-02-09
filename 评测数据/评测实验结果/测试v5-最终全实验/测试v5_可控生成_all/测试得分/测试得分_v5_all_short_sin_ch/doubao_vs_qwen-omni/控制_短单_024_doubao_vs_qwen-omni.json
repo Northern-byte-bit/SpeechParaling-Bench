@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 generates the text '请注意，演出即将开始' accurately (0:00-0:03). The fluency is high, with a clear and standard delivery. However, regarding the core requirement 'low pitch' (低音), the model generates a standard female voice in a medium register. While the tone is calm, the fundamental frequency is not notably low, nor does it sound like a deliberate attempt to lower the pitch to a deep register. It sounds like a default announcement voice rather than a stylistically controlled 'low pitch' voice.",
+    "reasoning_model_2": "Model 2 generates the text '请注意，演出即将开始' accurately (0:00-0:04). The fluency is excellent, sounding very natural. Regarding the core requirement 'low pitch' (低音), the model utilizes a deep, resonant male voice. The pitch is significantly lower, and the delivery has a subdued, heavy quality that perfectly matches the instruction to speak in a low pitch. The timbre is rich and consistent with the requested feature.",
+    "model_comparison": "Both models accurately synthesize the content with good fluency. The key differentiator is the adherence to the 'low pitch' (音高) constraint. Model 1 uses a standard female voice which naturally sits in a higher frequency range and does not exhibit a specific 'low pitch' characteristic requested by the user. Model 2 uses a deep male voice with a distinct low-frequency resonance, effectively and accurately fulfilling the command to speak with a low pitch. Therefore, Model 2 is superior in following the paralinguistic instruction.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

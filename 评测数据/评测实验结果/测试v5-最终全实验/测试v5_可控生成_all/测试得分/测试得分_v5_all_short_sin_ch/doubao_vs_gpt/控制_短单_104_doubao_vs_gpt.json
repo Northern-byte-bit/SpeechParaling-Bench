@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails in Content Accuracy as it hallucinates and reads part of the prompt instruction '每天说' (Every day says) at the beginning (00:00-00:01), which is a significant error in instruction following. Regarding the required dimension '重音' (Stress/Emphasis), the model does emphasize the target word '每天' at timestamp 00:03 within the actual sentence, using higher pitch and volume. However, because the audio contains non-scripted instructional text, the overall quality is heavily penalized according to the criteria (Major issues).",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading only the target sentence '皮肤护理，每天都要坚持才有效' without including instructional text. Regarding the dimension '重音', the model effectively places emphasis on the word '每天' around 00:01-00:02. It achieves this through a combination of a slight pause before the word, elongation of the characters, and increased vocal weight, making the stress clear and natural. The fluency and prosody are excellent.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 commits a critical error by reading the prompt instruction ('每天说') aloud before the target sentence, which violates the content accuracy criterion. While Model 1 does apply the requested emphasis, the inclusion of extra text makes the audio unusable. Model 2 follows the instructions perfectly, delivering accurate content with natural fluency and clearly implementing the requested emphasis on '每天' through appropriate prosodic changes.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

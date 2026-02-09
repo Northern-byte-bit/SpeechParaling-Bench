@@ -1,0 +1,14 @@
+{
+    "sample_index": 52,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-2.5-pro",
+    "demand": "Please read this sentence with a helpless tone: 'I've done my best, but the results are still not ideal.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

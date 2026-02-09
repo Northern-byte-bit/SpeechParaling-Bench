@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text 'Mom's cooking is delicious. I am so full and happy.' The contraction 'I'm' is expanded to 'I am', but the content is otherwise accurate. The speaker adopts a bright, energetic, and cheerful tone throughout the clip. Specifically, the pitch rises on 'delicious' (0:01) and 'happy' (0:04), effectively conveying the requested happy emotion. The pacing is natural and the voice sounds realistic and fluent.",
+    "reasoning_model_2": "The model generates the target text but hallucinates significant additional content not present in the prompt: 'My heart is just glowing with joy. Every bite feels like a warm hug from home.' regarding the command. The delivery style is extremely slow and draggy, sounding unnatural and slightly intoxicated or lethargic rather than genuinely happy. While the tone is positive, the lack of fluency and the major content hallucination severely impact the quality.",
+    "model_comparison": "Model 1 is the clear winner. It adheres strictly to the text (with a minor expansion of a contraction) and delivers the line with a natural, crisp, and clearly happy tone. Model 2 fails significantly on content accuracy by adding two unprompted sentences. Furthermore, Model 2's audio quality is poor; the prosody is unnaturally slow and slurred, making the speaker sound drowsy or intoxicated rather than naturally happy. Model 1 demonstrates superior control over both content and emotional expression.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

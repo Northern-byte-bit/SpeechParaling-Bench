@@ -1,0 +1,14 @@
+{
+    "sample_index": 2,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用极低音开始，然后逐渐转变为中音说: '这个内部消息非常重要，我们必须确保项目按计划进行，不能有任何纰漏。'",
+    "dimensions": [
+        "音高"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

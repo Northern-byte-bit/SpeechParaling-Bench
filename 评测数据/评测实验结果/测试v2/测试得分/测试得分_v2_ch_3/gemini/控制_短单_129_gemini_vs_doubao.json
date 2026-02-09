@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '天啊，这里怎么会有这种东西' accurately with no pronunciation errors. The audio is high quality and fluent, with no mechanical artifacts. However, regarding the core requirement of 'disgust' (厌恶), the performance is poor. The delivery (0.0s-2.5s) sounds like a standard, neutral audiobook narration or a polite expression of mild surprise. There is no audible repulsion, change in timbre, or distinct prosody that characterizes disgust. The tone is too flat and polished, failing to convey the requested negative emotion.",
+    "reasoning_model_2": "The model correctly speaks the text '天啊，这里怎么会有这种东西' with natural fluency. Crucially, it effectively captures the requested 'disgust' emotion. From the initial '天啊' (0.0s-0.7s), there is a noticeable hesitation and a tone of recoil in the voice. In the segment '这里怎么会有这种东西' (0.8s-2.0s), the pitch contour and slightly strained delivery successfully convey a feeling of being grossed out or repulsed. The expression is vivid and clearly distinguishable as disgust.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in this evaluation. While both models achieve perfect content accuracy and high audio fidelity, they differ drastically in their adherence to the paralinguistic instruction. Model 1 provides a neutral, almost happy-sounding reading that completely misses the 'disgust' prompt. Model 2, in contrast, effectively modifies the tone, pitch, and pacing to simulate a genuine reaction of disgust, fulfilling the core requirement of the user prompt.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

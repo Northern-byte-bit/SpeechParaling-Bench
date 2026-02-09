@@ -1,0 +1,14 @@
+{
+    "sample_index": 54,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an exhausted and weary tone: 'After running these ten kilometers, my legs are no longer mine; I feel like all my strength is gone.'",
+    "dimensions": [
+        "exhausted and weary"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

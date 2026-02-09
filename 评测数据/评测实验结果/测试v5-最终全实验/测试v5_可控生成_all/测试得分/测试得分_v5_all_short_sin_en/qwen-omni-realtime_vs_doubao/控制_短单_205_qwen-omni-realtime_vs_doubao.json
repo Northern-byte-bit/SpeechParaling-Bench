@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model completely fails to adhere to the provided script. The user commanded the model to read: 'Mhm, mhm, I know, we'll talk about it later.' However, the model generates a significantly longer and different text: 'I know we'll talk about it later. Yeah sure, no problem, I'm just saying you know, it's fine. We'll get to it. No rush, I'm not pushing, it's all good.' This is a severe hallucination where the model improvised a monologue instead of reading the specific sentence. According to the scoring standard, when voice content is clearly inconsistent with the script and meaning is changed due to major additions, the score must be 0.",
+    "reasoning_model_2": "The model failed to generate the requested speech entirely. Instead of reading the target sentence 'Mhm, mhm, I know, we'll talk about it later.', the audio contains a refusal message: 'I can't answer this question.' This represents a complete failure in Content Accuracy. As per the Global Considerations, if the content is completely incorrect or empty of the target script, the score must be 0.",
+    "model_comparison": "Both models failed fundamentally on Content Accuracy. Model 1 hallucinated a completely different script, adding multiple sentences that were not requested. Model 2 produced a refusal response instead of performing the task. Since the primary requirement of speaking the correct text was not met by either model, neither could effectively convey the requested 'perfunctory tone' on the target text. Therefore, both models are assigned a score of 0, resulting in a tie.",
+    "score_1_1": 0,
+    "score_2_1": 0,
+    "winner_1": 0
+}

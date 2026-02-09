@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model demonstrates excellent adherence to the 'hoarse' (沙哑) voice quality constraint. The generated audio presents a vocal timbre that is distinctly breathy, strained, and lower in pitch, effectively simulating the texture of a voice damaged by shouting. The delivery is consistent with the semantic context of 'unable to speak', sounding exhausted and weak rather than projected. The content accuracy is perfect, and the prosody naturally reflects the physical limitation implied by the text.",
+    "reasoning_model_2": "The model generates the script with high fluency and clarity, but completely fails the paralinguistic constraint. The voice is bright, resonant, and energetic, characteristic of a standard healthy reading voice. There is no audible sign of hoarseness, raspiness, or vocal fatigue. This creates a strong dissonance between the audio style and the text meaning ('I cannot speak'), as the speaker sounds perfectly capable of speaking loudly and clearly. It ignores the 'hoarse' instruction entirely.",
+    "model_comparison": "Model 1 is the clear winner as it successfully integrates the required 'hoarse' paralinguistic feature into the speech generation. Its output aligns with both the specific style command and the semantic context of the sentence. Model 2, while fluent, fails to modify the voice quality, producing a standard clear output that is inappropriate for the specific prompt requirements.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

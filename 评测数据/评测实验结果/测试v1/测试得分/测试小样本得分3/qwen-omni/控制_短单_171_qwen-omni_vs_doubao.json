@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio content correctly matches the script '我刚才呛到了，有点不舒服。'. However, regarding the core paralinguistic requirement '带咳嗽的方式' (with coughing), the model failed significantly. At 0:00-0:01, instead of a cough, the model generated a sound resembling a giggle or a light laugh ('He-he'). This creates a dissonant effect where the speaker sounds cheerful or amused while claiming to be uncomfortable from choking. The tone does not reflect the physical distress implied by the text. Therefore, it fails the specific feature control instruction.",
+    "reasoning_model_2": "The model performs exceptionally well. At 0:00-0:02, it generates realistic, heavy coughing sounds consistent with the instruction. The speech that follows ('我刚才呛到了...') is delivered with a strained, breathless quality (0:02-0:05) that perfectly mimics the physical aftermath of choking. There are natural pauses and heavy breathing sounds interspersed, enhancing realism. The content is accurate, and the paralinguistic features (coughing, strained voice) are vivid and spot-on.",
+    "model_comparison": "Model 2 is the clear winner. The user specifically requested the speech be delivered 'with coughing' due to 'choking'. Model 2 executed this perfectly with realistic non-verbal coughing sounds and a strained vocal quality that matched the context. Model 1, conversely, hallucinated the wrong non-verbal sound, producing a giggle/laugh instead of a cough. This made the audio sound unnatural and contextually inappropriate (laughing while saying they are uncomfortable). Model 2 followed the feature control instruction; Model 1 failed it.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

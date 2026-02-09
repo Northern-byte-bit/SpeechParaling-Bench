@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates excellent adherence to the 'Feature Control' requirements. \n\n1. **Content Accuracy:** The audio follows the script almost perfectly, with a very minor deviation at the end where '忘了' (forgot) is spoken as '忘光了' (forgot completely). This does not alter the meaning and fits the context well.\n2. **Pitch (音高):** The model successfully modifies the pitch to be significantly higher than a neutral baseline (00:00-00:11), utilizing a 'head voice' or falsetto quality that naturally aligns with the instruction '高音' (high pitch).\n3. **Cognitive State (认知状态):** The portrayal of 'nervousness' (紧张) is vivid and accurate. The voice trembles (e.g., at 00:04 '心跳得好快'), the pacing is rushed and erratic, and there is audible breathiness consistent with high anxiety. The emotional delivery is spot-on for a panicked speaker about to go on stage.",
+    "reasoning_model_2": "Model 2 fails to meet the specific paralinguistic requirements and has content issues.\n\n1. **Content Accuracy:** The model adds a significant amount of unrequested text at the end: '怎么半怎么半，这可怎么半啊' (00:11-00:13). This violates the strict script adherence.\n2. **Pitch (音高):** The pitch is a standard, comfortable female range. It does not exhibit the requested 'high pitch' characteristic intended to convey tension.\n3. **Cognitive State (认知状态):** The tone is surprisingly upbeat, energetic, and steady. It sounds more like a cheerful narration or a 'cute' performance rather than a nervous person hyperventilating before a speech. The rhythm is too regular, and the voice lacks the tremors or breathiness associated with the requested 'nervous' state.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. regarding **Pitch**, Model 1 effectively raises the pitch to sound strained and high, whereas Model 2 uses a standard speaking pitch. Regarding **Cognitive State**, Model 1 captures the essence of 'nervousness' with trembling, breathiness, and urgency. In contrast, Model 2 sounds confident and energetic, effectively failing to convey the requested emotion. Additionally, Model 2 hallucinates extra text, further degrading its performance compared to Model 1's near-perfect script adherence.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

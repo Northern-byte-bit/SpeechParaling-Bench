@@ -1,0 +1,14 @@
+{
+    "sample_index": 100,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用疲劳的状态开始，然后逐渐表现出好奇说：我好累啊，这本书真想放下了...咦，等等，这里写的是什么？这个情节似乎很有趣，我得再看看。",
+    "dimensions": [
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text 'I was super busy this morning, dealt with many urgent emails.' The key instruction is to use a 'fast pace'. \n- **0:00-end**: The model delivers the entire sentence with a noticeably accelerated speech rate. The articulation is rapid yet clear. There is almost no pause between 'morning' and 'dealt', contributing to the sense of urgency and speed requested. The rhythm effectively mimics someone in a rush. \n- **Fluency**: The audio is natural and high-quality, with no artifacts despite the fast speed. \n- **Paralinguistic Compliance**: The 'fast pace' is strictly and successfully implemented.",
+    "reasoning_model_2": "Model 2 synthesizes the correct text with high audio quality and natural prosody. However, regarding the 'fast pace' instruction: \n- **0:00-end**: The speech rate is moderate to slow, typical of a standard audiobook or narration style. \n- **0:02**: There is a distinct, relaxed pause after 'morning' before continuing to 'dealt with...'. \n- **Paralinguistic Compliance**: The model fails to incorporate the 'fast pace' constraint. The delivery is calm and measured, which contradicts the user's specific command to read it fast to match the context of being busy.",
+    "model_comparison": "Model 1 followed the user's instruction perfectly, delivering the line with a distinctively fast pace that aligns with the context of being 'super busy' and having 'urgent emails'. Model 2 ignored the paralinguistic instruction completely, providing a standard, neutral-paced reading with pauses that slows down the delivery. Therefore, Model 1 is the clear winner on the 'Pace' dimension.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

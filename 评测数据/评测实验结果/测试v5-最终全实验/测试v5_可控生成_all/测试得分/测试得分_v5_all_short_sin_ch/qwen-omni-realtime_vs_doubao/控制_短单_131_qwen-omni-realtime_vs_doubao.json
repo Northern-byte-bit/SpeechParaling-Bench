@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model completely fails the primary constraint of Content Accuracy. The user requested the specific sentence '外面有奇怪的声音，是谁啊？', but the model hallucinated a lengthy, improvised dramatic monologue ('我听见外面有奇怪的声音了... 别过来啊...'). Although the paralinguistic expression of fear is vivid (trembling voice, rapid breathing, panic), the audio is unusable because it does not follow the text script at all. According to the evaluation criterion, if the voice content is clearly inconsistent with the script, it falls into the lowest scoring category regardless of emotional expressiveness.",
+    "reasoning_model_2": "The model adheres perfectly to the text script '外面有奇怪的声音，是谁啊？' with no omissions or hallucinations. The expression of the target emotion (Fear) is fully correct and natural. The speaker uses a hushed, breathy tone (0:00-0:05) with a trembling quality that effectively conveys suspense and fear. The pacing is appropriately slow and hesitant, particularly the pause before '是谁啊', which adds to the atmosphere of being scared of what is outside. The performance is natural and spot-on.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental instruction of Text-to-Speech by generating completely different content than what was requested. While Model 1's emotional acting was dramatic, it was an uncontrolled hallucination. Model 2 correctly spoke the requested text while successfully applying the 'fear' emotion through paralinguistic features like breathiness, trembling, and hesitant pacing.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

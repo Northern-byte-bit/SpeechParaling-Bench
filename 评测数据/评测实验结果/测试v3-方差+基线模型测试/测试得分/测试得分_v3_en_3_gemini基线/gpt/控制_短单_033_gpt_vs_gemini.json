@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested a 'hoarse timbre'. \n1. **Content Accuracy**: The model reads the text 'Please give me a glass of water, thank you.' perfectly. \n2. **Fluency**: The pacing is natural, with a deliberate slowness that mimics the struggle of speaking with a hoarse voice. \n3. **Paralinguistic Compliance (Timbre)**: From 0:00 to 0:05, the voice exhibits a distinct raspiness, breathiness, and vocal strain. The glottal fry and air leakage characteristic of a 'hoarse' voice are clearly audible and consistent throughout the sentence. The style perfectly matches the semantic context of asking for water due to a throat issue. This is a vivid and accurate execution of the prompt.",
+    "reasoning_model_2": "The user requested a 'hoarse timbre'. \n1. **Content Accuracy**: The model reads the text correctly. \n2. **Fluency**: The speech is fluent but sounds somewhat robotic and standard. \n3. **Paralinguistic Compliance (Timbre)**: throughout the clip (0:00-0:06), the voice remains clear, resonant, and crisp. There is absolutely no indication of hoarseness, raspiness, or vocal strain. It sounds like a standard, healthy TTS voice. While the content is accurate, the model completely failed to apply the requested 'hoarse' feature control.",
+    "model_comparison": "Model 1 (T1) followed the specific instruction to modify the timbre of the voice. The generated audio is rasping and strained, perfectly fitting the description of 'hoarse' and the context of the sentence. Model 2 (T2) ignored the timbre instruction entirely, producing a standard, clear voice. While T2 got the text right, it failed the core 'Feature Control' task. Therefore, T1 is significantly superior.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

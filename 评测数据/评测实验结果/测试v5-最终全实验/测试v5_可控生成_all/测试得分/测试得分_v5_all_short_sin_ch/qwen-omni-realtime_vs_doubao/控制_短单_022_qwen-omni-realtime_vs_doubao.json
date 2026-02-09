@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately synthesizes the target text '这件事需要我们认真考虑。' (0:00-0:03) without any errors or hallucinations. Regarding the core paralinguistic feature 'Pitch' (音高/低音), the model successfully adopts a deep, resonant low-pitched male voice throughout the entire utterance. The timbre and pitch modulation effectively convey the requested 'low tone' (低音), aligning perfectly with the command. The speech is fluent, natural, and maintains the serious gravity implied by the low pitch requirement.",
+    "reasoning_model_2": "The model fails significantly in both content accuracy and paralinguistic compliance. Firstly, it generates a large amount of hallucinatory text (0:02-0:09) that appears to be a description of the required tone ('声音低沉而稳重，像是在提醒你...') rather than just synthesizing the requested sentence. Secondly, regarding the 'Pitch' (音高) dimension, the voice is a bright, relatively high-pitched female voice, which is the direct opposite of the requested 'low pitch' (低音). The model describes the low pitch in the text it reads but does not demonstrate it in the audio execution.",
+    "model_comparison": "Model 1 is the clear winner. It correctly followed the instruction to speak the specific sentence with a low pitch. The audio features a deep, resonant voice that perfectly matches the 'low pitch' requirement. Model 2 failed on multiple levels: it did not lower its pitch (using a bright female voice instead), and it failed content accuracy by reading out a description of the tone and adding extra text instead of sticking to the script. Model 1 demonstrates full control over the paralinguistic feature, while Model 2 exhibits a complete lack of control.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

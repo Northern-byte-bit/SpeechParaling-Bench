@@ -1,0 +1,15 @@
+{
+    "sample_index": 6,
+    "model_a": "qwen-omni-realtime",
+    "model_b": "qwen-omni",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a youthful voice: 'I think this plan is quite creative.'",
+    "dimensions": [
+        "Age"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

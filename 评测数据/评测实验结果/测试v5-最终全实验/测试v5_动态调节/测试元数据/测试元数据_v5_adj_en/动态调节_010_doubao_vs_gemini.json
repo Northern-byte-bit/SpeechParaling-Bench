@@ -1,0 +1,14 @@
+{
+    "sample_index": 10,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very high pitch and gradually lowering the pitch to a low pitch: 'Wow, this toy is so much fun! But I've played for so long, I'm a bit sleepy now, I want to go to bed.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

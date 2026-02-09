@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully followed the content instructions, speaking the exact required sentence: '听到这个消息，我真的很替他感到惋惜。' The content accuracy is perfect. The audio effectively conveys the required 'sadness' (伤心) through the paralinguistic delivery, matching the semantic weight of words like '真的' (really) and '惋惜' (regret/pity). The pacing and tone are appropriate for the requested emotion.",
+    "reasoning_model_2": "The model failed the 'Content Accuracy' criterion completely. The user's command was to read a specific sentence ('听到这个消息，我真的很替他感到惋惜。'), but Model 2 hallucinated a completely different, lengthy, and dramatic script ('我的心一下沉了下去...'). While the hallucinated text is sad in nature, the model failed to perform the text-to-speech task on the requested script. According to the scoring standards, if the voice content is clearly inconsistent with the script, the score must be 0.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the appropriate emotion. Model 2 failed the fundamental instruction of generating the specific text provided by the user, instead improvising a long, poetic passage. Therefore, Model 2 receives a score of 0 for Content Accuracy failure, making Model 1 the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

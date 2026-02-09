@@ -1,0 +1,14 @@
+{
+    "sample_index": 96,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hesitant tone initially, suddenly switching to an anxious tone: 'My keys... I think I left them on the table? But I can't find them, oh my god, what if I'm late for leaving soon?!'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

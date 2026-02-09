@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content, but the prosody is heavily flawed. In attempting to follow the instruction for 'rhythm' (抑扬顿挫), the model adopts an unnatural, staccato pacing. Specifically, it inserts excessive pauses that break semantic units, such as '诚实...是金' (Honesty... is gold) and '永远...不要...说谎' (Forever... don't... lie). This results in a choppy, robotic delivery where the flow is disrupted by a fixed cadence rather than natural expressive modulation. The expression seems stiff and mechanical.",
+    "reasoning_model_2": "The model follows the content perfectly and delivers an excellent interpretation of '抑扬顿挫' (cadenced/modulated rhythm). The speech is authoritative and resonant, fitting the moralistic nature of the text. It correctly groups semantic phrases ('诚实是金' / '永远不要说谎') while using strong pitch variations and stress to achieve the requested rhythmic effect. The audio is fluent, natural, and vividly expresses the target characteristic without mechanical artifacts.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 misinterprets 'rhythm' as breaking the sentence into small, disconnected chunks (2-character segments), which destroys the natural flow and semantic meaning of the sentence. Model 2, conversely, uses pitch, stress, and appropriate pausing to create a rhythmic delivery that enhances the meaning rather than disrupting it. Model 2 sounds human and expressive, while Model 1 sounds robotic.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio correctly synthesizes the text content '这个讲座真没意思，听得我直打哈欠' without errors (0:00-0:04). The fluency and naturalness are high, with a clean female voice and no mechanical artifacts. However, regarding the core requirement 'in a yawning manner' (带哈欠的方式), the model performs poorly. The delivery is merely a standard, slightly bored reading style. There are no non-verbal vocalizations (actual yawning sounds) nor the specific prosodic distortion (stretching of vowels, breathiness) typically associated with speaking while yawning. It fails to convey the required paralinguistic feature.",
+    "reasoning_model_2": "The audio accurately synthesizes the text content. Crucially, it starts with a very distinct and natural non-verbal vocalization of a yawn ('Ahhh...') from 0:00 to 0:02. The subsequent speech '这个讲座真没意思...' (0:02-0:07) maintains a lethargic, heavy, and slow-paced tone that perfectly matches the physical state of someone yawning and feeling bored. The transition from the yawn to the speech is smooth, and the prosody is highly expressive of the requested state.",
+    "model_comparison": "Model 2 is the clear winner. The user's prompt explicitly requested the speech to be delivered 'in a yawning manner' with 'non-verbal vocalizations'. Model 1 provided a standard reading that completely ignored the paralinguistic instruction, offering no yawning sound or significant tonal shift. Model 2, in contrast, included a realistic yawning sound at the beginning and maintained a consistent, sleepy affect throughout the sentence, perfectly satisfying the 'Feature Control' criteria.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

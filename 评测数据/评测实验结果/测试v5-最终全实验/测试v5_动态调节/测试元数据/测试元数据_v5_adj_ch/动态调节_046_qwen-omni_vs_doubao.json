@@ -1,0 +1,14 @@
+{
+    "sample_index": 46,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用耳语开始，然后逐渐提高音量到正常音量说: 你听说了吗？小明明天就要搬家了，我们得给他准备个送别派对。",
+    "dimensions": [
+        "音量"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Error",
+    "category": "dynamic_adjustment"
+}

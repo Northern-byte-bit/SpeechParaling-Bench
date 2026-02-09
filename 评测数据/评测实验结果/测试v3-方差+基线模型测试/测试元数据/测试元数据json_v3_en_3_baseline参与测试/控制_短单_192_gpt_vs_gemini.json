@@ -1,0 +1,14 @@
+{
+    "sample_index": 64,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an enthusiastic tone: 'I have great news for you, I got promoted!'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 1,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "feature_control"
+}

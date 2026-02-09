@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 failed strictly on Content Accuracy. The user explicitly requested the model to read the specific sentence: 'I'll go to the gym to work out tomorrow morning.' However, Model 1 generated a completely different sentence: 'I'll head to the gym tomorrow morning to get in a solid workout, no excuses'. This constitutes a major hallucination or unauthorized paraphrasing. According to the evaluation criteria, when voice content is clearly inconsistent with the script, the score is 0. Consequently, it is impossible to fairly evaluate the target paralinguistic feature (Age) in the context of the requested script.",
+    "reasoning_model_2": "Model 2 followed the instructions perfectly. Content Accuracy is 100%, matching the script 'I'll go to the gym to work out tomorrow morning.' exactly. The delivery is fluent and natural (0:00-0:04). The voice characteristics align with the 'Adult' requirement, sounding mature and steady, distinct from a child or elderly voice. The prosody is neutral and appropriate for a declarative statement about a daily routine. It meets all criteria for a fully correct generation.",
+    "model_comparison": "Model 2 is the clear winner. The comparison is decided primarily by Content Accuracy. Model 1 failed to read the requested text, substituting it with a paraphrased version ('I'll head to the gym...'). Model 2 read the script exactly as requested while effectively conveying the target 'Adult' voice feature. Model 1's failure to adhere to the script results in a score of 0, making Model 2 superior.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

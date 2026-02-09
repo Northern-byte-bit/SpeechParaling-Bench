@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the text content with no errors. \n1. **Volume (音量)**: The volume is consistent and falls within a normal conversation range, adhering to the 'normal volume' instruction.\n2. **Stress (重音)**: The model effectively executes the command to stress the word '真的' (really). Around the 0:06 mark, the speaker inserts a noticeable pause after '这事听起来', followed by a heavy, emphatic pronunciation of '真的', effectively highlighting the word.\n3. **Cognitive State (认知状态)**: The tone conveys a strong sense of suspicion and disbelief. The speaker uses a slightly hushed, breathy timbre reminiscent of gossiping or sharing a secret doubt. The pacing is deliberate, and the final phrase '我有点怀疑' is delivered with a downward inflection that solidifies the skeptical stance. The emotional expression is vivid and matches the 'suspicous' prompt perfectly.",
+    "reasoning_model_2": "Model 2 accurately follows the text content with no errors.\n1. **Volume (音量)**: The volume is normal and consistent throughout.\n2. **Stress (重音)**: Regarding the instruction to stress '真的', the model attempts this around 0:07. There is a slight emphasis, but it is relatively subtle compared to the surrounding words. It flows into the sentence without the distinct prominence or pause seen in Model 1, making the stress less effective.\n3. **Cognitive State (认知状态)**: The tone captures a general sense of storytelling but lacks a strong, specific flavor of 'suspicion'. The delivery feels somewhat casual or detached, sounding more like a standard reading than an emotional reenactment of doubt. While not completely flat, it fails to vividly convey the required cognitive state of skepticism.",
+    "model_comparison": "Both models succeed in maintaining a normal volume and accurate content. However, Model 1 demonstrates significantly better control over the specific paralinguistic features requested. \n\nFor **Stress**, Model 1 uses a strategic pause and increased weight on '真的' to make it stand out clearly, whereas Model 2's stress is weak and blends into the sentence flow. \n\nFor **Cognitive State**, Model 1 adopts a convincing 'suspicious/gossipy' persona with appropriate breathiness and pacing changes. Model 2 sounds too casual and relaxed, lacking the tension or disbelief associated with suspicion. Therefore, Model 1 is the clear winner in expressing the specific constraints.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

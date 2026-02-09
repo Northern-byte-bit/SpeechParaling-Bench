@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model perfectly follows the content instructions, reading exactly '我的小狗不见了，我好难过。' The audio exhibits high fidelity and naturalness. Regarding the specific dimension '情感' (Emotion - Sadness), the performance is excellent. The speaker uses a slow tempo, a lower pitch, and a heavy, subdued tone that effectively conveys genuine sadness. The pause between the two phrases (0:02) and the trailing intonation at the end reinforce the feeling of loss and sorrow. It is a high-quality, emotionally accurate generation.",
+    "reasoning_model_2": "The model fails significantly in content accuracy. Instead of reading the requested sentence '我的小狗不见了，我好难过。', it generates a long, hallucinated paragraph ('我的小狗不见了，我心都碎了，每天都在等它回来...'). According to the scoring criteria, if voice content is clearly inconsistent with the script or completely changed, the score drops to 0. While the voice has emotional inflection, the severe hallucination of text makes this a completely incorrect generation based on the user command.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with a very natural and convincing sad emotion. The pacing and tone were spot-on for the context of losing a pet. Model 2, on the other hand, failed the primary constraint of the prompt by hallucinating a large amount of unrequested text. Although the hallucinated speech had emotional qualities, the complete disregard for the text constraint constitutes a critical failure. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

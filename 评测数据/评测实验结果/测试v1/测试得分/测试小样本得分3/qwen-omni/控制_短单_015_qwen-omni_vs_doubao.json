@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly adheres to the user's command to use an 'extremely high pitch'. The generated audio (0:00-0:03) features a voice that is significantly pitch-shifted upwards, resembling a falsetto or a high-pitched cry for help. The content '救命啊！我被困在这里了！' is accurate. While the naturalness is slightly impacted by the extreme vocal strain required for the high pitch, it perfectly satisfies the core paralinguistic requirement of '极高音' (extremely high pitch). The emotion fits the urgency of the text.",
+    "reasoning_model_2": "Model 2 generates the correct content '救命啊！我被困在这里了！' with good fluency and naturalness. However, regarding the core paralinguistic requirement 'extremely high pitch', the model fails to execute. The audio (0:00-0:03) presents a standard female voice in a normal speaking register. There is no attempt to raise the pitch to an 'extreme' level as requested. It sounds like a regular reading rather than a high-pitched plea.",
+    "model_comparison": "The user explicitly requested the text to be spoken with an 'extremely high pitch'. Model 1 followed this instruction effectively, producing a result that sounds physically high-pitched and urgent. Model 2 ignored the pitch instruction, delivering the line in a standard, comfortable speaking range. Therefore, Model 1 is the clear winner for following the specific feature control constraint.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

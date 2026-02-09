@@ -1,0 +1,14 @@
+{
+    "sample_index": 94,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hesitant tone initially, suddenly switching to an anxious tone: 'This proposal... I'm still figuring out how to express it more clearly, but there's not much time left, I'm really afraid I won't make the submission deadline for the meeting!'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

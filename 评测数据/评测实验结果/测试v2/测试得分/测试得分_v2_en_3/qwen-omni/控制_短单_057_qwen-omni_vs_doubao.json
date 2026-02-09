@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly adheres to the prompt's content and paralinguistic requirements. The sentence 'Today's sunshine makes one feel very relaxed' is spoken with a distinctively slow tempo (0.0s - 3.5s). Key words like 'sunshine' (0.6s - 1.5s) and 'relaxed' (2.2s - 3.4s) are noticeably elongated, effectively conveying a languid and calm atmosphere. The delivery is fluent, content is accurate, and the core constraint of 'slow pace' is fully realized, matching the semantic meaning perfectly.",
+    "reasoning_model_2": "Model 2 generates high-quality, fluent audio with accurate content, but it fails to adhere to the core paralinguistic instruction of a 'slow pace'. The total duration is significantly shorter (approx 2.5s) compared to Model 1. The delivery is upbeat, energetic, and relatively fast (0.0s - 1.5s is rushed), which directly contradicts the command to be slow and the semantic context of being 'relaxed'. The tone suggests excitement rather than the requested slow, relaxed delivery.",
+    "model_comparison": "Model 1 is the clear winner because it correctly interpreted and executed the 'slow pace' instruction. Model 1's audio is significantly slower (approx 3.5s total) with elongated vowels that fit the context of relaxation. Model 2, while producing high-fidelity audio, ignored the pace constraint entirely, delivering a fast, energetic performance (approx 2.5s) that was inappropriate for the specific command. Model 1 demonstrated superior control over paralinguistic features.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

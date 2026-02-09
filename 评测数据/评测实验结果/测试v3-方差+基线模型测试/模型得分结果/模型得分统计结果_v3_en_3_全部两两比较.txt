@@ -1,0 +1,140 @@
+======= 各模型最终得分（全模型两两比较）=======
+
+=== gemini ===
+总分：152.50
+  Age: 8.50
+  Attitude: 19.50
+  Cognitive State: 17.50
+  Emotion: 14.50
+  Non-Linguistic Vocalizations: 17.00
+  Pace: 13.50
+  Pause: 2.00
+  Pitch: 9.50
+  Rhythm: 19.00
+  Stress: 10.50
+  Timbre: 10.00
+  Volume: 11.00
+
+=== gpt ===
+总分：138.50
+  Age: 9.00
+  Attitude: 21.50
+  Cognitive State: 14.00
+  Emotion: 11.00
+  Non-Linguistic Vocalizations: 19.50
+  Pace: 10.50
+  Pause: 2.50
+  Pitch: 10.50
+  Rhythm: 11.50
+  Stress: 8.00
+  Timbre: 9.50
+  Volume: 11.00
+
+=== doubao ===
+总分：88.50
+  Age: 4.00
+  Attitude: 10.50
+  Cognitive State: 16.50
+  Emotion: 11.50
+  Non-Linguistic Vocalizations: 6.50
+  Pace: 6.00
+  Pause: 1.00
+  Pitch: 8.00
+  Rhythm: 7.00
+  Stress: 2.00
+  Timbre: 8.50
+  Volume: 7.00
+
+=== qwen-omni ===
+总分：39.50
+  Age: 2.50
+  Attitude: 2.50
+  Cognitive State: 5.00
+  Emotion: 5.00
+  Non-Linguistic Vocalizations: 5.00
+  Pace: 0.00
+  Pause: 0.50
+  Pitch: 2.00
+  Rhythm: 4.50
+  Stress: 3.50
+  Timbre: 8.00
+  Volume: 1.00
+
+
+======= 各维度排名 =======
+
+【维度：Age】
+  gpt: 9.00
+  gemini: 8.50
+  doubao: 4.00
+  qwen-omni: 2.50
+
+【维度：Attitude】
+  gpt: 21.50
+  gemini: 19.50
+  doubao: 10.50
+  qwen-omni: 2.50
+
+【维度：Cognitive State】
+  gemini: 17.50
+  doubao: 16.50
+  gpt: 14.00
+  qwen-omni: 5.00
+
+【维度：Emotion】
+  gemini: 14.50
+  doubao: 11.50
+  gpt: 11.00
+  qwen-omni: 5.00
+
+【维度：Non-Linguistic Vocalizations】
+  gpt: 19.50
+  gemini: 17.00
+  doubao: 6.50
+  qwen-omni: 5.00
+
+【维度：Pace】
+  gemini: 13.50
+  gpt: 10.50
+  doubao: 6.00
+  qwen-omni: 0.00
+
+【维度：Pause】
+  gpt: 2.50
+  gemini: 2.00
+  doubao: 1.00
+  qwen-omni: 0.50
+
+【维度：Pitch】
+  gpt: 10.50
+  gemini: 9.50
+  doubao: 8.00
+  qwen-omni: 2.00
+
+【维度：Rhythm】
+  gemini: 19.00
+  gpt: 11.50
+  doubao: 7.00
+  qwen-omni: 4.50
+
+【维度：Stress】
+  gemini: 10.50
+  gpt: 8.00
+  qwen-omni: 3.50
+  doubao: 2.00
+
+【维度：Timbre】
+  gemini: 10.00
+  gpt: 9.50
+  doubao: 8.50
+  qwen-omni: 8.00
+
+【维度：Volume】
+  gemini: 11.00
+  gpt: 11.00
+  doubao: 7.00
+  qwen-omni: 1.00
+
+
+======= 跳过的样本编号（winner_position = -1）=======
+53

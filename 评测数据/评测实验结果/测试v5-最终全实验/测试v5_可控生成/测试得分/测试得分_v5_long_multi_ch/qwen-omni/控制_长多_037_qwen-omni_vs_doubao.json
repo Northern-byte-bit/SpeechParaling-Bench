@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio from Model 1 strictly follows the content of the script without any errors. Regarding the 'Pitch' dimension, the model uses a deep male voice with a consistently low register throughout the utterance, perfectly aligning with the 'low pitch' (低音) requirement. For the 'Attitude' dimension (Perfunctory/敷衍), the delivery is exceptional. The pacing is deliberate and slightly dragging, particularly on '嗯，好' (0:00-0:02) and '知道了' (0:02-0:03), which are spoken with a flat, sigh-like intonation. The phrase '反正最后结果跟我没关系' (0:05-0:09) is delivered with a lack of modulation and energy that effectively conveys disinterest and a dismissive 'I don't care' attitude. The audio feels natural and human-like.",
+    "reasoning_model_2": "The audio from Model 2 follows the text script accurately. However, it completely fails the paralinguistic requirements. For the 'Pitch' dimension, the voice is a high-pitched female or child-like voice, which is the exact opposite of the requested 'low pitch' (低音). For the 'Attitude' dimension, the delivery is bright, energetic, and cheerful. Phrases like '你看着办吧' and '你们自己决定就好' are spoken with an upward, enthusiastic inflection typical of standard reading styles, showing engagement rather than the requested 'perfunctory' (敷衍) or dismissive tone. It sounds like a generic happy narration rather than a specific emotional performance.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. Model 1 accurately interpreted the command for a 'low pitch' voice and a 'perfunctory' attitude, delivering a performance that felt genuinely dismissive and deep-toned. Model 2 failed on both counts; it generated a high-pitched, cheerful voice that contradicted both the pitch constraint and the emotional context required by the prompt. Model 1 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the specific sentence: 'Paris is the capital and largest city of France.' However, Model 1 hallucinated and changed the text significantly. At 0:00-0:05, the model says: 'Paris is the capital of France and one of the largest cities in Europe.' This deviates from the script, altering the semantic scope (changing 'largest city of France' to 'one of the largest cities in Europe'). While the tone is calm and relatively neutral, the failure to read the provided text accurately constitutes a complete failure in Content Accuracy as per the scoring criteria.",
+    "reasoning_model_2": "Model 2 follows the instructions perfectly. Content Accuracy is 100%, reading 'Paris is the capital and largest city of France' (0:00-0:04). The fluency is high with natural pacing and clear articulation. Regarding the paralinguistic requirement, the tone is perfectly neutral—informative, steady, and devoid of strong emotional coloring, effectively sounding like a standard documentary or assistant narration.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the primary constraint of reading the specific text provided, altering the sentence structure and meaning significantly (hallucination). Model 2 delivered the correct text with high naturalness and the requested neutral emotion.",
+    "score_1": 0,
+    "score_2": 3,
+    "winner": 2
+}

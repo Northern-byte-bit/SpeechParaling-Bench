@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully integrates the requested non-linguistic vocalization (hiccups) into the speech. From 0:00 to 0:05, the speaker exhibits realistic involuntary spasms, glottal stops, and breathiness characteristic of hiccups. Specifically, distinct hiccup sounds are audible at roughly 0:02s and 0:04s, disrupting the flow of speech naturally. While the content does not perfectly match the script (saying 'I... I... Oh... I think I... I have the... hiccups' instead of 'Ugh, I think I, ugh, have the hiccups'), the textual deviations (stammers and replacements) serve to enhance the realism of the paralinguistic feature. The physical struggle of speaking while hiccuping is portrayed convincingly.",
+    "reasoning_model_2": "The model completely fails to incorporate the requested paralinguistic feature. The audio consists of a clear, fluent, and cheerful female voice reading the text without any trace of hiccups, spasms, or interruptions. Furthermore, the model hallucinates by repeating the sentence twice ('Ah, I think I have the hiccups. I think I have the hiccups') and altering the starting word 'Ugh' to 'Ah'. There are no non-linguistic vocalizations present.",
+    "model_comparison": "Model 1 strictly adheres to the paralinguistic instruction, generating realistic hiccups that disrupt the speech flow in a human-like manner. Although it modifies the text slightly to accommodate the effect, the target feature is vivid and prominent. Model 2 fails completely; it produces a standard TTS reading with no hiccups and unnecessarily repeats the sentence. Model 1 is the clear winner for effectively generating the Non-Linguistic Vocalizations.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

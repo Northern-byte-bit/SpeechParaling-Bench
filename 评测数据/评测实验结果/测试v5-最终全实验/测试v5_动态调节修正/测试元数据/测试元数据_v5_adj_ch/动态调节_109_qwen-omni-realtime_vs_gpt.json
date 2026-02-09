@@ -1,0 +1,14 @@
+{
+    "sample_index": 109,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用敷衍的态度开始，然后突然转变为真诚说：嗯，好的，我知道了，下次注意。等等，你说的问题确实很重要，我以前都没意识到，谢谢你提醒我。",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

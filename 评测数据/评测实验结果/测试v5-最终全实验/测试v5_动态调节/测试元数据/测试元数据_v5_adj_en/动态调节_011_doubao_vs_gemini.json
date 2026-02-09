@@ -1,0 +1,14 @@
+{
+    "sample_index": 11,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very high pitch and gradually lowering the pitch to a low pitch: 'I finally solved this difficult problem! The key was here all along; just use this method and it'll be easily resolved.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

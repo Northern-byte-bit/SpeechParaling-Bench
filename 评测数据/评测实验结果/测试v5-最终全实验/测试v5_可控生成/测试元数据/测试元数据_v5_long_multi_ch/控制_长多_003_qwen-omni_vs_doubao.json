@@ -1,0 +1,16 @@
+{
+    "sample_index": 3,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用极高音的声调快速地说：妈妈快看，这只小兔子跑得好快呀，一下子就跳到那边去了！它是不是要去吃胡萝卜呀？我也想跟着它一起去玩！",
+    "dimensions": [
+        "音高",
+        "语速"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 0
+}

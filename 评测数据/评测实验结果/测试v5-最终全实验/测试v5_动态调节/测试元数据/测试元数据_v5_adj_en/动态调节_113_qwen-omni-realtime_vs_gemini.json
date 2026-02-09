@@ -1,0 +1,14 @@
+{
+    "sample_index": 113,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a polite tone initially, gradually transitioning to a rude tone: 'Excuse me, did you cut in line? Hey! Didn't you hear me? Don't block the way, there are other people waiting behind!'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

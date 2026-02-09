@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately transcribes the script 'I understand your feelings, but, we must follow the rules.' regarding content. In terms of the specific instruction to include a 'clear pause after the word but', the model performs exceptionally well. At timestamp 00:02, after the word 'but', there is a distinct and deliberate period of silence lasting nearly a full second before the speaker resumes with 'we must follow the rules' at 00:03. The audio quality is high, the pronunciation is clear, and the pause is executed exactly as requested, making the sentence sound authoritative yet measured.",
+    "reasoning_model_2": "The model speaks the correct words, but fails completely regarding the specific paralinguistic instruction. The phrase 'but we must follow the rules' is spoken rapidly between 00:01 and 00:03 as a single, continuous stream of speech. There is absolutely no pause after the word 'but'; in fact, the transition from 'but' to 'we' is immediate and rushed. The overall naturalness is also lower, with a slightly frantic pace that does not match the gravity of the statement.",
+    "model_comparison": "Model 1 followed the user's specific instruction to place a clear pause after the word 'but', creating a distinct separation in the sentence structure that aligns perfectly with the prompt. Model 2 ignored this instruction entirely, rushing through the conjunction 'but' and immediately connecting it to the following clause without any silence. Consequently, Model 1 demonstrates superior control over prosody and instruction following.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

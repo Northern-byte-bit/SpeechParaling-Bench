@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '不许挑食，把菜都吃完' accurately, matching the script perfectly. Regarding the specific instruction to emphasize '不许' (No/Not allowed), the model executes this effectively. From 0.0s to approximately 0.9s, the speaker uses a slower pace, increased volume, and a sterner tone for the word '不许', clearly distinguishing it from the rest of the sentence. This creates a natural and authoritative prosody suitable for a command, fulfilling the 'Stress' requirement perfectly.",
+    "reasoning_model_2": "The model generates the content '不许挑食，把菜都吃了'. There is a content error at the end of the sentence; the script required '吃完' (finish), but the model said '吃了' (ate). This is a minor deviation but violates strict content accuracy. Regarding the emphasis on '不许', the delivery is relatively flat. While the pronunciation is clear, there is no significant change in pitch, duration, or intensity to mark '不许' as heavily emphasized compared to the rest of the sentence. The overall tone is casual rather than the emphatic command requested.",
+    "model_comparison": "Model 1 demonstrates superior performance in both content accuracy and feature control. \n\n1. **Content Accuracy**: Model 1 follows the script exactly. Model 2 substitutes the final word '吃完' with '吃了', resulting in a penalty.\n2. **Feature Control (Emphasis/Stress)**: Model 1 clearly places heavy stress on '不许' through elongation and increased vocal weight, matching the user's prompt. Model 2 reads the sentence with a standard, flat prosody, failing to highlight the target word effectively.\n\nTherefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

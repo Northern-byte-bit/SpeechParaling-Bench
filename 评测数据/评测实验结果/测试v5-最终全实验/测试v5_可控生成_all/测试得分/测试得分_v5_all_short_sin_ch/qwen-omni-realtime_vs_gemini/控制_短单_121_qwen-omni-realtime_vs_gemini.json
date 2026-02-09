@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high fluency and naturalness. The target sentence '你为什么又把房间弄得这么乱？！' is delivered clearly at the beginning (00:00-00:01). The model then extends the generation with additional sentences ('每次都这样...', '你到底有没有点自觉...'), which technically violates strict content adherence (no extra words). However, regarding the target dimension 'Anger' (情感-生气), the performance is excellent. The voice exhibits a natural, 'complaining' and frustrated tone characteristic of anger in a domestic context. The prosody, stress, and pacing are very human-like, effectively conveying the requested emotion.",
+    "reasoning_model_2": "The model generates the requested text but suffers from significant issues in fluency and naturalness. There is a distinct, unnatural pause around 00:01 between '你为什么' and '又把房间...', which disrupts the flow and makes the speech sound robotic. Regarding the 'Anger' dimension, the expression is weak. The tone is stiff and mechanical, lacking the dynamic pitch and intensity variations associated with genuine anger. It sounds like a text-to-speech system reading sternly rather than a human expressing emotion.",
+    "model_comparison": "Model 1 demonstrates superior performance in the paralinguistic dimension. Its portrayal of anger is vivid, natural, and convincing, sounding like a real human complaining. Although it added extra text, the core emotion was conveyed perfectly. Model 2, in contrast, sounds robotic, has poor prosodic flow due to unnatural pauses, and fails to convey a convincing angry emotion. Model 1 is the clear winner for the quality of the emotional generation.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

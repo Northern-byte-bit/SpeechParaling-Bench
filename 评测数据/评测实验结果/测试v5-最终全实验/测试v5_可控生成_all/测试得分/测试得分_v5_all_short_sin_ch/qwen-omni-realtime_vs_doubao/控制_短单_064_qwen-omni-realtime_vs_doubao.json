@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails to strictly follow the text-to-speech instruction. While it correctly articulates the core phrase '请大家注意，会议马上开始了' (00:00-00:02), it hallucinates and appends an extra sentence '声音要大一点，别错过时间' (Voice needs to be louder, don't miss the time) from 00:02 to 00:04. Regarding the target feature 'Volume' (音量), the audio is delivered at a standard, conversational volume level. There is no significant increase in loudness or projection that would characterize 'loud volume' or a public announcement style. The model seems to interpret the instruction to be loud as part of the spoken content rather than a paralinguistic directive to execute.",
+    "reasoning_model_2": "Model 2 follows the text script perfectly, saying only '请大家注意，会议马上开始了！' (00:00-00:03) without any omissions or additions. In terms of the target feature 'Volume' (音量), the model successfully adopts a 'shouting' or highly projected vocal style consistent with making a loud announcement to a group. The vocal effort is clearly audible, with higher pitch and intensity typical of loud speech, effectively conveying the urgency and volume requested in the prompt.",
+    "model_comparison": "Model 2 is the clear winner. First, Model 2 adheres strictly to the requested text, whereas Model 1 hallucinates additional dialogue ('声音要大一点...'). Second, and most importantly for this evaluation, Model 2 accurately implements the 'Loud Volume' instruction by generating audio that sounds projected and shouted, fitting the context of an announcement. Model 1 maintains a normal conversational volume and fails to execute the paralinguistic command.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully integrates the paralinguistic feature of hiccups into the speech. The text '呃，我好像，呃，打嗝了' is recited accurately. Crucially, the model transforms the filler words '呃' at 00:00 and 00:02 into realistic, involuntary hiccup sounds (a sharp, slightly strained intake of breath/vocalization). The surrounding speech ('我好像', '打嗝了') maintains a strained timbre consistent with the physical sensation of hiccupping. The performance is natural and vivid, fully adhering to the user's command.",
+    "reasoning_model_2": "The model fails to adhere to the script and the paralinguistic command. Firstly, regarding content accuracy, the model omits the two '呃' characters from the script, saying only '我……好像……打嗝了'. Secondly, regarding the feature '非语言发声' (hiccups), there are no audible hiccup sounds. The model merely inserts pauses between the words. The tone is a standard reading voice without the physical affect or sound characteristics of someone hiccupping. The absence of the specific non-verbal vocalization requested makes this a failure.",
+    "model_comparison": "Model 1 (T1) is the clear winner. It accurately follows the text script and successfully performs the requested 'hiccup' effect, modifying the vocalization of specific words to sound like genuine hiccups. Model 2 (T2) fails on two counts: it omits parts of the text script (the '呃's) and fails to generate the requested hiccup sound, delivering a flat reading with simple pauses instead. T1 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

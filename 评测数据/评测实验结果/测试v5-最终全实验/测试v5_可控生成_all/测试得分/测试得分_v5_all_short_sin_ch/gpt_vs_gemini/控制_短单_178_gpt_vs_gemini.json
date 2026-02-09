@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with a consistent sleepy and lethargic tone, fitting the context of the command. The initial 'Ah~' (0.0s-1.2s) is delivered as a prolonged, breathy sigh that effectively simulates the manner of speaking while tired or suppressing a yawn. The prosody is slow and relaxed. While the text has a minor omission (missing the particle '啊' after '我好困'), the paralinguistic execution of the 'yawning manner' is natural and integrated well into the speech flow, making the speaker sound genuinely drowsy.",
+    "reasoning_model_2": "The model attempts to insert non-verbal sounds but fails to accurately capture the acoustic characteristics of a yawn. The sounds produced at the beginning (0.0s-0.5s) and in the middle (approx 1.5s) resemble short, sharp gasps or panting (like someone out of breath from exercise) rather than the deep, prolonged inhalation and exhalation of a yawn. The insertion of an extra sound 'Wah' breaks the flow. The speech sounds disjointed from the effects, and the high-energy 'panting' contradicts the 'sleepy' semantic context. It also misses the particle '啊' in the text.",
+    "model_comparison": "Model 1 (T1) significantly outperforms Model 2 (T2) in the dimension of '非语言发声' (Non-verbal vocalization/Yawning). T1 correctly interprets 'speak with a yawn' as a modification of the prosody—using a breathy, slow, and tired tone that naturally mimics the physiological state of yawning/sleepiness. T2, conversely, hallucinates incorrect non-verbal sounds that sound like hyperventilation or panting, which are semantically opposite to the low-arousal state of sleepiness. T1 is natural and coherent; T2 is unnatural and jarring.",
+    "score_1_1": 2,
+    "score_2_1": 1,
+    "winner_1": 1
+}

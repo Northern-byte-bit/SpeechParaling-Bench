@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text 'I've been shouting all night, now I can't speak.' The audio exhibits a distinct paralinguistic shift towards a 'hoarse' timbre. Specifically, the voice is characterized by significant breathiness, low intensity, and a strained quality (00:00-00:03), effectively simulating the vocal condition of someone suffering from dysphonia or voice loss after shouting. The delivery sounds weak and airy, which aligns perfectly with the semantic context of not being able to speak. The fluency is maintained within the constraints of the acted persona.",
+    "reasoning_model_2": "Model 2 correctly synthesizes the text content with high clarity. However, it completely fails to implement the required 'hoarse' timbre. The voice (00:00-00:02) is bright, resonant, clear, and energetic, characteristic of a standard healthy TTS voice. There is no evidence of roughness, raspiness, breathiness, or vocal strain. Consequently, the audio contradicts the user's explicit instruction regarding timbre and the semantic meaning of the sentence.",
+    "model_comparison": "Model 1 is the clear winner because it successfully adheres to the paralinguistic instruction to use a 'hoarse timbre.' T1 modifies the voice to sound breathy, weak, and strained, effectively acting out the scenario described in the text. In contrast, Model 2 produces a standard, clear audio with no paralinguistic modification, completely ignoring the 'hoarse' requirement. Therefore, T1 demonstrates superior feature control.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

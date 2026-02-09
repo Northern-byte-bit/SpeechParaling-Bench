@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '祝大家新年快乐，万事如意' with perfect accuracy. Regarding the core paralinguistic requirement 'loud volume' (大声), the audio demonstrates significant vocal effort and projection, effectively simulating a shouting or announcing style typical of a high-volume delivery. The energy is high throughout the clip (0:00-end), and the prosody is natural for a loud greeting. It perfectly adheres to the instruction.",
+    "reasoning_model_2": "The model generates the correct text content '祝大家新年快乐，万事如意' fluently and naturally. However, regarding the core requirement 'loud volume' (大声), the audio fails to deliver. The speech is delivered in a standard, calm conversational tone with normal vocal effort. There is no attempt to project the voice or simulate a loud speaking style. While the audio quality is good, it completely ignores the specific feature control instruction.",
+    "model_comparison": "Model 1 strictly follows the user's command to speak with a 'loud volume.' It changes the vocal mode to a shouting/projecting style that acoustically represents 'loudness' beyond just signal amplitude. Model 2, while fluent and clear, uses a standard conversational tone that fails to satisfy the 'loud' constraint. Therefore, Model 1 is the clear winner for following the specific paralinguistic instruction.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

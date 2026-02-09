@@ -1,0 +1,15 @@
+{
+    "sample_index": 53,
+    "model_a": "gemini",
+    "model_b": "qwen-omni",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a nervous tone: 'The plane is about to take off, I'm a bit afraid of heights.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

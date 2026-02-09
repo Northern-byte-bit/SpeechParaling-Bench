@@ -1,0 +1,14 @@
+{
+    "sample_index": 69,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用急促的节奏开始，然后突然转变为断续说：这份报告必须在下班前完成，时间不多了。数据，分析，结论……等等，这页数据好像有问题。",
+    "dimensions": [
+        "节奏"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model perfectly follows the content instructions, reading the script 'Great! We haven't seen each other for ages, let's have fun tonight!' word-for-word without errors. The audio exhibits high fluency and naturalness, indistinguishable from human speech. In terms of the target emotion 'Happy', the performance is excellent. From 0:00 to 0:05, the speaker starts with an energetic and high-pitched 'Great!', immediately setting a joyful tone. The phrase 'let's have fun tonight' (0:03-0:05) is delivered with genuine enthusiasm and an upbeat cadence. The emotion is vivid and consistent throughout the clip, fully satisfying the requirements.",
+    "reasoning_model_2": "The model fails the primary content accuracy criterion completely. Instead of reading the required script ('Great! We haven't seen each other for ages, let's have fun tonight!'), the model hallucinates a completely different sentence: 'Oh wow, it's been forever since we last met, and I'm so thrilled we're finally getting together tonight. Let's make it unforgettable.' While the emotion expressed is indeed happy/excited, the instruction to 'read this sentence' was violated. According to the scoring standard, a score of 0 applies when content is clearly inconsistent with the script.",
+    "model_comparison": "Model 1 is the clear winner. It accurately read the provided text with the requested happy emotion, demonstrating high-quality synthesis and naturalness. Model 2 failed the task entirely by paraphrasing the text instead of reading it verbatim. Although Model 2 attempted a happy tone, the complete failure in content accuracy renders the generation invalid for a text-to-speech reading task.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

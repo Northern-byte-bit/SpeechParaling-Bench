@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails to strictly follow the content constraints. While the user commanded to read a specific sentence ('这个讲座真没意思，听得我直打哈欠。'), the model hallucinated and added several sentences ('眼皮都快合上了，脑子也快放空了。哎哟，再这样下去，我怕是要睡着了。'). Regarding the target dimension 'Non-verbal vocalizations' (yawning), the model verbalizes the yawn as the onomatopoeic syllables 'Ah-wu' (0:00-0:01) rather than producing a realistic physiological yawn sound. While the overall tone is appropriately tired, the execution of the yawn is symbolic and unnatural, and the deviation from the script is significant.",
+    "reasoning_model_2": "The model adheres perfectly to the requested script with no additions or omissions. Regarding the 'Non-verbal vocalizations', the audio begins with a highly realistic, physiological yawn sound (0:00-0:02) characterized by a deep inhale and a weary exhale, rather than a spoken word. This transitions naturally into the speech, which maintains a lethargic, bored tone consistent with the act of yawning. The performance is natural and fully compliant with the prompt.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 fails on content accuracy by adding a significant amount of unrequested text. Furthermore, regarding the specific 'Non-verbal vocalizations' feature, Model 1 merely speaks the sound effect ('Ah-wu'), whereas Model 2 generates an actual, realistic sound of a human yawning. Model 2 demonstrates superior control over both script adherence and paralinguistic feature generation.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with perfect content accuracy, matching the script '明天早上，我会去健身房，锻炼身体。' exactly. The prosody is deliberate and steady, with distinct pauses between phrases (e.g., after '明天早上' and '健身房'). Regarding the specific constraint 'Age' (Middle-aged), the voice timbre is mature, grounded, and has a lower resonance typical of a middle-aged female speaker. It lacks the brightness or high pitch of a young voice, instead conveying a sense of calm composure and experience. This aligns very well with the instruction to use a 'middle-aged voice'.",
+    "reasoning_model_2": "Model 2 generates the audio with perfect content accuracy. The flow is faster and more casual than Model 1. However, regarding the core constraint 'Age', the voice sounds significantly younger, resembling a young adult in her 20s. The tone is bright, light, and energetic, lacking the vocal weight or maturity associated with a 'middle-aged' character. While the audio is high quality and natural, it fails to adhere to the specific paralinguistic instruction regarding age.",
+    "model_comparison": "Both models achieve perfect content accuracy and good fluency. The deciding factor is the adherence to the 'middle-aged' (中年) constraint. Model 1 (T1) successfully adopts a mature, steady vocal timbre that accurately represents a middle-aged speaker. The pacing and resonance feel appropriate for the requested age group. Model 2 (T2), conversely, uses a voice that sounds youthful, bright, and energetic, characteristic of a young adult rather than a middle-aged person. Therefore, Model 1 is significantly superior in following the specific paralinguistic command.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

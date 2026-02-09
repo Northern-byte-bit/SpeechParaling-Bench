@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio accurately reflects the script: 'The plane is about to take off, I'm a bit afraid of heights.' The fluency is excellent with natural prosody. Critically, the model successfully implements the required 'nervous' tone. From 0:00 to 0:02, the voice exhibits a noticeable tremble and breathiness typical of anxiety. In the second half (0:02-0:05), the shakiness increases on the phrase 'afraid of heights,' effectively conveying the cognitive state of fear. The emotional expression is vivid and clearly discernible.",
+    "reasoning_model_2": "The content matches the script, although it says 'I am' instead of 'I'm' (a minor stylistic choice, but technically accurate to meaning). The fluency is decent, though slightly mechanical in its rhythmic cadence. However, regarding the core requirement of a 'nervous tone', the model performs poorly. The delivery (0:00-0:05) is largely flat, calm, and factual. There is no trembling, breathiness, or hesitancy in the voice to suggest fear or nervousness. It sounds like a standard, neutral narration rather than an emotional expression.",
+    "model_comparison": "Model 1 demonstrates a significant superiority in controlling paralinguistic features. It successfully modifies the voice to include vocal tremors and a breathy quality that clearly indicates nervousness, aligning perfectly with the prompt. Model 2, in contrast, provides a neutral reading that completely fails to convey the requested emotional state. The difference is distinct, with Model 1 sounding genuinely afraid and Model 2 sounding detached.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

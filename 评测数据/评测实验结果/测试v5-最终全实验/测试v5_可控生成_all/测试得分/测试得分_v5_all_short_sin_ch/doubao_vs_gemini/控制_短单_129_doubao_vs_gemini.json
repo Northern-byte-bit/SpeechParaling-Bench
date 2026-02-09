@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text '天啊，这里怎么会有这种东西！' without any errors. The audio is fluent and the voice quality is high. However, regarding the specific command to use 'disgust' (厌恶), the model performs poorly. The delivery from 0:00 to 0:03 is characterized by a high-pitched, bright tone typical of generic 'surprise' or 'shock' rather than 'disgust'. It sounds like a polite exclamation (e.g., finding a gift) rather than a reaction to something repulsive. There are no paralinguistic cues of aversion, nausea, or disdain in the prosody.",
+    "reasoning_model_2": "Model 2 accurately synthesizes the text content. The speech is natural and human-like. In terms of the target emotion 'disgust', the model succeeds significantly. The initial '天啊' (0:00-0:01) is delivered with a heavy, downward inflection and a sigh-like quality that conveys annoyance and repulsion. The subsequent phrase '这里怎么会有这种东西' (0:01-0:04) maintains a tone of disdain and rejection. The prosody correctly mirrors the feeling of encountering something gross or unwanted, fitting the '厌恶' prompt perfectly.",
+    "model_comparison": "Both models are excellent in terms of content accuracy and audio fidelity/fluency. However, they differ drastically in their interpretation of the emotional prompt. Model 1 provides a 'Surprised' tone, which completely misses the nuance of 'Disgust'. It sounds too bright and positive/neutral. Model 2 captures the requested 'Disgust' accurately, with appropriate changes in pitch, pacing, and tone color (sounding annoyed and repulsed). Therefore, Model 2 is the clear winner for complying with the paralinguistic instruction.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

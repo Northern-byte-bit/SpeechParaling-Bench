@@ -1,0 +1,14 @@
+{
+    "sample_index": 77,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用开心的语气开始，然后突然转变为伤心的情感说：太好了！我们期盼已久的孩子终于要出生了！不过，医生说孩子有先天性疾病，这可怎么办？",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 64,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-2.5-pro",
+    "demand": "请用热情的语气说：我告诉你个好消息，我升职了！",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the content 'Hope you have a wonderful day' accurately. However, regarding the paralinguistic features: 1) **Pace**: The speech is delivered at a standard, conversational rate (approx. 1.8 seconds total duration), failing to exhibit the requested 'slow pace'. The delivery feels efficient rather than relaxed. 2) **Pause**: The model fails to insert the requested pause. The phrase 'wonderful day' (1.1s - 1.6s) is spoken as a continuous unit with standard prosody, ignoring the instruction to pause after 'wonderful'. 3) **Timbre**: The voice is clear but sounds like a standard neutral TTS voice. It lacks the requested 'sweet' quality, sounding more functional than warm or affectionate.",
+    "reasoning_model_2": "The model produces the correct text with high content accuracy. 1) **Pace**: The delivery is noticeably slower and more deliberate, extending the total duration to approximately 3.2 seconds, which successfully meets the 'slow pace' requirement. 2) **Pause**: There is a distinct, intentional silence (approx. 0.5 seconds) detected immediately after the word 'wonderful' (ending at 2.1s) and before 'day' starts (at 2.6s), perfectly adhering to the specific pause constraint. 3) **Timbre**: The voice adopts a soft, breathy, and warm tone, effectively capturing the 'sweet' timbre requested by the user.",
+    "model_comparison": "Model 2 demonstrates superior performance across all controllable dimensions. While Model 1 provided a fluent but standard reading of the text, it failed to incorporate any of the specific style instructions (Timbre, Pace, Pause). Model 2, conversely, exhibited excellent instruction following: it successfully modulated the voice to be sweet, slowed down the pacing significantly, and correctly executed the specific prosodic break after 'wonderful'. Model 1 is a standard generation, whereas Model 2 is a controlled generation.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

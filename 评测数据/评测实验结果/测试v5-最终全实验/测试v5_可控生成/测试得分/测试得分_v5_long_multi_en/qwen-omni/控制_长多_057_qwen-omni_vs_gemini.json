@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 delivers the text with high content accuracy, although it expands the contraction \"I'm\" to \"I am\" at 00:08. In terms of the required paralinguistic features: \n1. **Cognitive State (Doubting):** The tone adopted is somewhat lively and expresses mild surprise or amazement (e.g., at 00:05-00:07 \"This story really sounds a bit incredible\") rather than genuine skepticism or doubt. The delivery feels more like a storyteller narrating an exciting event rather than a person expressing suspicion.\n2. **Stress:** The user requested \"heavy stress\" on the word 'really'. At 00:06, the model reads \"really\" quickly and without any additional emphasis, pitch change, or elongation. It completely blends into the flow of the sentence, failing this constraint.\n3. **Volume:** The volume is consistent and falls within the 'normal' range throughout the clip.",
+    "reasoning_model_2": "Model 2 also expands \"I'm\" to \"I am\" at 00:13, but the content is otherwise accurate. Regarding the features:\n1. **Cognitive State (Doubting):** The model excels here. From 00:00 to 00:07, it uses rising intonation at the end of clauses (\"...alone last night?\", \"...lights out?\") which mimics the prosody of someone questioning the validity of a claim. The tone is heavily skeptical and incredulous, perfectly matching the 'doubting' requirement.\n2. **Stress:** At 00:09, the model places heavy stress on the word \"really\". It pauses slightly before the word and significantly elongates the vowel sound (\"reeeaally\"), making it the most prominent word in the sentence. This perfectly satisfies the constraint.\n3. **Volume:** The volume is normal and well-balanced.",
+    "model_comparison": "Model 2 is the clear winner across the expressive dimensions. \n\n**Cognitive State:** Model 1 failed to convey a doubting tone, instead sounding cheerful or mildly surprised. Model 2, conversely, utilized specific prosodic changes (rising inflection, questioning tone) to authentically convey skepticism.\n\n**Stress:** Model 1 completely ignored the instruction to stress the word 'really'. Model 2 executed this perfectly by elongating the word and isolating it with timing, demonstrating excellent control.\n\n**Volume:** Both models adhered to the normal volume constraint.\n\nBecause Model 2 followed all instructions accurately while Model 1 failed two out of three specific stylistic constraints, Model 2 is superior.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

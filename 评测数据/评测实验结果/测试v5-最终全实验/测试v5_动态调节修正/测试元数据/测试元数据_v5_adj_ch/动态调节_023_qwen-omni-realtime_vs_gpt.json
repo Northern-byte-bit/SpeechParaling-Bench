@@ -1,0 +1,14 @@
+{
+    "sample_index": 23,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用浑厚的音质开始，然后逐渐变得甜美说: '欢迎大家来到今晚的音乐盛典，接下来有请知名歌手登场。不过，我悄悄告诉你，他最喜欢吃冰淇淋了。'",
+    "dimensions": [
+        "音质"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

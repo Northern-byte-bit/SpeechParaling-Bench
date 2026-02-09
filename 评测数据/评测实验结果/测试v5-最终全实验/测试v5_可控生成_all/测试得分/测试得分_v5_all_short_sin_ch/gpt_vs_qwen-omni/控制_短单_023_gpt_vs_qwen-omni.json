@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text '别担心，一切都会好起来的' (0.00s - 2.80s) correctly with no pronunciation errors. The speech is fluent and natural with a comforting tone. However, regarding the core requirement 'low pitch' (低音), the audio features a standard female voice in a medium register. There is no perceptible effort to lower the pitch significantly or adopt a 'low tone' style requested by the user. The pitch remains average for a female speaker, failing to demonstrate the specific controllable feature 'low pitch' distinctively.",
+    "reasoning_model_2": "The model generates the text '别担心，一切都会好起来的' (0.00s - 3.84s) accurately. The fluency is high, with a natural, deliberate pacing that fits the comforting message. Regarding the 'low pitch' (低音) requirement, the model uses a deep, resonant voice (sounding male or pitch-shifted low) that strictly adheres to the instruction. The voice operates in a very low frequency range, effectively conveying the 'low pitch' characteristic throughout the entire sentence. The execution is vivid and matches the prompt perfectly.",
+    "model_comparison": "Both models produce accurate content and fluent speech. The decisive factor is the adherence to the 'low pitch' (低音) constraint. Model 1 produces a standard female voice with average pitch, ignoring the specific request for a low tone. Model 2 produces a significantly deeper, lower-pitched voice that perfectly aligns with the user's command. Therefore, Model 2 demonstrates superior control over the paralinguistic feature.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

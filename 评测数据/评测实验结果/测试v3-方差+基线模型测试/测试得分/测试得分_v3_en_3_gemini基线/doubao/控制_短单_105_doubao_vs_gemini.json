@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the specific text requested: 'The key lies in communication, we must remain open.' Content accuracy is perfect (Score 3). In terms of paralinguistic compliance (Stress), the model places significant emphasis on the word 'key' (timestamp approx. 0.2s - 0.7s). The word is spoken with increased volume, higher pitch, and elongated duration compared to the surrounding words, creating a strong contrast that perfectly satisfies the user's constraint. The fluency and naturalness are excellent, sounding very human-like.",
+    "reasoning_model_2": "The model fails completely to generate the requested audio content. Instead of reading the sentence 'The key lies in communication, we must remain open.', the model outputs a conversational response: 'Sure. Which word should I stress?' (timestamp 0.0s - 2.0s). This indicates a failure to follow the instruction contained in the prompt, treating it as a dialogue turn requiring clarification rather than a text-to-speech command with constraints. According to the scoring standard, voice content clearly inconsistent with the script results in a score of 0.",
+    "model_comparison": "Model 1 followed the instructions perfectly. It read the correct text and applied the requested stress on the word 'key' effectively and naturally. Model 2 failed to perform the task entirely, producing a conversational refusal/query instead of the target speech. Therefore, Model 1 is the clear winner.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

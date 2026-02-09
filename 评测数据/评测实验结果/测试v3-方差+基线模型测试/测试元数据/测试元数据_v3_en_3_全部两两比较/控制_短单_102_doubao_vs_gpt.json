@@ -1,0 +1,15 @@
+{
+    "sample_index": 34,
+    "model_a": "doubao",
+    "model_b": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with emphasis on 'here': 'The document should be placed here, not over there.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "feature_control"
+}

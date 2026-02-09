@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 perfectly follows the text instruction '你回来了？怎么没告诉我一声！'. At 00:00, the pitch rises significantly on '你回来了', creating a genuine tone of surprise and disbelief. The second part, '怎么没告诉我一声' (00:01-00:02), is delivered with a slightly faster pace and a breathy quality, effectively conveying the urgency and excitement associated with the surprise. The prosody is natural and human-like, fully meeting the criteria for a score of 3.",
+    "reasoning_model_2": "Model 2 completely fails the content accuracy requirement. Instead of reading the specific sentence provided ('你回来了？怎么没告诉我一声！'), it hallucinates a long, improvised paragraph starting with '哇，你真的回来了，我简直不敢相信...' (00:00-00:10). According to the evaluation criterion, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, despite the emotional tone being relevant, the complete deviation from the requested text results in a score of 0.",
+    "model_comparison": "Model 1 is the clear winner. It accurately synthesizes the requested text with the correct 'Surprise' emotion, demonstrating high naturalness and adherence to instructions. Model 2 fails fundamentally on content accuracy by generating a long, unrequested monologue instead of the target sentence. Consequently, Model 2 receives a 0 based on the 'Content Accuracy' global consideration.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

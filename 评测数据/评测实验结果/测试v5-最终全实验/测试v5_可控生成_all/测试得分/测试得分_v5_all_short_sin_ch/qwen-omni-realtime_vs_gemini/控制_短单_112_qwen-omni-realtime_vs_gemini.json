@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. The generated speech adds several words not present in the prompt: '已经' (already), '您注意' (you pay attention to), and '相关' (relevant). The script '会议时间已调整，请查收邮件通知' was spoken as '会议时间已经调整，请您注意查收相关邮件通知'. Regarding the 'Neutral' emotion requirement, the audio sounds overly enthusiastic, bright, and service-oriented (friendly/happy) rather than neutral and objective. The pitch variation is dynamic and upward, indicating a positive sentiment rather than a flat, neutral state.",
+    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, reading the script '会议时间已调整，请查收邮件通知' exactly as requested with no additions or omissions. Regarding the 'Neutral' emotion requirement, the audio perfectly captures the requested tone. The delivery is calm, steady, and professional (00:00-00:03). It lacks exaggerated emotional coloring, maintaining a flat prosody typical of a standard announcement, which aligns perfectly with the definition of 'Neutral'.",
+    "model_comparison": "Model 2 is the clear winner. Model 2 followed the text script verbatim, whereas Model 1 hallucinated several additional words ('已经', '您注意', '相关'), changing the script significantly. Furthermore, Model 2 accurately synthesized the 'Neutral' emotion, delivering a calm and objective announcement. In contrast, Model 1 used a 'Happy' or 'Friendly Customer Service' tone which violates the 'Neutral' constraint. Model 2 is superior in both text adherence and style control.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

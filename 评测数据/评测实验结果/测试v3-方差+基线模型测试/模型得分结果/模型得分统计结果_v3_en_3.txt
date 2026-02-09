@@ -1,0 +1,140 @@
+======= 各模型最终得分 =======
+
+=== gemini ===
+总分：56.50
+  Age: 4.00
+  Attitude: 8.00
+  Cognitive State: 6.50
+  Emotion: 6.50
+  Non-Linguistic Vocalizations: 5.00
+  Pace: 5.00
+  Pause: 1.00
+  Pitch: 4.00
+  Rhythm: 7.00
+  Stress: 4.00
+  Timbre: 3.00
+  Volume: 2.50
+
+=== gpt ===
+总分：50.00
+  Age: 3.00
+  Attitude: 6.00
+  Cognitive State: 4.00
+  Emotion: 4.00
+  Non-Linguistic Vocalizations: 6.00
+  Pace: 5.00
+  Pause: 1.00
+  Pitch: 3.00
+  Rhythm: 6.00
+  Stress: 4.00
+  Timbre: 4.00
+  Volume: 4.00
+
+=== doubao ===
+总分：21.50
+  Age: 0.47
+  Attitude: 2.77
+  Cognitive State: 4.30
+  Emotion: 2.39
+  Non-Linguistic Vocalizations: 2.77
+  Pace: 0.66
+  Pause: 0.08
+  Pitch: 1.49
+  Rhythm: 1.13
+  Stress: 0.49
+  Timbre: 2.94
+  Volume: 1.99
+
+=== qwen-omni ===
+总分：21.00
+  Age: 3.50
+  Attitude: 2.00
+  Cognitive State: 1.50
+  Emotion: 1.00
+  Non-Linguistic Vocalizations: 4.00
+  Pace: 1.00
+  Pause: 0.50
+  Pitch: 1.00
+  Rhythm: 2.50
+  Stress: 1.00
+  Timbre: 1.00
+  Volume: 2.00
+
+
+======= 各维度排名 =======
+
+【维度：Age】
+  gemini: 4.00
+  qwen-omni: 3.50
+  gpt: 3.00
+  doubao: 0.47
+
+【维度：Attitude】
+  gemini: 8.00
+  gpt: 6.00
+  doubao: 2.77
+  qwen-omni: 2.00
+
+【维度：Cognitive State】
+  gemini: 6.50
+  doubao: 4.30
+  gpt: 4.00
+  qwen-omni: 1.50
+
+【维度：Emotion】
+  gemini: 6.50
+  gpt: 4.00
+  doubao: 2.39
+  qwen-omni: 1.00
+
+【维度：Non-Linguistic Vocalizations】
+  gpt: 6.00
+  gemini: 5.00
+  qwen-omni: 4.00
+  doubao: 2.77
+
+【维度：Pace】
+  gemini: 5.00
+  gpt: 5.00
+  qwen-omni: 1.00
+  doubao: 0.66
+
+【维度：Pause】
+  gemini: 1.00
+  gpt: 1.00
+  qwen-omni: 0.50
+  doubao: 0.08
+
+【维度：Pitch】
+  gemini: 4.00
+  gpt: 3.00
+  doubao: 1.49
+  qwen-omni: 1.00
+
+【维度：Rhythm】
+  gemini: 7.00
+  gpt: 6.00
+  qwen-omni: 2.50
+  doubao: 1.13
+
+【维度：Stress】
+  gemini: 4.00
+  gpt: 4.00
+  qwen-omni: 1.00
+  doubao: 0.49
+
+【维度：Timbre】
+  gpt: 4.00
+  gemini: 3.00
+  doubao: 2.94
+  qwen-omni: 1.00
+
+【维度：Volume】
+  gpt: 4.00
+  gemini: 2.50
+  qwen-omni: 2.00
+  doubao: 1.99
+
+
+======= 跳过的样本编号（winner_position = -1）=======
+5

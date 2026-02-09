@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates audio, but it fails significantly in content accuracy. While it reads the target sentence ('The project is progressing smoothly, we're on schedule'), it immediately continues with hallucinated meta-commentary: 'that's how I'd say it, steady and confident, like someone who's seen it through before.' This violates the instruction to simply read the sentence. Regarding the 'Age' dimension, the voice sounds like a young adult female (possibly late teens to early 20s) with a stylized, somewhat animated character tone. While it technically falls under 'adult' broadly, the youthful timbre and the inclusion of the unrequested description make it a poor performance for a standard adult professional request.",
+    "reasoning_model_2": "The model perfectly follows the content instructions, reading only the target sentence with no additions or omissions. The audio is fluent and natural. Regarding the 'Age' dimension, the voice is distinctively that of a mature adult female. The tone is grounded, professional, and confident, fitting the semantic context of a business update perfectly. The timbre clearly conveys the requested age group without ambiguity.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 commits a severe error in content accuracy by hallucinating a description of the delivery ('that's how I'd say it...') after the target text, which ruins the usability of the generation. Furthermore, Model 2 provides a more standard and professional 'adult' voice suitable for the context, whereas Model 1 sounds younger and more stylized. Model 2 followed all instructions perfectly.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

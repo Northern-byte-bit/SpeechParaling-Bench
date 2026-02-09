@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio content strictly follows the provided script '这个报告明天就要交了，我还没写完。' without any hallucinations or omissions. The paralinguistic expression matches the required 'anxious' tone (认知状态), conveying the sense of urgency and worry appropriate for a deadline. The speech is fluent and the emotion is integrated naturally with the text.",
+    "reasoning_model_2": "The model completely failed the 'Content Accuracy' criterion. The user explicitly asked to read the sentence '这个报告明天就要交了，我还没写完。', but the model generated a long, improvised monologue ('完了完了，明天就要交报告了...'). Although the hallucinated text conveys anxiety, the audio receives a score of 0 because the voice content is completely inconsistent with the required script, constituting a major error.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested anxious tone. Model 2 failed the fundamental task of reading the specific text, instead hallucinating a lengthy paragraph. According to the scoring standard, significant content inconsistency results in a score of 0. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

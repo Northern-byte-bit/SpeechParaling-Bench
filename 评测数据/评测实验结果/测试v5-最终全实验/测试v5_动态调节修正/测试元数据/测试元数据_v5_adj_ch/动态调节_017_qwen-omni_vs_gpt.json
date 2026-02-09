@@ -1,0 +1,14 @@
+{
+    "sample_index": 17,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用圆润的音质开始，然后逐渐变得沙哑说: '这首歌的旋律太动人了，我忍不住想跟着唱。唱到高音部分，怎么唱不出来了？'",
+    "dimensions": [
+        "音质"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

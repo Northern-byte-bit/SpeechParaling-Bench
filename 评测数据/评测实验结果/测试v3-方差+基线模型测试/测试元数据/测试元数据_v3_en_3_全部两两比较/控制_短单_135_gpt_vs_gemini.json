@@ -1,0 +1,15 @@
+{
+    "sample_index": 45,
+    "model_a": "gpt",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a confident tone: 'I believe I can handle this job, I will give my best.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

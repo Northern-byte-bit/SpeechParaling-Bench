@@ -1,0 +1,14 @@
+{
+    "sample_index": 85,
+    "candidate_name": "gemini",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用厌恶的语气开始，然后逐渐平复为中性说：这味道真恶心，我再也不想碰这种食物了。不过既然是招待客人，那也只能忍忍了。",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

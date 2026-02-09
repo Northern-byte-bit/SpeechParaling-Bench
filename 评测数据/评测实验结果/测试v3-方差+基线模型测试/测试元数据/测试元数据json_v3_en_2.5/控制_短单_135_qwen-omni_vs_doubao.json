@@ -1,0 +1,14 @@
+{
+    "sample_index": 45,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-2.5-pro",
+    "demand": "Please read this sentence with a confident tone: 'I believe I can handle this job, I will give my best.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the sentence '嗯，我想说几句' (Hmm, I want to say a few words). However, it completely fails to adhere to the core paralinguistic instruction. The text '咳咳' (cough cough) is omitted entirely from the speech, and there is no sound of coughing generated at any point (00:00-00:01). The delivery is a standard, neutral reading style without the requested physical state (coughing manner). Consequently, it fails the 'Non-verbal vocalizations' dimension completely.",
+    "reasoning_model_2": "The model successfully interprets the instruction to speak in a 'coughing manner' and converts the text '咳咳' into actual non-verbal coughing sounds. From 00:00 to 00:02, there is a sequence of realistic coughing and throat-clearing sounds. Following this, at 00:02, the speaker says '呃，我想说几句', maintaining a slightly strained vocal quality consistent with someone who has just coughed. The audio correctly replaces the written onomatopoeia with the actual sound effect, demonstrating high-quality paralinguistic control.",
+    "model_comparison": "The user command required the model to include coughing sounds ('Non-verbal vocalizations') based on the text '咳咳' and the instruction 'with a coughing manner'. Model 1 failed completely; it simply read the text minus the 'cough cough' part, producing a clean, neutral speech with zero non-verbal features. Model 2 performed the task excellently by generating realistic, distinct coughing sounds before the speech and maintaining a consistent paralinguistic persona. Model 2 is the clear winner as it actually followed the specific feature control instruction.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

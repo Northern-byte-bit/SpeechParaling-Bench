@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio accurately follows the text script 'My keys are missing, I can't find them anywhere.' However, the emotional delivery does not align well with the requested 'anxious' tone. The pacing is slow and the intonation (particularly on 'keys' at 0:00-0:01 and 'anywhere' at 0:03-0:04) sounds more like a mild complaint or a whining child rather than someone experiencing anxiety or panic. Anxiety typically involves higher arousal, faster pacing, or tension, whereas this sample feels low-energy and somewhat relaxed in its elongation of vowels. It lacks the urgency required for the cognitive state.",
+    "reasoning_model_2": "The model generates the text accurately with high naturalness. The performance strongly captures the 'anxious' cognitive state. The audio begins with a sharp intake of breath/gasp (0:00), immediately establishing tension. The delivery is breathless and urgent, with a trembling quality in the voice (0:01-0:02 'keys are missing'). The phrasing of 'I can't find them anywhere' (0:03-0:05) sounds distressed and desperate. The inclusion of natural breathing and the hurried pace effectively convey the requested emotion.",
+    "model_comparison": "Model 2 is the clear winner. While both models produce accurate text, Model 2 successfully incorporates the paralinguistic features associated with anxiety, such as breathlessness, urgency, and distress. Model 1, in contrast, produces a delivery that sounds more like a slow, melodic complaint or whine, lacking the tension and panic inherent in an anxious state. Model 2's inclusion of non-verbal cues (breathing) and appropriate prosody makes it significantly more effective.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content: 'What on earth are you doing? Stop it right now!' However, the paralinguistic execution is a complete failure regarding the user's prompt. The user requested a 'shouting manner' (high volume/energy). Instead, the model starts with a distinct yawning sound (0.0s-1.2s) and delivers the lines in a sleepy, lethargic, and quiet tone, concluding with a humming sound. This delivery represents low arousal and low volume, which is the exact opposite of the requested feature. While the text is discernible, the style is completely incorrect based on the specific 'shouting' constraint.",
+    "reasoning_model_2": "The model generates the text accurately: 'What on earth are you doing? Stop it right now!' (0.0s-4.0s). The delivery successfully incorporates the required paralinguistic feature. The voice is projected, emphatic, and loud, effectively simulating a shouting or sternly yelling manner. The tone conveys the urgency and anger associated with the text. The fluency is high, and the prosody feels natural for a high-volume command. It fully meets the criteria for 'Feature Control: Volume'.",
+    "model_comparison": "Model 1 failed to follow the core instruction regarding the paralinguistic feature. The user asked for a 'shouting manner', but Model 1 produced a sleepy, yawning performance, which is the polar opposite in terms of volume and energy. Model 2, on the other hand, correctly interpreted the command, delivering the line with raised volume, urgency, and a shouting style that fits the text perfectly. Therefore, Model 2 is superior in every aspect regarding the specific constraints of the prompt.",
+    "score_1": 0,
+    "score_2": 3,
+    "winner": 2
+}

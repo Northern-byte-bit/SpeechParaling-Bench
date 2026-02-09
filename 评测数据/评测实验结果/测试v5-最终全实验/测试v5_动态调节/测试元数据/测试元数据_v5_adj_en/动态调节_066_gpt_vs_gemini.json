@@ -1,0 +1,14 @@
+{
+    "sample_index": 66,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a steady rhythm and suddenly becoming a dragging rhythm: 'I've checked all the bills for this month, making sure no expenses were missed. But that mysterious transaction, what exactly, what is it?'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

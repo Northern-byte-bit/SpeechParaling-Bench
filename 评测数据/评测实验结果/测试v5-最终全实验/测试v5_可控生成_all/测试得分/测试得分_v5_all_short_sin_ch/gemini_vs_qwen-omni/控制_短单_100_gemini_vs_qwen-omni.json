@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content '你必须完成作业，才能玩游戏' with high accuracy. Regarding the core requirement 'stress on 必须 (must)', the model executes this perfectly. At approximately 0.4s to 0.9s, the word '必须' is significantly elongated and spoken with increased intensity and a distinct, authoritative tone compared to the preceding '你' and the following '完成'. The pause after '必须' further highlights its importance. The overall prosody sounds natural for a stern command.",
+    "reasoning_model_2": "The model generates the correct text content accurately. However, regarding the core requirement 'stress on 必须', the performance is poor. The sentence is spoken with a fast, casual, and somewhat playful tone. The word '必须' (occurring roughly around 0.2s-0.5s) flows quickly into the rest of the sentence without any noticeable change in pitch, volume, or duration to indicate emphasis. The model completely ignores the instruction to add stress to the specific word, treating the sentence as a standard, flat declarative statement.",
+    "model_comparison": "Model 1 followed the specific paralinguistic instruction to emphasize the word '必须'. It achieved this through clear acoustic cues (elongation, intensity increase, and pausing), making the instruction 'You MUST...' very clear to the listener. Model 2, while producing fluent and natural-sounding speech in a general sense, failed to apply the requested control. It read the sentence quickly and casually without placing any emphasis on the target word. Therefore, Model 1 is the clear winner for correctly adhering to the feature control prompt.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

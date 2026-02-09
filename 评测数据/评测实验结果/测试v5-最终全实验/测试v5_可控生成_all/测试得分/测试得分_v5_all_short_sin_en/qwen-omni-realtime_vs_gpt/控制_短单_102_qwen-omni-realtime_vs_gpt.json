@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model failed to adhere strictly to the content constraints. The script provided was 'The document should be placed here, not over there.', but the model generated 'Here the document should be placed here, not over there.', adding an extra 'Here' at the very beginning [0:00-0:01]. This is a significant content accuracy error (addition). Regarding the paralinguistic feature 'Stress', while the model attempts to emphasize the location, the initial stutter/repetition distracts from the intended syntax and flow, making the emphasis feel less natural and more like a correction or error.",
+    "reasoning_model_2": "The model followed the content instructions perfectly, with no additions or omissions. The sentence 'The document should be placed here, not over there' is delivered fluently. Regarding the requested feature, the model places a clear and distinct stress on the word 'here' [timestamp for 'here'], contrasting it effectively with 'there'. The prosody is natural, and the emphasis is achieved through appropriate pitch and intensity changes without sounding mechanical.",
+    "model_comparison": "Model 2 is superior. Model 1 committed a clear content error by hallucinating or repeating the word 'Here' at the start of the sentence, violating the Content Accuracy criterion. Model 2 delivered the script accurately and applied the requested stress on 'here' effectively and naturally. Model 1's content flaw serves as a major detractor, automatically placing it below Model 2.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

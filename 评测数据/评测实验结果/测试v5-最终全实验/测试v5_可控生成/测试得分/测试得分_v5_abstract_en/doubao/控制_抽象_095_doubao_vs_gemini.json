@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 produces a high-fidelity female voice with perfect content accuracy and natural fluency. Regarding the specific paralinguistic request: \n1. **Sensational** (0.0s - 2.5s): The delivery of 'Oh my god, my heart is shattered' is spoken with clear, standard narration prosody. While there is correct emphasis on 'shattered', it sounds like a composed audiobook narrator reading a line rather than a character experiencing a sensational moment.\n2. **Exaggerated** (2.5s - 5.0s): The phrase 'floods of tears' is delivered with a standard falling intonation. There is no stylistic exaggeration, vocal trembling, or dramatic pitch shifts that would characterize an 'exaggerated' tone. It remains too polite and restrained, failing to capture the over-the-top drama requested.",
+    "reasoning_model_2": "Model 2 produces a male voice that immediately adopts a persona consistent with the prompt. \n1. **Sensational** (0.0s - 2.0s): The voice starts with a breathy, lower-pitch quality on 'Oh my god', creating an immediate sense of dramatic gravity and emotional weight. This effectively conveys the 'sensational' aspect.\n2. **Exaggerated** (2.0s - 6.0s): The speaker maintains a trembling, 'weepy' vocal texture throughout, particularly on 'heart is shattered' and 'floods of tears'. This vocal acting—simulating the sound of being on the verge of crying—is a clear and effective form of exaggeration compared to normal speech, fitting the prompt's requirement for a theatrical performance.",
+    "model_comparison": "Both models achieve perfect content accuracy and good audio quality. However, they differ significantly in adhering to the style instructions. Model 1 provides a standard, clean reading that ignores the instruction for a 'sensational and exaggerated' tone; it sounds like a neutral narrator. Model 2 successfully interprets the prompt by modifying the vocal texture to sound breathy, trembling, and deeply distraught, effectively 'acting out' the script. Therefore, Model 2 is superior in both dimensions as it actually attempts and succeeds in delivering the requested paralinguistic features.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

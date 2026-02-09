@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully executes the user's command to read the sentence with a scream. \n1. **Content Accuracy:** The text is spoken clearly, though the contraction 'That's' is expanded to 'That is'. This is a very minor deviation that does not affect meaning. \n2. **Fluency:** The audio is fluent and natural within the context of a high-energy vocalization.\n3. **Paralinguistic Compliance:** The model excels here. From 0:00 to 0:04, the voice is projected with high volume, high pitch, and audible vocal strain characteristic of shouting or screaming in excitement. It captures the raw energy required by the prompt 'scream'.",
+    "reasoning_model_2": "The model completely fails to adhere to the paralinguistic instruction. \n1. **Content Accuracy:** Like Model 1, it expands 'That's' to 'That is'. \n2. **Paralinguistic Compliance:** The prompt explicitly requested a 'scream'. Instead, the model produces a soft, breathy, whisper-like tone (0:00-0:04). This effectively conveys the opposite of a scream (low intensity, intimate distance). While the audio quality is clean, the stylistic failure is total.",
+    "model_comparison": "This is a clear victory for Model 1 (T1). The specific constraint of the prompt was to use a 'scream'. T1 successfully modulated pitch, volume, and timbre to produce a convincing shout/scream of excitement. T2, conversely, produced a soft, breathy whisper. T2 failed the core instruction entirely, earning a score of 0 for Paralinguistic Compliance. T1 delivered a strong performance that matched the difficult paralinguistic requirement.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

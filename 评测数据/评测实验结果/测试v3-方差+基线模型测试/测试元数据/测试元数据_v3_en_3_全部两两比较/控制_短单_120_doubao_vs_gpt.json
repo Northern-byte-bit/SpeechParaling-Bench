@@ -1,0 +1,15 @@
+{
+    "sample_index": 40,
+    "model_a": "doubao",
+    "model_b": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sad emotion: 'Hearing this news, I truly feel sorry for him.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

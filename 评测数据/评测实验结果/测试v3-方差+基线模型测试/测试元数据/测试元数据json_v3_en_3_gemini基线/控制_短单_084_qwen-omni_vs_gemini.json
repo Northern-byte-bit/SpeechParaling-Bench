@@ -1,0 +1,14 @@
+{
+    "sample_index": 28,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a lighthearted rhythm: 'Doing chores while listening to music, time flies so fast.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

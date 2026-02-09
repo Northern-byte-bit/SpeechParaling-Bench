@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content accurately, matching the script 'You must finish your homework before playing games.' without errors. However, regarding the core requirement to emphasize the word 'must', the model performs poorly. The delivery is relatively flat and soft throughout the sentence. The word 'must' (appearing around 0.2s - 0.5s) receives no special prosodic treatment—there is no increase in volume, pitch, or duration to distinguish it from the rest of the sentence. It sounds like a standard, unemphatic reading, failing to convey the requested stress feature.",
+    "reasoning_model_2": "The model generates the content perfectly with high fluency and a very natural tone. Crucially, it adheres strictly to the user's command to emphasize 'must'. At the beginning of the sentence (approx 0.3s - 0.9s), the word 'must' is delivered with significantly increased duration, a noticeable pitch contour, and slightly higher intensity compared to the surrounding words. The speaker uses a pause strategy and vocal weight to make the word stand out clearly, effectively conveying the urgency and obligation implied by the prompt.",
+    "model_comparison": "Both models achieve perfect content accuracy. However, Model 2 is the clear winner in terms of the specific paralinguistic instruction (Feature Control: Stress). Model 1 provides a standard, somewhat flat reading where the word 'must' blends in completely with the rest of the sentence. In contrast, Model 2 successfully interprets the command, applying distinct and natural stress to 'must' through elongation and pitch inflection, making the emphasis unambiguous. Model 2 demonstrates superior control over prosody.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

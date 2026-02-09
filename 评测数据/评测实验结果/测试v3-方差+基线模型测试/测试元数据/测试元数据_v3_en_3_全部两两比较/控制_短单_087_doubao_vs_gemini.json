@@ -1,0 +1,15 @@
+{
+    "sample_index": 29,
+    "model_a": "doubao",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a soothing rhythm: 'The soundtrack of this movie is beautiful, it makes one feel peaceful.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

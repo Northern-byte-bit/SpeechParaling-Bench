@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the content with high intelligibility and fluency, though it expands the contraction 'it's' to 'it is' in the final clause. Regarding the paralinguistic commands: \n1. **Emotion**: The model attempts a somewhat emphatic tone, particularly on the word 'disgusting' (0:01), but the overall affect feels more like a standard, slightly annoyed narration rather than a visceral 'disgusted' emotion. It lacks the nuances of repulsion.\n2. **Pitch**: The command requested a 'low pitch'. The generated audio maintains a standard mid-to-high female range typical of TTS voices, failing to lower the register to match the requested style.\n3. **Rhythm**: The command explicitly requested a 'dragging rhythm'. Model 1 speaks at a brisk, standard pace (total duration approx. 6 seconds). There is no elongation of vowels or pauses to suggest a dragging quality; in fact, the delivery is quite fast.",
+    "reasoning_model_2": "Model 2 generates the content accurately, also expanding 'it's' to 'it is'. It excels in following the paralinguistic constraints: \n1. **Emotion**: The audio conveys a strong sense of disgust. The use of vocal fry (e.g., on 'truuuuly' at 0:02) and the disdainful tone throughout the clip (especially on 'mess' at 0:08) make the emotion vivid and spot-on.\n2. **Pitch**: The speaker effectively utilizes a lower register, employing creaky voice/fry to simulate the 'low pitch' request naturally within the context of the emotion.\n3. **Rhythm**: The model perfectly executes the 'dragging rhythm'. The audio is nearly twice as long as Model 1 (approx. 11 seconds). Words are deliberately drawn out (e.g., 'truuuuly' 0:01-0:02, 'disguuusting' 0:02-0:04), creating a lethargic, repulsed tempo that fits the prompt perfectly.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. \n\n**Emotion**: Model 2 captures the visceral nature of 'disgust' through non-verbal cues like vocal fry and heavy, reluctant articulation. Model 1 sounds like a standard reader with only mild emphasis.\n\n**Pitch**: Model 2 successfully lowers the pitch and uses intonation consistent with the command. Model 1 remains in a standard, higher frequency range.\n\n**Rhythm**: This is the most significant differentiator. Model 1 completely ignores the 'dragging' instruction, speaking at a normal or even fast pace. Model 2 significantly slows down the speech, elongating vowels and adding pauses, resulting in an audio file that is much longer and perfectly aligned with the 'dragging' description.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

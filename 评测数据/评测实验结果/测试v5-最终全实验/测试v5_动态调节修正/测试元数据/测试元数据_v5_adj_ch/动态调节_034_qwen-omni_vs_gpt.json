@@ -1,0 +1,14 @@
+{
+    "sample_index": 34,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用快速开始，然后突然转变为极慢速说: 快！冲上去！他没血了！等等，这个宝箱里到底有什么？",
+    "dimensions": [
+        "语速"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

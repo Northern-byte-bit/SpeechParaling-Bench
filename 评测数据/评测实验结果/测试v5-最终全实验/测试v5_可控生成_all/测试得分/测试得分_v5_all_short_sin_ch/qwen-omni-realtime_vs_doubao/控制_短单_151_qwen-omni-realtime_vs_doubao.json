@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the specific text '考试成绩快公布了，我有点紧张。' with an anxious tone. Model 1 adheres strictly to the script with perfect Content Accuracy. In terms of the paralinguistic feature 'Cognitive State' (Anxiety), the performance is excellent. From 0:00 to 0:02, the speaker's voice trembles slightly ('考试成绩快公布了'), indicating apprehension. Between 0:02 and 0:04 ('我有点紧张'), there is an audible, sharp intake of breath and a shaky release, effectively simulating the physiological response to high stress. The prosody is hesitant and unstable, perfectly matching the required cognitive state of anxiety.",
+    "reasoning_model_2": "The user explicitly requested the text '考试成绩快公布了，我有点紧张。'. However, Model 2 generates a completely different and much longer script ('啊，考试成绩马上就要公布了，我心跳都快起来了...'), elaborating extensively on the situation. According to the evaluation criterion for a Score of 0, 'Voice content is clearly inconsistent with the script'. Although the tone utilized is anxious and frantic, the complete disregard for the text constraint constitutes a fatal error in Content Accuracy.",
+    "model_comparison": "Model 1 is the clear winner. It followed the user's instructions regarding the text script perfectly and delivered a highly natural, emotionally nuanced performance that accurately reflected the 'Anxiety' cognitive state through breathiness and vocal tremors. Model 2 failed the fundamental requirement of Content Accuracy by hallucinating a completely new script, which automatically results in a failing score despite its expressive tone.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

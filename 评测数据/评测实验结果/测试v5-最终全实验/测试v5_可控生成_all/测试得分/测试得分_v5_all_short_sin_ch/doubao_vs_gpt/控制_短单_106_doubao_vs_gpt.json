@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 failed to adhere strictly to the provided text script. The target script was '把菜都吃完' (finish all the dishes), but Model 1 said '把菜都吃了' (ate all the dishes). This constitutes a content accuracy error. Regarding the requested paralinguistic feature (stress on '不许'), the audio presents the phrase with a relatively flat and standard intonation. There is no significant acoustic prominence, increase in loudness, or decrease in speech rate on '不许' to indicate emphasis. The combination of the content error and the lack of distinct stress control results in a low performance.",
+    "reasoning_model_2": "Model 2 followed the text script perfectly, saying '不许挑食，把菜都吃完' without any omissions or changes. Regarding the paralinguistic feature, the model successfully applied heavy stress to the word '不许' (Not allowed). The generated audio exhibits a noticeable increase in intensity and forcefulness on these two characters, effectively conveying the authoritative tone required by the prompt. The transition to the rest of the sentence is natural, and the overall fluency is high.",
+    "model_comparison": "Model 2 is the clear winner. First and foremost, Model 2 correctly followed the text script, whereas Model 1 hallucinated/modified the ending from '吃完' to '吃了'. In terms of the feature control 'Heavy Stress' (重音), Model 2 demonstrated a clear ability to emphasize the specific target word '不许', creating the intended authoritative effect. Model 1's delivery was flatter and lacked the specific emphasis requested. Therefore, Model 2 is superior in both content accuracy and feature compliance.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

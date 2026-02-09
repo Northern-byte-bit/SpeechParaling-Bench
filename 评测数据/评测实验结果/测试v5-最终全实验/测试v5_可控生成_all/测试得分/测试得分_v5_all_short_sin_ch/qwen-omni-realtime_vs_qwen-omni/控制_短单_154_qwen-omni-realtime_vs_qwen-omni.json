@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model's generated speech '哎，又能怎么办呢？也只能这样了，真是没辙了。' contains a significant unauthorized addition ('真是没辙了') at the end of the specified script (approx. timestamp 3.5s onwards). While this added phrase semantically reinforces the required 'helpless' (无奈) cognitive state, strict evaluation requires the model to convey the paralinguistic feature solely through the prosody of the requested text, not by altering the linguistic content. The content accuracy is therefore compromised (Major issue), which negatively impacts the overall assessment of control capabilities, despite the tone being emotionally consistent.",
+    "reasoning_model_2": "The model's generated speech '哎，又能怎么办呢？也只能这样了' perfectly matches the user's script with no omissions or additions. The paralinguistic expression of 'helplessness' (无奈) is conveyed effectively through the delivery of the initial sigh '哎' (approx. 0.0s-0.5s) and the resigned cadence of the rhetorical question '又能怎么办呢'. The model successfully relies on prosodic features (pacing and intonation) to express the cognitive state within the strict bounds of the provided text, demonstrating high control and naturalness.",
+    "model_comparison": "Model 2 (T2) is the clear winner. Model 1 (T1) failed the 'Content Accuracy' criterion by hallucinating and adding an extra sentence ('真是没辙了') to express the emotion, which is a major flaw in controlled generation tasks. Model 2 strictly adhered to the provided text while accurately conveying the required 'helpless' cognitive state through paralinguistic means alone. T2 demonstrates superior instruction following and feature control.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

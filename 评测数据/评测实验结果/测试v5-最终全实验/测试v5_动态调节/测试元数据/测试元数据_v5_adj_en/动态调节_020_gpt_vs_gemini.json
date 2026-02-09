@@ -1,0 +1,14 @@
+{
+    "sample_index": 20,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a gentle timbre and suddenly switching to a bright timbre: 'The morning sun falls on the windowsill, everything seems so peaceful. Ah, I found a flower has bloomed!'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

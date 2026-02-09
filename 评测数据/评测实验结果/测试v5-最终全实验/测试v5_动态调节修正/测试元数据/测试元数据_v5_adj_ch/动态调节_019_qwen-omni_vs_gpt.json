@@ -1,0 +1,14 @@
+{
+    "sample_index": 19,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用柔和的音质开始，然后突然转变为明亮说: '宝贝，别害怕，妈妈在这里陪着你。看，外面有小鸟在唱歌，多好听呀！'",
+    "dimensions": [
+        "音质"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

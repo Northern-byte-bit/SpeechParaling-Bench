@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content accurately ('What a brilliant idea you have there'). The fluency is high with a clear, natural-sounding voice. However, regarding the core paralinguistic requirement (Attitude: Sarcastic), the audio misses the mark. The delivery is upbeat, bright, and enthusiastic (0:00-0:02). The pitch rises on 'brilliant' in a way that suggests genuine praise rather than the mockery or irony associated with sarcasm. It sounds like a teacher genuinely complimenting a student, failing to convey the requested sarcastic tone.",
+    "reasoning_model_2": "The model generates the text accurately. The fluency is good, though the voice has a slightly breathy, weary quality. Critically, this model excels in the core paralinguistic requirement. The delivery is slow and deadpan. The word 'brilliant' (0:01-0:02) is elongated and spoken with a flat, downward inflection that clearly contradicts the positive meaning of the word. This juxtaposition of positive vocabulary with a weary, unimpressed tone effectively conveys strong sarcasm.",
+    "model_comparison": "Model 1 failed to interpret the instruction for a 'sarcastic tone,' delivering the line with genuine enthusiasm that obscured the intended meaning. Model 2 successfully implemented paralinguistic features associated with sarcasm, such as a slower tempo, elongation of the focus word ('brilliant'), and a weary/flat intonation that signaled irony. Model 2 is the clear winner for adhering to the specific stylistic constraint.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly in Content Accuracy. At the very beginning (approx. 0:00-0:01), the model speaks the phrase '关键说' ('Key says'), which is part of the user's prompt instruction rather than the text to be synthesized. This is a clear case of instruction leaking. Because of this extra text, the paralinguistic feature 'Emphasis' (重音) is poorly executed; the listener is confused by the repetition of the word '关键' (once in the instruction leak, once in the actual sentence), making it unclear which one bears the intended stress. The flow is disrupted by this error.",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, strictly synthesizing the text '关键在于沟通，我们必须保持开放' without any additions or omissions. Regarding the required feature 'Emphasis' (重音), the model effectively places strong stress on the word '关键' (0:00-0:01) at the beginning of the sentence. The pitch and intensity on '关键' are noticeably higher compared to the rest of the sentence, effectively conveying the importance of the word as requested. The overall fluency and naturalness are excellent.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 suffers from a major content error (instruction leaking) where it vocalizes '关键说' before the actual text, which violates the content accuracy criterion and disrupts the paralinguistic goal. Model 2 follows the text instructions perfectly and successfully emphasizes the target word '关键' with natural prosody.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

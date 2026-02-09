@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high content accuracy, though it slightly expands the contraction 'I\\'m' to 'I am' (1:25), which actually enhances the emotional weight of the statement. The paralinguistic performance is excellent. From 0:00 to 1:20, the phrase 'My puppy is missing' is delivered with a slow tempo, lower pitch, and a downward inflection characteristic of sadness. The second half, 'I am so sad' (1:25-3:00), features a heavy, mournful tone with appropriate stress on 'so'. The voice sounds natural and human-like, effectively conveying the requested sad emotion.",
+    "reasoning_model_2": "The model accurately speaks the text 'My puppy is missing, I\\'m so sad,' but fails completely in the paralinguistic dimension. From 0:00 to 1:00, the tone is upbeat, energetic, and bright, sounding more like a cheerful announcement than a sad statement. The phrase 'I\\'m so sad' is delivered with a happy, bouncy rhythm that directly contradicts the semantic meaning and the user's instruction. Additionally, the audio quality is robotic and unnatural, lacking human nuance.",
+    "model_comparison": "Model 1 is the clear winner. It accurately interprets the instruction to use a 'sad emotion,' delivering the lines with appropriate prosody, slow pacing, and a mournful tone that matches the content. Model 2 fails to follow the instruction entirely, delivering the sad text with a happy, energetic, and upbeat tone, which is the opposite of what was requested. Model 2 also suffers from robotic audio quality.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

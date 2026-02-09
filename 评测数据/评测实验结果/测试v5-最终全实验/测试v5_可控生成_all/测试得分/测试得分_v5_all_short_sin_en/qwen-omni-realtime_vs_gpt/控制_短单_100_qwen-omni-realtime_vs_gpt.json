@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 generates the correct text content: 'You must finish your homework before playing games.' However, regarding the core requirement to emphasize the word 'must', the model fails significantly. The delivery is fast-paced (approx 00:00-00:02), and the word 'must' is glided over without any distinct change in pitch, volume, or duration to indicate stress. Furthermore, the sentence ends with a rising intonation on 'games' (00:01-00:02), making the statement sound more like a question or a casual suggestion rather than a firm command. The target feature (stress on 'must') is effectively absent.",
+    "reasoning_model_2": "Model 2 generates the text accurately. It successfully executes the core requirement to emphasize 'must'. At timestamp 00:00-00:01, the word 'must' is spoken with increased volume, elongation, and a firm, downward intonation. The model also inserts a significant dramatic pause immediately after 'must' (00:01-00:02), which serves to isolate and highlight the word further, reinforcing the imperative nature of the sentence. The remaining text is delivered with a natural, authoritative flow. The specific instruction is perfectly followed.",
+    "model_comparison": "Model 2 is the clear winner. The user's prompt specifically requested emphasis on the word 'must'. Model 1 failed to apply any noticeable stress to this word, instead delivering the sentence quickly with a questioning intonation at the end, which contradicted the authoritative nature of the text. Model 2, in contrast, applied heavy stress to 'must' using volume, duration, and a subsequent pause, aligning perfectly with the prompt's instructions for feature control.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

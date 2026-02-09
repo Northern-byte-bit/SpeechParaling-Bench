@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates a female voice with high fidelity and clarity. \n1. **Content Accuracy:** The content matches the text perfectly.\n2. **Timbre (音质 - Hoarse):** The user requested a 'hoarse' (沙哑) voice. The generated audio features a very clean, bright, and standard TTS female voice. It is completely devoid of any hoarseness, raspiness, or gravelly texture. \n3. **Rhythm (节奏 - Rapid):** The speech rate is moderately fast, but it is very uniform and rhythmic in a way that sounds like a sped-up reading rather than an urgent, erratic panic. \n4. **Cognitive State (认知状态 - Anxious):** The tone carries a slight hint of worry (e.g., the intonation on '怎么办'), but it is largely composed and polite. It lacks the genuine tension, trembling, or urgency required for someone who has just lost their wallet with ID and cards. It sounds like a recitation rather than an experience.",
+    "reasoning_model_2": "Model 2 generates a male voice that heavily incorporates paralinguistic sounds.\n1. **Content Accuracy:** The content matches the text perfectly.\n2. **Timbre (音质 - Hoarse):** The voice quality is not a permanent 'gravelly' hoarseness, but rather a situational hoarseness caused by extreme stress. The voice sounds strained, breathy, and slightly broken, which aligns well with the request for a non-clean, textured voice quality in this context.\n3. **Rhythm (节奏 - Rapid):** The rhythm is characterized by rapid bursts of speech interspersed with heavy, panicked breathing. This erratic pacing effectively conveys 'urgency' far better than a simple fast speaking rate.\n4. **Cognitive State (认知状态 - Anxious):** The model captures high-intensity anxiety perfectly. The heavy breathing (audible at the start and between phrases), the shaky vocal stability, and the despairing tone at the end ('这可怎么办') create a vivid and convincing portrayal of panic.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 across all dimensions. \n\n**音质 (Timbre):** Model 1 failed completely to produce a 'hoarse' voice, offering a standard clean voice instead. Model 2 provided a strained, breathy quality that fits the 'hoarse/rough' description within the context of panic.\n\n**节奏 (Rhythm):** Model 1 was simply fast but mechanical. Model 2 used natural, human-like erratic pacing with rapid bursts and breaths, perfectly fitting the 'rapid/urgent' requirement.\n\n**认知状态 (Cognitive State):** Model 1 sounded like a calm assistant reading a script. Model 2 sounded like a human being in genuine distress. Model 2's inclusion of breath sounds and vocal instability made the anxiety vivid and realistic.",
+    "score_1_1": 0,
+    "score_2_1": 2,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

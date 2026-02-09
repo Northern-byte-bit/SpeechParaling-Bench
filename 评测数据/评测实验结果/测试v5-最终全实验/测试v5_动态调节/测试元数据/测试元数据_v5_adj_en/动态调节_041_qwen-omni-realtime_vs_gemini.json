@@ -1,0 +1,14 @@
+{
+    "sample_index": 41,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very fast pace and gradually slowing down to a slow pace: 'Mom today at school I had so much fun I chased and jumped with Xiao Ming and even fell down but I wasn't hurt then the teacher took us to draw and told stories... We all liked that story.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

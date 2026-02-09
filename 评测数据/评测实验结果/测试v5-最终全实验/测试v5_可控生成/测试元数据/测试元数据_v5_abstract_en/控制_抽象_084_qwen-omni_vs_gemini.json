@@ -1,0 +1,14 @@
+{
+    "sample_index": 84,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a cautious and conservative attitude: 'Regarding this cross-departmental collaboration, I think it's safer to start with a small-scale pilot before gradually expanding it.'",
+    "dimensions": [
+        "cautious and conservative"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

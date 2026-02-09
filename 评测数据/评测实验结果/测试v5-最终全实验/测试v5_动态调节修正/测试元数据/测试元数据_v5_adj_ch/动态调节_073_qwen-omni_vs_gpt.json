@@ -1,0 +1,14 @@
+{
+    "sample_index": 73,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用轻快的节奏开始，然后突然转变为平稳说：周末和朋友去郊游，玩得很开心，笑声不断！不过现在该收心了，明天还有重要的工作要完成。",
+    "dimensions": [
+        "节奏"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

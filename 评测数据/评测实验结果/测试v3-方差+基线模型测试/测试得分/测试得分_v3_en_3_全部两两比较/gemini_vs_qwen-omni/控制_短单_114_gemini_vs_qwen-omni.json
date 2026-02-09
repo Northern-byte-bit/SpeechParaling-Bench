@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content: 'Paris is the capital and largest city of France.' However, the voice quality is extremely synthetic and unnatural. It possesses a high-pitched, 'anime-like' timbre that sounds forced and lacks human realism. Regarding the core paralinguistic requirement (neutral emotion), the delivery fails. Instead of a neutral, factual tone, the voice exhibits an exaggerated, cutesy, and cheerful intonation (e.g., the rising pitch on 'capital' at 0:01 and the breathy ending on 'France' at 0:04). This expressiveness contradicts the instruction for a 'neutral' emotion.",
+    "reasoning_model_2": "The model perfectly executes the text script. The audio quality is high, with excellent fluency and naturalness; it sounds indistinguishable from a professional human narrator. Regarding the core paralinguistic requirement, the model hits the mark. The delivery is calm, steady, and factual (0:00-0:05), effectively conveying a 'neutral' emotion suitable for reading an encyclopedia entry or a news snippet. There are no unnecessary emotional inflections, adhering strictly to the prompt.",
+    "model_comparison": "There is a significant difference in quality between the two models. Model 2 provides a highly natural, human-like voice that strictly adheres to the 'neutral emotion' constraint. It sounds professional and grounded. In contrast, Model 1 produces a highly synthetic, cartoonish voice that is not neutral but rather overly cheerful and cutesy. Model 1 fails on both naturalness and the specific emotional instruction, while Model 2 succeeds perfectly in both.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model successfully generates the content 'My child, health is the most important wealth' with perfect accuracy. \n1. **Age**: The voice clearly belongs to an elderly male. The timbre is raspy, breathy, and has a slight tremor characteristic of old age (audible throughout, especially on 'wealth'). Score: 3.\n2. **Pace**: The pacing is deliberately slow (total duration ~4s for a short sentence). There are distinct, weighty pauses after 'child' (0:01) and 'health' (0:02) that enhance the delivery. Score: 3.\n3. **Attitude**: The tone is warm, grave, and sincere. It sounds like a grandfather giving wisdom, fitting the 'sincere' prompt perfectly. Score: 3.",
+    "reasoning_model_2": "The model generates the correct text content. \n1. **Age**: The voice sounds like a young to middle-aged female. It lacks the textural qualities (tremor, raspiness, pitch) associated with an 'elderly' voice. It completely fails the specific age constraint. Score: 0.\n2. **Pace**: The speech is slow, meeting the pace requirement technically. However, the slowing feels somewhat like a lethargic reading rather than a natural elderly cadence. Score: 2.\n3. **Attitude**: The tone is relatively flat and neutral. While not sarcastic, it lacks the warmth or emotional weight required for 'sincere'. It sounds more like a standard TTS reading a script without emotional investment. Score: 1.",
+    "model_comparison": "Model 1 is the clear winner across all relevant dimensions. \n**Age**: Model 1 perfectly captures the elderly persona with a textured, raspy voice, whereas Model 2 provides a young/middle-aged voice, failing the prompt.\n**Attitude**: Model 1 delivers the line with genuine warmth and sincerity appropriate for the context. Model 2 is flat and disengaged.\n**Pace**: Both models adopt a slow pace, but Model 1's pacing feels organic to the character (pausing for emphasis/breath), while Model 2 simply feels slow.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

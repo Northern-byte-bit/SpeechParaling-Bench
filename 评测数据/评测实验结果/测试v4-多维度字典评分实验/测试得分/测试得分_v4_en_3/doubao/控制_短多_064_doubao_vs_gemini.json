@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio accurately delivers the text content 'Hey! Can you hear me? We are here!' without errors. Regarding the 'shouting manner' (Volume), the model adopts a raised vocal effort and strained timbre characteristic of shouting (0.0s-3.2s), effectively conveying the required volume style. However, regarding 'Pace', the delivery is relatively fast (total duration ~3.2s) and does not adhere to the 'slow pace' instruction; it sounds like a hurried shout rather than a slow, deliberate call. For 'Stress', while 'here' (2.8s) is spoken clearly, it lacks significant emphasis or elongation compared to the rest of the sentence, making the requested stress on 'here' weak and barely distinguishable from a standard sentence stress.",
+    "reasoning_model_2": "The audio correctly speaks the text with high accuracy. The 'shouting manner' (Volume) is excellent, characterized by prolonged projection and high energy suitable for calling out over a distance. The 'Pace' is distinctly slow (total duration ~5.0s), with significant elongation of vowels (e.g., 'Hey' at 0.0s-1.0s, 'hear' at 2.4s), perfectly matching the user's request for a slow pace. Regarding 'Stress', the model places a very strong, elongated emphasis on 'here' (3.8s-4.8s) at the end of the clip, making it the clear focal point of the utterance. The combination of features results in a very natural 'hailing' tone.",
+    "model_comparison": "Model 2 is significantly superior in following the specific paralinguistic constraints. While both models successfully adopt a shouting manner (Volume), Model 1 completely fails the 'slow pace' instruction, delivering the line quickly. Model 2, in contrast, effectively slows down the speech, elongating words to mimic calling out to someone far away. Furthermore, Model 2 provides a much clearer and more dramatic emphasis on the word 'here' as requested, whereas Model 1's stress is negligible. Model 2 captures the full intent of the prompt.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 27,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very high pitch and loudly: 'I found it! It's right here!'",
+    "dimensions": [
+        "Pitch",
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 0
+}

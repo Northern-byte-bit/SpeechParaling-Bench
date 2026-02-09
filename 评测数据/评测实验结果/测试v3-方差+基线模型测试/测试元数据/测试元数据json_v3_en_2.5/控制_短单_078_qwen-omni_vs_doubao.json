@@ -1,0 +1,14 @@
+{
+    "sample_index": 26,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-2.5-pro",
+    "demand": "Please read this sentence with a clear pause after the word 'good': 'This proposal, good, we have approved it.'",
+    "dimensions": [
+        "Pause"
+    ],
+    "candidate_position": 2,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "feature_control"
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the specific sentence '早上好，我的嗓子有点不舒服。'. However, Model 1 completely failed to adhere to the script, instead generating a long, improvised monologue: '早上好啊，嗓子有点沙哑，像是被风刮过似的，说话都带着点哑音...' (00:00-00:09). While the voice texture does have some raspiness/texture, the complete hallucination of the content and failure to read the target text is a critical error. According to the evaluation criterion, if the voice content is clearly inconsistent with the script, the score must be 0.",
+    "reasoning_model_2": "Model 2 followed the text instruction perfectly, reading exactly '早上好，我的嗓子有点不舒服。' with no additions or omissions. Regarding the '音质' (Voice Quality/Hoarseness) requirement: The model successfully adopted a very distinct hoarse timbre. From 00:00 to 00:03, the voice is breathy, low-pitched, and exhibits significant vocal roughness (creaky voice/vocal fry) that convincingly simulates a sore throat or lack of vocal cord closure. The delivery feels labored and authentic to the physical condition described. It meets the criteria for a score of 3.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental instruction of Content Accuracy by generating an entirely different script than what was requested. Even though Model 1 attempted a specific tone, the content failure renders it unusable based on the scoring standards (Score 0). Model 2 strictly adhered to the text and provided a high-quality, natural simulation of the requested 'hoarse' voice quality, effectively conveying the physical sensation of an uncomfortable throat.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

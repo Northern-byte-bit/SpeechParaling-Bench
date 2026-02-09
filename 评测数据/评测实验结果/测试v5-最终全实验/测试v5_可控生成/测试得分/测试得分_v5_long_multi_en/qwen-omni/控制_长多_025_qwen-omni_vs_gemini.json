@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model fails to adhere to the paralinguistic instruction regarding the 'sigh'. At 00:00, instead of generating a non-linguistic vocalization (a breath sound), the model explicitly reads the word 'Sigh' ('/saɪ/') as part of the spoken text. Regarding the 'cold tone' attitude, the performance is unsuccessful. The tone throughout the clip (00:01-00:08) is surprisingly bright, energetic, and rhythmic, with an upward inflection. This cheerful delivery contradicts both the specific instruction for a 'cold tone' and the semantic context of complaining about endless housework. The content is otherwise accurate, though 'it's' is expanded to 'it is'.",
+    "reasoning_model_2": "The model successfully executes the non-linguistic vocalization. At 00:00-00:01, it produces a distinct, natural-sounding exhalation (sigh) rather than reading the text, which perfectly aligns with the prompt. Regarding the 'cold tone', the model adopts a weary, resigned, and flat delivery (00:01-00:10). While one might argue the specific emotion is more 'exhausted' than strictly 'icy cold', it effectively conveys a lack of enthusiasm and a detached negativity that fits the context of the complaint far better than a neutral or happy tone. The pacing is deliberate and slow, enhancing the feeling of dread toward the chores. 'It's' is also expanded to 'it is' here.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. First, in terms of Non-Linguistic Vocalizations, Model 2 correctly interprets the text 'Sigh' as an instruction to produce a sound effect, whereas Model 1 blindly reads the word aloud, which is a hallucination of the script instructions. Second, regarding Attitude, Model 2 captures the negative, unenthusiastic nuance required by the prompt (interpreting 'cold' as weary/resigned), creating a cohesive emotional expression. In contrast, Model 1 utilizes an inappropriate upbeat and energetic tone that clashes with the meaning of the text and the user's request.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

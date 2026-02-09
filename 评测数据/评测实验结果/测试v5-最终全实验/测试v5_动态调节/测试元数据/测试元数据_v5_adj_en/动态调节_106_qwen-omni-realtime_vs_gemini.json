@@ -1,0 +1,14 @@
+{
+    "sample_index": 106,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a cold tone initially, gradually transitioning to an enthusiastic tone: 'Oh, this is the new colleague? Hello. So you're also in charge of this project! That's great, we have a lot we can collaborate on!'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 64,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用平稳的节奏开始，然后突然变得拖沓说：这个项目我们已经按照计划稳步推进了，各项指标都达标。可是，我总觉得还有点，有点不对劲……",
+    "dimensions": [
+        "节奏"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Error",
+    "category": "dynamic_adjustment"
+}

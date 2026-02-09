@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails completely to adhere to the paralinguistic instruction. Instead of generating the non-verbal sound of laughter ('带笑声'), the model literally speaks the word '笑声' (Laughter) at timestamp 00:00. This is a critical error where instruction metadata is leaked into the spoken content. The subsequent sentence '看，那只猫又在追自己的尾巴了，真逗' (00:01-00:04) is delivered with a flat, neutral tone that lacks the amusement or joy implied by the text and the prompt. There is no actual non-verbal vocalization present.",
+    "reasoning_model_2": "Model 2 follows the instruction perfectly. It begins with a very natural, human-like non-verbal sound of laughter (a soft chuckle) from 00:00 to 00:01. Following this, the spoken content '看，那只猫又在追自己的尾巴了，真逗' (00:01-00:05) is delivered fluently. The tone of the speech carries the residue of the laughter, sounding amused and warm, which fits the context of finding a cat funny. The transition from the non-verbal laugh to speech is seamless.",
+    "model_comparison": "The difference between the two models is stark and objective. The user's command required the audio to be generated 'with laughter' (non-verbal vocalization). Model 2 correctly interpreted this by generating an actual sound of laughter before speaking the sentence, fulfilling the 'Non-verbal vocalization' requirement effectively and naturally. Model 1, conversely, misunderstood the prompt as a text-to-speech directive to read the word 'Laughter' ('笑声') aloud, resulting in a hallucinated word at the beginning of the clip and zero non-verbal laughter. Therefore, Model 2 is the clear winner for correctly handling the paralinguistic control.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

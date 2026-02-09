@@ -1,0 +1,14 @@
+{
+    "sample_index": 12,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-2.5-pro",
+    "demand": "Please read this sentence with a smooth timbre: 'Welcome, we are delighted to serve you.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

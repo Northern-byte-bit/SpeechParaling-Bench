@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in Content Accuracy. While it begins by reading the target text '祝大家新年快乐，万事如意' (00:00-00:02), it continues to read out what appears to be a stage direction or prompt description: '声音洪亮地喊出来，让整个空间都充满喜庆和祝福的气息' (00:02-00:06). This is a severe hallucination/instruction leakage error. Regarding the 'Volume' dimension, the voice remains at a standard, moderate conversational level throughout and does not exhibit the requested 'loud' (shouting/projecting) vocal characteristic.",
+    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, reading only the target text '祝大家新年快乐，万事如意' (00:00-00:02) with no additions or omissions. However, regarding the 'Volume' dimension, the performance is lacking. The command requested a 'loud volume' (大声), implying increased vocal effort or projection. The generated audio, while clear and fluent, maintains a calm, standard conversational volume and tone. It does not sound 'loud' or energetic as requested, failing to convey the core paralinguistic feature effectively.",
+    "model_comparison": "Model 2 is the clear winner based on Content Accuracy. Model 1 is unusable because it reads out the prompt instructions ('shout it out loudly...') instead of just performing the text, resulting in a score of 0. Model 2 correctly speaks the text but fails to fully satisfy the specific paralinguistic request for 'loud volume', producing a standard volume instead. Since Model 1 has a critical content failure, Model 2 wins by default despite the weak feature control.",
+    "score_1_1": 0,
+    "score_2_1": 1,
+    "winner_1": 2
+}

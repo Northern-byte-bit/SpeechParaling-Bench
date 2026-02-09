@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully articulates the target text '天哪，我中奖了！太不可思议了！' with a noticeably high pitch and excited tone (00:00-00:03). However, immediately following the target sentence, the model continues to read a long descriptive passage ('声音尖得像气球突然爆开...') which appears to be stage directions or a description of the voice rather than the dialogue itself. This constitutes a significant content accuracy error (addition). While the pitch of the initial segment meets the requirement of being high and energetic, the hallucinated content drastically reduces the quality and usability of the generation.",
+    "reasoning_model_2": "The model strictly adheres to the content requirements, speaking only the phrase '天哪，我中奖了！太不可思议了！' without any additions. Regarding the 'extremely high pitch' (极高音) instruction, the model adopts a falsetto voice (sounding like a male voice pushing into a very high register), which effectively creates an 'extremely high' pitch distinct from a normal speaking voice. The emotion is conveyed as shock and disbelief. The audio aligns perfectly with both the textual and paralinguistic constraints.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 commits a critical error in Content Accuracy by reading out a description of the voice ('The voice is as sharp as a popping balloon...') after the target dialogue, which violates the instruction to strictly say the specific sentence. Model 2 follows the text instruction perfectly and effectively implements the 'extremely high pitch' constraint using a falsetto tone that matches the user's request for extreme vocal characteristics.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

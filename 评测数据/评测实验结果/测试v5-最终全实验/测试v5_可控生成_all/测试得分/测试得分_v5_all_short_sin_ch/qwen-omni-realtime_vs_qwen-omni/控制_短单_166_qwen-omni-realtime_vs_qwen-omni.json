@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails critically on **Content Accuracy**. The prompt explicitly requested to say only \"哎，又是一个无聊的周末。\", but the model generated a long, hallucinated paragraph containing multiple extra sentences (\"连空气都懒得动弹...\" etc.). Regarding the **Paralinguistic Compliance** for 'Non-verbal vocalization' (sighing), the performance is poor. The initial \"哎\" (0:00-0:01) is spoken with a standard, slightly energetic tone rather than a breathy sigh. The overall prosody is lively and narrative, completely missing the requested 'sighing' or 'bored' manner. Due to the severe content deviation and failure to produce the target feature, the score is 0.",
+    "reasoning_model_2": "Model 2 performs excellent on **Content Accuracy**, delivering exactly the requested script \"哎，又是一个无聊的周末\" with no hallucinations. Regarding **Paralinguistic Compliance**, the model successfully integrates the required non-verbal feature. At 0:00-0:01, the word \"哎\" is delivered with a distinct audible exhalation and a downward pitch, realistically mimicking a sigh. The remaining sentence is spoken with a weary, flat tone that perfectly complements the sigh, making the expression vivid and spot-on.",
+    "model_comparison": "Model 2 is the decisive winner. Model 1 failed the fundamental requirement of sticking to the script, hallucinating a large amount of text. Additionally, Model 1's tone was inappropriate (energetic/storytelling) for the requested 'sighing' manner. Model 2 followed the script perfectly and generated a high-quality, natural-sounding sigh that accurately reflected the user's command.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

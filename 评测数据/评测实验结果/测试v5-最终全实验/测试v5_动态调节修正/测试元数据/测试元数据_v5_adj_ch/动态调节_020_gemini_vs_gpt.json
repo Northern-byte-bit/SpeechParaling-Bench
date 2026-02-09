@@ -1,0 +1,14 @@
+{
+    "sample_index": 20,
+    "candidate_name": "gemini",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用柔和的音质开始，然后突然转变为明亮说: '清晨的阳光洒落在窗台上，一切都显得那么宁静。啊，我发现一朵花开了！'",
+    "dimensions": [
+        "音质"
+    ],
+    "candidate_position": 2,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

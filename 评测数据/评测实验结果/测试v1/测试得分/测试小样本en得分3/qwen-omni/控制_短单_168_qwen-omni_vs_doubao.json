@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with a distinct, weary, and breathy tone that aligns perfectly with the command to read with a sigh. The pacing is slow and exhausted, and there is an audible exhalation/sigh at the end of the clip (around 2.5s-3.0s). While the text 'I\\'m' was expanded to 'I am', this slight modification fits the slow, emphatic prosody of the exhausted persona and does not detract from the meaning. The paralinguistic execution is vivid and spot-on.",
+    "reasoning_model_2": "The model generates the text with a bright, upbeat, and standard TTS tone that completely contradicts the semantic meaning of the sentence and the specific paralinguistic instruction. There is no audible sigh, nor is there any tonal shift to indicate exhaustion or heat. Like Model 1, it expands 'I\\'m' to 'I am', but unlike Model 1, it fails to implement the core feature (Non-Linguistic Vocalization/Sigh) entirely, resulting in a generic and inappropriate delivery.",
+    "model_comparison": "Model 1 successfully incorporates the required paralinguistic feature. The entire delivery is colored by the requested 'sigh' characteristic—sounding exhausted and breathy—and concludes with a release of breath. The emotion matches the text perfectly. Model 2 fails completely to follow the style instruction, delivering the line with a cheerful, energetic tone that clashes with the text 'I'm melting' and ignores the command to 'sigh'. Model 1 is the clear winner for adhering to the specific paralinguistic constraint.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the content '请给我一杯水，谢谢。' with perfect accuracy. The audio exhibits a distinct 'hoarse' (沙哑) quality throughout the entire clip (0:00-0:05). The voice has a gravelly, breathy texture consistent with a parched throat or a naturally raspy voice, which aligns perfectly with the user's request for 'hoarse sound quality'. The pacing is deliberate and natural, enhancing the perception of the requested physical state without sounding mechanical or exaggerated. It is a high-quality execution of the specific timbre control.",
+    "reasoning_model_2": "The model generates the correct text content. However, regarding the 'hoarse' feature, the audio adopts a highly dramatic, whining tone (0:00-0:04) akin to someone in extreme distress or dying of thirst. While there is a strained quality to the voice, the dominant feature is 'whining/weakness' rather than a textural 'hoarseness'. The delivery sounds slightly caricatured or over-acted compared to a natural speaking voice. While it fits the context of needing water, the specific instruction was for a sound quality (timbre) rather than a dramatic emotional scenario, making the feature control less precise than Model 1.",
+    "model_comparison": "Model 1 (T1) is superior in adhering to the specific 'hoarse' (沙哑) constraint. It modifies the timbre of the voice to be raspy and gravelly while maintaining a natural speaking tone. Model 2 (T2) interprets the prompt as a dramatic scenario, resulting in a whining, high-pitched, strained voice that is more 'distressed' than purely 'hoarse'. T1 is a cleaner, more direct, and more natural demonstration of the requested paralinguistic feature.",
+    "score_1": 3,
+    "score_2": 2,
+    "winner": 1
+}

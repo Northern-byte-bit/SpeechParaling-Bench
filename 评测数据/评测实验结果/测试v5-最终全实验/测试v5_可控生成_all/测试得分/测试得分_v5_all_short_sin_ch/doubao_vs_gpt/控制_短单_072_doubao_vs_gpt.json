@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content '别吵醒他，他工作了一整晚' correctly (00:00-00:03). Regarding the paralinguistic feature '音量' (Volume) and the instruction '小声' (quietly), the model adopts a whispering technique (unvoiced or partially voiced phonation). This results in a breathy, very low-intensity sound that perfectly matches the context of not wanting to wake someone up. The delivery is slow and careful, enhancing the perception of quietness. The expression is vivid and completely accurate to the prompt.",
+    "reasoning_model_2": "The model generates the correct text content '别吵醒他，他工作了一整晚' (00:00-00:03) with high fluency and naturalness. Regarding the '音量' feature, the model uses a 'hushed' tone, speaking softly but maintaining full vocal cord vibration (modal voice). While the tone is gentler than a standard reading style, it does not achieve the low volume or 'whisper' quality typically associated with the explicit instruction to speak 'quietly' to avoid waking someone. The reduction in volume is present but less effective than a true whisper.",
+    "model_comparison": "Both models accurately produce the text script. The key differentiator is the interpretation of '小声' (quiet volume). Model 1 (T1) utilizes a true whisper (breathy phonation), which is the most natural and effective way to comply with the instruction 'don't wake him up'. It sounds intimate and acoustically quiet. Model 2 (T2) speaks with a soft but fully voiced tone. While T2 is softer than average speech, it lacks the distinct 'quiet' characteristic of a whisper found in T1. Therefore, T1 demonstrates superior control over the volume dimension in this specific context.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1
+}

@@ -1,0 +1,15 @@
+{
+    "sample_index": 31,
+    "model_a": "doubao",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an emphatic rhythm: 'Remember, honesty is gold, never lie.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "model_a_position": 1,
+    "model_b_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model demonstrates excellent adherence to the paralinguistic constraints. Regarding 'Pitch' (音高), the audio utilizes a very high, almost falsetto register throughout the entire clip (0:00-end), distinctly shifting away from a natural speaking fundamental frequency to satisfy the 'extremely high pitch' requirement. This creates a screaming/cheering effect suitable for the context. Regarding 'Volume' (音量), the delivery is energetic and projected, simulating a loud shout or scream as requested by 'loudly' (大声地) and the concert atmosphere text. The content is accurate and the flow, while stylized, is appropriate for the emotional intensity requested.",
+    "reasoning_model_2": "The model fails to adhere to the specific paralinguistic instructions. Regarding 'Pitch' (音高), while the model uses a female voice with a naturally higher timbre than a male voice, the pitch modulation itself is flat and conversational. It does not attempt an 'extremely high' tone or a shouting register; it merely sounds like a standard reading. Regarding 'Volume' (音量), the audio maintains a moderate, consistent reading volume suitable for narration but completely fails to convey the 'loudly' (大声地) constraint or the energy of a concert shout. Additionally, the model omits the initial interjection '啊！' from the text, impacting content accuracy slightly.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. Model 1 successfully interpreted the command as a stylistic instruction to perform a dramatic, high-pitched shout, accurately modifying both pitch and volume to match the 'extremely high' and 'loud' constraints. Model 2 provided a standard, flat Text-to-Speech reading. It relied on the static timbre of the voice rather than dynamic pitch control and failed to increase volume or energy, resulting in a performance that did not match the user's specific request for expressive shouting.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

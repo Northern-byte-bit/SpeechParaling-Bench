@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with accurate content. Regarding the 'Pitch' (音高) dimension, the voice maintains a medium range suitable for a standard male narration, adhering to the '中音' requirement. For 'Rhythm' (节奏), the overall pacing is relatively steady, but there is a significant flaw in the prosody towards the end (around 0:08). The model places an unnatural pause between '超出' and '预期的' ('带来超出... [pause] ...预期的'), which breaks the semantic cohesion of the phrase. In terms of 'Cognitive State' (认知状态), the speaker sounds generally firm, but the mechanical break in rhythm at the critical climax of the sentence weakens the perception of 'confidence' and makes it sound less persuasive and more like a reading error.",
+    "reasoning_model_2": "The model generates the audio with accurate content. For 'Pitch' (音高), the voice uses a natural medium range for a female speaker, avoiding excessive highs or lows. Regarding 'Rhythm' (节奏), the speech is very fluid and 'steady' (平稳). The pauses are placed logically, for example, a slight breath after '修改' and natural intonation throughout the complex second sentence. There are no awkward breaks within phrases. In terms of 'Cognitive State' (认知状态), the tone is professional, assured, and persuasive, effectively conveying the required 'confidence' (自信). The delivery of '我相信' feels genuine and grounded.",
+    "model_comparison": "Both models succeed in maintaining a 'medium pitch' appropriate for their respective voice types. However, Model 2 is superior in 'Rhythm' and 'Cognitive State'. Model 1 suffers from a distinct prosodic error where it inserts a pause in the middle of the adjective phrase '超出预期的', creating a disjointed listening experience. Model 2 maintains a smooth, steady rhythm throughout, which supports the delivery of the 'confident' cognitive state much better than Model 1. Model 2 sounds like a professional conviction, while Model 1 sounds like a TTS engine struggling with phrasing.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

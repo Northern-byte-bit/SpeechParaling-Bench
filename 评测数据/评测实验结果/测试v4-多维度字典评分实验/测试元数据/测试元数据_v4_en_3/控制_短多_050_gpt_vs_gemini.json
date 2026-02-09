@@ -1,0 +1,16 @@
+{
+    "sample_index": 50,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a steady rhythm and a neutral emotion: 'The evaluation report is ready, please review it.'",
+    "dimensions": [
+        "Emotion",
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 0
+}

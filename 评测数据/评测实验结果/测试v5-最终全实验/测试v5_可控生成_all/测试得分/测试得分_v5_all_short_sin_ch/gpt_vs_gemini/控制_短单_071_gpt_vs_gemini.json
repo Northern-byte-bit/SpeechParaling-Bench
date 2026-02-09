@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the audio content '你过来，我有个秘密要告诉你'. Crucially, it strictly adheres to the '小声' (low volume/whisper) instruction. Throughout the entire clip (0:00-0:03), the speech is delivered in a distinct whisper—unvoiced, breathy, and intimate. This perfectly matches the semantic context of telling a secret. The pacing is natural for a secretive whisper, and the articulation remains intelligible despite the lack of voicing.",
+    "reasoning_model_2": "The model accurately produces the text content '你过来，我有个秘密要告诉你'. However, it completely fails to adhere to the paralinguistic instruction '小声' (low volume). The audio (0:00-0:03) is delivered in a standard, full-voiced, modal speaking volume with normal projection. It sounds like a standard TTS narration or reading style rather than someone speaking quietly or whispering a secret. There is no attempt to lower the intensity or modify the phonation to suit the command.",
+    "model_comparison": "There is a stark contrast in performance. Model 1 (T1) perfectly understood and executed the command to speak with 'low volume' (implying a whisper in this context), delivering a natural, breathy, and quiet audio that fits the scenario of telling a secret. Model 2 (T2) ignored the specific style instruction and produced a standard volume reading. Therefore, T1 is the clear winner for correctly implementing the controllable feature.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

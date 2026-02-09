@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the text be spoken in a 'screaming' manner. Model 1 adheres strictly to Content Accuracy, producing the text '哇，我赢了，太棒了' correctly without errors. However, it fails completely on the 'Paralinguistic Compliance' for the 'Screaming' feature. The audio is delivered in a calm, moderately happy, standard reading tone (0:00-0:03). There is no elevation in pitch, volume, or intensity that resembles a scream. The expression is polite and gentle, which is practically the opposite of the requested high-energy screaming style.",
+    "reasoning_model_2": "Model 2 fails strictly on Content Accuracy and Logic. Instead of following the script '哇！我赢了！太棒了！', it hallucinates a long continuation ('...我简直要飞起来了', '这感觉也太爽了吧') and, critically, reads the instruction word 'Scream' (尖叫) aloud ('尖叫尖叫尖叫' at approx 0:05) rather than performing the sound. Regarding the target feature 'Non-verbal vocalization' (Screaming), the model does not scream; it simply reads the text with a slightly excited prosody. The generated content is chaotic and incorrect.",
+    "model_comparison": "Both models failed to produce the required 'Screaming' paralinguistic feature. Model 1 provided accurate content but used a standard, calm TTS voice, resulting in a score of 0 for the specific 'screaming' feature request. Model 2 failed even more catastrophically by hallucinating text and reading the style prompt ('Scream') aloud instead of executing the sound, also resulting in a score of 0. Since neither model successfully generated the requested non-verbal vocalization/scream, they are tied at the lowest score.",
+    "score_1_1": 0,
+    "score_2_1": 0,
+    "winner_1": 0
+}

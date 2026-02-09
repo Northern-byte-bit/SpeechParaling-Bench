@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model flawlessly executes the user's command. At 00:00-00:01, the text 'Waaah' is interpreted correctly as a non-linguistic crying vocalization (a sob), rather than being read phonetically as a word. The subsequent text 'I can't find my toy' (00:01-00:02) is delivered with a consistent trembling, tearful tone that perfectly matches the 'crying' instruction. The prosody is natural and emotive, sounding like a distressed child.",
+    "reasoning_model_2": "The model fails to correctly interpret the non-linguistic vocalization text 'Waaah'. Instead of producing a crying sound, it pronounces it distinctly as 'Way up' (00:00-00:01), which is a significant content error and breaks the immersion. While the voice sounds distressed and loud, resembling a shout or moan, it lacks the natural nuances of crying requested. The delivery feels forced and unnatural due to the mispronunciation of the onomatopoeia.",
+    "model_comparison": "Model 1 is the clear winner. It correctly identifies 'Waaah' as a sound effect/vocalization and integrates it naturally into a crying performance. Model 2 hallucinates text ('Way up') instead of performing the vocalization and provides a performance that sounds more like shouting than crying. Model 1 adheres to both content and paralinguistic requirements, while Model 2 fails on content accuracy regarding the specific non-linguistic token.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

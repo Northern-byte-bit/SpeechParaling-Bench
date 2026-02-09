@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio correctly synthesizes the text content '让我想想，这个计划还有什么地方能改进'. However, regarding the core paralinguistic requirement '带咂嘴的方式' (with a tongue-clicking manner) and the character '啧', the model literally pronounces the character as phonetic syllables 'Tsu Tsu' (0.0s-0.6s) rather than generating a natural non-verbal clicking sound. While the sentence flow is reasonably smooth, the literal reading of the onomatopoeia destroys the naturalness and fails to meet the specific 'Non-verbal vocalization' feature request. The tone is somewhat flat compared to a contemplative state.",
+    "reasoning_model_2": "This model demonstrates excellent paralinguistic control. At the very beginning (0.0s-0.5s), it produces a genuine, high-quality non-verbal 'tsk' (tongue click) sound corresponding to '啧', rather than pronouncing the character. This perfectly satisfies the 'Non-verbal vocalization' requirement. The subsequent speech '让我想想...' is delivered with a natural, thoughtful pacing and prosody, sounding very human-like. The audio is fluent and free of artifacts.",
+    "model_comparison": "The critical difference lies in the interpretation of the '啧' character and the '咂嘴' (tongue clicking) instruction. Model 1 treated '啧' as text to be read aloud phonetically ('Tsu Tsu'), which sounds mechanical and incorrect for a paralinguistic instruction. Model 2 correctly interpreted it as a directive for a non-verbal sound effect, generating a realistic tongue click. Model 2 represents a much higher level of semantic and paralinguistic understanding, producing a natural and vivid result that aligns perfectly with human speech patterns.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 59,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an urgent and pressing speed: 'The signal seems to be getting weaker; quickly finish the main points, or we'll lose connection!'",
+    "dimensions": [
+        "urgent and pressing"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

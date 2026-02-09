@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates exceptional adherence to the specific paralinguistic constraints. regarding 'Volume', the model adopts a breathy, stage-whisper delivery throughout the entire clip (00:00-00:14), perfectly interpreting the instruction to read 'quietly'. Regarding 'Cognitive State', the audio vividly portrays a 'doubting' tone. The pacing is deliberately slow and hesitant, with significant pauses (e.g., between 'really' and 'complete' at 00:02) that suggest the speaker is carefully weighing their words and lacks confidence. The trembling quality of the voice further accentuates the feeling of uncertainty and unreliability mentioned in the text. Although there is a very minor content deviation where 'he's' is expanded to 'he has' (00:06), it does not alter the meaning or the emotional delivery.",
+    "reasoning_model_2": "Model 2 fails to adhere to the core paralinguistic instructions. regarding 'Volume', the audio is delivered at a standard, conversational projection level (00:00-00:08) rather than 'quietly'. There is no attempt to whisper or lower the vocal intensity to suit a private or secretive context. Regarding 'Cognitive State', the delivery feels casual and somewhat energetic, lacking the nuance of 'doubt'. While the sentence is read with interrogative intonation (rising pitch at the end of questions), the fast pace (00:00-00:02) and bright timbre convey a sense of curiosity or casual inquiry rather than genuine skepticism or worry about unreliability. The tone sounds somewhat synthetic and lacks the emotional weight required by the prompt.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. It correctly interpreted 'quietly' as a whispered/hushed delivery, whereas Model 2 spoke in a full, normal voice. Furthermore, Model 1 successfully acted out the 'doubting' cognitive state through hesitation, slower pacing, and a shaky vocal quality, whereas Model 2 provided a standard, fast-paced reading that lacked emotional depth. Model 1's performance was immersive and accurate to the user's intent.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

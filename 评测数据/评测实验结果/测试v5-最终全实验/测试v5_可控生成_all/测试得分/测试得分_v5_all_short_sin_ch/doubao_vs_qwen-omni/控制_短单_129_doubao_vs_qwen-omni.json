@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully synthesizes the correct text content '天啊，这里怎么会有这种东西！' without errors. In terms of fluency, the speech is smooth and clear. However, regarding the core paralinguistic requirement 'disgust' (厌恶), the model performs poorly. The tone (0.0s - 2.5s) resembles 'surprise' or a slightly 'coquettish/whiny' (sajiao) attitude rather than genuine disgust. The pitch is high and bright, lacking the lower, repulsed, or breathy qualities typically associated with aversion or disgust. It sounds more like a lighthearted reaction to something unexpected rather than something gross.",
+    "reasoning_model_2": "The model generates the text accurately. The fluency and naturalness are high, with a human-like prosody. Crucially, for the required emotion 'disgust' (厌恶), the model succeeds significantly better. From the very beginning ('天啊', 0.0s - 0.8s), there is a breathy, strained quality to the voice that suggests disbelief and repulsion. The pacing of the subsequent phrase '这里怎么会有这种东西' (0.8s - 2.8s) is hurried and agitated, effectively conveying the urgency of wanting to distance oneself from the object of disgust. The tonal inflection clearly communicates aversion.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 fails to follow the emotional instruction, producing a tone that is bright, high-pitched, and sounds like 'surprise' or 'acting cute' rather than 'disgust'. Model 2, in contrast, effectively modulates the voice to sound strained, breathy, and agitated, which accurately aligns with the human perception of the emotion 'disgust'.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

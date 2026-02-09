@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the model to read a specific sentence: '这个公式非常重要，请务必记住。'. Model 1 failed significantly in Content Accuracy. It altered the second clause to '你一定要牢牢记住' and continued with a long, unrequested paragraph ('他在很多关键场合...'), resulting in a 16-second audio instead of a short sentence. Regarding the required feature 'Emphasis' (重音) on '非常' (00:00-00:01), the word was spoken with standard intonation without the requested heavy stress. The generated speech sounded like a conversational improvisation rather than the requested controlled reading. Due to the major content inconsistency ('Voice content is clearly inconsistent with the script'), the score is 0.",
+    "reasoning_model_2": "Model 2 adhered strictly to the requested text: '这个公式非常重要，请务必记住。' with no errors or additions. Regarding the 'Emphasis' (重音) requirement: At 00:01, the model placed a very distinct stress on the word '非常'. This was achieved through a combination of increased volume, a slight pause before the word, and elongation of the syllables, effectively conveying the importance as requested. The delivery was natural and the control was precise.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental constraint of Content Accuracy by paraphrasing the script and adding a significant amount of hallucinated text, which warrants a score of 0 according to the evaluation criteria. Model 2 followed the script exactly and successfully executed the specific paralinguistic instruction to emphasize the word '非常' using appropriate prosodic features (loudness and duration).",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 112,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用礼貌的态度开始，然后逐渐转变为粗鲁说：您好，请问这个问题能帮我解决一下吗？什么？你们就这种服务态度？太过分了！",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

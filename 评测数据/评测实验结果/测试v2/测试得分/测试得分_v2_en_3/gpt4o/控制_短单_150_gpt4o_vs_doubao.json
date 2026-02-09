@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 delivers the text with perfect accuracy (0:00-0:04). The fluency is high with no artifacts. However, regarding the core requirement of a 'curious tone', the performance is lacking. The delivery is notably flat and declarative. Specifically, the intonation on 'How does it work?' (0:02-0:04) falls at the end rather than rising, which makes it sound more like a statement or a rhetorical question than a genuine inquiry. The vocal quality is heavy and serious, failing to convey the lightness and engagement typically associated with curiosity. The target feature is barely perceived paralinguistically.",
+    "reasoning_model_2": "Model 2 also delivers the text accurately and fluently (0:00-0:04). In terms of the 'curious tone', this model succeeds. The speaker uses a higher pitch and lighter vocal weight on 'This new technology sounds interesting' (0:00-0:02), signaling engagement. Crucially, there is a clear rising intonation on 'How does it work?' (0:02-0:04), which effectively mimics the cognitive state of wondering and asking. The prosody sounds natural and inquisitive.",
+    "model_comparison": "Both models achieve perfect content accuracy and general fluency. The decisive difference lies in the 'Cognitive State' (Paralinguistic Compliance). Model 1 provides a neutral, almost bored or authoritative reading where the pitch drops at the end of the question, failing to sound curious. Model 2 effectively modulates pitch and intonation to sound engaged and inquisitive, particularly with the rising inflection at the end of the sentence. Model 2 clearly follows the stylistic command, whereas Model 1 ignores the emotional direction.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

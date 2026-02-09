@@ -1,0 +1,15 @@
+{
+    "sample_index": 52,
+    "model_a": "gpt",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a helpless tone: 'I've done my best, but the results are still not ideal.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "feature_control"
+}

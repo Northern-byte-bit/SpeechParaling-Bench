@@ -1,0 +1,16 @@
+{
+    "sample_index": 48,
+    "candidate_name": "gemini",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用沙哑的声音，在“嗓子”后明显停顿着说：我今天嗓子 真的很难受，感觉喉咙都快冒烟了。而且头也晕晕的，可能需要请个假休息一下。",
+    "dimensions": [
+        "音质",
+        "停顿"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 2
+}

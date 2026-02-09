@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately speaks the content 'I heard a sound in the attic, is there, is there something up there?' (00:00-00:03). Regarding the paralinguistic features, the model adopts a hushed, whispering tone. This successfully conveys a sense of 'fear' or caution, as if hiding from a threat. However, the voice is quite stable and steady in its pitch and rhythm. It completely lacks the 'trembling' characteristic requested in the prompt. While the whisper implies fear, the specific physical manifestation of a shaking or quivering voice is absent.",
+    "reasoning_model_2": "Model 2 speaks the content accurately with natural prosody. It excels in expressiveness. From 00:00 to 00:02, the voice is breathless and higher-pitched, immediately signaling high-arousal 'fear'. Crucially, the model incorporates a distinct 'trembling' quality. This is evident in the wavering pitch on 'sound' (00:01) and the shaky delivery of 'is there' (00:03-00:04). The breathiness and vocal instability (00:05-00:06) perfectly simulate a voice shaking with terror, fulfilling both the 'fearful' and 'trembling' constraints vividly.",
+    "model_comparison": "Both models achieve high content accuracy and naturalness. The key differentiator is the adherence to the specific paralinguistic instruction 'trembling'. Model 1 interprets the prompt merely as a quiet whisper; while this conveys fear, it fails to produce the auditory texture of trembling. The voice remains smooth and steady. Model 2, in contrast, creates a performance that is both visibly fearful and audibly trembling. The use of pitch instability, breathiness, and wavering intonation makes Model 2's output far more accurate to the specific prompt requirements.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

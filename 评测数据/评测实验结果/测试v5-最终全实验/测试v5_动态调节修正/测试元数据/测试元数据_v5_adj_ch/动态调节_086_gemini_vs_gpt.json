@@ -1,0 +1,14 @@
+{
+    "sample_index": 86,
+    "candidate_name": "gemini",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用厌恶的语气开始，然后逐渐平复为中性说：这堆文件乱七八糟的，简直让人头疼。算了，工作总是要完成的，还是开始整理吧。",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

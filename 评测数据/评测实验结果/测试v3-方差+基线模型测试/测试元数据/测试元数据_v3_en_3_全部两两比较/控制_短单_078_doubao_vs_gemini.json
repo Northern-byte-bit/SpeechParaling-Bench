@@ -1,0 +1,15 @@
+{
+    "sample_index": 26,
+    "model_a": "doubao",
+    "model_b": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a clear pause after the word 'good': 'This proposal, good, we have approved it.'",
+    "dimensions": [
+        "Pause"
+    ],
+    "model_a_position": 2,
+    "model_b_position": 1,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "feature_control"
+}

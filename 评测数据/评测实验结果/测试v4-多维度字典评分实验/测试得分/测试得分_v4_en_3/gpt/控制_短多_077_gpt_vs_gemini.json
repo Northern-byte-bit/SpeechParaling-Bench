@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio content 'Run, there is a snake'. \n1. **Content Accuracy**: The model substitutes 'There's' with 'there is'. This is a minor content deviation that slightly impacts the rhythm but preserves meaning. \n2. **Emotion (0.0s - 2.1s)**: The tone conveys a degree of urgency and startle, consistent with a 'fearful' emotion, but it feels somewhat restrained, resembling a dramatic reading rather than genuine panic. \n3. **Pitch**: The pitch is elevated compared to a neutral baseline, staying in a higher register (approx. mid-high range), but it lacks the sharp, piercing quality associated with high-intensity fear. \n4. **Rhythm**: The pacing is relatively fast, but there is a noticeable pause between 'Run' (0.0-0.4s) and 'there is a snake' (0.7-2.1s). The use of the uncontracted 'there is' adds unnecessary syllables, slowing down the delivery and reducing the 'rushed' feeling required by the prompt.",
+    "reasoning_model_2": "The model generates the audio content 'Run, there is a snake'. \n1. **Content Accuracy**: Similar to Model 1, this model expands 'There's' to 'there is', which is a minor deviation. \n2. **Emotion (0.0s - 1.5s)**: The emotional expression is visceral and intense. The voice exhibits a trembling quality and breathiness characteristic of genuine fear. \n3. **Pitch**: The model successfully implements a significantly high pitch, pushing into a falsetto/head voice range that aligns perfectly with a terrified scream. \n4. **Rhythm**: The delivery is extremely rushed. The gap between 'Run' and the rest of the sentence is negligible, and the articulation of 'there is a snake' is rapid and breathless (0.4-1.5s). Despite the extra syllable in 'there is', the model compresses the duration effectively to meet the 'rushed' constraint.",
+    "model_comparison": "Both models failed to strictly adhere to the text script by expanding the contraction 'There's' to 'there is'. However, in terms of the paralinguistic feature control, Model 2 is superior across all dimensions. \n\n**Emotion**: Model 1 provided a standard 'urgent' TTS tone, while Model 2 delivered a convincing, high-arousal fearful performance that sounded natural and human-like. \n**Pitch**: Model 1 raised the pitch slightly, but Model 2 utilized a much higher, scream-like register that better fits the 'high pitch' instruction. \n**Rhythm**: Model 2 was significantly faster and more fluid, creating a sense of panic, whereas Model 1 included a distinct pause that disrupted the urgency. \n\nModel 2 is the clear winner for effectively integrating the requested features.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

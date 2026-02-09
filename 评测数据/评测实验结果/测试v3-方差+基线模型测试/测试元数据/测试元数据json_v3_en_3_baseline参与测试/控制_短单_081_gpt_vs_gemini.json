@@ -1,0 +1,14 @@
+{
+    "sample_index": 27,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a steady rhythm: 'The library is very quiet, it's a good place to study.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

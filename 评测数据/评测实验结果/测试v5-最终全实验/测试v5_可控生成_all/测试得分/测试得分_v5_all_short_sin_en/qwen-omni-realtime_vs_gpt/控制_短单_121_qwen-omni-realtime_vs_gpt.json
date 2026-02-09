@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates audio, but it significantly fails on content accuracy. The prompt explicitly asked to read a specific sentence: 'Why did you make your room such a mess again?!'. However, the model hallucinated and added two full sentences of context: 'I can't believe you're doing this all over again. This is the third time this week.' regarding the emotional expression (0:00-0:08), the voice adopts a tone of frustration and annoyance—characterized by a higher pitch and a 'whiny' quality common in scolding—rather than a forceful or sharp anger. While the emotion fits the context of the hallucinated text, the severe deviation from the requested script indicates a failure in control.",
+    "reasoning_model_2": "The model follows the content instructions perfectly (0:00-0:03), reading only the requested text: 'Why did you make your room such a mess again?'. Regarding the emotional dimension, the delivery is excellent. The speaker uses a stern, deep, and emphatic tone that effectively conveys anger and authority. There is a strong downward inflection and stress on the word 'mess' and 'again', creating a natural-sounding, angry reprimand without needing to scream. It sounds like a parent firmly scolding a child.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the primary constraint of reading the specific text provided by adding significant hallucinated content (two extra sentences). While Model 1's emotion was recognizable as frustration, the content error is a major flaw. Model 2 adhered strictly to the text and delivered a convincing, stern, and angry performance that aligned perfectly with the prompt's requirements.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

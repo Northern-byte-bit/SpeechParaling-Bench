@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the content instructions, synthesizing only the text '这菜是坏的吧？看着真恶心。' with high accuracy. In terms of the '情感' (Disgust) dimension, the audio successfully conveys the required emotion. From 0:00 to 0:02, the phrase '这菜是坏的吧？' uses a rising intonation on '坏' to express suspicion and distaste. From 0:02 to 0:04, the phrase '看着真恶心' adopts a lower pitch and a dismissive tone, effectively communicating a feeling of repulsion. The fluency is high, and the prosody is natural. It meets the criteria for a high score.",
+    "reasoning_model_2": "Model 2 fails significantly in the Content Accuracy criterion. While it reads the target sentence '这菜是坏的吧？看着真恶心。' with vivid disgust, it hallucinates and adds a significant amount of unrequested text: '一股子馊味都快飘出来了，谁敢吃啊？真是糟蹋粮食。' (from 0:04 to 0:11). According to the detailed scoring standard, this constitutes a major issue as the voice content is inconsistent with the strict script requirements. Although the emotional expression of disgust is strong and theatrical, the violation of content constraints severely penalizes the score.",
+    "model_comparison": "Model 1 is the clear winner due to strict adherence to the text instructions while successfully conveying the target emotion. Model 1's expression of disgust is natural and appropriate for the context without deviating from the script. Model 2, while emotionally expressive (perhaps even more vivid than Model 1), fails the fundamental requirement of Content Accuracy by generating a long string of hallucinated text. This makes Model 2's output invalid as a strict text-to-speech task completion.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

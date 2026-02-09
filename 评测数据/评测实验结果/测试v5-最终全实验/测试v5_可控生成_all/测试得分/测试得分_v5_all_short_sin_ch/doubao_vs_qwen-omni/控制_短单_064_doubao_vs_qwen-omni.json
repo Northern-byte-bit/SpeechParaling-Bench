@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text '请大家注意，会议马上开始了' accurately. In terms of paralinguistic compliance for '音量' (Volume), the audio exhibits a distinct 'shouting' or high-projection quality consistent with a loud announcement. The speaker's voice is raised significantly, with increased energy and vocal tension typical of speaking loudly to a crowd. The prosody matches the urgency of the announcement. The naturalness is high for this specific style, effectively simulating a loud real-world announcement.",
+    "reasoning_model_2": "The model generates the text '请大家注意，会议马上开始了' accurately. However, regarding the '音量' (Volume) instruction, the audio fails completely. The voice is delivered in a standard, calm, and somewhat soft conversational tone, resembling a polite personal assistant rather than someone speaking with 'loud volume' or making a public announcement. There is no increase in projection or energy. While the audio is fluent and high quality, it does not follow the specific style command.",
+    "model_comparison": "Model 1 followed the user's instruction to use 'loud volume' (大声的音量) perfectly. The audio sounds like a person shouting or projecting their voice to get attention, which aligns with the context of the sentence. Model 2 ignored the instruction entirely, delivering the line in a standard, calm, and polite conversational volume. Therefore, Model 1 is the superior model for this specific feature control task.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

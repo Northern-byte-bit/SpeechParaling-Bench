@@ -1,0 +1,14 @@
+{
+    "sample_index": 37,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an innocent and pure voice: 'Mommy, why is the sky blue? And why can little birds fly?'",
+    "dimensions": [
+        "innocent and pure"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

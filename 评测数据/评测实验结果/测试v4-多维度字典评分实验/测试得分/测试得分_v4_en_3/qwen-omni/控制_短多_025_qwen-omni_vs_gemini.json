@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in Content Accuracy and Non-Linguistic Vocalizations. Instead of performing the required paralinguistic feature (a sigh), the model literally reads out a descriptive text 'Exhales sharply' at 0:00-0:02. This is a hallucination where the model vocalizes the stage direction rather than acting it out. Regarding the Attitude (Cold tone), the delivery of the actual script 'do as you please, I don't care' (0:02-0:05) sounds robotic and unnatural, lacking a genuine human-like dismissive or cold emotional coloring. The prosody is disjointed.",
+    "reasoning_model_2": "Model 2 performs excellent Content Accuracy and Paralinguistic Compliance. At 0:00-0:01, it produces a clear, natural-sounding sigh (a breathy exhalation), effectively satisfying the 'Non-Linguistic Vocalizations' requirement. Following this, the speech 'do as you please, I don't care' (0:01-0:04) is delivered with a weary, flat, and dismissive intonation. This perfectly matches the requested 'cold tone' and the semantic meaning of not caring. The flow is natural and human-like.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. In terms of Non-Linguistic Vocalizations, Model 1 completely failed by reading the text description of the sound ('Exhales sharply') instead of generating the sound itself, whereas Model 2 generated a realistic sigh. In terms of Attitude, Model 2 conveyed a convincing cold, dismissive tone, while Model 1 sounded robotic and confused due to the inclusion of the stage direction text.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

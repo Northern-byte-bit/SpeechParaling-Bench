@@ -1,0 +1,14 @@
+{
+    "sample_index": 57,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用喊叫开始，然后逐渐减弱到耳语说: 我不要吃这个！我讨厌青菜！可是妈妈说吃了才能长高高。",
+    "dimensions": [
+        "音量"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

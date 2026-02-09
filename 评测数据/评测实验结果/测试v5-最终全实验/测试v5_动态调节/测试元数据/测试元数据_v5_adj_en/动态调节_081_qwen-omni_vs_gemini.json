@@ -1,0 +1,14 @@
+{
+    "sample_index": 81,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a neutral emotion and gradually transitioning to an angry emotion: 'There will be a meeting in the conference room tomorrow at 9 AM; please be on time. But why are you always late? I'm telling you for the last time!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

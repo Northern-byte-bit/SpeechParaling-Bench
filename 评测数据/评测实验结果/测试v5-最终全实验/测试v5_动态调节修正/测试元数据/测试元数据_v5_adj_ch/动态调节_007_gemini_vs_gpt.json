@@ -1,0 +1,14 @@
+{
+    "sample_index": 7,
+    "candidate_name": "gemini",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用中音开始，然后逐渐提高音高用极高音说: '报告显示一切正常，但我在数据中发现了一个异常点，这可能是一个巨大的突破！'",
+    "dimensions": [
+        "音高"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

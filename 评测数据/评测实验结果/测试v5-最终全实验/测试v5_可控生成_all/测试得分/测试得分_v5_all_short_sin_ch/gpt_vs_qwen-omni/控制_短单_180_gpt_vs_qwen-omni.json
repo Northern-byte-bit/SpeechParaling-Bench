@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the user's command to speak with a yawn. The speech content '这个讲座真没意思，听得我直打哈欠' is articulated clearly (0:00-0:03). Crucially, the model adopts a lethargic, low-energy tone consistent with boredom throughout the sentence. At the end of the sentence (0:03-0:05), the model explicitly generates a non-verbal vocalization—a deep exhale/yawn sound ('Ah...'). This accurately fulfills the 'non-verbal vocalization' (非语言发声) requirement and matches the semantic context of being bored.",
+    "reasoning_model_2": "Model 2 fails to follow the paralinguistic instruction. While the content '这个讲座真没意思，听得我直打哈欠' is pronounced clearly and fluently (0:00-0:03), the tone is surprisingly bright, energetic, and standard, completely lacking the 'bored' or 'yawning' characteristic requested. There are no non-verbal vocalizations (yawning sounds) generated; it sounds like a standard neutral TTS reading without semantic awareness of the fatigue implied by the text.",
+    "model_comparison": "Model 1 is the clear winner. It successfully integrates the requested paralinguistic feature by adopting a tired, bored tone and appending a distinct yawning sound effect at the end of the speech. Model 2 completely ignores the instruction, delivering the line with an inappropriate cheerful/neutral tone and devoid of any non-verbal yawning sounds. Model 1 demonstrates control over 'non-verbal vocalization' and emotional tone, whereas Model 2 does not.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

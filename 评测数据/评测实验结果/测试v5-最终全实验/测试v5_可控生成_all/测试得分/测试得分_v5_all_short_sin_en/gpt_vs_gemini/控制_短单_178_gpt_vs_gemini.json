@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested a yawn, specifically indicated by the text 'Ah~'. Model 1 successfully vocalizes this segment at 00:00 ('Ah'), integrating a breathy, stretched quality that mimics the onset or tail of a yawn. The overall delivery is slow and lethargic (spanning roughly 6 seconds), with pauses (00:03-00:04) that reinforce the 'sleepy' state. Although there is a minor content adjustment ('I'm' becomes 'I am'), the target paralinguistic feature (yawn/sleepiness) is clearly and naturally conveyed through the 'Ah' and the dragged prosody.",
+    "reasoning_model_2": "Model 2 fails to adhere to the script and the paralinguistic request. Crucially, it omits the 'Ah~' (00:00), which is the specific textual anchor provided for the non-linguistic vocalization (the yawn). By skipping this, the model fails to execute the requested yawn. Furthermore, the speech duration is short (~3-4 seconds) and the pacing is too brisk to convincingly portray a sleepy state or the act of yawning. The specific feature is essentially absent due to the content omission.",
+    "model_comparison": "Model 1 demonstrates superior performance by accurately including the non-linguistic vocalization 'Ah' and modifying the prosody to sound sleepy and slow, fitting the context of a yawn. Model 2 fails significantly by omitting the key vocalization segment 'Ah~' entirely and delivering the remaining text with a pace that does not reflect the requested physical state. Model 1 wins decisively on the controllable feature dimension.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

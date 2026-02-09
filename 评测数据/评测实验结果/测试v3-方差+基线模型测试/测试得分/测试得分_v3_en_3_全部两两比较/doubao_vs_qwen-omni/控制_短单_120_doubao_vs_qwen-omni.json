@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio accurately transcribes the text 'Hearing this news, I truly feel sorry for him.' (0:00-0:05). The delivery is slow-paced with a lower pitch and a somber tone, fitting the requested 'sad emotion'. Specifically, the emphasis on 'truly feel sorry' (0:02-0:04) carries a heavy, empathetic weight characteristic of sadness. The fluency is high, sounding very human-like with appropriate pauses and breathiness. It fully meets the core requirement.",
+    "reasoning_model_2": "The audio accurately transcribes the text (0:00-0:04). However, the emotional delivery is completely mismatched with the instruction. The tone is bright, upbeat, and energetic, sounding more like a cheerful narration than an expression of sorrow. There is no trace of the requested 'sad emotion'; instead, it leans towards a happy or neutral-bright tone. While the audio is fluent, the failure to convey the core paralinguistic feature renders it ineffective for the specific task.",
+    "model_comparison": "Model 1 followed the user's instruction perfectly, delivering the line with a distinct sad and empathetic tone that matches the semantic content. Model 2 failed the core constraint, delivering the line with a bright and happy tone that contradicts the text and the prompt. Therefore, Model 1 is the clear winner.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

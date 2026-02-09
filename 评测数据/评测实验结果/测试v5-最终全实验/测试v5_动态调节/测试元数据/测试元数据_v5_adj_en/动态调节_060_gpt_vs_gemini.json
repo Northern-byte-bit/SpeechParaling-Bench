@@ -1,0 +1,14 @@
+{
+    "sample_index": 60,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting quietly and gradually increasing the volume to loudly: 'Actually, I've always known that secret. Now, I decide to stop hiding, I will tell everyone the truth!'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates exceptional adherence to the specific paralinguistic instructions. \n1. **Pitch (音高):** The model adopts a falsetto-like, extremely high register throughout the clip (e.g., 0:00-0:02 '快看！', 0:05 '这么清晰'). It successfully modifies the base voice to hit 'extremely high' notes rather than just selecting a high-pitched voice actor.\n2. **Speed (语速):** The pacing is rapid and urgent, particularly within phrases (e.g., 0:02-0:04 '那里有一道双彩虹'). The delivery feels hurried, matching the excitement.\n3. **Emotion (情感):** The emotion of 'surprise' is vividly conveyed. The speaker sounds breathless, with audible gasps and a shaky, ecstatic tone that perfectly fits someone seeing a rare phenomenon (0:00-0:08). The prosody is dynamic and highly expressive.",
+    "reasoning_model_2": "Model 2 fails to significantly implement the specific control commands, producing a more standard TTS output.\n1. **Pitch (音高):** While the voice timbre is naturally feminine/child-like and thus relatively high, the prosody itself does not reflect the command 'extremely high tone' (极高音). It stays within a comfortable, normal speaking range for that voice type.\n2. **Speed (语速):** The speed is moderate and conversational, lacking the 'fast' (快速) urgency requested. The rhythm is steady rather than excited.\n3. **Emotion (情感):** The emotional delivery is flat regarding the requested 'surprise'. It sounds like a calm, pleasant reading of a script rather than a spontaneous reaction to a double rainbow. There is no sense of shock or awe.",
+    "model_comparison": "Model 1 is the clear winner across all three dimensions. The prompt required specific, exaggerated paralinguistic features ('extremely high pitch', 'fast', 'surprised'). Model 1 effectively manipulated the audio to produce a strained, high-pitched, and breathless performance that aligned perfectly with the instructions. Model 2 produced a high-quality but generic audio sample that sounded like a standard reading; it failed to execute the specific 'extremely high pitch' (relative to the voice's norm), did not speed up, and lacked the intense 'surprise' emotion.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

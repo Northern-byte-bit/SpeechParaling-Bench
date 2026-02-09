@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio content exactly matches the target script: '这个想法太棒了，我们一定要试试。' (0:00-0:03). The speaker employs a forceful, energetic projection with clear emphasis on keywords like '太棒了' and '一定'. The pitch is elevated and the tempo is brisk, naturally conveying a strong sense of enthusiasm and eagerness. The delivery feels authentic and fits the 'enthusiastic tone' requirement perfectly without any electronic artifacts.",
+    "reasoning_model_2": "The audio content deviates significantly from the user's command. The user requested to say '这个想法太棒了！我们一定要试试！', but the model generated a completely different, expanded script: '哇，这个想法真的太棒了，简直让人兴奋得跳起来，我们一定要马上行动起来试试看，肯定会有意想不到的惊喜等着我们' (0:00-0:10). According to the evaluation criteria, a score of 0 applies when 'Voice content is clearly inconsistent with the script'. Although the tone is enthusiastic, the failure to follow the text constraint is a fatal error in a text-to-speech task.",
+    "model_comparison": "Model 1 followed both the text and attitude instructions perfectly. It delivered the exact sentence with a convincing enthusiastic tone. Model 2 failed the fundamental instruction of generating the specific text provided. Instead of reading the sentence, it hallucinated a long, improvised paragraph. While Model 2's voice was enthusiastic, the severe content hallucination renders the generation unacceptable based on the Content Accuracy criterion. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

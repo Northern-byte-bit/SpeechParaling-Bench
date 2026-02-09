@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content: 'When traveling, you must try the local delicacies.' However, regarding the core requirement to stress the word 'must', the performance is lackluster. At timestamp 0:01-0:02, the word 'must' is spoken with a slight pitch lift, but it is brief and lacks significant intensity or elongation to denote heavy stress. Instead, the model places significantly more emphasis on the word 'local' (0:02-0:03) and uses a rising intonation on 'delicacies' that creates a sing-songy, unnatural rhythm. The instruction to specifically highlight 'must' is not effectively realized, as 'local' sounds more prominent.",
+    "reasoning_model_2": "The model generates the correct text content with high fluency and naturalness. Regarding the core requirement, the stress on 'must' is implemented perfectly. At timestamp 0:02, the speaker slows down, elongates the vowel in 'must', and applies a distinct pitch accent that makes it the clear focal point of the sentence. The surrounding prosody supports this emphasis naturally, with the volume and pitch tapering off appropriately on 'try the local delicacies.' The result sounds like a natural human emphasizing a recommendation.",
+    "model_comparison": "Model 2 is the clear winner. The user specifically requested stress on the word 'must'. Model 1 failed to prioritize this word, instead placing stronger emphasis on 'local' and adopting an unnatural, bouncy intonation pattern. Model 2 followed the instruction precisely, applying distinct duration and pitch changes to 'must' to make it the most prominent word in the sentence, while maintaining natural prosody throughout.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

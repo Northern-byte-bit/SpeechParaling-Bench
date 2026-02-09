@@ -1,0 +1,14 @@
+{
+    "sample_index": 44,
+    "candidate_name": "gemini",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-2.5-pro",
+    "demand": "Please read this sentence with a fearful emotion: 'The power suddenly went out at home, it's pitch dark.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "feature_control"
+}

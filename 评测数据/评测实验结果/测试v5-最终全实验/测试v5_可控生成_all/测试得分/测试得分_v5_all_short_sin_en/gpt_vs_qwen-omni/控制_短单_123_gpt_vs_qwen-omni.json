@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio correctly synthesizes the text 'How can this report have so many errors?!' with perfect content accuracy. The fluency is high, sounding natural and human-like. Regarding the specific instruction for 'angry emotion', the model performs very well. From 0:00 to 0:03, the speaker adopts a stern, frustrated tone. There is a distinct emphasis on the words 'How', 'report', and 'errors', with a downward, heavy inflection at the end of the sentence that characterizes authoritative displeasure or scolding. The pacing is deliberate, reinforcing the sense of annoyance. It effectively conveys the requested emotion.",
+    "reasoning_model_2": "The model generates the text accurately and the speech is fluent with no mechanical artifacts. However, it fails completely on the paralinguistic instruction to be 'angry'. The tone from 0:00 to 0:03 is light, breathy, and sounds polite or even slightly inquisitive in a gentle way. There is no intensity, roughness, or sharp inflection associated with anger. The delivery sounds like a casual, perhaps even friendly, reading of the sentence, which directly contradicts the prompt's requirement for anger.",
+    "model_comparison": "Model 1 followed the instructions to express an 'angry emotion' effectively. The voice actor simulation sounded frustrated, stern, and displeased, fitting the context of the sentence. Model 2, on the other hand, delivered the line with a polite and gentle tone that completely lacked any sign of anger or frustration. Therefore, Model 1 is the clear winner for accurately following the style/emotion constraint.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

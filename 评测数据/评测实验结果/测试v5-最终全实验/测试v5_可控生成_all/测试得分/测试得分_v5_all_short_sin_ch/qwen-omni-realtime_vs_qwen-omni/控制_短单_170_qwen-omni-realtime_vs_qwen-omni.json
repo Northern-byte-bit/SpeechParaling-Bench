@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 failed to incorporate the requested paralinguistic feature 'Non-verbal vocalization' (coughing). The prompt explicitly asked to 'say with coughing' and included 'cough cough' (咳咳) in the text script. The model omitted the 'cough cough' text entirely and produced a neutral reading of 'Hmm, I want to say a few words' without any coughing sound or breathiness associated with the request. The content accuracy is also flawed due to the omission.",
+    "reasoning_model_2": "Model 2 successfully generated the requested paralinguistic feature. It interpreted the instruction 'say with coughing' and the text 'cough cough' correctly by generating an actual non-verbal coughing sound and a breathy voice quality suitable for the context. The feature is vivid and clearly perceptible. However, the model significantly failed on content accuracy by hallucinating a large amount of additional text ('This throat is a bit itchy...', etc.) that was not in the prompt. Despite the content error, it demonstrated the specific capability to generate the required non-verbal sound.",
+    "model_comparison": "Model 2 is the clear winner in terms of the specific evaluation dimension 'Non-verbal vocalization'. Model 1 failed completely to generate the coughing sound, ignoring both the stylistic instruction and the specific text representation of the cough. Model 2 successfully generated a natural coughing sound and integrated it into the speech. Although Model 2 suffered from hallucinations (adding extra text), it successfully demonstrated the controllable feature requested, whereas Model 1 did not.",
+    "score_1_1": 0,
+    "score_2_1": 2,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 36,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a fast pace and suddenly switching to a very slow pace: 'The project is progressing well, we've completed most tasks. But... this... report... seems... to... have... a... big problem.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

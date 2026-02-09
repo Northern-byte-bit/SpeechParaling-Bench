@@ -1,0 +1,14 @@
+{
+    "sample_index": 80,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a neutral emotion and gradually transitioning to an angry emotion: 'Please archive these documents, arranged by number. But why haven't you finished the report I asked you to organize last time?'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

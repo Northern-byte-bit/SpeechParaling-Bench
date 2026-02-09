@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text '时间不多了，我们得加快速度完成任务。' with perfect content accuracy. The total duration is approximately 1.8 seconds. The speaker adopts a very rapid pace (approx. 00:00-00:02), compressing the syllables and minimizing pauses, which aligns perfectly with the command 'fast speaking rate'. The tone also carries a sense of urgency and breathlessness consistent with the semantic content 'time is running out'. The prosody is natural for a hurried speaker, fulfilling the paralinguistic requirement completely.",
+    "reasoning_model_2": "The model generates the correct text content. However, the total duration extends to over 3 seconds (00:00-00:03). The speaker includes a noticeable, relaxed pause after the comma at roughly 00:01. The overall pacing is moderate and sounds like a standard reading speed rather than a 'fast' speed. While the voice is fluent and natural, it fails to execute the specific paralinguistic instruction to increase the speaking rate. The delivery feels calm and steady, lacking the requested speed and urgency.",
+    "model_comparison": "The user command explicitly requested a 'fast speaking rate' ('快速的语速'). Model 1 (T1) adhered to this constraint strictly, producing a clip that is significantly shorter (~2s) and sounds perceptibly rushed and urgent, matching the context of the sentence. Model 2 (T2) produced a clip with a standard, moderate speaking rate and a distinct pause (~3s), failing to convey the 'fast' attribute. Therefore, Model 1 demonstrates superior control over the requested paralinguistic feature.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails strictly on Content Accuracy. While it speaks the target sentence, it hallucinates and appends a significant amount of extra text not requested in the prompt: '你再确认一下位置，别放错了' (Check the position again, don't put it wrong) at 00:03-00:05. Regarding the required paralinguistic feature 'Stress' (重音) on '这里': The delivery is fast, light, and colloquial. At 00:01, the word '这里' flows naturally with the rest of the sentence without any distinct prosodic prominence (increased duration, loudness, or pitch excursion). The command to stress the word was effectively ignored in favor of a general, rapid reading style.",
+    "reasoning_model_2": "The model adheres perfectly to Content Accuracy, speaking only the requested sentence '文件应该放在这里，不是那边'. Regarding the required paralinguistic feature 'Stress' (重音) on '这里': At 00:01, the model clearly emphasizes the target word '这里'. It achieves this through a combination of increased intensity, a slight elongation of the syllables, and a downward pitch inflection that marks it as the focus. There is also a distinct rhythmic boundary (micro-pause) after '这里', which further highlights the contrast with '不是那边'. The feature is expressed naturally and accurately.",
+    "model_comparison": "Model 2 (T2) is the clear winner. Model 1 (T1) failed on two counts: it added unauthorized content (hallucination) to the script, and it failed to implement the requested stress on the word '这里', delivering the sentence with a flat, rapid pacing where no specific word stood out. Model 2 followed the script exactly and successfully executed the stress instruction, making '这里' perceptibly prominent through prosodic variation.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

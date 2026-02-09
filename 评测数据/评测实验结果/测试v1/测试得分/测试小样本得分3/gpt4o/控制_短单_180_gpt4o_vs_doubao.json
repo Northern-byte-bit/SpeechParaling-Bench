@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content: '这个讲座真没意思，听得我直打哈欠。' (0.0s - 3.5s). Regarding the core requirement 'say with a yawn', the audio begins with a short breathy sound 'Ah' (0.0s - 0.5s), which sounds more like a sigh or a quick intake of breath than a genuine yawn. The subsequent speech is delivered with a slightly bored tone, but the articulation is relatively crisp and the pace is standard. It lacks the characteristic distortion of speech or the lethargic, draggy prosody associated with yawning or extreme boredom. The target feature is barely perceptible.",
+    "reasoning_model_2": "The model executes the instruction with high fidelity. It begins with a very distinct, realistic, and prolonged non-verbal yawn sound (0.0s - 2.0s). Following the yawn, the spoken content '这个讲座...真没意思...' is delivered with a slow, draggy, and exhausted tone, perfectly matching the physiological state of someone yawning. The pacing is naturally sluggish, and the lack of energy in the voice (prosody) aligns perfectly with the text's meaning. The non-verbal vocalization is vivid and the integration with speech is seamless.",
+    "model_comparison": "Model 2 is significantly better than Model 1. Model 2 provides a clear, unmistakable non-verbal yawn sound at the beginning and maintains the 'sleepy/bored' persona throughout the sentence, affecting the rhythm and tone naturally. Model 1 merely adds a short sigh at the start, and the rest of the speech sounds too energetic and normal, failing to convincingly convey the physical act of yawning requested in the prompt.",
+    "score_1": 1,
+    "score_2": 3,
+    "winner": 2
+}

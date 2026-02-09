@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model perfectly follows the script with 100% content accuracy. regarding the dimension '语速' (Speed), the articulation is brisk and rapid (approx. 7 seconds for the whole text), significantly faster than a neutral speaking rate, fitting the 'extremely fast' requirement while maintaining clarity. There are brief, natural pauses between clauses that prevent it from sounding robotic, but the overall pace is urgent. Regarding '态度' (Attitude), the tone is distinctively cold and impatient. The downward inflection at the end of sentences, particularly at '我就先挂了' (00:04-00:05) and '还有别的事要处理' (00:06), conveys a dismissive, business-like indifference, perfectly matching the 'cold' descriptor.",
+    "reasoning_model_2": "The model fails significantly in content accuracy. It rewrites and shortens the script (e.g., '请把资料发给我' becomes '资料发我吧', '我已经听过很多遍了' becomes '已经听过好多遍了'). This major hallucination/paraphrasing violation undermines the evaluation. Regarding '语速' (Speed), the delivery is fast, but the shortening of the text artificially aids the duration; acoustically, the syllable rate is high. Regarding '态度' (Attitude), the model fails to convey 'coldness'. The tone is casual, slightly bouncy, and sounds more like a friendly or neutral quick notification (e.g., the intonation on '好多遍了' at 00:03 is light rather than annoyed). It lacks the distant, dismissive weight required by the prompt.",
+    "model_comparison": "Model 1 is the clear winner. Model 1 strictly adheres to the provided text, whereas Model 2 hallucinates and rewrites large portions of the script into a more colloquial form, which is a critical failure in instruction following. In terms of the target features, Model 1 successfully delivers an 'extremely fast' and 'cold/impatient' performance that matches the persona of someone trying to hang up quickly. Model 2's tone is too casual and friendly, missing the 'cold' attribute entirely, and its speed achievement is compromised by the unauthorized text shortening.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

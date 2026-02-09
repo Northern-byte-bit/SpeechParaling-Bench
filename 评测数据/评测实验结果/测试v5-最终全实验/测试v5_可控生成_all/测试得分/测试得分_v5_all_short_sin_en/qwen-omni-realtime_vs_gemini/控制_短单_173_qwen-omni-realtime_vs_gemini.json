@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly on Content Accuracy. While it begins with the target phrase, it hallucinates and appends a long, unrequested monologue ('I'm screaming right now my voice cracking...') describing the action rather than simply performing the requested line. Regarding the 'Scream' feature, the delivery is breathless, shaky, and whispered—resembling a panic attack or hyperventilation—but it is distinctly not a scream. It lacks the volume, pitch, and projection required for the target vocalization. Due to the major content deviation (hallucination) and failure to produce the target vocal style, this receives a low score.",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, delivering exactly the requested text with no additions or omissions. Regarding the 'Scream' feature, the delivery is high-energy, loud, and terrified. It effectively captures the paralinguistic features of a fearful shout or scream (high pitch, strained vocal folds, high volume) as requested. The emotion is vivid and spot-on for the text provided. The audio is natural and fits the 'terrifying scene' context perfectly.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the instruction in two ways: first, by hallucinating a large amount of extra text instead of just reading the sentence; second, by delivering the lines in a breathless whisper/panic tone rather than a scream. Model 2 followed the content instructions perfectly and successfully modulated the voice to sound like a terrified shout/scream, fulfilling the paralinguistic requirement effectively.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

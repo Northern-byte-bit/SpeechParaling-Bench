@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates perfect Content Accuracy. It recites the script '这个想法太棒了！我们一定要试试！' exactly as requested, without any additions or omissions. Regarding the required 'Enthusiastic' (热情) attitude, the model conveys the excitement effectively throughout the short segment (0:00-0:04). The tone is uplifted and energetic, matching the intent of the command. The paralinguistic expression is compliant and natural.",
+    "reasoning_model_2": "Model 2 fails strictly on Content Accuracy. The user command explicitly requested to read the specific sentence: '这个想法太棒了！我们一定要试试！'. However, Model 2 generated a completely different, improvised script: '哇，这个想法真的太棒了，简直让人兴奋得跳起来，我们一定要马上行动起来试试看，肯定会有意想不到的惊喜等着我们'. According to the Evaluation Criterion, if the voice content is clearly inconsistent with the script, the score must be 0. Despite any enthusiasm in the delivery, the failure to follow the content constraint is a critical error.",
+    "model_comparison": "Model 1 wins decisively. It strictly adheres to the content constraints while successfully applying the requested enthusiastic tone. Model 2, while potentially sounding enthusiastic, completely hallucinates the content, expanding a short sentence into a long paragraph. This violates the fundamental requirement of Content Accuracy (0 = Completely incorrect), rendering the audio unusable for the specific command. Therefore, Model 1 is better.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

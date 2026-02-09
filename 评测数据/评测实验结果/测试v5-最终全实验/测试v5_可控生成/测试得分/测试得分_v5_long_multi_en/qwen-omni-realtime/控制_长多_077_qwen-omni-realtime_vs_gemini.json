@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the provided text script with high fidelity, with a negligible text normalization where 'I'm' is spoken as 'I am' (00:08), which does not affect meaning or naturalness. Regarding the paralinguistic features: \n1. **Emotion:** The model successfully conveys a 'fearful emotion'. From 00:00 ('Oh my goodness'), the voice is breathless and shaky. The segment 'Is someone secretly watching us outside?' (00:05-00:07) effectively utilizes a trembling tone to express paranoia and fear.\n2. **Pitch:** The voice maintains a 'high pitch' throughout, characteristic of a terrified reaction. The intonation rises significantly at the end of questions and exclamations (e.g., 'fast!', 'outside?'), matching the requested feature.\n3. **Rhythm:** The delivery is 'rushed'. The speaker articulates words quickly (e.g., 'moving incredibly fast', 00:04), and the pauses are short and sound like quick, panicked intakes of breath, effectively simulating a heart-pounding urgency. \nOverall, Model 1 meets all criteria for content and style.",
+    "reasoning_model_2": "Model 2 fails the fundamental criterion of **Content Accuracy**. Instead of reading the specified sentence ('It looked like a dark shadow just flashed past the window...'), the model completely rewrites the script, generating repetitive and hallucinated content such as 'Oh my goodness, oh my goodness, did you see that?' (00:00-00:03) and 'So fast, so fast' (00:07). According to the Detailed Scoring Standard, a score of 0 is assigned when 'Voice content is clearly inconsistent with the script'. Since the model did not read the required text, it fails to meet the user's core command. Consequently, even though it exhibits some emotional tone, the complete failure in content adherence renders the audio invalid for all specific controllable dimensions (Emotion, Pitch, Rhythm) relative to the requested script.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. It adhered strictly to the script (with one trivial expansion of a contraction) and successfully integrated the required paralinguistic features of high pitch, rushed rhythm, and fearful emotion into the delivery. Model 2, while expressive, suffered from severe hallucinations, speaking an entirely different text than what was requested. Per the evaluation criteria, a complete inconsistency with the script results in a score of 0. Therefore, Model 1 demonstrates superior quality and instruction following capability.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

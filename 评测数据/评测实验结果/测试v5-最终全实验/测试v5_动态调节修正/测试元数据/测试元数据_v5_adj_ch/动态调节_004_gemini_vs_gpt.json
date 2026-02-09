@@ -1,0 +1,14 @@
+{
+    "sample_index": 4,
+    "candidate_name": "gemini",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用高音开始，然后突然降低音高用极低音说: '太棒了，我要赢了！等等，这怎么可能？我的基地被偷袭了。'",
+    "dimensions": [
+        "音高"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

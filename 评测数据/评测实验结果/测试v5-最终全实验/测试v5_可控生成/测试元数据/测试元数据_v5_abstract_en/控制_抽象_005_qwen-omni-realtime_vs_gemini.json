@@ -1,0 +1,14 @@
+{
+    "sample_index": 5,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a professional and objective tone: 'We have conducted an initial analysis of the system failure, finding it closely related to server overload, and are currently developing solutions.'",
+    "dimensions": [
+        "professional and objective"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

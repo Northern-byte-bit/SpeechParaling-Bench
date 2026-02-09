@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model correctly generates the content '加油，我们一定能赢' without pronunciation errors. Regarding the controllable feature '音量' (specifically 'shouting volume'), the performance is weak. While the voice is enthusiastic and slightly projected, it lacks the physiological characteristics of a genuine shout (such as increased vocal tension, higher pitch, and forceful projection). At timestamps 0.0s-1.5s, the audio sounds more like a loud 'reading' voice or a stage whisper rather than a visceral 'shout' intended to be heard over a distance. It fails to break away from a standard speaking phonation style.",
+    "reasoning_model_2": "The model accurately generates the text '加油，我们一定能赢'. The execution of the 'shouting volume' command is excellent. From 0.0s to 2.1s, the voice exhibits genuine vocal strain, high energy, and the rougher timbre associated with yelling. The projection is convincing, sounding like a person shouting support at a loud stadium or across a large field. The transition from '加油' to '我们一定能赢' maintains high intensity and volume dynamics appropriate for the command.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in adhering to the paralinguistic command 'shouting volume' (喊叫的音量). Model 1 produces a standard enthusiastic speaking tone that sounds artificial and restrained in the context of a request for shouting. In contrast, Model 2 completely alters the vocal mode to simulate a realistic shout with appropriate strain, pitch, and intensity. Model 2 captures the physical essence of the command, whereas Model 1 merely simulates a slightly louder reading tone.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

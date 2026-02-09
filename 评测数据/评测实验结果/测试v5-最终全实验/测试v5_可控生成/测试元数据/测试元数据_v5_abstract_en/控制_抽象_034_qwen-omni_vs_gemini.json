@@ -1,0 +1,14 @@
+{
+    "sample_index": 34,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a fearful and trembling voice: 'That thing, it, it seems to be right outside the window, I, I dare not look!'",
+    "dimensions": [
+        "fearful and trembling"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

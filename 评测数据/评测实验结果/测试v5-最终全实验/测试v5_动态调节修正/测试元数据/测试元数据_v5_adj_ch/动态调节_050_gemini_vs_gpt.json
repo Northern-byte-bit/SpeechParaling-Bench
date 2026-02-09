@@ -1,0 +1,14 @@
+{
+    "sample_index": 50,
+    "candidate_name": "gemini",
+    "baseline_name": "gpt",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用正常音量开始，然后突然提高音量喊叫着说: 这个球传得真不错，配合很默契。什么？怎么会犯这种低级失误！",
+    "dimensions": [
+        "音量"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Error",
+    "category": "dynamic_adjustment"
+}

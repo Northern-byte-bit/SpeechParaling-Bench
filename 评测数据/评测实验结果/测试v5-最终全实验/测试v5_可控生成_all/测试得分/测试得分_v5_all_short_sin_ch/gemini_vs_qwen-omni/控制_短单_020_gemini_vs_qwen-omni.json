@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user's command was to say '今天下午的安排是什么？' (What is the schedule for this afternoon?). However, Model 1 generated '今天下午的安排是开会' (The schedule for this afternoon is a meeting). This is a critical Content Accuracy error where the model failed to repeat the text and instead modified it (turning a question into a statement/answer). According to the detailed scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, despite the pitch quality, the content failure results in a minimum score.",
+    "reasoning_model_2": "Model 2 accurately generated the text '今天下午的安排是什么？' without any errors, satisfying the Content Accuracy criterion. In terms of the required paralinguistic feature '中音' (Medium Pitch), the audio maintains a stable, natural pitch in the middle of the vocal range. It does not sound high-pitched/sharp nor low/deep. The prosody is natural (00:00-00:02), and the pitch control effectively meets the user's requirement for a 'medium' tone. It is a solid example of a fully correct generation.",
+    "model_comparison": "Model 1 failed the fundamental requirement of Content Accuracy by changing the script from '是什么' (what is it?) to '是开会' (is a meeting), effectively answering the prompt instead of repeating it. Model 2 followed the instructions perfectly, producing the correct text with the requested Medium Pitch. Therefore, Model 2 is the clear winner.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}
