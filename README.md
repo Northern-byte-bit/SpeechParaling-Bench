@@ -126,4 +126,3 @@ Contributions welcome. Please open issues or PRs with a concise description of c
 - Doubao realtime, Gemini-2.5-flash-audio, gpt-audio, qwen3-omni-flash-2025-12-01 (model APIs)
 - Gemini-3 Pro (per-pair evaluation channel)
 - The repository includes example prompts and workflow scripts under release/prompt_ch合集 and release/prompt_en合集, plus a ready-to-inspect README in API模型调用代码/doubao/python3.7/README.md
-
