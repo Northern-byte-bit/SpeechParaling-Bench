@@ -15,29 +15,29 @@ YOUR_API_KEY = "sk-qaRAMC1DOgx2F5rSKfmEYOw84bS2kTICuqvv6RwabF3EvK2q"
 BASE_URL = "http://43.131.235.107:45101/"
 TARGET_MODEL = "gemini-3-pro-preview"
 
-PROMPT_JSONL = "prompt_en合集/可控生成/长文本-多维度.jsonl"
+PROMPT_JSONL = "jsonl_prompt_en/para_con/长文本-多维度.jsonl"
 
 # 已生成的音频目录
 MODEL_DIRS = {
-    # "doubao": "API模型调用代码/doubao/output_en/可控生成/控制_长多",
-    # "gpt": "API模型调用代码/gpt/output_en/可控生成/控制_长多",
-    "gemini": "API模型调用代码/gemini/output_en/可控生成/控制_长多",
-    # "qwen-omni": "API模型调用代码/qwen-omni/output_en/可控生成/控制_长多",
-    # "qwen-omni-realtime": "API模型调用代码/qwen-omni-realtime/output_en/可控生成/控制_长多",
-    "YOU_MODEL_NAME": "API模型调用代码/YOU_MODEL/output_en/可控生成/控制_长多",
+    # "doubao": "API模型调用代码/doubao/output_en/para_con/控制_长多",
+    # "gpt": "API模型调用代码/gpt/output_en/para_con/控制_长多",
+    "gemini": "API模型调用代码/gemini/output_en/para_con/控制_长多",
+    # "qwen-omni": "API模型调用代码/qwen-omni/output_en/para_con/控制_长多",
+    # "qwen-omni-realtime": "API模型调用代码/qwen-omni-realtime/output_en/para_con/控制_长多",
+    "YOU_MODEL_NAME": "API模型调用代码/YOU_MODEL/output_en/para_con/控制_长多",
 }
 
 # 输出各模型的评分 jsonl
 OUTPUT_DIRS = {
-    "gemini": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成/测试得分/测试得分_v5_long_multi_en/gemini",
-    # "gpt": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成/测试得分/测试得分_v5_long_multi_en/gpt",
-    # "doubao": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成/测试得分/测试得分_v5_long_multi_en/doubao",
-    # "qwen-omni": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成/测试得分/测试得分_v5_long_multi_en/qwen-omni",
-    # "qwen-omni-realtime": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成/测试得分/测试得分_v5_long_multi_en/qwen-omni-realtime",
-    "YOU_MODEL_NAME": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成/测试得分/测试得分_v5_long_multi_en/YOU_MODEL_NAME",
+    "gemini": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con/测试得分/测试得分_v5_long_multi_en/gemini",
+    # "gpt": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con/测试得分/测试得分_v5_long_multi_en/gpt",
+    # "doubao": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con/测试得分/测试得分_v5_long_multi_en/doubao",
+    # "qwen-omni": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con/测试得分/测试得分_v5_long_multi_en/qwen-omni",
+    # "qwen-omni-realtime": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con/测试得分/测试得分_v5_long_multi_en/qwen-omni-realtime",
+    "YOU_MODEL_NAME": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con/测试得分/测试得分_v5_long_multi_en/YOU_MODEL_NAME",
 }
 
-METADATA_DIR = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成/测试元数据/测试元数据_v5_long_multi_en"
+METADATA_DIR = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con/测试元数据/测试元数据_v5_long_multi_en"
 
 client = genai.Client(
     http_options=types.HttpOptions(base_url=BASE_URL),
@@ -101,7 +101,7 @@ def normalize_json_output(raw_text):
         # 如果解析失败，返回 None 和错误信息
         return None, f"JSONDecodeError: {e}"
 # ---------------------------------------------------------------------
-# Judger Prompt (C.3版本，定制为可控生成)
+# Judger Prompt (C.3版本，定制为para_con)
 # ---------------------------------------------------------------------
 def build_judger_prompts(demand, dims_str, dims):
     system_prompt_judger=(f"""

@@ -3,8 +3,8 @@ import json
 from collections import defaultdict
 
 # ===== 批量输入 & 输出根目录 =====
-INPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/测试元数据"
-OUTPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/模型得分结果"
+INPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试元数据"
+OUTPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/模型得分结果"
 os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
 # ================= 主循环：逐个数据集统计 =================

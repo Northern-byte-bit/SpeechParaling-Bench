@@ -19,7 +19,7 @@ import json as _json
 BATCH_TASKS = _json.loads(os.getenv("QWEN_BATCH_TASKS_JSON", _json.dumps([
     (
         "qwen-omni_控制长单en",
-        "API模型调用代码/qwen-omni/output_en/可控生成/控制_长单"
+        "api_models/qwen-omni/output_en/para_con/控制_长单"
     )
 ])))
 

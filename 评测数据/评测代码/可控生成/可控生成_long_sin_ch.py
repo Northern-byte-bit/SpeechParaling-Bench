@@ -15,16 +15,16 @@ YOUR_API_KEY = "sk-qaRAMC1DOgx2F5rSKfmEYOw84bS2kTICuqvv6RwabF3EvK2q"
 BASE_URL = "http://43.131.235.107:45101/"
 TARGET_MODEL = "gemini-3-pro-preview"
 
-PROMPT_JSONL = "prompt_ch合集/可控生成/长文本-单维度.jsonl"
+PROMPT_JSONL = "jsonl_prompt_ch/para_con/长文本-单维度.jsonl"
 
 # 已生成的音频目录
 MODEL_DIRS = {
-    "doubao": "API模型调用代码/doubao/output_ch/可控生成/控制_长单",
-    # "gpt": "API模型调用代码/gpt/output_ch/可控生成/控制_长单",
-    # "gemini": "API模型调用代码/gemini/output_ch/可控生成/控制_长单",
-    # "qwen-omni": "API模型调用代码/qwen-omni/output_ch/可控生成/控制_长单",
-    # "qwen-omni-realtime": "API模型调用代码/qwen-omni-realtime/output_ch/可控生成/控制_长单",
-    "YOU_MODEL_NAME": "API模型调用代码/YOU_MODEL/output_ch/可控生成/控制_长单",
+    "doubao": "API模型调用代码/doubao/output_ch/para_con/控制_长单",
+    # "gpt": "API模型调用代码/gpt/output_ch/para_con/控制_长单",
+    # "gemini": "API模型调用代码/gemini/output_ch/para_con/控制_长单",
+    # "qwen-omni": "API模型调用代码/qwen-omni/output_ch/para_con/控制_长单",
+    # "qwen-omni-realtime": "API模型调用代码/qwen-omni-realtime/output_ch/para_con/控制_长单",
+    "YOU_MODEL_NAME": "API模型调用代码/YOU_MODEL/output_ch/para_con/控制_长单",
 }
 
 # 输出各模型的评分 jsonl
@@ -101,7 +101,7 @@ def normalize_json_output(raw_text):
         # 如果解析失败，返回 None 和错误信息
         return None, f"JSONDecodeError: {e}"
 # ---------------------------------------------------------------------
-# Judger Prompt (C.3版本，定制为可控生成)
+# Judger Prompt (C.3版本，定制为para_con)
 # ---------------------------------------------------------------------
 def build_judger_prompts(demand, dims_str, dims):
     system_prompt_judger=(f"""

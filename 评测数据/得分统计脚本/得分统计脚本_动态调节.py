@@ -3,8 +3,8 @@ import json
 from collections import defaultdict
 
 # ===== 批量输入 & 输出根目录 =====
-INPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节/测试元数据"
-OUTPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节/模型得分结果"
+INPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var/测试元数据"
+OUTPUT_ROOT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var/模型得分结果"
 os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
 def process_one_folder(JSON_DIR, OUTPUT_TXT):

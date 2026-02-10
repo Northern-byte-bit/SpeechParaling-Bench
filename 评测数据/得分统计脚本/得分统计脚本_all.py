@@ -3,8 +3,8 @@ import json
 from collections import defaultdict
 
 # ================= 用户配置 =================
-JSON_DIR = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成_all/测试元数据/测试元数据_v5_all_short_sin_ch"
-OUTPUT_TXT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_可控生成_all/模型得分结果/模型得分统计结果_v5_all_short_sin_ch.txt"
+JSON_DIR = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con_all/测试元数据/测试元数据_v5_all_short_sin_ch"
+OUTPUT_TXT = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_para_con_all/模型得分结果/模型得分统计结果_v5_all_short_sin_ch.txt"
 
 # model -> dim -> score
 scores = defaultdict(lambda: defaultdict(float))

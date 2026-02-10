@@ -14,29 +14,29 @@ YOUR_API_KEY = "sk-qaRAMC1DOgx2F5rSKfmEYOw84bS2kTICuqvv6RwabF3EvK2q"
 BASE_URL = "http://43.131.235.107:45101/"
 TARGET_MODEL = "gemini-3-pro-preview"
 
-PROMPT_JSONL = "prompt_ch合集/动态调节/动态调节.jsonl"
+PROMPT_JSONL = "jsonl_prompt_ch/dyn_var/dyn_var.jsonl"
 
 # 已生成的音频目录
 MODEL_DIRS = {
-    "doubao": "API模型调用代码/doubao/output_ch/动态调节",
-    "YOU_MODEL_NAME": "API模型调用代码/YOU_MODEL/output_ch/动态调节",
-    # "gpt": "API模型调用代码/gpt/output_ch/动态调节",
-    # "gemini": "API模型调用代码/gemini/output_ch/动态调节",
-    # "qwen-omni": "API模型调用代码/qwen-omni/output_ch/动态调节",
-    # "qwen-omni-realtime": "API模型调用代码/qwen-omni-realtime/output_ch/动态调节",
+    "doubao": "API模型调用代码/doubao/output_ch/dyn_var",
+    "YOU_MODEL_NAME": "API模型调用代码/YOU_MODEL/output_ch/dyn_var",
+    # "gpt": "API模型调用代码/gpt/output_ch/dyn_var",
+    # "gemini": "API模型调用代码/gemini/output_ch/dyn_var",
+    # "qwen-omni": "API模型调用代码/qwen-omni/output_ch/dyn_var",
+    # "qwen-omni-realtime": "API模型调用代码/qwen-omni-realtime/output_ch/dyn_var",
 }
 
 # 输出各模型的评分 jsonl
 OUTPUT_DIRS = {
-    # "gemini": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节2/测试得分/测试得分_v5_adj_ch/gemini",
-    # "gpt": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节2/测试得分/测试得分_v5_adj_ch/gpt",
-    "doubao": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节2/测试得分/测试得分_v5_adj_ch/doubao",
-    "YOU_MODEL_NAME": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节2/测试得分/测试得分_v5_adj_ch/YOU_MODEL_NAME",
-    # "qwen-omni": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节2/测试得分/测试得分_v5_adj_ch/qwen-omni",
-    # "qwen-omni-realtime": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节2/测试得分/测试得分_v5_adj_ch/qwen-omni-realtime",
+    # "gemini": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var2/测试得分/测试得分_v5_adj_ch/gemini",
+    # "gpt": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var2/测试得分/测试得分_v5_adj_ch/gpt",
+    "doubao": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var2/测试得分/测试得分_v5_adj_ch/doubao",
+    "YOU_MODEL_NAME": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var2/测试得分/测试得分_v5_adj_ch/YOU_MODEL_NAME",
+    # "qwen-omni": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var2/测试得分/测试得分_v5_adj_ch/qwen-omni",
+    # "qwen-omni-realtime": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var2/测试得分/测试得分_v5_adj_ch/qwen-omni-realtime",
 }
 
-METADATA_DIR = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_动态调节2/测试元数据/测试元数据_v5_adj_ch"
+METADATA_DIR = "评测数据/评测实验结果/测试v5-最终全实验/测试v5_dyn_var2/测试元数据/测试元数据_v5_adj_ch"
 
 client = genai.Client(
     http_options=types.HttpOptions(base_url=BASE_URL),

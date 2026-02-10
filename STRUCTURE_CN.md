@@ -6,15 +6,15 @@
 
 代码与数据目录概览
 - release/：主工作区，包含指令模板、音频数据、评测脚本与数据、以及文档。
-- release/prompt_ch合集/：中文指令集合，含情景适应、可控生成等子目录；JSONL 行格式，字段为 prompt 与 dimensions。
-- release/prompt_en合集/：英文指令集合，含情景适应、可控生成、动态调节等子目录；JSONL 行格式。
-- release/语音指令_en/：音频样本，按场景与维度组织的 WAV 文件。
+- release/jsonl_prompt_ch/：中文指令集合，含sit_ada、para_con等子目录；JSONL 行格式，字段为 prompt 与 dimensions。
+- release/jsonl_prompt_en/：英文指令集合，含sit_ada、para_con、dyn_var等子目录；JSONL 行格式。
+- release/audio_dataset_en/：音频样本，按场景与维度组织的 WAV 文件。
 
 三大指令模块及数据格式
-- 可控生成模块：目标是在给定副语言维度下表达特定属性。
+- para_con模块：目标是在给定副语言维度下表达特定属性。
   数据格式示例：
   {"prompt": "请用孩童的声音说：妈妈，我可以再吃一块饼干吗？", "dimensions": ["年龄"]}
-- 动态调节模块：测试节奏等动态要素对副语言表达的影响。
+- dyn_var模块：测试节奏等动态要素对副语言表达的影响。
   数据格式示例：
   {"prompt": "请先用轻快的节奏开始，然后突然变得急促起来说：让我看会电视好好放松一下？", "dimensions": ["节奏"]}
 - 情景共情模块：评估对带副语言维度文本的回应策略。

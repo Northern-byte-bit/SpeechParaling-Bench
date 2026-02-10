@@ -14,27 +14,29 @@ API_KEY = os.getenv("PARALINGBENCH_EVAL_SIN_API_KEY", "")
 BASE_URL = os.getenv("PARALINGBENCH_EVAL_SIN_BASE_URL", "http://43.131.235.107:45101/")
 TARGET_MODEL = "gemini-3-pro-preview"
 
-PROMPT_JSONL = os.getenv("SIN_PROMPT_JSONL", "prompt_ch合集/情景适应/适应_多维度.jsonl")
+PROMPT_JSONL = os.getenv("SIN_PROMPT_JSONL", "jsonl_prompt_ch/sit_ada/适应_多维度.jsonl")
 
 # 已生成的音频目录
 MODEL_DIRS = {
-    "doubao": "API模型调用代码/doubao/output_ch/情景适应/适应_多维度",
-    "gpt": "API模型调用代码/gpt/output_ch/情景适应/适应_多维度",
-    "gemini": "API模型调用代码/gemini/output_ch/情景适应/适应_多维度",
-    "qwen-omni": "API模型调用代码/qwen-omni/output_ch/情景适应/适应_多维度",
-    "qwen-omni-realtime": "API模型调用代码/qwen-omni-realtime/output_ch/情景适应/适应_多维度",
+    "doubao": "api_models/doubao/output_ch/sit_ada/适应_多维度",
+    # "gpt": "api_models/gpt/output_ch/sit_ada/适应_多维度",
+    # "gemini": "api_models/gemini/output_ch/sit_ada/适应_多维度",
+    # "qwen-omni": "api_models/qwen-omni/output_ch/sit_ada/适应_多维度",
+    # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_ch/sit_ada/适应_多维度",
+    "YOU_MODEL_NAME": "api_models/YOU_MODEL/output_ch/sit_ada/适应_多维度",
 }
 
 # 输出各模型的评分 jsonl
 OUTPUT_DIRS = {
-    "doubao": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/测试得分/测试得分_v5_multi_ch/doubao",
-    "gpt": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/测试得分/测试得分_v5_multi_ch/gpt",
-    "gemini": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/测试得分/测试得分_v5_multi_ch/gemini",
-    "qwen-omni": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/测试得分/测试得分_v5_multi_ch/qwen-omni",
-    "qwen-omni-realtime": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/测试得分/测试得分_v5_multi_ch/qwen-omni-realtime",
+    "doubao": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试得分/测试得分_v5_multi_ch/doubao",
+    # "gpt": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试得分/测试得分_v5_multi_ch/gpt",
+    # "gemini": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试得分/测试得分_v5_multi_ch/gemini",
+    # "qwen-omni": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试得分/测试得分_v5_multi_ch/qwen-omni",
+    # "qwen-omni-realtime": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试得分/测试得分_v5_multi_ch/qwen-omni-realtime",
+    "YOU_MODEL_NAME": "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试得分/测试得分_v5_multi_ch/YOU_MODEL_NAME",
 }
 
-METADATA_DIR = os.getenv("SIN_METADATA_DIR", "评测数据/评测实验结果/测试v5-最终全实验/测试v5_情景适应/测试元数据/测试元数据_v5_multi_ch")
+METADATA_DIR = os.getenv("SIN_METADATA_DIR", "评测数据/评测实验结果/测试v5-最终全实验/测试v5_sit_ada/测试元数据/测试元数据_v5_multi_ch")
 
 client = genai.Client(
     http_options=types.HttpOptions(base_url=BASE_URL),
@@ -98,7 +100,7 @@ def normalize_json_output(raw_text):
         # 如果解析失败，返回 None 和错误信息
         return None, f"JSONDecodeError: {e}"
 # ---------------------------------------------------------------------
-# Judger Prompt (C.3版本，定制为情景适应)
+# Judger Prompt (C.3版本，定制为sit_ada)
 # ---------------------------------------------------------------------
 def build_judger_prompts(demand, dims_str, dims):
     system_prompt_judger=(f"""
@@ -392,8 +394,9 @@ def run_with_auto_resume(candidate_name, baseline_name="gemini", start_index=1):
 #     evaluate("qwen-omni")
 #     print("\n全部任务完成！")
 if __name__ == "__main__":
-    run_with_auto_resume("gpt", baseline_name="doubao", start_index=1)
-    run_with_auto_resume("gemini", baseline_name="doubao", start_index=1)
-    run_with_auto_resume("qwen-omni", baseline_name="doubao", start_index=1)
-    run_with_auto_resume("qwen-omni-realtime", baseline_name="doubao", start_index=1)
+    # run_with_auto_resume("gpt", baseline_name="doubao", start_index=1)
+    # run_with_auto_resume("gemini", baseline_name="doubao", start_index=1)
+    # run_with_auto_resume("qwen-omni", baseline_name="doubao", start_index=1)
+    # run_with_auto_resume("qwen-omni-realtime", baseline_name="doubao", start_index=1)
+    run_with_auto_resume("YOU_MODEL_NAME", baseline_name="doubao", start_index=1)
     print("\n全部任务完成！")

@@ -11,73 +11,73 @@ import wave
 import json
 BATCH_TASKS = json.loads(os.getenv("QWEN_REALTIME_BATCH_TASKS_JSON", json.dumps([
     (
-        # "语音指令_ch/动态调节",
+        # "audio_dataset_ch/dyn_var",
         "realtime_adj_ch",
-        "API模型调用代码/qwen-omni-realtime/output_ch/动态调节"
+        "api_models/qwen-omni-realtime/output_ch/dyn_var"
     ),
     # (
-    #     "语音指令_ch/可控生成/控制_抽象",
-    #     "API模型调用代码/qwen-omni-realtime/output_ch/可控生成/控制_抽象"
+    #     "audio_dataset_ch/para_con/控制_抽象",
+    #     "api_models/qwen-omni-realtime/output_ch/para_con/控制_抽象"
     # ),
     (
-        # "语音指令_ch/可控生成/控制_短单",
+        # "audio_dataset_ch/para_con/控制_短单",
         "realtime_short_sin_ch",
-        "API模型调用代码/qwen-omni-realtime/output_ch/可控生成/控制_短单"
+        "api_models/qwen-omni-realtime/output_ch/para_con/控制_短单"
     ),
     # (
-    #     "语音指令_ch/可控生成/控制_短多",
-    #     "API模型调用代码/qwen-omni-realtime/output_ch/可控生成/控制_短多"
+    #     "audio_dataset_ch/para_con/控制_短多",
+    #     "api_models/qwen-omni-realtime/output_ch/para_con/控制_短多"
     # ),
     # (
-    #     "语音指令_ch/可控生成/控制_长单",
-    #     "API模型调用代码/qwen-omni-realtime/output_ch/可控生成/控制_长单"
+    #     "audio_dataset_ch/para_con/控制_长单",
+    #     "api_models/qwen-omni-realtime/output_ch/para_con/控制_长单"
     # ),
     # (
-    #     "语音指令_ch/可控生成/控制_长多",
-    #     "API模型调用代码/qwen-omni-realtime/output_ch/可控生成/控制_长多"
+    #     "audio_dataset_ch/para_con/控制_长多",
+    #     "api_models/qwen-omni-realtime/output_ch/para_con/控制_长多"
     # ),
     (
-        # "语音指令_en/动态调节",
+        # "audio_dataset_en/dyn_var",
         "realtime_adj_en",
-        "API模型调用代码/qwen-omni-realtime/output_en/动态调节"
+        "api_models/qwen-omni-realtime/output_en/dyn_var"
     ),
     # (
-    #     # "语音指令_en/可控生成/控制_抽象",
+    #     # "audio_dataset_en/para_con/控制_抽象",
     #     "realtime_abs_en",
-    #     "API模型调用代码/qwen-omni-realtime/output_en/可控生成/控制_抽象"
+    #     "api_models/qwen-omni-realtime/output_en/para_con/控制_抽象"
     # ),
     # (
-    #     "语音指令_en/可控生成/控制_短单",
-    #     "API模型调用代码/qwen-omni-realtime/output_en/可控生成/控制_短单"
+    #     "audio_dataset_en/para_con/控制_短单",
+    #     "api_models/qwen-omni-realtime/output_en/para_con/控制_短单"
     # ),
     # (
-    #     "语音指令_en/可控生成/控制_短多",
-    #     "API模型调用代码/qwen-omni-realtime/output_en/可控生成/控制_短多"
+    #     "audio_dataset_en/para_con/控制_短多",
+    #     "api_models/qwen-omni-realtime/output_en/para_con/控制_短多"
     # ),
     # (
-    #     "语音指令_en/可控生成/控制_长单",
-    #     "API模型调用代码/qwen-omni-realtime/output_en/可控生成/控制_长单"
+    #     "audio_dataset_en/para_con/控制_长单",
+    #     "api_models/qwen-omni-realtime/output_en/para_con/控制_长单"
     # ),
     (
-        # "语音指令_en/可控生成/控制_长多",
+        # "audio_dataset_en/para_con/控制_长多",
         "realtime_long_multi_en",
-        "API模型调用代码/qwen-omni-realtime/output_en/可控生成/控制_长多"
+        "api_models/qwen-omni-realtime/output_en/para_con/控制_长多"
     ),
     # (
-    #     "语音指令_ch/情景适应/适应_单维度",
-    #     "API模型调用代码/qwen-omni-realtime/output/情景适应/适应_单维度"
+    #     "audio_dataset_ch/sit_ada/适应_单维度",
+    #     "api_models/qwen-omni-realtime/output/sit_ada/适应_单维度"
     # ),
     # (
-    #     "语音指令_ch/情景适应/适应_多维度",
-    #     "API模型调用代码/qwen-omni-realtime/output/情景适应/适应_多维度"
+    #     "audio_dataset_ch/sit_ada/适应_多维度",
+    #     "api_models/qwen-omni-realtime/output/sit_ada/适应_多维度"
     # ),
     # (
-    #     "语音指令_en/情景适应/适应_单维度",
-    #     "API模型调用代码/qwen-omni-realtime/output_en/情景适应/适应_单维度"
+    #     "audio_dataset_en/sit_ada/适应_单维度",
+    #     "api_models/qwen-omni-realtime/output_en/sit_ada/适应_单维度"
     # ),
     # (
-    #     "语音指令_en/情景适应/适应_多维度",
-    #     "API模型调用代码/qwen-omni-realtime/output_en/情景适应/适应_多维度"
+    #     "audio_dataset_en/sit_ada/适应_多维度",
+    #     "api_models/qwen-omni-realtime/output_en/sit_ada/适应_多维度"
     # ),
     # 可以继续添加更多任务
 ]))

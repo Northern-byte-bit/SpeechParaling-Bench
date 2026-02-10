@@ -50,4 +50,4 @@ def analyze_file_robust(file_path):
 
 if __name__ == "__main__":
     # 请确保路径正确，Windows路径建议使用原始字符串 r''
-    analyze_file_robust(r'D:\MLLM\Benchmark\想法2\情景适应能力\多标签\多标签共情集合.txt')
+    analyze_file_robust(r'D:\MLLM\Benchmark\想法2\sit_ada能力\多标签\多标签共情集合.txt')

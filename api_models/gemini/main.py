@@ -10,7 +10,7 @@ import librosa
 
 # === 输入输出目录（环境变量覆盖） ===
 INPUT_DIR = os.getenv("GEMINI_INPUT_DIR", "情感参考音频指令_en")
-# INPUT_DIR = "语音指令_ch/动态调节"
+# INPUT_DIR = "audio_dataset_ch/dyn_var"
 OUTPUT_DIR = os.getenv("GEMINI_OUTPUT_DIR", "index-tts/情感参考音频_en")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

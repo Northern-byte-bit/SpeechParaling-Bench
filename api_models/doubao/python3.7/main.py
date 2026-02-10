@@ -6,8 +6,8 @@ import config
 from audio_manager import DialogSession
 
 DEFAULT_INPUT_DIR = "doubao_长多en"
-# DEFAULT_INPUT_DIR = "语音指令_ch/可控生成/控制_长单"
-DEFAULT_OUTPUT_DIR = "API模型调用代码/doubao/output_en/可控生成/控制_长多"
+# DEFAULT_INPUT_DIR = "audio_dataset_ch/para_con/控制_长单"
+DEFAULT_OUTPUT_DIR = "API模型调用代码/doubao/output_en/para_con/控制_长多"
 
 async def run_one(file_path: str, audio_format: str, mod: str, recv_timeout: int, output_dir: str) -> None:
     base = os.path.splitext(os.path.basename(file_path))[0]

@@ -6,9 +6,9 @@ import os
 # -------------------------------
 # 1. 配置
 # -------------------------------
-INPUT_DIR = os.getenv("GPT_INPUT_DIR", "语音指令_en/可控生成/控制_长单")
+INPUT_DIR = os.getenv("GPT_INPUT_DIR", "audio_dataset_en/para_con/控制_长单")
 # INPUT_DIR = "gpt_left"
-OUTPUT_DIR = os.getenv("GPT_OUTPUT_DIR", "API模型调用代码/gpt/output_en/可控生成/控制_长单")
+OUTPUT_DIR = os.getenv("GPT_OUTPUT_DIR", "api_models/gpt/output_en/para_con/控制_长单")
 
 API_HOST = "api.getgoapi.com"
 API_PATH = "v1/chat/completions"
