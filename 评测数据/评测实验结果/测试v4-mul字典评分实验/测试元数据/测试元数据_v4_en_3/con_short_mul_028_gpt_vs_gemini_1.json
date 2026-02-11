@@ -1,0 +1,16 @@
+{
+    "sample_index": 28,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a smooth voice and a medium pace: 'Welcome to our company, please come this way.'",
+    "dimensions": [
+        "Pace",
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 0
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 delivers the text content accurately, but fails significantly in the requested paralinguistic features. \n1. **Non-Linguistic Vocalizations:** There is absolutely no laughter present in the audio, violating the specific instruction to read 'with laughter'. \n2. **Rhythm:** The instruction requested a 'lighthearted rhythm'. Model 1 produces a slow, dragging, and lethargic rhythm (00:00-00:04) that sounds like someone who is extremely tired or yawning, rather than lighthearted. \n3. **Attitude:** The prompt requested a 'teasing tone'. The generated audio sounds sleepy, groggy, and low-energy. It conveys fatigue rather than playful teasing. The intonation falls flat and lacks the brightness associated with a teasing attitude.",
+    "reasoning_model_2": "Model 2 follows the instructions exceptionally well across all dimensions. \n1. **Non-Linguistic Vocalizations:** The audio begins with a distinct, natural-sounding laugh (00:00-00:01) before the speech begins, perfectly satisfying the 'with laughter' constraint. \n2. **Rhythm:** The speech has a bouncy, energetic cadence (00:02-00:05) that fits the description of 'lighthearted'. The pauses are natural and contribute to the playful feel. \n3. **Attitude:** The tone is clearly teasing and playful. The pitch variation on 'late again' and the inquisitive yet amused tone on the second sentence (00:03-00:06) accurately convey the requested social attitude. Note: The model expanded 'you're' to 'you are', which is a negligible content deviation that does not affect the paralinguistic performance.",
+    "model_comparison": "Model 2 is the clear winner across all three dimensions. Model 1 failed to generate the non-linguistic vocalization (laughter) entirely and misinterpreted the rhythm and attitude, resulting in a sleepy/groggy voice instead of a teasing/lighthearted one. Model 2 correctly inserted laughter at the beginning, maintained a playful and bouncy rhythm, and acted out the teasing attitude convincingly.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

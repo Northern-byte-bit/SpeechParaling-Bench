@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio content accurately matches the script 'Thank you, for being very cooperative with our work.' Regarding Attitude, the tone is generally cheerful and polite, resembling a friendly customer service voice (0.0s-2.5s). However, regarding Pace, the speech is notably fast rather than the requested 'medium pace'. The entire sentence is rushed through in under 2.5 seconds, which detracts from the requested delivery style. Crucially, regarding Stress, the model completely fails to place 'heavy stress' on the word 'very'. At timestamp 1.1s, the word 'very' is spoken rapidly and lightly, blending immediately into 'cooperative' without any emphasis, elongation, or pitch change to mark it.",
+    "reasoning_model_2": "The audio content matches the script perfectly. Regarding Attitude, the speaker adopts a calm, formal, and sincere polite tone, maintaining professionalism throughout (0.0s-4.0s). Regarding Pace, the model adheres strictly to the 'medium pace' instruction. The delivery is measured, with a distinct pause after 'Thank you' (0.9s-1.2s) and a steady rhythm that allows the listener to process the message. Regarding Stress, the model successfully applies heavy stress to the word 'very' (1.8s-2.3s). The word is significantly elongated and given a pitch accent, clearly distinguishing it from the surrounding text as requested.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 fails significantly on the specific control features requested. While Model 1 is intelligible, its pace is too fast (violating the 'medium pace' constraint), and it completely ignores the instruction to place heavy stress on 'very', treating it as a throwaway syllable. Model 2, in contrast, perfectly executes the medium pace with appropriate pausing and delivers a very clear, heavy stress on the target word 'very' through elongation and intonation. Model 2's attitude also feels more appropriately polite and grounded compared to the rushed nature of Model 1.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

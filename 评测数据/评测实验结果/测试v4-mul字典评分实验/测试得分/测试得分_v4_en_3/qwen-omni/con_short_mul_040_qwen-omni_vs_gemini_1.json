@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in delivering the requested paralinguistic features. Regarding Content Accuracy, the pronunciation is slightly garbled; 'Hurry' sounds closer to 'Harry' or 'Hairy', and the overall clarity is low due to strong mechanical artifacts. In terms of Fluency and Naturalness, the audio is heavily robotic with distinct electronic noise and unnatural prosody, scoring very low. For the CORE dimension of Emotion, the model attempts a quieter tone but fails to convey genuine fear; it sounds like a low-quality TTS engine running slowly rather than a frightened person. For the Rhythm dimension, the model completely fails the 'rushed' instruction. The speech is dragged out, slow, and lethargic (e.g., 'I... feel... someone...'), which is the direct opposite of a rushed rhythm.",
+    "reasoning_model_2": "Model 2 demonstrates excellent performance. The Content Accuracy is perfect. In terms of Fluency and Naturalness, the audio is indistinguishable from human speech, incorporating natural breathiness and trembling associated with panic. Regarding the CORE dimension of Emotion, the model perfectly captures fear; there is a palpable sense of terror in the trembling voice and the breathy delivery (0:00-0:02). For the Rhythm dimension, the speech is appropriately rushed and urgent. The speaker runs the words together quickly, matching the context of fleeing from danger.",
+    "model_comparison": "Model 2 is vastly superior to Model 1 in all aspects. Model 1 produces a robotic, slow, and unemotional output that contradicts the prompt's requirements for a 'rushed' rhythm and 'fearful' emotion. It sounds mechanical and drags the sentence out. Model 2, conversely, delivers a high-quality, human-like performance that is genuinely frightening and urgent. The use of breathiness, rapid pacing, and pitch modulation in Model 2 perfectly aligns with the user's intent.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

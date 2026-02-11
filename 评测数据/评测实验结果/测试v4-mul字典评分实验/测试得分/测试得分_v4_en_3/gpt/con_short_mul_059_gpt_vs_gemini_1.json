@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio correctly speaks the script 'Oh no, I left my keys at home. What should I do now?'.\n1. **Cognitive State (Anxious):** The delivery is flat and neutral (0.0s - 4.0s). There is no sense of urgency, panic, or anxiety in the intonation. It sounds like a standard reading.\n2. **Rhythm (Rushed):** The pacing is moderate and steady. There are distinct pauses after 'Oh no' and 'home'. It does not sound rushed or hurried at all.\n3. **Timbre (Hoarse):** The voice is clear, smooth, and standard. It lacks any roughness, raspiness, or breathiness associated with a hoarse timbre.",
+    "reasoning_model_2": "The audio accurately follows the text script.\n1. **Cognitive State (Anxious):** The tone is expressive but incorrect for the prompt. It sounds bright, slightly dramatic, and almost storytelling-like or cheerful (0.0s - 5.0s), rather than anxious or distressed. It conveys a 'helpful assistant' vibe rather than a person in panic.\n2. **Rhythm (Rushed):** The rhythm is slow and deliberate. The speaker elongates vowels (e.g., 'Oh nooo') and takes significant pauses. It is the opposite of rushed.\n3. **Timbre (Hoarse):** The voice is very clear, resonant, and clean. There is absolutely no hoarseness or grain in the voice.",
+    "model_comparison": "Both models failed significantly to implement the specific paralinguistic commands (Anxious, Rushed, Hoarse). \n\n**Cognitive State:** T1 was neutral/flat, while T2 was expressive but in the wrong direction (bright/cheerful instead of anxious). Since neither conveyed anxiety, both receive the lowest score. \n\n**Rhythm:** The target was 'rushed'. T1 spoke at a standard, moderate pace. T2 spoke at a slow, deliberate pace. Neither was rushed. While T1 was faster than T2, it still did not meet the definition of a rushed rhythm, so both fail.\n\n**Timbre:** The target was 'hoarse'. Both models produced very clear, high-fidelity clean voices without any raspiness. Both fail completely.\n\nOverall, both models ignored the style prompts and defaulted to standard text-to-speech styles. Consequently, it is a tie with scores of 0 across all dimensions.",
+    "score_1_1": 0,
+    "score_2_1": 0,
+    "winner_1": 0,
+    "score_1_2": 0,
+    "score_2_2": 0,
+    "winner_2": 0,
+    "score_1_3": 0,
+    "score_2_3": 0,
+    "winner_3": 0
+}

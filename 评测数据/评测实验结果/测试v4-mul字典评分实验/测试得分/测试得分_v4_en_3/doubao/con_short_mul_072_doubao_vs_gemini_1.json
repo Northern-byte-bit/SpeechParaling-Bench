@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the correct text content 'The report has been submitted, please check it yourself.' However, it fails significantly on the paralinguistic requirements. \n\n1. **Attitude (Cold):** The tone is not cold; instead, it sounds slightly plaintive, anxious, or pleading, particularly in the intonation at the end of the sentence. It lacks authority or detachment. (0-1.5s)\n2. **Pitch (Very Low):** The pitch is not 'very low'. It sounds like a standard mid-to-high range male voice with a somewhat nasal or thin quality. There is no attempt to lower the register to meet the prompt's constraint. (Throughout)\n3. **Rhythm (Steady):** The rhythm is standard for a text-to-speech engine but lacks the specific 'steady' stylistic control requested. It feels slightly rushed in the middle ('submitted, please'), failing to convey the deliberate steadiness associated with a cold command. (0.8-1.5s)",
+    "reasoning_model_2": "The model generates the text accurately and adheres well to the paralinguistic constraints. \n\n1. **Attitude (Cold):** The speaker adopts a very detached, unemotional, and slightly stern tone. The delivery is factual and distant, fitting the 'cold' description perfectly. (Throughout)\n2. **Pitch (Very Low):** While the base voice is female, the model modulates the pitch to the lower end of that speaker's register. It avoids high intonation peaks, maintaining a grounded and suppressed pitch profile that aligns with the instruction relative to the voice capability. (Throughout)\n3. **Rhythm (Steady):** The rhythm is exceptionally steady and deliberate. The model separates phrases with distinct, measured pacing ('The report... has been submitted...'), creating a robotic or highly controlled feel that enhances the cold attitude. (0-3s)",
+    "model_comparison": "Model 2 is significantly superior across all dimensions. \n\n**Attitude:** Model 2 successfully conveys a 'cold' and detached persona, whereas Model 1 sounds anxious and pleading, which is the opposite of the desired effect. \n\n**Pitch:** Model 1 ignores the 'very low pitch' instruction, using a mid-to-high nasal tone. Model 2, while using a female voice, successfully lowers the register and maintains a flat, low intonation profile that respects the constraint. \n\n**Rhythm:** Model 2 exhibits a marked stylistic change to achieve a 'steady', deliberate rhythm. Model 1 merely outputs standard, slightly rushed speech. \n\nModel 2 demonstrates actual control over the paralinguistic features, while Model 1 appears to output a default generation.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 2,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

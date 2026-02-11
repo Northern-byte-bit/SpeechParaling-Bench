@@ -1,0 +1,18 @@
+{
+    "sample_index": 53,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence in a whisper, with a clear pause after the word 'over', and a nervous tone: 'Don't make a sound, the teacher seems to be coming over a bit. We need to be quiet.'",
+    "dimensions": [
+        "Cognitive State",
+        "Pause",
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 2,
+    "winner_position_3": 0
+}

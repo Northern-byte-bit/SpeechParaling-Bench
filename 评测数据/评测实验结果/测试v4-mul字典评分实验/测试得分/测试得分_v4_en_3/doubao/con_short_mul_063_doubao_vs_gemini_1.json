@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "1. **Content Accuracy:** The spoken content 'Your plan is truly perfect indeed. I have nothing to say' perfectly matches the script. No errors detected. \n2. **Fluency and Naturalness:** The speech is fluent and smooth, with a standard rhythm and no mechanical artifacts. \n3. **Paralinguistic Compliance:** \n- **Attitude (Sarcastic):** The tone is noticeably flat and sounds sincere, rather than sarcastic. The word 'perfect' is delivered with a positive, complimentary inflection (approx 0:02), and the final sentence is neutral. It fails to convey the required sarcastic attitude.\n- **Pause:** The speaker reads 'truly perfect indeed' as a continuous phrase. There is no audible pause after the word 'perfect' (0:02), violating the specific instruction.\n- **Timbre:** The timbre is clear but standard/neutral. It does not exhibit the specific 'bright' quality requested, sounding somewhat generic.",
+    "reasoning_model_2": "1. **Content Accuracy:** The content is perfectly accurate to the script. \n2. **Fluency and Naturalness:** The speech is natural, with human-like prosody. \n3. **Paralinguistic Compliance:** \n- **Attitude (Sarcastic):** The model successfully adopts a sarcastic tone. The word 'perfect' (0:02) is emphasized with a distinct circumflex pitch contour (up-down) implying irony, and the sentence 'I have nothing to say' is delivered with a dismissive, dry tone (0:05), matching the prompt well.\n- **Pause:** There is a clear, deliberate silence (approx 0.5s) immediately following the word 'perfect' before 'indeed' is spoken, strictly adhering to the pause requirement.\n- **Timbre:** The voice has a brighter, higher-energy resonance compared to a standard neutral voice, fitting the 'bright' description effectively.",
+    "model_comparison": "Model 2 is the clear winner as it faithfully executes all paralinguistic instructions, whereas Model 1 serves as a baseline that ignores the specific constraints. \n\n**Attitude:** Model 1 is sincere/neutral (Score 0), while Model 2 effectively conveys sarcasm through intonation (Score 3). \n**Pause:** Model 1 fails to pause after 'perfect' (Score 0), while Model 2 inserts a distinct, clear pause (Score 3). \n**Timbre:** Model 1 is generic (Score 1), while Model 2 captures the 'bright' quality (Score 3). \n\nModel 2 demonstrates superior control over prosody and style.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 detects the user's negative sentiment textually ('听起来很失望' at 00:00) and attempts to offer comfort. However, the paralinguistic strategy is poor. Throughout the entire clip (00:00-00:05), the voice remains flat, monotonous, and detached, resembling a standard reading-style TTS engine. It completely fails to modulate its tone to match the 'Sadness' or 'Crying' of the user. The delivery is stiff and lacks the necessary warmth or softness required to comfort someone who is crying, making the interaction feel mechanical and impersonal.",
+    "reasoning_model_2": "Model 2 adopts a highly natural and empathetic paralinguistic strategy. It begins with a hesitation filler '厄' (Uh/Er) at 00:00, which serves as a realistic human-like reaction to hearing bad news or someone crying. This immediately establishes a conversational and concerned tone. From 00:01 to 00:04 ('你先别难过...'), the pitch is gentle and soothing, directly addressing the user's emotional state. The transition to practical advice ('找老师聊一聊') retains a supportive cadence. The model's prosody flows naturally, effectively acting as a comforting peer or friend.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in responding to the user's distressed state (Sadness and Crying). Model 1 provides a relevant text response but delivers it with a robotic, emotionless tone that creates a disconnect with the user's crying status; it sounds like a generic system notification. Model 2, conversely, employs advanced paralinguistic features such as hesitation fillers and a warm, conversational intonation that simulates genuine empathy and concern. Model 2's ability to sound like a human reacting to an audio cue places it far ahead of Model 1's rigid reading style.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

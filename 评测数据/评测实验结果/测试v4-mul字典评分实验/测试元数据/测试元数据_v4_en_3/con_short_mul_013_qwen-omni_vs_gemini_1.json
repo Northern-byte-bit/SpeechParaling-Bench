@@ -1,0 +1,16 @@
+{
+    "sample_index": 13,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a rich timbre and a tired tone: 'I'm so tired, I want to rest.'",
+    "dimensions": [
+        "Cognitive State",
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

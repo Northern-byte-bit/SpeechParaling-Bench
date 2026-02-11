@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates excellent situational adaptation. Content-wise, it adopts the persona of a companion sharing the user's experience ('是啊，我都觉得呼吸不过来了' - Yeah, I feel like I can't breathe either), directly validating the user's complaint about the dirty environment. Paralinguistically, the model aligns perfectly with the user's 'Disgust' emotion. The tone is plaintive and expresses discomfort, particularly noticeable in the phrase '也不知道这里多久打扫一次' (0:02-0:04). Regarding the user's 'Coughing', while the model does not cough back, it verbalizes a related physical sensation ('breathing difficulty') and includes a heavy sigh ('哎' at 0:04), which serves as an appropriate paralinguistic acknowledgment of the physical distress implied by the user's coughing. The response is natural, fluent, and contextually immersive.",
+    "reasoning_model_2": "Model 2 completely fails to adapt to the specific situation or the user's paralinguistic cues. It provides a generic, pre-scripted refusal/fallback response typical of a standard AI assistant ('If you have questions about language...'). It ignores the content of the user's complaint (dirty place), ignores the emotion (disgust), and ignores the non-verbal cue (coughing). The tone is politely robotic and cheerful, which is inappropriate given the user's expression of disgust and physical discomfort. The score must be 0 as the content is irrelevant to the specific prompt constraints.",
+    "model_comparison": "Model 1 is significantly superior to Model 2. Model 1 correctly interprets the user's input as a roleplay or situational dialogue and responds with high empathy, matching the user's tone of disgust and acknowledging the physical context (bad air/coughing) with appropriate content and prosody (complaining tone, sighing). Model 2 fails to process the semantic and paralinguistic content entirely, outputting a generic system message that breaks the flow of interaction. Model 1 wins on all dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

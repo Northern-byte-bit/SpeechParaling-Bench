@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with high content accuracy, strictly reading every word including the onomatopoeia 'boohoohoo' (0:02-0:04). regarding the 'Age' dimension, the voice has a high pitch characteristic of a child or a young female, but it lacks the textural nuances of a genuine child's voice, sounding slightly synthetic and polished (Score 2). regarding 'Non-Linguistic Vocalizations', the model completely fails to generate actual crying sounds. Instead of performing the act of crying requested by the prompt ('with crying'), it simply reads the text 'boohoohoo' phonetically with a sad tone. There are no sighs, sobs, or breaths, meaning the target feature for this dimension is absent (Score 0).",
+    "reasoning_model_2": "The model generates a voice that sounds authentically like a young boy, capturing the timbre and unsteady pitch associated with a child in distress very well (Score 3). In terms of 'Non-Linguistic Vocalizations', the model interprets the instruction 'with crying' and the text 'boohoohoo' by generating realistic sobbing and sniffing sounds at the end (0:02-0:04) rather than reading the word literally. The speech itself ('Mommy, my toy is broken') is delivered with a trembling voice consistent with the physical act of crying. This demonstrates a high level of control over paralinguistic features (Score 3).",
+    "model_comparison": "Model 2 is superior in both dimensions. For 'Age', Model 2 provides a convincing, natural-sounding child's voice, whereas Model 1 sounds more like a standard TTS voice with pitch shifting or a less authentic character. For 'Non-Linguistic Vocalizations', Model 2 successfully generates actual non-linguistic sounds (sobbing/crying) as requested, interpreting the onomatopoeia 'boohoohoo' functionally. Model 1 merely reads the text 'boohoohoo' as words without any non-linguistic vocal elements. Therefore, Model 2 wins decisively.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

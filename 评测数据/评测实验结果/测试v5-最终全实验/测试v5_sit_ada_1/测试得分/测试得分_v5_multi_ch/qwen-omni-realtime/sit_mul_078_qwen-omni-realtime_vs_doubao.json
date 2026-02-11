@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 detects the user's intent to leave but responds with a high-arousal, anxious tone ('等一下，你不能走' at 00:00-00:01) that clashes with the user's low-energy, perfunctory state. Regarding 'Attitude: Perfunctory', the model's strategy is to aggressively block the user's departure with urgency, which feels socially oblivious and jarring against the user's dismissive 'Okay, okay'. Regarding 'Non-verbal: Yawn', the model completely ignores the fatigue/boredom implied by the yawn, countering it with loud, fast-paced speech. Furthermore, the content—insisting the user stay to tell the time ('现在到底几点了' at 00:03)—lacks logical relevance to the user's preceding agreement ('I'll listen to you'), making the interaction feel disjointed and confusing.",
+    "reasoning_model_2": "Model 2 adopts a playful, coaxing strategy that fits well with a chat companion persona. Regarding 'Attitude: Perfunctory', the model counters the user's dismissal with a soft, wheedling tone ('哎呀别急着走嘛' at 00:00-00:01), effectively trying to melt the user's coldness without being aggressive. Regarding 'Non-verbal: Yawn', the model interprets the user's state as idleness or boredom rather than exhaustion, suggesting a chat ('反正闲着也是闲着' at 00:04). While it doesn't explicitly express concern for tiredness, the relaxed, melodic prosody aligns much better with the user's low arousal than a high-energy response would. The speech is natural, fluent, and emotionally intelligent.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in both Situational Adaptation and Content Relevance. Model 1 responds to a dismissive, yawning user with unwarranted panic and irrelevant content (asking for the time), creating an emotionally jarring and illogical interaction. Model 2, conversely, employs a sophisticated paralinguistic strategy (coaxing/wheedling) that acknowledges the user's desire to leave while gently trying to retain engagement. T2's audio is natural and conversationally appropriate, whereas T1 sounds anxious and contextually confused.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 2,
+    "winner_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio accurately reproduces the text 'Wow, this new cafe is great! Let's come again next time!' without any pronunciation errors. The speaker adopts a clearly high pitch range (0.0s - 3.5s) that fits the requested excited tone naturally. The rhythm is notably lighthearted and bouncy, with a slight lilt on 'great' and 'next time' that conveys enthusiasm. The emotion is vividly happy and energetic, sounding very natural and fluid with no mechanical artifacts.",
+    "reasoning_model_2": "The model correctly speaks the text content. The pitch is indeed high, strictly following the prompt, but the voice quality sounds somewhat thin and strained, reducing naturalness. While the emotion attempts to be happy, the strained pitch makes it sound slightly artificial or anxious rather than genuinely joyful. The rhythm is fast, which fits the 'lighthearted' description to an extent, but it lacks the dynamic bounce found in human speech, feeling a bit rushed in the second sentence.",
+    "model_comparison": "Both models successfully follow the text and the core constraints of high pitch and positive emotion. However, Model 1 provides a significantly more natural and pleasing performance. Model 1's high pitch is integrated naturally into an excited female voice, whereas Model 2's pitch sounds forced/processed, negatively impacting the 'Fluency and Naturalness' criterion. Model 1 also captures the 'lighthearted' rhythm with better prosody compared to the rushed pacing of Model 2. Therefore, Model 1 is the clear winner across all dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

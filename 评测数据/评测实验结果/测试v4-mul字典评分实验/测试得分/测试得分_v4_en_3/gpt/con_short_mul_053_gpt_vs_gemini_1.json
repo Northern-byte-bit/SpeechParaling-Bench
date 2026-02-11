@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates perfect adherence to all instructions. \n1. **Volume**: The entire audio is delivered in a consistent, high-quality unvoiced whisper, perfectly matching the 'whisper' constraint.\n2. **Pause**: There is a deliberate and distinct pause after the word 'over' ('...coming over [pause] a bit'), exactly as requested in the prompt, even though it breaks the phrasing slightly, it shows high control.\n3. **Cognitive State**: The slow, breathy, and cautious delivery effectively conveys a 'nervous' and fearful tone, suitable for a situation where one must not make a sound. The prosody is consistent with someone hiding.",
+    "reasoning_model_2": "Model 2 has mixed results regarding the instructions.\n1. **Volume**: While the beginning and end are whispered, the middle section ('the teacher seems to be coming over a bit') introduces significant vocal cord vibration (voicing), turning it into low-volume speech rather than a pure whisper. This fails the strict 'whisper' constraint for that segment.\n2. **Pause**: The model ignores the instruction to pause after 'over'. The phrase 'coming over a bit' is rushed through as a single unit without any discernible break.\n3. **Cognitive State**: The fast pace and urgent delivery successfully convey a 'nervous' tone, so it scores well on this specific dimension, despite the volume issues.",
+    "model_comparison": "Model 1 is the clear winner. It strictly followed every paralinguistic instruction. It maintained a pure whisper throughout (Volume), inserted the specific requested pause (Pause), and conveyed the nervous atmosphere effectively (Cognitive State). Model 2 failed the specific negative constraint on Volume (switching to voiced speech) and completely missed the specific Pause instruction. While both models captured the nervous sentiment well, Model 1's execution was technically flawless according to the prompt constraints.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}
