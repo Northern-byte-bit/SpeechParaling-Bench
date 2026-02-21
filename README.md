@@ -1,6 +1,6 @@
 # SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation
 
-[📄 Paper (arXiv)]() · [🌐 Project Page]() · [🤗 Dataset](https://huggingface.co/datasets/) · [💻 Code]()
+[📄 Paper (arXiv)]() · [🌐 Project Page]() · [🤗 Dataset](https://huggingface.co/datasets/Ruohan2) · [💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)
 
 **SpeechParaling-Bench** is a comprehensive benchmark designed to evaluate **paralinguistic-aware speech generation** capabilities of large audio-language models (LALMs). It features **100+ paralinguistic dimensions** and **1000+ Chinese-English evaluation samples**, using a **baseline-candidate comparative evaluation** approach to produce a leaderboard for mainstream multimodal large models.
 
@@ -63,8 +63,8 @@ The SpeechParaling-Bench dataset is available on 🤗 HuggingFace:
 
 | Dataset                                                                                               | Description           | Size   | Samples |
 | ----------------------------------------------------------------------------------------------------- | --------------------- | ------ | ------- |
-| [SpeechParaling-Bench-Chinese](https://huggingface.co/datasets/YOUR_ORG/SpeechParaling-Bench-Chinese) | Chinese audio dataset | ~361MB | 1001    |
-| [SpeechParaling-Bench-English](https://huggingface.co/datasets/YOUR_ORG/SpeechParaling-Bench-English) | English audio dataset | ~438MB | 1001    |
+| [SpeechParaling-Bench-Chinese](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Chinese) | Chinese audio dataset | ~361MB | 1001    |
+| [SpeechParaling-Bench-English](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-English) | English audio dataset | ~438MB | 1001    |
 
 ### Dataset Statistics
 
@@ -80,7 +80,7 @@ The SpeechParaling-Bench dataset is available on 🤗 HuggingFace:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_REPO/SpeechParaling-Bench.git
+git clone https://github.com/Northern-byte-bit/SpeechParaling-Bench.git
 cd SpeechParaling-Bench
 ```
 
@@ -97,7 +97,7 @@ def download_datasets():
     # Download Chinese audio dataset
     print("Downloading Chinese audio dataset...")
     snapshot_download(
-        repo_id="YOUR_ORG/SpeechParaling-Bench-Chinese",
+        repo_id="Ruohan2/SpeechParaling-Bench-Chinese",
         local_dir="./audio_dataset_ch",
         repo_type="dataset",
         local_dir_use_symlinks=False
@@ -106,7 +106,7 @@ def download_datasets():
     # Download English audio dataset
     print("Downloading English audio dataset...")
     snapshot_download(
-        repo_id="YOUR_ORG/SpeechParaling-Bench-English",
+        repo_id="Ruohan2/SpeechParaling-Bench-English",
         local_dir="./audio_dataset_en",
         repo_type="dataset",
         local_dir_use_symlinks=False
@@ -133,14 +133,14 @@ pip install huggingface_hub
 # Download Chinese dataset
 huggingface-cli download \
     --repo-type dataset \
-    YOUR_ORG/SpeechParaling-Bench-Chinese \
+    Ruohan2/SpeechParaling-Bench-Chinese \
     --local-dir ./audio_dataset_ch \
     --local-dir-use-symlinks False
 
 # Download English dataset
 huggingface-cli download \
     --repo-type dataset \
-    YOUR_ORG/SpeechParaling-Bench-English \
+    Ruohan2/SpeechParaling-Bench-English \
     --local-dir ./audio_dataset_en \
     --local-dir-use-symlinks False
 ```
