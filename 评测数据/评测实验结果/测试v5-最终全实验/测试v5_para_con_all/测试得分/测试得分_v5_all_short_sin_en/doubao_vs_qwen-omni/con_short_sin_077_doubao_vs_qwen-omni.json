@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately speaks the text content: 'I understand your feelings, but we must follow the rules.' However, regarding the specific paralinguistic instruction to place a clear pause after the word 'but', the model fails. There is a pause after the word 'feelings', but the word 'but' flows immediately into 'we' (timestamp ~1.8s) without any discernible silence or separation. The prosody is also somewhat robotic and jerky, lacking natural flow.",
-    "reasoning_model_2": "Model 2 accurately speaks the text content with high clarity. Crucially, it adheres strictly to the paralinguistic command. The speaker says 'I understand your feelings', pauses, says 'but' (timestamp ~2.8s), and then executes a very distinct and clear pause (silence) before continuing with 'we must follow the rules' (starting at ~3.5s). This clear separation perfectly matches the user's requirement. The voice is also emotive and reasonably natural.",
-    "model_comparison": "The user's command contained a specific constraint: a clear pause *after* the word 'but'. Model 1 placed a pause before 'but' (after 'feelings') but failed to pause after 'but', connecting it directly to the next word. Model 2 correctly identified the constraint and inserted a significant, audible pause immediately after the word 'but', effectively separating the clauses as requested. Therefore, Model 2 followed the instructions, while Model 1 did not.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

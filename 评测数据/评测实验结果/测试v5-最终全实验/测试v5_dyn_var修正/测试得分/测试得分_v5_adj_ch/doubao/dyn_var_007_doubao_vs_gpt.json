@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely failed the primary requirement of content accuracy. The user requested the specific sentence '报告显示一切正常，但我在数据中发现了一个异常点，这可能是一个巨大的突破！', but the model generated an unrelated response describing '中银香港' (BOC Hong Kong) and asking if the user needs business information. Due to this total hallucination of content, the audio receives the lowest possible score regardless of audio quality.",
-    "reasoning_model_2": "The model achieved perfect content accuracy, reading the script '报告显示一切正常，但我在数据中发现了一个异常点，这可能是一个巨大的突破！' clearly and fluently. However, regarding the core paralinguistic instruction to 'start with mid pitch, then gradually increase to extremely high pitch' (逐渐提高音高用极高音), the model failed. The generated audio uses a consistent, deep, low-frequency 'movie trailer' style voice throughout. While the intensity/loudness increases slightly towards the end for dramatic effect, the pitch remains low and does not shift to the requested high register at all. It effectively ignored the pitch instruction, resulting in a score of 1 due to the correct content but failed feature implementation.",
-    "model_comparison": "Model 1 is a complete failure as it spoke entirely wrong text unrelated to the prompt (hallucination). Model 2 correctly spoke the requested text with high fluency and good audio quality, although it failed to implement the specific 'gradually increasing pitch to extremely high' instruction, instead using a consistent deep voice. Since Model 2 provided the correct content while Model 1 did not, Model 2 is the winner.",
-    "score_1": 0,
-    "score_2": 1,
-    "winner": 2
-}

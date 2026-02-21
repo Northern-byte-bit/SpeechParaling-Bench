@@ -1,0 +1,14 @@
+{
+    "sample_index": 77,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用在“但是”一词后明显停顿的方式说：我理解你的感受，但是，我们必须遵守规定。",
+    "dimensions": [
+        "停顿"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

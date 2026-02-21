@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '这个讲座真没意思，听得我直打哈欠。' accurately (0:00-0:04). The audio is fluent and clear with no artifacts. However, regarding the core instruction '带哈欠的方式' (in a yawning manner), the model completely fails. The delivery is a standard, neutral reading style with normal energy and distinct articulation. There are no non-verbal vocalizations (yawns) nor is there any change in prosody to suggest tiredness or boredom. The target feature is non-existent.",
-    "reasoning_model_2": "The model successfully integrates the required paralinguistic feature. It begins with a realistic, audible non-verbal yawn sound (0:00-0:02) before speaking. The subsequent speech '这个讲座真没意思，听得我直打哈欠。' (0:02-0:06) is delivered with a lethargic, weary tone that perfectly matches the physical act of yawning and the semantic meaning of boredom. The content is accurate, and the transition from the yawn to speech is natural.",
-    "model_comparison": "This is a clear case where Model 2 followed the specific stylistic instruction while Model 1 ignored it. Model 1 provided a standard TTS reading with no paralinguistic modifications. Model 2 explicitly included the non-verbal vocalization (yawn) and adjusted the speaking style to sound tired and bored, fully satisfying the prompt. Model 1 receives a low score for failing the core feature control requirement.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

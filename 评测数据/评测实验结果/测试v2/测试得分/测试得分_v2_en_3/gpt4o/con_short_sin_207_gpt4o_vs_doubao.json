@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely failed the Content Accuracy criterion. The user requested the text 'Oh, really? That's nice.', but the model generated a completely unrelated sentence: 'The meeting is scheduled for tomorrow at 10:00 AM. Don't be late.' Due to this total hallucination of content, the audio is deemed completely incorrect.",
-    "reasoning_model_2": "The model followed the text script accurately, with a minor expansion of the contraction 'That's' to 'That is'. Regarding the paralinguistic requirement, the delivery is flat, low-energy, and lacks melodic variation (0:00-0:03), which effectively conveys a 'perfunctory' or disinterested attitude. The lack of enthusiasm in 'Oh really' and the flat falling intonation on 'nice' align well with the prompt's request for a tone that lacks effort or interest.",
-    "model_comparison": "Model 1 failed to generate the requested text entirely, outputting a completely different sentence about a meeting. Model 2 followed the text instructions (with a minor contraction change) and successfully applied the requested perfunctory tone. Therefore, Model 2 is the clear winner as Model 1 receives a mandatory 0 for content failure.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

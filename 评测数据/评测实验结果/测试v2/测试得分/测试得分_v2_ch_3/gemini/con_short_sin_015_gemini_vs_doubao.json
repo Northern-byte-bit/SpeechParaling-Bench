@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content '救命啊！我被困在这里了！' (Help! I'm trapped here!). Crucially, it adheres strictly to the paralinguistic instruction '极高音' (extremely high pitch). From 0:00 to 0:03, the voice utilizes a falsetto/screaming register that is significantly higher than a normal speaking voice, effectively conveying the urgency and the specific pitch requirement. The final particle sounds slightly more like '啦' (la) than '了' (le), but this is a common phonetic shift in high-emotion screaming and does not affect meaning. The emotional intensity matches the high pitch.",
-    "reasoning_model_2": "The model generates the content accurately with high clarity and naturalness. However, regarding the core instruction '极高音' (extremely high pitch), the model fails to differentiate significantly from a standard female soprano range. While the delivery has some urgency (0:00-0:03), the pitch remains within a comfortable, normal speaking range rather than pushing to the 'extremely high' register requested. It sounds like a standard TTS voice acting out a line rather than a model manipulating pitch parameters to extremes.",
-    "model_comparison": "Model 1 followed the specific constraint ('extremely high pitch') much better than Model 2. Model 1's audio distinctively shifts into a falsetto/scream register that aligns with the user's request for extreme pitch modification. Model 2 produced a high-quality, natural-sounding audio, but it ignored the specific 'extreme' constraint, resulting in a standard voice that failed to meet the core paralinguistic requirement. Therefore, Model 1 is the clear winner for adherence to the specific feature control command.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

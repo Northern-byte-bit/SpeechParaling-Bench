@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly in **Content Accuracy**. The user requested the specific line \"我真的很难过，为什么会这样？\", but the model generated a long, hallucinated narrative describing the scene (e.g., \"...我哭着说这句话，眼泪止不住的往下掉...\"), completely violating the script constraints. Regarding **Paralinguistic Compliance**, while it starts with a sobbing sound \"呜\" (0:00) and maintains a sad tone, the delivery resembles an audiobook narrator reading a story rather than a character naturally speaking the specific line. Due to the major content hallucination, the score is penalized heavily.",
-    "reasoning_model_2": "The model follows the command perfectly. **Content Accuracy** is perfect; it speaks exactly the required text \"我真的很难过，为什么会这样\" without additions or omissions. **Paralinguistic Compliance** is excellent. The model integrates the \"带哭声\" (crying sound) feature naturally into the speech. The voice sounds choked, trembling, and breathless (0:00-0:06), realistically simulating the physiological constriction of the throat caused by sobbing. The emotion is vivid and spot-on.",
-    "model_comparison": "Model 2 demonstrates superior quality. It strictly adheres to the content constraints, whereas Model 1 fails by hallucinating a long narrative description instead of just speaking the dialogue. In terms of the paralinguistic feature 'Non-verbal vocalizations' (crying), Model 2 provides a realistic, choked vocal performance that matches the 'crying' instruction perfectly. Model 1's performance is invalidated by its failure to follow the script.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

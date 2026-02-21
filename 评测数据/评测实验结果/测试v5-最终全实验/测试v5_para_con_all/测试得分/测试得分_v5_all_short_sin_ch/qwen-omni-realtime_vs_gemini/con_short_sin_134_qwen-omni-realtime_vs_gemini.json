@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 completely failed the 'Content Accuracy' criterion. The user requested the specific sentence '我每天都坚持锻炼，这次比赛没问题。', but the model hallucinated a significantly longer and different script: '我每天坚持锻炼，体能和状态都稳稳当当，这次比赛我绝对能拿下，信心满满，毫无悬念。' (00:00-00:07). According to the detailed scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, despite the tone being enthusiastic, the fundamental content failure results in a score of 0.",
-    "reasoning_model_2": "Model 2 followed the instructions perfectly. \n1. **Content Accuracy:** The spoken text '我每天都坚持锻炼，这次比赛，没问题' (00:00-00:04) matches the script verbatim.\n2. **Fluency:** The speech is natural with a human-like pace.\n3. **Paralinguistic Compliance (Confidence):** The model successfully conveys 'Confidence' (the target Cognitive State). The delivery is firm and steady. Specifically, at 00:02-00:04, the pause before '没问题' and the falling intonation on the final phrase demonstrate a high level of certainty and self-assurance, fitting the 'Confidence' requirement perfectly.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to follow the basic instruction regarding the text script, generating a hallucinated paraphrase instead of reading the provided sentence. This constitutes a critical error (Score 0) under Content Accuracy. Model 2, on the other hand, delivered the correct text with high fluency and accurately portrayed the required confident cognitive state through a firm and steady tone.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

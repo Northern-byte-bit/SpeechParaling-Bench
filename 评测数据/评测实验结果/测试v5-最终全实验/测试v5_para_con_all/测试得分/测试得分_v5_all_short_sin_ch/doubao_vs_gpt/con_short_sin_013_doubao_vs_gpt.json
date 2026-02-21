@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly identifies the text '啊！那里有一只老鼠！' and the instruction to use a 'very high pitch'. Throughout the entire audio (0:00-0:02), the speaker uses a falsetto or highly elevated vocal register that is significantly higher than a normal speaking voice. The tone effectively conveys the shock and fear associated with the text, matching the acoustic profile of a high-pitched scream. The content is accurate, and the expression is vivid.",
-    "reasoning_model_2": "The model generates the text '啊... 那里... 有一只... 老鼠' but completely fails to adhere to the 'very high pitch' instruction. Instead, the voice is a deep, baritone male voice with a low fundamental frequency (0:00-0:05). Furthermore, the delivery is unnaturally slow with disjointed pauses between words, sounding mechanical and lacking the urgency implied by the text. The core paralinguistic feature (high pitch) is absent.",
-    "model_comparison": "Model 1 followed the user's specific instruction to speak with a 'very high pitch'. The resulting audio is high-pitched, urgent, and matches the context of seeing a mouse. Model 2 completely ignored the pitch constraint, producing a deep, low-pitched voice that is slow and robotic. Therefore, Model 1 is the clear winner for successfully implementing the control feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

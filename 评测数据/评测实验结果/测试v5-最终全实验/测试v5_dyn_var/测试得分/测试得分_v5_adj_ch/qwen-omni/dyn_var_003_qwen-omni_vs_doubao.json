@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails the Content Accuracy criterion completely. Instead of applying the paralinguistic instructions to the script, it reads the instructions aloud as part of the speech. Specifically, at 00:00-00:01 it reads '极低音' (Very low pitch) and at 00:02-00:04 it reads '逐渐转为中音' (Gradually turn to medium pitch). Although there is a shift in pitch towards a higher, 'cuter' tone starting at 00:05, the inclusion of the prompt's instructional text constitutes a fatal error in content generation.",
-    "reasoning_model_2": "The model achieves perfect Content Accuracy, reading the script '你看，那是什么？原来是只小猫在草丛里玩耍，真可爱。' exactly as requested without hallucinating the instructions. However, regarding the Paralinguistic Compliance (Pitch), the model fails to perform the requested dynamic adjustment. The audio maintains a consistent, soft, low-pitched male tone from 00:00 through 00:05. There is no audible gradual transition from a 'very low' pitch to a 'medium' pitch; the pitch feature remains effectively constant throughout the utterance, failing the core requirement of the prompt.",
-    "model_comparison": "Model 1 exhibits a critical failure by vocalizing the system instructions ('极低音', '逐渐转为中音') alongside the script, rendering the audio unusable despite attempting a pitch shift. Model 2 correctly strictly follows the text script but fails to execute the dynamic pitch transition, resulting in a monotonic low-pitch delivery. Model 2 is the winner solely because it adheres to the text content requirements, whereas Model 1's content error is disqualifying. However, both models perform poorly on the core task of dynamic pitch adjustment.",
-    "score_1": 0,
-    "score_2": 1,
-    "winner": 2
-}

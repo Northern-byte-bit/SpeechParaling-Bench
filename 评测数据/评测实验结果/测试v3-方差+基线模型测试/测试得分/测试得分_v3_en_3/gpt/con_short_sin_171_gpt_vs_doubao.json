@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio begins with a very realistic, non-linguistic coughing sound (0:00-0:02), immediately satisfying the core paralinguistic requirement. The speaker then delivers the text 'I just choked, it's a bit uncomfortable' (0:02-0:05). The prosody of the speech is strained and breathless, effectively simulating the physical aftermath of choking. The content is 100% accurate to the script, and the integration of the cough with the speech is natural and highly expressive.",
-    "reasoning_model_2": "The model completely fails to follow the user's command. Instead of reading the required sentence 'I just choked, it's a bit uncomfortable' with coughing, the model generates a response *to* a person choking: 'Are you okay? Do you need some water?' (0:00-0:03). Consequently, the content accuracy is completely incorrect, and the required non-linguistic vocalization (coughing) is absent. Per the guidelines for 'Completely incorrect' content, this receives a score of 0.",
-    "model_comparison": "Model 1 followed all instructions perfectly, integrating the specific non-linguistic vocalization (coughing) naturally before the speech and maintaining a strained tone throughout the accurate text. Model 2 failed entirely, generating a conversational response instead of reading the target text and omitting the required sound effect. Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

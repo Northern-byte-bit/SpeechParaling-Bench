@@ -1,0 +1,14 @@
+{
+    "sample_index": 118,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sad emotion: 'I'm truly saddened, after Grandma passed away, the house seems to have lost so much laughter. Every time I see her empty chair, my heart feels empty, I miss hearing her stories so much.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '别吵醒他，他工作了一整晚' with perfect accuracy. The core requirement to use '小声的音量' (quiet volume) is executed flawlessly. From 0.0s to 4.0s, the speaker uses a whispered, breathy phonation (stage whisper) rather than full vocal cord vibration. This acoustic characteristic perfectly aligns with the semantic context of not wanting to wake someone up. The pacing is slow and cautious, further enhancing the naturalness of the 'quiet' constraint. There are no fluency issues.",
-    "reasoning_model_2": "The model accurately speaks the text '别吵醒他，他工作了一整晚'. However, it completely fails the paralinguistic instruction to use '小声的音量' (quiet volume). From 0.0s to 2.5s, the audio is delivered with a bright, projected, and standard speaking volume (full voice). The tone is energetic and cheerful, which contradicts both the explicit command for low volume and the semantic meaning of the sentence (trying not to disturb a sleeper). While fluent, it ignores the core feature control constraint.",
-    "model_comparison": "Model 1 followed the instruction perfectly, while Model 2 failed. The specific instruction was to speak with a 'quiet volume' (小声). Model 1 utilized a whispered tone throughout, which is the correct acoustic representation for 'quiet' in this context. Model 2 used a standard, projected reading voice that was neither quiet nor contextually appropriate for the text 'Don't wake him up'. Therefore, Model 1 is the clear winner due to strict adherence to the feature control constraint.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately captures the 'happy' emotion requested. The speaker uses a bright, upbeat tone with a noticeable sense of relief and joy, particularly in the phrase '终于可以放松了' (Finally I can relax) [0:03-0:05], where the prosody reflects a 'letting go' of tension. The pacing is natural. However, regarding Content Accuracy, the model adds the word 'Yeah' at the very beginning [0:00-0:01]. While this fits the emotional context, it constitutes an addition to the specific text script provided ('我考试通过了！终于可以放松了。'), which violates the strict instruction against additions.",
-    "reasoning_model_2": "The audio follows the text script perfectly with no additions or omissions. The emotional expression is highly energetic and vivid. The speaker uses a higher pitch and faster tempo typical of excitement and happiness. The delivery of '我考试通过了' [0:00-0:02] is punchy and enthusiastic, and '终于可以放松了' [0:02-0:04] conveys a strong sense of celebration. The paralinguistic features for 'happy' are fully realized and the audio is fluent and natural.",
-    "model_comparison": "Both models successfully generate the target emotion (Happy). T1 uses a more relaxed, relieved form of happiness, while T2 uses a more high-energy, excited form of happiness. Both are valid interpretations of the prompt. However, T1 fails the strict Content Accuracy criterion by hallucinating/adding the interjection 'Yeah' at the start of the speech. T2 adheres strictly to the text while delivering an equally, if not more, vivid emotional performance. Therefore, T2 is superior due to better instruction following regarding the text script.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

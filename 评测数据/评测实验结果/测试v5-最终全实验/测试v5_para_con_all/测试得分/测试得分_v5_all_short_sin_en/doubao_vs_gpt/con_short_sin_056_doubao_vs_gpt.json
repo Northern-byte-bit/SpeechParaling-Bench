@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the full text: 'Take your time, don't rush, we have enough time.' with 100% content accuracy. The delivery is marked by a very deliberate, slow pace. There are distinct pauses (approx. 1 second) between the phrases at 00:01 and 00:03, and the articulation of words is elongated and unhurried. The tone is calm and reassuring, which fits the semantic context of the sentence perfectly. The audio quality is clean and the prosody is natural.",
-    "reasoning_model_2": "The model fails significantly in content accuracy. The required script was 'Take your time, don't rush, we have enough time.', but the audio only contains 'We have enough time', omitting the entire first half of the sentence ('Take your time, don't rush'). While the fragment produced is spoken with a slow pace and a pause between 'have' and 'enough', the major omission of text constitutes a severe failure under the Content Accuracy criterion ('Voice content is clearly inconsistent with the script'). Therefore, it receives the lowest score.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the complete script with the requested slow pace, appropriate pausing, and a natural tone. Model 2 failed to read the majority of the script, omitting the first two clauses entirely. Due to this severe content accuracy error, Model 2's generation is considered completely incorrect despite the pace of the remaining fragment being slow. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

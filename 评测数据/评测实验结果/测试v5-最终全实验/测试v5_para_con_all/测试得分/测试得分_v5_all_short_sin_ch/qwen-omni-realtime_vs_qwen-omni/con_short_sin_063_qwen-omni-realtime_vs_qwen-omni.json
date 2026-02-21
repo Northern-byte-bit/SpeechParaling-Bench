@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio starting at 00:00 with the phrase '你到底在干什么'. The volume is noticeably elevated, and the vocal projection simulates a 'shouting' quality as requested. The tone conveys urgency and anger, fitting the context of the command. The second segment at 00:01, '快给我住手', maintains this high intensity and loud volume. The articulation is clear, and the prosody effectively mimics a person shouting in a conflict situation. The content matches the script perfectly. The paralinguistic feature of 'shouting volume' is clearly discernible and well-executed.",
-    "reasoning_model_2": "The audio begins at 00:00 with the correct text content. However, the delivery is performed in a standard conversational volume and tone. There is no significant increase in loudness or projection associated with the command 'shouting volume' (喊叫的音量). The phrase '你到底在干什么' sounds like a calm inquiry rather than an angry shout. The segment at 00:01 '快给我住手' lacks the force and urgency required. While the speech is fluent and the content is accurate, it completely fails to adhere to the core paralinguistic constraint of shouting.",
-    "model_comparison": "Model 1 successfully follows the user's command to speak with a 'shouting volume'. It modulates the voice to sound loud, forceful, and urgent, matching the semantic content of the script. Model 2, on the other hand, delivers the line in a neutral, conversational tone, ignoring the instruction to shout. Therefore, Model 1 is the clear winner as it adheres to the 'Feature Control' requirement.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

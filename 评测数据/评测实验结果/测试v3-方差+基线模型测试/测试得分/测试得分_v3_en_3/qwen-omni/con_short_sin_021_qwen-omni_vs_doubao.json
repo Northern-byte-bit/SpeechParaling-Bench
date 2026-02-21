@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content 'I'll go to the supermarket to buy some groceries tomorrow.' with accurate pronunciation and good fluency (0:00-0:04). However, regarding the core paralinguistic requirement 'Pitch', the audio deviates significantly from the instruction. The voice generated is distinctly high-pitched, resembling a stylized or youthful character voice with a high fundamental frequency. While the speech is clear, this high register does not align with the user's request for a 'medium pitch', as it sits at the upper extreme of typical vocal ranges.",
-    "reasoning_model_2": "The model delivers the text perfectly with natural fluency and rhythm (0:00-0:04). In terms of the core feature 'Pitch', the model accurately adheres to the command. The generated voice maintains a balanced, neutral register—neither straining into a high falsetto nor dropping into a deep bass. It sounds like a standard conversational tone (within a normal male or lower-female range), which correctly interprets 'medium pitch' as a neutral, grounded vocal frequency.",
-    "model_comparison": "Both models achieve high marks for content accuracy and general fluency. The critical differentiator is the 'Pitch' control. Model 1 produces a voice that is noticeably high-pitched, failing to satisfy the 'medium' constraint specified in the prompt. Model 2, in contrast, delivers a voice that sits squarely in a neutral, medium frequency range. Consequently, Model 2 demonstrates superior feature control and adherence to the user's paralinguistic instruction.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

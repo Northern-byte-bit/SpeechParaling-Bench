@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'Help! Someone is injured here!' with clear content accuracy. Regarding the paralinguistic requirement 'shouting manner' (Volume), the audio starts with a projected 'Help!' (0:00-0:01) that utilizes a higher pitch and increased volume typical of calling out. The subsequent phrase 'Someone is injured here!' (0:01-0:03) maintains this raised projection and urgency. While it sounds more like a theatrical 'stage shout' or calling out across a distance rather than a chaotic scream, it effectively increases volume and projection to meet the 'shouting' criteria compared to a normal conversational tone. The fluency is good, with natural pacing for an urgent call.",
-    "reasoning_model_2": "The model generates the text correctly, but fails completely on the paralinguistic requirement. The word 'Help' (0:00-0:01) is spoken with a dragging, low-energy tone that sounds more confused or groggy than urgent. The phrase 'someone is injured here' (0:01-0:04) is delivered with odd pauses and a disjointed rhythm, maintaining a low to medium volume. There is absolutely no attempt at a 'shouting manner'; the volume is restrained, and the delivery lacks any urgency or projection, effectively doing the opposite of the prompt.",
-    "model_comparison": "Model 1 clearly followed the instructions to read in a 'shouting manner'. It increased the volume, pitch, and projection of the voice to simulate urgency and loudness. Model 2 failed to generate the required volume or tone, producing a slow, disjointed, and quiet reading that contradicts the context of the text and the prompt. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

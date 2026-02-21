@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script 'Grandchild, put on more clothes, don't catch a cold.' (0:00-0:04). However, regarding the core paralinguistic feature 'Age', the model fails completely. The voice generated is high-pitched, bright, and distinctly youthful, sounding like a young child or a young woman. This is the direct opposite of the requested 'elderly voice'. While the fluency is fine, the failure to control the age parameter renders the output incorrect for the specific command.",
-    "reasoning_model_2": "The model accurately reads the script with clear pronunciation (0:00-0:05). Regarding the 'Age' dimension, the audio successfully adopts a vocal timbre associated with an elderly person. The voice has a lower pitch, a slight rasp or gravelly texture, and a slower, more deliberate pacing (0:01-0:03 'put on more clothes'). The prosody reflects the 'caring grandparent' archetype effectively. The execution is natural and compliant with the instruction.",
-    "model_comparison": "Model 2 is the clear winner. The user specifically requested an 'elderly voice'. Model 1 generated a voice that sounds like a young child or young female, which is a complete hallucination of the requested age feature. Model 2 successfully modulated the vocal texture, pitch, and pacing to simulate an elderly speaker (likely male), fulfilling the prompt's core requirement perfectly.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

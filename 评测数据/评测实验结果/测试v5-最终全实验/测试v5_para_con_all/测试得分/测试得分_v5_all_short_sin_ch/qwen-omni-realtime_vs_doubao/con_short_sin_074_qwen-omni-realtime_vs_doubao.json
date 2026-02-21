@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly follows the user's command. \n1. **Content Accuracy**: The spoken text \"这个消息，千万不能说出去\" (00:00-00:03) matches the script exactly.\n2. **Fluency and Naturalness**: The speech is smooth and natural with appropriate pacing.\n3. **Paralinguistic Compliance (Volume/Whisper)**: The model successfully executes the 'whisper' (耳语) instruction. The volume is appropriately low, and the vocal characteristics exhibit the breathy, unvoiced phonation typical of whispering. The intimacy and secrecy required by the prompt are conveyed effectively through the reduced volume and proximity effect.",
-    "reasoning_model_2": "The model completely fails to follow the user's command regarding both content and style.\n1. **Content Accuracy**: The model hallucinates a completely different and much longer script (\"谢... 这事你可千万别说出去啊...\" 00:00-00:10) instead of the requested sentence.\n2. **Paralinguistic Compliance (Volume/Whisper)**: The model does not use a whisper or low volume. The audio is delivered in a normal, energetic speaking voice with standard projection and full phonation. This violates the 'whisper' instruction and the 'volume' constraint completely.",
-    "model_comparison": "Model 1 is the clear winner. Model 1 followed the instructions perfectly, delivering the correct text in a high-quality, realistic whisper (low volume). Model 2 failed on all counts: it generated the wrong text (hallucinated a long conversation) and spoke in a normal loud voice instead of a whisper. Therefore, Model 2 receives a 0 due to the 'Extremely poor/content empty' rule regarding content mismatch and complete failure of feature control.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

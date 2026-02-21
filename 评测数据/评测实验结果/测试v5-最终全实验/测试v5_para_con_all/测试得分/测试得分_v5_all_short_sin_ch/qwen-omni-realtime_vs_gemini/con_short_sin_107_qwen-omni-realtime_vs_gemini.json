@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 failed significantly on Content Accuracy. The user requested the specific sentence '这个公式非常重要，请务必记住。'. Model 1 modified the second half of the sentence to '你一定要牢牢记住' and proceeded to hallucinate a long paragraph of unrequested text ('它在很多关键场合都会派上用场...'). Regarding the specific feature control instruction (emphasize '非常'), the word '非常' (0:01) was spoken with standard prosody and pace, lacking the requested 'heavy' emphasis or stress. Due to the alteration of the script and the addition of significant unrequested content, combined with the failure to apply the requested emphasis, this model scores 0.",
-    "reasoning_model_2": "Model 2 followed the instructions perfectly. The Content Accuracy is 100%, reading exactly '这个公式非常重要，请务必记住。' without any errors or additions. Regarding the paralinguistic feature 'Stress' (重音), the model successfully applied heavy emphasis on the target word '非常'. At timestamp 0:02, the speaker inserts a deliberate pause before '非常', increases the loudness, and elongates the word to make it stand out significantly from the rest of the sentence. The rhythm creates a strong sense of importance, aligning perfectly with the command.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to follow the basic constraint of reading the specific text provided, altering the script and adding a large amount of hallucinated content. Furthermore, Model 1 did not effectively apply the requested emphasis on the keyword. Model 2, in contrast, delivered the exact script requested and executed the 'heavy emphasis' instruction flawlessly by using pausing, elongation, and increased intensity on the target word '非常'.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'Do you have any plans for the weekend?' accurately (0.0s - 3.5s). regarding the core requirement of 'normal volume', the audio stays within a standard, conversational loudness range, avoiding whispering or shouting. However, in terms of fluency and naturalness, the pacing is noticeably slow and somewhat dragged out, resulting in a slightly robotic or stiff delivery compared to natural human speech. While it meets the feature control requirement, the prosody lacks the fluidity of a real human voice.",
-    "reasoning_model_2": "The model perfectly articulates the text 'Do you have any plans for the weekend?' (0.0s - 1.8s). The volume is appropriately set to a normal, conversational level, strictly adhering to the prompt's instruction. The fluency and naturalness are excellent; the intonation rises naturally at the end to indicate a question, and the pacing is consistent with a casual, human interaction. There are no artifacts or mechanical qualities.",
-    "model_comparison": "Both models successfully adhere to the 'normal volume' instruction and read the text correctly. The significant difference lies in the naturalness and prosody. Model 1 is slower and sounds somewhat mechanical and stiff, fitting the definition of having noticeable machine-like qualities. Model 2 is highly natural, with excellent intonation and conversational pacing that sounds indistinguishable from a human speaker. Therefore, Model 2 is superior due to higher quality naturalness while maintaining the correct feature control.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct text content: 'Paris is the capital and largest city of France.' regarding the Content Accuracy. In terms of Fluency and Naturalness, the speech is free of artifacts, though the pacing is notably slow and deliberate, with a slight breathy quality (0:00-0:06). Regarding the core requirement 'Neutral Emotion', the model performs well. The tone is calm, serious, and devoid of strong positive or negative valence. It maintains a flat, objective delivery consistent with a neutral statement, effectively suppressing emotional inflection.",
-    "reasoning_model_2": "The model generates the text accurately. However, regarding the Paralinguistic Compliance for 'Neutral Emotion', the model fails significantly. The audio exhibits a high-pitched, 'cutesy' or 'anime-like' character voice with exaggerated prosody (0:00-0:05). There is significant pitch variation and a bright, enthusiastic tone that conveys happiness or excitement rather than neutrality. The intonation at the end of the sentence rises slightly, adding to the expressive, non-neutral nature of the speech.",
-    "model_comparison": "Model 1 is the clear winner for the specific command of 'neutral emotion'. While Model 1's delivery is somewhat slow and deep, it adheres to the constraint of lacking strong emotional color, presenting a serious and calm tone. Model 2, conversely, ignores the 'neutral' instruction entirely, producing a highly expressive, happy, and stylized voice that contradicts the prompt's requirement for a neutral delivery. Model 1 is much closer to the user's intent.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately captures the text content 'Please note, the performance is about to begin.' However, the fluency is severely compromised. There are unnatural, staccato pauses between almost every word, particularly evident between 'is', 'about', 'to', and 'begin' (e.g., distinct gaps around 3.0s-4.0s). While the model successfully lowered the pitch to meet the paralinguistic requirement (the voice is deep), the prosody is extremely mechanical and robotic, sounding like disjointed samples stitched together rather than a continuous sentence.",
-    "reasoning_model_2": "This model delivers the text with perfect accuracy. The fluency and naturalness are excellent; the pacing feels organic, with a natural pause after 'Please note' (0.0s-0.8s) followed by a smooth flow for the rest of the sentence. Crucially, the model excels at the core paralinguistic requirement: the voice maintains a consistent, deep low pitch throughout the clip (0.0s-3.5s), resembling a quiet, professional theater announcement. The tone is deep and resonant without sounding artificially slowed down or distorted.",
-    "model_comparison": "Both models successfully adhered to the instruction to use a 'low pitch.' However, there is a stark difference in fluency and naturalness. Model 1 (T1) sounds robotic and disjointed, with unnatural pauses that break the flow of speech, making it unpleasant to listen to despite the correct pitch. Model 2 (T2) integrates the low pitch naturally into a smooth, human-like delivery that fits the context of an announcement perfectly. T2 demonstrates superior control over prosody while maintaining the target feature.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the text '明天早上我会去健身房锻炼身体' (0:00-0:04). The speech is fluent with a natural, measured pace. Regarding the paralinguistic feature 'Age' (Middle-aged), the model generates a male voice with a deep, mature, and steady timbre. The tone is calm and grounded, effectively conveying the vocal characteristics associated with a middle-aged individual. The performance aligns perfectly with the user's command.",
-    "reasoning_model_2": "The audio content accurately matches the text '明天早上我会去健身房锻炼身体' (0:00-0:02). The speech is fluent and natural. However, regarding the paralinguistic feature 'Age' (Middle-aged), the model generates a voice that sounds like a young female. The tone is bright, energetic, and higher-pitched, which is typical of a young adult rather than a middle-aged person. The voice lacks the maturity, weight, or vocal aging characteristics expected from the prompt. Consequently, it fails to satisfy the specific feature control request.",
-    "model_comparison": "Both models achieve high content accuracy and fluency. However, they differ significantly in their adherence to the specific feature constraint 'Middle-aged voice'. Model 1 successfully produces a mature, deep male voice that fits the middle-aged description well. Model 2 produces a bright, youthful female voice that contradicts the 'middle-aged' requirement, sounding more like a young adult in her 20s. Therefore, Model 1 is the clear winner for following the feature control command.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

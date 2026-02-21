@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model synthesizes the text 'Help, I am trapped here', which contains a minor deviation from the prompt 'Help! I'm trapped here!' by expanding the contraction 'I'm'. The speech is fluent and natural (0.0s - 1.8s). However, in terms of the core paralinguistic feature 'Pitch', the audio fails to meet the requirement. The voice maintains a standard, neutral pitch suitable for normal reading but lacks the requested 'very high pitch'. The tone does not convey the specific acoustic characteristic demanded by the user.",
-    "reasoning_model_2": "The model synthesizes the text 'Help, I am trapped here', sharing the same minor content deviation (expanding 'I'm' to 'I am') as Model 1. However, Model 2 successfully executes the core instruction regarding 'Pitch'. From 0.0s to 1.8s, the voice is distinctly elevated to a very high register, sounding almost falsetto or squeaky, which aligns perfectly with the command 'very high pitch'. The emotion and urgency are well-integrated with the high pitch, making the feature expression vivid and spot-on.",
-    "model_comparison": "Both models have a slight content accuracy imperfection (expanding 'I'm' to 'I am'). The key differentiator is the control over the 'Pitch' feature. Model 1 fails to implement the requested high pitch, resulting in a standard neutral voice. Model 2 accurately generates the specific 'very high pitch' requested, demonstrating superior control over paralinguistic features. Therefore, Model 2 is the clear winner.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

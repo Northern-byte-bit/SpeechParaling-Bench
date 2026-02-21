@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content of the script with accurate pronunciation. However, regarding the core requirement of 'neutral emotion', the performance is flawed. The audio (0:00-0:04) exhibits a high-pitched, animated tone throughout. Specifically, at 0:03 on the word 'cloudy', there is a sharp upward inflection that mimics a question or expression of surprise/excitement. This exaggerated expressiveness directly contradicts the instruction for a 'neutral' delivery, making the statement sound uncertain or overly enthusiastic rather than factual and calm.",
-    "reasoning_model_2": "The model generates the audio with high fidelity to the text and excellent naturalness. Regarding the paralinguistic compliance, the model perfectly captures the 'neutral emotion'. The delivery from 0:00 to 0:04 is calm, steady, and informative, resembling a standard voice assistant or newsreader style. The pitch is consistent, and the final word 'cloudy' (0:03) has a natural falling intonation indicative of a factual statement. There is no unnecessary emotional coloring, fulfilling the core prompt requirement effectively.",
-    "model_comparison": "Model 2 is the clear winner in this comparison. The prompt explicitly requested a 'neutral emotion'. Model 1 failed this instruction by generating speech with a high pitch and a rising terminal intonation that sounded like a question or excitement, which is the opposite of neutral. Model 2, in contrast, provided a calm, flat, and steady delivery that perfectly aligned with the definition of a neutral tone. Model 2 demonstrated superior control over the requested paralinguistic feature.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

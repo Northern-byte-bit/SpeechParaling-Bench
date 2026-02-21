@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy. The user requested the text: '这种欺诈行为简直是道德沦丧，必须受到严惩，还受害者一个公道！'. However, the model generated a completely different, much longer script: '这种欺诈行为简直让人怒火中烧，道德底线都被踩得粉碎...'. While the paralinguistic features show some level of anger, the complete deviation from the requested text constitutes a fatal error according to the evaluation criteria ('Content Accuracy: Voice content is clearly inconsistent with the script'). Therefore, the score must be 0 regardless of emotional performance.",
-    "reasoning_model_2": "The model followed the text perfectly (Content Accuracy is perfect). In terms of Paralinguistic Compliance for '义愤填膺' (Righteous Indignation), the performance is excellent. From 00:00 to 00:02, the speaker starts with a heavy, serious tone on '这种欺诈行为'. At 00:02-00:03, there is strong emphasis and disgust on '道德沦丧'. The phrase '必须受到严惩' (00:03-00:04) is delivered with high energy, increased volume, and a forceful, commanding tone, perfectly capturing the requested indignation. The pacing is natural and emphatic.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated a completely different script than the one provided in the prompt, resulting in an automatic failure based on the scoring standards for Content Accuracy. Model 2 not only adhered strictly to the text but also delivered a vivid, high-quality performance of the requested 'righteous indignation' emotion, with appropriate stress, volume, and tonal changes.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

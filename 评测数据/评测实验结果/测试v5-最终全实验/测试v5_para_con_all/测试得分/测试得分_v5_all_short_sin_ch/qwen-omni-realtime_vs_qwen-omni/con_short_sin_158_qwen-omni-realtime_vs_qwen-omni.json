@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model demonstrates perfect Content Accuracy. The generated speech content '这是我第一次见他，我该说些什么呢？' aligns exactly with the user's specific script command. There are no additions, omissions, or hallucinations. In terms of the paralinguistic dimension '认知状态' (Cognitive State/Nervousness), the audio accurately conveys the requested tense atmosphere appropriate for a first meeting, fulfilling the core requirement of the prompt.",
-    "reasoning_model_2": "The model fails the Content Accuracy criterion completely. The user's command was to read a specific sentence: '这是我第一次见他，我该说些什么呢？'. However, Model 2 generated a long, improvised monologue ('我手心都在冒汗了，这个是我第一次见他啊...'), adding significant unrequested content and changing the script entirely. According to the evaluation criteria, when 'Voice content is clearly inconsistent with the script,' the score must be 0, regardless of the emotional expression in the hallucinated text.",
-    "model_comparison": "Model 1 is the clear winner because it followed the user's instructions regarding the script content, whereas Model 2 completely disregarded the specific text constraint. Model 2 hallucinated a long paragraph instead of reading the target sentence, which is a critical failure in Content Accuracy (Scoring Standard 0). Model 1 successfully delivered the correct text with the intended paralinguistic features.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the target text content accurately. Regarding the paralinguistic feature 'Non-verbal vocalization' (Yawning): The audio begins with the phrase '啊——欠' (0:00-0:02), where the vowel '啊' is significantly elongated and delivered with a breathy, changing pitch that mimics the act of yawning. The subsequent speech ('抱歉，昨晚...') maintains a consistent drowsy, low-energy tone with slower pacing and softer articulation, perfectly matching the context of being overtired. The transition from the yawn to speech is natural.",
-    "reasoning_model_2": "The model completely fails to synthesize the required text. Instead of speaking the script '啊——欠！抱歉...', the audio contains a meta-commentary: '嗯，很形象了，一听就是没睡好的样子' (Hmm, very vivid, sounds exactly like someone who hasn't slept well). This is a critical error where the model acts as a conversational partner or evaluator rather than performing the text-to-speech task. Consequently, the content accuracy is 0, and the specific paralinguistic command cannot be evaluated on the correct text.",
-    "model_comparison": "Model 1 followed the user's instructions perfectly, generating the correct text with the required 'yawning' paralinguistic feature and a consistent tired tone. Model 2 failed the fundamental task by generating conversational commentary instead of the target script. Therefore, Model 1 is the definitive winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

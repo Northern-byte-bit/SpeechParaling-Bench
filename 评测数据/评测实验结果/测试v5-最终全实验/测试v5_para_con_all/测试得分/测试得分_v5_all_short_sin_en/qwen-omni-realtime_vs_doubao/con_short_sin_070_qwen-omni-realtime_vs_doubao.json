@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 strictly follows the user's command. The content is exactly 'Shhh, the baby is asleep, let's be quiet.' with no omissions or additions. The audio demonstrates excellent control over the 'Volume' dimension. The entire sentence is spoken in a convincing, natural whisper (0.0s - 2.8s), which perfectly aligns with the instruction 'quietly volume' and the context of not waking a baby. The delivery is fluent and accurately conveys the hush required.",
-    "reasoning_model_2": "Model 2 fails significantly in content accuracy. It omits the initial 'Shhh' and hallucinates a significant amount of text that appears to be a style description or prompt leakage ('Softly, gently, like a whisper...'). Regarding the 'Volume' dimension, the audio is not effectively 'quiet'. It is spoken in a relatively normal, conversational volume (0.0s - 6.0s), lacking the whispered or hushed quality requested. While the tone is somewhat soft, it does not meet the 'quietly volume' constraint, and the hallucinated content disrupts the intended performance entirely.",
-    "model_comparison": "Model 1 is the clear winner. It accurately synthesizes the requested text and effectively modifies the volume to a whisper, perfectly matching the semantic context and user instruction. Model 2 fails on multiple fronts: it hallucinates text (reading out style descriptions instead of applying them), omits part of the requested text ('Shhh'), and fails to significantly lower the volume to a quiet level, sounding like a standard narration rather than a quiet warning.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script '你必须完成作业才能玩游戏。'. In terms of the specific command to stress '必须' (must), the model performs exceptionally well. At timestamp 00:00-00:01, the speaker noticeably increases the volume and pitch on the word '必须', and articulates it with a slower tempo compared to the surrounding text, creating a clear auditory prominence. The pause after '你' and before '完成' further isolates the target word, effectively conveying the authoritative tone required by the emphasis. The overall fluency is natural.",
-    "reasoning_model_2": "The audio content matches the script accurately. However, regarding the specific instruction to stress '必须', the model performs poorly. The sentence is delivered with a relatively fast and uniform pace (00:00-00:02). The word '必须' is blended smoothly into the phrase '你必须完成' without any distinct pitch change, volume increase, or rhythmic elongation to mark it as emphasized. The prosody sounds like a standard, casual declarative sentence rather than one adhering to the specific 'stress' constraint requested by the user.",
-    "model_comparison": "Model 1 (T1) followed the specific paralinguistic instruction to stress the word '必须' perfectly. The acoustic features (pitch, duration, loudness) on the target word were clearly modified to create emphasis. Model 2 (T2), while fluent and accurate in content, failed to implement the 'stress' feature, delivering the sentence with a flat, standard prosody that ignored the user's specific command. Therefore, T1 is significantly better.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

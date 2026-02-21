@@ -1,0 +1,18 @@
+{
+    "sample_index": 61,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a youthful voice, an emphatic rhythm, and an enthusiastic tone: 'Welcome new students to our club! Hope everyone has a great time!'",
+    "dimensions": [
+        "Age",
+        "Attitude",
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

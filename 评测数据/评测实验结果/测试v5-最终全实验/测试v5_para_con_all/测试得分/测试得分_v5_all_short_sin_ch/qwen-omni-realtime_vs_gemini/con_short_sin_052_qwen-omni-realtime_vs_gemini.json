@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content '今天的天气真好，适合出去散步' accurately with no mispronunciations. Regarding the specific constraint 'Medium Speed' (中速): The audio spans approximately 3 seconds for a 13-character sentence. This results in a speech rate of roughly 4.3 characters per second. The pacing is steady, deliberate, and clear, with a distinct natural pause at the comma. This tempo aligns perfectly with the definition of 'medium speed,' being neither rushed nor dragging. The prosody is natural and comfortable to listen to.",
-    "reasoning_model_2": "The model generates the correct text content. Regarding the constraint 'Medium Speed': The audio appears to be shorter and more condensed, lasting approximately 2 seconds for the same 13-character text. This implies a speech rate of roughly 6.5 characters per second. While this pacing is fluent and may convey an energetic or enthusiastic tone, it is objectively faster than a standard 'medium' speed. The delivery feels slightly rushed in the context of a specific instruction for 'medium speed,' leaning more towards 'fast.'",
-    "model_comparison": "Both models accurately synthesize the text content and maintain good fluency. The key differentiator is the adherence to the 'Medium Speed' (语速) constraint. Model 1 (T1) maintains a moderate, steady pace (~4.3 chars/sec) that perfectly fits the description of 'medium speed.' Model 2 (T2) delivers the line significantly faster (~6.5 chars/sec), which, while natural for an excited tone, deviates from the explicit command for a medium pace. Therefore, Model 1 follows the control instruction more precisely.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

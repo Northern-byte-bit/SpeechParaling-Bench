@@ -1,0 +1,16 @@
+{
+    "sample_index": 13,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用浑厚的音质疲劳地说：我太累了，想休息。",
+    "dimensions": [
+        "音质",
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

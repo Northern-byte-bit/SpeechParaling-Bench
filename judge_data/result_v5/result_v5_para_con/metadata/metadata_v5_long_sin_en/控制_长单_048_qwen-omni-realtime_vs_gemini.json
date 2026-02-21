@@ -1,0 +1,14 @@
+{
+    "sample_index": 48,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very fast pace: 'I almost overslept this morning because my alarm didn't go off; I had to brush up and rush to school within ten minutes, luckily I caught the last school bus and didn't miss my morning class.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

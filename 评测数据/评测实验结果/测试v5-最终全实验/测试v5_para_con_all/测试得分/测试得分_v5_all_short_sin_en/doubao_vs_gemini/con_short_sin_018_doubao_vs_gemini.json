@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy. The target script was 'Really? Quick, tell me the details!', but the generated audio only contains the repetitive words 'Details, details'. While the pitch of the voice is indeed high (sounding somewhat artificial or cartoon-like), the complete failure to read the requested sentence constitutes a major error. According to the evaluation criteria, if the voice content is clearly inconsistent with the script, the score must be 0.",
-    "reasoning_model_2": "The model achieved perfect Content Accuracy, reading the full sentence 'Really? Quick, tell me the details!' clearly and without errors. In terms of Fluency and Naturalness, the speech is smooth, human-like, and expressive. Regarding the CORE Paralinguistic Compliance (Pitch), the model successfully adopted a higher pitch profile, sounding like an excited or younger female voice, which aligns well with the 'high pitch' instruction while maintaining naturalness. It effectively conveys the urgency and excitement implied by the text through the raised pitch.",
-    "model_comparison": "Model 1 failed to generate the correct text content, outputting unrelated fragments instead of the target sentence. This is a critical failure leading to a score of 0. Model 2 followed all instructions perfectly: it generated the correct text, maintained high fluency, and effectively implemented the 'high pitch' constraint in a natural, expressive manner. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

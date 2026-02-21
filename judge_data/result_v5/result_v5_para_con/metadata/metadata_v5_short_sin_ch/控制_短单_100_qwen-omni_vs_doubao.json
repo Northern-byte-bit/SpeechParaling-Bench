@@ -1,0 +1,14 @@
+{
+    "sample_index": 100,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请在“必须”上重读说：你必须完成作业才能玩游戏。",
+    "dimensions": [
+        "重音"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

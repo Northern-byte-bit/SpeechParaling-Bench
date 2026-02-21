@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command requires the text '我相信自己能胜任这份工作，我会全力以赴。' with a confident tone. Model 1's generation is critically flawed as it terminates prematurely at '我会' (approx. end of audio), completely omitting the phrase '全力以赴'. Due to this severe content truncation, the meaning of the sentence is compromised. Furthermore, the partial audio delivered lacks significant projection or emphatic stress required for a 'confident' (自信) tone, sounding rather neutral and flat. Because the content is incomplete and the meaning changed due to major omission, this constitutes a failure.",
-    "reasoning_model_2": "Model 2 successfully generates the core required text '我相信自己能胜任这份工作，我会全力以赴', but it hallucinates/adds an extra phrase '不负期待' at the end. While the content accuracy is not perfect due to this addition, the paralinguistic performance is excellent. The speaker uses a strong, projected voice with firm pauses (e.g., after '自己') and emphatic stress, effectively conveying the required 'confident' (自信) cognitive state. The prosody is natural and authoritative. The score is penalized to 2 solely due to the addition of unrequested text.",
-    "model_comparison": "Model 1 is a complete failure due to the audio cutting off halfway through the sentence, resulting in an incomplete message. Model 2 delivers the full core message and successfully executes the required 'confident' tone with high energy and conviction, although it appends an extra phrase ('不负期待'). Model 2 is significantly superior as it is usable and stylistically accurate, whereas Model 1 is broken.",
-    "score_1": 0,
-    "score_2": 2,
-    "winner": 2
-}

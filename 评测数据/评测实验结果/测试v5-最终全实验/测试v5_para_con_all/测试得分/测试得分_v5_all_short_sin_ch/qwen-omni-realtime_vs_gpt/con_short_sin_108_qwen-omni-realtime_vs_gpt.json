@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails the Content Accuracy criterion significantly. While the user's command specified the text '这次，我们必须成功，没有退路！', the model hallucinates and generates a long, dramatic monologue extending far beyond the requested sentence (from 00:03 to 00:13, adding text like '真的没有退路...只能赢'). Although the word '必须' (00:01) is spoken, the massive deviation from the script constitutes a 'Completely incorrect' content performance. According to the Global Considerations, if the content is clearly inconsistent or extremely poor, the score must be 0.",
-    "reasoning_model_2": "The model performs excellent Content Accuracy, reading exactly the requested text: '这次，我们必须成功，没有退路' without any additions or omissions. Regarding the target feature '重音' (Emphasis), the model successfully places heavy stress on the word '必须' (00:01). The speaker increases loudness and articulates the word with a firm, decisive tone, creating a clear contrast with the surrounding text. The prosody is natural and fits the urgent context of the sentence.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 suffers from a critical failure in instruction following regarding the text content, generating a long paragraph of unrequested text (hallucination/continuation) instead of just the specific sentence. Model 2 follows the text constraints perfectly and successfully executes the requested paralinguistic feature (stressing '必须') with high quality and naturalness.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

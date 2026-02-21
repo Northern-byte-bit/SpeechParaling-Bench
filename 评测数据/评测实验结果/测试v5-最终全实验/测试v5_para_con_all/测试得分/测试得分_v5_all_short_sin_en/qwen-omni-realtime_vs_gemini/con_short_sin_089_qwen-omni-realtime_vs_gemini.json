@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the model to read a specific sentence: 'Hurry! The enemy is ahead, we need to rush through.' with a rushed rhythm. Model 1 completely failed the content accuracy requirement. Instead of reading the requested sentence, it hallucinated a significantly longer script ('Hurry, hurry, hurry... No time to waste... Move, move, move'). According to the scoring standard, a score of 0 is assigned when 'Voice content is clearly inconsistent with the script.' Although the rhythm of the hallucinated speech is indeed rushed and frantic, the failure to adhere to the text constraint is a critical error.",
-    "reasoning_model_2": "Model 2 followed the text instructions perfectly, reading exactly 'Hurry, the enemy is ahead, we need to rush through.' (0:00-0:03). The rhythm is notably fast and urgent, effectively conveying the 'rushed' characteristic requested. The articulation is clear, and the prosody is natural while maintaining the necessary speed to sound urgent. There are no hallucinations or fluency issues.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the most basic constraint of text-to-speech generation by inventing its own script rather than reading the user's provided text. While Model 1's emotional expression was intense, its content accuracy score is 0 due to the major hallucination. Model 2 delivered the correct text with the correct rushed rhythm and high naturalness.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

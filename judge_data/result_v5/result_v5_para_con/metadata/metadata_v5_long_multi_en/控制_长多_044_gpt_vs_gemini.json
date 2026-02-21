@@ -1,0 +1,16 @@
+{
+    "sample_index": 44,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence at normal volume, with stress on the word 'must': 'Everyone, please note that for this project proposal, all detailed sections must be submitted by tomorrow morning. This is a mandatory requirement.'",
+    "dimensions": [
+        "Stress",
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the model to say a specific sentence with coughing. The generated audio consists entirely of a repetitive sequence of coughing sounds lasting approximately 40 seconds. The model failed to generate any of the required spoken text ('不好意思，我刚才说到哪里了？...'). This constitutes a complete failure in Content Accuracy as the script was not read at all. Consequently, according to the global considerations, since the content is effectively empty of the required speech, the score must be 0.",
-    "reasoning_model_2": "The model successfully integrates the requested non-verbal vocalization ('非语言发声') into the speech. From 00:00 to approximately 00:10, the model performs a series of realistic coughing and throat-clearing sounds, corresponding perfectly to the '咳咳……' prompt at the beginning of the text. Following this, the model transitions into spoken text at 00:11, reading '不好意思，我刚才说到哪里了？...' accurately and clearly. The transition from the paralinguistic feature to the speech is natural, and the coughing sounds are authentic and human-like, effectively conveying the requested state.",
-    "model_comparison": "Model 1 completely failed to generate the spoken content, producing only a long loop of coughing sounds. Model 2 correctly followed the instruction, performing the coughing at the beginning as indicated by the text '咳咳……' and then accurately reading the rest of the script with good fluency and naturalness. Therefore, Model 2 is superior in every aspect.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

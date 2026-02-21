@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content strictly matches the script 'Hurry, someone's coming.' (0.0s-1.8s). The delivery is fluent and natural. Crucially, regarding the core paralinguistic requirement 'Volume/Whisper', the model successfully generates a genuine unvoiced whisper. The vocal folds are not vibrating, creating the distinct breathy quality required for a whisper. The urgency is also conveyed appropriately through the pacing and intensity of the whisper, fitting the context of the sentence perfectly.",
-    "reasoning_model_2": "The audio content matches the script 'Hurry, someone's coming.' (0.0s-2.0s). However, regarding the core requirement 'Volume/Whisper', the model fails to produce a true whisper. The speech is fully phonated (voiced), meaning the vocal cords are vibrating throughout. It sounds like a standard voice speaking somewhat softly or with a slight 'hushed' tone, but it lacks the essential breathy, unvoiced characteristic that defines a whisper. The tone also sounds slightly artificial and less natural compared to human speech.",
-    "model_comparison": "Model 1 followed the instruction perfectly. It produced a high-quality, unvoiced whisper that fits the semantic context of 'Hurry, someone's coming.' Model 2, while getting the words right, failed to alter the mode of phonation to a whisper. It produced voiced speech that was merely spoken softly, which does not satisfy the specific acoustic definition of a whisper. Therefore, Model 1 is the clear winner for accurately implementing the requested paralinguistic feature.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

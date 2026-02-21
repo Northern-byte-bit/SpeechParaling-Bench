@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly on Content Accuracy. The user requested the specific sentence '请现在就把报告提交上来！', but the model generated a paraphrased and extended version: '现在就请你把报告提交上来，别再拖了，我等你马上处理'. This violates the requirement to read the specific script. Regarding the feature 'Stress', while the word '现在' was moved to the front, the overall emphasis was not particularly strong or distinct compared to the added conversational filler. Due to the severe hallucination/alteration of the script, this receives a 0 based on the scoring standard for Content Accuracy.",
-    "reasoning_model_2": "The model followed the Content Accuracy requirement perfectly, reading exactly '请现在就把报告提交上来'. Regarding the 'Stress' dimension, the model correctly identified the target word '现在' (00:00-00:01) and applied significant emphasis through increased volume, pitch height, and a deliberate tempo slowdown on those specific characters. The contrast with the surrounding text was clear and effective, meeting the 'vivid and spot-on' criteria for a score of 3.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to follow the basic instruction of reading the provided text, instead generating an improvised response that paraphrased the target and added extra sentences. This is a fatal error in a TTS/control task. Model 2 adhered strictly to the text and successfully applied the requested paralinguistic feature (stress on '现在') in a natural and obvious way.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

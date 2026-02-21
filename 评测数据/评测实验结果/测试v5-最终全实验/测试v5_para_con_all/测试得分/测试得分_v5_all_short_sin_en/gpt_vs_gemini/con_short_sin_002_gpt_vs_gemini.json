@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio successfully captures the target paralinguistic feature of 'Age'. From 00:00 to 00:02, the voice exhibits a higher pitch and lighter timbre characteristic of a young child (likely prepubescent). The vocal tract resonance sounds naturally shortened, matching the physiological traits of a child. The prosody is inquisitive and polite, fitting the context of addressing a 'Teacher'. The content is perfectly accurate with no fluency issues.",
-    "reasoning_model_2": "The audio fails to adhere to the core instruction regarding 'Age'. The voice presented from 00:00 to 00:03 is distinctly that of an adult female. The pitch is lower, and the resonance is mature and full, showing no attempt to modify the voice to sound like a child. While the content is accurate and the fluency is acceptable (with a noticeable pause at 00:01), the complete lack of the required 'child's voice' characteristic renders the generation incorrect for the specific feature control task.",
-    "model_comparison": "Model 1 followed the user's specific command to use a 'child's voice,' delivering a convincing performance with appropriate pitch and timbre adjustments. Model 2 ignored the paralinguistic constraint, outputting a standard adult voice. Therefore, Model 1 is the clear winner due to its adherence to the 'Age' feature requirement.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

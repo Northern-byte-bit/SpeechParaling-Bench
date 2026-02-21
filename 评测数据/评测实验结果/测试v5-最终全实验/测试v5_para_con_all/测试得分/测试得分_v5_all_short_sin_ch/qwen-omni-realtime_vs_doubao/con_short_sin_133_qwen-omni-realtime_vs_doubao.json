@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely failed the Content Accuracy criterion. The user requested the specific sentence '这次项目我准备得很充分，一定能成功。', but the model generated a completely different, improvised paragraph ('这次项目，我准备得滴水不漏，每一个细节都反复推敲过...'). According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0. Although the tone used was somewhat confident, the complete hallucination of text makes it a critical failure.",
-    "reasoning_model_2": "The model performed excellently across all criteria. Content Accuracy: It read the target text '这次项目，我准备得很充分，一定能成功。' perfectly without errors. Fluency and Naturalness: The speech was smooth, with a natural pause after the opening phrase. Paralinguistic Compliance (Cognitive State): The tone was distinctly confident and firm. There was strong emphasis on '很充分' (very fully) and '一定' (definitely), and the downward inflection at the end conveyed certainty and determination, perfectly matching the 'confident' (自信) requirement.",
-    "model_comparison": "Model 1 failed to synthesize the requested text, instead generating a long, improvised monologue that deviated entirely from the script. This triggers the 'Completely incorrect' condition (Score 0) regardless of its tonal quality. Model 2, in contrast, followed the instruction precisely, delivering the correct text with a natural, strong, and highly confident tone. Model 2 is the clear winner due to Model 1's content hallucination.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

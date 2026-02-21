@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to execute the required non-linguistic vocalizations. Instead of generating the sound of coughing, the model treats the stage directions as literal text to be read aloud. At 0:00, it mispronounces 'Ahem' as 'Am', and at 0:01, it reads the word 'cough' with a robotic tone. It omits the second 'cough' entirely. The audio lacks naturalness and fails to convey the requested paralinguistic feature, resulting in a score of 0.",
-    "reasoning_model_2": "The model successfully generates the requested paralinguistic feature. From 0:00 to 0:02, it produces realistic and natural sounds of throat clearing and coughing, matching the 'Ahem, cough, cough' instruction. However, from 0:02 to 0:04, the model switches the spoken content to Chinese ('Wo xiang shuo ji ju', a translation of 'I'd like to say a few words'), violating the content accuracy requirement by changing the language. Despite the severe content error, the paralinguistic feature itself is accurately generated.",
-    "model_comparison": "Model 2 demonstrates the capability to generate the specific non-linguistic vocalizations (coughing) requested by the user, whereas Model 1 completely fails this task by reading the text 'cough' literally. Although Model 2 fails strictly on content accuracy by outputting Chinese instead of English, it is the only model that successfully adhered to the 'Feature Control' aspect of the prompt. Model 1's audio is robotic and fails both the feature generation and naturalness. Therefore, Model 2 is judged as superior for the specific dimension of Non-Linguistic Vocalizations, despite the language hallucination.",
-    "score_1_1": 0,
-    "score_2_1": 1,
-    "winner_1": 2
-}

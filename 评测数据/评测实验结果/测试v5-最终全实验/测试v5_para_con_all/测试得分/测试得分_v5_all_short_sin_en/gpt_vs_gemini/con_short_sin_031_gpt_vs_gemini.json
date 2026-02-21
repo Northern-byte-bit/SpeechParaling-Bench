@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 strictly follows the user's command to use a hoarse timbre. From the very beginning ('Good morning' at 0:00-0:01), the voice exhibits a noticeable raspiness and breathiness consistent with a strained vocal cord or a sore throat. This texture is maintained throughout the sentence, particularly emphasizing the word 'uncomfortable' (0:03-0:04) with a strained, gravelly tone. The pacing is slightly slower, which adds to the realism of someone struggling to speak due to throat discomfort. Content accuracy is perfect, and naturalness is high.",
-    "reasoning_model_2": "Model 2 generates the audio with high content accuracy and general fluency, but it completely fails to adhere to the paralinguistic instruction regarding timbre. The voice provided is crystal clear, bright, and resonant (0:00-0:04). There is absolutely no trace of hoarseness, raspiness, or vocal strain. It sounds like a standard, healthy text-to-speech voice reading a sentence without acting out the physical condition described. Therefore, it does not meet the core requirement of the prompt.",
-    "model_comparison": "The comparison is stark. Model 1 successfully implements the requested 'hoarse timbre', modifying the vocal texture to sound raspy, breathy, and strained, perfectly matching the context of a sore throat. Model 2, conversely, produces a standard, clean, and clear voice with no hoarseness whatsoever. While Model 2 is fluent, it fails the specific 'Feature Control' task requested by the user. Model 1 wins decisively for correctly interpreting and generating the specified timbre.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

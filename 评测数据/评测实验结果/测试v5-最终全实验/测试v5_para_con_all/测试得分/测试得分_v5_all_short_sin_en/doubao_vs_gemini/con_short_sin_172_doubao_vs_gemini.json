@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly in Content Accuracy by reading the instruction word 'Scream' aloud at the beginning (0:00-0:01), which is a hallucination not present in the target script 'Ah! There's a mouse there!'. Regarding the target feature 'Non-Linguistic Vocalizations' (specifically a scream), the model attempts the 'Ah' (0:01-0:02) with a high-pitched, shaky falsetto that sounds extremely artificial and unconvincing, resembling a caricature rather than a genuine human vocalization of fear. The subsequent sentence is delivered with a wobbly, unnatural prosody.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading only the target text. Regarding the 'Non-Linguistic Vocalizations', the model successfully converts 'Ah!' (0:00-0:01) into a sharp, breathy gasp/shout of surprise and fear, fitting the definition of a short scream in this context. The vocalization is highly natural and integrated smoothly with the following text 'There is a mouse there!', which maintains an appropriate tone of alarm. The execution is indistinguishable from a human reaction.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 commits a severe error by reading the prompt instruction ('Scream') as part of the speech, and its attempt at the paralinguistic feature is robotic and unnatural. Model 2 correctly interprets the command, delivering a natural, human-sounding vocalization of fear/surprise ('Ah!') that perfectly fits the context of screaming at a mouse, without any content errors.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

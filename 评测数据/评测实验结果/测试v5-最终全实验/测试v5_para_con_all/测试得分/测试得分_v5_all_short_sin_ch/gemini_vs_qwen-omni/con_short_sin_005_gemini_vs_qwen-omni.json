@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content '嘿，晚上有空一起去图书馆吗？' with high accuracy. The voice clearly exhibits the characteristics of a 'youth' (young female). The timbre is bright, energetic, and higher-pitched, typical of a young adult or student (0.0s-3.0s). The intonation is casual and friendly, fitting the context of asking a peer to the library. The prosody is natural and fluid, achieving a score of 3 for the target feature.",
-    "reasoning_model_2": "The model generates the content accurately, though the initial 'Hey' sounds slightly more like the English pronunciation than the Chinese character '嘿', but it is acceptable. In terms of the target feature 'Age' (Youth), the voice sounds more mature, resembling a standard adult or middle-aged female voice rather than a distinctively 'young' person (0.0s-3.2s). The tone is flatter and lacks the youthful energy and brightness found in Model 1, sounding more like a generic assistant. It is partially correct but not as vivid.",
-    "model_comparison": "Both models generate the correct text with good fluency. However, Model 1 significantly outperforms Model 2 in the target dimension 'Age' (Youth). Model 1's voice has a bright, energetic timbre and casual delivery that perfectly matches the persona of a young person. Model 2's voice sounds more mature, grounded, and generic, lacking the specific youthful characteristics requested in the prompt. Therefore, Model 1 is the clear winner for conveying the specific paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

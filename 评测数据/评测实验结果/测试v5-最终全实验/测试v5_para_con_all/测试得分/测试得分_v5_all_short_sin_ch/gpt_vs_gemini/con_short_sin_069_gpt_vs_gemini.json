@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content '周末你有什么计划吗？' perfectly matches the script with no omissions or errors. The speech is fluent and natural, indistinguishable from human speech. Regarding the core paralinguistic feature 'Volume' (音量), the model successfully generates the speech at a 'normal' conversational volume (正常音量). It is neither too quiet (whispering) nor too loud (shouting), fitting the context of a casual inquiry perfectly. The volume is consistent throughout the sentence.",
-    "reasoning_model_2": "The audio content is '周末，你有什么计划', which omits the final particle '吗' found in the script '周末你有什么计划吗？'. While the meaning is largely preserved, this constitutes a content accuracy error (omission). The fluency is acceptable, though the voice has a slightly breathy or dramatic quality. Regarding the core feature 'Volume', the model complies with the 'normal volume' instruction; the amplitude is standard and audible. However, due to the content omission, it cannot receive a perfect score according to the criteria requiring perfect consistency with the script for the highest tier.",
-    "model_comparison": "Model 1 (T1) is the clear winner. T1 follows the text script exactly ('周末你有什么计划吗？') and delivers it with a very natural, standard conversational volume and prosody. Model 2 (T2) omits the final character '吗', failing the strict content accuracy requirement for a perfect score. While T2 also adheres to the 'normal volume' instruction, the content error and the slightly more stylized (less neutral) delivery make T1 the superior generation for this specific command.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

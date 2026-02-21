@@ -1,0 +1,16 @@
+{
+    "sample_index": 17,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a high pitch and a nervous tone: 'Oh my goodness, it's almost my turn to give the speech, my heart is beating so fast, and my palms are sweating. Can I really complete it smoothly? I feel like I've forgotten everything I prepared!'",
+    "dimensions": [
+        "Cognitive State",
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 1
+}

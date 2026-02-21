@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the model to read the sentence: 'Oh, really? That's nice.' However, the model generated a completely unrelated sentence: 'The meeting is scheduled for tomorrow at 10 AM. Don't be late.' (0:00-0:05). This constitutes a complete failure in Content Accuracy. According to the scoring standard, when the voice content is clearly inconsistent with the script, the score must be 0.",
-    "reasoning_model_2": "The model generates the text 'Oh, really. That is nice.' There is a minor content deviation where the contraction 'That's' is expanded to 'That is' (0:01-0:03), preventing a perfect score for content accuracy. Regarding the paralinguistic requirement (perfunctory tone), the model performs well. The delivery is flat, monotone, and lacks dynamic range, effectively conveying disinterest and a lack of effort. The pause between phrases and the falling intonation at the end of 'nice' capture the requested attitude accurately.",
-    "model_comparison": "Model 1 failed completely as it hallucinated entirely different text than what was requested, resulting in an automatic failure. Model 2 followed the instructions closely, generating the correct semantic content with the requested 'perfunctory' tone, showing indifference and a flat affect. Although Model 2 had a very minor strictness issue with expanding the contraction 'That's' to 'That is', it is vastly superior to Model 1 which did not perform the task at all.",
-    "score_1": 0,
-    "score_2": 2,
-    "winner": 2
-}

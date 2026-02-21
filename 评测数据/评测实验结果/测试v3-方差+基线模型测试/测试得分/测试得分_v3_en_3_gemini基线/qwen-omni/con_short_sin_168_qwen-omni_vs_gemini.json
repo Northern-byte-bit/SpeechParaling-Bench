@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the sentence be read with a 'sigh'. The generated audio (as represented by the transcript 'Huh, this weather is so hot. I am melting.') initiates with the vocalization 'Huh'. This 'Huh' effectively serves as the requested non-linguistic vocalization (a sigh or weary exhale) at the timestamp 0.0s-0.5s, setting the appropriate tired tone for the rest of the sentence. However, regarding Content Accuracy, the model expanded the contraction 'I'm' to 'I am', which is a minor deviation from the script 'I'm melting'. The core paralinguistic feature is present and compliant.",
-    "reasoning_model_2": "The user requested a 'sigh', but the transcript for Model 2 ('This weather is so hot. I am melting.') shows no evidence of any non-linguistic vocalization at the beginning or end. It appears to read the text straight without the required feature. Additionally, like Model 1, this model alters the script by expanding the contraction 'I'm' to 'I am', resulting in a minor content accuracy issue. The primary failure is the complete absence of the requested paralinguistic feature (sigh).",
-    "model_comparison": "Model 1 successfully incorporates the required paralinguistic feature (Non-Linguistic Vocalizations) by adding a 'Huh' (sigh/exhale) at the beginning of the speech. This aligns with the user's command to read the sentence with a sigh. Model 2 fails to include any such vocalization, missing the core constraint of the prompt. Both models exhibit the same minor content accuracy flaw (changing 'I'm' to 'I am'). Therefore, Model 1 is the clear winner for successfully implementing the feature control aspect.",
-    "score_1": 2,
-    "score_2": 1,
-    "winner": 1
-}

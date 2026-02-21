@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 strictly follows the content instructions, saying exactly '夜深了，森林里弥漫着神秘气息' without any additions or omissions. In terms of the core feature 'Pitch' (音高), the model successfully generates a male voice with a notably low register (Low Pitch). The delivery is deep and resonant, aligning well with the request for 'very low pitch' (极低音). The prosody is slow and deliberate, enhancing the mysterious atmosphere requested by the text content. The pitch modulation is stable and consistently low throughout the sentence.",
-    "reasoning_model_2": "Model 2 fails significantly on multiple fronts. First, regarding Content Accuracy, it hallucinates a large amount of text that was not requested ('低沉的嗡鸣...的故事'), violating the script constraints. Second, regarding the core feature 'Pitch' (音高), the model uses a relatively high-pitched female or child-like voice, which is the complete opposite of the requested 'very low pitch' (极低音). The tone is bright rather than deep and mysterious. Due to the severe content deviation and the complete failure to meet the pitch constraint, this model receives the lowest score.",
-    "model_comparison": "Model 1 is the clear winner. It accurately reproduces the text and successfully implements the 'very low pitch' constraint, creating a deep, mysterious atmosphere. Model 2 fails completely; it generates a long paragraph of unrequested text and uses a high-pitched voice instead of the requested low pitch. Model 1 followed all instructions, while Model 2 failed on both content and feature control.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

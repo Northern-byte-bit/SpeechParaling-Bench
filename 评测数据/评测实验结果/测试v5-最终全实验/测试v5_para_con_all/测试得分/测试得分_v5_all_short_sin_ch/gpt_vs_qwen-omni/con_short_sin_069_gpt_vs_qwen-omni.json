@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately reproduces the script '周末你有什么计划吗？' with perfect content accuracy (0:00-0:02). The volume is controlled at a standard, normal conversational level, neither too loud nor too quiet, effectively complying with the 'normal volume' command. The speech is fluent, natural, and free of artifacts.",
-    "reasoning_model_2": "The audio attempts the script but fails to complete it accurately. The speaker says '周末，你有什么计划' (0:00-0:03), omitting the final particle '吗'. While the volume level itself is within a normal audible range (complying with the core feature request), the content omission is a flaw. The prosody is slightly dramatic (deep male voice) but generally fluent. However, due to the missing word, it cannot be rated as fully correct.",
-    "model_comparison": "Both models successfully produce audio at a 'normal volume' as requested. However, Model 1 (T1) is the clear winner because it follows the script perfectly. Model 2 (T2) omits the final character '吗' from the source text. According to the scoring criteria, a model cannot receive a perfect score if there are content errors. Therefore, T1 demonstrates superior quality through better instruction following and content accuracy.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

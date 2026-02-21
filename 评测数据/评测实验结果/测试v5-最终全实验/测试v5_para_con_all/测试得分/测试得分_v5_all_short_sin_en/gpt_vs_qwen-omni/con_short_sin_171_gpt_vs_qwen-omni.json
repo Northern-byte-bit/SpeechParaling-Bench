@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the English text 'I just choked, it's a bit uncomfortable.' with coughing. Model 1 generated speech in Chinese: '咳咳，咳嗽，我刚才呛到了，有点不舒服' (Ke ke, kesou, wo gangcai qiangdao le, youdian bushufu). This constitutes a complete failure in Content Accuracy as the language is incorrect. Regarding the paralinguistic requirement (Non-Linguistic Vocalizations), instead of generating a realistic coughing sound, the model verbally pronounced the onomatopoeia 'Ke ke' and the word 'Kesou' (Coughing). Therefore, it failed to produce the required non-linguistic vocalization naturally.",
-    "reasoning_model_2": "Model 2 followed the command perfectly. It begins with a realistic, non-linguistic coughing sound (approx. 0:00-0:02). Following the cough, it delivers the correct English text: 'I just choked, it's a bit uncomfortable.' The delivery of the text incorporates a breathless, slightly strained tone (0:02-0:05), which naturally aligns with the context of having just choked. The integration of the sound effect and the speech is seamless and high-quality.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed fundamentally by speaking in the wrong language (Chinese instead of English) and by reading out the description of the sound ('Coughing') and phonetic onomatopoeia rather than generating the actual non-linguistic sound. Model 2 correctly spoke the English text and generated a highly realistic coughing sound that blended naturally with the speech.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates a non-linguistic vocalization at the beginning of the audio. From 0.0s to approximately 1.0s, there is a distinct, weary sigh or breathy exhalation ('Ahhh...') that precedes the speech. While this vocalization sounds more like a tired sigh of annoyance than a prolonged physiological yawn, it effectively sets a bored and lethargic tone that matches the semantic content of the sentence. The speech delivery follows this tone, being slower and somewhat complaining. The content accuracy is perfect. The model effectively demonstrates control over non-linguistic vocalizations and emotional tone, fulfilling the core requirement reasonably well.",
-    "reasoning_model_2": "The model completely fails to adhere to the paralinguistic instruction. There is no audible yawn or sign of boredom. On the contrary, the tone is upbeat, energetic, and chirpy, which directly contradicts the text 'This lecture is so boring'. The pacing is fast and natural for a happy sentence, but inappropriate here. Furthermore, there is a potential pronunciation issue at the very end (approx 0.03s) where the word 'yawn' sounds clipped, resembling 'young' or 'yon'. Because it ignores the 'with a yawn' command and uses the wrong emotion, it receives a low score.",
-    "model_comparison": "Model 1 followed the instructions by incorporating a non-linguistic vocalization (a sigh/exhale) and adjusting the prosody to sound bored, matching the text. Model 2 ignored the instruction entirely, producing an energetic reading with no yawn and a potential mispronunciation. Model 1 is significantly better as it demonstrates feature control.",
-    "score_1": 2,
-    "score_2": 0,
-    "winner": 1
-}

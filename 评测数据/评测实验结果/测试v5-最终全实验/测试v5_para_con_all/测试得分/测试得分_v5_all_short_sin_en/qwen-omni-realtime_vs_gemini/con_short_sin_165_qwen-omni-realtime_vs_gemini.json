@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 failed completely on multiple levels. \n1. **Content Accuracy**: It failed to adhere to the script. After reading the target sentence, the model hallucinated and read out a description of the physical symptoms of sadness ('my voice cracks a little, tears welling up...') rather than performing them. \n2. **Paralinguistic Compliance**: The tone was upbeat, energetic, and cheerful, which is the exact opposite of the requested 'crying' or 'sad' emotion. There were no non-linguistic vocalizations associated with crying; the delivery was that of a standard, happy narrator.",
-    "reasoning_model_2": "Model 2 followed the instructions reasonably well. \n1. **Content Accuracy**: The spoken text matches the prompt accurately. \n2. **Paralinguistic Compliance**: The audio begins with a distinct audible breath/sigh (0:00-0:01) before speaking, which serves as a non-linguistic vocalization setting a somber tone. The delivery is slow and lower in pitch, conveying sadness. While it depicts 'sadness' effectively, it lacks the more intense features of 'crying' (such as voice trembling, audible sobs between words, or wet vocal quality), so it falls slightly short of a 'fully correct' vivid crying simulation, earning a score of 2.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated extra text describing the emotion instead of acting it out, and used a completely inappropriate happy tone. Model 2 correctly spoke the text, adopted a sad tone, and included a non-linguistic sigh/breath at the start to enhance the expression.",
-    "score_1_1": 0,
-    "score_2_1": 2,
-    "winner_1": 2
-}

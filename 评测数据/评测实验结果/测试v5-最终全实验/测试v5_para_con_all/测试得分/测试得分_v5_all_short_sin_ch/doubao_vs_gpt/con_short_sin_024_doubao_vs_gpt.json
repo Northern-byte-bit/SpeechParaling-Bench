@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content '请注意，演出即将开始' accurately (00:00-00:03). Regarding the specific command 'use low pitch', the model attempts to lower the pitch significantly. However, the resulting audio quality suffers; the voice sounds extremely strained, raspy, and utilizes heavy vocal fry (creaky voice) to achieve the 'low' sensation. While the pitch is technically low, the delivery sounds unnatural, resembling a forced whisper or a character effect rather than a natural human speaking in a low register. The fluency is impacted by this forced vocal texture.",
-    "reasoning_model_2": "The model produces the text '请注意，演出即将开始' accurately and clearly (00:00-00:02). The model successfully adopts a 'low pitch' by utilizing a deep, resonant voice profile (resembling a baritone or bass announcer). The pitch is consistently low throughout the sentence, fitting the context of a formal announcement perfectly. Crucially, the audio remains highly natural and fluent, with smooth prosody and no mechanical artifacts or strained vocal qualities.",
-    "model_comparison": "Both models successfully follow the instruction to use a low pitch. However, Model 2 (T2) is significantly superior in terms of naturalness and audio quality. T2 achieves the low pitch through a naturally deep timbre that sounds like a professional announcer, maintaining excellent fluency and resonance. In contrast, Model 1 (T1) achieves a low pitch by forcing the voice into a raspy, creaky state (vocal fry), which sounds strained and unnatural. While T1 technically meets the 'low pitch' requirement, T2 meets it while also satisfying the 'Fluency and Naturalness' criterion much better.",
-    "score_1_1": 2,
-    "score_2_1": 3,
-    "winner_1": 2
-}

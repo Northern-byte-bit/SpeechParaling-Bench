@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '图书馆里请保持安静' accurately with no pronunciation errors. The fluency is high, and the audio is clean without artifacts. However, regarding the core requirement of 'soft tone quality' (柔和的音质), the performance is lacking. The voice is bright, crisp, and projected with a standard 'reading' energy (00:00-00:03). It lacks the breathy, warm, or hushed texture typically associated with 'softness,' especially in the context of a library. The tone feels a bit too energetic and 'perky' for the specific constraint.",
-    "reasoning_model_2": "The model accurately generates the content '图书馆里, 请保持安静' with a natural pause after '里'. The fluency is excellent, sounding very human-like. Crucially, the model excels at the 'soft tone quality' requirement. From 00:00 to 00:05, the voice adopts a lower pitch, a slower tempo, and a warmer, slightly breathy timbre. This delivery feels calm, gentle, and perfectly suited for a quiet environment like a library, satisfying the '柔和' (soft/gentle) descriptor effectively.",
-    "model_comparison": "Model 2 is the clear winner. While both models produce accurate and fluent speech, Model 2 successfully modifies its vocal texture to match the 'soft tone quality' command. Model 1 produces a standard, bright, and crisp TTS voice that, while clear, does not embody the 'soft' characteristic requested by the user. Model 2's lower pitch, slower pacing, and gentler articulation provide a much better fit for the prompt.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

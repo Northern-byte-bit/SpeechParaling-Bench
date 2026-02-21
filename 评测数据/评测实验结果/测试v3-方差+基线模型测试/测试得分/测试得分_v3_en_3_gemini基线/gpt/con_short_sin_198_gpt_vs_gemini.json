@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct text content: 'What a brilliant idea you have there.' The audio is fluent and free of mechanical artifacts. However, regarding the core paralinguistic requirement (sarcastic tone), the model performs poorly. The delivery (0:00-0:02) is upbeat, fast-paced, and genuinely enthusiastic. The pitch rises on 'brilliant' in a way that suggests excitement rather than mockery. It fails to capture the cynical or mocking inflection required for sarcasm, sounding instead like a sincere compliment.",
-    "reasoning_model_2": "The model generates the text accurately and maintains high fluency. Crucially, it effectively captures the 'sarcastic tone' requested. Specifically, at 0:00-0:02, the speaker significantly elongates the word 'brilliant' ('whaaat a briiiilliant...'), using a classic sarcastic drawl. The pitch contour is distinct, and the vocal fry/lower register towards the end of the sentence ('idea you have there') adds a layer of disdain and weariness characteristic of sarcasm. The pacing is deliberately slower to emphasize the mockery.",
-    "model_comparison": "There is a stark contrast in performance regarding the core instruction. Model 1 provides a delivery that sounds genuinely enthusiastic and happy, which is effectively the opposite of the requested sarcastic tone. Model 2, on the other hand, utilizes specific prosodic features—such as vowel elongation, slower pacing, and specific pitch contours—to clearly convey sarcasm. Model 2 followed the paralinguistic instruction perfectly, while Model 1 failed to do so.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

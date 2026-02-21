@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the content '祝您今天有个愉快的心情！' without errors. The speech is fluent and natural (0.0s - 2.8s). Regarding the core dimension '音质' (Tone Quality), the model successfully adopts a 'bright' (明亮) timbre. From 0.5s to 2.5s, the voice exhibits a higher pitch range and a forward, resonant quality typical of a bright tone. The articulation is crisp, and the prosody on '愉快' (happy) reflects an energetic and sunny disposition, fully meeting the user's requirement for a bright tone quality.",
-    "reasoning_model_2": "The model accurately synthesizes the text '祝您今天有个愉快的心情'. The speech is fluent with no mechanical artifacts (0.0s - 2.6s). However, in terms of '音质' (Tone Quality), the performance is less specific to the prompt. The voice texture is pleasant but leans more towards a 'gentle' or 'standard' neutral tone rather than explicitly 'bright'. The pitch range is flatter, and the resonance lacks the energetic 'shimmer' or high-frequency emphasis associated with brightness. While it conveys a polite greeting, it does not vividly capture the specific 'bright' characteristic requested.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The decisive factor is the adherence to the '明亮的音质' (Bright Tone Quality) instruction. Model 1 (T1) distinctively modifies its timbre to be higher-pitched, more energetic, and resonant, effectively embodying 'brightness'. Model 2 (T2) produces a high-quality but more generic or gentle voice that lacks the specific stylistic coloring requested. Therefore, Model 1 is superior in controlling the specific paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

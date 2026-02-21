@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content 'Good morning, my throat feels a bit uncomfortable.' accurately without errors. Regarding the required paralinguistic feature 'Timbre' (Hoarseness): The voice exhibits a distinct roughness and breathiness throughout the sentence (0:00-0:04), effectively simulating a sore throat or hoarse condition. The pitch is appropriately lower, and the vocal strain matches the semantic context of feeling 'uncomfortable.' The delivery is fluent and natural, with the paralinguistic shift applied consistently.",
-    "reasoning_model_2": "The generated output contains a significant content artifact, indicated by the text '<br>' appearing before the target sentence. This suggests a failure in the audio generation process, likely resulting in a non-speech sound, a spoken artifact, or a formatting error that disrupts the start of the audio (0:00-0:01). Due to this 'Completely incorrect' content generation and the presence of electronic/text artifacts, the naturalness is severely compromised. The target timbre is not effectively conveyed because the generation quality itself is flawed.",
-    "model_comparison": "Model 1 is the clear winner. It accurately follows the user's command to read the sentence with a 'hoarse timbre,' integrating the paralinguistic feature naturally with the semantic content. The voice sounds appropriately strained and rough. Model 2 fails significantly due to the inclusion of a generation artifact ('<br>'), which constitutes a major content accuracy and fluency error (Score 0 criteria). Therefore, Model 1 is superior in both control and quality.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy. While the user's command was to read the specific sentence 'Really? Quick, tell me the details!', the model generated a large amount of hallucinatory text ('Like right now, don't even pause, just spit it out. I'm all ears. High pitch, wide eyes...'). Although the voice does attempt a higher pitch and a breathless, hurried tone consistent with the hallucinated instructions, the severe deviation from the requested script violates the core requirement. According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0.",
-    "reasoning_model_2": "The model followed the instructions perfectly. Content Accuracy is 100%, reading exactly 'Really? Quick, tell me the details!' without any additions or omissions. In terms of Paralinguistic Compliance (Pitch), the audio utilizes a clearly elevated pitch range that conveys excitement and urgency, matching the semantic context of the sentence. The transition between 'Really?' and 'Quick' is natural, and the overall prosody is fluent and human-like. The high pitch is maintained consistently throughout the short phrase.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated a significant amount of text that was not in the prompt, failing the fundamental constraint of reading the specific sentence. Model 2 adhered strictly to the text and successfully applied the requested high pitch paralinguistic feature with natural fluency.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails on the first criterion of Content Accuracy. The script requires the phrase '校园的早晨' (Campus morning), but the generated audio produced '校园的早前' (Campus earlier/previously). This mispronunciation or hallucination changes the semantic meaning of the subject. According to the scoring standard, if content accuracy has issues, the model cannot be rated highly even if the tone is attempted. The error '早前' instead of '早晨' is a significant deviation from the script.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, correctly pronouncing '校园的早晨' without errors. The delivery matches the script perfectly. In terms of the required paralinguistic feature 'Bright' (明亮) tone, the accurate articulation of '充满活力' (full of vitality) typically aligns well with the requested tone. The speech is fluent and natural, meeting all criteria for a high score.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 commits a critical content error by replacing '早晨' (morning) with '早前' (earlier), which violates the basic requirement of Content Accuracy. Model 2 follows the script perfectly and executes the command to speak with a bright tone appropriate for the sentence content. Model 1's failure to adhere to the text script precludes it from a positive evaluation regarding the target feature.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

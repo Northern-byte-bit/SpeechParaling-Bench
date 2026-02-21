@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '请你仔细听，我再说一遍' accurately with no pronunciation errors. In terms of naturalness, the speech is fluent with a clear, youthful tone. Regarding the specific instruction to pause noticeably after '听', the model does include a pause, but it functions more as a standard, brief prosodic break (a comma pause) rather than a deliberately emphasized or 'noticeable' pause. The pause is natural but lacks the distinctive length requested by the prompt's focus on '明显' (noticeable/obvious).",
-    "reasoning_model_2": "The model correctly speaks the text '请你仔细听，我再说一遍'. The speech is natural, with a professional, broadcast-style tone. Crucially, the model executes the paralinguistic instruction very well. There is a distinct, significant silence immediately following the word '听' before the second clause begins. This pause is longer than a standard breath group, effectively capturing the user's request for a 'noticeable pause' (明显停顿) while remaining natural and reinforcing the imperative nature of the sentence.",
-    "model_comparison": "Both models accurately reproduce the text and sound natural. The decisive factor is the adherence to the constraint '明显停顿' (noticeable pause). Model 1 (T1) provides a standard grammatical pause that, while natural, is quite brief and blends into the normal flow of speech. Model 2 (T2) provides a clearly demarcated, longer pause after '听'. This longer duration makes the pause 'noticeable' as requested, without disrupting the overall naturalness. Therefore, Model 2 follows the specific feature control instruction better.",
-    "score_1_1": 2,
-    "score_2_1": 3,
-    "winner_1": 2
-}

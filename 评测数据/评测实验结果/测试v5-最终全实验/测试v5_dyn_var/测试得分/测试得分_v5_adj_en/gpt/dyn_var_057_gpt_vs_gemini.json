@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately follows the script with no errors. Regarding the core paralinguistic instruction (Volume), the audio starts with a high-intensity, shouting delivery for the first two sentences ('I don't want to eat this! I hate vegetables!' approx 0.0s - 2.5s). The volume and vocal strain clearly simulate a child's tantrum. The transition begins around 2.5s with 'But Mommy said', where the volume drops significantly. By the final segment ('...need to eat them to grow tall', 3.5s - end), the voice has successfully transitioned to a hushed, whisper-like tone. The dynamic adjustment is stark and aligns perfectly with the 'shouting to whisper' instruction.",
-    "reasoning_model_2": "The model generates the text accurately and fluently. However, it completely fails to adhere to the dynamic volume instructions. The audio maintains a consistent, moderate volume throughout the entire clip. There is no shouting at the beginning ('I don't want to eat this' is spoken with mild emphasis but standard volume), and there is no decrease to a whisper at the end. The paralinguistic features remain constant, failing the core objective of the test.",
-    "model_comparison": "Model 1 followed the instructions perfectly, demonstrating a wide dynamic range from a loud shout to a quiet whisper, effectively conveying the emotional shift required by the prompt. Model 2 produced a standard text-to-speech output with a flat volume profile, ignoring the specific instructions regarding shouting and whispering. Therefore, Model 1 is the clear winner due to its successful execution of the dynamic adjustment.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

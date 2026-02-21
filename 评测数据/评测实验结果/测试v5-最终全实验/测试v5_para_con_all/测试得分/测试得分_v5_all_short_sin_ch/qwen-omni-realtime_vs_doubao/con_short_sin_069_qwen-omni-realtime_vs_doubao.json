@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the target text '周末你有什么计划吗？' without any omissions or errors (00:00-00:01). The speech is fluent and natural. Regarding the 'Normal Volume' (正常音量) requirement, the audio is delivered at a standard conversational level, neither whispering nor shouting, which perfectly fits the definition of normal volume. The tone is casual and inquisitive, appropriate for the content.",
-    "reasoning_model_2": "The model completely fails to follow the command to read the specific sentence. Instead of saying '周末你有什么计划吗？', it generates a long, conversational response: '周末我没什么特别的计划，就是想放松一下...' (00:00-00:07). This represents a severe hallucination or instruction-following failure where the model answers the question instead of repeating it. According to the evaluation criteria, if the voice content is clearly inconsistent with the script, the score must be 0.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested 'normal volume'. Model 2 failed the task entirely by generating a response to the prompt rather than reading the target sentence. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

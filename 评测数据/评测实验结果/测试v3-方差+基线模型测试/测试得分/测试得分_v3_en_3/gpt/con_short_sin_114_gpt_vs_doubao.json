@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails strictly on Content Accuracy. The user requested the specific sentence: 'Paris is the capital and largest city of France.' However, the model generated: 'Paris is the capital of France and one of the largest cities in Europe.' (0:00-0:05). This is a hallucination where the text was rewritten, violating the core constraint of reading the provided script. While the voice quality is natural and the tone is relatively neutral/informative, the complete failure to adhere to the text script necessitates a failing score based on the criteria.",
-    "reasoning_model_2": "The model performs perfectly across all dimensions. Content Accuracy is 100%, reading 'Paris is the capital and largest city of France' exactly as scripted. In terms of Fluency, the speech is smooth with a natural cadence. Regarding Paralinguistic Compliance, the model successfully adopts a 'neutral emotion.' The delivery (0:00-0:04) is calm, objective, and flat without sounding robotic, perfectly matching the definition of a neutral reading.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the most basic requirement of Text-to-Speech generation by rewriting the script entirely (saying 'one of the largest cities in Europe' instead of 'largest city of France'). Model 2 followed the text instructions perfectly and also delivered the requested neutral emotional tone with high naturalness.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

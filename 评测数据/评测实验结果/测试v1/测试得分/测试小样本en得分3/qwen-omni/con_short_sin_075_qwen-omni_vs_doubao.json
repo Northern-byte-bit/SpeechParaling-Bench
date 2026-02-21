@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the text 'Hurry, someone's coming' with high content accuracy. From 0.0s to 1.5s, the audio exhibits distinct characteristics of a whisper: the phonation is unvoiced and breathy, and the volume is appropriately reduced compared to standard speech. The pacing is slightly accelerated, matching the semantic urgency of the word 'Hurry'. The paralinguistic compliance is excellent, as the listener can immediately identify the style as a whisper intended to avoid detection.",
-    "reasoning_model_2": "The model accurately reads the script 'Hurry, someone's coming' with no pronunciation errors. However, the delivery from 0.0s to 1.4s is in a standard, full-voiced conversational tone. The audio completely lacks the breathy, hushed quality required for a whisper. The volume is normal and projection is clear, which is the opposite of the requested paralinguistic feature. While fluent, it fails to follow the specific style instruction.",
-    "model_comparison": "Model 1 followed the user's specific instruction to 'read with a whisper,' effectively modifying the vocal attributes (breathiness, low volume) to match the request. Model 2 ignored the paralinguistic constraint and delivered the line in a standard reading voice. Consequently, Model 1 is the clear winner for adhering to the feature control requirements.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

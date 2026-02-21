@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'Hurry, someone's coming' (0:00-0:02) accurately. Regarding the core paralinguistic requirement (Volume/Whisper), the audio effectively adopts a hushed, breathy tone characteristic of whispering. The vocal cords are not fully engaged in phonation, aligning well with the definition of a whisper. However, regarding fluency and naturalness, there is a noticeable electronic, buzzy artifact overlaying the voice, making it sound somewhat synthetic rather than a purely natural human whisper. While the constraint is met, the audio quality prevents it from being a perfect '3'.",
-    "reasoning_model_2": "The model generates the text accurately (0:00-0:02). However, regarding the core requirement 'with a whisper', the model fails completely. The audio exhibits full vocal cord vibration and projection, sounding more like a shout or a loud, urgent command rather than a whisper. The volume is high and the tone is fully voiced. This represents the opposite of the requested feature (whisper). Therefore, strictly evaluating the 'Paralinguistic Compliance - CORE', this is a failure.",
-    "model_comparison": "Model 1 followed the core instruction to whisper. Although the audio quality had some synthetic artifacts, the paralinguistic feature (low volume, breathy tone) was clearly present. Model 2 completely ignored the instruction to whisper, delivering the line with full voice and high volume (shouting/urgency). Since Model 2 failed the specific constraint of the prompt, Model 1 is the clear winner.",
-    "score_1": 2,
-    "score_2": 0,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. Instead of reading the required script ('I'll go to the gym to work out tomorrow morning.'), it paraphrases and extends the text to: 'I'll head to the gym tomorrow morning to get in a solid workout, no excuses' (00:00-00:05). Additionally, regarding the core feature 'Age', the prompt requested an 'adult voice', but the model generated a high-pitched, child-like voice. Due to the complete inconsistency with the script and the failure to match the target age, this model receives a score of 0.",
-    "reasoning_model_2": "Model 2 accurately follows the script, saying 'I'll go to the gym to work out tomorrow morning' (00:00-00:02) without errors, omissions, or additions. Regarding the 'Age' dimension, the voice clearly sounds like an adult male, with appropriate resonance and maturity. The fluency is natural, and the pacing is human-like. It fully satisfies all criteria.",
-    "model_comparison": "Model 2 demonstrates superior quality. Model 1 completely failed the task by hallucinating different text (paraphrasing rather than reading) and generating a child's voice instead of the requested adult voice. Model 2 followed the script verbatim and correctly utilized an adult voice.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

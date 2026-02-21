@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately synthesizes the text content 'Please give me a glass of water, thank you.' without errors. However, regarding the core paralinguistic requirement, the audio completely fails to exhibit a 'hoarse timbre'. The voice (0:00-0:04) is a standard, clear, and articulate female TTS voice with no signs of vocal strain, breathiness, or roughness associated with hoarseness. The prosody is also somewhat stilted and robotic, lacking natural flow.",
-    "reasoning_model_2": "The model correctly produces the text content with high accuracy. Crucially, it successfully modifies the timbre to sound 'hoarse'. From 0:00 to 0:03, the voice exhibits a breathy, strained quality characteristic of someone who has lost their voice or is whispering loudly due to a sore throat. The delivery is fluent and the specific textural changes in the voice align perfectly with the user's request for a hoarse timbre.",
-    "model_comparison": "Model 1 failed the specific instruction regarding timbre entirely, providing a standard clean voice instead of a hoarse one. Model 2 successfully implemented the requested vocal characteristic, sounding distinctly hoarse and strained while maintaining content clarity. Therefore, Model 2 is the clear winner.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

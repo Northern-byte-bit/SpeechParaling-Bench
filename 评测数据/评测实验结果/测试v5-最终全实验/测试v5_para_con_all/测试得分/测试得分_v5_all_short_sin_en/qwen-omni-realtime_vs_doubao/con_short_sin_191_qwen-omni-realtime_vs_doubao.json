@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the audio content 'This idea is fantastic! We absolutely must try it!' with strict adherence to the script. The delivery is highly energetic and enthusiastic, characterized by a higher pitch and strong emphasis on the words 'fantastic' (00:00-00:01) and 'absolutely' (00:02). The pacing is brisk, matching the excitement required by the prompt. The tone feels genuine and effectively conveys the 'Attitude' dimension without any fluency issues or artifacts.",
-    "reasoning_model_2": "The model generates a voice that sounds enthusiastic and excited, effectively utilizing breathiness and pitch variation to convey the requested attitude. However, the model fails significantly on Content Accuracy. Instead of reading only the target sentence, it adds extra words and sentences: 'Wow' and 'It's just too exciting to pass up' (00:05-00:07). While the paralinguistic expression of enthusiasm is strong, the addition of unrequested content is a major hallucination/deviation from the command 'read this sentence'. According to the scoring criteria, major content issues limit the score regardless of the emotional performance.",
-    "model_comparison": "Model 1 is the clear winner. It perfectly followed the command, reading the exact text with the required enthusiastic tone. The audio was natural, fluent, and paralinguistically accurate. Model 2, while sounding very enthusiastic, failed the fundamental instruction to read specific text by adding an interjection ('Wow') and an entire additional sentence. This violation of Content Accuracy strictness makes Model 2's generation qualitatively inferior for a controlled generation task.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

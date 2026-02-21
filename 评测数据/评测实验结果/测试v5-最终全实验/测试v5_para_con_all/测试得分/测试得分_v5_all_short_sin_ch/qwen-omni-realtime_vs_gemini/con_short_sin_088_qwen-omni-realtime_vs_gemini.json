@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy. The user requested the specific text '时间不多了，我们必须尽快做出决定。', but the model generated a completely different script: '时间不多了，快，快快，不能再拖了，必须立刻决定...行动，行动，行动，行动。' Although the paralinguistic feature (rapid rhythm) was expressed in the hallucinated content, the complete deviation from the requested script is a critical error. According to the scoring criteria, when voice content is clearly inconsistent with the script, the score is 0.",
-    "reasoning_model_2": "The model achieved perfect Content Accuracy (3/3), reading the script '时间不多了，我们必须尽快做出决定。' exactly as requested with no errors. However, regarding the required feature '节奏' (Rhythm) specifically '急促' (Rapid/Urgent), the performance was weak. The audio maintains a moderate, steady, and calm pace throughout (0.0s - end), characteristic of a standard reading style rather than an urgent or rapid one. The sense of urgency implied by the command was not effectively conveyed. Therefore, it receives a low score for the feature dimension, as the specific style was insufficiently expressed.",
-    "model_comparison": "Model 1 completely failed to follow the text constraint, generating a hallucinated script that acted out the scene rather than reading the sentence. This results in a score of 0 regardless of its expressive quality. Model 2 followed the text constraint perfectly but failed to effectively implement the 'rapid/urgent' stylistic requirement, producing a neutral reading instead. Model 2 wins by default because it adhered to the content requirements, whereas Model 1's output was invalid due to severe content inaccuracy.",
-    "score_1_1": 0,
-    "score_2_1": 1,
-    "winner_1": 2
-}

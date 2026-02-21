@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script 'Get out of the way, don't block my path!'. Regarding fluency, the speech is natural with no artifacts. In terms of paralinguistic compliance (Attitude: Rude), the model performs excellently. From 0:00 to 0:01, the speaker uses a raised volume, increased pace, and an aggressive, shouting tone to deliver 'Get out of the way'. The urgency continues into the second phrase (0:02-0:03), maintaining a demanding and impatient demeanor. The expression is vivid, clearly distinguishable as rude and confrontational, satisfying the core requirement of the prompt.",
-    "reasoning_model_2": "The model accurately speaks the required text with no errors. The fluency is high, featuring a deep, resonant voice with smooth prosody. However, regarding the core paralinguistic requirement (Attitude: Rude), the model falls short. The delivery (0:00-0:04) sounds like a calm, authoritative narration or a 'movie trailer' voice rather than a rude person shouting at someone. While the tone is firm, it lacks the aggression, impatience, or jaggedness associated with rudeness. It feels emotionally neutral and too composed for the context of the command.",
-    "model_comparison": "Model 1 strictly adheres to the 'rude tone' constraint, delivering the line with appropriate volume, urgency, and aggression. It sounds like a character actually yelling at someone. Model 2, while audio-technically high quality, fails to adapt its style to the prompt, delivering a neutral, deep-voiced narration that sounds polite or merely stern rather than rude. Model 1 is the clear winner for following the attitude instruction.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

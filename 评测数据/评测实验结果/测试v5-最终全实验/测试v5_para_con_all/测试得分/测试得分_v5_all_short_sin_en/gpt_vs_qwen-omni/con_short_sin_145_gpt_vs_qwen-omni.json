@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content 'The workload today was huge, I'm really so tired.' matching the script text accurately. However, regarding the required 'Cognitive State' of being 'tired', the audio fails completely. The tone used is energetic, bright, and somewhat cheerful (0:00-0:04). The pace is brisk, the pitch is relatively high, and the intonation suggests excitement or casual conversation rather than exhaustion. There are no signs of fatigue, heaviness, or lethargy in the voice. Therefore, it scores 0 on the core dimension as it expresses the opposite characteristic.",
-    "reasoning_model_2": "The model generates the content 'The workload today was huge, I am really so tired.' Note that it expands the contraction 'I'm' to 'I am', which is a very minor deviation in Content Accuracy but does not alter meaning. Regarding the 'Cognitive State' (Tired), the model performs exceptionally well. The delivery is slow, heavy, and labored (0:00-0:08). There is a distinct dragging of words, particularly on 'huge' and 'tired', and the pitch is low and weary. The pauses and the breathy quality of the voice perfectly encapsulate a state of physical and mental exhaustion. It sounds very natural and fully embodies the target state.",
-    "model_comparison": "Model 1 failed to interpret the paralinguistic instruction, delivering the line with an energetic and happy tone which contradicts the text's meaning and the user's command. Model 2, despite a trivial expansion of a contraction ('I am' vs 'I'm'), nailed the paralinguistic requirement. It utilized tempo, pitch, and prosody effectively to convey genuine tiredness. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

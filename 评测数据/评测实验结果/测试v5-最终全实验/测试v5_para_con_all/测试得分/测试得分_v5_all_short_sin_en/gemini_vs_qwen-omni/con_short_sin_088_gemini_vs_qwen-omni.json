@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model demonstrates perfect Content Accuracy, reading the script 'Time is running out, we must make a decision quickly' verbatim. Regarding the 'Rhythm' dimension, the speaker adopts an accelerated pace starting from 00:00. The delivery of 'Time is running out' is punchy and fast. There is a very short, natural breath at 00:01, followed immediately by a rapid delivery of 'we must make a decision quickly'. The tone conveys urgency and stress effectively, matching the 'rushed' description perfectly without sounding mechanical.",
-    "reasoning_model_2": "The model fails fundamentally on Content Accuracy. The user requested to read a specific English sentence, but the model generated a code-switched response mixing Chinese and English (e.g., '时间 is running out', '我们必须 make a decision', '快点'). Because the content is clearly inconsistent with the provided script (major language hallucination/translation not requested), the audio is considered completely incorrect. Furthermore, the rhythm is disjointed due to the language mixing and lacks the requested 'rushed' urgency.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested rushed rhythm and high naturalness. Model 2 failed to read the text as requested, instead translating parts of it into Chinese, resulting in a score of 0 due to severe content inconsistency. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

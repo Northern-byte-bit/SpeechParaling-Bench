@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '年轻时，我们常在田里帮忙' accurately (0:00-0:03) with no pronunciation errors. The fluency is high, presenting a very clean and professional delivery. However, regarding the core paralinguistic requirement 'Elderly Voice' (老年), the model fails significantly. The voice sounds like a standard middle-aged female news anchor or a generic TTS voice (around 30-50 years old), completely lacking the timbral characteristics associated with old age, such as vocal tremor, breathiness, or a slower, more weary pace. The tone is too polished and energetic for the requested persona.",
-    "reasoning_model_2": "The model correctly speaks the text '年轻时，我们常在田里帮忙' (0:00-0:05). The delivery is notably slower, matching the physiology of an elderly speaker. The paralinguistic compliance for 'Elderly Voice' is excellent. From the very first word, the voice exhibits a distinct raspiness, a slight tremor/shakiness, and a breathy quality that strongly characterizes an old man. The prosody conveys a sense of nostalgia and age-related frailty, making the persona very convincing.",
-    "model_comparison": "Model 2 is the clear winner. The user specifically requested an 'elderly voice'. Model 1 produced a standard, clear, middle-aged adult voice that failed to capture the target age characteristic. Model 2 successfully modulated the vocal texture, pitch, and pacing to simulate an elderly person vividly (shaky, raspy, slow). Model 2 followed the feature control instruction, while Model 1 ignored the specific persona constraint.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

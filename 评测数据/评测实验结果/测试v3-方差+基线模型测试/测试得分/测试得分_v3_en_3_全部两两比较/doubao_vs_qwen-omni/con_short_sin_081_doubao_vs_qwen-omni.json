@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails strictly on **Content Accuracy**. The prompt specifically requested to read the target sentence, but the audio begins with a hallucinated filler word 'Umm' (approx 0.0s - 0.5s). This addition violates the script. Regarding **Paralinguistic Compliance (Rhythm)**, the requested feature was a 'steady rhythm.' The presence of a hesitation marker ('Umm') at the start inherently disrupts the steadiness and flow, introducing a conversational or uncertain tone rather than the requested steady reading. Additionally, the contraction 'it's' was expanded to 'it is', which is a minor deviation but acceptable.",
-    "reasoning_model_2": "The model demonstrates high **Content Accuracy**, adhering to the core script without adding any hallucinations or filler words. It expands the contraction 'it's' to 'it is', which is a very minor stylistic choice common in TTS and does not alter the meaning or violate the core instruction. Regarding **Paralinguistic Compliance (Rhythm)**, the delivery (based on the clean transcript) suggests a consistent flow without the interruptions or hesitations seen in Model 1, satisfying the requirement for a 'steady rhythm' effectively.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated a disfluency ('Umm') at the beginning of the speech. This error is significant for two reasons: 1) it violates the strict content constraints of a reading task, and 2) it directly contradicts the paralinguistic instruction for a 'steady rhythm' by introducing a hesitation. Model 2 followed the instructions accurately, delivering the text cleanly and maintaining the conditions necessary for a steady rhythm.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

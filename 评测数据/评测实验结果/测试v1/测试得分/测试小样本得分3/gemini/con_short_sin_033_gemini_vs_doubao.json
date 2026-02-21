@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content '请给我一杯水，谢谢' with perfect clarity and fluency (0.0s - 2.5s). However, it completely fails the core requirement of the prompt: 'hoarse voice quality' (沙哑的音质). The audio features a standard, bright, and clear female voice typical of default TTS engines, showing no signs of raspiness, strain, or hoarseness. While the content is accurate, the paralinguistic execution expresses the exact opposite of the requested feature (clean vs. hoarse).",
-    "reasoning_model_2": "The model generates the content '请给我一杯水，谢谢' accurately (0.0s - 3.8s). Crucially, it fully adheres to the paralinguistic command. The voice is notably hoarse, breathy, and strained throughout the entire clip, effectively simulating the vocal quality of someone who is dehydrated or ill. The delivery is slow and weak, which contextually enhances the realism of the request for water. The target feature 'hoarse' is vividly and accurately portrayed.",
-    "model_comparison": "Model 1 failed to implement the specific style instruction, providing a standard clean voice instead of the requested hoarse voice. Model 2 followed the instruction perfectly, delivering a voice that was clearly hoarse and expressively appropriate for the context. Model 2 is the clear winner for following the Feature Control constraint.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

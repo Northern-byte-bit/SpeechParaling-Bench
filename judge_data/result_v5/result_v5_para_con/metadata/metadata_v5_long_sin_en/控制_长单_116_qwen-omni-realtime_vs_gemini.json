@@ -1,0 +1,14 @@
+{
+    "sample_index": 116,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a happy emotion: 'Darling, this painting you've made is absolutely wonderful! Look how beautifully these colors are matched, and the little animals are so lively. Mommy is so proud of you, shall we tell an extra bedtime story tonight?'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

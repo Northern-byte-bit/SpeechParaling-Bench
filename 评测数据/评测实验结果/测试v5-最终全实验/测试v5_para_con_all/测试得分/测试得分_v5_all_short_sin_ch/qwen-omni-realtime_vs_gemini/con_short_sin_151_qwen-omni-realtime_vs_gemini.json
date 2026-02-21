@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully synthesizes the required text '考试成绩快公布了，我有点紧张。' with perfect content accuracy (0:00-0:04). However, regarding the target feature 'Cognitive State' (Anxiety), the performance is weak. The delivery is calm, stable, and lacks the physiological markers of nervousness such as breathiness, trembling, faster pacing, or pitch instability. It sounds like a neutral reading of the sentence rather than a person experiencing the cognitive state of anxiety. Therefore, while fluent and accurate in content, the paralinguistic compliance is low.",
-    "reasoning_model_2": "The model completely fails the 'Content Accuracy' criterion. Instead of reading the specific sentence provided in the prompt ('考试成绩快公布了，我有点紧张。'), the model generates a completely different, extended roleplay script ('嗯……考试成绩马上就要公布了，我心跳都快起来了...' etc.). While the paralinguistic expression of anxiety in this hallucinated content is actually quite vivid (breathless, panicked tone), the global evaluation criteria specify that if 'Voice content is clearly inconsistent with the script', the score must be 0. The model failed to follow the basic instruction to read the text.",
-    "model_comparison": "Model 1 follows the content instructions perfectly, although its emotional expression of anxiety is understated and somewhat flat. Model 2, despite generating a very expressive and anxious voice, completely hallucinated the spoken content, failing to read the requested script. According to the strict scoring standards, a complete inconsistency between voice content and script results in a score of 0. Therefore, Model 1 wins by virtue of following the content constraints.",
-    "score_1_1": 1,
-    "score_2_1": 0,
-    "winner_1": 1
-}

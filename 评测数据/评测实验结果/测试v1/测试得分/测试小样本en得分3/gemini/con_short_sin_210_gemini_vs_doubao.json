@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to adhere strictly to the script. The target script is 'Oh my, blushing? Did I hit a nerve?', but the model generates 'Oh my, **you're** blushing. Did I hit a nerve?' (0.5s-1.2s). Regarding the paralinguistic feature (Attitude: Teasing), the delivery is breathless and intimate, sounding more like a soft whisper or concern rather than a playful tease. The energy is too low and lacks the mock surprise or playful inflection required for a teasing tone. Due to the content hallucination (adding 'you're') and the weak emotional mapping, the score is low.",
-    "reasoning_model_2": "The model adheres perfectly to the text content, saying 'Oh my, blushing? Did I hit a nerve?'. The delivery of the 'Teasing' attitude is vivid and spot-on. The pitch modulation on 'Oh my' (0.0s-0.5s) indicates playful surprise, and the inflection on 'blushing?' (0.8s-1.2s) conveys clear amusement. The final question 'Did I hit a nerve?' uses a distinct mocking cadence associated with teasing. The audio is highly natural and fluent.",
-    "model_comparison": "Model 2 is significantly superior to Model 1 in both content accuracy and emotional expression. Model 1 hallucinates words ('you're'), altering the grammatical structure of the script, and provides a tone that is too breathy and intimate to be considered 'teasing.' Model 2 follows the script exactly and delivers a high-quality, expressive performance that perfectly matches the requested teasing attitude with appropriate pitch variation and stress.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

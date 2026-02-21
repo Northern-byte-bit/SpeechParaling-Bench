@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the sentence be read with a 'scream'. The model generates a voice that is loud, high-pitched, and energetic, effectively simulating a shout or scream of excitement. \n- **0:00-0:02**: The phrase 'Wow! I won!' is delivered with significant projection and vocal strain characteristic of shouting in joy.\n- **0:02-0:04**: 'That is amazing!' continues with high energy.\nThere is a minor content deviation where the model expands the contraction 'That's' to 'That is', but the paralinguistic compliance is fully correct as it accurately conveys the requested high-intensity vocalization.",
-    "reasoning_model_2": "The user requested a 'scream'. The model generates a voice that is breathy, soft, and low-volume, resembling a whisper or an 'internal monologue' style of excitement rather than an external vocalization.\n- **0:00-0:04**: The delivery of 'Wow, I won, that is amazing' is extremely quiet and intimate.\nThis is the complete opposite of a scream. Like Model 1, it also expands 'That's' to 'That is'. However, due to the failure to follow the core paralinguistic instruction (producing a whisper instead of a scream), the performance is poor.",
-    "model_comparison": "Model 1 followed the instruction to 'scream' by producing a loud, high-energy shout indicative of winning. Model 2 completely failed the instruction, producing a soft whisper which is the opposite of a scream. Both models had a very minor text deviation (expanding 'That's' to 'That is'), but Model 1 is the clear winner due to correctly implementing the required non-linguistic vocalization style.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 69,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "我不敢一个人睡，天太黑了，我害怕有坏人。",
+    "dimensions": [
+        "情感: 害怕",
+        "年龄: 孩童"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "situational_adaptation",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

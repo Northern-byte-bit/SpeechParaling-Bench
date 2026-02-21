@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly follows the content instructions, speaking only the required sentence '这首歌的旋律真是优美动听。' without any hallucinations or omissions. In terms of the paralinguistic feature '圆润' (rounded/mellow), the voice exhibits a warm, resonant, and full-bodied timbre. The lower-mid frequencies are well-supported, creating a smooth and polished sound texture that lacks sharpness or dryness. The delivery is fluent, natural, and accurately reflects the requested voice quality.",
-    "reasoning_model_2": "The model fails significantly in Content Accuracy. While the prompt explicitly requested to say '这首歌的旋律真是优美动听。', the model hallucinated a lengthy continuation ('像春风拂过湖面...'), violating the strict instruction to read specific text. Regarding the feature '圆润' (rounded), the voice used is a breathy, airy female voice. While 'gentle', it lacks the core 'rounded' characteristic, which implies fullness, resonance, and a solid core. The breathiness makes the texture sound thin rather than round. Due to the major content hallucination and the mismatch in timbre texture, this is a failed generation.",
-    "model_comparison": "Model 1 is the clear winner. It adhered strictly to the text constraints, whereas Model 2 hallucinated a significant amount of additional text, violating the basic instruction following protocol. Furthermore, regarding the specific feature '圆润' (rounded voice quality), Model 1 delivered a resonant, full-bodied voice that fits the description perfectly. Model 2 provided a breathy, airy voice which, while pleasant, corresponds more to 'whispery/gentle' than 'rounded'. Model 2 receives a strict penalty for content hallucination.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

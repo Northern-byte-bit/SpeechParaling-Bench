@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content '孩子们，晚饭后记得收拾好自己的房间' matches the script perfectly with no errors. Regarding the target feature 'Age' (Middle-aged), the model generates a male voice with a mature, slightly resonant, and authoritative timbre typical of a middle-aged father. The pacing is steady (0:00-0:05), and the tone conveys a paternal caring quality that aligns well with the persona of a middle-aged parent. The vocal texture clearly distinguishes itself from a young adult voice, successfully fulfilling the 'middle-aged' constraint.",
-    "reasoning_model_2": "The audio content matches the script exactly. However, regarding the target feature 'Age' (Middle-aged), the generated voice is a high-pitched, bright, and sweet female voice, typical of a young adult or 'anime' style character (20s). It lacks the maturity, vocal weight, or texture associated with a middle-aged woman. While the fluency is high, the model failed to control the specific 'Age' attribute, producing a voice that sounds significantly younger than requested.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The decisive difference lies in the 'Age' dimension. Model 1 (T1) accurately renders a middle-aged male voice with appropriate maturity and vocal texture. Model 2 (T2) produces a young, bright female voice that completely misses the 'middle-aged' instruction. Therefore, T1 is the clear winner for complying with the paralinguistic constraint.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

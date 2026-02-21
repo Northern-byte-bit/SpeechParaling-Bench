@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly synthesized the text 'This news absolutely cannot be leaked.' regarding content accuracy (0:00-0:03). However, regarding the core paralinguistic instruction 'read... with a whisper', the model failed significantly. The generated audio uses a standard, fully phonated speaking voice (normal vocal fold vibration) rather than a whisper (unvoiced, breathy sound). While the tone is somewhat serious, it does not possess the acoustic characteristics of a whisper at all. It sounds like a standard TTS output with normal volume. Therefore, it fails the specific feature control request.",
-    "reasoning_model_2": "The model accurately synthesized the text 'This news, absolutely cannot be leaked' with a slight pause after 'news' (0:00-0:04). Crucially, the model successfully adhered to the 'whisper' instruction. The audio features a breathy, unvoiced phonation style throughout the entire sentence, characteristic of a genuine whisper. The volume is appropriately low, and the prosody conveys the secretive urgency required by the context. The expression is natural and vivid, fully meeting the core requirement.",
-    "model_comparison": "The user's command explicitly requested the sentence be read 'with a whisper'. Model 2 (T2) followed this instruction perfectly, generating audio that is acoustically a whisper—breathy, unvoiced, and secretive. Model 1 (T1), on the other hand, generated the text in a normal, fully phonated speaking voice. While T1's content was accurate, it completely failed the stylistic constraint of the prompt. Therefore, T2 is the clear winner for successfully implementing the requested paralinguistic feature.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

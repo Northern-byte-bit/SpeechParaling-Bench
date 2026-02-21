@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy. Instead of simply speaking the target sentence '我已经喊了一整晚，现在说不出话了。', the model hallucinated a descriptive scenario and meta-commentary ('沙哑的嗓音低低地拖着尾音，像被砂纸磨过似的...'). It also modified the target sentence itself ('现在真的发不出声了' instead of '现在说不出话了'). While the voice timbre used was soft and slightly breathy, the severe hallucination and failure to follow the content constraint make this a completely incorrect generation according to the scoring standard (0 = Voice content is clearly inconsistent with the script).",
-    "reasoning_model_2": "The model followed the instructions perfectly. Content Accuracy is flawless; it speaks exactly '我已经喊了一整晚，现在说不出话了。'. In terms of Paralinguistic Compliance (Hoarseness), the audio demonstrates a high-quality execution. The voice sounds strained, breathy, and weak, simulating the physical sensation of vocal cords that are worn out from shouting. The pauses and breathiness (0:01-0:03, 0:04-0:06) add to the realism of someone struggling to speak. It perfectly captures the 'hoarse' (沙哑) characteristic required.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 completely failed the task by reciting a descriptive prompt and hallucinating extra text instead of performing the target dialogue. This is a critical error in instruction following and content accuracy. Model 2, on the other hand, strictly followed the text script and successfully applied the requested 'hoarse' voice quality. The acting in Model 2 was convincing, sounding strained and exhausted, which fits the context of 'shouting all night'. Model 1 is unusable due to the content error.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

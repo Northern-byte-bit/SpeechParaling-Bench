@@ -1,0 +1,16 @@
+{
+    "sample_index": 41,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中年的声音生气地说: 你到底在搞什么？太不像话了！",
+    "dimensions": [
+        "年龄",
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

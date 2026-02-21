@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the sentence 'I warn you, don't make any more mistakes' with high content accuracy. Regarding the core requirement 'very low pitch', the audio (0:00-0:05) features a female voice that has deliberately dropped into a lower vocal register. The tone is deep, breathy, and ominous, effectively conveying a serious warning. The pitch control is consistent throughout the utterance, maintaining the requested low frequency without sounding mechanically pitch-shifted. The delivery is natural and perfectly matches the semantic context of a warning.",
-    "reasoning_model_2": "The model generates the correct text content 'I warn you, don't make any more mistakes.' However, regarding the core requirement 'very low pitch', the model fails completely. The generated voice (0:00-0:04) is notably high-pitched, resembling a young child or an anime-style character. Instead of a deep, low warning, it sounds like a high-pitched, perhaps slightly frantic or pleading character. This performance is the exact opposite of the user's specific instruction to use a low pitch.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering a voice with a distinctively low pitch and a serious tone that suits the text. Model 2 completely ignored the 'very low pitch' constraint, generating a high-pitched voice instead. Therefore, Model 1 is the clear winner as it adhered to the paralinguistic control prompt, while Model 2 produced the opposite characteristic.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

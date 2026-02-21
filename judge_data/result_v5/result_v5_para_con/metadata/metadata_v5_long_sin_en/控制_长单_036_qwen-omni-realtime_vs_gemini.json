@@ -1,0 +1,14 @@
+{
+    "sample_index": 36,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a smooth timbre: 'Child, it's bedtime story time. Tonight, Mommy will tell you a story about a little bunny. It was brave and kind, teaching us many lessons.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

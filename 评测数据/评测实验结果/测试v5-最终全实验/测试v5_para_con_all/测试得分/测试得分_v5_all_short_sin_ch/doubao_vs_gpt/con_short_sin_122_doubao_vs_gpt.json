@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content '这简直是欺骗，我无法接受' (0.0s - 3.0s), which perfectly matches the user's script requirements. The paralinguistic feature '生气' (Angry) is expressed vividly. From 0.0s to 1.5s, the phrase '这简直是欺骗' is spoken with high pitch, strong stress on '简直', and a forceful, indignant tone. From 1.5s to 3.0s, '我无法接受' maintains the high energy and rejection intensity, effectively conveying anger. The fluency is high, with no mechanical artifacts or unnatural pauses.",
-    "reasoning_model_2": "The model generates the audio content '是简直是欺骗，我无法接受' (0.0s - 3.0s). There is a noticeable content accuracy error at the very beginning: the script requires '这' (Zhè), but the model pronounces '是' (Shì). This substitution ('是简直是欺骗') makes the sentence grammatically awkward. Regarding the paralinguistic feature '生气' (Angry), the model does perform well; the tone is agitated, loud, and conveys a strong sense of outrage and emotional instability consistent with the command. However, the content error violates the criteria for a perfect score.",
-    "model_comparison": "Model 1 is the clear winner. Both models successfully generate the required 'angry' emotion with appropriate intensity, volume, and prosody. However, Model 1 achieves perfect content accuracy ('这简直...'), whereas Model 2 makes a distinct character substitution error at the start ('是简直...'), deviating from the script. According to the scoring criteria, a score of 3 requires perfect content consistency. Therefore, Model 1 receives the top score, while Model 2 is penalized for the content flaw despite its good emotional expression.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model's content is perfectly accurate, matching the script '小心！前方有陷阱，别过去。' exactly (00:00-00:03). In terms of the required feature 'Stress' (重音) on '小心', the speaker employs a hushed, urgent tone (a 'stage whisper') specifically for the word '小心' (00:00-00:01), followed by a distinct pause before the rest of the sentence. This change in timbre and the use of a pause effectively emphasizes the word, conveying a strong sense of immediate danger and caution as requested. The delivery is natural and fits the context of warning someone about a trap.",
-    "reasoning_model_2": "The model fails significantly on **Content Accuracy**. The script provided was '小心！前方有陷阱，别过去。', but the model generated a much longer segment: '小心小心，前方有陷阱，千万别过去。真的别踩进去...' (00:00-00:08). It repeats the target word '小心', adds intensifiers like '千万', and includes two additional sentences of dialogue not present in the prompt. According to the scoring criteria, a score of 0 is assigned when voice content is clearly inconsistent with the script or contains major additions/errors.",
-    "model_comparison": "Model 1 followed all instructions, providing accurate content and successfully implementing the required stress on '小心' through prosodic changes (urgency and pausing) that fit the context. Model 2 failed the fundamental constraint of Content Accuracy by hallucinating a significant amount of additional text and altering the script structure (repeating words). Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

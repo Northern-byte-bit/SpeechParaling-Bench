@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the text 'I am truly sorry for my mistake.' content-wise. Regarding the core requirement 'sincere tone', the model performs exceptionally well. The delivery is characterized by a slow tempo, a soft and breathy vocal quality, and a lowered pitch (0:00-0:03). This prosody effectively conveys a sense of regret, humility, and genuine sincerity appropriate for an apology. The pacing allows the listener to feel the weight of the words, particularly on 'truly' and 'mistake'. The audio is natural and lacks mechanical artifacts.",
-    "reasoning_model_2": "The model correctly reads the text 'I am truly sorry for my mistake.' However, the tone adopted is completely mismatched with the requested 'sincere tone' for an apology. The voice is bright, energetic, and slightly high-pitched, with a rising, cheerful intonation pattern (0:00-0:02). This delivery makes the sentence sound casual or even happy, lacking the gravity or regret associated with a sincere apology. It sounds like a standard TTS reading a sentence without contextual understanding.",
-    "model_comparison": "Model 1 (T1) is the clear winner. The user requested a 'sincere tone' for an apology sentence. T1 successfully modified the paralinguistic features (pitch, speed, breathiness) to create a somber, regretful, and sincere expression that matches the semantic content perfectly. Model 2 (T2) provided a high-quality audio signal but failed the instruction completely by using a cheerful, upbeat tone that contradicts the meaning of the text and the user's request. T1 demonstrates control over attitude/emotion, while T2 acts as a standard text reader.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

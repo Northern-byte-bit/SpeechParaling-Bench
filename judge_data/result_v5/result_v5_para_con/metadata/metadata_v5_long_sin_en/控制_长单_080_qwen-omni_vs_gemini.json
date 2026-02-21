@@ -1,0 +1,14 @@
+{
+    "sample_index": 80,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a steady rhythm: 'After dinner, our family gathers together to share the interesting things and troubles we encountered today. Such time is precious, making our relationships closer and relieving the day's fatigue.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

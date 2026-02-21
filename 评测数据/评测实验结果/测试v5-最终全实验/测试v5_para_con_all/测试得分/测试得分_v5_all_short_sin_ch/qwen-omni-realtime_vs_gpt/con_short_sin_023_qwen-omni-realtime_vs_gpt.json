@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately synthesizes the target text '别担心，一切都会好起来的' without any errors or hallucinations (00:00-00:04). In terms of the '音高' (Pitch) dimension, the model successfully employs a deep, resonant, and low-pitched voice. The lowered pitch effectively conveys a sense of stability and comfort, aligning perfectly with the command 'low pitch' (低音). The delivery is natural, with appropriate pacing and paralinguistic elements (breathiness) that enhance the reassuring tone. It fully meets the criteria for both content and feature control.",
-    "reasoning_model_2": "Model 2 fails significantly in both content accuracy and feature control. Firstly, regarding content, the model hallucinates a large amount of text following the target sentence. After reading '别担心，一切都会好起来的', it continues with '声音沉稳如大地回响...' (00:02-00:07), essentially reading a description of the voice rather than just the dialogue. Secondly, regarding the '音高' (Pitch) dimension, the model uses a standard-to-high pitched female voice that is bright and energetic, which is the direct opposite of the requested 'low pitch' (低音). The audio lacks the required deep, steady characteristic commanded by the user.",
-    "model_comparison": "Model 1 is the clear winner. It strictly adheres to the content constraints and successfully implements the 'low pitch' paralinguistic feature, resulting in a natural and appropriate audio generation. Model 2 fails completely; it hallucinates extra text (reading prompt descriptions) and fails to modify the pitch, using a bright tone instead of the requested low tone. Therefore, Model 2 receives a score of 0 due to severe content deviation and feature non-compliance.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

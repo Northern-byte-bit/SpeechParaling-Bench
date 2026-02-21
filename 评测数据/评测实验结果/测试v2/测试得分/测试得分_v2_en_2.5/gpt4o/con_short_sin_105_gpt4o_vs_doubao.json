@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed to follow the primary instruction. Instead of reading the provided sentence, it generated a question: 'Sure, which word should I stress?'. This is a complete failure in content accuracy. As the requested text was not generated, it's impossible to evaluate the paralinguistic compliance regarding the stress on the word 'key'. The audio itself is fluent, but its content is entirely incorrect for the given prompt.",
-    "reasoning_model_2": "The model successfully executed all aspects of the user's command. The content is perfectly accurate, matching the script verbatim. The audio is fluent and natural. Most importantly, the paralinguistic requirement was met perfectly. The word 'key' (0:00-0:45) is clearly and effectively stressed with a higher pitch and increased volume compared to the surrounding words, making it the focal point of the sentence as requested. The rest of the sentence follows with natural prosody.",
-    "model_comparison": "The comparison between the two models reveals a significant difference in capability. Model 1 completely failed the task by not generating the requested content at all; it responded with a question. Model 2, on the other hand, flawlessly executed the command. It produced the correct text with perfect fluency and accurately applied the specified stress on the word 'key'. The failure of Model 1 is fundamental, while Model 2 demonstrates complete control and accuracy. Therefore, Model 2 is significantly superior.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

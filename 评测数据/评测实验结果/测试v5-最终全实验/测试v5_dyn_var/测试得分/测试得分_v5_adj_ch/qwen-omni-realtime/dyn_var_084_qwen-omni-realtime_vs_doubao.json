@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the specified text: '完了，这次考试肯定要挂科了，我根本没复习。什么？我竟然考了全班第一！' without any omissions or additions. In terms of paralinguistic compliance, the audio starts with a distinct fearful and anxious tone (0:00-0:04), characterized by a trembling voice and heavy breaths. At the transition point '什么？' (0:05), the tone shifts effectively. The final segment '我竟然考了全班第一！' (0:06-0:09) conveys surprise and disbelief, though the level of 'joy' could be slightly higher, the contrast with the initial fear is clear and natural. The fluency is excellent, with natural pacing.",
-    "reasoning_model_2": "The model completely fails the Content Accuracy criterion. The user requested to read a specific short sentence, but the model generated a long, improvised monologue ('完了完了...连题目都看不明白...心跳快得像要炸开...'). While the voice acting and emotional transition in this improvised speech are actually quite expressive, the model failed to follow the basic instruction to read the provided text. Instead, it engaged in creative storytelling/roleplay. According to the evaluation criteria, if voice content is clearly inconsistent with the script or contains major additions, it warrants a low score.",
-    "model_comparison": "Model 1 followed all instructions perfectly: it read the correct text and performed the required emotional transition from fear to surprise effectively. Model 2, while producing high-quality audio in terms of sound and acting, failed the primary task of reading the specific text provided. It hallucinated a large amount of additional narrative, making it a failure in terms of content accuracy for a TTS/Control task. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

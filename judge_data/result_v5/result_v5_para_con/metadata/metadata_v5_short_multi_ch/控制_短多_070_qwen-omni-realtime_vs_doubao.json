@@ -1,0 +1,18 @@
+{
+    "sample_index": 70,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用断续的节奏，慢速、敷衍地说：哦，是吗……听起来……挺有趣的。",
+    "dimensions": [
+        "节奏",
+        "语速",
+        "态度"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

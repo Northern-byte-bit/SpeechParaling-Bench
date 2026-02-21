@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the model to read the specific sentence '哼，不值一提。'. However, Model 1 hallucinated a significant amount of additional text ('你这话说的可真够轻巧的，连正眼都不愿意给，真当自己是块宝石的') which was not in the script. While the paralinguistic expression of 'attitude' (contempt) is vividly portrayed through a mocking and disdainful tone in the extended speech, the strict Content Accuracy criterion is violated. The model failed to constrain the generation to the requested text, constituting a major issue in instruction following. The emotional expression is present, but the generation is fundamentally flawed due to the unrequested additions.",
-    "reasoning_model_2": "Model 2 adhered strictly to the requested script, saying only '哼，不值一提' without any hallucinations or omissions. Regarding the required feature 'attitude' (contempt), the model effectively conveys the emotion. The initial particle '哼' (Hmph) is delivered with a sharp, dismissive release of breath, and the phrase '不值一提' is spoken with a cold, disregarding tone that aligns well with the definition of contempt. The speech is natural, fluent, and accurately follows all constraints.",
-    "model_comparison": "Model 2 is the clear winner. While Model 1 demonstrates a strong capability to act out the 'contemptuous' tone, it completely failed the Content Accuracy criterion by inventing a long continuation of the script. This makes the audio unusable for the specific command 'Please read this sentence'. Model 2 successfully combined perfect content accuracy with the correct paralinguistic expression of contempt, meeting all evaluation criteria (Content, Fluency, and Core Feature) at a high level.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

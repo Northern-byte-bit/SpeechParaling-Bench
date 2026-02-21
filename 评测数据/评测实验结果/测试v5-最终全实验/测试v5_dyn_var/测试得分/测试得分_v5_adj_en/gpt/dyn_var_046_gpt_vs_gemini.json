@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the correct text: 'Did you hear? Xiao Ming is moving tomorrow, we need to prepare a farewell party for him.' However, regarding the core requirement of dynamic volume adjustment, the model completely fails. The entire audio (0:00-0:07) is delivered in a consistent, breathy whisper. There is absolutely no gradual increase in volume to a normal level as requested. The paralinguistic feature remains constant throughout the utterance, failing the instruction to change dimensions.",
-    "reasoning_model_2": "The model generates the correct text with natural fluency. Regarding the core requirement, the model executes the instructions effectively. It starts with a whisper at 'Did you hear?' (0:00-0:01). As it progresses to 'Xiao Ming is moving tomorrow' (0:01-0:03), the voice begins to gain phonation and volume. By the final segment 'we need to prepare a farewell party for him' (0:03-0:06), the voice has transitioned smoothly to a full, normal speaking volume. The gradient of change is clear, natural, and perfectly aligns with the prompt.",
-    "model_comparison": "Model 1 failed to implement the dynamic change required by the prompt. While it successfully started with a whisper, it stayed in a whisper mode for the entire duration of the audio, never increasing the volume to a normal level. This results in a static paralinguistic feature rather than a dynamic one. Model 2, on the other hand, perfectly executed the instruction. It started with a whisper and demonstrated a clear, audible, and natural crescendo, ending in a normal speaking volume. Model 2 is the clear winner for following the complex instruction of dynamic adjustment.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

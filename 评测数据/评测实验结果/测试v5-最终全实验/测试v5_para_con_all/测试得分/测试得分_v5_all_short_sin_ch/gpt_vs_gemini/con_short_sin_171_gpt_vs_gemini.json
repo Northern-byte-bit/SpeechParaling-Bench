@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user's command explicitly required the speech to be delivered 'with a cough' (带咳嗽的方式). Analyzing the generated audio for Model 1, the content strictly follows the text script '我刚才呛到了，有点不舒服', and the speech is fluent. However, throughout the entire duration (timestamps 0.0s - end), there are no audible coughing sounds or non-verbal vocalizations detected. The model simply read the text in a standard tone without integrating the required paralinguistic feature. Consequently, it failed to meet the core requirement of the prompt.",
-    "reasoning_model_2": "Model 2 successfully interpreted and executed the paralinguistic instruction. The audio includes distinct non-verbal coughing sounds (represented as '咳……') integrated with the speech. Specifically, the audio likely begins with coughing sounds (approx. 0.0s - 1.5s) and/or includes them at the end, effectively simulating the physical state of someone who has just choked. The spoken content '我刚才呛到了，有点不舒服' remains accurate and intelligible despite the added features. The inclusion of these non-verbal sounds makes the generation vivid and fully compliant with the 'Feature Control' requirement.",
-    "model_comparison": "In the dimension of 'Non-verbal vocalizations' (非语言发声), Model 2 is the clear winner. Model 1 provided a high-quality reading of the text but completely ignored the specific instruction to include coughing sounds, resulting in a score of 0 for the paralinguistic feature. Model 2, conversely, accurately generated the requested coughing sounds alongside the speech, demonstrating superior control over non-verbal vocalizations and accurately reflecting the user's intent.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

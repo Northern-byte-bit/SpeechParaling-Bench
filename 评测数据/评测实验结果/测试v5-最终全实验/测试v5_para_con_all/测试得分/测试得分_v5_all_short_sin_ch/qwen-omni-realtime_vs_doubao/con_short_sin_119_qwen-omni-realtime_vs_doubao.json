@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 demonstrates perfect Content Accuracy, reciting the script '比赛输了，我们努力了很久。' exactly as requested. In terms of paralinguistic compliance (Emotion - Sadness), the model performs excellently. At 00:00, the phrase '比赛输了' is delivered with a lower pitch and a downward inflection, effectively conveying a sense of defeat and resignation. At 00:01, the pause before '我们努力了很久' is well-timed, and the subsequent delivery is slower with a breathy, heavy tone, suggesting exhaustion and deep regret. The prosody is natural and effectively mirrors human expression of sadness.",
-    "reasoning_model_2": "Model 2 fails the Content Accuracy criterion completely. The user's command explicitly asked to read the specific sentence '比赛输了，我们努力了很久。', but the model generated a 22-second long monologue containing a large amount of hallucinated text (e.g., '真的好难受', '心里空落落的', etc.). According to the Detailed Scoring Standard, a score of 0 must be assigned when 'Voice content is clearly inconsistent with the script'. Although the voice texture itself sounds sad and dramatic, the model failed the fundamental instruction to synthesize the specific target text.",
-    "model_comparison": "Model 1 is the clear winner. It correctly followed the user's instruction, delivering the exact text with a natural and accurately conveyed sad emotion. Model 2, while expressive in tone, failed the task by hallucinating a long script instead of reading the requested sentence. Since Content Accuracy is a prerequisite for a high-quality generation and Model 2's content was clearly inconsistent with the prompt, Model 1 is superior.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

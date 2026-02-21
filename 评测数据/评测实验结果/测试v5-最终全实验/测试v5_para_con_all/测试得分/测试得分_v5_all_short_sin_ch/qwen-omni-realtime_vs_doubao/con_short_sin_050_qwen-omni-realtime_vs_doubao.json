@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully articulates the core sentence '我今天上午忙死了，处理了许多紧急邮件' between 0:00 and 0:03. However, the speech rate during this segment is moderate to standard, failing to adhere to the command for 'fast speed' (快速的语速). Crucially, the model suffers from a significant content error (hallucination) at the end of the audio (0:03-0:05), where it repeats the word '快' (Fast) multiple times ('快快快快快'), likely leaking the prompt instruction into the generated speech. This violates the content accuracy requirement and distracts from the naturalness.",
-    "reasoning_model_2": "The model generates the text '我今天上午忙死了，处理了许多紧急邮件' with perfect content accuracy and no hallucinations. The total duration is approximately 2 seconds, which is significantly shorter than T1 for the same text content. The speaking rate is noticeably accelerated (0:00-0:02), effectively capturing the 'fast speed' requested by the user. The prosody remains natural despite the high speed, maintaining clarity and effectively conveying the urgency implied by the text 'busy to death'.",
-    "model_comparison": "Model 2 is the clear winner. Model 2 correctly followed both the text instructions and the paralinguistic instruction (fast speed), delivering a rapid, fluent, and accurate audio. Model 1 failed in two significant ways: first, it did not increase the speaking rate (it spoke at a normal pace), and second, it hallucinated the instruction word '快' multiple times at the end of the generation, violating content accuracy. Model 2 demonstrates superior control over paralinguistic features and strict content adherence.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

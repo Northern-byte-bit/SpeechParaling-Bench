@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately produces the text '这个讲座真没意思，听得我直打哈欠' (0:00-0:04). The tone is somewhat low and lethargic, attempting to sound bored. However, regarding the core requirement 'non-verbal vocalization' (yawning): the model does not produce a distinct yawn during or before the speech. At the very end (0:04-0:05), there is a breathy sound resembling a sigh, followed immediately by an unintelligible, mechanical artifact sound that sounds like 'ti' or a sharp exhale. This artifact negatively impacts naturalness. The expression is rather flat compared to a genuine yawning state.",
-    "reasoning_model_2": "The audio begins with a very distinct, natural-sounding non-verbal yawn (0:00-0:02) before speaking, which perfectly adheres to the 'non-verbal vocalization' constraint. The speech that follows, '这个讲座真没意思，听得我直打哈欠' (0:02-0:07), is delivered with a drowsy, lethargic tone that perfectly matches the physiological state of yawning. The pacing is slow and the enunciation is slightly slurred, enhancing the realism of the boredom/fatigue. Content accuracy is perfect.",
-    "model_comparison": "Model 2 is significantly superior. It explicitly generates the required non-verbal sound (a clear yawn) at the beginning and integrates the physical sensation of tiredness into the subsequent speech prosody. Model 1 merely lowers the pitch slightly but fails to generate a convincing yawn, and notably suffers from a glitch/hallucinated sound at the very end of the clip, reducing its quality score.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

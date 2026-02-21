@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'Happy New Year everyone! May all your wishes come true!' accurately (0:00-0:05). Regarding the core constraint 'loudly volume', the audio employs a projected, enthusiastic tone suitable for addressing a crowd. The voice is clear, energetic, and maintains a high level of projection throughout the sentence, effectively simulating a loud volume without audio clipping or distortion. The pacing is natural and fits the festive context perfectly.",
-    "reasoning_model_2": "The model accurately speaks the text 'Happy New Year everyone, may all your wishes come true' (0:00-0:04). However, regarding the core constraint 'loudly volume', the model completely fails. The delivery is soft, breathy, and intimate, resembling a whisper or a calm bedtime story reading. This paralinguistic expression is the direct opposite of the requested 'loudly' volume.",
-    "model_comparison": "Model 1 followed the user's instruction to read with a 'loudly volume' by generating a projected, energetic, and clear audio track. Model 2, conversely, generated a soft, intimate, and quiet audio track, which is the exact opposite of the requested feature. Therefore, Model 1 is the clear winner due to strict adherence to the paralinguistic constraint.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content accurately matching the text script. However, regarding the core paralinguistic requirement, the audio fails to exhibit the requested dynamic adjustment. \n1. **0:00-0:02 ('Teacher, I have a question')**: The volume is at a standard, conversational level (mezzoforte).\n2. **0:02-0:05 ('does this formula apply to all situations?')**: The volume remains constant, showing no perceptible increase. \nThe delivery is fluent and natural for a standard read, but it completely ignores the instruction to start quietly and gradually increase to loudly. The volume is monotonic throughout.",
-    "reasoning_model_2": "The model accurately speaks the content and follows the paralinguistic instruction with high precision.\n1. **0:00-0:01 ('Teacher')**: The audio starts with a very low volume, effectively simulating a quiet/timid start.\n2. **0:01-0:02 ('I have a question')**: The volume noticeably steps up to a median conversational level.\n3. **0:02-0:05 ('does this formula apply to all situations?')**: The volume continues to swell, ending in a loud, projected delivery.\nThe transition is smooth and clearly audible, perfectly matching the 'gradually increasing' requirement.",
-    "model_comparison": "Model 1 provided a standard, flat reading of the text with no attempt to modulate volume, failing the core instruction. Model 2 successfully implemented the dynamic volume curve, starting noticeably quiet and ending loudly, demonstrating a clear control over paralinguistic features. Therefore, Model 2 is the superior generation.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully adopts the required paralinguistic feature 'whisper' (耳语). The voice is breathy and low volume, perfectly matching the scenario of hiding or being secretive. The delivery is natural and fluent. However, regarding Content Accuracy, the model adds a sound effect 'Shh' (嘘) at the beginning (0.0s-0.5s) which was not in the provided text script '快走，有人来了。'. While contextually appropriate, strictly speaking, this constitutes an 'extra word/sound' according to the scoring criteria. The core feature expression is vivid (Score 3 level), but the content accuracy issue drops it slightly.",
-    "reasoning_model_2": "The model perfectly follows the text script '快走，有人来了。' without any additions or omissions. The paralinguistic feature 'whisper' is executed flawlessly throughout the entire clip (0.0s-1.8s). The voice utilizes a strong stage whisper technique—highly breathy, unvoiced phonation—which effectively conveys urgency and the volume constraint requested. The fluency and naturalness are excellent (Score 3 level).",
-    "model_comparison": "Both models successfully implement the 'whisper' style required by the prompt. T2 is superior because it adheres strictly to the requested text content. T1 introduces a 'Shh' sound at the start, which, while natural in a real-world context, violates the strict content accuracy criterion (no extra words). T2 delivers the exact script with the correct tone and paralinguistic features, making it the technically more accurate generation based on the evaluation guidelines.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 demonstrates perfect Content Accuracy, reciting the script 'Great! We haven't seen each other for ages, let's have fun tonight!' exactly as requested without errors. In terms of Emotion, the model successfully conveys happiness. The segment 'Great!' (00:00-00:01) is delivered with an energetic, high-pitched tone indicative of excitement. The concluding phrase 'let's have fun tonight!' (00:04-00:05) maintains this enthusiasm with a bright, smiling timbre and natural prosody, meriting a full score.",
-    "reasoning_model_2": "Model 2 critically fails on the dimension of Content Accuracy. The user explicitly commanded: \"Please read this sentence... 'Great! We haven't seen each other for ages, let's have fun tonight!'\". However, Model 2 completely disregarded the script and hallucinated a paraphrase: \"Oh wow, it's been forever since we last met...\" (00:00-00:07). According to the evaluation criterion, a score of 0 must be assigned when voice content is clearly inconsistent with the script, regardless of the emotional delivery.",
-    "model_comparison": "Model 1 is the undisputed winner. It followed the user's instructions regarding both the text script and the emotional feature. Model 2 failed the most basic requirement of Text-to-Speech synthesis by generating completely different words than those provided in the prompt. Therefore, Model 1 receives a high score for its accurate and expressive performance, while Model 2 receives a 0 for critical hallucination of content.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

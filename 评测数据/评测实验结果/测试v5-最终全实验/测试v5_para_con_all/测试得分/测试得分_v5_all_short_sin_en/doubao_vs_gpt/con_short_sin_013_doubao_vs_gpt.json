@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested a 'very high pitch'. Model 1 successfully generates the audio with a distinct, consistently high pitch (falsetto/cartoon-like quality) throughout the entire clip (00:00-00:02), fulfilling the core paralinguistic constraint effectively. However, there are content accuracy issues: the model substitutes the script's 'Ah!' with 'Oh!' at 00:00 and expands the contraction 'There's' to 'There is' at 00:01. While the pitch control is excellent, the text substitution prevents a perfect score.",
-    "reasoning_model_2": "The user requested a 'very high pitch'. Model 2 produces a high-quality, natural-sounding voice, but the pitch remains within a standard adult female register (00:00-00:02). It does not attempt to raise the pitch to a 'very high' level as commanded, effectively ignoring the core constraint. Regarding content, it correctly says 'Ah!' but expands the contraction 'There's' to 'There is'. Due to the complete absence of the requested paralinguistic feature, the score is low.",
-    "model_comparison": "Model 1 is the clear winner because it adheres to the specific paralinguistic instruction ('very high pitch'), modifying the voice significantly to match the request. Model 2 produces a natural voice but completely fails to apply the requested pitch modification, sounding like a standard generation. Although Model 1 has a minor text substitution ('Oh' instead of 'Ah'), its success in the core feature control dimension outweighs Model 2's failure to follow the feature command.",
-    "score_1_1": 2,
-    "score_2_1": 0,
-    "winner_1": 1
-}

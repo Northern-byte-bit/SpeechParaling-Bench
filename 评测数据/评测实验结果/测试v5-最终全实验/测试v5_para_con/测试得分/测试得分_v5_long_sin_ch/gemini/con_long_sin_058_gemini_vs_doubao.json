@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates a soothing voice suitable for the context. In terms of content accuracy, there is a minor omission: at 00:03, the model says '闭上眼睛' instead of the scripted '闭上你的眼睛', missing the word '你的'. Regarding the paralinguistic feature 'extremely slow speed' (极慢速), the model reads at a slow, relaxed pace (total duration approx. 18 seconds), which fits a general 'slow' description but falls short of 'extremely slow'. The expression is natural but lacks the extreme intensity requested.",
-    "reasoning_model_2": "The model follows the text script perfectly with no omissions or errors. Regarding the paralinguistic feature 'extremely slow speed', the model adheres to this instruction with high precision. It elongates syllables and incorporates significant pauses (e.g., '亲...爱...的...'), resulting in a total duration of approximately 31 seconds, which is significantly slower than Model 1. The delivery effectively conveys the 'extremely slow' characteristic while maintaining a consistent bedtime-story prosody.",
-    "model_comparison": "Model 2 demonstrates superior performance on both content accuracy and feature compliance. Model 1 omits the word '你的' from the script, which is a content error, and its interpretation of 'extremely slow' is merely 'slow' (18 seconds). Model 2 correctly includes the full text and executes the 'extremely slow' command much more effectively, stretching the audio to 31 seconds with a very deliberate pace that perfectly matches the user's specific intensity request.",
-    "score_1_1": 2,
-    "score_2_1": 3,
-    "winner_1": 2
-}

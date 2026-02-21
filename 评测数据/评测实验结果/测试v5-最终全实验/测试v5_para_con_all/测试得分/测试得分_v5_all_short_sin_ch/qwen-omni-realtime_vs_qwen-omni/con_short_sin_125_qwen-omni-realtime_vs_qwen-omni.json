@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 strictly follows the provided script '我们竟然赢了！这简直难以置信！' with perfect content accuracy. In terms of paralinguistic performance (00:00-00:03), the speaker employs a higher pitch and a breathy tone characteristic of surprise. The pacing is slightly accelerated, conveying the urgency and excitement of the realization. The emphasis on '竟然' and '难以置信' effectively communicates the disbelief and joy required by the '惊喜' (Surprise) prompt. The expression is natural, fluent, and aligns well with the requested emotion without any artifacts.",
-    "reasoning_model_2": "Model 2 fails significantly in content accuracy. Instead of reading the requested text '我们竟然赢了！这简直难以置信！', the model hallucinates a much longer and modified script: 'Wow，我们竟然赢了，这简直太不可思议了，我都不敢相信自己的眼睛，心跳都快爆了，真的太惊喜了。' (00:00-00:09). While the emotional tone is indeed very expressive and surprised, the complete deviation from the target text constitutes a critical error according to the evaluation criteria ('Voice content is clearly inconsistent with the script'). Therefore, despite the high expressiveness, the model fails the fundamental instruction following requirement.",
-    "model_comparison": "Model 1 is the clear winner. It accurately synthesizes the target text with the appropriate 'surprise' emotion, maintaining a balance between content fidelity and expressiveness. Model 2, while emotionally vivid, completely disregards the constraints of the specific text provided in the prompt, rewriting the script and adding significant hallucinations. According to the scoring criteria, a model with clearly inconsistent voice content must receive a low score regardless of the emotional quality.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

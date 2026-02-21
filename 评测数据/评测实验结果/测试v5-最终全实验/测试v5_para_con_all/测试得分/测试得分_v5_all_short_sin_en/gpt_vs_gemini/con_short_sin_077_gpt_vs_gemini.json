@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text with high fidelity and naturalness. Regarding the core requirement, the model explicitly follows the instruction to place a pause after the word 'but'. The audio flow is: 'I understand your feelings' (0.0s-1.8s), 'but' (2.3s-2.6s), followed by a very distinct silence/pause roughly from 2.6s to 3.2s, before continuing with 'we must follow the rules'. This clearly demonstrates the requested paralinguistic feature.",
-    "reasoning_model_2": "The model produces high-quality, natural-sounding speech with correct content accuracy. However, it fails to follow the specific paralinguistic instruction. The model places a pause after 'feelings' (standard prosody), but then says 'but we must follow the rules' as a continuous phrase (1.8s-3.5s) without any discernible pause after the word 'but'. The flow from 'but' to 'we' is immediate, ignoring the user's specific command.",
-    "model_comparison": "Model 1 followed the specific constraint to pause after the word 'but', creating the requested effect perfectly. Model 2 ignored this specific instruction, reading the sentence with standard prosody where 'but' leads directly into the following clause without a pause. Therefore, Model 1 is the clear winner for Feature Control.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

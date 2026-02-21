@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the model to say the specific sentence: '这件裙子真漂亮，我很喜欢。'. However, Model 1 completely ignored the script constraint and generated a long, hallucinated paragraph ('这件裙子真的好漂亮呀，像春天里绽放的樱花一样温柔...'). While the voice texture itself is indeed sweet and the delivery is expressive, the content accuracy is a fatal failure. According to the scoring criteria, a score of 0 is assigned because the voice content is clearly inconsistent with the required script.",
-    "reasoning_model_2": "Model 2 accurately synthesized the requested text: '这件裙子真漂亮，我很喜欢。' with no omissions or additions. The voice quality (音质) is sweet, soft, and youthful, effectively capturing the requested '甜美' (sweet) characteristic. The prosody is natural, and the emotional expression fits the context of liking a dress. It meets all criteria for content, fluency, and paralinguistic compliance.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental task of Text-to-Speech by disregarding the input text and generating a role-play response instead. Although Model 1's voice was expressive, its failure to adhere to the script results in a minimum score. Model 2 followed the content instructions perfectly while successfully delivering the requested sweet voice quality.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

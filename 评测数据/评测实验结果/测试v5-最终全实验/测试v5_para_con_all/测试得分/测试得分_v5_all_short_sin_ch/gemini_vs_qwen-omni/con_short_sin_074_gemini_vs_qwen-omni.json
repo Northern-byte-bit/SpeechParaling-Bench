@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model attempts to follow the instruction 'use a whispering way' (请用耳语的方式). At the very beginning (0.0s-0.5s), it generates a 'Shh' sound, which is a clear paralinguistic signal for silence or secrecy. The subsequent speech (0.6s-3.0s) '这个消息，千万不能说出去' is delivered in a hushed, low-volume voice with a secretive tone. While the speech itself is technically voiced (soft phonation) rather than a pure unvoiced whisper, it effectively lowers the volume and conveys the intended 'whisper' style suitable for a secretive message. The addition of 'Shh' technically constitutes an extra sound relative to the strict script, but it reinforces the feature compliance.",
-    "reasoning_model_2": "The model completely ignores the 'whisper' (耳语) instruction. The entire sentence (0.0s-3.5s) is delivered with standard projection, full phonation, and a normal, reading-style volume. The tone is clear and bright, lacking any breathiness, low volume, or secretive quality required by the prompt. It functions as a standard Text-to-Speech generation without any specific paralinguistic modification for volume.",
-    "model_comparison": "Model 1 (T1) demonstrates a clear understanding of the 'whisper' command by significantly lowering the volume and adopting a secretive, hushed tone, additionally prefixing the audio with a 'Shh' sound to emphasize the context. Although it uses a 'stage whisper' (soft voiced speech) rather than a purely unvoiced whisper, it aligns well with the user's intent. Model 2 (T2) fails completely, providing a standard, full-volume reading that contradicts the instruction. Therefore, Model 1 is the clear winner in terms of feature control for volume/style.",
-    "score_1_1": 2,
-    "score_2_1": 0,
-    "winner_1": 1
-}

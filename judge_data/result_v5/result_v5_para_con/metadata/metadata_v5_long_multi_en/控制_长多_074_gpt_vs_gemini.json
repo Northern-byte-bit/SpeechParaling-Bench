@@ -1,0 +1,18 @@
+{
+    "sample_index": 74,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence at normal volume, with emphasis on 'sixty points' and a neutral emotion: 'Please note, the passing score for this exam is sixty points, please be sure to remember this standard. Any result below this score will be considered a failure and will require a retake, and there is only one retake opportunity.'",
+    "dimensions": [
+        "Emotion",
+        "Stress",
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully synthesizes the text 'I just feel this plan is the best.' within the timeframe 00:00-00:03. Content accuracy is perfect with no additions or omissions. Regarding the paralinguistic feature 'Stress', the model correctly places emphasis on the target word 'is', creating the intended contrastive focus (implying 'contrary to what others might feel, it IS the best'). The prosody is natural and the stress is clearly perceptible without disrupting the flow of the sentence.",
-    "reasoning_model_2": "The model generates the audio from 00:00 to 00:05. Major issues are observed in Content Accuracy. The model hallucinates a continuation not present in the prompt: 'Yes, it's the best, and I mean it.' (00:02-00:05). According to the evaluation criteria, 'Voice content is clearly inconsistent with the script' warrants a score of 0. Furthermore, the addition of the extra sentence dilutes the specific focus and control required for the emphasis on 'is' in the first sentence, likely shifting the prosodic contour to match the enthusiastic hallucinated ending rather than the specific instruction.",
-    "model_comparison": "Model 1 (T1) followed the user's instructions perfectly, delivering the correct text with the requested emphasis on 'is'. Model 2 (T2) failed significantly due to a content hallucination, adding an entire extra sentence ('Yes, it's the best, and I mean it.'). This is a critical failure in Content Accuracy. Per the Global Considerations, an audio with extremely poor content accuracy must receive a score of 0. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

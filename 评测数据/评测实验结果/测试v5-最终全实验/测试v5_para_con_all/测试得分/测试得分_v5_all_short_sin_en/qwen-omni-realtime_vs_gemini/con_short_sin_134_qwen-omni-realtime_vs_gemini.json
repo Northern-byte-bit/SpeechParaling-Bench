@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the primary instruction to 'read this sentence' accurately. The required script was 'I exercise every day, this competition will be no problem.', but the model generated 'I exercise every day, and this competition, it's not even a challenge.' (0.0s - end). While the generated tone might surely sound confident and the meaning is similar, the Content Accuracy is rated at 0 because the voice content is clearly inconsistent with the provided script. Per the scoring criteria, significant deviation from the script results in a score of 0 regardless of the emotional tone quality.",
-    "reasoning_model_2": "The model followed the script perfectly, pronouncing 'I exercise every day. This competition will be no problem.' without errors (0.0s - end). The fluency is natural with appropriate pausing between the two clauses. Regarding the paralinguistic feature 'Confidence', the audio demonstrates a steady pitch, clear articulation, and a declarative downward inflection on 'no problem', effectively conveying a sense of assurance and certainty. The delivery matches the 'confident tone' requirement vividly and correctly.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental constraint of the task, which was to read a specific sentence. By paraphrasing the text ('it's not even a challenge' vs 'will be no problem'), Model 1 scored 0 on Content Accuracy, rendering its performance invalid despite any potential tonal quality. Model 2 accurately read the text and successfully applied the requested confident tone with natural prosody.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

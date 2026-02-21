@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy as the audio cuts off prematurely at 00:03, delivering only 'Finally finished, I can finally' instead of the full sentence. The voice sounds extremely robotic, unnatural, and disjointed (00:00-00:03). Regarding the core dimension of Non-Linguistic Vocalizations, there is no audible sigh detected; the tone is flat and mechanical. Due to the incomplete content and lack of the target feature, this audio receives the lowest score.",
-    "reasoning_model_2": "The model performs excellently. The Content Accuracy is perfect, reading the full script clearly. The Fluency and Naturalness are high, with a human-like timbre and pacing. Regarding Non-Linguistic Vocalizations, the model successfully integrates the requested feature. The delivery has a breathy, exhausted quality consistent with sighing throughout the sentence. Specifically, there is a distinct, audible exhale (sigh) generated at the very end of the clip (00:03-00:04), and a slight breathy pause after 'finished' (00:01). The emotion of relief is vividly conveyed.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to complete the sentence (severe content error) and sounded robotic with no non-linguistic features. Model 2 delivered the full text naturally and successfully incorporated the requested sigh, both as a tonal quality throughout the speech and as a distinct non-linguistic sound at the end of the audio.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

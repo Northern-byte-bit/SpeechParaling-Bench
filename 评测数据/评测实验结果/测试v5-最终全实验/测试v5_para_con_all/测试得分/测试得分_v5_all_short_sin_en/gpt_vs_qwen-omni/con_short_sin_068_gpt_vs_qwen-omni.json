@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with a clear, audible voice that fits the definition of 'normal volume' (neither whispering nor shouting). However, there is a content accuracy issue: the model says 'I finished' instead of the requested 'I've finished' (omitting the contraction 've'). The text is otherwise clear. The fluency is acceptable, though the voice has a slightly breathy quality. Due to the text omission, the score is capped at 2 despite the volume feature being correct.",
-    "reasoning_model_2": "The model produces the audio at a standard, conversational volume, effectively meeting the 'normal volume' requirement. Similar to Model 1, this model also omits the contraction 've', saying 'I finished' instead of 'I've finished'. The prosody is very natural, and the voice has a solid, professional presence with no artifacts. The volume is consistent and appropriate. The score is capped at 2 due to the minor content omission.",
-    "model_comparison": "Both models successfully executed the 'normal volume' command, avoiding extremes like whispering or shouting. Both models also shared the same minor content error, omitting the 've' in 'I've'. Therefore, they are tied on paralinguistic compliance and content accuracy. However, Model 2 demonstrates superior audio quality, with a fuller, more natural-sounding voice and better prosody compared to Model 1, which sounded slightly thinner and breathier. Thus, Model 2 is the preferred output.",
-    "score_1_1": 2,
-    "score_2_1": 2,
-    "winner_1": 2
-}

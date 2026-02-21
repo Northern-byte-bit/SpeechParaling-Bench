@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 synthesizes the text '文件应该放在这里，不是那边。' with perfect content accuracy; there are no mispronunciations or omissions. The overall fluency is natural, with a steady pace and no machine-like artifacts. However, regarding the core paralinguistic requirement to stress the word '这里' (here), the performance is insufficient. The phrase '这里' (occurring around 00:01-00:02) is delivered with a flat, neutral intonation that is indistinguishable from the rest of the sentence. The model fails to apply the requested emphasis, resulting in a reading that does not convey the specific contrast intended by the command.",
-    "reasoning_model_2": "Model 2 also achieves perfect content accuracy and high fluency, with a clear and human-like voice. Crucially, it successfully executes the paralinguistic instruction. When pronouncing '这里', the model applies a noticeable stress—characterized by a slight increase in intensity and a distinct pitch contour—effectively highlighting the word. This emphasis creates a clear contrast with the subsequent phrase '不是那边', accurately reflecting the user's intent to correct or specify the location. The control over the stress feature is vivid and spot-on.",
-    "model_comparison": "Both models perform well in terms of basic content generation and fluency. The decisive difference lies in the 'Feature Control' dimension (Stress/重音). Model 1 ignores the instruction to stress '这里', delivering a standard neutral sentence. Model 2 effectively interprets and executes the command, placing audible emphasis on the target word. This makes Model 2 significantly better at following the specific paralinguistic constraint.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

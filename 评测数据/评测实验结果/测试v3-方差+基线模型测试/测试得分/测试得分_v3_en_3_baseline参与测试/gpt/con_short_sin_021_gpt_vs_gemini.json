@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'I'll go to the supermarket to buy some groceries tomorrow' with perfect content accuracy. In terms of fluency and naturalness, the speech is smooth, professional, and free of artifacts. However, regarding the core paralinguistic feature 'Pitch', the generated audio features a male voice with a distinctly deep, baritone timbre. This falls more accurately into the 'Low Pitch' category on the general vocal spectrum. While the audio quality is excellent, the specific instruction for a 'medium pitch' is not ideally met, as the voice sounds naturally low and resonant rather than neutral or medium.",
-    "reasoning_model_2": "The model generates the text perfectly with no errors. The fluency is high, with a natural speaking pace and clear intonation. Regarding the core parameter 'Pitch', the model utilizes a female voice that sits comfortably in the middle of the vocal range. It is not high-pitched or shrill, nor is it low or deep. This aligns very well with the definition of a 'medium pitch', conveying a neutral, standard tone that fits the user's constraint effectively.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency/naturalness. The deciding factor is the core instruction: 'medium pitch'. Model 1 (T1) produces a voice that is notably deep and baritone, which characterizes it as 'low pitch' rather than medium. Model 2 (T2) produces a voice that is central in the vocal range (standard female range), which aligns much closer to the descriptor 'medium pitch'. Therefore, T2 follows the specific feature control command better than T1.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

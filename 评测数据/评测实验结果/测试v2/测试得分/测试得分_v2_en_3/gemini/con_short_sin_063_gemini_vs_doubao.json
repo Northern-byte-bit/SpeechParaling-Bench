@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct text: 'What on earth are you doing? Stop it right now!' (0:00-0:04). Regarding the core paralinguistic feature (shouting/volume), the audio demonstrates a clear shift from a neutral conversational tone to a raised, projected voice. The pitch is elevated, and the delivery conveys distinct anger and urgency, characteristic of a 'shouting manner' (e.g., the stress on 'earth' at 0:00 and the sharp command 'Stop it' at 0:03). While it represents a 'scolding' or 'indoor shout' rather than a deafening scream, it effectively captures the requested style with high naturalness and no artifacts.",
-    "reasoning_model_2": "The model generates the text accurately: 'What on earth are you doing? Stop it right now!' (0:00-0:05). However, it fails almost completely on the core paralinguistic requirement. The volume and tone remain conversational and calm throughout. There is a slight inflection of curiosity in the first sentence and a very mild firmness in the second, but it does not resemble a 'shouting manner' or high volume in any meaningful way. The delivery lacks the necessary energy, projection, and vocal strain associated with the command.",
-    "model_comparison": "Model 1 clearly followed the instruction to read in a 'shouting manner', utilizing raised pitch, increased volume projection, and an urgent, angry tone. Model 2, in contrast, delivered the text in a nearly flat, conversational tone that completely ignored the volume/shouting constraint. Model 1 is significantly superior in feature control.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

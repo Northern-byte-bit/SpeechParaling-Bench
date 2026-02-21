@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the required non-linguistic vocalization. At [0:00-0:01], the audio begins with a distinct coughing sound ('Ahem, ahem'), followed by the target sentence. The text 'I just choked, it is a bit uncomfortable' is delivered accurately, although 'it's' is expanded to 'it is'. The prosody reflects the physical state of the speaker, with appropriate pauses after the cough. The cough sounds slightly staged but effectively conveys the instruction.",
-    "reasoning_model_2": "The model completely fails to follow the primary instruction regarding content accuracy. Instead of reading the target sentence ('I just choked...'), the model acts as a conversational partner responding to the situation, saying 'Are you okay? Do you need some water?'. This constitutes a complete hallucination of the script and a failure to perform the text-to-speech task. Consequently, it also fails to produce the self-referential coughing vocalization required of the speaker.",
-    "model_comparison": "Model 1 followed the instructions, generating the correct text with the requested paralinguistic feature (coughing) integrated at the beginning of the speech. Model 2 failed completely by generating a conversational response instead of synthesizing the requested text. Therefore, Model 1 is the clear winner as Model 2 receives a 0 for incorrect content.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

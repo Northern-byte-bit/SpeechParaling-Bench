@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately reproduces the text 'I'll go to the supermarket to buy some groceries tomorrow' with 100% content accuracy. In terms of fluency and naturalness, the speech is excellent; it sounds like a real human male voice with natural prosody, breathing, and pacing (0:00-0:03). Regarding the paralinguistic requirement 'medium pitch', the model generates a voice that sits comfortably in the middle of the male vocal range—neither deep bass nor high-pitched. It represents a standard, conversational pitch effectively.",
-    "reasoning_model_2": "The audio accurately reproduces the text content. However, the fluency and naturalness are significantly compromised. The voice exhibits a strong mechanical, electronic, and robotic timbre throughout the clip (0:00-0:03), sounding heavily processed rather than human-like. While the pitch itself could be described as 'medium' relative to a female or androgynous range, the severe lack of naturalness and the presence of electronic noise violate the criteria for a high score.",
-    "model_comparison": "Model 1 is the clear winner. It produces a highly natural, human-sounding audio that fits the 'medium pitch' constraint perfectly within a male vocal range. Model 2, while getting the content right, fails significantly on the 'Fluency and Naturalness' dimension due to a distinct robotic/electronic filter effect that degrades the listening experience. Model 1 meets all criteria for a perfect score, while Model 2 suffers from obvious generation artifacts.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content '妈妈，我可以再吃一块饼干吗？' accurately with no pronunciation errors. In terms of the 'Age' dimension, the voice features a high fundamental frequency and a lighter, thinner timbre (00:00-00:03) that successfully mimics a young child (approx. 5-8 years old). The prosody includes a slight pleading intonation, particularly on the rising tone of '吗' at the end, which aligns well with a child's request. The speech is fluent and natural.",
-    "reasoning_model_2": "The model generates the correct content consistent with the script. However, regarding the 'Age' dimension, the voice sounds like an adult female rather than a child. Throughout the clip (00:00-00:03), the resonance is mature and deep, lacking the higher pitch and characteristic vocal tract formatting of a child's voice. While the fluency and naturalness are acceptable for an adult voice, it fails to meet the specific paralinguistic constraint of 'Child's voice'.",
-    "model_comparison": "Model 1 followed the user's specific instruction to use a child's voice ('请用孩童的声音'), delivering a high-pitched, youthful timbre with appropriate pleading prosody. Model 2 ignored this constraint, producing a standard adult female voice. Therefore, Model 1 is the clear winner on the evaluation dimension of 'Age'.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

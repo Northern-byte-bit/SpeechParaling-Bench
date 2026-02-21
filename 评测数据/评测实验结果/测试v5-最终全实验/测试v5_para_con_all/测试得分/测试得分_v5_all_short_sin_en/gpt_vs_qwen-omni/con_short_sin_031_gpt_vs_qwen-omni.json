@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly reproduces the text 'Good morning, my throat feels a bit uncomfortable.' with perfect accuracy. In terms of fluency, the speech is natural with appropriate pacing. Crucially, regarding the required 'hoarse timbre', the model performs excellently. From 00:00 to 00:05, the voice exhibits a distinct raspiness, vocal fry, and breathy quality that perfectly simulates a sore throat or hoarseness. The lower pitch and strained delivery align well with the semantic content of the sentence.",
-    "reasoning_model_2": "The audio reproduces the text content accurately. However, the delivery is highly unnatural given the context. The prosody is exaggerated and 'singsong' (e.g., the intonation on 'morning' at 00:01 and 'uncomfortable' at 00:03). Most importantly, it completely fails the core instruction to use a 'hoarse timbre'. The voice is crystal clear, bright, high-pitched, and energetic, showing absolutely no signs of raspiness, strain, or throat discomfort. It contradicts both the prompt and the meaning of the sentence.",
-    "model_comparison": "Model 1 followed the user's specific instruction to modify the timbre, producing a convincing hoarse and raspy voice that matched the context of a sore throat. Model 2 completely ignored the instruction, producing a clear, bright, and overly expressive voice that was the opposite of 'hoarse'. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

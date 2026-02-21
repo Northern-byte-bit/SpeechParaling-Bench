@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'Don't worry, everything will be fine' with perfect accuracy. The audio flows naturally with a steady, calm pacing that fits the semantic content. Regarding the core paralinguistic feature 'low pitch', the model excels. From 0:00 to 0:04, the speaker utilizes a deep, resonant male voice with a consistently low fundamental frequency. The pitch remains grounded and stable throughout the utterance, effectively conveying the requested acoustic characteristic. The low pitch also enhances the reassuring tone of the message, making the generation fully compliant with the prompt.",
-    "reasoning_model_2": "The model correctly transcribes the content 'Don't worry, everything will be fine' without errors. However, regarding the core requirement 'low pitch', the model fails completely. The generated voice (0:00-0:02) is a high-pitched, somewhat squeaky female or child-like voice. Instead of lowering the pitch, the model has produced audio with a high fundamental frequency, which is the exact opposite of the user's explicit instruction. Therefore, while the content is correct, the feature control is non-existent.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the sentence with a distinct, deep, and low pitch that aligned with the 'low pitch' command. Model 2, on the other hand, generated a voice with a noticeably high pitch, directly contradicting the prompt. As Model 2 expressed the opposite characteristic of what was requested, it receives a score of 0 for the feature dimension. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

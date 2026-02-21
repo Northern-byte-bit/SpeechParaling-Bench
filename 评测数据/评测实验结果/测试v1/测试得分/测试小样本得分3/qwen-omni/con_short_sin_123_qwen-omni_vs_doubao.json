@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reads the text '这份报告怎么会有这么多错误' without pronunciation errors. However, the fluency, while natural for a neutral reading, fails to match the required paralinguistic feature of 'anger' (生气). The tone (0.0s - 2.5s) is gentle, soft, and inquisitive, utilizing a rising intonation at the end typical of a polite question rather than a reprimand. There is no intensity, volume increase, or sharpness in the voice associated with anger. Consequently, it fails the core compliance requirement as the emotional expression is virtually non-existent relative to the prompt.",
-    "reasoning_model_2": "The model correctly reproduces the text content. The fluency is excellent, sounding very human-like. Critically, the model successfully captures the 'anger' (生气) emotion. From the start (0.0s), the attack is sharper and faster. The emphasis on '怎么会' (0.5s - 0.9s) and '这么' (1.2s - 1.5s) is distinct, with a forceful, downward inflection that conveys frustration and annoyance rather than simple curiosity. The overall energy and pacing effectively simulate an angry outburst.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency in terms of audio quality (no artifacts). However, the distinction lies entirely in the Core Paralinguistic Compliance. Model 1 provides a soft, polite questioning tone that completely misses the user's instruction to be 'angry'. Model 2 delivers a forceful, stressed, and emotionally charged performance that accurately reflects the requested anger. Model 2 is the clear winner for following the style instruction.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

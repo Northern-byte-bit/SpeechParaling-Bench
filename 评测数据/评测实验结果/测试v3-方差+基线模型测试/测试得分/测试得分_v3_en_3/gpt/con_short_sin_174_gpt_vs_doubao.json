@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the text to be read with a 'scream'. Model 1 successfully executes this challenging paralinguistic task. From 0:00 to 0:04, the voice exhibits high pitch, significant vocal strain, and volume intensity characteristic of a genuine yell or scream of excitement. The delivery sounds visceral and matches the request for 'Non-Linguistic Vocalizations' (in the form of screaming speech) perfectly. The expansion of 'That\\'s' to 'That is' is a negligible text normalization variance that does not affect the score.",
-    "reasoning_model_2": "Model 2 generates the text with a standard enthusiastic and happy tone (0:00-0:03). While the emotion matches the semantics of the text ('winning'), it completely fails to adhere to the specific paralinguistic instruction to 'scream'. The audio sounds like a typical upbeat narration rather than a high-intensity vocalization. Consequently, it fails the Core Paralinguistic Compliance criterion significantly.",
-    "model_comparison": "The distinction between the two models is significant. Model 1 adheres strictly to the user's constraint, altering the vocal qualities (pitch, timbre, strain) to simulate a scream effectively. Model 2 ignores the specific 'scream' instruction, defaulting to a generic happy tone. While Model 2's audio is cleaner, it is functionally incorrect based on the prompt's requirements. Model 1 demonstrates superior control over paralinguistic features.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

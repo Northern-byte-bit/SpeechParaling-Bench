@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with a distinct and convincing fearful emotion. The delivery is breathy, whispered, and trembling (0.0s-2.5s), which effectively conveys a sense of immediate danger and suspense. The pacing is appropriately slow and hesitant. While there is a minor content deviation where the model expands the contraction 'There's' to 'There is' (0.0s-0.5s), the paralinguistic performance is excellent and aligns perfectly with the user's request for fear.",
-    "reasoning_model_2": "The model follows the text script accurately, including the contraction 'There's'. However, the emotional delivery fails to capture fear. The tone is bright, fast-paced, and reminiscent of a generic cartoon character expressing curiosity rather than fear (0.0s-2.0s). The intonation on 'Who is it?' is flat and casual, lacking the tension, breathiness, or urgency required for the target emotion.",
-    "model_comparison": "Model 1 (T1) significantly outperforms Model 2 (T2) in the core evaluation dimension of Emotion. T1 successfully modifies prosody, voice quality (breathiness/tremor), and pacing to create a genuine sense of fear. T2, conversely, delivers the line with a bright, upbeat, and fast-paced tone that contradicts the requested fearful emotion, sounding more like a casual query. Although T1 has a slight text deviation ('There is' vs 'There's'), its mastery of the required paralinguistic feature makes it the clear winner over T2, which fails to act out the requested emotion.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 delivers the text accurately. In terms of the core feature (halting rhythm), the model successfully executes the stutter at the beginning ('I... I think') around 0:00-0:01. However, the remainder of the sentence ('we need to discuss it again') from 0:01-0:03 is delivered with a relatively smooth and continuous flow. While it captures the initial hesitation, it fails to maintain the requested 'halting' quality throughout the entire sentence, becoming too fluid at the end.",
-    "reasoning_model_2": "Model 2 follows the text accurately. It adheres strictly to the 'halting rhythm' instruction throughout the entire clip. There are distinct, deliberate pauses not just at the start, but throughout the sentence: 'I...' (0:00), 'I think...' (0:01), 'we need to...' (0:02), 'discuss it...' (0:03), 'again' (0:04). The pacing is broken up significantly, effectively conveying hesitation and uncertainty across the whole utterance, rather than just the beginning.",
-    "model_comparison": "Both models accurately speak the content. The key differentiator is the adherence to the 'halting rhythm' constraint. Model 1 starts with a halt but finishes with a standard, smooth rhythm, losing the specific stylistic requirement halfway through. Model 2 maintains a consistent halting rhythm from start to finish, inserting pauses between phrases ('need to', 'discuss it', 'again') that make the delivery sound genuinely hesitant and broken, fulfilling the prompt much better.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

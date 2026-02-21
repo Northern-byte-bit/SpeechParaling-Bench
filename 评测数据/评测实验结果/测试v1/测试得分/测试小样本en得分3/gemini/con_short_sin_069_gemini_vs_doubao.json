@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully synthesizes the text 'Do you have any plans for the weekend?' with 100% content accuracy. Regarding the core paralinguistic feature 'Volume', the audio maintains a consistent, normal conversational level throughout the sentence (0.0s - end). It avoids extremes such as whispering or shouting, perfectly adhering to the 'normal volume' constraint. The fluency is high, with natural prosody and appropriate rising intonation at the end of the question.",
-    "reasoning_model_2": "The generated speech accurately reflects the script 'Do you have any plans for the weekend?' without any omissions or errors. The core requirement for 'normal volume' is met effectively; the voice projection is standard and clear, suitable for a casual interaction. The delivery is smooth and natural, with no noticeable electronic artifacts or unnatural pauses. The model defaults to the requested volume naturally.",
-    "model_comparison": "Both models performed excellent evaluations of the user's command. The instruction to read with a 'normal volume' essentially asks for the standard operating mode of a TTS system, and both models complied without issue. The content in both cases was accurate, and the volume levels were appropriate for a standard conversation (neither quiet nor loud). The naturalness and fluency of both generations were high, indistinguishable in terms of adhering to the specific constraint. Consequently, both models receive a perfect score for this specific task.",
-    "score_1": 3,
-    "score_2": 3,
-    "winner": 0
-}

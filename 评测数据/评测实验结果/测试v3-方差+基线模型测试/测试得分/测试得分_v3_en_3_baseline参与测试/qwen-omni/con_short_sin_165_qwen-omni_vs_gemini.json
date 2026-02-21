@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to follow the paralinguistic instruction. The user requested the sentence be read with 'crying'. However, the audio (0:00-0:04) is delivered with a bright, cheerful, and upbeat tone that completely contradicts the semantic meaning of the text ('sad') and the specific prompt command. There are no non-linguistic vocalizations such as sobbing, sniffing, or trembling. The delivery sounds like a standard, happy TTS voice. Due to expressing the opposite characteristic/tone requested, this receives the lowest score.",
-    "reasoning_model_2": "The model successfully integrates the required paralinguistic feature. At the very beginning (0:00-0:01), there is a distinct, audible gasp or sharp inhalation (a 'sob') that effectively simulates the act of crying before speaking. The subsequent delivery (0:01-0:05) maintains a somber, sad tone with appropriate pacing. Although the model expands the contraction 'I'm' to 'I am', this is a negligible text deviation. The core requirement of 'Non-Linguistic Vocalizations' (the sob) and the emotional tone are vivid and spot-on.",
-    "model_comparison": "Model 1 (T1) completely fails the prompt by using a happy, energetic tone for a sad sentence and including no crying features. Model 2 (T2) correctly interprets the prompt, adding a realistic sobbing vocalization at the start and maintaining a sad demeanor throughout the speech. T2 is the clear winner for following the style and feature constraints.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

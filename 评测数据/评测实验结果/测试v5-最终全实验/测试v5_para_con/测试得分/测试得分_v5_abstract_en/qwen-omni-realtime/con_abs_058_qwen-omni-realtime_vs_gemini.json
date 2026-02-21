@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the text content 'Hurry, hurry! We're almost late, there is no time if we don't go now!' (expanding 'there's' to 'there is' slightly, which is a negligible deviation). The total duration is very short (approx. 3 seconds), indicating a rapid speaking rate. From 00:00 to 00:01, the repetition of 'Hurry, hurry' is delivered with breathless intensity. The phrase 'We're almost late' blends quickly into the next clause. The tone is panicked and rushed, perfectly matching the 'urgent and pressing' requirement. The prosody is natural and human-like.",
-    "reasoning_model_2": "The model fails significantly in complying with the 'urgent and pressing speed' instruction. The audio is roughly 6 seconds long, twice the length of Model 1, indicating a slow tempo. The first word (00:00-00:02) sounds distorted, resembling 'Dyari' or a very drawn-out 'Hurry', which affects content accuracy and naturalness. The delivery of 'We're almost late' (00:02-00:04) is lethargic and slow, completely lacking urgency. The tone sounds more like a tired or confused child than someone in a rush. This is a clear failure to follow the style instruction.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the line with high speed, urgency, and a panicked tone that fits the semantic context. Model 2 failed completely; it was slow, lethargic, and contained a pronunciation artifact at the beginning. Model 1 is the clear winner for the requested paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

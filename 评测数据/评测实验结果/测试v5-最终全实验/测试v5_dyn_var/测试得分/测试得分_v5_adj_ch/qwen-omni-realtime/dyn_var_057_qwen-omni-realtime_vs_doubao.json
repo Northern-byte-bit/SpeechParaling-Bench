@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy. Instead of following the script '我不要吃这个！我讨厌青菜！可是妈妈说吃了才能长高高。', the model hallucinated and read out stage directions or internal descriptions such as '声音渐渐压低' (voice gradually lowers) and '几乎变成耳语' (almost turning into a whisper), and added extra phrases like '啊' and '我真不想吃'. Because the spoken content includes unrelated instruction text and deviates massively from the requested script, it is scored as completely incorrect.",
-    "reasoning_model_2": "The model followed the script perfectly with no errors. In terms of Paralinguistic Compliance, it executed the instructions exceptionally well. The audio starts with a high-volume, emotional shout ('我不要吃这个！'), maintaining high energy for the second phrase, and then drastically reduces volume and intensity for the final sentence ('可是妈妈说...'), transitioning into a sulky, quiet tone that closely resembles a whisper or mumble. The dynamic adjustment from shouting to quietness is distinct, natural, and highly expressive, fitting the context of a child's tantrum perfectly.",
-    "model_comparison": "Model 1 failed the most basic requirement of Content Accuracy by reading out stage directions/descriptions of the vocal effects instead of performing the script with those effects. This renders the generation unusable. Model 2, on the other hand, delivered a high-quality performance that perfectly matched the text and the paralinguistic instruction (shouting to whispering). The emotional delivery in Model 2 was vivid and the volume adjustment was clear.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

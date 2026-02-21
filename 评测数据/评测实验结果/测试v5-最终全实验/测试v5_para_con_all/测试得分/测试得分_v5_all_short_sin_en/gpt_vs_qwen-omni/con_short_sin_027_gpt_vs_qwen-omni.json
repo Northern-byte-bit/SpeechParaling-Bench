@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately speaks the text 'This is my final decision' (00:00-00:02). However, the fluency is poor; the voice sounds robotic, synthetic, and lacks natural prosody, particularly on the word 'decision' which has an unnatural intonation contour. Crucially, regarding the core requirement 'very low pitch', the model fails completely. The generated voice is high-pitched, resembling a child's voice or a high-register female voice, which is the exact opposite of the requested 'very low pitch'. Therefore, it scores 0 on the core dimension.",
-    "reasoning_model_2": "Model 2 accurately articulates the text 'This is my final decision' (00:00-00:02). The fluency and naturalness are excellent; the pacing, timbre, and breathiness sound very human-like and grounded. Regarding the core requirement 'very low pitch', the model generates a voice with a lower, mature register and a serious tone appropriate for the content. While it may not be an artificially deep bass, it effectively utilizes a lower pitch range within a natural human context to convey the weight of a 'final decision'. The execution is spot-on and natural.",
-    "model_comparison": "Model 1 failed to follow the paralinguistic instruction, generating a high-pitched, unnatural voice instead of the requested 'very low pitch'. It also suffered from robotic prosody. Model 2, in contrast, produced a high-quality, natural-sounding audio with a lower, grounded pitch and serious tone that perfectly matched the semantic context and the user's command. Model 2 is superior in both naturalness and feature control.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

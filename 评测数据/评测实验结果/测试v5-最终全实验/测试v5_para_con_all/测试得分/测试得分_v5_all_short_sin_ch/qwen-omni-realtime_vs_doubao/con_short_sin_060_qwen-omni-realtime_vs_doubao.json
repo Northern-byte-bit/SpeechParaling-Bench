@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 completely failed to follow the instruction regarding the specific text to be spoken. The user requested the model to say the sentence '请你好好想想再回答' (Please think it over carefully before answering). Instead of reading this target sentence, Model 1 generated an improvised, role-played monologue ('嗯... 我... 我在想... 想呢... 你说... 得对我得... 慢... 慢来...'). While the generated speech is indeed slow and hesitant, the content is entirely totally inconsistent with the required script. According to the scoring standards, if the voice content is clearly inconsistent with the script, the score must be penalized severely.",
-    "reasoning_model_2": "Model 2 followed the instructions perfectly. It read the exact target sentence: '请你好好想想再回答'. Regarding the paralinguistic feature 'Extremely Slow Speed' (极慢速), the model executed this well. The total duration is around 5 seconds for a short sentence, with significant elongation of syllables and distinct pauses between phrases (e.g., between '请你', '好好想想', and '再回答'). The pacing is consistent with the request for an 'extremely slow' rate while remaining intelligible and devoid of mechanical artifacts.",
-    "model_comparison": "There is a fundamental difference in instruction following between the two models. Model 1 hallucinated a role-play scenario and spoke completely different words than requested, resulting in a failure on Content Accuracy. Model 2 accurately spoke the target text. Regarding the specific dimension of '语速' (Speed), Model 2 successfully applied an extremely slow pace to the correct text. Since Model 1 failed the basic requirement of speaking the correct content, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

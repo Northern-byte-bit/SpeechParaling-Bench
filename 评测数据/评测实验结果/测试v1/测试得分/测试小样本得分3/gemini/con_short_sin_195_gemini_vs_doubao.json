@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly synthesizes the text content '随便你' with clear pronunciation and no omissions. The fluency is adequate, sounding like a standard speech synthesis output. However, regarding the core requirement 'cold tone' (态度：冷淡), the audio fails to convey the necessary emotion. The delivery is flat, neutral, and lacks the specific dismissive, aloof, or detached quality associated with being 'cold'. It sounds like a standard reading rather than a stylized expression of indifference.",
-    "reasoning_model_2": "The model accurately synthesizes the text '随便你' (Content Accuracy). The prosody is natural and fluent. Crucially, the model successfully captures the 'cold' (冷淡) paralinguistic feature. The audio exhibits a distinct downward inflection and a concise, dismissive tone (likely lower pitch and abrupt ending) that effectively communicates the attitude of 'I don't care' or 'As you wish'. The emotional coloring is vivid and spot-on for the requested scenario.",
-    "model_comparison": "Both models achieve perfect content accuracy and good fluency. The deciding factor is the 'Paralinguistic Compliance - CORE'. Model 1 provides a neutral, standard delivery that fails to adhere to the 'cold' tone instruction, resulting in a mismatch between the command and the output style. Model 2 effectively modulates the prosody to sound indifferent and cold, satisfying the user's specific request for attitude. Therefore, Model 2 demonstrates superior control over paralinguistic features.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the content '请注意，演出即将开始。' (Please note, the performance is about to begin). The audio is fluent, clear, and sounds like a standard professional female announcer (0:00-0:03). However, regarding the core constraint 'low pitch' (低音), the generated voice falls within a standard or even slightly high-mid female range. There is no perceptible effort to lower the pitch or create a deep voice profile as requested. While the audio quality is high, it fails to satisfy the specific paralinguistic instruction regarding pitch.",
-    "reasoning_model_2": "The model accurately reproduces the text content. regarding the 'low pitch' instruction, the audio demonstrates a clear compliance (0:00-0:04). The voice is significantly deeper and resonates in a lower register compared to a standard female voice, effectively conveying the 'low pitch' characteristic. While the speaking pace is notably slow and deliberate with distinct pauses, the target feature (pitch) is accurately and consistently maintained throughout the utterance.",
-    "model_comparison": "Model 2 is the clear winner for the requested feature '音高' (Pitch). The user explicitly requested the text to be spoken in a 'low pitch'. Model 1 completely ignored this constraint, producing a standard, mid-range female voice that, while fluent, did not meet the feature requirement. Model 2 successfully generated a voice with a noticeably lower fundamental frequency, strictly adhering to the command. Although Model 2's pacing was slower, it correctly implemented the core control variable, whereas Model 1 did not.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

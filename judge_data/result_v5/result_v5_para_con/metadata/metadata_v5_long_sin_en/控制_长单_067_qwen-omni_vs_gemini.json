@@ -1,0 +1,14 @@
+{
+    "sample_index": 67,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a normal volume: 'I'm going to the library to study tomorrow, if you're free, we could discuss the topic selection for our final thesis together and bounce ideas off each other.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

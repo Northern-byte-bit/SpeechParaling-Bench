@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generates the content '这件事儿需要我们认真考虑' (0.0s-1.5s). While the text is largely correct (with a slight 'erhua' accent on '事'), the core instruction 'Please speak in a low pitch' (请用低音说) is completely ignored. The audio features a bright, medium-to-high pitched female voice. The tone is relatively light and energetic, which contradicts the requested 'low pitch' and the serious nature of the text. There is no attempt to lower the pitch or create a deep resonance; instead, it sounds like a standard default synthesis. Therefore, it fails to meet the specific paralinguistic constraint.",
-    "reasoning_model_2": "Model 2 generates the content '这件事，需要我们认真考虑' (0.0s-2.5s). The speech is extremely fluent and natural. Crucially, the model strictly adheres to the 'low pitch' instruction. It utilizes a deep, resonant male voice with a significant low-frequency profile. The delivery creates a sense of gravity and seriousness (0.0s-2.5s), perfectly matching the semantic meaning of 'needs serious consideration'. The pitch control is stable and clearly falls into the 'low/bass' category, demonstrating excellent control over the requested feature.",
-    "model_comparison": "The user requested the text be spoken with a 'low pitch'. Model 2 followed this instruction perfectly, generating a deep, resonant male voice that conveys the weight of the message. Model 1, conversely, used a bright, higher-pitched female voice, which is the opposite of the requested feature. Model 2 is the clear winner for adhering to the feature control constraint.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

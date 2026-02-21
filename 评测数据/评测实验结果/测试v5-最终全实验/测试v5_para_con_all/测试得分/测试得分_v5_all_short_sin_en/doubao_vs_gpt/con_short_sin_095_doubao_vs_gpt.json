@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully isolates and reads the target text: 'Today's class was truly…so…boring.' Content accuracy is perfect. Regarding the paralinguistic requirement 'dragging rhythm', the model executes this flawlessly. From 00:00 to 00:08, every word is spoken with a heavy, slow cadence. Specifically, the words 'truly' (00:03), 'so' (00:05), and 'boring' (00:06-00:08) feature significant vowel elongation and lethargic delivery. The pauses between the words match the ellipses in the text. The overall effect vividly conveys the feeling of boredom through the requested dragging rhythm.",
-    "reasoning_model_2": "The model completely fails the instruction. Instead of generating audio for the target sentence 'Today's class was truly…so…boring.', it reads the user's prompt itself: 'Please read this sentence with a dragging rhythm' (00:00-00:04). According to the Detailed Scoring Standard, if the voice content is clearly inconsistent with the script or completely changed due to major errors, the score must be 0. Since it did not read the target text at all, it cannot be evaluated for the target rhythm.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with a highly expressive and accurate 'dragging rhythm' that enhanced the semantic meaning of the sentence. Model 2 failed the fundamental task of instruction following, reading the prompt instructions instead of the target sentence. Therefore, Model 1 is the definitive winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

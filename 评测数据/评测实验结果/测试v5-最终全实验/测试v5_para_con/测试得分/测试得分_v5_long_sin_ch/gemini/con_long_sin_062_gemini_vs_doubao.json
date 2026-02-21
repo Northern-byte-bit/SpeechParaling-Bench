@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model's content is perfectly accurate, matching the script exactly. In terms of fluency and naturalness, the speech is very natural, exhibiting the prosody and rhythm expected of a human shouting in an emergency situation. Regarding the core paralinguistic feature 'Volume' (Shouting), the model performs exceptionally well. The voice is projected with high intensity, audible vocal strain, and urgency, typical of someone shouting to a crowd. The energy is sustained throughout the utterance, perfectly adhering to the user's command to use a 'shouting volume'.",
-    "reasoning_model_2": "The model's content is accurate relative to the script. The fluency is good, sounding like a high-quality standard text-to-speech engine. However, regarding the core paralinguistic feature 'Volume' (Shouting), the model fails completely. It delivers the lines in a calm, standard broadcasting or reading tone, similar to a pre-recorded PA announcement. There is no attempt to simulate 'shouting' or increased vocal effort. It ignores the specific instruction to use a 'shouting volume', resulting in a delivery that is contextually mismatched with the requested style.",
-    "model_comparison": "The user explicitly requested the audio to be spoken with a 'shouting volume' (喊叫的音量). Model 1 (T1) followed this instruction perfectly, generating audio that sounds like a person genuinely shouting with urgency and high vocal projection. Model 2 (T2), while producing clear audio, completely ignored the style constraint, delivering the text in a standard, calm reading voice. Since T1 adhered to the core controllable feature while T2 failed to manifest it at all, T1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

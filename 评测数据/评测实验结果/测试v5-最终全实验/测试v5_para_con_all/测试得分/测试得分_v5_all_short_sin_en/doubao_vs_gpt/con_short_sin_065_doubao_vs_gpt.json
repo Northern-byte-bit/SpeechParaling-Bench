@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user's command required the model to read the specific sentence: 'Did you hear me? What did I just say?'. However, Model 1 failed to generate the requested speech content entirely. Instead of performing the Text-to-Speech task, it generated a conversational response to the prompt: 'I can hear you. You want me to read the sentence loudly.' (0.0s - 2.5s). Because the content is completely inconsistent with the script and the model failed to perform the core task, the score is 0 according to the 'Completely incorrect' criterion.",
-    "reasoning_model_2": "Model 2 follows the command to read the target text. The content generated is 'Did Did you hear me? What did I just say?'. There is a noticeable fluency error/stutter at the very beginning (0.0s - 0.4s) where the word 'Did' is repeated. However, regarding the controllable feature 'Volume', the model performs well. The delivery is projected and forceful, maintaining a loud volume throughout the sentence (0.0s - 3.2s) which matches the 'loudly' instruction perfectly. The tone conveys urgency and projection consistent with shouting or speaking loudly to someone far away. Despite the fluency flaw (stutter), the target feature is clearly present.",
-    "model_comparison": "Model 1 receives a score of 0 because it failed to read the target text, instead responding meta-cognitively to the prompt. Model 2 successfully generated the target text with the requested 'loud' volume. Although Model 2 exhibits a minor fluency issue (a stutter on the first word), it successfully executes the paralinguistic instruction, whereas Model 1 fails the task completely. Therefore, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 2,
-    "winner_1": 2
-}

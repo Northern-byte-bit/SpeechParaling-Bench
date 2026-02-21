@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script '我刚才呛到了，有点不舒服。'. However, the model completely fails to incorporate the required paralinguistic feature: coughing (非语言发声). The delivery is a standard, calm reading (0:00-0:03) with a neutral tone that contradicts the semantic meaning of being choked or uncomfortable. There are no coughing sounds, breathlessness, or strain in the voice. As the core instruction 'carry coughing' was entirely ignored, the performance is evaluated as lacking the controllable feature entirely.",
-    "reasoning_model_2": "The model successfully integrates the required paralinguistic feature. From 0:00 to 0:04, the audio begins with a realistic and intense sequence of coughing sounds, directly addressing the user's command. When the speech begins at 0:04 ('我刚才呛到了'), the voice exhibits a strained, breathless quality consistent with the physical aftermath of choking. The phrase '有点不舒服' (0:06-0:08) is delivered with a struggling, weary tone and heavy exhalation. The content is accurate, and the inclusion of non-verbal sounds makes the generation highly vivid and natural in this context.",
-    "model_comparison": "There is a stark contrast between the two models. Model 1 (T1) completely ignored the specific instruction to include coughing, resulting in a neutral reading that failed the prompt's core requirement. Model 2 (T2) fully embraced the instruction, generating realistic coughing sounds before the speech and maintaining a consistent, physically strained persona throughout the dialogue. T2 demonstrates superior control over paralinguistic features and context awareness.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

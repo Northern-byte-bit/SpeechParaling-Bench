@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates a voice that perfectly aligns with the instruction 'extremely high pitch'. The speaker (sounding like a male voice) utilizes a falsetto or head voice register (0:00-0:05) to achieve a significantly elevated pitch compared to a normal speaking voice. The delivery is full of excitement and disbelief, matching the semantic content of winning the lottery. The pitch is consistently high throughout the sentence, accurately reflecting the 'extreme' modifier in the prompt. The articulation is clear, and the prosody is natural for such an emotional state.",
-    "reasoning_model_2": "The model generates a standard female voice with a moderate, conversational pitch. While the content is accurate and the speech is fluent, it completely fails to adhere to the specific paralinguistic instruction to use an 'extremely high pitch'. The tone is relatively calm and grounded (0:00-0:04), lacking the elevated frequency range or the intensity requested. It sounds like a normal reading of the text rather than a performance with the requested vocal feature.",
-    "model_comparison": "The user explicitly requested the text to be spoken with an 'extremely high pitch'. Model 1 (T1) successfully executed this by generating a voice that is significantly pitched up, conveying intense excitement and surprise through a high register (falsetto-like). Model 2 (T2), conversely, produced a standard female voice in a normal, comfortable register with no attempt to raise the pitch to an 'extreme' level. Therefore, T1 followed the core constraint, while T2 failed to modify the pitch as requested.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

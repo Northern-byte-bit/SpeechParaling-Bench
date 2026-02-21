@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script 'Sorry, I have to go, the next bus is leaving!'. The delivery is continuous and rapid, lacking distinct pauses between clauses (0:00-0:03). The speaker adopts a breathless, urgent tone that naturally accompanies a fast pace, effectively simulating the rush of trying to catch a bus. The pace is consistently fast, adhering strictly to the user's command for a 'very fast pace'.",
-    "reasoning_model_2": "The audio accurately recites the text. However, the pacing does not align well with the instruction for a 'very fast pace'. There is a distinct, noticeable pause after the word 'Sorry' (around 0:00-0:01) and a slight break after 'go'. These pauses significantly slow down the overall delivery, resulting in a rhythm that feels more like a standard, measured conversational pace rather than a hurried or very fast one. The urgency required by the prompt is largely missing due to these interruptions.",
-    "model_comparison": "Model 1 (T1) successfully executes the 'very fast pace' command by delivering the line in a single, rapid stream of speech without unnecessary pauses, effectively conveying the urgency of the situation. In contrast, Model 2 (T2) introduces distinct pauses (e.g., after 'Sorry') which disrupt the flow and slow down the rate of speech to a normal, conversational level. Therefore, T1 demonstrates superior adherence to the paralinguistic constraint.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

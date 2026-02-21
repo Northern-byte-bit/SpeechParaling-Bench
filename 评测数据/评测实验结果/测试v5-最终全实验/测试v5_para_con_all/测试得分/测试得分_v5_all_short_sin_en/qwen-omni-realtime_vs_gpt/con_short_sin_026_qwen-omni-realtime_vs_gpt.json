@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the text 'Night has fallen, and a mysterious aura fills the forest' with high content accuracy and no errors. Regarding the core paralinguistic feature 'Pitch', the audio demonstrates a significant adherence to the prompt. From 00:00 to 00:05, the voice maintains a deep, resonant, and very low pitch, consistent with a male baritone or bass range. This low pitch effectively enhances the semantic atmosphere of the sentence ('mysterious aura'). The delivery is stable, and the pitch does not waver into higher registers, fully satisfying the constraint of 'very low pitch'.",
-    "reasoning_model_2": "The model accurately speaks the text content with good fluency and naturalness. However, regarding the core paralinguistic feature 'Pitch', the model fails completely to follow the instruction. The generated voice is a higher-pitched, youthful female voice (00:00-00:04). Instead of a 'very low pitch', the audio exhibits a standard to high pitch range that is bright and clear. This is the direct opposite of the requested feature. Consequently, the atmospheric quality of 'mysterious' is lost, and the constraint is not met.",
-    "model_comparison": "Model 1 followed the specific instruction to use a 'very low pitch', producing a deep, resonant voice that matched both the constraint and the mood of the text. Model 2 completely ignored the pitch constraint, producing a standard high-pitched voice. Therefore, Model 1 is the clear winner for complying with the feature control request.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

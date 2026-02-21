@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model demonstrates excellent compliance with the specific paralinguistic instruction. \n1. **Content Accuracy:** The spoken content matches the text strictly.\n2. **Fluency:** The speech is natural, with appropriate pausing between the sentences.\n3. **Paralinguistic Compliance (Pitch):** The model effectively implements the dynamic adjustment. From 00:00 to 00:02 ('你看，那是什么？'), the voice uses a very deep, resonant, and low pitch, accurately reflecting '极低音'. Starting around 00:03 ('原来是...'), the voice smoothly transitions into a brighter, standard medium pitch for the rest of the sentence. The contrast is distinct and the transition is natural.",
-    "reasoning_model_2": "The model fails to adhere to the dynamic pitch instructions.\n1. **Content Accuracy:** The text is correct.\n2. **Fluency:** The speech is fluent but delivered at a rather fast, uniform pace that lacks expressiveness.\n3. **Paralinguistic Compliance (Pitch):** The audio maintains a relatively flat and consistent pitch profile from start to finish. The beginning at 00:00 is not 'very low' (it is standard range), and there is no perceptible transition or gradient to a 'medium' pitch. The feature remains constant throughout, ignoring the request for dynamic adjustment.",
-    "model_comparison": "Model 1 followed the complex instruction to change pitch dynamically within a single utterance. It started with a distinct low pitch and transitioned effectively to a medium pitch, enhancing the storytelling aspect. Model 2 produced a flat, standard reading with no noticeable pitch variation or dynamic change, completely missing the core constraints of the prompt. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

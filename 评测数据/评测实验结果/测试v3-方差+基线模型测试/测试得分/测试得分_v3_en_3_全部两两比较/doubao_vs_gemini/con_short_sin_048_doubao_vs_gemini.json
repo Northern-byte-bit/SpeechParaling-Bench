@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the correct text content: 'Sorry, I have to go, the next bus is leaving'. However, regarding the core requirement 'very fast pace', the performance is lacking. The audio contains distinct pauses, particularly after 'Sorry' (0:00-0:01) and 'go' (0:01-0:02), resulting in a delivery that sounds urgent but operates at a standard conversational speed rather than a 'very fast' one. The total duration is longer than expected for a fast-paced command. While the tone suggests urgency, it fails to meet the specific speed constraint.",
-    "reasoning_model_2": "The model generates the correct text content with high accuracy. In terms of the core requirement 'very fast pace', this model performs excellent. From 0:00 to the end, the sentence is delivered rapidly with very minimal pausing, effectively blending 'I have to go' and 'the next bus is leaving' into a quick stream of speech typical of someone in a rush. The articulation remains clear despite the high speed, satisfying both the content and paralinguistic constraints perfectly.",
-    "model_comparison": "Model 2 is the clear winner. The user specifically requested a 'very fast pace'. Model 1 delivered the line with an urgent tone but at a normal, measured speed with distinct pauses between phrases. Model 2 effectively increased the speaking rate, delivering the line rapidly without significant pauses, which aligns perfectly with the instruction. Model 1 failed the core constraint of speed, whereas Model 2 succeeded.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

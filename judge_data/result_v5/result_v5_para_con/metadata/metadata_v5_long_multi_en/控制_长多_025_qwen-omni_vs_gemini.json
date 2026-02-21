@@ -1,0 +1,16 @@
+{
+    "sample_index": 25,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sigh and a cold tone: 'Sigh, it's weekend cleaning time again. These tasks are endless, I really wish someone could do all the housework for me.'",
+    "dimensions": [
+        "Attitude",
+        "Non-Linguistic Vocalizations"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

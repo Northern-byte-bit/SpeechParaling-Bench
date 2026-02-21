@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly in Content Accuracy. Instead of reading the requested script, it hallucinated several phrases and words, saying: 'This fraudulent behavior is a moral decay and forgivable, unacceptable, and it must be severely punished, no question, to give the victims justice.' The inclusion of 'forgivable' contradicts the sentiment before being corrected to 'unacceptable', and the addition of 'no question' is a deviation from the script. Due to these severe hallucinations and content errors which completely alter the delivery, the audio is considered a failure regardless of the emotional tone used.",
-    "reasoning_model_2": "The model followed the script perfectly with 100% Content Accuracy. In terms of the 'indignant' emotion, the speaker adopts a stern, serious, and emphatic tone. There is appropriate stress placed on key phrases like 'moral decay' (00:02) and 'severely punished' (00:05). The pacing creates a sense of gravity and strong disapproval, effectively conveying the requested indignation without sounding artificial or exaggerated. The delivery is natural and fluent.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the primary constraint of Content Accuracy by hallucinating multiple phrases and words ('forgivable', 'unacceptable', 'no question') that were not in the prompt, effectively ruining the output. Model 2, by contrast, delivered the text accurately and applied the requested 'indignant' emotion effectively through a stern, authoritative, and emphatic delivery that captured the sense of moral outrage naturally.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generates the target sentence '你必须完成作业才能玩游戏' within the segment 00:00-00:02. However, it fails the content accuracy requirement by adding a significant amount of unrequested text (hallucination) from 00:02 to 00:10 (e.g., '这是规定，也是为了让你...'). Regarding the specific command to stress '必须' (must), the rapid pacing of the initial sentence suggests a standard conversational flow where the prosodic emphasis on '必须' is not distinctly highlighted. The model prioritizes a roleplay persona over the specific feature control instruction, diluting the intended emphasis.",
-    "reasoning_model_2": "Model 2 strictly adheres to the requested text content, with no hallucinations or omissions, ending the audio at 00:03. The pacing is measured and deliberate. The segment 00:00-00:02 covers '你必须完成作业', allowing sufficient duration to apply the requested stress on '必须'. The pause before '才能玩游戏' (00:02) further reinforces the weight of the condition containing the stressed word. The emphasis is clearly perceivable and the delivery is natural, meeting the 'Stress' feature requirement effectively.",
-    "model_comparison": "Model 2 is the clear winner. It correctly interprets the task as a controllable speech generation task, adhering strictly to the text script and successfully executing the 'Stress' (重音) command on '必须'. Model 1, conversely, treats the prompt as a conversational turn, hallucinating a large amount of extra text which violates the 'Content Accuracy' criterion (no extra words). Additionally, Model 1's conversational speed likely obscures the requested emphasis, whereas Model 2's deliberate pacing highlights it.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

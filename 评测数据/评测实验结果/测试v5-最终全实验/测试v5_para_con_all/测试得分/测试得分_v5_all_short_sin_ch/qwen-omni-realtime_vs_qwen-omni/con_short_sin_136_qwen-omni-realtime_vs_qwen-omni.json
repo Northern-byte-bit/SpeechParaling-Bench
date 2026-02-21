@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content of Model 1 strictly follows the user's command to read the specific sentence: '这个周末，我们是去看电影还是去公园呢？'. There are no additions, omissions, or hallucinations in the text. Assuming the audio correlates with a standard generation for this task, the content accuracy is perfect. By adhering exactly to the script, the model allows the listener to focus on the 'hesitant' intonation of the question itself, satisfying the primary constraint of the prompt.",
-    "reasoning_model_2": "Model 2 fails the 'Content Accuracy' criterion completely. The user's instruction was to 'say' a specific sentence ('请...说：...'). However, Model 2 generated a long, improvised monologue acting out a hesitant character ('嗯，这个周末啊，其实我有点拿不定主意呢...'). While the generated text itself describes a hesitant cognitive state, the model acted as a chatbot generating a reply rather than an audio model synthesizing the requested script. According to the evaluation criterion, if voice content is clearly inconsistent with the script, the score must be 0.",
-    "model_comparison": "Model 1 is the clear winner because it followed the fundamental instruction to synthesize the specific text provided. Model 2 failed the 'Content Accuracy' dimension by hallucinating a completely different, lengthy script instead of reading the target sentence. In a controlled audio generation task, adherence to the input script is the first prerequisite. Since Model 2's content is 'completely incorrect' relative to the prompt's requirement, it receives a score of 0, while Model 1 receives a high score for complying with the content constraints.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

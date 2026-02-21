@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly synthesizes the text 'I\\'ll go to the supermarket to buy some groceries tomorrow' [0.00s - 3.20s]. The content is accurate with no missing words. Regarding the 'medium pitch' requirement, the voice sits in a central register. However, the prosody is somewhat flat, and the sentence ends abruptly without a natural falling intonation [2.90s - 3.20s], likely due to the lack of terminal punctuation interpretation. This gives the speech a slightly robotic or 'hovering' feel, which detracts from the overall naturalness.",
-    "reasoning_model_2": "The model generates the audio for 'I\\'ll go to the supermarket to buy some groceries tomorrow.' with high fidelity [0.00s - 3.40s]. The voice maintains a consistent medium pitch throughout the sentence. The fluency is superior, characterized by a natural rhythm and a clear, conclusive falling tone at the end of the sentence [3.00s - 3.40s]. This prosodic contour makes the speech sound significantly more human-like and confident while strictly adhering to the pitch constraint.",
-    "model_comparison": "Both models follow the instructions regarding text content and the general pitch range. However, Model 2 is the clear winner due to its superior prosody and naturalness. Model 1's delivery feels slightly unresolved and mechanical at the end, whereas Model 2 provides a natural sentence closure with appropriate intonation. This makes Model 2's expression of the 'medium pitch' feature feel more integrated into natural speech rather than just a flat acoustic setting.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

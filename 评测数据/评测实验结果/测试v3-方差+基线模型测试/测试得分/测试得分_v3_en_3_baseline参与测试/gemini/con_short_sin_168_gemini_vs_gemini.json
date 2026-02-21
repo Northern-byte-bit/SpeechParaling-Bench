@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model was tasked with reading the sentence 'This weather is so hot, I'm melting' with a sigh. The generated audio includes a non-linguistic vocalization at the beginning ('Huh...'), effectively simulating a sigh [0.0s - 1.0s]. This demonstrates successful control over the requested paralinguistic feature. However, regarding Content Accuracy, the model expanded the contraction 'I'm' to 'I am' ('... I am melting'). While this does not alter the meaning, strictly speaking, it is a minor deviation from the script provided in the prompt. The overall naturalness appears adequate, with the sigh integrated smoothly.",
-    "reasoning_model_2": "The generated audio for Model 2 is textually identical to Model 1. It begins with the vocalized sigh 'Huh...' [0.0s - 1.0s], satisfying the 'Non-Linguistic Vocalizations' requirement of the prompt. Like Model 1, it also expands the contraction 'I'm' to 'I am' in the phrase 'I am melting'. This constitutes a minor content accuracy flaw according to the strict evaluation criteria. The paralinguistic feature is clearly present and identifiable.",
-    "model_comparison": "Both models produced identical outputs in terms of the provided text transcriptions. Both successfully integrated the requested 'sigh' as a non-linguistic vocalization ('Huh...') at the start of the sentence. Both models also shared the same minor content accuracy issue by changing 'I'm' to 'I am'. Consequently, there is no distinction between the two performances based on the provided data.",
-    "score_1": 2,
-    "score_2": 2,
-    "winner": 0
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates a female voice that clearly articulates the sentence 'The ending of this story is truly beautiful.' (00:00-00:04). The content is accurate and the flow is natural. Regarding the core paralinguistic feature 'bright timbre', the audio succeeds admirably. The voice has a high-frequency resonance, clear articulation, and an uplifting, cheerful quality typically associated with a 'bright' tone. The pitch profile is elevated and dynamic, effectively conveying the requested acoustic characteristic without sounding shrill or unnatural.",
-    "reasoning_model_2": "The model generates a male voice reading the text accurately (00:00-00:03). However, regarding the 'bright timbre' instruction, the model fails to deliver. The generated voice is deep, somewhat breathy, and resonant in the lower frequencies. Acoustically, this corresponds more to a 'dark', 'warm', or 'mellow' timbre rather than a 'bright' one. While the speech is fluent and natural as a standalone utterance, it does not reflect the specific user constraint for a bright sound profile.",
-    "model_comparison": "Model 1 followed the instruction perfectly. The prompt specifically requested a 'bright timbre'. Model 1 provided a clear, higher-pitched, and resonant female voice that fits the acoustic definition of brightness. Model 2 provided a deep, breathy male voice which is acoustically the opposite (dark/warm). Therefore, Model 1 is the clear winner for adhering to the specific paralinguistic constraint.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

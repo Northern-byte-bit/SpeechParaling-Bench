@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The provided input for Model 1 consists solely of the text string 'Home is our warmest harbor.' and does not contain any audio data or embeddings. The evaluation criteria specifically require assessing 'Paralinguistic Compliance' (Timbre) and 'Fluency', which are auditory features. Since the model output is text rather than audio, the audio content is considered empty. According to the scoring standard ('If the generated audio is extremely poor or the content is empty, you must assign a score of 0'), this generation receives a score of 0.",
-    "reasoning_model_2": "Similarly, the input provided for Model 2 is the text string 'Home is our warmest harbor.' without any audio content. Without audio, it is impossible to evaluate the required feature of 'rich timbre' or the naturalness of the speech. The model failed to generate the requested audio format, resulting in 'empty' audio content. Therefore, it receives a score of 0.",
-    "model_comparison": "Both models failed to generate evaluateable audio, providing only text transcripts of the prompt script. Paralinguistic features such as timbre cannot be assessed on text output. As both inputs lack the necessary audio modality to be judged against the criteria (Timbre, Fluency), they are both assigned a score of 0 for empty content, resulting in a tie.",
-    "score_1": 0,
-    "score_2": 0,
-    "winner": 0
-}

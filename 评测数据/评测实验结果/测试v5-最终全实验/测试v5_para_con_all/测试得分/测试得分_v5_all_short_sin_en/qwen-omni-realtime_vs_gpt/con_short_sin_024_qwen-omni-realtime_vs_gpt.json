@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the sentence 'Please note, the performance is about to begin.' with high content accuracy and no missing words. In terms of paralinguistic compliance, the model adopts a male voice with a noticeably deep, resonant, and low pitch throughout the entire clip (0:00-0:04). The tone is calm and authoritative, perfectly aligning with the user's instruction to read with a 'low pitch'. The fluency is excellent, with natural prosody and pacing appropriate for an announcement.",
-    "reasoning_model_2": "The model correctly generates the text content 'Please note the performance is about to begin.' However, regarding the core instruction to use a 'low pitch', the model fails significantly. The generated audio features a higher-pitched, somewhat bright female-sounding voice. The pitch is not low; in fact, it leans towards the higher end of the spectrum (0:00-0:03). This is the direct opposite of the requested feature. While the speech is relatively fluent, the failure to follow the specific paralinguistic control instruction is the primary issue.",
-    "model_comparison": "Model 1 followed the instruction perfectly. It utilized a deep, low-pitched voice that conveyed the requested characteristic effectively and naturally. Model 2 failed completely to adhere to the 'low pitch' constraint, instead generating a voice with a standard to high pitch. Since Model 2 expressed the opposite characteristic of what was requested, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

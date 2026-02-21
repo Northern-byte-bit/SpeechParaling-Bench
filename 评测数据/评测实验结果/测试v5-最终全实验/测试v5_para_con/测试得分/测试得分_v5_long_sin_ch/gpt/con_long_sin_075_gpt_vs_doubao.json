@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails to follow the core instruction regarding the paralinguistic feature 'Volume' (Whisper). Throughout the entire audio (00:00-00:07), the speaker uses a standard, full-modal voice (normal phonation) rather than a whisper. There is no breathy quality or reduced volume characteristic of whispering. Additionally, regarding Content Accuracy, the model omits the final character '吧' from the script, ending at '这一幕' instead of '这一幕吧'. Because it completely ignores the requested sound feature and has a content omission, it scores very poorly.",
-    "reasoning_model_2": "Model 2 follows the instruction perfectly. From 00:00 to 00:07, the entire utterance is delivered in a high-quality whisper (unvoiced or partially whispered phonation). The volume is appropriately low, and the breathy texture matches the context of speaking quietly in a movie theater. The pacing is natural, with appropriate pauses after '嘘' and before the final clause. The content is 100% accurate, including the final particle '吧'. The expression is vivid and completely aligns with the 'Feature Control' requirement.",
-    "model_comparison": "Model 2 is the clear winner. The user specifically requested the text to be spoken in a 'whisper volume' (耳语的音量). Model 2 successfully executed this by generating a realistic whispered voice. In contrast, Model 1 used a normal speaking voice, completely failing to adhere to the style constraint. Furthermore, Model 1 omitted the last character of the text, whereas Model 2 was accurate. Model 2 demonstrates superior control over paralinguistic features.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

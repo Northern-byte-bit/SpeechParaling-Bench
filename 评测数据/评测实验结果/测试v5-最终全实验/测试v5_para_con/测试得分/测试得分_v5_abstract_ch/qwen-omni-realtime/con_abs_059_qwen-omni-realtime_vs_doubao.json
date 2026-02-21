@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command explicitly requested the model to say: '信号好像越来越弱了，你赶紧把重点说完，不然就断线了！'. However, Model 1 completely hallucinated the content, generating a different script: '信号真快撑不住了，你快点说重点啊，再拖下去就彻底断了，我这耳朵都竖着听呢，别让我等死啊'. Although the tone is expressive and urgent, the content accuracy is a critical failure. According to the scoring criteria, if voice content is clearly inconsistent with the script, it receives a score of 0.",
-    "reasoning_model_2": "Model 2 follows the script perfectly with no omissions or errors. The paralinguistic performance is excellent. From 00:00 to 00:04, the speaking rate is noticeably fast, effectively simulating a 'rushing' (催促) behavior. The tone is tense and anxious, matching the context of a failing signal. The prosody is natural, and the urgency is conveyed vividly without sounding mechanical. It fully satisfies the requirement for '急切催促' (urgent rushing speed).",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental constraint of Content Accuracy by completely rewriting the script, which automatically results in a score of 0 according to the evaluation criteria, regardless of its emotional expressiveness. Model 2, on the other hand, delivered the correct text with a high degree of naturalness and effectively portrayed the required 'urgent and rushing' tone. The pacing in Model 2 was fast and the intonation was appropriately anxious, fulfilling the user's request perfectly.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

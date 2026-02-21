@@ -1,0 +1,16 @@
+{
+    "sample_index": 48,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hoarse voice, with a clear pause after the word 'throat': 'My throat, is really uncomfortable today; it feels like my throat is on fire. And my head is dizzy too, I might need to take a day off to rest.'",
+    "dimensions": [
+        "Pause",
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 1
+}

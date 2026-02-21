@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '你必须完成作业，才能玩游戏'. The articulation is clear, and the pacing is moderate (duration approx 3s). Regarding the specific command to emphasize '必须' (must), the model executes this reasonably well. The word '必须' (00:00-00:01) is spoken with a firm, slightly heavier tone and clear enunciation compared to the surrounding text. The pause after '作业' adds to the authoritative tone suitable for a command involving 'must'. While the acoustic intensity contrast isn't extremely exaggerated, the prosodic weight is placed correctly on '必须', making the requirement sound mandatory.",
-    "reasoning_model_2": "The model generates the correct text '你必须完成作业才能玩游戏'. The speech style is very casual, fast-paced (duration approx 2s), and sounds somewhat 'cute' or lighthearted. Regarding the specific instruction to emphasize '必须', the model fails to deliver. The phrase '你必须完成' is rushed through (00:00-00:01) without any noticeable change in pitch, duration, or loudness on '必须'. The word blends completely into the rest of the sentence, lacking the semantic weight or stress required by the prompt.",
-    "model_comparison": "Model 1 strictly follows the instruction to emphasize the target word. In Audio T1, '必须' is articulated with distinct clarity and a tone of authority, effectively conveying the stress required by the prompt. The pacing allows the listener to perceive the importance of the word. Model 2, on the other hand, adopts a fast and casual speaking style where '必须' is glossed over without any emphasis, failing to meet the core requirement of the prompt. Therefore, Model 1 is significantly better in terms of feature control (Stress).",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

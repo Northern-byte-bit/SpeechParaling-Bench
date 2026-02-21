@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generated the spoken content without any non-speech artifacts or hallucinations. However, regarding Content Accuracy, the model failed to adhere strictly to the script by expanding contractions; specifically, it output 'It is over' instead of 'It's over' and 'I am definitely' instead of 'I'm definitely'. This expansion negatively impacts the Fluency and Naturalness, as 'fearful' speech in a hurry would naturally use contractions. While the transition from fear to surprise is textually implied, the formal expansion of words makes the delivery stiffer than a natural human performance.",
-    "reasoning_model_2": "The model failed significantly in Content Accuracy. Instead of simply performing the script with the requested emotions, it vocalized (or included in the text generation) stage directions in Chinese (e.g., '声音颤抖，充满恐惧' meaning 'Voice trembling, full of fear' and '突然语气上扬，充满惊讶' meaning 'Suddenly tone rises, full of surprise'). This inclusion of meta-descriptions within the generated speech constitutes a major addition error, rendering the audio unusable for its intended purpose despite potentially correct emotional intent.",
-    "model_comparison": "Model 1 is the clear winner. While Model 1 had minor content accuracy issues regarding the expansion of contractions (which slightly affected naturalness), it produced a clean audio output containing only the requested script. Model 2, conversely, failed the fundamental requirement of Content Accuracy by including extraneous Chinese stage directions describing the emotions rather than just acting them out. This makes Model 2's output a complete failure in terms of usability.",
-    "score_1": 2,
-    "score_2": 0,
-    "winner": 1
-}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 130,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a fearful emotion: 'Outside, lightning and thunder suddenly struck, accompanied by strong winds and heavy rain, and the windows rattled loudly. I'm alone at home, feeling so scared, wondering when this storm will stop.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the required paralinguistic feature 'shouting volume' throughout the entire audio (0:00-0:03). The speaker uses a loud, projected voice with high energy and forceful articulation, consistent with someone shouting 'Jiayou!' to encourage others. The pitch is elevated, and the intensity is maintained from the initial '加油' (Come on) to the final '我们一定能赢' (We will definitely win). The delivery sounds natural for a shouting context, without clipping or robotic artifacts. The content is accurate.",
-    "reasoning_model_2": "The model generates the text accurately and fluently (0:00-0:03), but it completely fails to adhere to the specific paralinguistic instruction 'shouting volume'. The voice is delivered in a standard, calm, and conversational volume. The tone is gentle and encouraging rather than forceful or loud. There is no audible attempt to increase volume or project the voice as requested by the prompt. While the audio is high-quality in terms of fidelity, it scores 0 on the specific feature dimension because the requested characteristic is entirely absent.",
-    "model_comparison": "The user's command explicitly requested the audio to be spoken with a 'shouting volume' (喊叫的音量). Model 1 followed this instruction perfectly, delivering the line with high volume, strong projection, and the energetic intensity typical of a shout. Model 2, conversely, ignored the volume constraint completely, delivering the line in a soft, conversational tone that is the opposite of shouting. Therefore, Model 1 is the clear winner for correctly implementing the controlled feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

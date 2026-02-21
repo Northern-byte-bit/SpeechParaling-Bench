@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly follows the instruction to read the specific sentence 'Grandchild, put on more clothes, don't catch a cold.' without any errors, omissions, or additions. The audio (00:00 - 00:04) features a deep, resonant voice with a slower tempo and a slightly gravelly texture, characteristic of an elderly male. The prosody is caring yet authoritative, fitting the persona of a grandfather giving advice. The pauses are natural, and the 'Age' feature is clearly and authentically expressed.",
-    "reasoning_model_2": "The model fails the 'Content Accuracy' criterion significantly. Instead of reading the requested sentence ('Grandchild, put on more clothes, don't catch a cold.'), the model hallucinates a completely different script ('Ah, my dear, you must put on more clothes... when I was young...'), turning a short sentence into a long, improvised monologue (00:00 - 00:17). While the voice attempts a character-like tone, it sounds more like a stylized or younger voice mimicking age rather than a natural elderly voice. However, the primary reason for failure is the complete disregard for the textual constraints of the prompt.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact text with a convincing elderly vocal timbre and prosody. Model 2 failed completely on Content Accuracy, improvising a long paragraph instead of reading the target sentence. Additionally, Model 1's representation of the 'Age' feature was more natural and realistic compared to Model 2's stylized performance. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

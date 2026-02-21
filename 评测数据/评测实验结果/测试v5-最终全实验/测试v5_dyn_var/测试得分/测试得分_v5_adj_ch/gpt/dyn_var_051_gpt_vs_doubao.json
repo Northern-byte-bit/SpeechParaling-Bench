@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the content of the script '我们不是说好了，今天一起吃饭吗？你为什么又迟到了？' with high clarity. Regarding the CORE paralinguistic dimension (Volume), the model follows the instructions effectively. From 0:00 to 0:03, the first sentence '我们不是说好了，今天一起吃饭吗？' is delivered with a moderate, normal conversational volume. Crucially, at the timestamp 0:03, there is a sharp and noticeable increase in volume and projection for the second sentence '你为什么又迟到了？', matching the 'suddenly raise volume and shout' instruction. The transition is distinct, and the shouting conveys the intended urgency and anger without causing audio distortion.",
-    "reasoning_model_2": "The model reads the text '我们不是说好了今天一起吃饭吗？你为什么又迟到了？' accurately. However, regarding the CORE paralinguistic dimension (Volume), the generation is unsuccessful. The audio maintains a consistent volume throughout the entire utterance (0:00 to 0:04). It appears the model applied a generally elevated/angry tone to the whole sentence, failing to execute the specific temporal instruction to 'start with normal volume' and *then* switch. The lack of dynamic contrast makes the output flat relative to the prompt's requirements.",
-    "model_comparison": "Model 1 demonstrates superior controllability over paralinguistic features by successfully executing the dynamic adjustment of volume within a single utterance. It clearly differentiates the 'normal' start from the 'shouting' end. Model 2 fails to distinguish these two states, producing a statically loud output that misses the specific instruction for dynamic change.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

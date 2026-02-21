@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 exhibits a critical failure in **Content Accuracy**. The user command required the specific sentence: '就凭他那点本事，还想跟我比？'. However, the model generated: '就他那点本事也敢跟我比？真是笑死人了，连我的脚后跟都够不着，还妄想分一杯羹' (0.0s - end). It modified the original phrasing (changing '就凭' to '就', '还想' to '也敢') and hallucinated a significant amount of extra text ('真是笑死人了...'). While the *attitude* (态度) in the hallucinated content is undeniably disdainful and mocking, the model failed the fundamental constraint of sticking to the script. According to the evaluation criterion, if voice content is clearly inconsistent with the script, it constitutes a major issue.",
-    "reasoning_model_2": "Model 2 strictly adheres to the **Content Accuracy** requirement, delivering the script '就凭他那点本事，还想跟我比？' exactly (0.0s - 2.5s). In terms of **Paralinguistic Compliance (态度)**, the model successfully conveys the required 'disdainful' (轻蔑) tone. The emphasis and prolonged duration on '就凭' (0.0s - 0.8s) establish a scornful baseline. The pitch inflection on the rhetorical question '还想跟我比？' (1.5s - 2.5s) is handled with a cold, arrogant sneer that fits the persona perfectly. The expression is natural and the emotion is clearly discernible.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the negative constraint of text generation by hallucinating a new script and altering the target sentence, which is a severe quality issue in controlled audio generation. Model 2 followed the instruction perfectly, providing the correct text with the appropriate disdainful attitude. Model 1's expressiveness cannot compensate for its failure to follow the content command.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

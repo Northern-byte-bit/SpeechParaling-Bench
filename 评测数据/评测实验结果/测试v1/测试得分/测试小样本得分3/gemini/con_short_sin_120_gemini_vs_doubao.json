@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generates the content '听到这个消息，我真的很替他感到惋惜' accurately (0:00-0:04) with no pronunciation errors. The fluency is high, presenting a clear and standard female voice. However, regarding the core requirement 'sad emotion' (伤心), the performance is lacking. The tone is formal, steady, and somewhat neutral, resembling a news broadcast or a standard reading rather than an emotional expression of sadness. There is no noticeable change in pitch, tempo, or timbre to reflect regret or sorrow. While not robotic, it fails to convey the specific paralinguistic instruction requested.",
-    "reasoning_model_2": "Model 2 generates the content accurately and with high naturalness. Regarding the core requirement 'sad emotion', the model excels. The male voice adopts a lower pitch, slower tempo, and a breathy, softer timbre that aligns perfectly with sadness and regret. Specifically, the pause after '听到这个消息' (0:01) and the downward inflection on '感到惋惜' (0:03-0:04) effectively convey a heavy heart. The prosody sounds like a human actor performing a dramatic scene, making the emotion vivid and immediately perceptible.",
-    "model_comparison": "Comparing the two models, Model 2 is significantly superior in adhering to the 'sadness' constraint. Model 1 provided a standard, neutral reading that, while fluent, ignored the emotional instruction. Model 2 modulated its prosody, pitch, and pacing to create a genuine sense of melancholy and regret, fulfilling the user's prompt for 'sad emotion' very well. Model 1 sounded like a reading machine; Model 2 sounded like an empathetic human.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

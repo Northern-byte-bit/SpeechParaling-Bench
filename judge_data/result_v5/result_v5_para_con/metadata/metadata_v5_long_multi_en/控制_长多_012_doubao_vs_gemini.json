@@ -1,0 +1,16 @@
+{
+    "sample_index": 12,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a medium pitch and a neutral emotion: 'According to the latest notice, all department heads are required to attend the regular meeting next Tuesday at 10 AM, in the large conference room on the third floor. Please prepare in advance and arrive on time.'",
+    "dimensions": [
+        "Emotion",
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 0
+}

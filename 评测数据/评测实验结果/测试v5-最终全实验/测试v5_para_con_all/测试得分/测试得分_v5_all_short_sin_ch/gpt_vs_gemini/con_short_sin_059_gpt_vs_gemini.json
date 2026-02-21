@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the text '每个字，都要读清楚。'. However, Model 1 generated the audio for a completely different phrase: '明天会更好' (Tomorrow will be better). According to the Global Considerations and Evaluation Criterion, if the voice content is clearly inconsistent with the script, the score must be 0. Although the pacing was slow, the fatal content error renders the audio invalid.",
-    "reasoning_model_2": "Model 2 accurately reproduced the required text '每个字，都要读清楚。' with high fidelity and no pronunciation errors. Regarding the required feature 'extremely slow speaking rate' (极慢速), the model performed perfectly. The audio duration extends to approximately 8 seconds for an 8-character sentence (roughly 1 character per second). The model implemented a distinct, deliberate pause between every syllable (e.g., '每...个...字...'), effectively achieving the 'extremely slow' pace while ensuring every character was read clearly as requested. The tone was steady and suitable for a dictation-style delivery.",
-    "model_comparison": "This is a decisive win for Model 2. Model 1 failed the most basic requirement of Content Accuracy by speaking the wrong sentence entirely ('明天会更好' instead of the requested text). Model 2 not only spoke the correct text but also perfectly executed the paralinguistic instruction to speak at an 'extremely slow' rate with clear enunciation of every character.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

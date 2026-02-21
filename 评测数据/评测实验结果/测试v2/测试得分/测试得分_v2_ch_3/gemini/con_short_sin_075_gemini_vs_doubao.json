@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly synthesized the text content '快走，有人来了' (0.0s - 1.4s) with no pronunciation errors. However, regarding the core paralinguistic feature 'whisper' (耳语), the audio failed significantly. The speech was delivered in a standard, full-voiced modal tone (0.0s - 1.4s) with normal volume and projection, completely missing the requested hushed, breathy quality. While the pacing was fluent, the lack of the specific 'whisper' feature makes the tone inappropriate for the context of hiding/secrecy implied by the command.",
-    "reasoning_model_2": "The model flawlessly executed the text content '快走，有人来了' (0.0s - 1.6s). Crucially, it accurately applied the 'whisper' paralinguistic feature. From 0.0s to 0.6s ('快走'), the voice was breathy and unvoiced, effectively conveying urgency. The segment '有人来了' (0.8s - 1.6s) maintained this consistent low-volume, whispered timbre without slipping back into normal phonation. The naturalness was high, with appropriate prosody that matched the semantic urgency of the script.",
-    "model_comparison": "Both models achieved perfect content accuracy. The decisive difference lies in the 'Paralinguistic Compliance - CORE' dimension (Volume/Whisper). Model 1 failed to alter the vocal mode, producing standard speech which ignores the 'whisper' command. Model 2 successfully generated a realistic whisper with appropriate breathiness and reduced volume, fulfilling the user's request for specific feature control. Therefore, Model 2 is superior.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

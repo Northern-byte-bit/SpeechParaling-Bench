@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely failed the content accuracy criterion. The user requested the specific sentence: 'What a \"brilliant\" idea you have there.' However, the model generated a completely different script: 'Go absolutely, what a masterpiece of thought. Truly, the kind of genius that makes everyone else look like they've been sleeping through the entire history of human innovation.' Due to this total hallucination of text and failure to follow the script constraint, the score must be 0 regardless of the tone used.",
-    "reasoning_model_2": "The model followed the text script accurately, reading 'What a brilliant idea you have there.' regarding content accuracy. In terms of the requested paralinguistic feature (sarcastic tone), the model performed well. The delivery (0:00-0:03) utilizes a weary, unimpressed timbre and significantly elongates the word 'brilliant', lowering the pitch to signal irony rather than genuine praise. The pacing is deliberate, effectively conveying the sarcasm implied by the quotation marks around 'brilliant' in the prompt. The audio is fluent and natural.",
-    "model_comparison": "Model 1 failed strictly on Content Accuracy, generating a long, improvised monologue instead of reading the requested sentence. This constitutes a score of 0 according to the evaluation criteria ('Voice content is clearly inconsistent with the script'). Model 2 correctly read the target sentence and successfully applied a sarcastic tone through elongation and pitch modulation on the key word 'brilliant'. Therefore, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

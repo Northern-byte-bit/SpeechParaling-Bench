@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'Oh really, that is nice.' The target script was 'Oh, really? That's nice.' The model expanded the contraction 'That's' to 'That is', representing a minor textual deviation. In terms of paralinguistic compliance, the request was for a 'perfunctory tone'. The audio (0:00-0:03) delivers the lines with a flat, bored, and dismissive intonation, characterized by a lack of pitch variation and slow delivery. This effectively captures the essence of being 'perfunctory' (lacking interest or enthusiasm). While the voice sounds slightly synthetic/mechanical, causing a minor deduction in the 'Fluency and Naturalness' category, the core attitudinal requirement is met.",
-    "reasoning_model_2": "The model generates the audio content: 'The meeting is scheduled for tomorrow at 10 a.m. Don't be late.' (0:00-0:05). This content is completely unrelated to the requested script: 'Oh, really? That's nice.' According to the evaluation criteria, if the voice content is clearly inconsistent with the script or completely changed, the score must be 0. This is a complete failure of Content Accuracy.",
-    "model_comparison": "Model 1 successfully followed the instruction to read the specific sentence with the required tone, although it slightly altered the text by expanding a contraction ('That is' vs 'That's'). The tone used was appropriately flat and uninterested, fitting the 'perfunctory' description. Model 2 completely failed the task by generating entirely different text about a meeting, which constitutes a hallucination and results in an automatic failure score. Therefore, Model 1 is the clear winner.",
-    "score_1": 2,
-    "score_2": 0,
-    "winner": 1
-}

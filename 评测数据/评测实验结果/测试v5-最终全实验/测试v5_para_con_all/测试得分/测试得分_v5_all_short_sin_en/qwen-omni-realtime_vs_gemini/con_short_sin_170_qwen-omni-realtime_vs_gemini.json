@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model demonstrates excellent understanding of the prompt. Instead of reading the onomatopoeic words 'Ahem, cough, cough' literally, it interprets them as paralinguistic instructions. At 0:00-0:02, the audio features a very natural throat-clearing sound followed by a realistic hesitation/cough sound. This perfectly matches the 'Non-Linguistic Vocalizations' requirement. The spoken text 'I'd like to say a few words' (0:02-0:04) is accurate, fluent, and delivered with a natural tone. The transition from the coughing sounds to the speech is seamless and human-like.",
-    "reasoning_model_2": "The model fails to interpret the command for non-linguistic vocalizations. Instead of making a coughing sound, it attempts to read the text literally. At 0:00-0:02, it vocalizes a sound roughly like 'Em' and then clearly speaks the word 'Cough'. This completely misses the target feature of generating the *sound* of a cough. Furthermore, the content accuracy is poor; it misreads 'I'd like' as 'I like' (0:03). The overall voice quality is robotic, disjointed, and lacks natural prosody.",
-    "model_comparison": "Model 1 is the clear winner. It correctly identifies that the text 'Ahem, cough, cough' represents non-linguistic sounds and generates realistic audio effects corresponding to those descriptions. Model 2 fails this task completely by reading the word 'cough' literally, which defeats the purpose of the 'Non-Linguistic Vocalizations' feature control. Additionally, Model 1 provides high-fidelity, natural human speech, while Model 2 sounds robotic and commits errors in the linguistic content ('I like' vs 'I'd like'). Model 1 fully satisfies the evaluation criteria.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

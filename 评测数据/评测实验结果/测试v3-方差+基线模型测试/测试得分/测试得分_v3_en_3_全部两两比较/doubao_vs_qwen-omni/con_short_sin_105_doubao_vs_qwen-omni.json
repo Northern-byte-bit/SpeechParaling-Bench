@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the target sentence: 'The key lies in communication, we must remain open.' regarding Content Accuracy. In terms of Paralinguistic Compliance (Stress), the model places significant emphasis on the word 'key' (approx. 0:00-0:01). The word is articulated with higher pitch and elongated duration, followed by a distinct pause, which effectively draws attention to it as requested. While the pause after 'key' is slightly unnatural prosodically (breaking the flow of the subject 'The key' from the verb 'lies'), it successfully fulfills the user's specific command to stress that word. The audio is clean and fluent.",
-    "reasoning_model_2": "The model completely fails to perform the text-to-speech task. Instead of reading the required sentence ('The key lies in communication...'), the model outputs a conversational response: 'Sure. Which word should I stress?' (0:00-0:02). This indicates a failure in instruction following, where the model acted as a chat assistant asking for clarification despite the prompt explicitly stating where the stress should be. According to the scoring criteria, since the content is completely different from the script and the task was not performed, this warrants a score of 0.",
-    "model_comparison": "Model 1 followed the instructions, generating the correct text and applying the requested stress to the word 'key'. Although the prosody was slightly disjointed due to the emphasis, it satisfied the core requirement. Model 2 failed completely, generating a conversational question instead of the target speech. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

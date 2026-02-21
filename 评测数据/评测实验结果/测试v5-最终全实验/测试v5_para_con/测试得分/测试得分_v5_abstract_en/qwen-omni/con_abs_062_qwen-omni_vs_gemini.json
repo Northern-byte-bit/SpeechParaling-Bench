@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with perfect content accuracy, strictly adhering to the script 'Today's weather forecast says light rain, and then the temperature will drop slightly.' from 00:00 to 00:05. The delivery is fluent and natural, free of artifacts. Regarding the paralinguistic requirement, the tone is appropriately neutral, direct, and unembellished. It avoids unnecessary emotional coloring or dramatic inflection, successfully conveying a 'plain and simple' reading suitable for a standard forecast announcement.",
-    "reasoning_model_2": "The model fails to adhere to the text script accurately. At 00:01, the model substitutes the word 'says' with 'is' (hearing 'forecast is...'), creating a grammatical mismatch with the provided text. Furthermore, the fluency is poor; there is an unnatural, jerky pause between 'is' and 'light rain' (00:01-00:02), and the prosody sounds unstable. Due to these fluency and content issues, the 'plain and simple' tone is not effectively conveyed, as the listener's attention is drawn to the errors rather than the style.",
-    "model_comparison": "Model 1 is the clear winner. It strictly follows the provided text, whereas Model 2 hallucinates/changes a word ('says' to 'is'). In terms of the target feature 'plain and simple', Model 1 delivers a smooth, neutral, and professional reading that perfectly matches the description. Model 2's performance is marred by text errors, awkward pausing, and unstable prosody, which breaks the simplicity and naturalness required.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

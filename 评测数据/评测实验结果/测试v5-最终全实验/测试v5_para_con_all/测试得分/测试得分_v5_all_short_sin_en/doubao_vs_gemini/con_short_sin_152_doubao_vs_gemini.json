@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with a highly expressive anxious tone. The voice exhibits trembling, a higher pitch, and a whining quality (0.0s - 3.5s), which strongly aligns with the 'Cognitive State' of anxiety. However, the model significantly fails on 'Content Accuracy'. It hallucinates and adds two full sentences not present in the user command: 'What do I do? I'm so worried.' (3.5s - 5.5s). According to the evaluation criteria, while the emotional control is vivid, the addition of extra text constitutes a major issue in adhering to the script.",
-    "reasoning_model_2": "The model follows the script perfectly with no additions or omissions, satisfying 'Content Accuracy'. Regarding 'Cognitive State', the model employs a breathless, rushed, and hushed tone (0.0s - 2.5s) to convey anxiety. The pacing feels urgent, simulating a panic state. The prosody is natural and effectively communicates the required emotion without being over-the-top.",
-    "model_comparison": "Model 2 is the clear winner. While Model 1 delivers a very dramatic and clearly anxious performance, it fails the fundamental instruction of reading *only* the specific sentence provided, adding significant hallucinatory text. Model 2 adheres strictly to the text content while successfully adhering to the style constraint (anxious tone) through breathlessness and urgency. Model 1's failure in content accuracy heavily penalizes its score despite the good paralinguistic expression.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

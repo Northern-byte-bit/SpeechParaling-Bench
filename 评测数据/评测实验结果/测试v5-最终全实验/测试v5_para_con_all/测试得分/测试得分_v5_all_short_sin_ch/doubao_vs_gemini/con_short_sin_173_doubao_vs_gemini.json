@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model strictly follows the instruction '带尖叫的方式' (in a screaming manner). From 00:00 to 00:02, the audio is delivered with a significantly elevated pitch and increased vocal tension, characteristic of a high-pitched shriek or scream. The emotional intensity is high, fitting the context of seeing a 'terrifying scene'. The articulation remains intelligible despite the extreme vocal style. The 'screaming' feature is vivid and immediately recognizable, perfectly matching the '非语言发声' (paralinguistic feature) requirement.",
-    "reasoning_model_2": "The model generates the speech with a tone of surprise or mild fear, but it fails to execute the specific instruction '带尖叫的方式' (in a screaming manner). From 00:00 to 00:02, the voice remains in a normal pitch range for speech. While there is emotional inflection (breathiness, slight tremor), it is merely 'scared speaking' rather than 'screaming'. The target paralinguistic feature is essentially absent, as the delivery sounds like a standard dramatic reading rather than a visceral vocalization.",
-    "model_comparison": "Model 1 (T1) is the clear winner because it successfully implements the core constraint of the prompt: 'screaming'. The audio in T1 uses a high-pitched, strained vocal quality that authentically simulates a scream, directly addressing the '非语言发声' requirement. Model 2 (T2), while natural and fluent, ignores the specific style instruction. T2 provides a standard frightened voice acting performance but does not scream. Therefore, T1 demonstrates superior control over the required paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

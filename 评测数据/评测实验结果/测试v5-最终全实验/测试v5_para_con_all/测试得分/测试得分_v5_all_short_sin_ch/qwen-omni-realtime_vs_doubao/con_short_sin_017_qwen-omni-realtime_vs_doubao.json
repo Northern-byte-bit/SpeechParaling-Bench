@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the script '太棒了，我们终于成功了！' without any errors or hallucinations. Regarding the 'High Pitch' (音高) requirement, the audio features a significantly elevated pitch, resembling a child's voice or a high-pitched enthusiastic shout (0:00-0:03). The pitch is consistently high throughout the short utterance, effectively conveying the excitement and complying strictly with the '高音' constraint. The delivery is natural and fits the context of the sentence.",
-    "reasoning_model_2": "The model fails significantly in content accuracy. While it reads the target sentence '太棒了，我们终于成功了！', it continues to generate and speak a long, hallucinated description: '声音拔的高高的，像庆祝的礼炮一样冲上云霄...' (0:03-0:14). This violates the prompt instructions to read specific text. Regarding the 'High Pitch' constraint, the initial sentence has a slightly elevated, enthusiastic tone, but it does not reach a distinctively 'high' register compared to Model 1, and the subsequent hallucinated narration drops to a standard reading pitch. Due to the severe content addition and failure to maintain the target pitch constraint across the unauthorized text, this is a failure.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with a distinctively high pitch that matched the '高音' requirement. Model 2 failed on Content Accuracy by hallucinating a long descriptive paragraph after the target sentence, and its pitch control was less distinct and inconsistent due to the extra text. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

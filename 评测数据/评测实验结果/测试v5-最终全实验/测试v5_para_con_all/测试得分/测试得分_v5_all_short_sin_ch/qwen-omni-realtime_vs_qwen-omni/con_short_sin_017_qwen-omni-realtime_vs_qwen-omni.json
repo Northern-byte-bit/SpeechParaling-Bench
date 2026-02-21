@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model synthesizes the text '太棒了，我们终于成功了！' accurately between 00:00 and 00:02. The content perfectly matches the script with no omissions or additions. Regarding the 'High Pitch' (音高) dimension, the speaker adopts a noticeably elevated pitch and an enthusiastic, excited tone consistent with the command 'use high pitch'. The expression is natural, clear, and effectively conveys the requested paralinguistic feature throughout the short segment.",
-    "reasoning_model_2": "The model speaks the target text '太棒了，我们终于成功了！' from 00:00 to 00:02, demonstrating an elevated pitch. However, from 00:02 to 00:11, the model continues to generate and read a large amount of unrequested descriptive text ('声音拔的高高的...'), effectively narrating the style rather than just performing it. This constitutes a major content accuracy error (addition/hallucination). According to the evaluation criteria, major content errors where the voice content is inconsistent with the script limits the score significantly. Although the pitch feature was present in the initial phrase, the severe failure in content control makes the generation unsatisfactory.",
-    "model_comparison": "Model 1 is the clear winner. It accurately followed the user's command to read only the specific sentence with a high pitch. The resulting audio is concise, accurate, and expressive. Model 2 failed the negative constraint regarding content accuracy by appending a long, unrequested narration describing the voice, which severely detracts from the quality and utility of the generation, despite the initial segment having the correct pitch.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

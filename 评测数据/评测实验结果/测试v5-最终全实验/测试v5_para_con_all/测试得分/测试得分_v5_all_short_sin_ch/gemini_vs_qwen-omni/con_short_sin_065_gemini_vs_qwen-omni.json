@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generated the text '你听见了吗？我刚才说什么', which omits the final particle '了' compared to the requested script '你听见了吗？我刚才说什么了？'. This is a content accuracy error (omission). Regarding the paralinguistic feature 'Volume' (音量), the audio maintains a standard conversational level and does not exhibit the requested 'loud' (大声) intensity. The lack of volume projection combined with the text omission results in a poor performance.",
-    "reasoning_model_2": "The model generated the text '你听见了吗？我刚才说什么了', which perfectly matches the user's command without any omissions or errors. In terms of the paralinguistic feature, the audio effectively increases the volume and projection, accurately conveying the 'loud' (大声) characteristic requested. The speech is fluent and natural, with appropriate prosody for a loud inquiry.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 fails on Content Accuracy by omitting the final character '了', creating an incomplete sentence. Furthermore, Model 1 fails to execute the 'Volume' command, adhering to a neutral tone. Model 2 provides legally accurate content and successfully modifies the volume to be 'loud' as requested, satisfying both the content and feature control requirements.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

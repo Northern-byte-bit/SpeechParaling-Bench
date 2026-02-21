@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly in Content Accuracy. The generated speech deviates from the script, producing 'simple form is is' instead of 'the performance' (approx. 00:01-00:03). This hallucination alters the meaning of the sentence and violates the core requirement of reading the specific text. Due to this severe content error, the generation is considered a complete failure regardless of the pitch contour, as the target sentence was not spoken. According to the scoring criteria, voice content clearly inconsistent with the script results in a low score.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading the script 'Please note, the performance is about to begin' correctly with no errors or hesitations. Regarding the Paralinguistic Compliance (Pitch), the voice maintains a consistent low pitch throughout the sentence, particularly noticeably on the phrase 'performance is about to begin' (00:01-00:04), effectively conveying the requested serious and deep tone. The prosody is natural and the lower register is well-controlled without sounding artificial.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 fails the fundamental requirement of Content Accuracy by mispronouncing/hallucinating the key phrase 'the performance' as 'simple form is is', which renders the audio unusable and non-compliant with the user's command. Model 2, in contrast, delivers the text accurately and successfully applies the requested low pitch feature, resulting in a natural and compliant output.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

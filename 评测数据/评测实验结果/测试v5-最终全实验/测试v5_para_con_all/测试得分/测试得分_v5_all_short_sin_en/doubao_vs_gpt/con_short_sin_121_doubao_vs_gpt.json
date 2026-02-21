@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully synthesizes the text 'Why did you make your room such a mess again?!' with high content accuracy and no fluency issues. However, regarding the core requirement of 'angry emotion', the performance is poor. The delivery (0.0s - 2.5s) is characterized by a soft, gentle, and questioning tone, completely lacking the intensity, sharpness, or sternness associated with anger. The prosody suggests a calm or perhaps slightly weary demeanor, which is effectively the opposite of the requested angry emotion. While the audio is natural, it fails to follow the style instruction.",
-    "reasoning_model_2": "The model synthesizes the text accurately with excellent fluency and naturalness. In terms of the 'angry emotion' dimension, the model performs very well. From the onset (0.0s - 2.2s), the voice adopts a lower pitch with a stern, scolding timbre. There is a distinct 'attack' on the words 'Why' and 'mess', conveying frustration and authority consistent with a parent scolding a child. The emotional expression is vivid, spot-on, and clearly discernible as angry/frustrated without being unnaturally exaggerated.",
-    "model_comparison": "Model 2 is the clear winner. The user specifically requested an 'angry emotion'. Model 1 completely failed to convey this, producing a gentle and soft reading that contradicted the prompt. Model 2, in contrast, effectively utilized prosodic features such as stress, pitch depression, and a sharper tone to convey a convincing sense of anger and frustration. Model 2 followed all instructions, whereas Model 1 failed the paralinguistic constraint.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

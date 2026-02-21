@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '我明天会去超市买些菜' accurately with no pronunciation errors. The fluency is high, and the speech is continuous. However, regarding the core paralinguistic feature '音高' (Pitch), the specific instruction was '中音' (Medium Pitch). The generated audio (00:00-00:01) exhibits a distinctly high-pitched, child-like, or 'cutesy' voice timbre. This clearly deviates from a standard 'medium' pitch range, landing firmly in the 'high' register. Therefore, while the audio is high quality in terms of synthesis, it fails to strictly adhere to the specific pitch control command.",
-    "reasoning_model_2": "The model accurately generates the text '我明天会去超市买些菜'. The pacing is natural and fluent (00:00-00:01). regarding the core feature '音高' (Pitch), the model produces a voice with a moderate fundamental frequency, characteristic of a standard adult female speaking in a comfortable, neutral range. This perfectly aligns with the definition of '中音' (Medium Pitch), avoiding the extremes of being too deep or too shrill. The control over the pitch dimension is accurate and natural.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The deciding factor is the adherence to the '中音' (Medium Pitch) constraint. Model 1 (T1) generates a voice that is notably high-pitched and stylized (resembling a child or anime character), which contradicts the instruction for a medium pitch. Model 2 (T2) produces a balanced, standard adult voice that sits comfortably in the medium pitch range, accurately reflecting the user's intent. Therefore, Model 2 is the clear winner for correctly implementing the specific feature control.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

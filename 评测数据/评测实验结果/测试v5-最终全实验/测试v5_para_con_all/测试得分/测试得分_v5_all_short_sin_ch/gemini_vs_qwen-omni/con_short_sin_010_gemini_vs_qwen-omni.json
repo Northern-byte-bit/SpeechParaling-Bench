@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails significantly in the core requirement of the prompt ('老年的声音' - elderly voice). The generated audio features a young adult female voice (approx. 20-30 years old) with a bright, crisp, and energetic timbre, which is the complete opposite of the requested elderly characteristic. In terms of content accuracy, there is a minor deviation at the end of the sentence: the script requires '别着凉了' (don't catch a cold), but the model says '别着凉啊' (don't catch a cold [particle change]). The pacing is also quite fast (00:00-00:04), lacking the typical cadence of an elderly person. Consequently, it fails to convey the required paralinguistic feature.",
-    "reasoning_model_2": "Model 2 successfully executes the core requirement. The voice has a mature, warmer timbre consistent with an older female (grandmotherly figure), satisfying the '老年的声音' (elderly voice) prompt. The pacing is appropriately measured and caring, reflecting the concern of an elder addressing a grandchild. The pitch is lower and more stable (00:00-00:06), matching the target persona. In terms of content accuracy, it follows the script perfectly, saying '别着凉了'. The delivery is natural and fluent without mechanical artifacts.",
-    "model_comparison": "The comparison shows a clear distinction in adherence to the paralinguistic instruction 'Age'. Model 1 completely ignores the instruction to use an elderly voice, generating a young female voice instead. It also has a minor text deviation. Model 2 accurately synthesizes an elderly voice with appropriate prosody (slower pace, caring tone) and matches the text script exactly. Therefore, Model 2 is the superior model.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

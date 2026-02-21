@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The output provided for Model 1 consists solely of the text script: 'The plane is about to take off, I'm a bit afraid of heights.' There is no audio file, audio tokens, or paralinguistic description provided. As the task is to evaluate audio generation quality—specifically the presence of a nervous tone—the lack of audio content makes it impossible to assess 'Content Accuracy' (in terms of pronunciation), 'Fluency and Naturalness', or 'Paralinguistic Compliance'. Strictly following the global considerations, if the generated audio content is missing or effectively empty (only text provided for an audio task), the score must be 0.",
-    "reasoning_model_2": "The output for Model 2 is completely empty. There is no text, audio, or any data provided under '**generated_speech_2**'. According to the strict evaluation criteria, if the content is empty, the model must be assigned a score of 0.",
-    "model_comparison": "Both models failed to generate the required audio output. Model 1 generated the text script of the command but failed to produce audio, rendering the evaluation of the 'nervous tone' impossible. Model 2 produced no output at all. Since the evaluation criterion strictly requires assessing the audio's paralinguistic features (Cognitive State), and neither model provided audio, both models receive the lowest score of 0. While Model 1 technically produced the correct text, it failed the modality of the task (audio generation), resulting in a tie at the bottom of the scale.",
-    "score_1": 0,
-    "score_2": 0,
-    "winner": 0
-}

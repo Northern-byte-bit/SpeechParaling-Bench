@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly replicates the content: 'Sorry, I have to go, the next bus is leaving!' without errors. The fluency is excellent, sounding natural and human-like. Regarding the core paralinguistic feature 'Pace', the model adheres well to the instruction. Specifically, the segment from 0.4s to 1.8s ('I have to go, the next bus is leaving') is delivered with a noticeable rush and urgency, compressing the speech into a short duration. While it could theoretically be even faster to be stylistically 'very fast', it effectively conveys the hurried nature required by the prompt, distinguishing it clearly from a neutral reading.",
-    "reasoning_model_2": "The model generates the content accurately. However, it fails significantly on the core requirement of 'very fast pace'. The audio is characterized by a slow-to-moderate tempo with distinct pauses, particularly a drag on 'Sorry' (0.0s - 0.6s) and a pause before the final clause. The segment 'the next bus is leaving' (1.5s - 2.6s) is spoken at a leisurely, almost dramatic pace. This delivery contradicts the instruction to read with a very fast pace, lacking the necessary urgency.",
-    "model_comparison": "Model 1 is the clear winner. The instruction explicitly requested a 'very fast pace'. Model 1 delivered the sentence in approximately 1.8 seconds with a sense of urgency and hurried rhythm that matches the context of missing a bus. Model 2 took significantly longer (over 2.6 seconds), utilizing a slow, paused delivery that sounded more like a dramatic reading than a fast-paced one. Model 1 followed the specific feature control instruction, whereas Model 2 ignored it.",
-    "score_1": 2,
-    "score_2": 1,
-    "winner": 1
-}

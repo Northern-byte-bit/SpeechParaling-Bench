@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with a female voice that naturally sits in a higher frequency range compared to a deep male voice. Analyzing the segment 'That is great' (00:00-00:01), the pitch is elevated and conveys enthusiasm, aligning with the 'high pitch' instruction. However, the pitch contour drops significantly during 'We finally succeeded' (00:01-00:02) to a more neutral range. Regarding content accuracy, the model expands the contraction 'That's' to 'That is', which is a minor deviation from the script 'That's great...'. The fluency is high with no mechanical artifacts.",
-    "reasoning_model_2": "The model generates the audio using a deep male voice, which inherently has a low fundamental frequency. Throughout the clip, especially in 'That is great' (00:00-00:01) and 'we finally succeeded' (00:01-00:03), the pitch remains low and resonant. This is directly opposite to the user's specific command for a 'high pitch'. Content-wise, this model also expands 'That's' to 'That is', a minor accuracy issue. While the audio is fluent, it completely fails the core paralinguistic constraint.",
-    "model_comparison": "The user requested the sentence be read with a 'high pitch'. Model 1 utilized a female voice with a naturally higher register and elevated intonation on the first phrase, reasonably attempting to satisfy the constraint. Model 2 utilized a deep male voice with a low pitch, effectively ignoring or contradicting the specific feature request. Both models had the same minor content issue (expanding 'That's' to 'That is'). Model 1 is the clear winner as it adheres to the pitch constraint, whereas Model 2 provides the opposite.",
-    "score_1_1": 2,
-    "score_2_1": 0,
-    "winner_1": 1
-}

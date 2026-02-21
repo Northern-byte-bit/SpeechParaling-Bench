@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command explicitly requested the model to say the specific sentence: '这次项目我准备得很充分，一定能成功。' However, Model 1 completely ignored the content constraint and generated a long, improvised paragraph ('这次项目，我准备的滴水不漏，每一个细节都反复推敲过...'). While the improvised content is semantically related to confidence, the content accuracy is completely incorrect as it fails to read the provided script. According to the evaluation criterion, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, the model fails primarily on Content Accuracy, rendering the paralinguistic evaluation moot.",
-    "reasoning_model_2": "Model 2 follows the content instructions perfectly, generating the exact sentence requested: '这次项目我准备得很充分，一定能成功。' (0:00-0:04). The phrasing is concise and matches the script word-for-word. In terms of the paralinguistic feature '认知状态' (Cognitive State - Confidence), the delivery is declarative and firm. The use of emphatic stress on '充分' (fully) and '一定' (definitely) effectively conveys a strong sense of self-assurance and certainty, aligning well with the 'Confidence' requirement. The fluency is natural without mechanical artifacts.",
-    "model_comparison": "Model 1 failed the fundamental instruction to read the specific text provided, instead generating a hallucinated paraphrase. This constitutes a critical failure in Content Accuracy (score 0). Model 2 correctly read the requested text and effectively applied the confident tone requested. Therefore, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the audio for the specific sentence 'Please maintain silence in the library.' without any textual errors, omissions, or additions. The content accuracy is perfect (Score 3). Regarding the paralinguistic feature 'Timbre', the model adheres to the instruction of a 'gentle timbre'. The delivery is soft and calm, appropriate for the context of a library, effectively conveying the requested vocal quality throughout the short segment.",
-    "reasoning_model_2": "The model fails significantly on content accuracy. While it reads the target sentence 'Please maintain silence in the library', it hallucinates and appends a long narrative description: 'whispered softly as if the words themselves were afraid to disturb the quiet.' This additional text was not requested in the script. Although the timbre of the voice may effectively be gentle (as the hallucinated text describes), the presence of unrequested content is a major flaw in following the command to 'read this sentence'. The inclusion of the narrative tag makes the audio sound like an audiobook excerpt rather than a direct reading of the line.",
-    "model_comparison": "Model 1 is the clear winner. It strictly followed the user's command, providing the exact text with the requested gentle timbre. Model 2 failed the content accuracy criterion by adding a significant amount of hallucinatory text (a narrative tag) after the target sentence. While Model 2 might have achieved the 'gentle' tone, the failure to control the content makes it a much poorer generation in the context of a specific text-to-speech instruction.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

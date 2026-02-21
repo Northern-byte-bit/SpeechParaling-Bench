@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '早上好！今天天气真不错，心情很好。' accurately without errors (0:00-0:05). Regarding the core instruction 'high pitch' (音高), the model successfully executes this by adopting a significantly elevated pitch range throughout the entire clip. The voice sounds like a speaker intentionally raising their pitch or a naturally high-pitched character voice, distinct from a neutral baseline. The expression of 'high pitch' is consistent and obvious. While the high pitch makes the voice sound slightly strained or stylized, it perfectly aligns with the user's specific paralinguistic command. The prosody is reasonably natural given the constraint.",
-    "reasoning_model_2": "The model generates the text '早上好！今天天气真不错，心情很好。' accurately and with high fluency and naturalness (0:00-0:06). The voice is a standard, calm female voice. However, regarding the core instruction 'high pitch' (音高), the model fails to exhibit a noticeable shift to a higher register or an intentional high-pitched style. It sounds like a default, neutral reading rather than a response to the command 'Please use high pitch'. There is no discernable effort to modify the pitch upwards as requested; it remains in a comfortable, middle-range speaking tone.",
-    "model_comparison": "The user explicitly commanded the models to speak with 'high pitch' (音高). Model 1 (T1) strictly followed this instruction, generating audio with a clearly elevated pitch throughout the segment. Model 2 (T2), while natural and fluent, ignored the specific paralinguistic constraint and produced a standard, neutral reading. Therefore, Model 1 demonstrates superior control over the requested feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

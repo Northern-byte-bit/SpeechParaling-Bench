@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model performs poorly on Content Accuracy. Instead of strictly reading the provided text, it hallucinates a lengthy continuation (creating a 25-second audio for a short sentence) and modifies the internal structure of the target sentence (e.g., adding '呢' after '书包' and '笔'). Regarding the CORE dimension (Rhythm), the audio maintains a relatively consistent, lively pace throughout. It fails to demonstrate the specific required transition to 'intermittent' (断续) speech; the flow remains smooth and conversational rather than hesitant or broken as requested.",
-    "reasoning_model_2": "The model demonstrates strong adherence to the CORE paralinguistic instruction. The segment '快点快点，马上要迟到了' (00:00-00:02) is delivered with a rapid, urgent pace. Following the instruction to shift to 'intermittent' speech, the model inserts distinct, natural pauses between the items '我的书包，笔，还有' and before '等等' (00:02-00:05), effectively conveying the feeling of frantically checking for items. However, regarding Content Accuracy, there is a minor error: the model omits the final character '呢' from the script.",
-    "model_comparison": "Model 2 is significantly better. Model 1 fails the fundamental instruction of reading the specific text, instead hallucinating a long, unrequested script. Model 1 also fails to execute the specific rhythmic change, maintaining a consistent flow. Model 2 accurately executes the required rhythmic shift from rapid urgency to intermittent hesitation. Although Model 2 has a minor content omission (missing the final particle '呢'), it is far superior to Model 1's severe hallucination and lack of control.",
-    "score_1": 1,
-    "score_2": 2,
-    "winner": 2
-}

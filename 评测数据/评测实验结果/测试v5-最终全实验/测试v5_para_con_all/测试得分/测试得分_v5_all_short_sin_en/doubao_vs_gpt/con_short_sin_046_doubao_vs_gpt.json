@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'It is too late, hurry up. The meeting is starting soon.' Note that 'It's' was expanded to 'It is', but the semantic content is accurate. Regarding the core dimension 'Pace', the model adheres strictly to the command 'very fast pace'. The entire sentence is spoken rapidly (approx 0.0s - 2.5s) without unnecessary pauses between clauses. The urgency is conveyed effectively through the speed of delivery, matching the context of being late for a meeting. The audio is fluent and natural.",
-    "reasoning_model_2": "The model generates the text 'It is too late. Hurry up. The meeting is starting soon.' Like Model 1, it expands 'It's' to 'It is'. However, regarding the core dimension 'Pace', the model completely fails to follow the instruction. The delivery is slow to moderate, with distinct, dragging pauses between sentences (e.g., after 'late' and 'up'). The tone sounds lethargic or complaining rather than urgent or fast. It does not exhibit the requested 'very fast pace' at all.",
-    "model_comparison": "Model 1 followed the user's specific instruction to speak with a 'very fast pace'. The resulting audio is quick, urgent, and fits the context. Model 2 failed to control the pace, producing a slow, disjointed reading with pauses that contradict the command 'very fast' and the urgent nature of the text. Therefore, Model 1 is the clear winner for correctly implementing the paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly generates the content '你到底在干什么？快给我住手！' with no pronunciation errors. Regarding the core dimension '音量' (Volume/Shouting), the audio exhibits a significant increase in loudness, vocal tension, and projection characteristic of shouting. The pitch is elevated (e.g., on '到底' at 00:00 and '住手' at 00:02), and the delivery is forceful and urgent, effectively simulating a person yelling to stop someone. The emotion is vivid and matches the 'shouting' instruction well, making it a natural and appropriate response to the prompt.",
-    "reasoning_model_2": "The model generates the text content accurately with high fluency and clear pronunciation. However, regarding the core dimension '音量' (Volume/Shouting), the audio completely fails to adhere to the instruction. The sentence is delivered in a standard, calm, conversational tone with normal volume. There is no increase in vocal intensity, projection, or urgency (e.g., '快给我住手' at 00:01-00:02 is spoken gently). The paralinguistic feature of 'shouting' is entirely absent.",
-    "model_comparison": "Model 1 followed the specific paralinguistic instruction ('shouting volume') effectively. It modulated the voice to sound loud, urgent, and forceful, fitting the definition of shouting. Model 2, while fluent, ignored the instruction entirely and produced a standard conversational reading. Therefore, Model 1 is the clear winner for correctly implementing the requested feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

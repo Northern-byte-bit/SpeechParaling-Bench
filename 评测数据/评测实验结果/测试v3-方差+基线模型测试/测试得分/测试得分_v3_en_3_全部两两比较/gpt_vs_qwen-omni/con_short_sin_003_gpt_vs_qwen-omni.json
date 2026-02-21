@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the text 'This toy is so fun, I love it!' with perfect content accuracy. In terms of the core paralinguistic feature 'Age', the voice clearly resembles a young child (approx. 6-8 years old), characterized by a naturally higher pitch and lighter vocal weight (0:00-0:03). The delivery is highly expressive and enthusiastic, matching the exclamation mark in the prompt, particularly on the words 'so fun' and 'love it'. The fluency is excellent, sounding human-like with no electronic artifacts.",
-    "reasoning_model_2": "The model generates the correct text content 'This toy is so fun, I love it'. However, regarding the 'Age' feature, the voice sounds like an adult female that has been pitch-shifted rather than an authentic child's voice. The timbre lacks the natural resonance of a child's vocal tract. Furthermore, the delivery is relatively flat and lacks the enthusiasm implied by the text, resulting in a mismatch between the semantic content and the emotional tone (0:00-0:03). The audio sounds somewhat mechanical.",
-    "model_comparison": "Model 1 (T1) is the clear winner. It accurately captures the requested 'Child's voice' with high fidelity and appropriate emotional energy (enthusiasm). The voice sounds natural and convincing. Model 2 (T2) fails the core paralinguistic constraint; while the text is correct, the voice quality is artificial (sounding like a modified adult voice rather than a child) and lacks the necessary emotional expressiveness found in T1. T1 satisfies the Age constraint and Naturalness criteria, while T2 struggles with both.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly replicates the text script 'I've done my best, but the results are still not ideal.' The delivery is characterized by a slow tempo, breathy phonation, and a descending pitch contour (0.0s - 3.5s). Specifically, the phrase 'I've done my best' (0.0s - 1.5s) is spoken with a sigh-like quality, and 'still not ideal' (2.5s - 3.5s) trails off weakly. These prosodic features strongly evoke a sense of resignation, exhaustion, and lack of agency, effectively capturing the required 'helpless' cognitive state. The audio is natural and fits the requested persona well.",
-    "reasoning_model_2": "The model fails significantly in both content and tone. Content-wise, there is a hallucinated artifact or nonsense phrase ('Di-ya' or similar) at the very beginning (0.0s - 0.8s) before the actual script starts. Paralinguistically, the tone is completely mismatched; the delivery is upbeat, high-pitched, and sing-songy (0.8s - 4.0s). The intonation on 'not ideal' rises cheerfully, suggesting a casual or happy state rather than helplessness. The expression is the exact opposite of what was requested.",
-    "model_comparison": "Model 1 is superior in every aspect. It accurately conveys the 'helpless' cognitive state through appropriate prosody (slow speed, low energy, falling pitch), matching the user's intent perfectly. Model 2 fails to follow the negative emotional constraint, instead delivering the line with an inappropriate cheerful energy, and also includes audio artifacts/hallucinations at the start. Therefore, Model 1 receives a high score while Model 2 receives a 0 for failing the core paralinguistic requirement and content accuracy.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model was tasked with reading 'Hurry, someone's coming.' in a whisper. The entire sentence from 0.0s to 2.8s is delivered in a genuine whisper. The audio exhibits the correct paralinguistic features of a whisper: it is low in volume, has a distinct breathy quality, and is largely unvoiced. This perfectly matches the user's command. The content is accurate, and the delivery is fluent and natural, conveying a sense of urgency and secrecy that fits the context of the sentence.",
-    "reasoning_model_2": "The model was tasked with reading 'Hurry, someone's coming.' in a whisper. The model failed to execute this command correctly. Instead of a whisper, it produced fully voiced speech spoken at a low volume throughout the entire duration (0.0s - 3.0s). A whisper is a specific mode of phonation characterized by a lack of vocal cord vibration, which is absent here. The model misinterpreted 'whisper' as 'speak quietly'. While the content is accurate and the speech is fluent, the core paralinguistic requirement was not met, constituting a major issue.",
-    "model_comparison": "The comparison between the two models reveals a significant difference in their ability to control paralinguistic features. Model 1 perfectly executed the command, generating a true whisper with the correct breathy and unvoiced characteristics (0.0s - 2.8s). Model 2, however, failed the core task; it produced low-volume, fully voiced speech (0.0s - 3.0s), demonstrating a fundamental misunderstanding of the 'whisper' feature. Model 1 shows precise control over the mode of phonation, whereas Model 2 only adjusted the volume. This makes Model 1 significantly superior.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

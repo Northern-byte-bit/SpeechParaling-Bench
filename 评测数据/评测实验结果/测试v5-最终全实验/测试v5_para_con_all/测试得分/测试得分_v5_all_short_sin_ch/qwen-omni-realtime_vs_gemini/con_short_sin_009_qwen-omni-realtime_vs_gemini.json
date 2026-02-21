@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly commanded the model to read the specific sentence: '明天早上我会去健身房锻炼身体。'. However, Model 1 completely disregarded the text constraints and hallucinated a conversational paragraph: '明天早上啊，我得早点起来，去健身房活动活动，这年纪了身体可不能松懈，得坚持锻炼才行。' (00:00-00:09). While the generated content attempts to roleplay the 'middle-aged' persona contextually ('At this age...'), the model failed the fundamental 'Content Accuracy' criterion. According to the scoring standard, a score of 0 is assigned when 'Voice content is clearly inconsistent with the script'.",
-    "reasoning_model_2": "Model 2 strictly adhered to the text script, accurately pronouncing '明天早上，我会去健身房，锻炼身体' (00:00-00:04) without any omissions or additions. Regarding the paralinguistic feature 'Age' (Middle-aged), the voice timbre is mature, steady, and grounded, lacking the higher pitch or breathiness associated with youth, and lacking the frailty or roughness of old age. The prosody is calm and authoritative, fitting the middle-aged profile well. The audio is fluent and natural.",
-    "model_comparison": "The comparison is decisive based on Content Accuracy. Model 1 failed to follow the basic instruction to read the provided text, instead generating a completely improvised script. This constitutes a critical failure (Score 0) according to the evaluation criteria. Model 2, on the other hand, perfectly followed the text instructions and successfully modulated the voice to sound mature and middle-aged. Therefore, Model 2 is superior.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 31,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a youthful voice and a disgusted emotion: 'Ugh, I hate eating this the most!'",
+    "dimensions": [
+        "Age",
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails the primary criterion of Content Accuracy. The user requested the specific sentence: 'Paris is the capital and largest city of France.' However, the model generated: 'Paris is the capital of France and one of the largest cities in Europe.' This is a significant hallucination and deviation from the script, altering the factual claim (from 'largest in France' to 'one of largest in Europe'). Due to this distinct inconsistency with the required script, the model receives a low score regardless of its paralinguistic performance.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading the script 'Paris is the capital and largest city of France' exactly as requested. The delivery adheres to the requested 'neutral emotion,' presenting the facts with a steady, even pacing and flat pitch contour typical of an objective statement. The fluency is high, with no mechanical artifacts or unnatural pauses. It fully satisfies the command.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental constraint of reading the specific text provided, instead paraphrasing the content and changing the semantic meaning (hallucination). Model 2 followed the text instructions perfectly and delivered the required neutral tone.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

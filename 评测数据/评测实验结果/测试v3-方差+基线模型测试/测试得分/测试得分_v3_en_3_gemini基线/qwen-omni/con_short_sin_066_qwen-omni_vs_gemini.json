@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script 'Happy New Year everyone! May all your wishes come true!' verbatim without errors. In terms of fluency and naturalness, the speech is very human-like with natural pacing and intonation (0.0s-3.0s). Regarding the core paralinguistic feature (Volume: Loudly), the model successfully adopts a projected, energetic tone. The speaker sounds like they are addressing a crowd or shouting a greeting enthusiastically, characterized by higher pitch and increased vocal intensity throughout the clip, particularly on 'Happy New Year' (0.0s-1.5s). It effectively captures the requested 'loudly' characteristic.",
-    "reasoning_model_2": "The model generates the text accurately, matching the script. The fluency is acceptable with a natural flow. However, regarding the core paralinguistic feature (Volume: Loudly), the model fails completely. The audio is delivered in a soft, breathy, and whisper-like tone (0.0s-3.5s), which is the direct opposite of a 'loudly volume'. Instead of projecting, the voice is intimate and quiet, making it a complete failure in meeting the specific feature control requirement.",
-    "model_comparison": "Model 1 is the clear winner. It correctly interpreted the instruction to speak with a 'loudly volume,' delivering the line with projection, energy, and high intensity suitable for a public greeting. Model 2, conversely, delivered the line in a soft whisper, which directly contradicts the user's explicit command for high volume. Model 1 receives a perfect score for compliance, while Model 2 receives a 0 for expressing the opposite characteristic.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

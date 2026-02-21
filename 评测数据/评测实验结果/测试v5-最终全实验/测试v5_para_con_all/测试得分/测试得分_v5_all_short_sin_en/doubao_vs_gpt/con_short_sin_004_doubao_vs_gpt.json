@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'Let's go play basketball this weekend!' with perfect accuracy. The voice utilized is distinctly high-pitched and bright, characteristic of a young boy (child to early teen), which aligns perfectly with the 'youthful voice' constraint. The delivery is energetic and enthusiastic (00:00-00:02), matching the exclamation mark in the prompt. The prosody is natural for the persona, effectively capturing the excitement of the request.",
-    "reasoning_model_2": "The model accurately renders the text 'Let's go play basketball this weekend'. The voice timbre resembles a young adult or late teenager, which fits the 'youthful' description well, though it sounds older than Model 1. The audio quality is high, with clear articulation and a natural flow. The tone is positive and active, suitable for the context.",
-    "model_comparison": "Both models successfully execute the 'Age' feature control command. Model 1 interprets 'youthful' as a child/young teen voice, resulting in a distinct high-pitched character that matches the playful nature of the text very well. Model 2 interprets it as a young adult voice, which is also valid but less distinct from a standard adult voice compared to Model 1. Both models achieve high scores for the target dimension as the age characteristic is clearly identifiable in both. Model 2 has slightly superior audio fidelity (studio-like), while Model 1 captures the specific enthusiastic energy of a younger child slightly better. Since both are fully correct representations of the requested feature, it is a tie.",
-    "score_1_1": 3,
-    "score_2_1": 3,
-    "winner_1": 0
-}

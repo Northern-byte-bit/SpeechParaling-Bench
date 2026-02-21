@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely failed to follow the user's instructions regarding the script. Instead of reading the target sentence 'Mhm, mhm, I know, we'll talk about it later.', the audio content is a refusal: 'I can't answer this question'. According to the evaluation criteria, if the voice content is clearly inconsistent with the script or the meaning is completely changed, it must be assigned a score of 0.",
-    "reasoning_model_2": "The model accurately generates the required text: 'Mhm, mhm, I know, we'll talk about it later.' regarding content accuracy. In terms of the core paralinguistic requirement (perfunctory tone), the execution is excellent. At 0:00-0:02, the 'Mhm, mhm' is delivered with a low, flat pitch and a slightly drawn-out tempo, effectively simulating a dismissive or distracted listener. The phrase 'I know' follows with a weary intonation, and 'we'll talk about it later' (0:02-0:04) has a falling cadence that signals a lack of interest and a desire to end the conversation. The prosody is natural, and the emotional expression is vivid and spot-on.",
-    "model_comparison": "Model 1 failed completely as it generated a refusal message instead of the requested script. Model 2 followed the instructions perfectly, delivering the correct text with a highly natural and convincingly perfunctory tone. Model 2 demonstrates superior performance in both content accuracy and paralinguistic control.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

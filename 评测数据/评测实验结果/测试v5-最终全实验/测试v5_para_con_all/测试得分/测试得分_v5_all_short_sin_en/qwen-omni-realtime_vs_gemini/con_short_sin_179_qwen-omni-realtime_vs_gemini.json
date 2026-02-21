@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the paralinguistic feature of a 'yawn' into the speech. From 00:00 to 00:02, the phrase 'Getting up so early' is delivered with a stretched, breathy, and resonant quality characteristic of speaking while yawning (yawn-sigh phonation). The pitch modulation and tempo slowing accurately reflect the physiological constraints of a yawn. Although the text 'it's' was expanded to 'it is' (00:02), this minor content deviation does not affect the successful delivery of the requested vocal feature.",
-    "reasoning_model_2": "The model completely fails to execute the paralinguistic command. Instead of performing a yawn or modifying the voice to sound like a yawn, the model literally reads the word 'Yawn' as part of the script at 00:00 ('Yawn, getting up so early...'). This is a severe instruction-following error (hallucinating instructions as text). Consequently, the requested non-linguistic vocalization is absent.",
-    "model_comparison": "Model 1 demonstrates a high level of control by successfully modulating the vocal tract to simulate a yawn while speaking, creating a natural and convincing tired tone. Model 2 fails fundamentally by reading the instruction keyword 'Yawn' aloud instead of performing the action. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

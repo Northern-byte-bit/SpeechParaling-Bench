@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly synthesized the text content without any errors, omissions, or additions. In terms of paralinguistic compliance, the audio begins with a clear, relatively mellow natural tone (0.0s - 2.5s) corresponding to the first sentence. As the script transitions to '唱到高音部分' (around 2.6s), the voice quality noticeably shifts, introducing vocal fry and a strained, raspy texture that effectively simulates the 'hoarseness' and the physical sensation of being unable to reach a high note. The transition is smooth and semantically appropriate. The pacing and prosody are natural.",
-    "reasoning_model_2": "The model failed significantly in Content Accuracy. Instead of following the instruction to apply the voice changes to the text, it read the instruction keywords aloud as part of the script. Specifically, it spoke the phrases '圆润音质' (Round sound quality) at the beginning and '逐渐沙哑' (Gradually hoarse) in the middle of the sentence. While the voice texture did change somewhat after reading the cues, the inclusion of the prompt instructions in the generated audio is a critical error that violates the content constraints and destroys naturalness.",
-    "model_comparison": "Model 1 followed all instructions perfectly, delivering accurate text with a natural and effective dynamic adjustment of voice quality from clear to hoarse, matching the semantic context. Model 2 suffered from a severe instruction-following failure (hallucination/leakage), reading the style descriptions ('圆润音质', '逐渐沙哑') out loud instead of applying them implicitly. Therefore, Model 1 is the clear winner due to Model 2's fatal content error.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

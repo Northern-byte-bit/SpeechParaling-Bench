@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates audio that aligns perfectly with the command. The content 'Woke up too early, I just want to sleep now' is spoken clearly and accurately (0.0s - 3.2s). The fluency is high with a very natural human-like prosody. Critically, the target cognitive state of being 'tired' is captured exceptionally well. The speaker uses a breathy, lower-pitched voice with a dragging tempo (0.2s - 1.5s). The phrase 'I just want to sleep now' (1.6s - 3.2s) features an exhausted sigh-like quality and elongation of vowels that vividly conveys grogginess and lethargy. The performance is spot-on.",
-    "reasoning_model_2": "The model correctly speaks the text 'Woke up too early, I just want to sleep now', although the pronunciation of 'too' is somewhat clipped, sounding like 'to'. However, the audio completely fails to follow the paralinguistic instruction. The tone is bright, energetic, and chirpy (0.0s - 1.8s), which is the exact opposite of a 'tired tone'. The pace is fast and the pitch modulation suggests alertness and cheerfulness rather than fatigue. Therefore, on the core dimension of the requested cognitive state, this generation is a failure.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering a performance that sounded genuinely exhausted, utilizing pace, breathiness, and pitch to convey the 'tired' cognitive state. Model 2, conversely, ignored the stylistic instruction entirely, producing a standard, energetic reading that contradicted the semantic meaning of the text and the user's prompt. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

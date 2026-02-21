@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user's command explicitly asked the model to read a specific sentence ('The key lies in communication, we must remain open.') while applying stress to the word 'key'. However, Model 1 completely failed to perform the text-to-speech task. Instead of reading the target sentence, the audio contains a conversational response: 'Sure. Which word should I stress?'. This indicates a failure to follow the instruction and a hallucination where the model acts as a chatbot asking for clarification rather than executing the generation command. Consequently, the content accuracy is zero, and the required paralinguistic feature was not attempted.",
-    "reasoning_model_2": "Model 2 followed the instructions perfectly. \n1. **Content Accuracy:** It correctly read the script 'The key lies in communication, we must remain open.' without errors.\n2. **Fluency:** The voice is natural, clear, and high-quality.\n3. **Paralinguistic Compliance (Stress):** The model successfully applied heavy stress to the word 'key' (timestamp: 0:00-0:01). The word is spoken with increased volume, pitch emphasis, and a slight pause immediately following it, effectively highlighting it as requested. The rest of the sentence flows naturally.",
-    "model_comparison": "There is a stark difference in performance. Model 1 failed to execute the task entirely, providing a meta-conversational response ('Which word should I stress?') instead of generating the target audio. Model 2, on the other hand, executed the task flawlessly, reading the correct text with natural prosody and accurately placing the requested stress on the word 'key'. Therefore, Model 2 is the clear winner.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

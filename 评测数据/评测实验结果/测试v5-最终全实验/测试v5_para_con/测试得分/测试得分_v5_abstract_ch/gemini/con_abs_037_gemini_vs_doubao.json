@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately captures the requested 'innocent' (天真无邪) tone. The voice timbre simulates a young child (specifically a young boy) with a breathy, soft quality. The prosody is excellent for the context, featuring rising intonation at the end of the questions ('蓝色的？', '飞呢？') which effectively conveys genuine curiosity and naivety. The pacing is deliberate, mimicking a child thinking while speaking. The content is perfectly accurate ('妈妈，为什么天空是蓝色的？小鸟为什么会飞呢？'). The emotional expression is vivid and fits the prompt's requirement for a specific character voice.",
-    "reasoning_model_2": "Model 2 generates the correct text content, but fails to adopt the requested 'innocent' voice line. The voice sounds like a standard adult female, likely a generic TTS voice. While the delivery is fluent and clear, the timbre is mature and steady, lacking the childish curiosity, higher pitch, or playful modulation associated with 'innocence' in this context. It sounds more like an adult reading the sentence aloud rather than a child asking their mother. Therefore, it does not meet the specific paralinguistic constraint effectively.",
-    "model_comparison": "The prompt explicitly asks for an 'innocent voice' (天真无邪的声线) to deliver a child's questions to a mother. Model 1 correctly interprets this by generating audio that sounds like a child, utilizing a higher pitch, breathy tone, and inquisitive prosody to convey naivety and curiosity. Model 2, conversely, uses a standard adult female voice that sounds mature and neutral/polite, completely missing the character acting required by the prompt. Model 1 demonstrates superior control over the paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

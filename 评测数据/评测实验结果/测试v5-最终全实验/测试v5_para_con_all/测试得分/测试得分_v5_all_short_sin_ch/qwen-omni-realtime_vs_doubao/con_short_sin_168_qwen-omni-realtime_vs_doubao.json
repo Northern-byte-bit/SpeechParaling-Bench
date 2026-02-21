@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the required non-verbal feature (sighing) into the speech. \n1. **Content Accuracy**: The spoken content matches the target script '这天气真热啊，快把我晒化了。'. The model prepends a sigh sound ('Ai...'), which is the expected implementation of the 'say with a sigh' instruction. \n2. **Fluency**: The pacing is natural, slow, and lethargic, fitting the context of being exhausted by heat. \n3. **Paralinguistic Compliance**: At [00:00], there is a distinct, heavy exhalation/sigh ('Haa...'). The subsequent delivery maintains a weary, breathless tone consistent with the initial sigh, effectively conveying the physical sensation of being 'melted' by the heat. The execution is vivid and accurate.",
-    "reasoning_model_2": "The model fails critically on content accuracy. \n1. **Content Accuracy**: The user requested the specific sentence: '这天气真热啊，快把我晒化了。'. However, the model generates a long, hallucinated paragraph starting from [00:02] to [00:10] ('我这人简直要被太阳烤化了... 连呼吸都像在吞火炭'). \n2. **Paralinguistic Compliance**: While the audio starts with an 'Aiya' at [00:00] and the voice acting is expressive, the severe violation of the text constraint renders the generation unacceptable. According to the scoring standard, if content is clearly inconsistent with the script, the score must be 0.",
-    "model_comparison": "Model 1 followed all instructions perfectly, delivering the exact text with the required 'sighing' feature and appropriate emotional prosody. Model 2 completely failed the text generation task by hallucinating a long paragraph instead of reading the provided sentence. Although Model 2's audio quality is high, the content error is fatal.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

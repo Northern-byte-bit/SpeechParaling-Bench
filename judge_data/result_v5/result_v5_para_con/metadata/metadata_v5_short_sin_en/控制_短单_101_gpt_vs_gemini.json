@@ -1,0 +1,14 @@
+{
+    "sample_index": 101,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with emphasis on 'is': 'I just feel this plan is the best.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

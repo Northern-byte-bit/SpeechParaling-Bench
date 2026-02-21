@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to adhere strictly to the provided text. At 00:00, it adds the phrase 'Every day' to the beginning of the sentence ('Every day for skin care...'), resulting in a repetition that was not in the script ('For skin care...'). While the model does apply stress to the target phrase 'every day' at 00:03 (increasing loudness and duration), the content hallucination and the resulting disfluency significantly impact the quality. The delivery sounds somewhat unstable.",
-    "reasoning_model_2": "The model reproduces the script with perfect content accuracy and high naturalness. The pacing is smooth and human-like. Regarding the specific instruction to stress 'every day', the model successfully executes this around 00:02. The phrase is articulated with a slight reduction in speed and a clear pitch accent, making it stand out naturally against the surrounding text without sounding mechanical or exaggerated. It fully meets the requirement.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinates text at the beginning of the audio ('Every day for skin care...'), violating the content accuracy requirement. Although Model 1 does stress the target phrase, the inclusion of unscripted words and the resulting repetitive structure make it a poor generation. Model 2 follows the script exactly and integrates the requested stress on 'every day' naturally and effectively.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

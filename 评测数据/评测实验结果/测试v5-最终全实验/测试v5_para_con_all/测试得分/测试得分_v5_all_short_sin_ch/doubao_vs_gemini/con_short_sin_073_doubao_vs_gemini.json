@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content strictly follows the script '我悄悄告诉你，他就是老板。' (0:00-0:03). In terms of paralinguistic compliance, the model perfectly executes the 'whisper' (耳语) instruction. The voice is breathy, unvoiced or semi-voiced, with significantly reduced volume and projection, creating an authentic secretive atmosphere. The pacing is deliberate and careful, matching the context of sharing a secret. There are no flaws in fluency or naturalness; it sounds like a real human whispering close to a microphone.",
-    "reasoning_model_2": "The audio content accurately matches the script '我悄悄告诉你，他就是老板。' (0:00-0:04). However, regarding the core requirement 'whisper' (耳语), the model completely fails. The speech is delivered in a standard, full-voice projection (modal voice) with normal volume and resonance. While the speech is fluent and the recording quality is high, it ignores the specific style/volume instruction provided in the prompt. It sounds like a standard reading rather than a secretive whisper.",
-    "model_comparison": "Model 1 strictly adhered to the user's command to speak in a 'whisper', effectively modulating the volume and phonation style to produce a realistic, breathy whisper. Model 2, while fluent and accurate in content, completely disregarded the 'whisper' instruction and produced speech in a normal, full voice. Therefore, Model 1 is the clear winner as it correctly implemented the required paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

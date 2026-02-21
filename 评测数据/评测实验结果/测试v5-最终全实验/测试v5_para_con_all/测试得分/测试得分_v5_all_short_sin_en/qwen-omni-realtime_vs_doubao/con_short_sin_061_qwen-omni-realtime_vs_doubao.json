@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the correct text content 'Help, someone is injured here' (0:00-0:02). However, it completely fails to adhere to the paralinguistic instruction to read with a 'shouting manner'. The delivery is conversational, with a volume and projection level typical of indoor speaking. The tone sounds like a child or character voice acting out a line without any of the acoustic intensity, loudness, or urgency required for a shout. It sounds calm and flat regarding the target feature.",
-    "reasoning_model_2": "The model correctly generates the text 'Help! Someone is injured here!' (0:00-0:03). The audio demonstrates excellent compliance with the 'shouting manner' instruction. The voice is clearly projected with high intensity and volume, mimicking the acoustic properties of someone yelling to be heard. The stress on 'Help' and the sustained projection through the sentence effectively convey the required urgency and volume.",
-    "model_comparison": "There is a stark contrast between the two models regarding the target feature 'Volume' (shouting manner). Model 1 provides a conversational, speaking-volume delivery that ignores the instruction to shout. Model 2 successfully modifies the vocal projection to simulate a loud shout, capturing the intensity and urgency inherent in the command. Model 2 is the clear winner as it actually performs the requested paralinguistic task.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

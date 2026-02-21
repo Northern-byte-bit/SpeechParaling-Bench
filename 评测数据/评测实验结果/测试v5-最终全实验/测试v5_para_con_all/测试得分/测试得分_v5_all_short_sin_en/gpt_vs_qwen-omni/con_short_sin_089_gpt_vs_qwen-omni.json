@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the text 'Hurry! The enemy is ahead, we need to rush through.' The audio demonstrates a high degree of compliance with the 'rushed rhythm' instruction. Specifically, the word 'Hurry' (0.0s-0.4s) is spoken sharply and quickly. The phrase 'The enemy is ahead' (0.5s-1.3s) is delivered with a fast pace and urgent tone, minimizing pauses between words. The final segment 'we need to rush through' (1.4s-2.3s) maintains this momentum, ending abruptly to simulate urgency. The overall duration is short, and the pacing effectively conveys the feeling of being in a rush/panic situation. The audio is fluent and natural.",
-    "reasoning_model_2": "The model generates the correct text content. However, it completely fails to adhere to the 'rushed rhythm' instruction. The delivery is notably slow and dragged out. 'Hurry' (0.0s-0.7s) has elongated vowels and sounds more like a whine than an urgent command. The phrase 'the enemy is ahead' (0.9s-2.1s) is spoken with a slow, plodding cadence. The final part 'we need to rush through' (2.2s-3.6s) is similarly lethargic. The tone resembles a tired or complaining child rather than someone rushing through enemy lines. The rhythm is the opposite of what was requested.",
-    "model_comparison": "Model 1 (T1) followed the instruction perfectly. The speech was fast-paced, urgent, and concise, fitting the context of the sentence and the explicit 'rushed rhythm' constraint. Model 2 (T2) provided a slow, elongated delivery that directly contradicted the prompt. Therefore, Model 1 is the clear winner due to its successful execution of the paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

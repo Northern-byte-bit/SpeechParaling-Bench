@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with high fidelity to the text content '救命啊！这里有人受伤了！'. In terms of the specific feature command 'shouting volume' (喊叫的音量), the model performs excellently. From 00:00 to 00:02, the voice has high projection, increased pitch, and strong energy characteristic of shouting. The urgency and volume level clearly distinguish it from normal conversation, effectively conveying the requested paralinguistic feature.",
-    "reasoning_model_2": "The model accurately speaks the text content '救命啊，这里有人受伤了'. However, regarding the core instruction to use 'shouting volume', the model fails significantly. The audio is delivered in a calm, conversational tone (00:00-00:02) with normal volume. There is no increase in projection, energy, or pitch that constitutes a shout. While the voice quality is natural and fluent, it completely ignores the explicit style/volume constraint provided in the prompt.",
-    "model_comparison": "Model 1 followed the user's specific instruction to use a 'shouting volume', producing audio that sounds like someone yelling for help with appropriate high energy and projection. Model 2, while producing a natural-sounding voice, failed to adhere to the volume constraint, delivering the line in a standard conversational tone. Therefore, Model 1 is the clear winner for the specific evaluation dimension of Volume.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

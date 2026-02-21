@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio from Model 1 strictly adheres to the provided script: '那些热闹的社交活动，对我来说并没有什么吸引力。' There are no mispronunciations or omissions. Regarding the required paralinguistic feature '冷漠疏离' (indifference/detachment), the speaker adopts a calm, low-energy tone. The pitch is relatively flat with a falling intonation at the end (2.5s - 3.5s), effectively conveying a sense of boredom and lack of interest. The pause after '活动' and '来说' adds a relaxed, unbothered pacing that aligns well with a detached attitude. The delivery is natural and fluent, satisfying the prompt's requirements perfectly.",
-    "reasoning_model_2": "The audio from Model 2 fails the primary requirement of content accuracy. The script provided was '那些热闹的社交活动，对我来说并没有什么吸引力。', but the model generated: '那些热闹的社交活动，对我而言不过是喧嚣的过场，毫无意义，也不值得停留。' This is a complete hallucination/rewrite of the prompt text. Furthermore, the tone employed is high-energy, expressive, and almost theatrical/lively, which contradicts the instruction for '冷漠疏离' (cold indifference). Due to the severe content deviation, this model receives the lowest score based on the evaluation criteria.",
-    "model_comparison": "Model 1 is the clear winner. It accurately speaks the requested text and effectively employs the requested 'cold and indifferent' tone through flat prosody and low arousal. Model 2 completely fails the evaluation because it rewrote the text script entirely (hallucination) and used an overly expressive, high-energy tone that did not match the requested 'indifference'. Therefore, Model 1 is superior in all aspects.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

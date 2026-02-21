@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly generates the text content '我跑不动了，感觉腿都快断了。' without any errors. In terms of the paralinguistic feature 'Fatigue' (Cognitive State), the audio utilizes breathiness, a slightly higher pitch associated with whining/exertion, and a dragged rhythm to effectively convey the feeling of being physically exhausted. The expression is natural and clearly discernible as a tired state.",
-    "reasoning_model_2": "The model completely fails the Content Accuracy criterion. The user requested the specific sentence '我跑不动了，感觉腿都快断了。', but the model generated a completely different, expanded script: '我真跑不动了，腿像灌了铅一样沉，每迈一步，都像在撕扯骨头，快断了快断了。'. According to the scoring standard, significant deviation from the script results in a score of 0, regardless of the emotional expression.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with a vivid and appropriate tone of fatigue. Model 2 failed to follow the text generation command, hallucinating a much longer and different script. Although Model 2's tone was expressive, the content failure makes it a complete hallucination relative to the prompt requirements. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

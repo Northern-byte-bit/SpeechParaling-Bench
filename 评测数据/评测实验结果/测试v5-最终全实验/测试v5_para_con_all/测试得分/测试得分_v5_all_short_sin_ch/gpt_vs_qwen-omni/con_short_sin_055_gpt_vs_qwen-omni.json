@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately produces the content '请你仔细听，这个步骤很重要。' without any pronunciation errors. Regarding the core paralinguistic feature '语速' (Speaking Rate), the model successfully executes the command to speak at a 'slow' pace. The total duration of the audio is approximately 5 seconds for a short sentence. There are deliberate pauses and elongations between words, specifically noticeable at 00:00-00:02 ('请-你-仔细-听') and 00:03-00:05 ('这个步骤-很重要'). The prosody is natural for a slow, emphatic instruction, effectively conveying the importance of the step as requested.",
-    "reasoning_model_2": "Model 2 accurately produces the content '请你仔细听，这个步骤很重要。' with clear pronunciation and good fluency. However, regarding the core paralinguistic feature '语速' (Speaking Rate), the model fails to adhere to the user's command for a 'slow' pace. The sentence is delivered at a standard, conversational speed (or even slightly brisk), lasting only about 2 seconds total (00:00-00:02). There is no noticeable attempt to slow down the articulation or insert pauses to match the 'slow' requirement.",
-    "model_comparison": "Both models achieve perfect content accuracy and high audio fidelity (fluency and naturalness). However, the evaluation hinges on the 'Feature Control' of 'Speaking Rate' (语速). Model 1 (T1) correctly interprets and applies the 'slow' constraint, significantly elongating the speech and adding appropriate pauses to create a slow, emphatic tone. Model 2 (T2) completely ignores the 'slow' instruction, delivering the text at a normal to fast conversational pace. Therefore, T1 demonstrates superior control over the requested paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

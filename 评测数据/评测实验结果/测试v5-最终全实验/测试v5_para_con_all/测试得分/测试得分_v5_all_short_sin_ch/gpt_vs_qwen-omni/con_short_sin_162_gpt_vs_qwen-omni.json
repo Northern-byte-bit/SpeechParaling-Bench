@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generates the voice content '这主意真不错，我怎么没想到呢？' with high content accuracy relative to the script. However, regarding the core dimension '非语言发声' (Non-verbal vocalizations), the generated output fails to include the specific feature requested by the user. The command required the sentence to be spoken 'with laughter' (带笑声), but Model 1's output is a standard reading without any explicit non-verbal laughter sounds (e.g., 'haha', 'hehe') or indicated paralinguistic additions. Consequently, it receives a low score for the feature dimension.",
-    "reasoning_model_2": "Model 2 generates the content 'hehe, 这主意真不错，我怎么没想到呢？'. At the very beginning (timestamp ~0.0s), the model explicitly includes the non-verbal vocalization 'hehe', which represents laughter. This directly corresponds to the user's command to speak 'with laughter' (带笑声). By integrating this paralinguistic feature naturally before the sentence, Model 2 successfully fulfills the feature control requirement while maintaining the intelligibility of the core script.",
-    "model_comparison": "In the comparison for the '非语言发声' (Non-verbal vocalizations) dimension, Model 2 is the clear winner. The user's instruction specifically requested the inclusion of laughter. Model 2 complied by generating a clear laughter sound ('hehe') at the beginning of the speech, making the audio expressive and aligned with the prompt. Model 1, conversely, provided a standard reading of the text without adding the requested non-verbal laughter feature. Therefore, Model 2 demonstrates superior control over paralinguistic features.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

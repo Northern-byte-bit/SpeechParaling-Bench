@@ -1,0 +1,14 @@
+{
+    "sample_index": 203,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a rude tone: 'How exactly did you make this report? It's utter rubbish, a waste of my time! Redo it! I want a decent one by tonight, understood?'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

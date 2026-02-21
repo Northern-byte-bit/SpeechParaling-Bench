@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model attempts to generate the speech, but fails significantly in Content Accuracy. It appends the phrase '快快快快快' (Quick quick quick...) at the end of the target sentence, which is a hallucination not present in the script. While the core sentence '我今天上午忙死了，处理了许多紧急邮件' may be spoken, the addition of these extra words disrupts the rhythm and violates the strict text adherence requirement. This major flaw makes it difficult to assess the 'fast' speech rate naturally, as the ending sounds mechanical or erroneous.",
-    "reasoning_model_2": "The model follows the script perfectly with no additions or omissions ('我今天上午忙死了，处理了许多紧急邮件'). The speech rate is noticeably accelerated compared to a neutral reading, which aligns well with the semantic context of being 'busy' and handling 'emergency emails'. The pacing is consistent and maintains fluency without stuttering, successfully fulfilling the user's request for a 'fast speech rate' while maintaining high naturalness.",
-    "model_comparison": "Model 2 (T2) is the clear winner. Model 1 (T1) suffers from a critical content error by hallucinating extra words ('快快快快快') at the end of the generation, which violates the script and negatively impacts the listening experience. Model 2 accurately adheres to the text and effectively implements the requested paralinguistic feature (fast speed) with good fluency and naturalness.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

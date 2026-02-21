@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model flawlessly executes the content accuracy, reading the script 'He said he could finish it in three days, do you believe him?' word-for-word. Regarding the paralinguistic feature 'Cognitive State' (Doubting tone): The speaker adopts a skeptical demeanor from the start. At [0:00-0:02], there is a subtle elongation and emphasis on 'He said', implying distance from the claim. The pause at [0:02] effectively separates the claim from the query. The final question 'do you believe him?' [0:03-0:05] features a rising intonation that isn't just inquisitive but suggests the answer should be 'no', effectively conveying doubt. The prosody is natural and human-like.",
-    "reasoning_model_2": "The model fails the primary criterion of Content Accuracy. The user commanded to read a specific sentence, but the model deviated significantly from the script. Instead of saying 'do you believe him?', the model says 'Really? I'm not so sure I believe him.' [0:02-0:06]. While the tone is indeed doubting and incredulous, the severe hallucination and modification of the target text make the generation invalid based on the scoring standards for Content Accuracy (0 = Voice content is clearly inconsistent with the script).",
-    "model_comparison": "Model 1 is the clear winner. It accurately recited the provided text while successfully integrating the required doubting tone through appropriate stress and intonation. Model 2, although expressive in its tone, completely failed the instruction to read the specific sentence provided, altering the second half of the script entirely. Due to this major content error, Model 2 receives the lowest score.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

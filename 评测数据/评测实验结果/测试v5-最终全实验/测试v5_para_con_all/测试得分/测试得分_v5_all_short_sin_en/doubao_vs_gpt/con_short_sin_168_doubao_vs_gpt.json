@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the sentence to be read with a sigh. Model 1 explicitly inserts a non-linguistic vocalization 'Ah' at the very beginning (00:00-00:01) before commencing the speech. This 'Ah' sound functions effectively as the requested sigh, setting a weary tone appropriate for the context of the sentence. Although there is a minor content deviation where 'I'm' is expanded to 'I am', the core requirement of 'Non-Linguistic Vocalizations' is perfectly executed with the distinct sigh sound.",
-    "reasoning_model_2": "Model 2 reads the text starting immediately at 00:00 ('This weather is so hot...') without any audible or transcribed non-linguistic vocalization such as a sigh or heavy breath preceding or interrupting the speech. While the pacing seems functional, the specific feature control required—a non-linguistic sigh—is completely absent from the generated output. Like Model 1, it also expands 'I'm' to 'I am'.",
-    "model_comparison": "Model 1 successfully follows the specific paralinguistic instruction to include a 'sigh' by generating a distinct 'Ah' sound at the start of the audio. Model 2 fails to generate any non-linguistic vocalization, simply reading the text (with a minor contraction expansion error common to both). Therefore, Model 1 is the clear winner for correctly implementing the requested feature control.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

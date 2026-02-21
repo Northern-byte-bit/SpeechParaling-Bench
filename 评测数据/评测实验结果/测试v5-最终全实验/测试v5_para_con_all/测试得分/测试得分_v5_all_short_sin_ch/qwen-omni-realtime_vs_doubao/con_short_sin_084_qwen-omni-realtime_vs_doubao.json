@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 perfectly follows the user's command. \n1. **Content Accuracy**: The spoken text \"听着歌做家务，时间过得真快。\" matches the script exactly (00:00-00:04).\n2. **Fluency**: The speech is highly natural with no artifacts.\n3. **Paralinguistic Compliance (Rhythm)**: The speaker uses a brisk, upbeat, and energetic pace. The articulation is crisp and the tempo is fast, effectively conveying the feeling of efficiency and happiness associated with the text. The 'light/brisk' (轻快) requirement is fully met.",
-    "reasoning_model_2": "Model 2 fails the fundamental instruction regarding the content.\n1. **Content Accuracy**: The user requested the specific sentence \"听着歌做家务，时间过得真快。\". However, Model 2 generated a completely different, long creative text starting with \"嘿，音乐一响，扫把都跟着打拍子...\" (00:00-00:13). This is a hallucination/rewriting error where the model disregarded the specific script constraints.\n2. **Paralinguistic Compliance**: While the voice acts with a lively tone, the complete failure in content accuracy renders the generation invalid according to the scoring criteria (0 = Content is clearly inconsistent with the script).",
-    "model_comparison": "Model 1 is the clear winner. Model 1 followed both the content instruction (reading the specific sentence) and the style instruction (brisk rhythm) perfectly. Model 2 completely ignored the text constraint, generating a long paragraph of creative writing instead of the requested sentence. Therefore, Model 2 receives a score of 0 due to the fatal content error, while Model 1 receives a perfect score for accurate execution.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'This formula is very important, please be sure to remember it.' accurately. Regarding the core requirement to place heavy stress on 'very', the model attempts this by placing distinct pauses before and after the word 'very' (0:01-0:02) and increasing its volume and pitch significantly. While this technically achieves 'heavy stress' and makes the word stand out prominently, the resulting prosody is somewhat disjointed and unnatural, sounding slightly robotic due to the forced pauses. The feature is present and compliant, but the naturalness of the delivery prevents it from being a perfect human-like representation.",
-    "reasoning_model_2": "The model generates the text accurately. However, the delivery is whispery, monotone, and low-energy throughout the entire sentence. There is no audible stress placed on the word 'very' (0:02). The word blends completely with the surrounding text ('very important') without any change in pitch, duration, or volume to indicate emphasis. The model fails to follow the specific paralinguistic instruction provided in the prompt.",
-    "model_comparison": "Model 1 successfully follows the user's instruction to apply heavy stress to the word 'very', making it the focal point of the sentence, although the execution sacrifices some flow and naturalness. Model 2 completely ignores the instruction, delivering the sentence in a flat, monotone manner with no emphasis on the target word. Therefore, Model 1 is the clear winner for adhering to the specific control command.",
-    "score_1_1": 2,
-    "score_2_1": 0,
-    "winner_1": 1
-}

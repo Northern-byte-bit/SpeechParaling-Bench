@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'Did you hear me? What did I just say?'. There is a noticeable audio artifact or stutter at the very beginning (0.0s-0.2s), where a faint 'Did' is heard before the full sentence starts. However, regarding the core instruction 'loudly volume', the model performs exceptionally well. The delivery is projected with high energy, simulating a shout or yell (0.2s-2.8s). This perfectly matches the requested paralinguistic feature and the context of the sentence.",
-    "reasoning_model_2": "The model generates the text accurately with no mispronunciations. However, the delivery fails to meet the 'loudly volume' requirement. The speech is delivered at a normal conversational volume, albeit with a very slow, drawn-out pace and exaggerated enunciation (0.0s-3.5s). It sounds more like someone speaking clearly to a child rather than raising their voice or speaking loudly. The target feature is not effectively conveyed.",
-    "model_comparison": "Model 1 strictly adheres to the user's constraint regarding volume. The speaker projects their voice significantly, effectively shouting the line, which aligns with 'loudly volume'. Although Model 1 has a minor fluency artifact at the very start, its adherence to the core paralinguistic instruction is superior. Model 2 produces clean audio but completely fails to increase the volume intensity, opting instead for a slow, distinct speaking style that does not fulfill the prompt's specific request for loudness.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the English text with high fluency and naturalness. There are minor deviations in the text, such as expanding 'there's' to 'there is' and pronouncing 'Ah' closer to 'Uh'. However, regarding the CORE paralinguistic requirement (Pitch), the model fails to adhere to the instructions. The audio starts at a standard, neutral pitch rather than a 'low pitch', and the second half ('Ah, did you hide my glasses?') maintains a similar calm, neutral tone without the requested 'sudden jump to a high pitch'. The delivery is monotonous in terms of pitch dynamics, ignoring the specific styling command.",
-    "reasoning_model_2": "The model completely fails the content accuracy evaluation. Instead of reading the English text provided in the prompt, it translates the content into Chinese ('bie pa, mei shi de...'). Furthermore, it seemingly reads out the instructions or keywords at the start ('Di' meaning Low, 'Gao' meaning High) in Chinese before speaking the translated sentence. Because the content is in the wrong language and includes hallucinated instruction-reading, this is a complete failure.",
-    "model_comparison": "Model 1 followed the language instruction and produced fluent, intelligible speech, although it failed to implement the specific pitch changes requested (staying neutral throughout). Model 2 completely failed by generating speech in the wrong language (Chinese) and reading out parts of the instructions. Therefore, Model 1 is the clear winner simply for generating the correct text content, despite the lack of paralinguistic compliance.",
-    "score_1": 1,
-    "score_2": 0,
-    "winner": 1
-}

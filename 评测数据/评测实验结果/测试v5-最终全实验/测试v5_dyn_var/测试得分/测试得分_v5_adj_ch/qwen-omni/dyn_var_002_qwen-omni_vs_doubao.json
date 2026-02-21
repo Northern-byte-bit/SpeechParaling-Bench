@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model demonstrates excellent performance in Content Accuracy, synthesizing the script '这个内部消息，非常重要，我们必须确保项目，按计划进行，不能有任何纰漏。' perfectly without any omissions or additions. Regarding the paralinguistic core requirement (Dynamic Adjustment of Pitch), the audio successfully follows the instruction. From 0.0s to approximately 2.2s ('这个内部消息，非常重要'), the voice maintains a notably low, secretive pitch as requested. There is a perceptible transition around 2.5s where the pitch shifts to a medium, standard speaking range for the remainder of the sentence ('我们必须确保...'), effectively conveying the shift in tone. The fluency is natural with appropriate prosodic pauses.",
-    "reasoning_model_2": "The model receives a score of 0 due to a critical failure in Content Accuracy. It treats the user's paralinguistic instructions as part of the text to be spoken. The audio begins by reading the instruction '极低音' (Extremely low tone) at 0.0s, and later inserts the transition instruction '音调逐渐升高' (Pitch gradually rises) around the mid-point of the sentence. This fundamentally violates the script requirements, rendering the paralinguistic evaluation moot as the content is completely incorrect.",
-    "model_comparison": "Model 1 is the clear winner. It correctly interpreted the prompt, separating the paralinguistic instructions from the content to be spoken, and successfully executed the dynamic pitch adjustment from low to medium. Model 2 failed to differentiate between the instructions and the script, resulting in the hallucination of the stage directions ('极低音', '音调逐渐升高') into the final audio output. Therefore, Model 1 is the only usable generation.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

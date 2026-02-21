@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately follows the script '不许挑食，把菜都吃完！' without any additions or omissions. Regarding the specific instruction to emphasize '不许' (timestamp: 0.0s-0.7s), the model executes this perfectly. The phrase '不许' is spoken with significantly higher intensity, volume, and a commanding tone compared to the rest of the sentence. The pause after '不许' further highlights the stress, making the prohibition sound authoritative and strict. The overall naturalness is high, fitting the context of a stern command.",
-    "reasoning_model_2": "Model 2 fails the fundamental requirement of Content Accuracy. The expected script was '不许挑食，把菜都吃完！', but the model generated: '不许啥，不许挑食，把菜都吃完，一口都不能剩，听清楚没有'. It hallucinated significant amounts of text ('不许啥', '一口都不能剩...'), turning a reading task into a role-play improvisation. According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, despite the audio sounding relatively natural in terms of timbre, it fails the evaluation task completely.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact script with the required emphasis on specific words. The stress on '不许' was prominent and effectively conveyed the commanding tone. Model 2 failed completely on content accuracy by adding a large amount of unrequested text/dialogue. Consequently, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

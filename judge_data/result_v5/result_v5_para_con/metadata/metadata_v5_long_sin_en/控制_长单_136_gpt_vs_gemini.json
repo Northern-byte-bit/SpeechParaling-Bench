@@ -1,0 +1,14 @@
+{
+    "sample_index": 136,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hesitant tone: 'Hmm... everything on this menu looks good, I'm a bit indecisive, should I choose something spicy or something light? How about you order first, and I'll think a bit more.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the required paralinguistic feature ('non-verbal vocalization') by beginning the utterance with a natural, weary sigh ('Ai...', 0.0s-0.5s). This immediately establishes the context of exhaustion caused by the heat. The subsequent text content '这天气真热啊，快把我晒化了' is delivered with perfect accuracy and a dragging, lethargic prosody that aligns well with the semantic meaning of being 'melted'. The breathing and tonal changes are human-like, with no mechanical artifacts.",
-    "reasoning_model_2": "The model attempts to include the sighing feature but places it unnaturally in the middle of the sentence ('这天气真热...' [pause/sigh 1.2s-1.6s] '...快把我晒坏了'). This disrupts the fluency and prosodic flow. Crucially, there is a content accuracy error at the end of the sentence (approx 2.5s): the model pronounces the target word '晒化了' (shai hua le - melted) as '晒坏了' (shai huai le - ruined/burned). This mispronunciation alters the specific meaning of the script. The overall delivery feels disjointed compared to a natural human expression.",
-    "model_comparison": "Model 1 is significantly better than Model 2. Model 1 correctly places the sigh at the start to set the emotional tone and maintains high content accuracy and naturalness throughout. Model 2 fails on two counts: first, it commits a content error by substituting '化' (hua) with '坏' (huai); second, the placement of the sigh in the middle of the sentence breaks the natural flow of speech, making it sound staged and mechanical. Model 1 fully meets the criteria for paralinguistic compliance and accuracy.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

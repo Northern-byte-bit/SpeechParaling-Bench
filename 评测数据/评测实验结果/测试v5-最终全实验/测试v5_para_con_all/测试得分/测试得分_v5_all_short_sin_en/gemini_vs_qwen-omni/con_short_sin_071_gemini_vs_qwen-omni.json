@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with perfect content accuracy, saying 'Come here, I have a secret to tell you' clearly (00:00-00:03). Regarding the paralinguistic feature 'Volume' (quietly), the model executes this flawlessly by adopting a whispered vocal style. The entire utterance is delivered in a hushed, breathy whisper without vocal cord vibration, which is the standard human interpretation of speaking 'quietly' to tell a secret. The pacing is natural and enhances the secretive atmosphere. The audio quality is clean and devoid of artifacts.",
-    "reasoning_model_2": "The model provides accurate content matching the text 'Come here, I have a secret to tell you' (00:00-00:02). However, in terms of the 'Volume' instruction ('quietly'), the model fails to significantly alter its projection. The speech is delivered with full phonation at a standard conversational volume. While the tone is somewhat casual, it lacks the reduction in volume or the whispered quality explicitly requested by the prompt and implied by the context of a 'secret'. It sounds like a standard text-to-speech reading rather than a performance with controlled volume.",
-    "model_comparison": "Model 1 (T1) followed the user's specific instruction to read with a 'quietly volume' by generating a whisper, which is contextually appropriate for telling a secret. The volume and timbre perfectly matched the request. Model 2 (T2) ignored the specific constraint regarding volume, delivering the line in a standard, fully phonated voice at normal volume. Therefore, Model 1 is significantly better as it correctly implemented the paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

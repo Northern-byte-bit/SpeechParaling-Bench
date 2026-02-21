@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly identifies the target text 'Please listen carefully, this step is very important.' and excludes the instructional part of the prompt. The pacing is executed perfectly according to the command 'slow pace'. The speaker uses significant pauses between words and phrases (e.g., 'Please... listen... carefully...' spanning 00:00 to 00:03, and 'This step... is very... important' spanning 00:04 to 00:07). The total duration for the short sentence is approximately 7 seconds, clearly demonstrating a deliberate, slow tempo that enhances the sense of importance without sounding robotic.",
-    "reasoning_model_2": "The model fails on Content Accuracy by reading the prompt instruction ('Please read this sentence with a slow pace') included in the output (00:00-00:02). Regarding the target feature 'Pace', the actual target sentence ('Please listen carefully, this step is very important') is read from 00:03 to 00:06 with a standard, conversational speed. There is no noticeable attempt to slow down the pace; in fact, it flows quite quickly. Therefore, it fails to meet the paralinguistic requirement.",
-    "model_comparison": "Model 1 is the clear winner. It correctly isolates the target script and applies the 'slow pace' feature effectively, resulting in a reading that matches the user's intent perfectly. Model 2 makes a critical instruction-following error by reading the command itself and fails to apply the requested slow pace to the target text, reading it at a normal speed instead.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

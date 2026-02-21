@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with high energy and significant volume, effectively simulating a scream or a very loud shout of excitement. From 0:00 to 0:03, the pitch is elevated and there is audible vocal strain consistent with shouting 'Wow! I won!'. The delivery captures the requested paralinguistic feature of a 'scream' vividly. There is a minor text normalization where 'That's' is spoken as 'That is', but this does not detract from the overall meaning or the impressive execution of the target vocal style.",
-    "reasoning_model_2": "The model completely fails to adhere to the paralinguistic instruction. Instead of a scream, the audio from 0:00 to 0:03 is delivered in a soft, breathy, and intimate tone, almost resembling a whisper. While the speech is fluent and the text is recognizable (with the same 'That is' expansion as Model 1), the dynamics are the exact opposite of a scream. It lacks the necessary volume, projection, and intensity required by the prompt.",
-    "model_comparison": "Model 1 successfully identified and executed the core instruction to read the sentence with a scream. The audio is loud, energetic, and emotionally charged, fitting the criteria for a score of 3 despite a minor contraction expansion. Model 2, on the other hand, produced a soft, breathy voice that is diametrically opposed to the requested 'scream'. Because Model 2 expressed the opposite characteristic of what was requested (whisper/soft vs. scream), it receives a score of 0.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

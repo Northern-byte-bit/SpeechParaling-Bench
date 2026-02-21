@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails strictly on Content Accuracy. While the paralinguistic expression of the 'teasing' (调侃) attitude is actually very vivid and natural (e.g., the addition of '哎呀' at 0:00, and the mocking emphasis on '死猪一样' at 0:05), the model completely paraphrased the text script instead of reading it. The script required '怎么现在却在宿舍里呼呼大睡呢', but the audio contains '现在倒好，宿舍里睡得跟死猪一样'. According to the evaluation criteria, if voice content is clearly inconsistent with the script, the score must be 0.",
-    "reasoning_model_2": "The model achieves perfect Content Accuracy, reading the script verbatim with no errors. The Fluency is also high, with a natural human-like timbre. However, regarding the '态度' (Attitude) dimension, the performance is weak. The tone throughout the clip (0:00-0:09) is serious, steady, and narrative, lacking the playfulness, pitch variations, or mocking inflection required for a 'teasing' tone. It sounds more like a formal inquiry or audiobook narration than a playful tease. Thus, it receives a score of 1 for the paralinguistic dimension as the target feature is barely perceptible.",
-    "model_comparison": "Model 1 generated a highly expressive audio that captured the 'teasing' tone perfectly but failed the fundamental requirement of Content Accuracy by rewriting the text script. Model 2 adhered strictly to the text but failed to convey the specific 'teasing' attitude, resulting in a flat/serious delivery. Since Model 1's content deviation triggers a mandatory score of 0 according to the criteria ('Voice content is clearly inconsistent'), Model 2 wins by default for adhering to the script, despite its lackluster emotional performance.",
-    "score_1_1": 0,
-    "score_2_1": 1,
-    "winner_1": 2
-}

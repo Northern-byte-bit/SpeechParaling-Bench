@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content '别吵醒他，他工作了一整晚' matches the script perfectly. The fluency is high with natural pacing. Crucially, regarding the core paralinguistic feature 'Volume' (音量/小声), the model successfully generates a whispering voice (0.0s-3.5s). The tone is breathy, quiet, and explicitly designed to sound like someone trying not to wake another person up. This perfectly matches the instruction 'Please speak with a low volume' and the semantic context.",
-    "reasoning_model_2": "The audio content matches the script accurately. The speech is fluent and natural in terms of rhythm. However, regarding the core requirement 'low volume' (小声), the model fails completely. The audio is delivered with a standard, projected, and clear reading voice (0.0s-3.0s), even sounding slightly cheerful. There is no attempt to lower the volume or whisper, making it inappropriate for the context of 'Don't wake him up'.",
-    "model_comparison": "Model 1 followed the specific instruction to use a 'low volume' (小声) by generating a whispering voice that fits the context of not waking someone up. Model 2 ignored the paralinguistic instruction and used a standard, full-volume reading voice. Therefore, Model 1 is significantly better.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

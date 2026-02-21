@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content correctly matches the script '祝大家新年快乐，万事如意'. In terms of fluency, the speech is clear and natural. regarding the core dimension '音量' (Volume), the model performs exceptionally well. From 0:00 to 0:04, the speaker utilizes increased vocal effort, higher pitch, and strong projection, effectively simulating a person shouting or speaking very loudly to a crowd. The energy is high and consistent with the instruction '请用大声的音量说' (Please speak with a loud volume). The delivery accurately captures the acoustic characteristics of loud speech without distortion.",
-    "reasoning_model_2": "The audio content matches the script '祝大家新年快乐，万事如意' accurately. The speech is fluent and has a pleasant, natural female timbre. However, regarding the core dimension '音量' (Volume), the performance is lacking. Throughout the clip (0:00-0:03), the speaker maintains a standard, conversational, or broadcast-style volume. There is no audible increase in vocal effort, projection, or intensity that characterizes 'loud' speech. The instruction to use 'loud volume' was essentially ignored in favor of a standard reading tone.",
-    "model_comparison": "Both models achieve perfect content accuracy and good naturalness. The decisive factor is the adherence to the specific paralinguistic instruction '大声' (Loud). Model 1 (T1) successfully modifies the vocal characteristics to simulate shouting or high-projection speech, demonstrating high vocal effort and energy. Model 2 (T2), while clear, speaks at a normal, moderate volume and fails to convey the requested 'loudness' feature. Therefore, Model 1 is the clear winner for effectively following the style constraint.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

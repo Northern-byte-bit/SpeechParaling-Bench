@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates a male voice that adheres perfectly to the instruction 'soft sound quality' (柔和的音质). From 00:00 to 00:04, the speaker employs a breathy, subdued tone with reduced vocal projection, creating an intimate and gentle atmosphere. The pacing is slow and deliberate, and the timbre is warm and hushed, which aligns flawlessly with the semantic content 'Please speak softly/whisper'. The content accuracy is perfect, and the prosody is natural and human-like.",
-    "reasoning_model_2": "The model generates a female voice with standard articulation and projection. While the pronunciation is clear and the content is accurate (00:00-00:04), the 'sound quality' does not reflect the requested 'softness' (柔和). The voice is bright, resonant, and delivered with a standard announcer-like projection rather than a gentle or hushed tone. It sounds like a default reading style without the specific paralinguistic modification requested. While polite, it lacks the textural 'softness' required by the prompt.",
-    "model_comparison": "Model 1 is the clear winner. The instruction explicitly requested a 'soft sound quality' (柔和的音质). Model 1 adjusted the vocal timbre to be breathy, quiet, and gentle, perfectly matching both the explicit constraint and the meaning of the sentence (asking others to whisper). Model 2 provided a standard, bright reading that, while clear, failed to embody the specific 'soft' characteristic, sounding like a generic text-to-speech output rather than a stylistically controlled generation. Model 1 demonstrated superior control over paralinguistic features.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

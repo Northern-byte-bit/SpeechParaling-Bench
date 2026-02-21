@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '你到底在干什么？快给我住手！' accurately (00:00-00:03). Regarding the specific instruction 'shouting volume' (喊叫的音量), the audio falls short. While the tone is undeniably angry and urgent, the vocal projection corresponds more to a stern scolding or loud speaking voice rather than a genuine shout. The speaker sounds like they are close to the microphone speaking forcefully, but lacks the vocal cord strain and open-throat resonance characteristic of actual shouting. It meets the emotional requirement of anger but not the physical requirement of shouting volume.",
-    "reasoning_model_2": "The model correctly speaks the text '你到底在干什么？快给我住手！' with perfect content accuracy (00:00-00:04). The fluency is high. Crucially, regarding the 'shouting volume' instruction, this model performs excellently. The audio demonstrates genuine vocal effort, elevated pitch, and the specific timbral distortion associated with yelling. It sounds like a person projecting their voice across a distance or in an intense confrontation. The energy level at '快给我住手' (00:02-00:04) is particularly strong and convincing as a shout.",
-    "model_comparison": "Both models achieve perfect content accuracy and good fluency. The deciding factor is the 'Feature Control' for 'shouting volume'. Model 1 provides an angry, stern tone but remains within the realm of loud speaking. It lacks the acoustic properties of a shout (vocal strain, projection). Model 2, however, successfully modifies the phonation to mimic a real shout, with higher energy and vocal effort that aligns perfectly with the user's command. Therefore, Model 2 is the superior model for this specific paralinguistic task.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

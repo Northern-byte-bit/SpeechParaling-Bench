@@ -1,0 +1,18 @@
+{
+    "sample_index": 72,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very low pitch, a steady rhythm, and a cold tone: 'Regarding the latest project progress, we have internally decided to proceed as originally planned, this is an unchangeable policy. All objections and additional proposals will not be considered at this time, please ensure compliance.'",
+    "dimensions": [
+        "Attitude",
+        "Pitch",
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

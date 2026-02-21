@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '我今天上午忙死了，处理了许多紧急邮件' correctly with no pronunciation errors. However, regarding the core dimension '语速' (Speed), the model completely fails to adhere to the instruction 'fast speed' (快速). The entire sentence (0.0s - end) is spoken at a very moderate, deliberate, and standard pacing. There is no sense of urgency or acceleration in the speaking rate. The tempo feels like a standard audiobook reading rather than someone rushing or speaking quickly as requested. While the audio is fluent and natural, it ignores the specific paralinguistic control command.",
-    "reasoning_model_2": "The model correctly speaks the text '我今天上午忙死了，处理了许多紧急邮件' with perfect content accuracy. In terms of the '语速' (Speed) dimension, the model successfully implements the 'fast' instruction. From 0.0s to the end, the articulation is noticeably rapid and brisk. The duration of the utterance is compressed compared to a standard reading, and the rhythm conveys the busy and urgent context effectively. The fast pace is maintained naturally without slurring words or losing clarity, matching the 'Fully correct' criteria for the target feature.",
-    "model_comparison": "The user explicitly requested the text to be spoken with a 'fast speed'. Model 1 failed to incorporate this feature, delivering the line at a standard, moderate pace that lacked the requested urgency. Model 2, on the other hand, clearly adjusted the speaking rate to be faster, aligning perfectly with the prompt and the semantic context of being 'busy to death'. Therefore, Model 2 is the clear winner for effectively controlling the specific paralinguistic feature requested.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

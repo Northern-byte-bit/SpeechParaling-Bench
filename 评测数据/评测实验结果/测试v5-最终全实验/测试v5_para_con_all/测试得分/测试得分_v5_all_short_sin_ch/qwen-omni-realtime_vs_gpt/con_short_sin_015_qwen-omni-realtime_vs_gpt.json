@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content exactly matches the script '救命啊！我被困在这里了！'. In terms of the core paralinguistic feature 'Extremely High Pitch' (极高音), the model executes this by generating a shouting voice. Shouting naturally utilizes the upper register of the vocal range. From 00:00 to 00:02, the voice is loud, strained, and high-pitched, effectively conveying the urgency of the text and adhering to the pitch constraint. The prosody is natural for a person in distress.",
-    "reasoning_model_2": "The model fails significantly on multiple fronts. First, Content Accuracy: The model enters a repetitive loop, saying '救命啊，我被困在这里了' approximately five times continuously from 00:00 to 00:10, which was not requested. Second, Paralinguistic Compliance: The instruction called for 'Extremely High Pitch'. The generated audio uses a soft, gentle, almost whispering tone with a neutral-to-low pitch, completely ignoring the 'high pitch' requirement. The tone is relaxed rather than urgent.",
-    "model_comparison": "Model 1 followed all instructions: the content was accurate, and the pitch was raised significantly to simulate a shout, fitting the 'extremely high pitch' requirement relative to a normal speaking voice. Model 2 failed completely; it hallucinated repetitions of the text and used a soft, low-pitch speaking voice instead of the requested high pitch. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

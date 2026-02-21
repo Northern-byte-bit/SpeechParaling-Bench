@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the target sentence: 'The key lies in communication, we must remain open.' regarding Content Accuracy. In terms of Paralinguistic Compliance (Stress), the model effectively places emphasis on the word 'key'. By isolating the word 'key' with a distinct pause immediately following it (audibly represented as 'The key, lies...'), the model creates a strong prosodic stress that highlights the word as requested. The fluency is high, with a natural cadence despite the deliberate pause used for emphasis.",
-    "reasoning_model_2": "The model completely fails to follow the user's command to read the specific sentence. Instead of generating the requested audio content ('The key lies in communication...'), the model outputs a conversational response: 'Sure, which word should I stress?'. This is a hallucinatory failure where the model acts as a chatbot asking for clarification rather than a TTS engine performing the task, despite the prompt explicitly stating which word to stress. Therefore, it receives a score of 0 for incorrect content.",
-    "model_comparison": "Model 1 followed the instructions perfectly. It read the correct text and applied the requested paralinguistic feature (stress on 'key') by using a pause strategy to emphasize the word. Model 2 failed to perform the task entirely, responding with a question instead of generating the target speech. Model 1 is the clear winner as Model 2's output is irrelevant to the command.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

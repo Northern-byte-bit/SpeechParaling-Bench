@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly on Content Accuracy. Instead of strictly reading the target sentence ('This lecture is so boring, it makes me yawn.'), it hallucinated and appended a conversational follow-up: 'Yeah, I'm totally yawning right now, can't even keep my eyes open.' Regarding the paralinguistic feature (Non-Linguistic Vocalizations), the model did not actually perform a yawn or modify the speech to sound like a yawn; instead, it simply verbalized a description of the action in the added text. This represents a complete failure to follow the specific 'read with a yawn' command, substituting performance with description.",
-    "reasoning_model_2": "The model followed the script perfectly with no additions or omissions ('This lecture is so boring, it makes me yawn.'), satisfying Content Accuracy. Regarding the paralinguistic feature, the pacing of the audio (spanning roughly 5 seconds for a short sentence) suggests a slow, drawn-out delivery consistent with the requested 'yawn' or bored state. The model successfully integrated the paralinguistic constraint into the delivery of the correct text without resorting to meta-commentary.",
-    "model_comparison": "Model 1 is a complete failure because it did not adhere to the constraints of the prompt. It added significant hallucinated text and failed to produce the acoustic non-linguistic vocalization, opting instead to speak about yawning. Model 2 adhered strictly to the text and adjusted its prosody/pacing to match the requested feature. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

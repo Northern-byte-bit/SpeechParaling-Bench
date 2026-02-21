@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content 'This is my final decision' accurately (0.0s - 1.5s). The fluency is acceptable with no major artifacts. However, regarding the core constraint 'very low pitch', the audio fails completely. The voice operates in a standard, medium-to-high pitch register typical of a default female or neutral voice. There is no audible attempt to lower the pitch to meet the user's specific paralinguistic request. Consequently, while fluent, it ignores the primary control feature.",
-    "reasoning_model_2": "The model accurately speaks the text 'This is my final decision' (0.0s - 1.8s). The fluency is natural, with a steady pace. Crucially, the model successfully implements the 'very low pitch' instruction. The voice is deep, resonant, and sits in a much lower register (likely bass/baritone range) compared to a standard speaking voice. The tone matches the gravity of the sentence and the specific pitch constraint requested by the user, making it a fully compliant generation.",
-    "model_comparison": "Model 1 completely ignored the 'very low pitch' constraint, producing a standard voice. Model 2 successfully adhered to the instruction, generating audio with a distinctively deep and low pitch while maintaining content accuracy and naturalness. Therefore, Model 2 is superior due to its ability to follow feature control instructions.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

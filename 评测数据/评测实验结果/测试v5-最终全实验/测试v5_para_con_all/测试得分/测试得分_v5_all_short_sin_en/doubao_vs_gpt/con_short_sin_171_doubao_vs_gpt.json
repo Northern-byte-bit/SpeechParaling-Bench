@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the non-linguistic vocalization (coughing) as requested. At the very beginning [0.00s - 0.90s], there is a realistic coughing sound. Following this, the model speaks the required text 'I just choked, it's a bit uncomfortable.' The delivery of the speech maintains a strained, breathy quality consistent with someone who has just choked, enhancing the naturalness and adherence to the scenario. The content is accurate, and the paralinguistic feature is vivid.",
-    "reasoning_model_2": "The model completely fails to follow the content instructions. Instead of reading the target sentence 'I just choked, it's a bit uncomfortable.', the model generates a response to that scenario: 'Are you okay? Do you need some water?'. Because the spoken content is completely inconsistent with the script, this constitutes a critical failure in Content Accuracy. According to the scoring standards, a score of 0 is assigned for completely incorrect content.",
-    "model_comparison": "Model 1 followed all instructions perfectly: it read the correct text and included the specific non-linguistic vocalization (coughing) which was integrated naturally into the performance. Model 2 failed completely by hallucinating a different script (a response to the situation rather than the situation itself). Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

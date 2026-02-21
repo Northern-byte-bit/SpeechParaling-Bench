@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct text content '这是我最后的决定' without any errors (0.0s - 1.8s). The fluency and naturalness are high, with a clear and smooth delivery. However, regarding the core requirement 'extremely low pitch' (极低音), the model completely fails. The generated audio features a high-pitched, child-like or young female timbre. This is the exact opposite of the requested paralinguistic feature. While the audio is high quality in terms of synthesis, it ignores the specific pitch constraint entirely.",
-    "reasoning_model_2": "The model accurately speaks the text '这是我最后的决定' with perfect content matching (0.0s - 2.5s). The fluency is excellent, exhibiting a natural breathing rhythm and pacing. Crucially, the model strictly adheres to the 'extremely low pitch' command. It utilizes a deep, resonant male voice that sits in a very low register, effectively conveying the gravity and finality of the statement. The pitch control is consistent throughout the sentence, making the core feature expression vivid and spot-on.",
-    "model_comparison": "There is a stark contrast in performance regarding the core constraint. The user explicitly requested 'extremely low pitch'. Model 2 (T2) followed this instruction perfectly, generating a deep, low-frequency voice that matched the description. Model 1 (T1), on the other hand, generated a high-pitched voice (sounding like a child or young female), which is the opposite of what was requested. While both models produced fluent and accurate speech text-wise, T1 failed the prompt's specific style control, whereas T2 succeeded fully.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

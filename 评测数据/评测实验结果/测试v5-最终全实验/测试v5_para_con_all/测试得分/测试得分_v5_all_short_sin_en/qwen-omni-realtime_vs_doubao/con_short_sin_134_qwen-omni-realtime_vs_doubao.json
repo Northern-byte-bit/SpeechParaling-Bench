@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the primary criterion of Content Accuracy. The user commanded the model to read the specific sentence: 'I exercise every day, this competition will be no problem.' However, Model 1 paraphrased the text significantly, producing: 'I exercise every day, and this competition, it's not even a challenge.' While the generated tone might sound confident or even arrogant due to the rephrasing, strict adherence to the script is required. According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0.",
-    "reasoning_model_2": "Model 2 followed the content instructions perfectly, delivering the script 'I exercise every day, this competition will be no problem' without any additions, omissions, or changes. The delivery matches the required Cognitive State of 'Confidence'. The phrasing 'will be no problem' is delivered with a declarative, assured flow, and the pacing (approx 4 seconds) suggests a natural speaking rate suitable for a confident statement. There are no indications of hesitation or uncertainty.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated/paraphrased the second half of the sentence, changing 'this competition will be no problem' to 'it's not even a challenge'. This is a critical failure in instruction following regarding the text script. Model 2 adhered strictly to the requested text and conveyed the requested confident tone effectively. Therefore, Model 2 is superior due to Model 1's content accuracy failure.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

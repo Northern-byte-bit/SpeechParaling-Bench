@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately follows the text script in English. Regarding the paralinguistic requirements, the audio demonstrates a clear dynamic adjustment. From 00:00 to 00:06 ('Welcome everyone... famous singer'), the voice uses a slightly projected, formal tone suitable for a host, which aligns with the 'rich' timbre instruction, though it retains some vocal fry. The transition occurs naturally at the semantic pivot 'But' around 00:07. From 00:07 to 00:13 ('But, I'll secretly tell you...'), the timbre shifts significantly to become softer, lighter, and 'sweeter,' adopting a conspiratorial and playful tone that perfectly matches the instruction to become 'sweet'. The contrast between the two sections is distinct and effectively conveys the requested change.",
-    "reasoning_model_2": "Model 2 fails the primary criterion of Content Accuracy. The user's prompt explicitly asked to read a specific English sentence: 'Welcome everyone to tonight's music gala...'. However, Model 2 generated the audio in Chinese ('欢迎各位来到今晚的音乐盛会...'). While the Chinese content is a translation of the English text, the instruction was to 'read this sentence', not to translate it. This constitutes a complete deviation from the script provided.",
-    "model_comparison": "Model 1 followed all instructions, providing accurate English content and successfully executing the requested timbre change from a formal/rich tone to a sweet/playful tone. Model 2 failed to produce the correct content language, speaking in Chinese instead of the requested English. Therefore, Model 2 receives a score of 0 for content inconsistency, and Model 1 wins.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

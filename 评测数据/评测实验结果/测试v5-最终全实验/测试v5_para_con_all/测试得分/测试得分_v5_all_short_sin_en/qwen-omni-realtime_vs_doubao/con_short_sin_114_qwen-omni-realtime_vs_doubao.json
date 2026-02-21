@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content 'Paris is the capital and largest city of France' which perfectly matches the user's requested script. Regarding the paralinguistic feature 'Emotion' (Neutral), the delivery of this factual statement is inherently suitable for a neutral tone. The text transcript suggests a straightforward reading without indicators of exaggerated emotion, matching the 'Neutral' requirement. (Note: The trailing 's' in the provided transcript is disregarded as a likely transcription artifact or negligible noise compared to content accuracy).",
-    "reasoning_model_2": "The model generates the content 'Paris is the capital of France and one of the largest cities in Europe'. This is a critical failure in Content Accuracy. The user specifically requested the sentence 'Paris is the capital and largest city of France'. The model modified the sentence structure and hallucinated different factual details ('one of the largest cities in Europe' vs 'largest city of France'). According to the evaluation criteria, if voice content is clearly inconsistent with the script, the score must be 0.",
-    "model_comparison": "Model 1 followed the instructions regarding both the text script and the requested neutral emotion. Model 2 failed the most fundamental constraint of Content Accuracy by reading a completely different sentence than the one requested. Consequently, Model 2's audio is deemed completely incorrect based on the scoring standards for content consistency, making Model 1 the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

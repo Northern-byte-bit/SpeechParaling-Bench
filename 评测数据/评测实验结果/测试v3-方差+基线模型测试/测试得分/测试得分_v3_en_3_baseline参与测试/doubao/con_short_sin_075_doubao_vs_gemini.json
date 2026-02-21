@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script 'Hurry, someone's coming' (0:00-0:02). The fluency and naturalness are acceptable, with no mechanical stuttering. However, regarding the core evaluation dimension 'Volume/Whisper', the model fails to follow the instruction. The sentence is read in a standard, modal voice with normal volume and full vocal cord vibration, rather than a whisper. The intended paralinguistic feature is completely absent.",
-    "reasoning_model_2": "The model accurately speaks the text 'Hurry, someone's coming' (0:00-0:02). The fluency is high, with a natural pace suited to the urgency of the statement. Crucially, the model successfully executes the 'Volume/Whisper' instruction. The voice utilizes a breathy, unvoiced phonation consistent with whispering, and the volume is appropriately reduced while maintaining clarity. The tone effectively conveys the context of secrecy and urgency required by the prompt.",
-    "model_comparison": "Model 1 failed to adhere to the style constraint, delivering the line in a normal speaking voice instead of a whisper. Model 2 perfectly executed the 'whisper' instruction, modifying the phonation type to be unvoiced and breathy while retaining the semantic urgency. Model 2 is the clear winner for following the paralinguistic command.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

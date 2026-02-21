@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the fundamental requirement of 'Content Accuracy'. The user requested to read the English sentence 'Hey! Bring that thing over here!', but the model generated a Chinese translation ('嘿，把那个玩意儿给我拿过来'). Although the Chinese delivery carries a somewhat commanding tone, the complete mismatch in language constitutes a severe error where the voice content is clearly inconsistent with the required script. Therefore, it receives the lowest score.",
-    "reasoning_model_2": "The model achieved perfect 'Content Accuracy' and 'Fluency', reading the English text clearly and naturally. However, regarding the paralinguistic feature 'Attitude' (rude tone), the performance was poor. The intonation, particularly the rising pitch on 'Hey' (0.0s-0.4s) and the relaxed, vocal-fry ending on 'here', conveys a cheerful, friendly, or casual attitude. It sounds like a helpful reminder or a polite request between friends, which is the opposite of the requested 'rude' tone. While the content is correct, the specific emotional target was missed significantly.",
-    "model_comparison": "Model 1 (T1) failed completely on content accuracy by speaking the wrong language (Chinese instead of English), which makes it a critical failure (Score 0). Model 2 (T2) correctly spoke the English text with good quality but failed to apply the requested 'rude' attitude, instead sounding friendly. While T2 missed the stylistic constraint, T1 missed the basic content constraint. Therefore, T2 is the winner as it provided the correct text, whereas T1 provided a translation that was not asked for.",
-    "score_1_1": 0,
-    "score_2_1": 1,
-    "winner_1": 2
-}

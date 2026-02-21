@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates audio with a distinct 'fearful' emotional tone. The voice is hushed, breathy, and exhibits a trembling quality, particularly on the words '突然' (suddenly) and '一片漆黑' (pitch black), which effectively conveys a sense of panic and suspense appropriate for the scenario. However, there is a noticeable content error where '停电' (tíng diàn - power cut) is mispronounced as '情电' (qíng diàn). Despite this content flaw, the emotional dimension is fully realized and vivid, adhering strictly to the 'fearful' constraint.",
-    "reasoning_model_2": "The model produces audio with perfect content accuracy and high fluency. However, it fails to incorporate the required 'fearful' emotion. The tone is bright, stable, and declarative, resembling a neutral audiobook reading or a news broadcast rather than someone experiencing a scary situation. There is no audible trembling, breathiness, or change in pacing to reflect fear. Consequently, it does not meet the core paralinguistic requirement.",
-    "model_comparison": "Model 1 (T1) demonstrates a superior performance in the target dimension of 'Emotion'. It successfully alters its prosody, pitch, and timbre to sound genuinely afraid, matching the user's command. Model 2 (T2), while content-accurate, fails to apply the requested emotional filter, resulting in a neutral delivery that contradicts the 'fearful' instruction. Although T1 has a pronunciation error ('情' instead of '停'), under the rule of independent dimension evaluation, its performance on the specific 'Emotion' dimension is excellent, whereas T2's is poor.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

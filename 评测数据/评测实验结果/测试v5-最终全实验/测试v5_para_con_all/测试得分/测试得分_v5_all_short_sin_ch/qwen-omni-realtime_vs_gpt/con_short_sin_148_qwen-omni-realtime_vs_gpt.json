@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed to follow the primary instruction regarding Content Accuracy. The user explicitly requested the model to say the specific sentence: '那个盒子里装的到底是什么呀？'. However, Model 1 generated a completely different, improvised paragraph (00:00-00:13: '哎呀这个盒子看起来好神秘啊...'). According to the scoring standard, a score of 0 is assigned when the 'Voice content is clearly inconsistent with the script'. Although the improvised speech was fluent and expressive, the failure to adhere to the target text makes it a complete failure in the context of a controlled generation task.",
-    "reasoning_model_2": "Model 2 successfully followed the instruction. **Content Accuracy:** It recited the target text '那个盒子里装的到底是什么呀？' perfectly (00:00-00:03). **Fluency and Naturalness:** The speech is fluent with no mechanical artifacts. **Paralinguistic Compliance (认知状态):** The model effectively conveyed the 'Curiosity' cognitive state. It utilized a rising intonation at the end of the sentence ('什么呀？') and placed appropriate stress on '到底' (on earth/exactly), naturally expressing a state of wondering and inquiry. The tone is distinct and matches the requirement.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental constraint of the task by hallucinating a completely different script instead of reading the requested sentence. While Model 1's voice acting was expressive, its Content Accuracy score is 0 due to the total deviation from the text. Model 2 accurately synthesized the correct text and successfully applied the required curious tone (Cognitive State), meeting all criteria for a high score.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

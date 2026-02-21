@@ -1,0 +1,14 @@
+{
+    "sample_index": 114,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中性的情绪说：根据学校通知，本学期的期末考试将于下周开始，请各位同学提前做好复习准备。考场安排和具体时间表已公布在教务处网站。",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

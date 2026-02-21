@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '比赛快开始了，大家准备好入场了吗？' with 100% accuracy. The speaking rate is noticeably fast and urgent, effectively compressing the duration of the sentence (approx. 0.0s - 2.5s) while maintaining clarity. The pacing aligns perfectly with the instruction 'fast speaking rate' (快速的语速) and the context of a competition about to start. The speech is fluent, natural, and free of artifacts, fulfilling the 'fully correct' criteria for paralinguistic compliance.",
-    "reasoning_model_2": "The model correctly speaks the text '比赛快开始了，大家准备好入场了吗？'. However, regarding the core requirement 'fast speaking rate', the performance is mixed. While the tone is energetic and enthusiastic (typical of an announcer), the actual speed is moderate. There are distinct intonation curves and slight pauses for emphasis (e.g., around '入场了吗') that slow down the overall delivery compared to a truly fast speech. The speed feels more like a standard 'lively' reading rather than an explicitly 'fast' one. Therefore, the feature compliance is partial (Score 2).",
-    "model_comparison": "Model 1 (T1) clearly outperforms Model 2 (T2) regarding the specific constraint of 'fast speaking rate'. T1 produces a rapid-fire delivery that creates a sense of urgency suitable for the text and strictly follows the speed command. T2, while sounding very natural and pleasant with a good 'announcer' tone, prioritizes intonation and expressiveness over speed, resulting in a slower duration than T1. T1 captures the specific requested feature much better.",
-    "score_1": 3,
-    "score_2": 2,
-    "winner": 1
-}

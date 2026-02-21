@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails significantly on the Content Accuracy dimension. The prompt required the text: 'Paris is the capital and largest city of France.' However, the model generated: 'Paris is the capital of France and one of the largest cities in Europe.' This is a substantial deviation from the script, altering the wording and factual claim (largest in France vs one of largest in Europe). Due to this hallucination and failure to adhere to the provided text, the audio is considered completely incorrect according to the scoring standard (0 = Voice content is clearly inconsistent with the script).",
-    "reasoning_model_2": "Model 2 follows the instructions perfectly. Content Accuracy is 100%, reading the text 'Paris is the capital and largest city of France' exactly as requested. In terms of Fluency and Naturalness, the speech is smooth, clear, and lacks mechanical artifacts. Regarding the CORE Paralinguistic Compliance, the model successfully adopts a 'neutral emotion'. The tone is informative, objective, and calm (0:00-0:04), with a steady pace and flat intonation appropriate for a factual statement, avoiding any unnecessary excitement or sadness. It meets all criteria for a perfect score.",
-    "model_comparison": "The comparison is straightforward. Model 1 failed the most fundamental requirement of Text-to-Speech generation: sticking to the script. It rewrote the sentence entirely, which results in an automatic failure score based on the evaluation criteria. Model 2, on the other hand, delivered the correct text with high fidelity, natural fluency, and the requested neutral emotion. Therefore, Model 2 is the clear winner.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

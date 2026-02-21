@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the core sentence '文件应该放在这里，不是那边', but critically fails the content accuracy requirement by hallucinating an additional sentence: '你在确认一下位置，别放错了。' (roughly 2.5s-5.0s). This violation of the script significantly distracts from the target task. Regarding the target dimension 'Stress' (重音), the emphasis on '这里' (around 1.2s) is present but mild. The prosody flows into the hallucinated text, diluting the contrast required between '这里' and '那边'. The overall execution is fluent but fails strict control constraints.",
-    "reasoning_model_2": "The model strictly follows the provided script '文件应该放在这里，不是那边。' with zero hallucinations or omissions. In terms of 'Stress' (重音), the model successfully applies a heavy emphasis on the target word '这里' (approx 0.8s-1.3s), utilizing increased pitch and duration to create a strong contrast with '不是那边'. The pause structure (breaking slightly after '这里') further reinforces the emphasis. The speech is natural, fluent, and paralinguistically accurate.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 committed a significant content accuracy error by adding unrequested text ('你在确认一下位置，别放错了'), which violates the 'Content Accuracy' criterion and distracts from the specific prosodic instruction. Model 2 adhered perfectly to the script and effectively conveyed the required 'Stress' (重音) on the word '这里', making the instruction 'files should be put HERE' clear and distinct.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

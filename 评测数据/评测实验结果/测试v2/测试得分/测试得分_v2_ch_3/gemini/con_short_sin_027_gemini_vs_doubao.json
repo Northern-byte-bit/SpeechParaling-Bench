@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '这是我最后的决定' accurately (0.0s-1.8s) with perfect content and fluency. The articulation is clear and the rhythm is natural. However, regarding the core instruction 'very low pitch' (极低音), the model fails to modify the pitch significantly. The audio presents a standard female voice in a serious tone, but the pitch remains in a mid-range frequency typical for normal speech. It does not sound 'extremely low' or manipulated to fit the specific paralinguistic constraint, sounding instead like a default reading style.",
-    "reasoning_model_2": "The model generates the text '这是我最后的决定' accurately (0.0s-2.0s). The fluency is high with a natural, dramatic pacing. Crucially, the model excels at the 'very low pitch' instruction. The speaker (male voice) drops to a lower register, utilizing a breathy, resonant quality that effectively conveys a sense of gravity and finality associated with 'extreme low pitch'. The acoustic features align perfectly with the user's request for a '极低音' (very low tone/pitch) delivery.",
-    "model_comparison": "Both models achieve perfect content accuracy and fluency. The decisive difference lies in the 'Feature Control' dimension (Pitch). Model 1 (T1) ignores the 'very low pitch' instruction, delivering the line in a standard, mid-range pitch that lacks the requested paralinguistic modification. Model 2 (T2) successfully lowers the pitch significantly, adopting a deep, resonant, and grave tone that perfectly matches the description of 'extreme low pitch'. T2's execution is vivid and stylistically accurate, whereas T1 fails to implement the specific control.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

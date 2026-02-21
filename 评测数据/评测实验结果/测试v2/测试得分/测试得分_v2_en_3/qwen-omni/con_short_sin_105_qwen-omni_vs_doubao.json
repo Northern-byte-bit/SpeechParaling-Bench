@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed completely to execute the command. Instead of reading the requested sentence ('The key lies in communication, we must remain open.'), it responded with a conversational turn: 'Sure. Which word should I stress?' (0:00-0:02). Since the content is completely incorrect and does not contain the target sentence, it receives a score of 0.",
-    "reasoning_model_2": "The model accurately speaks the required text: 'The key lies in communication. We must remain open.' (0:00-0:05). In terms of paralinguistic compliance, the model effectively places stress on the word 'key' (0:00-0:01). It uses a pitch accent on 'key' followed by a brief pause, successfully isolating and emphasizing the word as requested. The fluency and naturalness are high, with human-like prosody.",
-    "model_comparison": "Model 1 failed to generate the target text, instead outputting a conversational question asking for clarification, which constitutes a complete failure in instruction following for text-to-speech tasks. Model 2 correctly followed the instructions, synthesized the correct text, and applied the requested stress on the word 'key' using pitch and pausing. Therefore, Model 2 is the clear winner.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

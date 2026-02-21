@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed significantly on Content Accuracy. The generated audio contains the extra phrase '再好' (Zai hao) at the beginning, which was not in the requested script ('这个方案，好，我们通过了'). While there is a pause after '好' as indicated by the punctuation in the transcript ('这个方案好，'), the hallucinated addition at the start disrupts the naturalness and accuracy of the response. The feature control (pause) is present, but the content error is the primary failure point.",
-    "reasoning_model_2": "The model followed the command perfectly. The Content Accuracy is 100%, matching the script '这个方案，好，我们通过了' exactly without additions or omissions. Regarding the specific paralinguistic feature ('停顿' / pause), the model placed a distinct pause after the word '好', separating it from '这个方案' and '我们通过了', which aligns precisely with the user's instruction to pause noticeably after '好'. The flow is natural and the constraint is satisfied.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated extra words ('再好') at the beginning of the sentence, violating the strict content accuracy requirement. Model 2 produced the exact text requested and successfully implemented the specific instruction to pause after the word '好'. Model 2 demonstrates superior control over both content and paralinguistic features.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

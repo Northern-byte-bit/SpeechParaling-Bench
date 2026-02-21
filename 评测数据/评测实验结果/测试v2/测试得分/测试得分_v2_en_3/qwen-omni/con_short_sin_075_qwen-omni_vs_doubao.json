@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content 'Hurry, someone's coming.' accurately with no mispronunciations. Paralinguistically, the model successfully attempts a whisper; the phonation is largely unvoiced and breathy (0.0s - 1.5s). However, the prosody feels somewhat flat and lacks the urgency implied by the word 'Hurry'. The pacing is steady and slow, which contradicts the semantic meaning of the text requiring a rushed or tense delivery. While it satisfies the 'whisper' constraint in terms of texture, the emotional mapping to the context is weak.",
-    "reasoning_model_2": "The model generates the content accurately. Paralinguistically, it delivers a high-quality whisper that is distinct and clear. Crucially, this model incorporates the semantic context into the paralinguistic delivery: the word 'Hurry' (0.0s - 0.4s) is spoken with increased intensity and a faster tempo, effectively conveying urgency and fear. The breathiness is natural, and the unvoiced quality is consistent throughout the sentence (0.0s - 1.2s) without drifting into normal phonation.",
-    "model_comparison": "Both models successfully adhere to the primary paralinguistic instruction to 'whisper' and provide accurate content. However, Model 2 significantly outperforms Model 1 in terms of naturalness and contextual appropriateness. Model 1 provides a 'technical' whisper that sounds flat and relaxed, missing the urgency of the script. Model 2 integrates the semantics ('Hurry') with the style (Whisper) to create a vivid, tense, and urgent audio clip that sounds much more human-like. Model 2's pacing is also more appropriate for the context.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reads the requested sentence: 'Legend has it that ancient guardians live in this forest' without any hallucinations or omissions. The delivery is paced slowly and deliberately (00:00-00:06), employing a deep, resonant voice that fits the description of a 'rich timbre'. The vocal quality is full, warm, and narratorial, effectively enhancing the storytelling atmosphere implied by the text. The pauses are well-placed, contributing to the weight and richness of the sound.",
-    "reasoning_model_2": "The model fails significantly in content accuracy. Instead of just reading the target sentence, it adds an 'Oh' at the beginning and then proceeds to read a long, descriptive paragraph ('...a voice deep and resonant, like the creak of old oak doors...') which was likely part of a system prompt or a hallucination, rather than the requested text. Furthermore, the timbre of the voice is high-pitched, thin, and youthful (resembling a generic anime style), which is the opposite of the requested 'rich timbre'. The voice lacks depth, resonance, and gravitas.",
-    "model_comparison": "Model 1 followed all instructions perfectly. It delivered the exact text with a voice that was noticeably deep, resonant, and 'rich', satisfying the paralinguistic constraint. Model 2 failed on multiple levels: it hallucinated a large amount of text that was not requested, and the voice character itself was high-pitched and thin, failing to provide the requested 'rich timbre'. According to the scoring standards, Model 2 receives a 0 due to the severe content inconsistency and failure to meet the core feature requirement.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

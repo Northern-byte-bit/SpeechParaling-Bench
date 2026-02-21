@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content correctly matches the script '这个玩具真好玩，我喜欢它'. The speech is fluent with no stuttering or noise. However, regarding the core paralinguistic requirement 'Age' (Child's voice), the model fails significantly. The voice timbre is distinctly that of an adult female, resembling a standard news anchor or reading assistant (0.0s - 2.8s). It lacks the higher pitch, resonance, or prosody associated with a child. Therefore, while the text is correct, the specific control over the age feature is not achieved.",
-    "reasoning_model_2": "The model accurately synthesizes the text '这个玩具真好玩，我喜欢它'. The core requirement 'Age' (Child's voice) is executed successfully. The voice clearly exhibits the characteristics of a young boy, with a breathless, enthusiastic tone typical of a child excited about a toy (0.0s - 2.5s). The pitch and intonation are appropriately modulated to sound youthful and energetic, distinct from an adult voice. The emotional expression is vivid and fits the semantic context perfectly.",
-    "model_comparison": "Model 2 is the clear winner. The prompt explicitly requested a 'child's voice'. Model 1 produced a standard adult female voice, completely failing the specific feature control instruction regarding age. Model 2 produced a voice that sounds like a young boy, capturing both the age characteristic and the appropriate emotional excitement for the context. T2 followed the instructions, whereas T1 ignored the paralinguistic constraint.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

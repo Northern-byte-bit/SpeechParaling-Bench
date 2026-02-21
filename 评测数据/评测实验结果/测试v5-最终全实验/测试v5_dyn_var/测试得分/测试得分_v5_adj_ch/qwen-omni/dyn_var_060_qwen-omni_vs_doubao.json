@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely failed to distinguish between the directional instructions and the content to be spoken. Instead of applying the volume changes, it read the instructional markers ('小声', '声音逐渐增强', '大声') aloud as part of the sentence (e.g., '小声其实...', '大声我要...'). This constitutes a severe content accuracy failure, as the spoken text is inconsistent with the intended script. Due to this 'hallucination' of instructions into speech, the audio is unusable regardless of the prosody.",
-    "reasoning_model_2": "The model correctly identified the target text and excluded the instructional markers from the speech, resulting in perfect content accuracy. The speech follows the script '其实我一直都知道那个秘密...' without injecting the stage directions. Assuming the volume dynamics were attempted as per the prompt's request on the clean text, the model demonstrates the ability to follow the core constraint of separating instruction from content, maintaining natural fluency.",
-    "model_comparison": "Model 1 commits a critical error by reading the prompt's stage directions ('小声', etc.) as part of the dialogue, rendering the generation incorrect and unnatural. Model 2 correctly interprets the prompt, speaking only the target script with accurate content. Since Model 1 fails on the fundamental level of Content Accuracy, Model 2 is the clear winner.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 strictly follows the content instructions, reading the script '今天的课，真是，太，无聊了' accurately. In terms of the required 'dragging rhythm' (拖沓的节奏), the model performs excellently. From 0:01 to 0:05, the speaker significantly elongates the vowels in '真是' and '太', and incorporates heavy pauses between words. The overall pacing is slow, lethargic, and deliberate, perfectly capturing the feeling of time passing slowly due to boredom. The prosody sounds natural for the requested style.",
-    "reasoning_model_2": "Model 2 fails completely on Content Accuracy. The user requested the specific sentence '今天的课，真是，太，无聊了'. However, the model generates a 35-second long hallucinated monologue starting with '啊，今天的课，嗯，真的好无聊啊...' and continuing with completely unrequested text about cotton candy, eyelids, and wanting to sleep. According to the evaluation criterion, a score of 0 is assigned because the voice content is clearly inconsistent with the script.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested 'dragging' rhythm. The elongation of syllables and slow pacing accurately conveyed the intended paralinguistic feature. Model 2, while expressive in its own way, completely ignored the text constraint and hallucinated a long script. Due to the severe violation of content accuracy, Model 2 receives a 0, making Model 1 the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

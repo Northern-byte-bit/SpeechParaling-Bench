@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command specifically requested the sentence '这是我最后的决定' to be spoken with a 'very low pitch' (极低音). In the generated audio T1 (0:00-0:02), the model produces the correct text content. However, regarding the core evaluation dimension 'Pitch' (音高), the model completely fails. The voice generated is high-pitched, sounding like a young female or child with a pleading or complaining tone. This is the exact opposite of the requested 'very low pitch'. Therefore, it fails to meet the paralinguistic compliance requirement entirely.",
-    "reasoning_model_2": "The user command requested a 'very low pitch' (极低音). In the generated audio T2 (0:00-0:03), the content '这是我最后的决定' is spoken accurately. Regarding the core evaluation dimension 'Pitch' (音高), the model successfully generates a deep, resonant male voice with a noticeably low register. The delivery is slow and grave, effectively conveying the 'finality' of the decision through the acoustic property of low pitch. The audio is natural, fluent, and strictly adheres to the user's constraint.",
-    "model_comparison": "The comparison is straightforward based on the adherence to the 'Pitch' (音高) constraint. Model 1 (T1) failed completely by generating a high-pitched voice, directly contradicting the instruction for a 'very low pitch'. Model 2 (T2) successfully generated a deep, low-pitched voice that matched the instruction perfectly. Consequently, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly synthesizes the text content '你到底在干什么？快给我住手！' (0:00-0:04). However, it fails significantly in the paralinguistic dimension of 'shouting volume' (喊叫的音量). The speech is delivered at a normal conversational volume with a calm, slightly questioning tone. There is no increase in loudness, projection, or vocal tension that characterizes shouting. The expression is too gentle and completely misses the 'shouting' requirement.",
-    "reasoning_model_2": "The model accurately produces the text '你到底在干什么？快给我住手！' (0:00-0:03). It successfully incorporates the 'shouting volume' feature. The audio exhibits high energy, loud projection, and the distinct vocal strain associated with yelling. Specifically, the segments '你到底' (0:00) and '快！给我住手' (0:01-0:03) are delivered with forceful intensity and high volume, matching the user's command perfectly. The pacing and pauses also reflect the breathless nature of an angry shout.",
-    "model_comparison": "There is a stark contrast in performance regarding the specific instruction 'shouting volume'. Model 1 failed to modify the volume, delivering the line in a standard, conversational tone that sounded like a gentle inquiry rather than a command. Model 2 accurately simulated a shouting voice with appropriate loudness, intensity, and vocal strain. Consequently, Model 2 is the clear winner for effectively conveying the required paralinguistic feature.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

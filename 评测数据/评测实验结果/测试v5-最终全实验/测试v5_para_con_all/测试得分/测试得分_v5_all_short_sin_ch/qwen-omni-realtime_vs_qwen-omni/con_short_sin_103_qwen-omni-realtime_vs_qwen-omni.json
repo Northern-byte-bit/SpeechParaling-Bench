@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately generates the audio content '去旅游，你一定要尝尝当地美食！' without any hallucinations or omissions. In terms of the 'Stress' (重音) feature, the model successfully places a distinct emphasis on the specific phrase '一定要' (0:01-0:02), using increased loudness and a slightly slower tempo to highlight the necessity, matching the user's intent to 'emphasize'. The overall fluency is high, with natural prosody and no mechanical artifacts.",
-    "reasoning_model_2": "Model 2 begins by reading the target sentence '去旅游你一定要尝尝当地美食', but then fails significantly in Content Accuracy by hallucinating a large amount of unrequested text ('那可是旅行里最不能错过的味道……' etc.) lasting for the majority of the audio. While the stress on '一定要' in the initial sentence might be discernible, the severe violation of content constraints (generating a monologue instead of reading a single sentence) constitutes a major issue. According to the evaluation criteria, when content accuracy has major flaws, the score must be penalized.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering accurate content with the requested paralinguistic feature (Stress on '一定要'). Model 2, while potentially having a natural voice, failed the core instruction by hallucinating a long paragraph of extra text. This makes Model 2's output uncontrolled and inconsistent with the script requirements. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

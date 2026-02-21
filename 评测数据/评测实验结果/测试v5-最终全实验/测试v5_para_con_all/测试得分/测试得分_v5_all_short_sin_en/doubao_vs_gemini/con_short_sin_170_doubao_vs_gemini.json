@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the non-linguistic vocalizations requested in the prompt. Instead of robotically reading the text 'Ahem, cough, cough', it interprets these as stage directions and performs a natural throat-clearing sound and a light cough from 0:00 to 0:01. Following this, it delivers the spoken line 'I'd like to say a few words' clearly and naturally in English. The transition between the vocalization and the speech is smooth, and the audio quality is high.",
-    "reasoning_model_2": "The model generates a realistic coughing sound at the beginning (0:00-0:02), effectively capturing the paralinguistic feature. However, it fails catastrophically in content accuracy. Instead of speaking the English text 'I'd like to say a few words', it translates the content into Chinese ('Um, wo xiang shuo ji ju'). According to the scoring standard, a major content error where voice content is inconsistent with the script warrants a score of 0.",
-    "model_comparison": "Model 1 followed the instructions perfectly, performing the coughing sounds and reading the English text accurately. Model 2 generated the coughing sounds but hallucinated a language switch, speaking the text in Chinese instead of English. Therefore, Model 1 is the clear winner as Model 2 failed the fundamental content accuracy requirement.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

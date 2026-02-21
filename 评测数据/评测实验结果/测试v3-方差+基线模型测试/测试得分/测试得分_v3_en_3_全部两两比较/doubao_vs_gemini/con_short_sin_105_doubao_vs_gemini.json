@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully followed the user's instruction to read the specific sentence. \n1. **Content Accuracy:** The audio content 'The key lies in communication, we must remain open' matches the script perfectly. \n2. **Paralinguistic Compliance:** The model correctly identified the segment requiring emphasis. The word 'key' (approx. 0:00-0:01) is the focal point of the sentence. The execution aligns with the command to apply stress to this specific word, maintaining the semantic intent of the instruction. \n3. **Fluency:** The sentence is delivered naturally without extra conversational filler.",
-    "reasoning_model_2": "The model completely failed to follow the primary instruction to read the sentence. \n1. **Content Accuracy:** Instead of generating the target speech 'The key lies in communication, we must remain open', the model output a conversational response: 'Sure, which word should I stress?'. \n2. **Instruction Following:** It ignored the part of the prompt that explicitly stated 'stress on \"key\"' and the instruction to 'read this sentence'. \n3. **Paralinguistic Compliance:** N/A, as the target content was not spoken. This is a fundamental failure.",
-    "model_comparison": "Model 1 followed the instructions perfectly, generating the required speech text. Model 2 failed to generate the target speech entirely, instead acting as a chatbot asking for clarification on a detail that was already provided in the prompt. Therefore, Model 1 is the superior model by default as Model 2 scored a 0 for completely incorrect content.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

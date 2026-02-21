@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the model to say: '既然目标已定，那就立刻执行，不要再犹豫不决浪费时间了。' However, Model 1 completely hallucinated the content and paraphrased it into colloquial speech: '目标定了就干，别磨蹭，时间不等人，现在就动起来' (00:00-00:05). This is a severe content accuracy failure where the voice content is clearly inconsistent with the required script. According to the scoring standard, if content is completely incorrect or meaning is changed due to major errors (in this case, total text replacement), the score must be 0. Therefore, the paralinguistic performance cannot be validly assessed against the specific command.",
-    "reasoning_model_2": "Model 2 strictly follows the content instructions, reading the script '既然目标已定，那就立刻执行，不要再犹豫不决浪费时间了' verbatim with perfect accuracy (00:00-00:04). In terms of the 'Decisive and Crisp' (果断干脆) dimension, the model performs excellently. The pacing is brisk, with a strong attack on the first syllable '既' (00:00). The phrase '立刻执行' (00:01) is delivered with emphatic force and no hesitation. The pause after '犹豫不决' (00:03) is short and sharp, leading to a firm conclusion '浪费时间了'. The overall tone is authoritative, professional, and devoid of dragging syllables, perfectly matching the 'Crisp' requirement.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental instruction of reading the specific text provided, instead generating a paraphrased colloquial version. This constitutes a score of 0 for Content Accuracy, rendering it a failure. Model 2 not only followed the text perfectly but also delivered it with the requested 'Decisive and Crisp' tone, featuring strong stress, fast pacing, and a firm, commanding presence.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,0 +1,18 @@
+{
+    "sample_index": 64,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用喊叫的音量，缓慢、强调地说：喂！你能听到我吗？我们在这里！",
+    "dimensions": [
+        "音量",
+        "语速",
+        "重音"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

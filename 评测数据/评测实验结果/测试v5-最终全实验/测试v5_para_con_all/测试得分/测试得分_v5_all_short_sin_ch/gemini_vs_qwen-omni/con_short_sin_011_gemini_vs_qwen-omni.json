@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The generated audio by Model 1 strictly follows the text content '这茶叶不错，味道醇厚。' without any additions or omissions. Regarding the required feature 'Age (Elderly)', the voice exhibits a slower, measured pacing (spanning 3 seconds for a short sentence) and a deeper, mature timbre that aligns well with an elderly male persona. The tone is calm and steady, conveying the 'mellow' taste effectively through the vocal texture. The paralinguistic performance is accurate and consistent with the user's command.",
-    "reasoning_model_2": "The generated audio by Model 2 deviates from the content requirements by adding modal particles at the beginning ('哎呀') and the end ('啊'), resulting in '哎呀这茶叶不错，味道醇厚啊。'. Crucially, regarding the required feature 'Age (Elderly)', the voice sounds significantly younger, resembling a young or middle-aged female with a brighter, more energetic tone. It fails to convey the requested 'elderly' vocal characteristics (e.g., raspiness, slower tempo, gravitas) entirely, sounding like a casual comment from a younger person.",
-    "model_comparison": "Model 1 is the clear winner. Model 1 accurately follows the content constraints and successfully simulates an elderly voice through slower pacing and a mature timbre. Model 2 fails on both counts: it hallucinates extra words ('哎呀', '啊') and uses a voice that sounds youthful rather than elderly, completely missing the core paralinguistic requirement.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

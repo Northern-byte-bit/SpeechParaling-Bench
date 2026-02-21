@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails strictly on Content Accuracy. The user requested the specific script: '家里突然停电了，一片漆黑。', but the model generated completely different text: '天啊，停电了，黑漆漆的，我好害怕。' (Oh my god, the power is out, it's pitch black, I'm so scared). While the meaning is similar and the tone attempts to be fearful (somewhat successfully), the failure to follow the explicit text constraint makes it 'clearly inconsistent with the script'. Therefore, it fails the first evaluation dimension entirely.",
-    "reasoning_model_2": "The model achieves perfect Content Accuracy, reading the script '家里突然停电了，一片漆黑。' exactly as requested. Regarding Paralinguistic Compliance (Fear), the audio demonstrates exceptional quality. From 0:00 to 0:04, the speaker uses a trembling, breathy voice with unstable pitch, accurately mimicking the physiological response to fear. The pacing is hesitant, effectively conveying the sudden shock and the atmosphere of darkness. The expression is vivid and natural.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated the text, generating a paraphrased sentence instead of reading the required script. This is a critical failure in following instructions. Model 2 not only followed the script perfectly but also delivered a high-quality emotional performance, using specific prosodic features like breathiness and vocal trembling to convey fear convincingly.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

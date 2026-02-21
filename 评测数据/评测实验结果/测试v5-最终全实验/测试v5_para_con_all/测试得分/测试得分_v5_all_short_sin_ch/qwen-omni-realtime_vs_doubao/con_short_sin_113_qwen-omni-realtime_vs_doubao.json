@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 failed strictly on Content Accuracy. The user requested the specific sentence '今天气温是二十度，多云。', but the model generated a lengthy, improvised weather report ('今天气温大约是二十度，天空多云，没有明显的阳光直射...'). This constitutes a complete hallucination/deviation from the script. Regarding the 'neutral' emotion requirement, the audio exhibits a cheerful, bright, and lively broadcasting tone (00:00-00:06) with upward inflections, which is not neutral. Due to the significant content failure and the mismatch in emotional tone (cheerful vs. neutral), the score is 0.",
-    "reasoning_model_2": "Model 2 followed the instructions perfectly. Content Accuracy is perfect; it read exactly '今天气温是二十度，多云。' (00:00-00:02). In terms of Paralinguistic Compliance (Neutral Emotion), the voice is calm, flat, and objective. There is no exaggerated pitch variation or emotional coloring. The delivery is steady and factual, perfectly embodying the 'neutral' requirement.",
-    "model_comparison": "Model 1 failed to adhere to the text constraint, generating a completely different and longer script than requested. Additionally, its tone was cheerful and expressive rather than neutral. Model 2 adhered strictly to the text and provided a perfectly neutral, uncolored delivery. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

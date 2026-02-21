@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content 'Let's go out for dinner tonight' is accurately generated between 00:00 and 00:02. The speaker uses a standard, conversational tone with a volume that is perfectly consistent with the instruction 'normal volume'. The delivery is highly natural, fluent, and devoid of artifacts or noise. The volume level is consistent throughout the sentence, making it easy to hear without being loud or quiet.",
-    "reasoning_model_2": "The audio content corresponds to the text 'Let's go out for dinner tonight' (00:00-00:01). The volume is appropriate and fits the 'normal volume' requirement; it is neither whispered nor shouted. However, there are minor fluency and naturalness issues. The pronunciation of 'out' has a slight sibilance or aspiration that sounds almost like 'outs', and the intonation is slightly stylized (resembling a specific character archetype) rather than a neutral, natural human flow. While it passes the volume check, the naturalness is not perfect.",
-    "model_comparison": "Both models successfully adhere to the core instruction of reading the sentence at a 'normal volume'. Neither model exhibits deviations like whispering or shouting. However, Model 1 provides a much higher quality generation in terms of fluency and naturalness. Model 1's voice is indistinguishable from a professional human recording with clear enunciation. Model 2, while meeting the volume constraint, has a slightly unnatural prosody and a minor pronunciation artifact on the word 'out'. Therefore, Model 1 is the superior model due to better general audio quality and naturalness.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

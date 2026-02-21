@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly articulates the text '来不及了，快点，会议马上开始了！' with high content accuracy. The speaking rate is extremely fast, fully complying with the 'extremely fast' (极快速) instruction. Crucially, the model integrates a strong sense of urgency and breathlessness, which is contextually appropriate for the text. The articulation remains clear despite the high speed (0.5s - 2.5s), and the brief, punchy pauses between segments enhance the naturalness and dramatic effect of the command.",
-    "reasoning_model_2": "The model outputs the text '来不及了，快点会议马上开始了', matching the script content. The speed is fast, meeting the basic requirement of the prompt. However, the delivery lacks natural prosody; specifically, the transition between '快点' and '会议' is slurred and lacks a necessary prosodic boundary, making it sound mechanical. The emotional tone is relatively flat compared to the urgency required by the context of 'It's too late'.",
-    "model_comparison": "Both models successfully follow the 'extremely fast' speed constraint. However, Model 1 (T1) is significantly superior in terms of naturalness and expressiveness. T1 combines the high speed with the appropriate urgent tone, making it sound like a realistic human reaction. T2, while fast, sounds more like a machine reading text rapidly without understanding the syntactic structure, particularly evident in the run-on phrasing of '快点会议'. T1 is vivid and spot-on, while T2 is somewhat stiff.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

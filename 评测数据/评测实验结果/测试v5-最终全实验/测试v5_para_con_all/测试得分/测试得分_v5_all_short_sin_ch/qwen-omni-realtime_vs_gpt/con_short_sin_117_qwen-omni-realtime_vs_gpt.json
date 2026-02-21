@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user's command explicitly required the model to read a specific sentence: '我考试通过了！终于可以放松了。'. However, the generated audio content ('太棒啦，我考试通过了，终于可以松一口气，好好放松一下，感觉整个人都轻飘飘的，像飞在云朵上一样开心') is completely inconsistent with the requested script. The model hallucinated a significant amount of text, turning a reading task into a role-play improvisation. According to the evaluation criterion, a score of 0 is assigned when the voice content is clearly inconsistent with the script, regardless of the emotional expressiveness.",
-    "reasoning_model_2": "The model generated the content '我考试通过了，终于可以放松'. Compared to the target script '我考试通过了！终于可以放松了。', the model accurately produced the majority of the text but omitted the final character '了'. This is a minor content error that slightly affects the grammatical completeness and the naturalness of the relief expressed at the end (0:03-0:05). Despite this omission, the core emotion of happiness and relief is conveyed, and the content is largely accurate. The performance fits the criteria for 'Partially correct' due to the minor omission preventing a perfect score.",
-    "model_comparison": "Model 1 failed the fundamental constraint of the task by completely disregarding the provided script and improvising a new paragraph. This results in a mandatory score of 0 for Content Accuracy failure. Model 2 followed the script with high accuracy, suffering only a minor omission of the final character '了'. While Model 2's output was not perfect due to this omission, it adhered to the user's command far better than Model 1. Therefore, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 2,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately reproduces the text content, although it slightly expands the contraction 'there's' to 'There is', which is a minor deviation. Regarding the core requirement, the model follows the instruction to place heavy stress on the word 'must' perfectly. At approximately 0:02, the speaker distinctly elongates and emphasizes 'must' with increased intensity and a slight pause relative to the surrounding words ('This time, we... MUST... succeed'). The naturalness is high, with appropriate pacing that supports the dramatic emphasis requested.",
-    "reasoning_model_2": "The audio reproduces the text content but also expands 'there's' to 'There is'. In terms of the core requirement, the model fails to apply heavy stress on the word 'must'. The sentence is delivered rapidly between 0:00 and 0:03 with a flat prosody. The word 'must' (around 0:01) is rushed and receives no more emphasis than 'time' or 'succeed'; in fact, 'succeed' appears to have slightly more prominence due to phrase-final pitch contour. The overall delivery lacks the gravity and specific emphasis requested in the prompt.",
-    "model_comparison": "Model 1 is the clear winner. The user specifically requested 'heavy stress' on a particular word. Model 1 executed this perfectly, isolating the word 'must' with duration and loudness changes that clearly signaled emphasis. Model 2 completely ignored the stylistic instruction, delivering the sentence in a rushed, monotonous manner where the target word was indistinguishable in weight from the rest of the sentence. Model 1 demonstrated superior control over paralinguistic features.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

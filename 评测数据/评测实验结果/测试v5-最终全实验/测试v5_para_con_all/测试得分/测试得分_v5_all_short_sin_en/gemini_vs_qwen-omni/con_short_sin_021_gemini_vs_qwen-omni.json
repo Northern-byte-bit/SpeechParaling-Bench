@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the sentence 'I'll go to the supermarket to buy some groceries tomorrow.' with perfect content accuracy. The fluency is high, with natural prosody and pacing (e.g., slight pause after 'supermarket'). Regarding the core requirement 'medium pitch', the audio features a female voice with a standard, conversational fundamental frequency. The pitch is grounded, neither leaning towards a deep/low register nor a high/falsetto range. It sits squarely in the middle of a typical vocal range, making it a perfect example of a 'medium pitch' delivery.",
-    "reasoning_model_2": "The model generates the correct text content with good fluency and naturalness. However, regarding the 'medium pitch' constraint, the voice exhibits a noticeably higher fundamental frequency compared to a standard neutral baseline. The tone is lighter and sounds somewhat younger or breathier, pushing the pitch towards the 'medium-high' or 'high' category. While not extremely high-pitched, it deviates from a canonical 'medium' pitch more than Model 1, feeling slightly elevated.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The differentiating factor is the adherence to the specific 'medium pitch' instruction. Model 1 provides a voice that is distinctly neutral and centered in terms of pitch—it is the quintessential definition of medium. Model 2, while pleasant, utilizes a voice profile that is inherently higher-pitched and lighter. In a direct comparison for the specific control of 'medium pitch', Model 1 is more precise, whereas Model 2 leans towards high.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

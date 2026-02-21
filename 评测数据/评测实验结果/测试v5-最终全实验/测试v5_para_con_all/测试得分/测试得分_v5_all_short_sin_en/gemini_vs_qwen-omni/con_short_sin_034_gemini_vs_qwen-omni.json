@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails to accurately reproduce the script. At 0:02, it says 'I prepared refreshments' instead of the required 'I've prepared refreshments', missing the contraction 've'. Regarding the paralinguistic instruction for a 'smooth timbre', the model performs poorly. The voice is high-pitched and has a thin, slightly shrill quality typical of older TTS systems or 'cute' anime-style voices, which is acoustically the opposite of 'smooth'. The flow is somewhat jerky (0:01-0:02), and the synthetic nature of the audio prevents the velvety, rounded texture associated with smoothness.",
-    "reasoning_model_2": "Model 2 accurately reproduces the script word-for-word, including the contraction 'I've' at 0:03. In terms of the paralinguistic goal, it delivers an excellent performance. The voice has a warm, rounded quality with soft edges, perfectly embodying a 'smooth timbre'. The transition between words is fluid (0:01-0:04), and the prosody is natural and welcoming. The acoustic texture is consistent and pleasant, lacking any harshness or mechanical artifacts.",
-    "model_comparison": "Model 2 is the clear winner. First, Model 2 is textually accurate, whereas Model 1 omits a word part ('ve'). Second, Model 2's audio quality is significantly more natural and human-like. Most importantly regarding the prompt, Model 2 achieves the 'smooth timbre' requested, providing a warm and flowing vocal texture. Model 1 uses a high-pitched, slightly synthetic voice that sounds thin and lacks the requested smoothness.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

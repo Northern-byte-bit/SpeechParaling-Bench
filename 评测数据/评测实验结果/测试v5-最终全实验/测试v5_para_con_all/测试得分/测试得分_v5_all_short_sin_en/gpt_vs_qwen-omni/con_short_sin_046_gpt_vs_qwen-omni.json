@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to adhere to the core instruction of reading with a 'very fast pace'. The content 'It is too late, hurry up, the meeting is starting soon' is delivered at a slow-to-moderate speed (approx. duration ~4-5s). There are significant pauses between phrases (e.g., after 'late' and 'up'), and the articulation is deliberate rather than hurried. While the audio is fluent and clear, it completely lacks the requested paralinguistic feature of speed and the associated urgency. Additionally, the contraction 'It's' was expanded to 'It is'.",
-    "reasoning_model_2": "The model successfully executes the instruction to read with a 'very fast pace'. The entire sentence 'It is too late, hurry up, the meeting is starting soon' is delivered rapidly and fluidly, compressing the total duration significantly (likely under 2s). The urgency is clearly conveyed through the tempo without sacrificing intelligibility. Although it also expands 'It's' to 'It is', the primary requirement of a fast pace is perfectly met, sounding natural and urgent.",
-    "model_comparison": "Model 1 failed to implement the specific paralinguistic command ('very fast pace'), delivering the text at a normal or even slow tempo with distinct pauses. In contrast, Model 2 accurately followed the prompt, generating audio with a noticeably rapid pace and appropriate urgency while maintaining clarity. Therefore, Model 2 is superior in following the feature control instruction.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

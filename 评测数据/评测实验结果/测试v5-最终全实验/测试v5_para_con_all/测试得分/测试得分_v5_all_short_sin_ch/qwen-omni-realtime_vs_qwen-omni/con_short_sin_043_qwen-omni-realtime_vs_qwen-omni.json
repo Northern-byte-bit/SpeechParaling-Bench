@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. While the user command explicitly requested the model to say '谢谢您，这真是太令人开心了！', the generated audio includes a long, hallucinated continuation ('声音像糖果一样甜滋滋的...'). Although the voice texture itself is indeed 'sweet' (甜美) and adheres to the paralinguistic requirement in terms of timbre, the massive deviation from the requested script violates the primary instruction. According to the scoring criteria, if the voice content is clearly inconsistent with the script, the score is 0.",
-    "reasoning_model_2": "Model 2 performs excellently across all dimensions. First, the Content Accuracy is perfect; it reads strictly the target sentence '谢谢您，这真是太令人开心了' without any additions or omissions. Second, the Fluency is natural with appropriate pacing. Third, regarding the core feature '音质' (Sweetness), the model employs a bright, soft, and smiling tone that perfectly fits the description of '甜美'. The emotion is conveyed vividly and naturally.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 committed a critical error by hallucinating a large amount of text that was not in the script. While Model 1's voice was technically 'sweet', it failed the fundamental task of accurate text-to-speech synthesis. Model 2 followed the instructions perfectly, delivering the correct text with the requested sweet and happy paralinguistic features.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

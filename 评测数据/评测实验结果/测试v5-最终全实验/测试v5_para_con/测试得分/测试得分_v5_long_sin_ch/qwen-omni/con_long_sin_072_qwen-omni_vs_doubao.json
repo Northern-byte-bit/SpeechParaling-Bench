@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct content: '宝宝已经睡着了，我们说话小声一点，不要把她吵醒了，让她好好地休息一下。' with high fluency and natural prosody (0:00-0:08). However, regarding the specific paralinguistic instruction '小声' (low volume/whisper), the model fails to significantly alter its vocal mode. The speech is produced with full phonation (voiced speech) at a standard conversational volume, merely adopting a gentle tone rather than physically lowering the volume or whispering. In the context of avoiding waking a baby, this performance does not effectively convey the required constraint.",
-    "reasoning_model_2": "The model accurately generates the content matches the script perfectly (0:00-0:09). Crucially, the model excels in the 'Volume' dimension. It utilizes a breathy, unvoiced 'stage whisper' technique throughout the entire clip. This significantly reduces the perceived loudness and perfectly fits the semantic context of not waking a sleeping baby. The breathing patterns and soft articulation are natural and effectively simulate a human speaking quietly.",
-    "model_comparison": "Model 2 is the clear winner. The prompt explicitly asks for a 'low volume' (小声) in a context that strongly implies whispering (baby is sleeping). Model 1 interprets this merely as a gentle tone but continues to speak with full voice projection, which contradicts the situational requirement. Model 2 correctly interprets the instruction as a whisper, altering the acoustic characteristics of the voice (breathiness, low amplitude) to perfectly suit the scenario.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to execute the specific non-verbal instruction. At 0:00, instead of producing a sound of a hiccup, the model literally reads the character \"嗝\" (Gé) as a word. Throughout the rest of the speech (0:01-0:07), the audio is fluent and clear, but it completely lacks the physiological interruptions or rhythmic jerks associated with 'speaking while hiccuping'. The tone attempts to sound slightly uncomfortable ('好难受'), but without the core non-verbal feature of hiccups, it does not meet the specific prompt requirement.",
-    "reasoning_model_2": "The model successfully integrates the non-verbal feature. At the beginning (0:00-0:02), it generates realistic, physiological hiccup/belch sounds rather than reading the text literally. This aligns perfectly with the instruction '非语言发声' (Non-verbal vocalization). The subsequent speech maintains a strained and stuffed quality, sounding natural for someone who ate too fast. The pacing allows for the initial non-verbal sounds to establish the context effectively.",
-    "model_comparison": "Model 2 is the clear winner. The user specifically requested 'Non-verbal vocalization' (hiccups). Model 1 failed this task by reading the onomatopoeia '嗝' as a spoken word and proceeding with normal speech, lacking the required paralinguistic feature. Model 2 correctly interpreted the prompt, generating actual non-verbal hiccup sounds at the start and maintaining a fitting vocal quality. Model 2 demonstrates superior control over paralinguistic features.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content perfectly matches the script '请你仔细听，我再说一遍' with no pronunciation errors. Regarding the core paralinguistic requirement '停顿' (Pause), the model executes a clear and distinct pause immediately after the word '听' (approx. timestamp 00:01-00:02). This pause effectively creates the emphasis requested by the user ('distinct pause'). The overall flow remains natural, and the pause integrates well with the prosody of the sentence without sounding mechanical or disjointed.",
-    "reasoning_model_2": "The generated speech is accurate to the text '请你仔细听，我再说一遍'. The model adheres to the '停顿' (Pause) instruction by placing a noticeable break in the speech flow after '听' (approx. timestamp 00:01-00:02). The pause is of appropriate duration to be considered 'distinct' yet maintains the natural rhythm of human speech. There are no issues with fluency or audio quality.",
-    "model_comparison": "Both models performed exceptionally well on this task. They both correctly identified the text to be spoken and the location for the required paralinguistic feature. Both T1 and T2 implemented a distinct pause after the word '听' as instructed, and the duration and naturalness of the pause in both cases were ideal for the context (separating the imperative 'listen' from the following clause). As both models achieved perfect content accuracy and paralinguistic compliance with high naturalness, there is no distinguishable difference in quality. It is a tie.",
-    "score_1_1": 3,
-    "score_2_1": 3,
-    "winner_1": 0
-}

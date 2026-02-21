@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly on Content Accuracy. The user command was to say '请给我一杯水，谢谢' using a hoarse voice quality. The model incorrectly includes a description at the beginning, saying '嘶哑的，请给我一杯水，谢谢' (0.0s-1.0s: '嘶哑的'). Regarding Paralinguistic Compliance, the voice acts entirely contradictory to the prompt. It uses a clear, bright, and standard female TTS voice with zero hoarseness or raspy texture throughout the entire clip (0.0s-3.5s). It reads the instruction word rather than performing the vocal feature.",
-    "reasoning_model_2": "The model performs excellently. Content Accuracy is perfect; it speaks exactly '请给我一杯水，谢谢' without extra words. In terms of Paralinguistic Compliance, the audio effectively simulates a hoarse, strained voice quality often associated with extreme thirst or illness. Throughout the clip (0.0s-3.0s), there is audible vocal fry and breathiness, particularly on the words '水' and '谢谢', which aligns perfectly with the '沙哑' (hoarse) requirement. The delivery is natural and dramatic.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed on two major counts: it hallucinated/leaked instruction text into the speech (reading '嘶哑的' out loud) and completely failed to modify the voice texture, producing a standard clear voice instead of a hoarse one. Model 2 followed the text instructions perfectly and successfully applied the requested paralinguistic feature (hoarseness) in a natural, acting-like manner that fit the context of the sentence.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

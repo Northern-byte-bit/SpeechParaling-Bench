@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly on Content Accuracy. The user requested the specific script 'Hurry, someone's coming.', but Model 1 generated 'Hush... Hey, someone's coming... Shh'. It replaced the key imperative 'Hurry' with 'Hush' and added unrequested words ('Hey', 'Shh'). While the audio attempts the 'whisper' volume/style, the content hallucination changes the meaning of the command (from urgency to move, to a command to be quiet). According to the scoring standard, clearly inconsistent content results in a low score regardless of paralinguistic compliance.",
-    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, reciting the script 'Hurry, someone's coming.' exactly as requested without any hallucinations or omissions. Regarding the 'Volume' dimension (specifically the 'whisper' instruction), the model successfully modifies the phonation to be unvoiced and breathy, significantly reducing the perceived volume while maintaining intelligibility. The pacing (00:00-00:02) feels natural for a whispered warning.",
-    "model_comparison": "Model 2 is the clear winner. The primary differentiator is Content Accuracy. Model 1 failed to follow the provided text script, altering the core message by swapping 'Hurry' for 'Hush' and adding extra conversational fillers. Model 2 adhered strictly to the script. Furthermore, Model 2 successfully executed the target paralinguistic feature (whisper) with natural prosody. Model 1's failure to speak the correct text renders its attempt at the style invalid under the strict evaluation criteria.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

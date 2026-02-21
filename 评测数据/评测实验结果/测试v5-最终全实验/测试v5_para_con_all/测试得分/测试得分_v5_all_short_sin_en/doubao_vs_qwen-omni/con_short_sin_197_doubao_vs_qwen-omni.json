@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately synthesizes the full text script provided in the prompt, including the initial interjection 'Hmm'. The segment 'Hmm' (estimated 0.0s-0.5s) serves as a crucial component for conveying the requested sarcastic tone, acting as a pause for feigned contemplation or skepticism. The subsequent phrase 'I really didn't expect this outcome' (0.5s-end) follows fluently. By adhering strictly to the text, Model 1 preserves the structural vehicle ('Hmm') necessary to express the intended attitude of sarcastic surprise.",
-    "reasoning_model_2": "Model 2 generates the speech content 'I really didn't expect this outcome' (0.0s-end) but omits the initial word 'Hmm' specified in the user's command. This omission constitutes a Content Accuracy flaw. While the remaining sentence is fluent, the absence of the initial interjection removes a key paralinguistic opportunity to establish the sarcastic tone requested (the 'thinking' or 'mocking' pause). Consequently, the attitude expression is structurally less complete compared to the script's requirement.",
-    "model_comparison": "Model 1 is the clear winner due to strict Content Accuracy and better adherence to the paralinguistic potential of the script. Model 1 includes the 'Hmm' interjection, which is essential for the specific 'sarcastic contemplation' requested, whereas Model 2 omits it. Model 2's omission of a word from the target sentence prevents it from achieving a 'Fully correct' score, while Model 1 follows the command perfectly.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

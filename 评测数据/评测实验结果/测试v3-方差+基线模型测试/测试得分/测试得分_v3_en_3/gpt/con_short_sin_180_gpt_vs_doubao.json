@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the sentence 'Oh, this lecture is so boring, it makes me yawn.' It adds a non-linguistic vocalization/interjection 'Oh' at the beginning (0.0s - 0.5s), which functions effectively as the onset of a yawn or a deep sigh of boredom. This addition creates a natural transition into the weary, lethargic tone used for the rest of the sentence. While it added 'Oh' which was not in the strict text, this is a common and natural way to vocalize the requested paralinguistic feature (a yawn/sigh) without destroying the flow. The prosody is appropriately slow and low-energy, matching the 'boring' context.",
-    "reasoning_model_2": "The model generates the sentence 'Yarns, this lecture is so boring, it makes me yawn.' The audio clearly contains the spoken word 'Yarns' (likely a mispronunciation or reading of the word 'Yawns') at the beginning (0.0s - 0.8s) instead of actually performing the sound of a yawn. This is a significant instruction-following failure where the model reads the stage direction or intended sound description as literal text. Consequently, the content accuracy is compromised, and the core paralinguistic requirement is not met.",
-    "model_comparison": "Model 1 successfully integrates the requested paralinguistic feature by using a sigh-like vocalization ('Oh') and a bored tone, enhancing the naturalness and adhering to the intent of the prompt. Model 2 fails completely by hallucinating the instruction as text, speaking the word 'Yarns' instead of making a yawning sound. Model 1 is the clear winner for correctly interpreting the command as a stylistic instruction rather than text to be read.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

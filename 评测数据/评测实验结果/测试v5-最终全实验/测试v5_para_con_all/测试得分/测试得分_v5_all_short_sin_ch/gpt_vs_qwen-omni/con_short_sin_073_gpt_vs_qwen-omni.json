@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '我悄悄告诉你，他就是老板' with perfect content accuracy. The core requirement to use a 'whisper' (耳语) is executed flawlessly. The audio exhibits the distinct acoustic characteristics of whispering: unvoiced or semi-voiced phonation, breathy timbre, and reduced projection distinct from normal modal speech. The prosody is excellent, with a secretive tone and a well-placed pause before '他...就是老板' (0:03), effectively conveying the intent of sharing a secret. The volume and style constraint are fully satisfied.",
-    "reasoning_model_2": "The model generates the text with an addition at the beginning: '嘘' (Shh), which was not in the target script '我悄悄告诉你，他就是老板'. More importantly, the model completely fails the core paralinguistic instruction to use a 'whisper'. The audio is delivered in a normal, fully voiced (modal) speaking style. The volume and timbre are that of regular conversation, showing no attempt to switch to a whispering mode or significantly lower the volume to mimic a secret. It ignores the '音量/Whisper' constraint entirely.",
-    "model_comparison": "Model 1 followed the instructions perfectly, generating a high-quality whisper that fits the context of the sentence. Model 2 failed to generate a whisper, producing normal speech instead, and also added an extra word ('嘘') not present in the requested text. Model 1 is the clear winner for correctly implementing the specific paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

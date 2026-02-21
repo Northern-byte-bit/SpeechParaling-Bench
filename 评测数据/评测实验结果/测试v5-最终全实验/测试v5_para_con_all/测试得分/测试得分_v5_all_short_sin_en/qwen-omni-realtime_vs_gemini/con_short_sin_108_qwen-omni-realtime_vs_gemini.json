@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately follows the text script, pronouncing 'there's' as written. However, regarding the core instruction to place 'heavy stress on must', the performance is inadequate. In the segment around 0:01, the word 'must' is spoken with standard intonation and duration, indistinguishable from the surrounding words. The emphasis actually falls more on 'succeed' and 'turning back'. Consequently, the specific paralinguistic feature requested by the user is not effectively rendered.",
-    "reasoning_model_2": "The model modifies the text slightly, expanding the contraction 'there's' to 'There is' (approx 0:04), which is a minor content accuracy deviation. However, it excels at the core task. The word 'must' (0:01-0:02) is delivered with significant emphasis, utilizing elongation, a distinct pitch change, and a preceding pause to create the requested 'heavy stress'. The urgency and determination are clearly conveyed through this emphasis, perfectly aligning with the user's intent.",
-    "model_comparison": "Model 1 fails to follow the specific paralinguistic instruction; the word 'must' lacks any noticeable stress, making the sentence sound like a standard, neutral reading. Model 2, despite a very minor text normalization ('there is' vs 'there's'), perfectly executes the 'heavy stress' command. The word 'must' is clearly the focal point of the sentence in Model 2's delivery, demonstrating a strong adherence to the feature control constraints. Therefore, Model 2 is the clear winner for the requested dimension.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'This toy is so fun, I love it!' with perfect accuracy and follows the punctuation cues from the prompt. In terms of the 'Age' dimension, the audio successfully adopts a child-like persona. The voice exhibits a higher pitch and shifted formants characteristic of a prepubescent vocal tract (00:00-00:02). The prosody is energetic and bouncy, particularly on the word 'fun', effectively simulating the excitement of a child. The speech is fluent and natural without mechanical artifacts.",
-    "reasoning_model_2": "The model accurately speaks the text content, though the prosody suggests a period after 'fun' ('This toy is so fun. I love it.') rather than the comma specified in the prompt. Regarding the 'Age' dimension, the generated voice is distinctly that of an adult female (00:00-00:03). While the audio is high-quality and the tone is expressive, it fails to alter the vocal timbre to sound like a child. The resonance is mature, and it lacks the necessary youthful characteristics requested by the user command.",
-    "model_comparison": "Model 1 is the clear winner as it successfully adheres to the paralinguistic constraint 'Age'. Model 1 produces a convincing child's voice with appropriate pitch and energy. Model 2, while producing fluent speech, fails to control the age feature, outputting a standard adult female voice instead. Model 1 also follows the punctuation of the source text more closely.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

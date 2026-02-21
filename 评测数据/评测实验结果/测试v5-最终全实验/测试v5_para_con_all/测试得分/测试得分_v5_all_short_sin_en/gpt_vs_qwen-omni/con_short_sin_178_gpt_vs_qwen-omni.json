@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately reads the text content 'Ah, I am so sleepy, I want to sleep.' However, it completely fails to incorporate the required paralinguistic feature. The instruction specifically requested reading the sentence 'with a yawn'. In the audio (0:00-0:04), the 'Ah' is pronounced as a standard word rather than a non-linguistic vocalization or a yawn. The tone remains flat and somewhat robotic, lacking the drowsy or lethargic quality associated with the text and the requested action. It essentially ignored the 'with a yawn' constraint.",
-    "reasoning_model_2": "Model 2 demonstrates exceptional performance. At the very beginning (0:00-0:02), the model generates a highly realistic and natural yawning sound that seamlessly acts as the 'Ah~' in the script. Following the yawn, the delivery of 'I am so sleepy...' (0:02-0:05) maintains a groggy, tired timbre that naturally follows a yawn. The integration of the non-linguistic vocalization with the speech is fluid and indistinguishable from a human performance.",
-    "model_comparison": "Model 2 is the clear winner. The prompt required a specific non-linguistic vocalization (a yawn). Model 1 failed to produce this feature entirely, simply reading the interjection 'Ah' as a word with a neutral tone. Model 2, in contrast, successfully generated a convincing, natural-sounding yawn at the start and modulated the subsequent speech to match the sleepy affect. Model 2 followed the paralinguistic instruction perfectly, whereas Model 1 did not.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

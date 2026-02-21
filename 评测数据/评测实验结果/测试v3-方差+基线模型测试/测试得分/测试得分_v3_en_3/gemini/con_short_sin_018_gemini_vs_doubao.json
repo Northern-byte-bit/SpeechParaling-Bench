@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely fails the Content Accuracy criterion. Instead of reading the required sentence 'Really? Quick, tell me the details!', the audio only consists of a repeated, glitchy snippet that sounds like 'Details, details' (0:00-0:03). Because the content is clearly inconsistent with the script and missing the vast majority of the text, it receives a score of 0 regardless of the pitch used.",
-    "reasoning_model_2": "The model performs excellently across all criteria. Content Accuracy is perfect (0:00-0:04), matching the script exactly. Fluency and Naturalness are high; the prosody is very human-like with natural intonation. Regarding Paralinguistic Compliance (Pitch), the model effectively adopts a higher pitch register to convey the urgency and excitement requested. The pitch is noticeably elevated on 'Really?' (0:00-0:01) and 'Quick' (0:01-0:02), fitting the command well while remaining natural.",
-    "model_comparison": "There is a stark difference in quality. Model 1 failed to generate the correct text, outputting only a repetitive fragment, rendering it unusable. Model 2 followed the command perfectly, delivering the correct text with high fluency and accurately applying the requested high pitch paralinguistic feature.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

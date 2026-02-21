@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately produces the content '我考试通过了，终于可以放松了' without errors. The fluency and audio quality are high, with a clear and distinct voice. However, regarding the core requirement '开心的情感' (happy emotion), the performance is lacking. The tone (0.0s - 2.5s) is polite and pleasant but resembles a standard broadcast or reading style rather than a genuine expression of joy or relief. It lacks the pitch variation, energy, and brightness typically associated with the happiness of passing an exam. The delivery is too controlled and flat for the requested emotion.",
-    "reasoning_model_2": "The audio perfectly matches the content script. The fluency is excellent, with a very natural, human-like rhythm. Crucially, the model excels at the core requirement '开心的情感' (happy emotion). From 0.0s to 1.0s ('我考试通过了'), the voice is high-pitched and energetic, simulating a shout of joy. In the second half (1.0s - 2.5s), there is an audible 'smile' and a sense of relief in the tone. The paralinguistic features vividly convey excitement and happiness, making it sound like a genuine human reaction to good news.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The decisive factor is the 'Feature Control' for emotion. Model 1 provides a high-quality but emotionally neutral/standard reading that fails to capture the specific excitement required by the prompt. Model 2, in contrast, delivers a highly expressive performance with appropriate pitch changes, energy, and tone that clearly signifies happiness and relief. Model 2 follows the paralinguistic instruction vividly, whereas Model 1 largely ignores the emotional directive.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

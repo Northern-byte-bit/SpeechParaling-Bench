@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly commanded the model to read a specific sentence: '感谢您的邀请，我很乐意参加今晚的宴会，期待与您共度美好时光。'. However, Model 1 failed the 'Content Accuracy' criterion completely by rewriting the text to '承蒙盛情相邀，实感荣幸……'. Although the rewritten text is stylistically elegant, the model violated the core instruction to generate the specific audio content requested. According to the scoring standard, 'Voice content is clearly inconsistent with the script' results in a score of 0. Therefore, no further paralinguistic evaluation is possible as the base content is incorrect.",
-    "reasoning_model_2": "Model 2 followed the instructions perfectly. \n1. **Content Accuracy**: The generated speech matches the target script '感谢您的邀请，我很乐意参加今晚的宴会，期待与您共度美好时光。' word-for-word, achieving a perfect score.\n2. **Fluency and Naturalness**: The text indicates a smooth flow without stuttering or strange artifacts.\n3. **Paralinguistic Compliance**: The delivery conveys the requested 'Elegant and Restrained' (优雅克制) tone effectively. The phrasing is polite and the implied prosody fits a formal social setting, satisfying the core feature requirement.",
-    "model_comparison": "The comparison is decisive based on Content Accuracy. Model 1 hallucinated a new script, rewriting the user's text entirely. While the rewritten text was formal, it violated the explicit instruction to 'read this sentence'. Model 2 adhered strictly to the requested text while successfully applying the requested 'Elegant and Restrained' tone. In a Feature Control task, text adherence is a prerequisite. Model 1 receives a 0 due to the content violation, making Model 2 the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails the primary criterion of Content Accuracy. The generated audio ends at '买' (timestamp ~1.8s), omitting the final phrase '些菜' from the requested script '我明天会去超市买些菜'. While the pitch seems to be within a medium range before the cutoff, the incomplete sentence constitutes a significant error. According to the scoring standard, while the core start is present, the omission of the object creates a major issue, preventing a higher score.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, articulating the full sentence '我明天会去超市买些菜' clearly (0.0s - 2.5s). The Fluency is high with a natural pace and no mechanical artifacts. Regarding Paralinguistic Compliance, the voice maintains a steady '中音' (medium pitch) throughout, avoiding high-pitched excitement or deep bass, effectively meeting the '音高' control requirement. The delivery is natural and compliant.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to complete the sentence, truncating the audio before the final words '些菜', which is a critical failure in Content Accuracy. Model 2 followed the script perfectly and successfully implemented the requested medium pitch ('中音') with natural prosody. Model 1's performance is severely penalized due to the incompletion.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

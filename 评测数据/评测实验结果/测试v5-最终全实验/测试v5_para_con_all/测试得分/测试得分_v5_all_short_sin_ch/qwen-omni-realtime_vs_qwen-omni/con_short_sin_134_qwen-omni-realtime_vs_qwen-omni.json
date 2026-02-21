@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the model to say: '我每天都坚持锻炼，这次比赛没问题。' However, Model 1 generated completely different text: '我每天坚持锻炼，体能和状态都稳稳当当，这次比赛我绝对能拿下，信心满满，毫无悬念。' (0.0s - 0.5s start). This represents a catastrophic failure in Content Accuracy. While the voice sounds energetic and confident, the model failed to follow the basic instruction regarding the script. According to the Detailed Scoring Standard, 'Voice content is clearly inconsistent with the script' results in a score of 0.",
-    "reasoning_model_2": "Model 2 strictly followed the script: '我每天都坚持锻炼，这次比赛没问题。' (0.0s - 2.8s). The articulation is clear and fluent. Regarding the 'Cognitive State' (Confidence), the speaker uses a steady, slightly brisk pace. The intonation on '没问题' (no problem) at 2.0s-2.5s is declarative and firm, effectively conveying a sense of assurance and self-belief without sounding arrogant. The tone matches the requested 'confident' state naturally.",
-    "model_comparison": "Model 1 failed the primary requirement of Content Accuracy by hallucinating a completely different script than what was requested. Therefore, it receives a 0 score regardless of its tonal quality. Model 2 accurately synthesized the requested text with high fluency and successfully adopted the requested 'confident' cognitive state. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

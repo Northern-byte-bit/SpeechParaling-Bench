@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully synthesizes the text 'Happy New Year everyone! May all your wishes come true!' with high accuracy. In terms of the core paralinguistic requirement (Loudness), the audio demonstrates significant vocal effort and projection. From 0:00 to 0:02, the speaker's tone is energetic and booming, mimicking the style of a public announcement or a shout to a crowd, which aligns perfectly with the instruction to read with a 'loudly volume'. The prosody matches the enthusiastic nature of the text, and there are no fluency issues.",
-    "reasoning_model_2": "The model generates the correct text content, but it fails completely regarding the core paralinguistic instruction. The user requested a 'loudly volume', yet the audio produced (0:00-0:04) uses a soft, breathy, and intimate tone, resembling a whisper or a 'late-night radio' voice. This is the direct opposite of the requested feature. While the audio is fluent and clear, the lack of adherence to the volume constraint renders it stylistically incorrect.",
-    "model_comparison": "Model 1 followed the specific instruction to speak loudly, employing a projected voice with high energy suitable for the greeting. Model 2 ignored the volume instruction entirely, opting for a soft, whispery tone that, while high quality in terms of audio fidelity, was the semantic opposite of 'loud'. Therefore, Model 1 is the clear winner for following the prompt constraints.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the text 'I warn you, don't make any more mistakes.' (0:00-0:04). In terms of paralinguistic compliance, the model successfully adheres to the instruction for a 'very low pitch'. The voice exhibits a deep, resonant timbre characteristic of a low-pitched male voice. The pitch remains consistently low throughout the utterance, effectively conveying the seriousness and gravity implied by the warning. The prosody is deliberate and slow, enhancing the low-pitched effect. There are no issues with fluency or naturalness; the synthesis is clear.",
-    "reasoning_model_2": "The model correctly generates the text content 'I warn you, don't make any more mistakes.' (0:00-0:03). However, regarding the core constraint 'very low pitch', the model fails completely. The generated audio features a high-pitched, somewhat squeaky, and thin female-sounding voice. This is the direct opposite of the requested 'very low pitch'. The tone sounds slightly anxious or light rather than deep and warning-like. Consequently, it does not meet the paralinguistic requirement at all.",
-    "model_comparison": "Model 1 followed the user's specific instruction to read with a 'very low pitch', producing a deep, authoritative voice that matched the command perfectly. Model 2 produced a high-pitched voice, which is the exact opposite of the requested feature. Therefore, Model 1 is the clear winner for adhering to the specific paralinguistic control prompt.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

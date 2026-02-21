@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the text 'Today's sunshine makes one feel very relaxed.' with high fidelity. Crucially, the speaker adheres strictly to the 'slow pace' constraint. The delivery is deliberate and unhurried, with noticeable elongation of vowels in words like 'sunshine' (0.5s-1.2s) and 'relaxed' (3.8s-4.8s). There are distinct, calming pauses, particularly after 'sunshine' (1.3s-1.6s) and 'feel' (2.8s-3.0s), which effectively convey the requested 'relaxed' atmosphere. The prosody is natural and does not sound mechanically stretched, maintaining high fluency while meeting the specific paralinguistic requirement.",
-    "reasoning_model_2": "The model synthesizes the correct text content without errors. However, it fails to adhere to the core paralinguistic instruction of a 'slow pace'. The delivery is brisk and conversational, bordering on fast. The segment 'makes one feel' (0.9s-1.4s) is rushed, and the overall duration of the clip is significantly shorter than what a 'slow' reading would necessitate. While the audio is fluent and the voice is clear, the lack of pace control results in a mismatch with the user's explicit command to be slow and relaxed.",
-    "model_comparison": "Model 1 is the clear winner because it successfully integrates the specific feature control command ('slow pace'). It utilizes pauses and elongated phonemes to create the desired effect. Model 2, while producing high-quality speech in terms of clarity, completely ignores the 'slow' instruction, delivering the line at a standard or fast speed. Therefore, Model 1 demonstrates superior control over paralinguistic features.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

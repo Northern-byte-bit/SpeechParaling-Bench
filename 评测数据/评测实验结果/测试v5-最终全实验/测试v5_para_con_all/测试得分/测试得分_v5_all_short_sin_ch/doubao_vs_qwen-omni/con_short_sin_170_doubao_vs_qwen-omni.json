@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 failed to execute the specific paralinguistic instruction. The user requested the speech to be delivered 'with a coughing manner' and the script included '咳咳' (cough cough) as an onomatopoeic prompt. However, the audio contains only the spoken words '嗯... 我想说几句' (0:00-0:02). The model omitted the '咳咳' portion entirely and did not generate any coughing sound effects or change the vocal texture to simulate a coughing state. The delivery is a standard, clean reading without the required non-verbal vocalization.",
-    "reasoning_model_2": "Model 2 successfully executed the paralinguistic instruction. At the beginning of the audio (0:00-0:02), the model generates distinct, realistic coughing and throat-clearing sounds, effectively translating the text '咳咳' into the corresponding non-verbal vocalization rather than reading the characters phonetically. Following the coughs, the speech '我想说几句' (0:02-0:04) is delivered clearly. The integration of the non-verbal sound with the speech is natural and aligns perfectly with the command to speak in a coughing manner.",
-    "model_comparison": "The evaluation dimension is 'Non-verbal vocalization' (非语言发声), specifically the request to include coughing. Model 1 completely failed this requirement, producing a standard sentence with no coughing sounds and omitting the text segment corresponding to the coughs. Model 2 correctly interpreted the instruction and the script, generating realistic coughing sounds at the appropriate location (replacing the text '咳咳' with the actual sound). Therefore, Model 2 demonstrates superior control over paralinguistic features.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

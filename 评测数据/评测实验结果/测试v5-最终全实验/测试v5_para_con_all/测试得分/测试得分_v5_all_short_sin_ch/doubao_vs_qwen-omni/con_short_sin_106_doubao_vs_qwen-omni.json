@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed strictly on content accuracy. The user's command was to say '不许挑食，把菜都吃完！' with emphasis on '不许'. However, Model 1 read the instruction text itself into the audio, producing: '不许上，加重说，不许挑食，把菜都吃完' (Timestamps: 0.0s-1.8s read the prompt instruction). Although it did say the target sentence afterwards (1.8s-3.5s) and emphasized '不许', the inclusion of the prompt text constitutes a critical failure in content adherence. According to the scoring standard, if the voice content is clearly inconsistent with the script due to major errors/additions, it must receive a low score.",
-    "reasoning_model_2": "Model 2 followed the content instructions perfectly, generating the text '不许挑食，把菜都吃完' without any additions or hallucinations. Regarding the required feature '重音' (Emphasis), the model successfully applied strong stress to the word '不许' (Timestamps: 0.0s-0.7s). The tone is stern, louder, and more forceful than the rest of the sentence, effectively conveying the command. The transition to the rest of the sentence '挑食，把菜都吃完' is natural and fluent. The paralinguistic compliance is spot-on.",
-    "model_comparison": "Model 1 is disqualified due to a severe instruction-following error (Prompt Leakage), where it read the instructions ('不许上，加重说') as part of the speech content. Model 2 accurately generated the correct text and successfully implemented the specific paralinguistic feature (emphasis on '不许') with high naturalness. Therefore, Model 2 wins decisively.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

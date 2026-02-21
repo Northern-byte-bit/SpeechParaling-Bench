@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command explicitly requested the model to read the sentence: 'Oh, really? That's nice.' However, the generated audio contains completely different text: 'The meeting is scheduled for tomorrow at 10 AM. Don't be late.' (0:00-0:05). This is a total hallucination or failure to follow the specific text constraint. According to the Detailed Scoring Standard, if the voice content is clearly inconsistent with the script, the score must be 0.",
-    "reasoning_model_2": "The model generates the text 'Oh really, that is nice.' (0:00-0:02). There is a minor content deviation where the contraction 'That's' is expanded to 'that is', which technically violates the 'perfectly consistent' rule for a score of 3, though the meaning is preserved. Regarding the core paralinguistic feature (Attitude: Perfunctory), the model performs excellently. The pitch is flat and low, the delivery is slow and dragging, and the intonation on 'that is nice' falls significantly, conveying a clear sense of disinterest, boredom, and a dismissal of the topic. This perfectly captures a 'perfunctory' tone.",
-    "model_comparison": "Model 1 failed completely by generating text unrelated to the prompt, resulting in a score of 0. Model 2 followed the prompt with a very minor text modification (expanding a contraction) but nailed the required paralinguistic feature. The tone in Model 2 was distinctly perfunctory, bored, and dismissive, fulfilling the core request. Therefore, Model 2 is the clear winner.",
-    "score_1": 0,
-    "score_2": 2,
-    "winner": 2
-}

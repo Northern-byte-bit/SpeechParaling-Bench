@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately follows the user's command to use a 'soothing rhythm' (舒缓的节奏). The audio spans approximately 6 seconds (00:00-00:06). The speaker adopts a slow, deliberate pace with significant pauses between phrases: '睡前' (00:00) ... '听些轻音乐' (00:01-00:02) ... '帮助我' (00:03) ... '放松身心' (00:04-00:06). The tone is gentle, breathy, and calm, effectively creating a relaxing atmosphere. The content is accurate, and the prosody is natural for the requested style.",
-    "reasoning_model_2": "Model 2 fails to follow the paralinguistic instruction. The audio is very short (00:00-00:03), indicating a fast speaking rate. The sentence is delivered with an energetic, upbeat, and rapid pace, typical of a standard assistant voice but completely contrary to the requested 'soothing rhythm'. There are no relaxing pauses, and the tone is too bright and hurried to induce relaxation. While the content is accurate and the speech is fluent, it completely misses the target style.",
-    "model_comparison": "Model 1 is the clear winner. It correctly interpreted 'soothing rhythm' by slowing down the speech rate, adding appropriate pauses, and using a gentle tone. Model 2 ignored the style instruction and produced a fast, energetic reading that is the opposite of 'soothing'. Model 1's execution is fully compliant with the prompt, while Model 2's execution is a failure in terms of style control.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

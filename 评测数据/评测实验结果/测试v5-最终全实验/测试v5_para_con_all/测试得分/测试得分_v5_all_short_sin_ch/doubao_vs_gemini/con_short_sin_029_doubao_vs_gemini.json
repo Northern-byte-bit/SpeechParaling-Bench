@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the 'Content Accuracy' criterion. Specifically, at timestamp 00:00, the model pronounced '早晨' (morning) as '早前' (previously/earlier), resulting in a text mismatch that alters the meaning of the sentence ('Campus's previously' vs 'Campus's morning'). While the energy in the second half '总是那么充满活力' might attempt to match the requested 'bright' tone, the fundamental pronunciation error in the first segment significantly detracts from the overall quality and naturalness. The listener is distracted by the incorrect word, making the style secondary to the content failure.",
-    "reasoning_model_2": "The model successfully followed the 'Content Accuracy' criterion, pronouncing the script perfectly as '校园的早晨' at 00:00 without errors. Regarding the 'Paralinguistic Compliance' for '明亮的音质' (Bright Tone), the audio demonstrates a clear, crisp timbre with good resonance. The delivery is energetic and lively, fitting the semantic context of a 'vibrant morning' (充满活力). The voice avoids muddiness or low, dark tones, effectively conveying the requested brightness through appropriate pitch elevation and clear articulation.",
-    "model_comparison": "Model 2 is the clear winner. The primary differentiator is Content Accuracy. Model 1 committed a significant error by substituting '早晨' (zao chen) with '早前' (zao qian), which disrupts the meaning and flow of the sentence. Model 2 produced the text accurately. Furthermore, Model 2 effectively executed the 'bright' tone quality command, matching the energetic sentiment of the text with a clear and vibrant vocal timbre. Model 1's performance is heavily penalized due to the pronunciation error.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 127,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a disgusted emotion: 'The environment here is absolutely filthy, there's garbage and strange smells everywhere, it's unbearable. I really don't understand why people would make a public place like this, it's disgusting!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

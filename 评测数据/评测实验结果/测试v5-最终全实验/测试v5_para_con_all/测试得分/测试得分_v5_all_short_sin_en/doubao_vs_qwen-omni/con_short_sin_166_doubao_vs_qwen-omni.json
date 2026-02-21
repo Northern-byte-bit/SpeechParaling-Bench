@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately interprets the instruction 'read this sentence with a sigh' and the text 'Sigh' as a cue for a non-linguistic vocalization. At timestamp 0:00-0:01, instead of reading the word 'Sigh' literally, the model produces a distinct, audible exhalation (a natural sigh sound). This flows seamlessly into the rest of the sentence 'another boring weekend' (0:01-0:03), which is delivered with a flat, lethargic tone that perfectly matches the context of a sigh and a 'boring' situation. The content accuracy is handled intelligently by converting the cue word into the required sound effect, and the naturalness is high.",
-    "reasoning_model_2": "The model fails to interpret the instruction regarding the paralinguistic feature. At 0:00-0:01, it reads the word 'Sigh' literally as text. Furthermore, the tone is completely inappropriate; the delivery is high-pitched, energetic, and cheerful, sounding excited rather than bored. There is no non-linguistic vocalization (no actual sigh sound) present in the audio. The prosody contradicts the semantic meaning of 'boring weekend', resulting in a performance that does not meet the criteria for the requested feature.",
-    "model_comparison": "Model 1 successfully generated the required 'Non-Linguistic Vocalization' by converting the text 'Sigh' into an actual breathy sigh sound and matching the overall tone to the sentiment of boredom. Model 2 failed completely, reading the text literally with an energetic and happy tone, devoid of the requested sigh feature. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

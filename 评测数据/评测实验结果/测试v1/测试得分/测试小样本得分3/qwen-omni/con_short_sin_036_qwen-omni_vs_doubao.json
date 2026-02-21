@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails the primary criterion of Content Accuracy. In the segment (0.0s - 1.2s), the generated speech pronounces the greeting as \"欢迎关林\" (Huānyíng Guānlín) instead of the required \"欢迎光临\" (Huānyíng Guānglín). This mispronunciation of a common keyword fundamentally alters the script. Regarding the paralinguistic feature 'Mellow/Round' (圆润), while the tone might be soft, the lack of articulatory precision (slurring 'Guang' to 'Guan') detracts from the 'roundness' and makes the speech sound mumbled rather than pleasantly resonant. Due to the content error, the score is significantly penalized.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, correctly pronouncing \"欢迎光临\" (0.0s - 1.2s) with clear articulation. Regarding the core paralinguistic requirement 'Mellow/Round' (圆润), the audio exhibits a resonant and full-bodied timbre throughout the sentence (0.0s - 4.0s). The voice quality avoids sharpness or thinness, effectively conveying a warm and professional service attitude. The prosody is natural and fluent, matching the 'happy to serve' sentiment with a smooth, polished delivery.",
-    "model_comparison": "Model 2 is the clear winner. The decisive factor is Content Accuracy: Model 1 mispronounces the key phrase '光临' as '关林', which is a major flaw for a greeting script. Model 2 follows the script perfectly. Furthermore, Model 2 effectively captures the 'round/mellow' (圆润) sound quality, offering a resonant and professional timbre that Model 1 fails to achieve due to its articulatory issues.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

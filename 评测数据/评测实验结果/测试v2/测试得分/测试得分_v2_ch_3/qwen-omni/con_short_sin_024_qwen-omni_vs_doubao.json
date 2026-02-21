@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '请注意，演出即将开始' accurately (0:00-0:03). The speech is fluent and the pronunciation is clear. However, regarding the core paralinguistic requirement 'low pitch' (低音), the model fails to adhere to the instruction. The generated audio features a female voice in a standard, mid-to-high register typical of public announcements. There is no audible attempt to lower the pitch or adopt a bass tone. Consequently, the target characteristic is not perceived.",
-    "reasoning_model_2": "The model correctly speaks the text '请注意，演出即将开始' without errors (0:00-0:04). The fluency and naturalness are high, with a relaxed pacing. Crucially, the model successfully implements the 'low pitch' (低音) constraint. It utilizes a male voice with a deep, resonant register and a breathy quality that accentuates the low frequency, fitting the description of a 'bass' voice perfectly. The paralinguistic feature is vivid and consistent throughout the clip.",
-    "model_comparison": "Model 2 is the clear winner. The user explicitly requested the text be spoken with a 'low pitch' (低音). Model 1 ignored this constraint, providing a standard female voice with average pitch. Model 2 successfully generated a deep, low-pitched male voice that perfectly aligns with the requested feature control. Model 2 demonstrates superior adherence to the paralinguistic instruction.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

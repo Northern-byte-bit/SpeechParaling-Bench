@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the model to read a specific sentence: 'Hurry! The enemy is ahead, we need to rush through.' Model 1 fails significantly in Content Accuracy. Instead of reading the requested sentence, it hallucinates a long, dramatic script ('Hurry, hurry, hurry... No time to waste... Move, move, move') lasting 16 seconds. Regarding the 'Rushed' rhythm, while the tone is dramatic, the actual pacing is not particularly rushed. There are significant pauses between phrases (e.g., 00:02, 00:05), which contradicts the instruction for a 'rushed rhythm'. Due to the complete disregard for the text constraints and the modification of the core sentence ('We've got to rush through' instead of 'We need to rush through'), this model scores very poorly.",
-    "reasoning_model_2": "Model 2 adheres strictly to the Content Accuracy requirements. It speaks exactly the target sentence: 'Hurry! The enemy is ahead, we need to rush through.' regarding the 'Rushed' rhythm feature (00:00-00:02), the speaker adopts a fast, urgent pace. The articulation is rapid, and the pauses are minimal, effectively conveying the sense of urgency and haste required by the context of an enemy being ahead. The delivery is natural and fluent.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 completely failed the Content Accuracy criterion by hallucinating a large amount of text and modifying the target sentence. Furthermore, Model 1's rhythm was not consistently rushed due to dramatic pauses. Model 2 followed the script perfectly and successfully implemented the 'rushed' paralinguistic feature with a fast, urgent delivery.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

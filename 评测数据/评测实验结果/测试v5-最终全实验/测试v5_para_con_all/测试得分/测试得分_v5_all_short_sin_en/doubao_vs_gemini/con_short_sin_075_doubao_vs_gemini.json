@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly articulates the text 'Hurry, someone's coming.' (0:00-0:02). However, regarding the paralinguistic instruction to use a 'whisper', the model fails to produce the correct acoustic texture. Instead of an unvoiced, breathy whisper, the model produces a voiced, low-volume tone that sounds more like a theatrical or cartoonish 'quiet voice'. While the volume is reduced, the fundamental frequency (pitch) is still clearly audible, meaning it is not a true whisper. The urgency is conveyed, but the specific feature constraint is not met accurately.",
-    "reasoning_model_2": "The audio accurately articulates the text 'Hurry, someone's coming.' (0:00-0:02). The model successfully executes the 'whisper' command. The speech is unvoiced and breathy, characteristic of a genuine human whisper. The volume is appropriately low, and the urgency is naturally integrated into the breathy texture of the voice. The prosody is natural, and there are no electronic artifacts. It perfectly adheres to the user's request.",
-    "model_comparison": "Model 2 is the clear winner. Model 2 generates a high-fidelity, authentic whisper that relies on breathiness and lacks vocal cord vibration (voicing), exactly as a human would whisper. Model 1, on the other hand, merely lowers the volume and adopts a 'hushed' tone but retains full voicing, resulting in quiet speech rather than a whisper. Model 2 demonstrates superior control over paralinguistic features (Volume/Whisper texture).",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

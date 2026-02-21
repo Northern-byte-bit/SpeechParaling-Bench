@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text 'This story is very interesting, let's continue reading.' with perfect content accuracy. In terms of fluency and naturalness, the voice is smooth, clear, and devoid of artifacts. Regarding the core paralinguistic feature 'Pace', the audio lasts approximately 4 seconds. The delivery is conversational and steady (0:00-0:01.5 'This story is very interesting', 0:02-0:03.5 'Let's continue reading'). The speed is neither rushed nor dragging, accurately reflecting a standard 'medium pace' suitable for reading aloud. It fulfills the prompt's requirement effectively.",
-    "reasoning_model_2": "The model generates the correct text with high audio quality and naturalness; the female voice is clear and expressive. However, regarding the 'Pace' instruction, the delivery is noticeably slower and more deliberate than a standard medium pace. The clip is longer, with elongated vowels and pauses (e.g., the span from 0:00 to 0:02.5 covers just the first clause). While the speech is pleasant, it leans significantly towards a 'slow' pace rather than the requested 'medium' pace, making it slightly less compliant with the specific feature control constraint.",
-    "model_comparison": "Both models achieve perfect content accuracy and high naturalness. The key differentiator is the adherence to the specific 'medium pace' constraint. Model 1 delivers the sentence at a standard, conversational speed that perfectly fits the definition of medium pace. Model 2, while high quality, adopts a slower, more dramatic reading style that leans towards 'slow' rather than 'medium'. Therefore, Model 1 follows the specific attribute instruction more precisely.",
-    "score_1": 3,
-    "score_2": 2,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately reproduces the script 'This story is very interesting, let's continue reading.' with perfect content accuracy. In terms of fluency and naturalness, the voice is crisp, high-quality, and sounds very human. Regarding the core paralinguistic requirement (Pace), the model executes a distinct 'medium pace'. The speaker articulates clearly without rushing, taking a natural pause between the two clauses (around 1.8s - 2.2s). The overall pacing is steady and comfortable, adhering strictly to the prompt.",
-    "reasoning_model_2": "The audio correctly speaks the target text without errors. regarding the core constraint (Pace), the model successfully adopts a medium speed, similar to T1, with appropriate pauses between the sentences. However, regarding fluency and naturalness, the audio quality is significantly lower than T1. It has a distant, muffled quality, sounding like a recording from a poor microphone or a lower-fidelity synthesis. While the pace is correct, the lack of audio clarity impacts the naturalness score slightly.",
-    "model_comparison": "Both models successfully adhere to the core instruction of reading at a 'medium pace'. They both time the sentence similarly (approx 3.5-4 seconds) with natural pauses. However, T1 demonstrates superior audio fidelity and distinct articulation. T2 suffers from a hollow, muffled sound profile that makes it sound less professional and less natural than T1, despite the pacing being correct. Therefore, T1 wins on the basis of better Fluency and Naturalness.",
-    "score_1": 3,
-    "score_2": 2,
-    "winner": 1
-}

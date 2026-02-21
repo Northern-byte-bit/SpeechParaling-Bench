@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model produces the content 'This is my final decision' with perfect text accuracy and high fluency. The speech is smooth, clear, and lacks mechanical artifacts. However, in terms of the CORE paralinguistic requirement ('very low pitch'), the model fails to adhere to the instruction. The voice maintains a standard, mid-range conversational pitch (likely a standard female or lighter male timbre) throughout the clip (0:00-0:02). It does not sound 'very low' or deep; rather, it sounds like a default generation without the requested feature modification. Therefore, it scores low on compliance.",
-    "reasoning_model_2": "The model accurately speaks the text. Regarding the CORE requirement, the audio demonstrates a clear attempt to lower the pitch. The voice sounds deeper and has more bass resonance compared to a standard neutral output, fitting the 'very low pitch' description reasonably well (0:00-0:04). However, the naturalness suffers slightly; the pacing is slow and the delivery sounds a bit labored or disjointed, which is a common artifact when forcing pitch constraints. Despite the minor drop in fluency, the target feature is clearly perceptible.",
-    "model_comparison": "Model 2 is the clear winner because it actually attempts and achieves the requested paralinguistic feature ('very low pitch'), whereas Model 1 effectively ignores the instruction, producing a standard-pitch audio. While Model 1 is more fluent, the evaluation prioritizes Feature Control. Model 2's output is noticeably deeper/lower, satisfying the user's specific command, while Model 1 provides a generic, albeit high-quality, default reading.",
-    "score_1": 1,
-    "score_2": 2,
-    "winner": 2
-}

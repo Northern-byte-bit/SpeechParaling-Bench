@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script '你过来，我有个秘密要告诉你' without errors. The speech is fluent and natural (0.0s-2.5s). However, regarding the specific command '小声' (low volume), the model fails to comply. The entire sentence is delivered with a standard, full-projected conversational volume. There is no change in vocal effort, breathiness, or intensity to mimic a whisper or a secretive tone. The expression is flat in terms of the requested volume dynamic.",
-    "reasoning_model_2": "The audio content is perfectly accurate to the text '你过来，我有个秘密要告诉你'. The prosody is natural and fluent (0.0s-2.5s). Regarding the 'low volume' constraint, this model also delivers the line at a normal, clear reading volume. It does not exhibit the acoustic characteristics of a low voice or whisper (reduced projection, higher breathiness). The tone remains standard and does not convey the intended secretive context.",
-    "model_comparison": "Both models demonstrate high content accuracy and fluency, producing natural-sounding speech. However, both models fail to execute the specific paralinguistic instruction '请用小声的音量' (Please use a low volume). T1 and T2 both utilize a standard, clear conversational volume rather than a hushed or whispered tone suitable for telling a secret. As neither model successfully manipulated the volume dimension to match the prompt, and their performance is functionally identical in failing this specific constraint, it is a tie.",
-    "score_1_1": 1,
-    "score_2_1": 1,
-    "winner_1": 0
-}

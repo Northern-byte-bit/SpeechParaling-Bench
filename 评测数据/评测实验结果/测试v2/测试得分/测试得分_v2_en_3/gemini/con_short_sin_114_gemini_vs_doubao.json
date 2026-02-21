@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the Content Accuracy criterion significantly. The requested text was 'Paris is the capital and largest city of France.' However, the model generated: 'Paris is the capital of France and one of the largest cities in Europe.' This is a substantial deviation from the script, altering the specific factual assertion and phrasing. While the tone was generally neutral/documentary, the failure to read the provided text strictly mandates a low score.",
-    "reasoning_model_2": "The model followed the instructions perfectly. Content Accuracy is 100%, reading the script exactly as provided. Fluency is excellent with natural pacing and intonation (00:00-00:04). The Paralinguistic Compliance is spot-on; the tone is calm, informational, and devoid of strong emotion, fitting the 'neutral' requirement perfectly.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to synthesize the correct text, hallucinating a different ending to the sentence ('...one of the largest cities in Europe' vs '...largest city of France'). Model 2 read the text exactly as requested and successfully adopted the neutral tone. Model 1's content error makes it unusable for a text-reading task.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

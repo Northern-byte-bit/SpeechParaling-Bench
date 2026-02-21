@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly synthesizes the text '你过来，我有个秘密要告诉你。' (0:00-0:03). Regarding the specific instruction 'low volume' (小声), the model does an excellent job. It adopts a breathy, whispering tone (气声) throughout the entire sentence, particularly effective on '秘密' (secret). The projection is soft and intimate, perfectly matching the context of telling a secret and adhering strictly to the volume constraint. The speech is fluent and natural.",
-    "reasoning_model_2": "The audio accurately synthesizes the text '你过来，我有个秘密要告诉你。' (0:00-0:03) with good fluency and naturalness for a standard reading. However, regarding the core constraint 'low volume' (小声), the model fails. The audio is delivered at a standard, conversational volume with full vocal projection. There is no attempt to whisper or lower the volume to fit the context of a 'secret'. It sounds like a normal statement rather than a hushed confidence.",
-    "model_comparison": "Model 1 followed the user's specific instruction to use 'low volume' (小声) by generating a whispered, breathy voice that fits the semantic context of telling a secret perfectly. Model 2 ignored the paralinguistic instruction and delivered the line in a standard, normal volume. Therefore, Model 1 is the clear winner for complying with the controllable feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

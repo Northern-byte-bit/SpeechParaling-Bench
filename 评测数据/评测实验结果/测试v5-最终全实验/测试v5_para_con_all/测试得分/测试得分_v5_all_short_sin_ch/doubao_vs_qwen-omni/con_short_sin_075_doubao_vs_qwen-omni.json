@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately synthesizes the content '快走，有人来了' without any errors. Crucially, it perfectly adheres to the instruction '用耳语的方式' (in a whisper). The entire audio (0.0s-1.5s) features unvoiced, breathy phonation characteristic of a true whisper, rather than just quiet voiced speech. The pacing is rapid and urgent, matching the semantic context of warning someone to leave quickly. The paralinguistic execution is spot-on.",
-    "reasoning_model_2": "Model 2 includes an extraneous sound effect 'Shh' at the beginning (0.0s-0.5s) which was not in the text script '快走，有人来了'. regarding the core feature 'whisper', the model fails significantly. From 0.5s to the end, the speech is produced with a modal voice (vocal cords vibrating), sounding like a quiet normal voice rather than a genuine whisper. While the tone is somewhat secretive, it lacks the breathy, unvoiced acoustic texture required by the prompt.",
-    "model_comparison": "Model 1 is the clear winner. It strictly follows the 'whisper' constraint, producing audio that is acoustically unvoiced and breathy, perfectly matching the definition of a whisper. Model 2, conversely, produces voiced speech that is merely quiet, failing to simulate a real whisper. Additionally, Model 2 hallucinates a 'Shh' sound at the start, violating strict content accuracy. Model 1 demonstrates superior control over the required paralinguistic feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

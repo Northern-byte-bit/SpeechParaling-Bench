@@ -1,0 +1,18 @@
+{
+    "sample_index": 69,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sigh, quietly, and a tired tone: 'After a long day, I can finally rest.'",
+    "dimensions": [
+        "Cognitive State",
+        "Non-Linguistic Vocalizations",
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 1,
+    "winner_position_3": 0
+}

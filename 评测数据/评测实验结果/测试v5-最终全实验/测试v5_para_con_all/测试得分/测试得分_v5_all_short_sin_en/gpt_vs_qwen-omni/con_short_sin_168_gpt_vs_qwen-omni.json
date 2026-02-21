@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user's command explicitly requested the sentence be read 'with a sigh'. Reviewing the audio content for Model 1 ('This weather is so hot, I am melting'), the model failed to generate the requested non-linguistic vocalization. There is no audible sigh at the beginning, end, or during the speech. The delivery is a standard reading of the text. Additionally, regarding content accuracy, the model expanded the contraction 'I'm' to 'I am', which is a minor deviation from the script.",
-    "reasoning_model_2": "Model 2 successfully incorporated the requested paralinguistic feature. The audio begins with a distinct non-linguistic vocalization—a heavy breath/sigh sound ('Ah...' or exhale) from roughly 0:00 to 0:01—before proceeding with the text. This effectively conveys the feeling of exhaustion required by the context. Like Model 1, Model 2 also expanded the contraction 'I'm' to 'I am', which is a minor accuracy flaw, but the core requirement of the prompt (the sigh) was executed perfectly and naturally.",
-    "model_comparison": "The primary evaluation dimension is 'Non-Linguistic Vocalizations', specifically the request for a 'sigh'. Model 1 completely failed to include this feature, delivering a standard reading of the text. Model 2, conversely, explicitly included a sigh at the very beginning of the audio generation, significantly enhancing the expressiveness and strictly adhering to the user's prompt. While both models exhibited the same minor content accuracy issue (expanding 'I'm' to 'I am'), Model 2 is the clear winner for successfully controlling the non-linguistic feature.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

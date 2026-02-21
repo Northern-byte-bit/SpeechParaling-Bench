@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model attempts to convey the required rude tone with high energy and urgency. At 0.0s-0.8s, the phrase 'Get out the way' is delivered with a raised pitch and aggressive tempo, fitting the 'rude' criteria. The second half, 'don't block my path' (0.9s-2.0s), maintains an annoyed, complaining intonation. However, there is a distinct Content Accuracy error: the model omits the preposition 'of' from the script (saying 'Get out the way' instead of 'Get out of the way'). While this colloquialism fits the urgent tone, it violates the strict requirement for perfect content matching. The naturalness is acceptable, though the pacing feels slightly rushed.",
-    "reasoning_model_2": "The model executes the script with perfect Content Accuracy, including the preposition 'of'. The paralinguistic performance is strong; from 0.0s-1.2s, 'Get out of the way' is delivered with a stern, authoritative, and gritty timbre that effectively conveys rudeness and dismissiveness without needing to shout. The segment 'don't block my path' (1.3s-2.5s) uses a downward inflection that sounds commanding and cold. The fluency is excellent, sounding very human-like with appropriate spacing between the two clauses.",
-    "model_comparison": "Model 2 is the clear winner. While both models successfully modulate their tone to sound rude (Model 1 is more frantic/shouting, Model 2 is more stern/commanding), Model 1 fails on Content Accuracy by omitting the word 'of'. Model 2 follows the script exactly while providing a high-quality, natural-sounding, and appropriately rude delivery. Model 1's omission, although minor in meaning, constitutes a flaw in following the specific text generation command.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

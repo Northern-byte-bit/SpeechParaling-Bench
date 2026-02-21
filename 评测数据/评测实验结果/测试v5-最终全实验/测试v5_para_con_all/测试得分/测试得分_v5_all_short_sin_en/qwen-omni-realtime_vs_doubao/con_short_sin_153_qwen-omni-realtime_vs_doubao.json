@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the specific sentence requested: 'My keys are missing, I can't find them anywhere.' distinctively within a 3-second duration (00:00-00:03). The content accuracy is perfect with no hallucinations or omissions. Paralinguistically, the delivery is concise and the pacing (covering the sentence in 3 seconds) aligns well with an urgent, anxious cognitive state, effectively conveying the requested tone without unnecessary elaboration.",
-    "reasoning_model_2": "The model completely fails the Content Accuracy criterion. Instead of reading the specific sentence 'My keys are missing, I can't find them anywhere.', it hallucinates a significantly longer and different script ('Oh no, My keys are missing. I've looked everywhere... This is a disaster'). While the tone might be anxious, the generated audio is extremely poor in terms of following the user's explicit textual command. According to the evaluation guidelines, voice content that is clearly inconsistent with the script must result in a score of 0.",
-    "model_comparison": "Model 1 is the clear winner. It strictly adhered to the user's command regarding the text script while conveying the appropriate anxious tone through pacing and prosody. Model 2 failed the most fundamental requirement of Text-to-Speech generation by hallucinating a completely different, lengthy paragraph instead of reading the provided sentence. Due to this major content hallucination, Model 2 receives a 0 score, making Model 1 the superior output.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

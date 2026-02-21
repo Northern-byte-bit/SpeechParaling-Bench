@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly provided the script: 'Let's go for a picnic this weekend, the weather is perfect!'. However, Model 1 significantly violated the Content Accuracy criterion. It altered the script to '...the weather's just right' and hallucinated a long extension ('breezy and bright, perfect for snacks and laughter under the sun'). According to the scoring standard, if the voice content is clearly inconsistent with the script or meaning is changed due to major errors/additions, the score must be 0. Therefore, despite any rhythmic qualities, the model fails fundamentally on instruction adherence regarding the text.",
-    "reasoning_model_2": "Model 2 adhered strictly to the provided script with perfect Content Accuracy (00:00 - 00:04). In terms of Paralinguistic Compliance for 'Rhythm', the model successfully adopted a lighthearted tone. The pacing was brisk and bouncy, particularly in the segment 'Let's go for a picnic' (00:00-00:02). The intonation on 'perfect' (00:03) was upbeat and cheerful. The prosody was natural and fluid, effectively capturing the requested style without any mechanical artifacts.",
-    "model_comparison": "Model 2 is the clear winner. The evaluation criterion prioritizes Content Accuracy as the first step. Model 1 failed this step completely by modifying the target sentence and adding significant unrequested text (hallucination), which automatically disqualifies it under the provided scoring standards for a high score. Model 2, in contrast, delivered the exact script with high fluency and accurately implemented the requested 'lighthearted rhythm'.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

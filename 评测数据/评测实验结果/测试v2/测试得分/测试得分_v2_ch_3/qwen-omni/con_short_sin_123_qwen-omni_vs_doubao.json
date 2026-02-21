@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content '这份报告怎么会有这么多错误' (0.0s - 3.0s). The audio is fluent and natural with no mechanical artifacts. However, regarding the core requirement 'angry emotion', the performance is poor. The tone is soft, slow, and inquiring, resembling a polite question or mild confusion rather than anger. There is no vocal tension, increased volume, or sharpness typical of an angry outburst. The rising intonation at the end is standard for a question but lacks the accusatory punch required by the context.",
-    "reasoning_model_2": "The model generates the correct text content accurately (0.0s - 2.5s). The fluency is excellent. Crucially, the model excels at the core requirement: 'angry emotion'. The delivery is fast, loud, and punchy. There is distinct emphasis on '这么多' and '错误', and the vocal quality carries the tension and roughness associated with scolding or frustration. The breathiness and abrupt ending effectively simulate high-arousal anger.",
-    "model_comparison": "Both models achieve perfect content accuracy and naturalness (fluency). The decisive difference lies in the 'Feature Control' (Emotion). Model 1 fails to follow the instruction to be 'angry'; it produces a calm, curious question that sounds like a neutral reading. Model 2 accurately captures the specific paralinguistic features of anger: faster tempo, higher intensity, greater volume, and an accusatory tone. Model 2 followed the prompt's emotional constraint, whereas Model 1 did not.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

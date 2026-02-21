@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails significantly in Content Accuracy. The user command explicitly requested to say '宝贝，乖乖睡觉，妈妈在这里。', but the model hallucinated and generated a long continuation ('轻轻拍着你的背...安心睡吧'), violating the strict instruction to read the specific sentence. Regarding Paralinguistic Compliance (音质 - Gentle), the audio lacks the specific 'gentle' or 'soothing' quality required for the context of putting a baby to sleep. The pacing is fast (00:00-00:02), the pitch is standard and bright rather than soft or hushed, and it resembles a generic audiobook narration rather than a tender, motherly whisper. The combination of content hallucination and lack of stylistic depth results in a low score.",
-    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, reading strictly the requested text '宝贝，乖乖睡觉，妈妈在这里' without any additions or omissions. In terms of Paralinguistic Compliance (音质 - Gentle), the model excels. From 00:00 to 00:03, the voice is extremely soft, breathy, and slow-paced, perfectly mimicking a whisper used to soothe a child. The pauses between '宝贝', '乖乖睡觉', and '妈妈在这里' are natural and enhance the gentle atmosphere. The timbre is warm and low, accurately capturing the requested '柔和' (gentle/soft) characteristic.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the content constraints by generating a large amount of unrequested text (hallucination), and its delivery was too fast and bright, lacking the requested 'gentle' quality. Model 2 followed the text instructions perfectly and delivered a highly expressive, soft, and breathy performance that perfectly matched the 'gentle' paralinguistic requirement.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

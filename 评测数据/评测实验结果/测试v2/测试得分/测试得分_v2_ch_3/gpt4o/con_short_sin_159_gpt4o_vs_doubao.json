@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 perfectly executes the command. \n1. **Content Accuracy:** The text '飞机快起飞了，我有点恐高' is read accurately without errors.\n2. **Fluency:** The speech is natural with human-like prosody.\n3. **Paralinguistic Compliance (Nervousness):** The model excels here. From [0:00-0:02], the pace is hurried. Crucially, the speaker introduces a distinct vocal tremor and breathiness, especially on '我有点恐高' [0:02-0:04], which sounds genuinely anxious and shaky. The pitch modulation effectively mimics a person suppressing panic.",
-    "reasoning_model_2": "Model 2 provides a decent generation but falls short on the emotional depth. \n1. **Content Accuracy:** The text is accurate.\n2. **Fluency:** The audio is clear and fluent.\n3. **Paralinguistic Compliance (Nervousness):** While there is a slight shift in tone to sound serious or concerned, it lacks the visceral physical markers of nervousness found in Model 1. The delivery at [0:00-0:03] is relatively stable and deep, sounding more like a calm statement of fact rather than an expression of active fear or anxiety. It misses the 'shaky' quality expected for a fear of heights context.",
-    "model_comparison": "Both models generate the correct text with high audio quality. However, Model 1 is significantly better at the specific 'Feature Control' task requested (nervous tone). Model 1 utilizes vocal tremors, a hurried pace, and a higher-tension pitch to convincingly portray fear/nervousness. Model 2 sounds too stable and composed; while the tone is serious, it does not convey the requested 'nervousness' or 'fear of heights' effectively. Therefore, Model 1 is the clear winner for its paralinguistic accuracy.",
-    "score_1": 3,
-    "score_2": 2,
-    "winner": 1
-}

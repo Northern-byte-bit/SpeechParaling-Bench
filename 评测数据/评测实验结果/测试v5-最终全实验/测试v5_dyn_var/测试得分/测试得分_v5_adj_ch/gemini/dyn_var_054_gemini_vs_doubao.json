@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the content '你别以为我不知道你在想什么' (00:00-00:02) with a forceful, elevated volume, effectively capturing the 'loud' requirement. At 00:02, there is a distinct and sudden transition where the voice drops significantly in volume and changes to a whisper for the segment '邻居可能听到了，我们小声点说' (00:02-00:05). This perfectly aligns with the instruction to switch to speaking quietly/whispering. The contrast between the two segments is sharp and natural, fulfilling the dynamic adjustment requirement excellently. The fluency and audio quality are high.",
-    "reasoning_model_2": "The model generates the correct text content, but it completely fails to adhere to the paralinguistic instructions regarding volume. The segment '你别以为我不知道你在想什么' (00:00-00:02) is spoken at a standard, moderate conversational volume, not 'loud'. crucialy, the subsequent segment '邻居可能听到了，我们小声点说' (00:02-00:05) maintains the exact same volume and vocal projection. There is no switch to a quiet voice or whisper. The feature remains constant throughout the utterance, violating the core requirement of the prompt.",
-    "model_comparison": "Model 1 (T1) followed the complex instruction perfectly. It demonstrated a clear dynamic range, starting with a loud, aggressive tone and switching instantly to a conspiratorial whisper, which matches the semantic meaning of the text (hiding from neighbors). Model 2 (T2), while producing clear speech, ignored the style instructions entirely. It read the whole sentence in a flat, consistent volume without any dynamic adjustment. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

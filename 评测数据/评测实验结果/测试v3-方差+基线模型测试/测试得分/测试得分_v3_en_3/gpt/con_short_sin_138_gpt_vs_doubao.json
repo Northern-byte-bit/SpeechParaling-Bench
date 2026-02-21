@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly follows the content instructions. Regarding the paralinguistic feature 'hesitant tone', the audio excels. The initial 'Hmm' (0.0s-1.0s) is drawn out, immediately setting a thoughtful and uncertain mood. Throughout the phrase, particularly on 'maybe' and 'time', the speaker elongates vowels and utilizes a dragging cadence that effectively mimics the cognitive processing associated with making an excuse or being unsure. The pacing is deliberately slow, reinforcing the reluctance required by the prompt.",
-    "reasoning_model_2": "The model accurately generates the text content. However, the expression of the 'hesitant tone' is weaker compared to natural speech standards. While the voice is low-energy and soft, it sounds more resigned, sad, or tired rather than actively hesitant. The pacing (0.5s-2.5s) is relatively steady and lacks the characteristic pauses, stammering, or vowel elongations that typically signal hesitation. It feels more like a direct reading of the text with a somber filter rather than a simulated cognitive state of uncertainty.",
-    "model_comparison": "Both models reproduce the text accurately without fluency errors. Model 1 (T1) is the clear winner in terms of the specific evaluation dimension: Cognitive State (Hesitation). T1 effectively uses prosodic cues such as elongated vowels, slower pacing, and variable pitch to simulate the sound of someone thinking or feeling reluctant. Model 2 (T2), while clean, delivers the line with a flatter, more monotonous delivery that sounds like low-energy reading rather than genuine hesitation. T1 captures the nuance of the prompt significantly better.",
-    "score_1": 3,
-    "score_2": 2,
-    "winner": 1
-}

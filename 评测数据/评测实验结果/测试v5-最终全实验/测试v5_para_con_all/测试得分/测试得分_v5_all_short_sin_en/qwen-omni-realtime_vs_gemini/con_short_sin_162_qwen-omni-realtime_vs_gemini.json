@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to adhere to the requested script. While it reads the initial sentence (expanding 'That's' to 'That is'), it proceeds to hallucinate several additional sentences ('I mean seriously, how did I miss that? It's so obvious now...'). Crucially, regarding the core evaluation dimension of Non-Linguistic Vocalizations, the audio contains no audible laughter. The tone is conversational but lacks the specific non-linguistic feature requested.",
-    "reasoning_model_2": "The model successfully incorporates the requested non-linguistic vocalization. The audio begins with a distinct, natural-sounding laugh (0:00-0:02) before delivering the text. The spoken content adheres well to the script (expanding 'That's' to 'That is' but adding no extra text), and the prosody following the laughter maintains an appropriately amused tone, blending the non-linguistic element naturally with the speech.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 completely fails the task by not generating the required laughter and by hallucinating a significant amount of extra text that was not in the prompt. Model 2 follows instructions perfectly, generating a clear and natural laugh at the start of the audio and sticking to the script.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

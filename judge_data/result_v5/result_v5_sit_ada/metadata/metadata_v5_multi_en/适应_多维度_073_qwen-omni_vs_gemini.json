@@ -1,0 +1,16 @@
+{
+    "sample_index": 73,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "This food has gone bad, it smells weird, it's simply inedible, so disgusting.",
+    "dimensions": [
+        "Emotion: Disgust",
+        "Age: Adult"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "situational_adaptation",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

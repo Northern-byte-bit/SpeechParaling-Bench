@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model performs excellent on Content Accuracy, delivering the exact script '嘿，晚上有空一起去图书馆吗？' without any omissions or hallucinations. In terms of Paralinguistic Compliance for '年龄' (Age/Youth), the voice timbre is bright, clear, and energetic, characteristic of a young female (youth). The delivery is casual and lively, particularly the greeting '嘿' and the rising intonation at the end of the question, which fits the persona of a young person asking a friend out. The prosody is natural and fluent.",
-    "reasoning_model_2": "The model fails critically on Content Accuracy. The user command explicitly requested the specific sentence '嘿，晚上有空一起去图书馆吗？'. However, the model generated a completely different and much longer script ('嘿，晚上有空吗？咱俩一起去图书馆吧，我刚买了杯奶茶...'). According to the 'Detailed Scoring Standard', a score of 0 must be assigned if the voice content is clearly inconsistent with the script or completely changed. Although the voice sounds youthful and fluent, the content violation is fatal.",
-    "model_comparison": "Model 1 followed the instructions perfectly, matching the script exactly and successfully portraying the 'youth' characteristic through voice timbre and lively prosody. Model 2 failed the primary constraint of generating the specific text provided by the user, instead producing a long, hallucinated dialogue. Therefore, Model 1 wins by default as Model 2 receives a score of 0 for content inaccuracy.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

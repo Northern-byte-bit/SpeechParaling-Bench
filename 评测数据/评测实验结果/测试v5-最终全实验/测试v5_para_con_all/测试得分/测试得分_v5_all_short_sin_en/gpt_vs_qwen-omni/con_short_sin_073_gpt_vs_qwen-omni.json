@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately follows the script: \"I'll quietly tell you, he is the boss.\" throughout the entire duration (0:00-0:03). The audio exhibits excellent paralinguistic compliance with the 'whisper' instruction. The vocal production is unvoiced and breathy, characteristic of a true whisper, rather than just speaking softly. The fluency is high, with natural pacing and intonation appropriate for a secretive statement. There are no artifacts or robotic qualities.",
-    "reasoning_model_2": "Model 2 fails on multiple fronts. First, Content Accuracy: The model says \"I'll whisper it for you, he is the boss\" instead of the required script \"I'll quietly tell you, he is the boss.\" (Error at 0:00-0:02). Second, Paralinguistic Compliance: The audio is not a whisper; it is fully voiced speech with distinct pitch, merely spoken slowly. Third, Fluency: The speech is extremely robotic, segmented, and unnatural ('I'll... whisper... it...'), sounding like a low-quality concatenation synthesis. Due to the content error and failure to apply the whisper feature, this receives a low score.",
-    "model_comparison": "Model 1 is the clear winner. It accurately reproduces the text and perfectly executes the 'whisper' paralinguistic feature with natural unvoiced breathiness. Model 2 changes the text (hallucinating 'whisper it for you' instead of 'quietly tell you') and fails to actually whisper, using a robotic, voiced tone instead. Model 2's audio quality is significantly inferior.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

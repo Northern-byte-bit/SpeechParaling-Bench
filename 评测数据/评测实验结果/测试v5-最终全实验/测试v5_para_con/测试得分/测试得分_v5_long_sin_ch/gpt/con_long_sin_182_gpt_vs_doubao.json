@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user's command explicitly requested the audio to be generated with 'smacking lips' (咂嘴) and included '咂嘴！' at the beginning of the text, likely as a cue for the sound. Model 1 completely ignored this instruction. It started reading directly from '这杯特调鸡尾酒...' (0:00), omitting both the text '咂嘴！' and the corresponding non-verbal sound effect. The delivery is a standard reading tone without the specific paralinguistic feature requested. Therefore, it fails to meet the core requirement of the prompt.",
-    "reasoning_model_2": "Model 2 correctly interprets the instruction. At the very beginning (0:00-0:02), it produces a distinct and natural non-verbal sound of smacking lips/tasting, effectively converting the text cue '咂嘴！' into the actual sound effect. Following this, it reads the rest of the script ('这杯特调鸡尾酒...') with an enthusiastic tone that matches the context of enjoying a drink. The integration of the non-verbal sound is seamless and vividly conveys the required feature.",
-    "model_comparison": "The comparison is straightforward. The task required the generation of a specific non-verbal vocalization (smacking lips). Model 1 failed completely; it removed the cue from the script and did not produce the sound. Model 2 successfully generated the required sound effect at the correct position (replacing the textual cue with the actual audio event) and maintained a natural flow. Model 2 demonstrates superior capability in controlling paralinguistic features.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

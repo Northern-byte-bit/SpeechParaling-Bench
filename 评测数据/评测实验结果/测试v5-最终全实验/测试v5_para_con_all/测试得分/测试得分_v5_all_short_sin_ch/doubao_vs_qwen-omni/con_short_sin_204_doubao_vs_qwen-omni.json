@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately synthesizes the content '滚开，别挡我的路' without any errors. In terms of the required paralinguistic feature '态度' (Attitude - Rude), the model performs excellently. From 0.0s to the end, the speaker adopts a forceful, loud, and aggressive tone. The initial command '滚开' is delivered with a sharp attack and high intensity, and the following phrase '别挡我的路' maintains a hostile and impatient rhythm. This successfully captures the essence of a 'rude' tone, sounding like a genuine angry outburst.",
-    "reasoning_model_2": "Model 2 generates the text '滚开，别挡我路', omitting the character '的' compared to the source text '滚开，别挡我的路'. Regarding the '态度' (Attitude - Rude) dimension, the performance is poor. The delivery is surprisingly soft and calm, lacking any aggressive force or hostility. From 0.0s to 1.3s, the tone sounds more like mild annoyance or even a playful refusal rather than a rude command. It completely fails to convey the requested 'rude' emotion, resulting in a mismatch between the semantic meaning and the paralinguistic expression.",
-    "model_comparison": "Model 1 is the clear winner. Model 1 strictly adheres to the content and perfectly captures the 'rude' attitude with a forceful, aggressive delivery that fits the prompt's requirements. Model 2, on the other hand, has a minor content error (omitting '的') and, more importantly, fails the core paralinguistic constraint. Its tone is far too soft and lacks the necessary aggression to be considered 'rude', making the audio sound unnatural in the context of the command.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

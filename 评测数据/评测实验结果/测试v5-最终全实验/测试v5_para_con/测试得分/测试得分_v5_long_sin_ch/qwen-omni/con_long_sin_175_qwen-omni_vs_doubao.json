@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model attempts the requested feature by modifying the first character '嗝' into a sound mimicking a hiccup ('嗝儿') at 0:00-0:01. However, the audio suffers from a critical failure in content generation: it abruptly cuts off after the phrase '我刚才吃得太快了' (around 1.8s), leaving the majority of the prompt's text ('现在一直打嗝，感觉肚子有点撑。有没有什么办法能止嗝啊，好难受。') completely unspoken. While the initial tone shows promise, the incomplete generation renders the audio functionally useless and severely impacts the evaluation of sustained paralinguistic features.",
-    "reasoning_model_2": "The model successfully generates the complete text with high content accuracy. It integrates the 'Non-linguistic vocalization' (hiccupping) effectively at the beginning (0:00-0:02) with realistic distinct hiccup/belch sounds rather than just reading the character '嗝'. Furthermore, the speaker maintains a strained and uncomfortable tone throughout the entire clip (e.g., the breathiness and pacing at '感觉肚子有点撑' at 0:05), which aligns perfectly with the semantic context of having a full stomach and suffering from hiccups. The performance is natural and vivid.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to generate the full audio, truncating more than half of the requested text. This is a severe failure in content accuracy. Model 2, in contrast, delivered the full script with excellent non-linguistic vocalizations (hiccups) and a consistent, high-quality acting style that reflected the physical discomfort described in the text. Model 1's attempt at the feature was present but is invalidated by the generation failure.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

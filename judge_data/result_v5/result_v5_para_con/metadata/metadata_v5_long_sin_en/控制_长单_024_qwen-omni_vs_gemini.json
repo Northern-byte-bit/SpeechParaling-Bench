@@ -1,0 +1,14 @@
+{
+    "sample_index": 24,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a low pitch: 'It's late, and the wind has picked up, you should rest early. There are still many things waiting for us to deal with tomorrow; only by getting enough rest can we better face challenges.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

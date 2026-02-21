@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct text content '我的钥匙不见了，到处都找不到。' with high fluency and no pronunciation errors. However, regarding the CORE evaluation dimension (Anxious Tone/Cognitive State), the audio completely fails. The tone is calm, polite, and steady, resembling a standard reading or customer service voice (0:00-0:04). There is absolutely no sense of urgency, breathlessness, or pitch variation associated with anxiety. In fact, the tone expresses the opposite characteristic (composure). According to the criteria, a performance completely devoid of the required emotion warrants the lowest score despite accurate content.",
-    "reasoning_model_2": "The model generates the correct text content with excellent fluency. Crucially, it captures the 'Anxious' paralinguistic feature perfectly. From the very beginning (0:00), the pace is hurried. At 0:01-0:03 ('到处都找不到'), the voice exhibits a trembling quality and higher pitch that vividly conveys panic and distress. The prosody sounds highly natural and human-like, effectively simulating the cognitive state of someone who has lost something important. It fully meets the requirements for a vivid and spot-on emotional expression.",
-    "model_comparison": "Model 1 produced a high-quality but emotionally neutral/flat speech that completely ignored the user's instruction to be 'anxious'. Model 2 produced a highly expressive speech that accurately reflected the requested 'anxious' tone with appropriate pacing, pitch changes, and vocal tension. Model 2 is the clear winner as it adhered to the paralinguistic constraints, whereas Model 1 failed to control the style entirely.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

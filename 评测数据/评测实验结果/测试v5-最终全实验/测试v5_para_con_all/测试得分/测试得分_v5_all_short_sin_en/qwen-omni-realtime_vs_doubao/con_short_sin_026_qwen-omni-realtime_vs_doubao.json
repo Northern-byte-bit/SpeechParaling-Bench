@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 delivers the script 'Night has fallen, and a mysterious aura fills the forest.' accurately between 00:00 and 00:04. The speech is fluent, natural, and free of mechanical artifacts. Most importantly, the model successfully implements the requested 'very low pitch'. The voice is deep, resonant, and breathy, sitting in a low register that effectively conveys the requested characteristic. The stylistic choice also aligns well with the semantic content (mysterious aura), creating a cohesive and high-quality output.",
-    "reasoning_model_2": "Model 2 articulates the correct text between 00:00 and 00:04 with good fluency and a natural rhythm. However, it completely fails to adhere to the core constraint of 'very low pitch'. The generated audio features a bright, higher-pitched voice (resembling a young female or anime-style character) which is the direct opposite of the user's command. While the audio quality itself is good, the failure to control the pitch according to the prompt renders the paralinguistic performance incorrect.",
-    "model_comparison": "Model 1 is the clear winner. The user explicitly requested a 'very low pitch'. Model 1 provided a deep, low-frequency voice that matched the description perfectly. Model 2 provided a high-pitched voice, completely ignoring the constraint and delivering the opposite of what was asked. Therefore, Model 1 receives a perfect score for compliance, while Model 2 receives a zero for expressing the opposite characteristic.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

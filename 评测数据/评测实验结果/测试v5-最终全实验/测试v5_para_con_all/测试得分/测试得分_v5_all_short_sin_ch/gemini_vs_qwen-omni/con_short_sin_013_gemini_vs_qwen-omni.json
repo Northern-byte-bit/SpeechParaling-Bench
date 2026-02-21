@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content '啊！那里有一只老鼠！' with high content accuracy. Regarding the core feature '音高' (Pitch), the audio starts with a piercingly high-pitched 'Ah!' (0.0s-0.5s), immediately establishing the requested 'extremely high pitch'. The subsequent phrase '那里有一只老鼠' (0.5s-2.0s) maintains a high, tense, and shrieking register, effectively conveying fear and shock. The pitch control is consistent and vivid, fully adhering to the user's command for an extremely high tone.",
-    "reasoning_model_2": "The model fails to adhere to the strict content requirements. The generated speech is '啊？那里有一只老鼠啊', which changes the opening exclamation 'Ah!' to a questioning 'Ah?' and adds a modal particle 'a' at the end. In terms of the core feature '音高' (Pitch), the audio does not exhibit the requested 'extremely high pitch'. Instead, the intonation resembles a confused or casual query (0.0s-2.5s), likely staying in a mid-to-low frequency range typical of a question, completely missing the target characteristic of an extremely high-pitched scream. The expression contradicts the command.",
-    "model_comparison": "Model 1 is the clear winner. It accurately follows the text script and flawlessly executes the 'extremely high pitch' instruction, resulting in a vivid and natural expression of fear appropriate for the context. Model 2 fails on both content accuracy (altering the text and punctuation) and the core paralinguistic feature. Its pitch is conversational or questioning rather than the required 'extremely high' tone, resulting in a performance that does not meet the user's intent.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct text content 'Hurry, someone's coming.' with clear articulation. However, regarding the paralinguistic request for a 'whisper', the model fails significantly. From 0.0s to 1.5s, the audio is delivered in a standard, fully voiced (phonated) conversational volume. There is no auditory evidence of unvoiced speech or the breathiness characteristic of a whisper. The tone is relatively flat and declarative, lacking the urgency or the acoustic properties required by the prompt 'with a whisper'. It effectively ignores the style constraint.",
-    "reasoning_model_2": "The model generates the text perfectly with no errors. Crucially, it adheres strictly to the paralinguistic instruction. From 0.0s to 0.6s, the word 'Hurry' is delivered with a sharp, breathy attack, characteristic of an urgent whisper. The phrase 'someone's coming' (0.6s - 1.8s) maintains this unvoiced, hushed quality while increasing the pacing slightly, which enhances the sense of urgency and danger implied by the text. The flow is natural, and the whisper sounds authentic rather than just a low-volume filter effect.",
-    "model_comparison": "Model 1 failed to follow the core instruction regarding the specific paralinguistic feature (Volume/Tone). It produced a standard read-aloud voice instead of a whisper. Model 2, in contrast, perfectly executed the command, delivering a high-quality whisper that was both acoustically accurate (unvoiced, breathy) and emotionally congruent (urgent). Model 2 is the clear winner for adhering to the 'whisper' constraint.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

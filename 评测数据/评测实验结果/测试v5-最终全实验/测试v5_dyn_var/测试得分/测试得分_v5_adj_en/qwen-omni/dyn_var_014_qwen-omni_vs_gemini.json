@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the fundamental requirement of Content Accuracy. The user requested the model to read a specific English sentence, but the model generated the speech in Chinese. Furthermore, the model hallucinated the paralinguistic instruction 'suddenly jumping to a high pitch' as part of the spoken text (translated as '突然跳高音'). Because the content is in the wrong language and includes non-speech instructions, the audio is completely incorrect.",
-    "reasoning_model_2": "The model followed the Content Accuracy instructions perfectly. It recited the English text exactly as requested: 'Based on current data, the risks are still within controllable limits. Wait, system alert! Quickly check the firewall!'. The structure of the sentence supports the requested paralinguistic feature (Pitch), where the first half is calm (controllable limits) and the second half requires urgency (system alert). The generation aligns with the script constraints, allowing for the correct expression of the pitch shift from low to high.",
-    "model_comparison": "Model 1 is a complete failure as it spoke in the wrong language (Chinese instead of English) and read the stage directions/instructions aloud as part of the script. Model 2 correctly followed the text generation instructions in the correct language. Consequently, Model 2 is superior in every dimension as it is the only usable generation.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

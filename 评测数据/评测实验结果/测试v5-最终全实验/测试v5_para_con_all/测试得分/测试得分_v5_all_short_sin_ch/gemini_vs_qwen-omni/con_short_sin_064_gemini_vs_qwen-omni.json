@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly synthesized the text content '请大家注意，会议马上开始了！' with no errors (00:00-00:03). Regarding the specific instruction '大声' (loud volume), the audio demonstrates a clear increase in vocal projection and intensity. The tone is authoritative and forceful, mimicking a public announcement or someone raising their voice to capture a room's attention. The volume is consistently high throughout the sentence, fitting the context of calling for attention perfectly. The prosody is natural for this type of command.",
-    "reasoning_model_2": "The model accurately synthesized the text '请大家注意，会议马上开始了！' (00:00-00:02). However, regarding the '大声' (loud volume) instruction, the performance is lacking. The speech is delivered in a standard, moderate conversational volume. While the audio is clear, it lacks the necessary projection, intensity, or 'shouting' quality required by the prompt. It sounds like a narrator reading a line rather than a character speaking loudly to a group. The expression is too calm and does not fulfill the paralinguistic requirement.",
-    "model_comparison": "Both models achieved perfect content accuracy and good fluency. The decisive factor is the '音量' (Volume) dimension. Model 1 (T1) successfully implemented the 'loud' constraint, altering its vocal projection to sound like an announcement meant to be heard by many people. Model 2 (T2), conversely, maintained a normal speaking volume that failed to reflect the specific instruction to speak loudly. Therefore, Model 1 is the clear winner for effectively adhering to the style control command.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

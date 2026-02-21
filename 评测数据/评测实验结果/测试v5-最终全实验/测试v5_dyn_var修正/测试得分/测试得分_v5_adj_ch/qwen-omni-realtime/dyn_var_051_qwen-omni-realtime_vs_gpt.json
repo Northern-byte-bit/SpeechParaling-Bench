@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content accurately matching the script. However, regarding the core paralinguistic instruction, the audio fails completely. The speaker maintains a consistent volume and tone throughout the entire utterance (00:00-00:03). There is no distinct 'normal volume' start followed by a 'sudden increase' or 'shouting'. The delivery is relatively flat and rushed, lacking the required dynamic adjustment in volume intensity. As the feature dimension (volume change) is not reflected at all, this constitutes a score of 0.",
-    "reasoning_model_2": "The model accurately speaks the content with perfect clarity. Fluency is high with natural prosody. Crucially, the model successfully follows the paralinguistic instruction. The first part, '我们不是说好了，今天一起吃饭吗？' (00:00-00:03), is spoken with a normal, slightly questioning tone and volume. Then, at 00:03, the voice distinctly shifts for the phrase '你为什么又迟到了？', increasing in volume and intensity to simulate shouting/angry emphasis as requested. The contrast between the two segments is audible and effectively conveys the intended dynamic adjustment.",
-    "model_comparison": "Model 1 (T1) failed to execute the specific paralinguistic command regarding volume change; it produced a flat, consistent delivery that ignored the instruction to start normal and then shout. Model 2 (T2) successfully demonstrated the dynamic adjustment, clearly distinguishing the normal volume section from the shouting section with appropriate timing and intensity. T2's pacing (5 seconds vs T1's 3 seconds) also allowed for a more natural transition and emphasis. Therefore, T2 is the clear winner.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

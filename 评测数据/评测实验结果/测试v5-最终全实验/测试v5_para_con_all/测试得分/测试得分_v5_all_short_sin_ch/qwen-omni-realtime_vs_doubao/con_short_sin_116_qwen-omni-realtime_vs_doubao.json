@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the requested text '妈妈做的饭真好吃，我吃得好饱' without any errors or omissions (00:00-00:03). The fluency is high with a natural rhythm. Regarding the core paralinguistic dimension 'Happy' (开心), the speaker adopts a lively, energetic tone. The pitch is slightly elevated, and there is a distinct brightness in the voice, particularly on '真好吃' and '好饱', effectively conveying satisfaction and joy. The expression feels authentic and matches the persona of someone enjoying a meal. It satisfies the criteria for a score of 3.",
-    "reasoning_model_2": "The model completely fails to follow the content instructions. The user requested the specific sentence '妈妈做的饭真好吃，我吃得好饱', but the model generated a long, improvised paragraph: '妈妈做的饭真的太香了，我吃得肚子圆滚滚的...' (00:00-00:09). According to the evaluation criterion, if the 'Voice content is clearly inconsistent with the script', the score must be 0. Despite the audio having an expressive and happy tone, the complete disregard for the provided script text constitutes a critical failure in Content Accuracy.",
-    "model_comparison": "Model 1 is the clear winner. It followed both the text content and the emotional style instructions perfectly. The audio is accurate to the script and conveys the requested 'happy' emotion naturally. Model 2, while expressive, hallucinated completely new content that was not requested, failing the fundamental requirement of text-to-speech accuracy. Therefore, Model 2 receives a score of 0 for failing the content constraint, leaving Model 1 as the superior output.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,0 +1,18 @@
+{
+    "sample_index": 76,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用老年的声音，慢速、真诚地说:孩子，健康才是最重要的财富。",
+    "dimensions": [
+        "年龄",
+        "语速",
+        "态度"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

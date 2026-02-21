@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails the content accuracy check significantly. The required script was 'Hurry, someone's coming.', but the model generated 'Hush, hurry, someone's coming. Shh.' (0:00-0:04). It added words at both the beginning and the end. Regarding the paralinguistic feature 'Volume' (specifically the command for a whisper), the model attempts a hushed tone. However, it sounds more like soft, low-volume speaking with vocal cord vibration (voicing) still present, rather than a true breathy whisper. While it conveys urgency, the unauthorized modification of the script and the lack of a pure whisper texture result in a low score.",
-    "reasoning_model_2": "Model 2 performs excellently. The content accuracy is perfect, delivering exactly 'Hurry, someone's coming.' without any additions or omissions (0:00-0:02). In terms of the 'Volume' and whisper command, the audio exhibits a high-quality, genuine whisper. The speech is unvoiced (breathy) yet distinct and intelligible, capturing the tension and low volume inherent in the request perfectly. The pacing is natural and fits the urgent context.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated extra words ('Hush', 'Shh') which violates the strict content accuracy requirement. Model 2 followed the script exactly. Furthermore, Model 2 produced a much more realistic acoustic representation of a 'whisper' (unvoiced speech), whereas Model 1 simply lowered the volume and used a soft voice but retained too much voicing. Model 2 was superior in both content fidelity and paralinguistic execution.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

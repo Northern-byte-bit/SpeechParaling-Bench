@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the correct content 'Please give me a glass of water, thank you.' with perfect accuracy. The fluency and naturalness are high, with a steady pace and clear enunciation. However, regarding the core paralinguistic requirement, the model completely fails to apply a 'hoarse timbre'. The voice remains clear, bright, and standard (0:00-0:04), showing no signs of vocal strain, roughness, or raspiness. It sounds like a healthy, normal reading rather than the requested specific timbre.",
-    "reasoning_model_2": "The model accurately generates the target text without errors. The fluency is maintained well. Crucially, the model excels in the core dimension of 'Timbre'. From the very beginning (0:00), the voice exhibits a distinct roughness and breathy quality characteristic of hoarseness. The vocal strain is audible and consistent throughout the sentence, particularly on the words 'water' and 'thank you', effectively conveying the requested physical state. The effect is vivid and matches the user command perfectly.",
-    "model_comparison": "Both models achieve perfect content accuracy and good general fluency. The decisive factor is the 'Feature Control' for 'Timbre'. Model 1 (T1) ignored the instruction to sound 'hoarse' and produced a standard, clear voice. Model 2 (T2) successfully integrated the 'hoarse' characteristic, producing audio that sounded raspy and strained as requested. Therefore, T2 is the clear winner for following the specific paralinguistic instruction.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

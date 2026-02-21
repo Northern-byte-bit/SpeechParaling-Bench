@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 completely failed to generate the requested content. Instead of the target sentence '又熬了一个通宵，我的黑眼圈都能赶上大熊猫了，咖啡也救不了我', the audio contains a completely unrelated time announcement ('现在北京时间是20时55分...'). According to the detailed scoring standard, since the content is clearly inconsistent with the script and the meaning is completely changed (hallucinated content), the audio receives a score of 0.",
-    "reasoning_model_2": "Model 2 performed excellently across all criteria. \n1. **Content Accuracy:** The model read the text '又熬了一个通宵，我的黑眼圈都能赶上大熊猫了，咖啡也救不了我' perfectly without errors.\n2. **Fluency:** The speech is natural, with no mechanical artifacts.\n3. **Paralinguistic Compliance (Exhaustion):** The model effectively conveys the '疲惫不堪' (exhausted) tone. At 00:00-00:01 ('又熬了一个通宵'), the voice has a heavy, dragging quality. At 00:02-00:03 ('黑眼圈...'), the pitch varies in a way that mimics a tired complaint. Finally, at 00:04-00:05 ('咖啡也救不了我'), the energy drops significantly, sounding resigned and weak. The overall delivery matches the persona of someone who is extremely tired.",
-    "model_comparison": "There is a stark contrast between the two models. Model 1 failed to generate the correct script entirely, producing unrelated content, which forces a score of 0. Model 2 followed all instructions, producing the correct text with high fidelity and accurately capturing the requested 'exhausted' tone with appropriate prosody, lower energy, and a complaining style suitable for the context. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

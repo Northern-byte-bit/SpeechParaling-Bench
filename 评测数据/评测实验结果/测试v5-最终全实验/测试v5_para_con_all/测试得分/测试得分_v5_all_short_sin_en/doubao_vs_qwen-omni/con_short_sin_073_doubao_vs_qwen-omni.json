@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately follows the script: \"I'll quietly tell you, he is the boss.\" throughout the entire duration (0:00-0:05). The paralinguistic compliance is excellent; the entire sentence is delivered in a genuine whisper (unvoiced speech), characterized by breathiness and a lack of vocal cord vibration, which aligns perfectly with the command 'with a whisper'. The pacing is slow and deliberate, enhancing the secretive nature of the whisper. The volume is appropriately low but audible. The fluency is natural for a whispered tone.",
-    "reasoning_model_2": "Model 2 fails significantly in both content accuracy and paralinguistic compliance. First, it changes the script from \"I'll quietly tell you\" to \"I'll whisper it for you\" (0:00-0:02), which is a content hallucination. Second, the speech is not whispered; it is fully phonated (normal voiced speech) throughout the clip (0:00-0:05). There is no attempt to lower the volume or switch to an unvoiced vocal mode. The delivery also sounds somewhat robotic and disjointed.",
-    "model_comparison": "Model 1 is the clear winner. It correctly reproduces the requested text and successfully implements the 'whisper' constraint, delivering the audio as unvoiced speech. Model 2 fails on two fronts: it modifies the text (hallucination) and fails to apply the requested paralinguistic feature (it uses a normal voice instead of a whisper). Therefore, Model 1 receives a perfect score while Model 2 receives a 0 due to the complete lack of adherence to the core constraint and text errors.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

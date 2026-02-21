@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the requested content '这件事我不想再讨论了。' without any errors or omissions. The fluency is excellent, with a natural speaking rate and clear pronunciation. Regarding the paralinguistic feature 'attitude' (cold/indifferent), the audio conveys a sense of impatience and finality (0:00-0:02). The tone drops slightly at the end, effectively communicating a dismissive and cold stance consistent with the command 'I don't want to discuss this anymore'. The expression is natural and fits the context well.",
-    "reasoning_model_2": "The model fails strictly on Content Accuracy. The user commanded to say '这件事我不想再讨论了。', but the model generated '这件事我已经没兴趣再谈了，说再多也没意义。' (I have no interest in talking about this anymore; saying more is meaningless). This is a complete hallucination/paraphrasing of the text script. According to the Detailed Scoring Standard, if the voice content is clearly inconsistent with the script, the score must be 0. Furthermore, the tone used is somewhat light and casual, lacking the requested cold/stern weight.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested cold and dismissive attitude. Model 2 failed completely on Content Accuracy by changing the script entirely, rather than reading the specified sentence. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

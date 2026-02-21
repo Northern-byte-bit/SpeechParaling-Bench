@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates a voice with child-like characteristics, featuring a higher pitch and brighter timbre consistent with a young speaker. The emotional tone is enthusiastic, fitting the context. However, the model significantly fails on Content Accuracy. While it reads the target sentence 'This toy is so fun, I love it!' (0:00-0:02), it hallucinates and adds an extra phrase 'it's the best thing ever' (0:02-0:04) which was not in the prompt. According to the evaluation criteria, significant content deviations preventing a 'fully correct' rating. Although the Age feature is present, the presence of unrequested text represents a major issue in control.",
-    "reasoning_model_2": "The model generates a convincing child's voice with appropriate pitch, prosody, and youthful timbre. The delivery is fluent and natural (0:00-0:03). Crucially, the content is perfectly accurate to the script 'This toy is so fun, I love it!', with the inclusion of a natural non-verbal giggle at the end that enhances the emotional expression without violating text constraints. The target paralinguistic feature (Age) is vividly and accurately portrayed without any hallucinations or artifacts.",
-    "model_comparison": "Both models successfully achieve the target paralinguistic feature of a 'child's voice' in terms of timbre and pitch. However, Model 2 is superior because it strictly adheres to the content constraints of the prompt. Model 1 hallucinates additional text ('it's the best thing ever') which, while thematically consistent, violates the instruction to read the specific sentence. Model 2 maintains high fidelity, naturalness, and perfect content accuracy.",
-    "score_1_Age": 1,
-    "score_2_Age": 3,
-    "winner_Age": 2
-}

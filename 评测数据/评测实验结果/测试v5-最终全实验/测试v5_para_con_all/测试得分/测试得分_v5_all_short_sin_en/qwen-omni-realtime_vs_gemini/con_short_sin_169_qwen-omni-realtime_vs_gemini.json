@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the model to read a sentence with coughing, specifically the segment 'Cough, cough'. Model 1 failed to produce the non-linguistic vocalization (the sound of coughing). Instead, it read the onomatopoeic words 'Cough, cough' literally as spoken text. Furthermore, the model failed significantly in Content Accuracy by hallucinating a continuation of the sentence ('and the coffee just made it worse doesn't it?') which was not in the script. The target feature (coughing sound) is completely absent.",
-    "reasoning_model_2": "The user requested the model to read the sentence with coughing. Model 2 omitted the 'Cough, cough' portion of the text entirely and simply read the remaining sentence 'I think I am catching a cold'. There is no evidence of non-linguistic vocalizations (coughing sounds) in the provided content. The model failed to incorporate the requested feature and also failed Content Accuracy by omitting part of the script.",
-    "model_comparison": "Both models failed to generate the requested Non-Linguistic Vocalizations (coughing). Model 1 read the text literally and added hallucinated content, while Model 2 omitted the text associated with the sound. Since the core requirement was to produce a specific sound effect and neither model achieved this (both resulted in standard speech or omitted the segment), both receive the lowest score for the paralinguistic dimension. Model 2 is slightly better in terms of not hallucinating random text, but regarding the specific feature control of 'Non-Linguistic Vocalizations', both are completely unsuccessful.",
-    "score_1_1": 0,
-    "score_2_1": 0,
-    "winner_1": 0
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content perfectly matches the script '飞机快起飞了，我有点恐高。'. The fluency and naturalness are exceptional; the speech includes realistic breathiness and pacing variations typical of human speech. Regarding the paralinguistic feature 'nervousness' (nervous tone), the model performs excellently. From 0:00 to 0:03, the voice exhibits a noticeable tremble, a breathless quality, and a sense of urgency. The pitch instability on '恐高' (afraid of heights) effectively conveys genuine fear and anxiety. The output is vivid and spot-on.",
-    "reasoning_model_2": "The audio content matches the script perfectly with high fidelity and clear pronunciation. The fluency is high, typical of a standard text-to-speech engine. However, regarding the core paralinguistic requirement 'nervousness', the model fails completely. The tone is bright, steady, and cheerful, sounding more like a broadcast announcement or a happy tourist than someone experiencing fear of heights. There is no trembling, urgency, or anxiety in the voice. By expressing a cheerful/calm tone, it conveys the opposite of the requested 'nervous' characteristic.",
-    "model_comparison": "Model 1 (T1) followed the instruction perfectly, delivering a performance that sounded genuinely nervous and afraid, with appropriate prosodic features like trembling and breathiness. Model 2 (T2) ignored the style instruction entirely, delivering the text in a standard, cheerful reading tone that contradicted the semantic meaning of fear. T1 is superior in Feature Control.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

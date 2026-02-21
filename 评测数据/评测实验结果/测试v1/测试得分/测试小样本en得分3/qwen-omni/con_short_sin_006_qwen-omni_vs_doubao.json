@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The generated audio demonstrates perfect content accuracy, reciting the script 'I think this plan is quite creative' verbatim (0.0s - 2.8s). Regarding the 'Age' feature, the voice successfully adopts a youthful persona, utilizing a higher pitch and a brighter, lighter timbre characteristic of a young adult or teenager. The intonation on 'quite creative' (1.8s - 2.5s) is energetic and expressive, fitting the requested style well. Fluency is natural with no mechanical artifacts.",
-    "reasoning_model_2": "The model exhibits a significant content accuracy error. At approximately 0.5s - 1.0s, the model substitutes the word 'plan' with 'playing', resulting in the spoken sentence 'I think this playing is quite creative'. This error changes the meaning of the sentence and violates the primary criterion of content accuracy. While the vocal tone might attempt to sound youthful (potentially sounding younger or more childish), the hallucination of the wrong word is a major flaw that overrides the stylistic attempt.",
-    "model_comparison": "Model 1 is the clear winner as it flawlessly executes both the content and the paralinguistic requirement. It delivers the correct text with a distinct youthful voice. Model 2 fails significantly on content accuracy by saying 'playing' instead of 'plan'. According to the scoring standard, a content error that alters the word/meaning is a major issue, regardless of the paralinguistic performance.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

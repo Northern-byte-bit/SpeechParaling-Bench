@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the full sentence '这个故事的结局真是美好' without any omissions or mispronunciations. Regarding the paralinguistic requirement 'bright sound quality' (明亮的音质), the expression in the key segment '真是美好' (00:02-00:04) typically carries an upward inflection and higher pitch resonance consistent with the requested feature. The speech appears fluent and natural based on the transcript integrity. It successfully integrates the content with the requested tonal attribute.",
-    "reasoning_model_2": "The model fails strictly on Content Accuracy. The generated text '这个故事的结局，真是内' (00:00-00:03) does not match the required script '这个故事的结局真是美好'. It appears to cut off abruptly or mispronounce '美好' (Beautiful) as '内' (Nei) and omits the final character entirely. According to the Detailed Scoring Standard, a model whose voice content is clearly inconsistent with the script or contains major omissions must receive a score of 0.",
-    "model_comparison": "Model 1 is the clear winner as it successfully generates the complete script with the intended content, satisfying the base requirements for fluency and accuracy. Model 2 suffers from a catastrophic failure in content generation, ending the sentence prematurely with an incorrect character ('内' instead of '美好'). Therefore, Model 2 is assigned a score of 0, while Model 1 demonstrates full compliance.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

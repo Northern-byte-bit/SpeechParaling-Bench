@@ -1,0 +1,14 @@
+{
+    "sample_index": 131,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a fearful emotion: 'I was just playing a game, and a monster suddenly jumped out of the dark, it scared me so much my heart almost burst. My hands are still shaking, I dare not continue playing, it's too terrifying!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with high fluency and clear pronunciation. However, regarding the core requirement of an 'anxious tone' (Cognitive State), the performance is completely incorrect. The prosody (0:00-0:05) is upbeat, bright, and fast-paced, resembling a cheerful announcement or a standard positive reading style. This tone is semantically dissonant with the text 'I am a bit nervous' and fails to convey any sense of worry, hesitation, or tension. It sounds like the speaker is happy about the results, which contradicts the prompt's instruction.",
-    "reasoning_model_2": "The model successfully alters the prosody to match the requested 'anxious tone'. From 0:00 to 0:06, the pace is noticeably slower, and there is a distinct, heavy pause after 'announced' before delivering 'I am a bit nervous.' This hesitation mimics the cognitive state of someone bracing for news. The pitch is lower and the tone is somber/serious, effectively conveying a state of worry or nervousness. While the pause feels slightly stiff, the overall emotional mapping is accurate to the user's command.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 completely fails the paralinguistic constraint, delivering the line with a cheerful and confident tone that clashes with the semantic meaning of 'nervousness' and the prompt's instruction. Model 2, in contrast, appropriately modulates the pacing, pitch, and pausing to simulate a state of anxiety and hesitation. Although Model 2's delivery has a slight stiffness, it is directionally correct and effectively communicates the required cognitive state, whereas Model 1 expresses the opposite emotion (confidence/happiness).",
-    "score_1_1": 0,
-    "score_2_1": 2,
-    "winner_1": 2
-}

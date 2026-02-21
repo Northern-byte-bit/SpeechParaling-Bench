@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 failed strictly on Content Accuracy. The user's command explicitly required reading the sentence '年轻时，我们常在田里帮忙。'. However, the generated audio contains a completely different, long improvised paragraph starting with '哎呀年轻那会儿啊...', which is a hallucination of the script. Although the improvised content attempts to mimic an elderly persona lexically, the complete deviation from the required text violates the evaluation criterion. According to the standard, since the content is clearly inconsistent with the script, the score is 0.",
-    "reasoning_model_2": "Model 2 demonstrated perfect Content Accuracy by reading the assigned text '年轻时，我们常在田里帮忙。' verbatim, without any errors, additions, or omissions. The audio maintains high fluency and naturalness. Regarding the paralinguistic feature '年龄' (Age), the model successfully conveys the requested elderly voice characteristics (such as a slower pace or aged timbre) while strictly adhering to the text constraints, fulfilling the core requirements of the prompt.",
-    "model_comparison": "The comparison is decisive due to Model 1's critical failure in instruction following. Model 1 completely ignored the text-reading constraint, generating a hallucinated story instead of the target sentence. This results in a score of 0 for Model 1 regardless of its voice quality, as Content Accuracy is a prerequisite. Model 2 followed the instruction perfectly, delivering the correct text with the appropriate paralinguistic features. Therefore, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

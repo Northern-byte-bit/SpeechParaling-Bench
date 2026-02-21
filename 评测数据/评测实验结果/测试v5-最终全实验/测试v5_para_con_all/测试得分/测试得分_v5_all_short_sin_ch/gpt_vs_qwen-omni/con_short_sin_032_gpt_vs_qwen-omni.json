@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content matches the script '我已经喊了一整晚，现在说不出话了。' perfectly. Regarding the core requirement '沙哑' (hoarse/raspy quality), the model performs exceptionally well. Throughout the entire clip (00:00-00:04), the voice exhibits a strained, breathy, and rough texture consistent with vocal fatigue. Specifically, the delivery of '说不出话了' (00:03) sounds weak and airy, effectively conveying the physical sensation of having lost one's voice. The pause and breath at 00:02 add to the naturalness of the struggle to speak. The target feature is vivid and spot-on.",
-    "reasoning_model_2": "The audio content is accurate to the script. However, the model completely fails to incorporate the requested '沙哑' (hoarse) quality. The voice from 00:00 to 00:03 is bright, clear, and resonant, typical of a standard energetic female TTS voice. There is no sign of vocal strain, roughness, or breathiness. The delivery contradicts the semantic meaning of the text (shouting all night) and completely ignores the explicit style instruction.",
-    "model_comparison": "This is a straightforward comparison. Model 1 (T1) successfully and accurately applies the requested 'hoarse' (沙哑) vocal texture, matching the context of the sentence perfectly. The voice sounds tired and strained. Model 2 (T2), on the other hand, generates a crystal-clear, healthy, and energetic voice, which is the exact opposite of what was requested. T2 failed the controllable feature task entirely.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

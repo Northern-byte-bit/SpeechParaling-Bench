@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to correctly separate the instruction from the target text, reading out 'Please read this sentence with a very slow paced' followed by the target sentence. While the pace is indeed very slow throughout the entire audio (0:00-0:10), the delivery is extremely unnatural and robotic. There are mechanical, equidistant pauses between almost every word, and the intonation is flat and disjointed, lacking human-like prosody. Additionally, the word 'pace' in the instruction is mispronounced as 'paced'.",
-    "reasoning_model_2": "The model correctly identifies and speaks only the target sentence: 'Please think carefully before you answer.' (0:00-0:05). The pace is effectively slowed down to meet the 'very slow' requirement, but unlike Model 1, it achieves this through natural elongation of vowels and deliberate, meaningful pauses (e.g., the stretch on 'Pleeeease' and 'caaaarefully'). The prosody remains natural and sounds like a human speaking with serious intent or caution, maintaining high fluency.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed significantly on Content Accuracy by reading the prompt instructions instead of just the target text. Furthermore, Model 1's naturalness was very poor, sounding like a disjointed robot rather than a human speaking slowly. Model 2 followed the instructions perfectly, applying the 'very slow pace' to the correct text with natural, human-like prosody and intonation.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

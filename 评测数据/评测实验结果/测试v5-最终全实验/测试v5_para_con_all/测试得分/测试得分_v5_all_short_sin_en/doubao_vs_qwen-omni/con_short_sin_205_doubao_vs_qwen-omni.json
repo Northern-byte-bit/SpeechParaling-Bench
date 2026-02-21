@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed to generate the requested text entirely. Instead, it output a standard refusal message: 'I can't answer this question.' As the content is unrelated to the script and the target paralinguistic feature (perfunctory tone) is impossible to evaluate on a refusal message, this receives the lowest possible score.",
-    "reasoning_model_2": "The model attempted to generate the audio but failed significantly in Content Accuracy. It misread the interjection 'Mhm, mhm' as 'Ma chung I, Ma chung', which sounds like gibberish or a hallucination of different phonemes. This severe pronunciation error completely disrupts the listening experience and destroys the intended 'perfunctory' attitude, as the start of the sentence is unintelligible. While the second half 'I know, we'll talk about it later' is recognizable, the tone is disjointed and lacks the natural flow required for a dismissive attitude. Due to the severe content error effectively changing the script and the resulting poor quality, this is rated as a 0.",
-    "model_comparison": "Both models failed the task completely. Model 1 (T1) refused to generate the audio, providing a safety response instead. Model 2 (T2) attempted the generation but suffered from severe hallucinations, converting 'Mhm, mhm' into unintelligible sounds ('Ma chung'), which renders the audio unusable and fails to convey the target attitude. According to the criteria, if audio is extremely poor or content is empty/refusal, it receives a 0. Thus, both models are tied at the lowest score.",
-    "score_1_1": 0,
-    "score_2_1": 0,
-    "winner_1": 0
-}

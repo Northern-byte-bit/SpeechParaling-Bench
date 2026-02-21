@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the primary criterion of Content Accuracy. The user provided a specific script: '这味道真恶心，我再也不想碰这种食物了。不过既然是招待客人，那也只能忍忍了。'. However, Model 1 completely rewrote the text, generating: '呵，这味道真恶心，我闻到就反胃，以后绝对不碰这种东西了... 既然主人特意准备招待客人，我勉强忍一忍吧...'. While the meaning is related, the model hallucinated significant portions of text and altered the phrasing entirely. According to the scoring standard, voice content clearly inconsistent with the script results in a score of 0.",
-    "reasoning_model_2": "Model 2 achieved perfect Content Accuracy, reading the script exactly as requested without errors or hallucinations. Regarding Paralinguistic Compliance, the model successfully executed the 'Dynamic Adjustment'. From 00:00 to 00:04, the voice exhibits a strong tone of disgust ('厌恶'), characterized by a strained, lower-pitched delivery suitable for the text '这味道真恶心...'. After the pause at 00:04, the tone shifts noticeably for the second half ('不过既然是招待客人...'). The voice becomes flatter, calmer, and more resigned, effectively transitioning to the requested 'neutral' ('中性') state. The pacing is natural, and the emotional transition is smooth and distinct.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental requirement of sticking to the provided text script, instead generating a paraphrased and improvised version, which constitutes a critical error (Score 0). Model 2 followed the script perfectly and demonstrated a high-quality dynamic adjustment of emotion from disgust to neutrality, fully meeting the user's paralinguistic instructions (Score 3).",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 successfully follows the user's command to synthesize the specific text: 'The key lies in communication, we must remain open.' In terms of the specific paralinguistic requirement to stress the word 'key', the model performs this effectively. At timestamp 0:00-0:01, the speaker enunciates 'The key' with increased pitch and intensity, followed by a distinct pause before continuing with 'lies in communication'. This prosodic choice clearly highlights the word 'key' as the focal point of the sentence, satisfying the stress requirement. The overall fluency is good, and the content is accurate.",
-    "reasoning_model_2": "Model 2 completely fails to perform the text-to-speech task. Instead of reading the target sentence 'The key lies in communication, we must remain open.', the model outputs a conversational response: 'Sure. Which word should I stress?'. This indicates a failure in instruction following, as the prompt explicitly stated which word to stress. Consequently, the content accuracy is non-existent regarding the target script, and the paralinguistic feature cannot be evaluated on the target text. Therefore, it receives a score of 0.",
-    "model_comparison": "Model 1 is the clear winner. It accurately synthesized the requested text and successfully applied the requested paralinguistic feature (stressing the word 'key' via pitch elevation and pausing). Model 2 failed to generate the requested text entirely, instead treating the prompt as a conversational query and asking for clarification on an instruction that was already provided. Model 2's failure to synthesize the target script results in a score of 0.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

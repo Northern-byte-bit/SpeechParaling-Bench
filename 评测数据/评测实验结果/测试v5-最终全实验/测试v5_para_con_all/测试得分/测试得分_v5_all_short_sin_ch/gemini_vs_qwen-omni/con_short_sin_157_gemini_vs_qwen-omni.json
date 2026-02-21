@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately synthesizes the text '我马上就要上台演讲了，心跳好快' with perfect pronunciation and clarity. However, regarding the required 'nervous' cognitive state (0:00-0:05), the audio fails to deliver. The tone is stable, confident, and rhythmic, characteristic of a standard news broadcast or reading style. There are no paralinguistic markers of anxiety such as trembling, breathiness, pitch instability, or accelerated pacing. In fact, the calm demeanor expresses a state opposite to the user's command.",
-    "reasoning_model_2": "The model generates the content accurately. Crucially, it successfully captures the 'nervous' cognitive state requested. From 0:00 to 0:02 ('我马上就要...'), the voice exhibits a noticeable hesitation and a slightly lower, breathy quality suggestive of apprehension. In the segment '心跳好快' (0:03-0:05), the pacing quickens slightly and the tone becomes more urgent, effectively mimicking the physiological arousal associated with a fast heartbeat and stage fright. The emotional expression is distinct and appropriate.",
-    "model_comparison": "Model 1 provides a high-quality but emotionally neutral/confident reading that completely ignores the 'nervous' style constraint. Model 2 demonstrates superior feature control by modulating prosody, breathiness, and pacing to convincingly portray the required cognitive state of nervousness. Therefore, Model 2 is much better aligned with the user's intent.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

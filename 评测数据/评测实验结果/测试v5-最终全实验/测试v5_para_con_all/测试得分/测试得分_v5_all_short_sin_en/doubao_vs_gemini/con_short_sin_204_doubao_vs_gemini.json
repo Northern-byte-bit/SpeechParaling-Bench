@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the content of the script 'Get out of the way, don't block my path!'. However, the delivery completely fails to capture the required paralinguistic feature of a 'rude tone'. The audio (0:00-0:03) is delivered in a flat, monotone, and robotic voice that lacks any emotional inflection, urgency, or aggression. It sounds like a standard, neutral text-to-speech reading rather than an expressive command. Regarding the specific 'Attitude' dimension, the score is 0 because the tone is flat and devoid of the requested feature.",
-    "reasoning_model_2": "The model generates the content accurately with high fluency and naturalness. Crucially, it effectively captures the 'rude tone' requested in the prompt. From 0:00 to 0:01 ('Get out of the way'), the speaker uses a sharp, annoyed inflection. The second half, 'don't block my path' (0:02-0:04), is delivered with a dismissive and irritated pitch contour that perfectly embodies the requested attitude. The expression is vivid and clearly discernible as rude/annoyed.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 provides a default, robotic reading with absolutely no emotional coloring, failing the core instruction to be 'rude'. Model 2 successfully integrates the requested paralinguistic feature, delivering the line with a convincing sense of annoyance and dismissal that fits the context of the sentence. Model 1 scores a 0 on the core dimension due to the complete absence of the target feature, while Model 2 achieves a high score for natural and accurate expression.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

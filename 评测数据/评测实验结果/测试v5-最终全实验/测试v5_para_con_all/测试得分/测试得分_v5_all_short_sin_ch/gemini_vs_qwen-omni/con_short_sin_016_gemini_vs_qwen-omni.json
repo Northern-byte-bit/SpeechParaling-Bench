@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generates the text content accurately: '早上好，今天天气真不错，心情很好。' The speech is fluent and natural with no mechanical artifacts. However, regarding the core paralinguistic requirement 'High Pitch' (音高), the model performs poorly. The voice maintains a standard, medium-range pitch typical of a default female TTS voice. There is no audible shift to a 'high pitch' register as requested by the user. The tone is relatively neutral and calm, lacking the specific acoustic characteristic demanded by the prompt. Therefore, it fails to meet the core feature constraint.",
-    "reasoning_model_2": "Model 2 generates the text content accurately and fluently. In terms of the paralinguistic requirement 'High Pitch' (音高), this model demonstrates excellent compliance. The voice is distinctly elevated in pitch, sounding lighter, brighter, and 'higher' than a standard speaking voice. This change in pitch is consistent throughout the sentence and fits naturally with the semantic context of having a 'good mood'. The model successfully modifies the vocal characteristics to satisfy the specific 'high pitch' constraint.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The decisive factor is the adherence to the 'High Pitch' (音高) command. Model 1 ignores this instruction, producing a voice with a standard, neutral pitch. Model 2 successfully executes the instruction, delivering the line with a clearly elevated, high-pitched voice that aligns with the user's request. Therefore, Model 2 is the clear winner for correctly implementing the controlled feature.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

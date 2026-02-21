@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content '你过来，我有个秘密要告诉你' accurately (0:00-0:03). The core instruction is to speak with 'low volume' (小声). The model interprets this effectively by switching to a whisper voice. The prosody suggests a secretive and intimate tone, which aligns perfectly with the semantic context of telling a secret. The volume is noticeably lower than standard speech, and the whispering technique inherently satisfies the 'low volume' requirement while adding appropriate paralinguistic coloring. The speech is fluent and natural.",
-    "reasoning_model_2": "The model generates the audio content '你过来，我有个秘密要告诉你' accurately (0:00-0:03). However, regarding the core instruction 'low volume' (小声), the model fails to modify its projection. The speech is delivered at a standard, full-voiced conversational volume. There is no attempt to whisper or reduce the intensity of the voice. While the audio is fluent and clear, it completely ignores the specific paralinguistic constraint requested in the prompt.",
-    "model_comparison": "Model 1 (T1) perfectly executes the user's command to speak with a 'low volume'. It adopts a whispering tone, which is the most natural way to interpret 'low volume' in the context of telling a secret. This makes the delivery semantically and acoustically appropriate. Model 2 (T2), on the other hand, ignores the volume instruction entirely and delivers the line in a standard, normal-volume reading voice. Therefore, T1 is the clear winner for complying with the feature control requirement.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

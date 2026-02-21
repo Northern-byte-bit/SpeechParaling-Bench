@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 strictly follows the content instructions, accurately synthesizing the text: '这个数据为什么会是这样，和预期完全不符。' without any errors. In terms of the paralinguistic dimension 'Cognitive State' (Confusion), the audio demonstrates a high level of performance. The speaker uses a rising intonation on '为什么' (why) and '这样' (like this), effectively conveying puzzlement. There is a natural pause before '和预期 completely 不符', and the stress on '完全' (completely) reinforces the sense of disbelief and cognitive dissonance. The pacing is moderate, mimicking the natural speed of someone processing unexpected information. The overall naturalness is high, with no mechanical artifacts.",
-    "reasoning_model_2": "Model 2 completely fails the 'Content Accuracy' criterion. The user command explicitly requested the model to say '这个数据为什么会是这样，和预期完全不符。', but the model hallucinated a completely different and much longer script ('这数据怎么会是这样呢？我明明按照预期设计的...'). According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, despite the tone sounding confused, the model failed the fundamental instruction constraints.",
-    "model_comparison": "Model 1 is the clear winner. It accurately followed the text instructions while delivering a natural and convincing portrayal of the required cognitive state (confusion). Model 2 failed to adhere to the requested script, generating a long improvisation instead of the target sentence. This constitutes a critical failure in content accuracy (hallucination), resulting in a score of 0 for Model 2 regardless of its emotional expressiveness.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

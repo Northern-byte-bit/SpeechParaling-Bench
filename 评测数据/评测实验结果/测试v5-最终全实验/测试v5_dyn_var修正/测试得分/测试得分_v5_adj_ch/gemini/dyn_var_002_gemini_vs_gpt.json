@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the content with perfect articulation. In terms of the core requirement—dynamic pitch adjustment—the audio starts with a noticeably low, hushed pitch (approx. 00:00-00:03), effectively conveying the 'internal/secret' nature of the message. From 00:03 onwards ('我们必须确保...'), there is a smooth and audible transition where the pitch gradually rises to a standard medium register for the remainder of the sentence. The transition is linear and natural, without abrupt jumps. The pacing (approx. 8 seconds) is natural and fluent.",
-    "reasoning_model_2": "The content accuracy is maintained. However, the model struggles with the dynamic instruction. While the voice starts in a lower register, the transition to 'medium' pitch is not distinct; the audio tends to stay in a lower, somewhat monotonous range throughout the clip. Furthermore, the duration (approx. 11 seconds) is significantly longer than Model 1, resulting in a dragged, lethargic pace that negatively impacts the naturalness and fluency of the speech. The intended gradient of pitch change is obscured by the slow prosody.",
-    "model_comparison": "Model 1 is the clear winner. It successfully executes the complex instruction of dynamically changing pitch from 'extremely low' to 'medium' within a single utterance while maintaining a natural speaking rate and prosody. The change is distinct and matches the semantic shift in the sentence. Model 2 fails to deliver a convincing transition, remaining mostly low and flat, and suffers from poor fluency due to an unnaturally slow pace.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

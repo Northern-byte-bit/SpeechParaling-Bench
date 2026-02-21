@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly on Content Accuracy. The user requested the model to read a specific sentence: '这次，我们必须成功，没有退路！'. However, Model 1 hallucinates and generates a long, unrequested monologue starting from 00:03 ('真的没有退路，你听清楚了...'), continuing until 00:13. Regarding the target feature 'Stress' (重音), the word '必须' at 00:01 is spoken with standard intonation and speed, lacking any distinct emphasis or weight required by the prompt. Due to the severe deviation from the script (major addition of content) and the lack of noticeable stress on the target word, this is a complete failure to follow instructions.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading only the requested text without errors or hallucinations. Regarding the target feature 'Stress' (重音), the model successfully executes the command. At timestamp 00:01-00:02, the speaker distinctly slows down and applies heavy prosodic weight to the word '必须' (must). The use of pauses before and after the word, combined with a firm, determined tone, effectively highlights the necessity of success, perfectly matching the semantic context of 'no retreat'. The expression is natural and fits the dramatic tone of the script.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the primary constraint of Content Accuracy by generating a large amount of unrequested text (hallucination) and failed to apply the requested stress feature effectively. Model 2 followed the content constraints perfectly and delivered a high-quality execution of the 'Stress' feature on the specific word '必须' through effective pacing and tone intensity.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The generated audio by Model 1 accurately follows the script 'Club activities are fun, everyone had a great time.' with no pronunciation errors. The speech is fluent and natural (00:00-00:03). Regarding the paralinguistic feature 'Rhythm', the model successfully adopts a lighthearted and upbeat pace. The prosody is bouncy and positive, effectively conveying the 'fun' aspect of the text through a lively cadence that matches the requested style perfectly.",
-    "reasoning_model_2": "The generated audio by Model 2 exhibits significant issues with content accuracy. The phrase 'Club activities are' is heavily mispronounced/garbled as something sounding like 'Club agtili a' (00:00-00:01), which makes the sentence unintelligible and grammatically incorrect. While the second half 'everyone had a great time' is recognizable, the initial failure in articulation and fluency severely disrupts the rhythm. Because the content is malformed and the fluency is compromised by these artifacts, the model fails to convey a natural or controlled lighthearted rhythm, resulting in a low score.",
-    "model_comparison": "Model 1 demonstrates superior performance across all criteria. It delivers the text accurately with high fluency and successfully implements the requested 'lighthearted rhythm,' creating a pleasant and engaging listening experience. In contrast, Model 2 fails the fundamental requirement of content accuracy, producing gibberish for the word 'activities' and disrupting the flow of the sentence. This major flaw makes it impossible for Model 2 to effectively convey the intended rhythm or style. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

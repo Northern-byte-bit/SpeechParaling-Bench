@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio in English as requested. **Content Accuracy**: There are minor deviations from the script. The model expands contractions (e.g., 'I'm' becomes 'I am', 'there's' becomes 'there is') and the pronunciation of 'This' is transcribed as 'Dis', suggesting a potential accent or pronunciation error. **Paralinguistic Compliance**: The text structure ('Dis proposal... I am still figuring out...') suggests the model attempted the initial hesitant tone through pauses. The content effectively transitions into the anxious statement regarding the deadline. While the content accuracy has minor flaws (normalization of contractions and pronunciation), it largely follows the instruction.",
-    "reasoning_model_2": "The model generates the audio in **Chinese** ('这份提案，我...'). **Content Accuracy**: The user explicitly asked the model to 'read this sentence' which was provided in English. The model failed to follow the core instruction by translating the content instead of synthesizing the English text. Consequently, the content is completely incorrect relative to the required script. **Paralinguistic Compliance**: While the Chinese speech text indicates hesitation ('我...我'), the complete failure in language adherence renders the audio unusable for the specific request.",
-    "model_comparison": "Model 1 followed the primary instruction to read the English sentence, although it exhibited minor content accuracy issues (expanding contractions and a pronunciation slip). Model 2 completely failed the task by speaking in Chinese instead of English. Therefore, Model 1 is the clear winner as it adhered to the language and content requirements.",
-    "score_1": 2,
-    "score_2": 0,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content with a high degree of accuracy, though it expands the contraction 'It's' to 'It is' (0:02), which is a minor deviation. Regarding the core paralinguistic feature (Cognitive State: Confused), the audio performs excellently. From 0:00 to 0:02, the rising intonation on 'Why is this data like this?' clearly signals puzzlement. The pause and subsequent emphasis on 'completely different' (0:03-0:05) effectively convey a state of disbelief and cognitive processing associated with confusion. The tone is natural and vivid.",
-    "reasoning_model_2": "The model accurately speaks the text, also expanding 'It's' to 'It is', but fails significantly in the paralinguistic dimension. The delivery is extremely flat and monotone. The question 'Why is this data like this?' (0:00-0:02) has a standard, weak interrogative lift but lacks the weight of genuine confusion. The following sentence (0:02-0:05) is read with a neutral, factual tone that sounds robotic and devoid of the requested cognitive state. It does not sound confused; it sounds like a standard text-to-speech reading.",
-    "model_comparison": "Model 1 is the clear winner as it successfully integrates the requested 'confused tone' into the prosody. It utilizes pitch changes, stress, and pacing to simulate the cognitive state of a human encountering unexpected data. Model 2, in contrast, provides a flat, neutral reading that technically asks the question but fails to convey the requested emotion or state of mind. Model 1's expression is vivid and matches the prompt, while Model 2 misses the core instruction regarding tone.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user provided a specific script: '这次，我们必须成功，没有退路！'. Model 1 completely failed the 'Content Accuracy' criterion by hallucinating a significant amount of text that was not in the prompt. Instead of reading the single sentence, it generated a 13-second monologue ('...真的没有退路，你听清楚了...'). According to the Global Considerations, if the content is completely incorrect or inconsistent with the script, the score must be 0. Therefore, the analysis stops at content failure, and the model receives a 0 for failing to follow the basic instruction.",
-    "reasoning_model_2": "Model 2 followed the content instructions perfectly, speaking exactly the required text: '这次，我们必须成功，没有退路！'. Regarding the paralinguistic feature (Stress/Emphasis on '必须'): At timestamp 00:01, the speaker delivers '必须' with increased volume, a heavier tone, and a slight pause before the word, effectively highlighting it against the rest of the sentence. The delivery sounds natural, authoritative, and determined, fitting the context of 'no way back'. The fluency is high with no mechanical artifacts. It meets the criteria for a score of 3.",
-    "model_comparison": "This is a clear victory for Model 2. Model 1 failed the fundamental requirement of Content Accuracy by hallucinating a long paragraph of text instead of reading the specific sentence provided. Model 2 adhered strictly to the script and successfully executed the required paralinguistic feature (placing stress on '必须') with natural prosody and appropriate emotional weight.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

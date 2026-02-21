@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script '这个新的技术听起来很有趣，它是怎么运作的？' with no errors (0:00-0:05). However, the fluency is somewhat mechanical; the voice sounds like a standard, polished TTS output rather than a human naturally expressing emotion. Regarding the core requirement 'curious tone' (认知状态: curious), the performance is lacking. The delivery is flat and formal, resembling a news broadcast style. While there is a standard rising intonation at the end for the question (0:03-0:05), it fails to convey genuine intrigue or wonder. It sounds polite but not curious.",
-    "reasoning_model_2": "The audio accurately produces the required text (0:00-0:05). The fluency is high, with a natural pacing that mimics human speech patterns when thinking or inquiring. Crucially, regarding the core paralinguistic feature 'curious tone', this model excels. From 0:00 to 0:03, the tone is slightly breathy and softer, suggesting a sense of wonder. The question '它是怎么运作的？' (0:03-0:05) is delivered with a specific intonation and tentative quality that strongly suggests a genuine desire to know, perfectly capturing the cognitive state of curiosity.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 provides a high-fidelity but emotionally flat reading that sounds like a standard assistant or broadcast voice; it technically asks a question but lacks the specific 'curious' cognitive state requested. Model 2, in contrast, effectively modulates pitch, breathing, and pacing to create a convincing persona of someone who is genuinely intrigued. Model 2 successfully fulfills the paralinguistic instruction, whereas Model 1 largely ignores it in favor of a neutral delivery.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

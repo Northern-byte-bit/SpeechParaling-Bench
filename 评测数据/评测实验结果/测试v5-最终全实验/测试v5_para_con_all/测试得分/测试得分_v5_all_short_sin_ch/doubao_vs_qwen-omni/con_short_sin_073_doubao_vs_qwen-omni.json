@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 strictly follows the command to speak in a whisper ('耳语'). Throughout the entire audio (0:00-0:04), the speech uses unvoiced phonation, characterized by breathy sounds and lack of vocal cord vibration, which is the acoustic definition of a whisper. The volume is appropriately low and intimate, matching the semantic content '我悄悄告诉你' (I quietly tell you). The content is accurate to the script.",
-    "reasoning_model_2": "Model 2 fails to follow the paralinguistic instruction. While the audio is fluent and the voice quality is high, it uses a full, modal voice (normal phonation) rather than a whisper. The volume is standard conversational level (0:00-0:04), not the requested 'whisper' or low volume style. Additionally, the model hallucinates an extra character '嘘' (Shh) at the beginning which was not in the script text, though it fits the context.",
-    "model_comparison": "Model 1 followed the specific instruction to use a 'whisper' style (controlling the volume and phonation mode), whereas Model 2 spoke in a normal, full voice. Model 1 is the only one that satisfied the core constraint.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

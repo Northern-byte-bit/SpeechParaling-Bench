@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the requested text: '你听说了吗？小明明天就要搬家了，我们得给他准备个送别派对。' regarding content accuracy. In terms of paralinguistic features, the audio begins with '你听说了吗？' delivered in a lower volume and breathy tone, closely simulating a whisper or a secretive tone. As the sentence progresses through '小明明天就要搬家了', the volume and vocal projection noticeably increase. By the final segment '我们得给他准备个送别派对', the voice has reached a normal, full speaking volume. The transition is smooth and natural, effectively executing the 'gradually increase volume' instruction. The speech is fluent and lacks mechanical artifacts.",
-    "reasoning_model_2": "The model completely fails the content accuracy requirement. Instead of reading the specific sentence provided in the prompt, the audio contains a hallucinated script that includes stage directions and descriptions of the voice (e.g., '嘘... 声音轻得像耳语... 声音慢慢变大...'). While the model actually attempts to perform the volume changes described in this extra text, the content itself is entirely wrong and constitutes a severe hallucination/instruction-following failure. The user asked it to say a specific sentence, not to narrate a scene describing how the sentence should be said.",
-    "model_comparison": "Model 1 followed all instructions, providing the correct text with the requested paralinguistic evolution (whisper to normal volume). The transition was smooth and audible. Model 2 failed strictly on content accuracy; it generated a meta-script describing the actions rather than speaking the target dialogue. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

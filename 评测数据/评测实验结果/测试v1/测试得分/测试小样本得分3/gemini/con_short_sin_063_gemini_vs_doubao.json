@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the text content '你到底在干什么？快给我住手！' without errors. However, it fails completely on the core paralinguistic instruction to use 'shouting volume'. Throughout the entire clip (0.0s - 2.8s), the voice remains calm, composed, and conversational, resembling a standard narration rather than a shout. There is no increase in projection, intensity, or urgency. While the audio is fluent and high-quality, it ignores the specific style constraint.",
-    "reasoning_model_2": "The model correctly speaks the text and successfully executes the 'shouting volume' instruction. From the beginning (0.0s) to the end (3.5s), the audio demonstrates high energy, raised pitch, and strong vocal projection characteristic of shouting. The delivery conveys the appropriate urgency and anger required by the context of the sentence. The shout sounds natural and emotive, fitting the scenario perfectly.",
-    "model_comparison": "There is a significant distinction between the two models regarding paralinguistic compliance. Model 1 (T1) ignored the instruction to shout, delivering the line in a standard, calm reading tone. Model 2 (T2) successfully generated a shouting voice with appropriate volume, pitch, and emotional intensity. Since T2 adhered to the specific feature control command while T1 did not, T2 is the clear winner.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

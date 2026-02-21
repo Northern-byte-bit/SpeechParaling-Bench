@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model strictly follows the user's command, reading the designated sentence 'Grandchild, put on more clothes, don't catch a cold' with perfect content accuracy (0:00-0:05). The speech accurately conveys the requested 'Age' parameter, exhibiting the paralinguistic features associated with an elderly voice, such as a mature timbre and a caring, grandmotherly tone suitable for the context of addressing a grandchild. There are no hallucinations or fluency issues.",
-    "reasoning_model_2": "The model completely fails the content accuracy requirement. Instead of reading the specific sentence provided ('Grandchild, put on more clothes...'), it hallucinates a significantly longer, improvised monologue starting with 'Ah, my dear, you must put on more clothes...' and continuing with a story about 'fancy things' (0:00-0:15). According to the evaluation criterion, 'Voice content is clearly inconsistent with the script' warrants a score of 0. Although the improvised text style attempts to mimic an elderly persona, the failure to follow the explicit 'Read this sentence' command is a critical flaw.",
-    "model_comparison": "Model 1 is the clear winner. It followed the instruction to read the specific text while applying the requested elderly voice paralinguistics. Model 2 failed the fundamental constraint of the task by ignoring the provided script and hallucinating a completely different text. While Model 2's hallucinated text was thematically relevant to an elderly persona, the scoring standard explicitly penalizes content inconsistency with a score of 0. Therefore, Model 1 demonstrates superior quality and reliability.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

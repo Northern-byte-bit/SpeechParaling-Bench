@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the text 'Hearing this news, I truly feel sorry for him.' (0:00-0:03). However, it completely fails to adhere to the core paralinguistic instruction to use a 'sad emotion.' The tone is upbeat, bright, and energetic, characteristic of a standard enthusiastic virtual assistant. The pitch rises cheerfully on the word 'news' and maintains a brisk tempo throughout. This expression is the opposite of sadness, lacking any somberness, slower pacing, or downward inflection required for the target emotion.",
-    "reasoning_model_2": "The model generates the content accurately with no errors (0:00-0:05). Unlike the first model, T2 successfully incorporates the 'sad emotion' requested. The pacing is noticeably slower and more deliberate. The voice utilizes a lower pitch and a breathy, softer timbre that conveys genuine empathy and sorrow. The intonation naturally falls at the end of the sentence (0:03-0:05), reinforcing the somber mood. The emotional delivery is vivid and effectively matches the semantic meaning of feeling sorry.",
-    "model_comparison": "There is a significant difference in performance regarding the core constraint (Emotion). Model 1 (T1) ignored the emotional instruction, delivering the line with an inappropriate upbeat and happy tone. Model 2 (T2) successfully modulated prosody, pitch, and speed to create a convincing sad and empathetic tone. T2 followed all instructions, whereas T1 failed the primary stylistic constraint.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

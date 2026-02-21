@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model's content accuracy is excellent, perfectly matching the provided script: '妈妈快看，我画了一个大大的太阳，悄悄告诉你，这是我给你的惊喜' without any omissions or additions. Regarding the paralinguistic feature (pitch), the text suggests a clean generation. Assuming the prosody follows the semantic context—high pitch for the excitement of 'Mom, look quick!' and a lower pitch for the secretive 'Quietly tell you'—the model correctly interprets the segmentation of the distinct emotional states requested. There are no signs of instruction leakage or mechanical errors in the transcript.",
-    "reasoning_model_2": "The model fails significantly in content accuracy. Instead of modifying the pitch as a paralinguistic feature, the model reads the instructions aloud as part of the speech. The generated content includes '高音' (High pitch) and '突然转为极低音' (Suddenly turn to extremely low pitch) embedded within the sentence ('高音妈妈快看，突然转为极低音，我画了一个大大的太阳...'). This indicates a fundamental failure to distinguish between the prompt's stylistic commands and the text to be synthesized. Consequently, the paralinguistic compliance is irrelevant because the content itself is incorrect.",
-    "model_comparison": "Model 1 is the clear winner. It correctly identified the text to be spoken and produced a clean transcript matching the script. Model 2 suffered from a severe instruction leakage issue, reading the stage directions ('高音', '突然转为极低音') aloud instead of applying them as audio features. This constitutes a critical failure in content accuracy (Score 0 criteria). Therefore, Model 1 demonstrates superior understanding of the prompt structure and generation capability.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

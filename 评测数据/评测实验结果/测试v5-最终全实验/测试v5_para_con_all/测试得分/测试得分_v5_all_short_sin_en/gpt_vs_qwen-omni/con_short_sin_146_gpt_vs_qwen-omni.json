@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately reproduces the text 'Woke up too early, I just want to sleep now.' The speaker employs a distinct paralinguistic style that aligns perfectly with the 'tired tone' instruction. From 0.0s to 1.5s ('Woke up too early'), the voice is breathy, low-pitched, and slightly slurred, mimicking the grogginess of waking up. The tempo is slow and lethargic. From 1.6s to 3.2s ('I just want to sleep now'), there is a palpable sense of exhaustion, with the word 'want' drawn out slightly and the sentence trailing off in pitch at the end, simulating a sigh. The vocal fry and lack of energy are highly convincing of the required cognitive state.",
-    "reasoning_model_2": "The model correctly reads the text content, but completely fails to adhere to the paralinguistic instruction of a 'tired tone'. From 0.0s to 1.0s ('Woke up too early'), the voice is high-pitched, sharp, and energetic, sounding more like a cheerful announcement than a groggy complaint. From 1.0s to 2.5s ('I just want to sleep now'), the tempo remains quick and bouncy. The tone suggests alertness or even perkiness, which is the exact opposite of the requested cognitive state. There are no auditory cues of fatigue, such as breathiness, slower tempo, or lower pitch.",
-    "model_comparison": "Model 1 is the clear winner. It successfully modifies the prosody, pitch, and timbre of the voice to simulate a state of deep fatigue, perfectly matching the user's prompt. The delivery is natural and convincing. Model 2, while getting the text right, generates audio with a tone that is energetic and bright, failing entirely to convey tiredness. It essentially ignores the style constraint.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generates the text 'I warn you, don't make any more mistakes' correctly (00:00-00:02). However, regarding the core instruction to use a 'very low pitch', the model completely fails. The audio features a high-pitched, bright, and somewhat childish female voice. This demonstrates the opposite characteristic of what was requested. While the speech is fluent, the complete disregard for the 'very low pitch' constraint results in a score of 0.",
-    "reasoning_model_2": "Model 2 accurately synthesizes the text script (00:00-00:04). The fluency is excellent with a natural pause after 'warn you' (00:01). Most importantly, the model adheres strictly to the 'very low pitch' instruction. The voice is deep, resonant, and consistent throughout the utterance, effectively conveying the seriousness of the warning. The pitch control is spot-on and perfectly aligns with the prompt.",
-    "model_comparison": "There is a stark contrast between the two models. Model 1 generated a high-pitched voice, which is the exact opposite of the user's specific command for a 'very low pitch'. Model 2 successfully generated a deep, low-pitched voice that fit the command and the context of the sentence perfectly. Model 2 is superior in following the paralinguistic instruction.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

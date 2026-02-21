@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly synthesizes the text 'I've done my best, but the results are still not ideal.' without any errors. The fluency is high, with a natural pacing that incorporates a sense of weariness. Regarding the core paralinguistic requirement (helpless tone), the model performs excellently. From 0.0s to 1.5s ('I've done my best'), there is a palpable sigh-like quality and a descending pitch contour that effectively conveys defeat and resignation. The pause before 'but' and the trailing energy in 'not ideal' (1.6s-3.5s) reinforce the cognitive state of helplessness. The emotion is vivid and accurate.",
-    "reasoning_model_2": "The audio fails significantly on multiple fronts. Firstly, regarding content accuracy, there is a strange, unintelligible vocal hallucination at the very beginning (0.0s-0.5s, sounding like 'Di-yah-b') before the actual script begins. Secondly, the paralinguistic compliance is completely incorrect. Instead of a 'helpless' tone, the voice is bright, energetic, and sounds like it is smiling or laughing (0.6s-3.0s). The pitch is high and bouncy, conveying cheerfulness rather than the requested cognitive state of helplessness.",
-    "model_comparison": "Model 1 is the clear winner. It accurately synthesizes the text and successfully implements the requested 'helpless' tone through appropriate prosody, lower pitch, and a weary delivery. Model 2 fails completely; it includes non-text hallucinations at the start and adopts a cheerful, upbeat tone that is the exact opposite of the user's instruction.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

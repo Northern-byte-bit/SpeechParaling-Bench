@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'I warn you, don't make any more mistakes' correctly (00:00-00:02). However, regarding the specific paralinguistic instruction to use a 'very low pitch', the model fails catastrophically. The voice generated is extremely high-pitched, sounding like a young child or an anime character. This is the direct opposite of the user's request for a low pitch. While the audio is technically fluent, the complete disregard for the core feature control instruction means it fails the evaluation criterion entirely.",
-    "reasoning_model_2": "The model accurately speaks the text 'I warn you, don't make any more mistakes' (00:00-00:05). The flow is very natural with a dramatic, menacing prosody that fits the semantic content of a warning. Crucially, the model strictly adheres to the 'very low pitch' instruction. The voice is deep, resonant, and breathy, effectively lowering the fundamental frequency to convey the requested characteristic vividly. The pitch is consistently low throughout the sentence, perfectly satisfying the core requirement.",
-    "model_comparison": "There is a stark contrast between the two models regarding the core constraint of 'Pitch'. Model 1 completely failed to follow the instruction, generating a high-pitched voice instead of the requested 'very low pitch'. This represents a critical failure in feature control as it produced the opposite characteristic. Model 2, on the other hand, perfectly executed the instruction, delivering a performance with a deep, low pitch that matched both the explicit command and the semantic tone of the text. Consequently, Model 2 is superior in every regard for this specific task.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

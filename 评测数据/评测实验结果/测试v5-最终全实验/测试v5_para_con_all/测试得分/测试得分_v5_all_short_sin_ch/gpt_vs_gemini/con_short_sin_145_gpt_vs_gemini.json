@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly articulates the text content '今天工作量太大了，我真的好累啊。' without any errors. The timestamps for the key expression are throughout the sentence, particularly on '太大了' (0:01) and '好累啊' (0:03). The paralinguistic feature of 'Cognitive State' (Fatigue) is captured exceptionally well. The voice utilizes a breathy quality, reduced energy, and a slightly slower pace typical of exhaustion. The final particle '啊' is delivered as a weary sigh, significantly enhancing the perception of the 'tired' cognitive state. The prosody is natural and human-like.",
-    "reasoning_model_2": "The model generates the text '今天工作量太大了，我真的好累' but omits the final character '啊' required by the prompt. This is a content accuracy issue (minor omission). Regarding the 'Cognitive State' (Fatigue), the model does convey a sense of tiredness through a deeper, heavier tone and a dragging rhythm, particularly on '太大了'. However, the omission of the final particle '啊' abrupts the emotional flow at the end (0:03), missing the opportunity for the 'sighing' effect that the text intended. While the tone is correct, the content flaw and the resulting abrupt ending detract from the overall perfection of the specific request.",
-    "model_comparison": "Model 1 is superior. It follows the content instructions perfectly, whereas Model 2 omits the final character '啊'. This omission in Model 2 not only constitutes a content error but also reduces the paralinguistic impact, as the '啊' in Model 1 serves as an expressive sigh that reinforces the state of fatigue. Model 1's delivery feels complete and naturally weary, while Model 2 feels slightly truncated.",
-    "score_1_1": 3,
-    "score_2_1": 2,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely fails to generate the required text content. Instead of saying 'Really? Quick, tell me the details!', the audio consists only of the word 'details' repeated twice ('Details... details...'). Due to this severe content hallucination and failure to follow the script, the audio is deemed completely incorrect regardless of pitch.",
-    "reasoning_model_2": "The model perfectly accurately reproduces the target text: 'Really? Quick, tell me the details!'. The delivery is natural and fluent (0.0s-2.0s). Regarding the core paralinguistic feature (Pitch), the model successfully adopts a higher pitch register combined with an excited, eager tone, which aligns perfectly with the command. The pitch modulation creates a vivid and realistic expression of curiosity.",
-    "model_comparison": "Model 1 failed completely on the most basic requirement: Content Accuracy. It did not speak the requested sentence, instead hallucinating a repetition of the last word. Model 2 followed all instructions, providing accurate text, natural fluency, and the requested high-pitch vocal characteristic. Therefore, Model 2 is superior.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

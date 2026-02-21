@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly speaks the text content '这次，我们必须成功，没有退路！' without errors. The voice is a fluent, natural-sounding female voice with good recording quality. However, regarding the core requirement to emphasize the word '必须' (must), the model fails to execute this distinctively. The delivery is relatively flat across the sentence, or perhaps slightly stresses '成功' (success) instead. There is no significant change in pitch, volume, or duration on '必须' (00:01-00:02) to make it stand out as requested. It sounds like a standard reading rather than a controlled emphasis generation.",
-    "reasoning_model_2": "The audio accurately produces the text '这次，我们必须成功，没有退路！'. The voice is a male voice with a dramatic and urgent tone, which fits the context well. Crucially, the model successfully follows the specific instruction to emphasize '必须'. At timestamp 00:02, the speaker clearly increases volume and force on '必须', preceded by a slight rhythmic pause that draws attention to the word. The stress is prominent and distinct from the rest of the sentence, satisfying the core paralinguistic requirement perfectly.",
-    "model_comparison": "Both models generate the correct text with high fluency and natural audio quality. The deciding factor is the adherence to the prompt's specific instruction to stress the word '必须'. Model 1 delivers the sentence with a standard, somewhat neutral flow, failing to place any noticeable emphasis on the target word. Model 2, conversely, explicitly and effectively places heavy stress on '必须' through dynamic changes in volume and pacing. Therefore, Model 2 follows the 'Feature Control' instruction much better than Model 1.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

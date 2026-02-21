@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly synthesizes the text '我真的很难过，为什么会这样？' with 100% content accuracy. In terms of the requested feature '带哭声' (with crying sound), the model adopts a sad, somber, and lower-pitched tone suitable for the semantic content. However, it fails to incorporate the specific 'non-verbal' paralinguistic elements of crying, such as audible sobbing, trembling breath, or a breaking voice. The audio remains a clean, fluent speech sample with a sad emotion, rather than a speech 'with crying sounds' as explicitly requested. It misses the specific acoustic texture of the target feature.",
-    "reasoning_model_2": "The model fails the content accuracy requirement by adding explicit text '呜呜' (Wu wu) at the beginning and '呜……' at the end, which are onomatopoeic representations of crying. Crucially, regarding the 'Non-verbal vocalization' feature, the model commits a literal interpretation error: instead of modifying the voice to sound like it is crying (acoustic modulation), it simply reads the characters 'Wu wu' as spoken words. This results in a highly unnatural, mechanical, and incorrect performance where the non-verbal instruction was leaked into the verbal script.",
-    "model_comparison": "Model 1 is the clear winner. While Model 1's expression of 'crying' is understated (closer to just a sad tone), it maintains high fluency, naturalness, and perfect content accuracy. Model 2 fails fundamentally by hallucinating text (reading 'Wu wu' literally) instead of generating the acoustic paralinguistic feature. This literal reading of onomatopoeia is a severe flaw in 'Non-verbal vocalization' generation, making the audio unnatural and unusable.",
-    "score_1_1": 1,
-    "score_2_1": 0,
-    "winner_1": 1
-}

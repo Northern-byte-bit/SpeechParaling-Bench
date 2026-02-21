@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 successfully articulates the target sentence '你为什么又把房间弄得这么乱' (00:00-00:02), capturing the requested 'angry' emotion through a tone of frustration and complaint. However, it fails significantly on Content Accuracy by hallucinating a large amount of unrequested text ('每次都这样，我都没法收拾了... 我真受不了你这种态度', 00:02-00:08). This addition changes the nature of the output from a strictly controlled reading task to a roleplay scenario, violating the instruction to read 'this sentence'. While the emotional expression is vivid, the failure to adhere to the script constraint constitutes a major issue.",
-    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy by synthesizing exactly the requested script '你为什么又把房间弄得这么乱' (00:00-00:01) without any additions or omissions. The delivery adheres to the 'angry' paralinguistic requirement (情感), conveying the emotion through a concise and sharp tone appropriate for the context. The model successfully balances the emotional expression with strict instruction following.",
-    "model_comparison": "Model 2 is the clear winner. While Model 1 provides a highly expressive audio, it fails the fundamental requirement of Content Accuracy by adding significant hallucinated text that was not in the script. This lack of control is a critical failure in a text-to-speech generation task where specific script adherence is required. Model 2 follows the instructions perfectly, delivering the correct content with the appropriate emotional tone. Therefore, Model 2 demonstrates superior performance in Feature Control.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

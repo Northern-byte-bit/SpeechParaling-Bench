@@ -1,0 +1,18 @@
+{
+    "sample_index": 76,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an elderly voice, a slow pace, and a sincere tone: 'My dear children, the journey of life is very long, sometimes you will encounter difficulties, and even feel insurmountable, but as long as you persevere, holding onto hope, you will always see the light of hope, never give up easily.'",
+    "dimensions": [
+        "Age",
+        "Attitude",
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

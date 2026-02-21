@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the text to be read with a 'scream'. Analyzing T1 (0:00-0:04), the content is accurate to the script: 'Wow! I won! That is amazing!' However, the delivery completely fails to meet the paralinguistic requirement of a 'scream'. Instead of a loud, projecting vocalization, the audio sounds like a breathless, high-pitched whisper or a soft gasp. The tone is extremely restrained and lacks the volume, intensity, and projection required for a scream. It sounds more like someone trying to be quiet while excited, rather than screaming. Therefore, it fails the core instruction.",
-    "reasoning_model_2": "The user requested a 'scream'. Analyzing T2 (0:00-0:03), the content is accurate: 'Wow! I won! That is amazing!' The delivery is high-energy, loud, and projected. Specifically, the segments 'Wow!' and 'I won!' are shouted with significant force and excitement, effectively interpreting 'scream' in the context of a victory celebration (a shout of joy). The prosody is natural for a high-intensity exclamation. It successfully conveys the required non-linguistic vocalization style (shouting/screaming) requested in the prompt.",
-    "model_comparison": "Model 2 is the clear winner. The instruction specifically asked for a 'scream'. Model 1 provided a soft, breathy, whisper-like delivery that is the polar opposite of a scream in terms of volume and intensity. Model 2 provided a loud, enthusiastic shout that fits the context of 'screaming' for victory. Model 1 failed the core controllable feature, while Model 2 succeeded.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

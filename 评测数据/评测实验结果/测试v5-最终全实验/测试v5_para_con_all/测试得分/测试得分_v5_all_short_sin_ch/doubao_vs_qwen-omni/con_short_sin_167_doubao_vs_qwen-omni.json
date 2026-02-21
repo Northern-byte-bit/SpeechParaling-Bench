@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model performs exceptionally well in adhering to the user's command. At the very beginning (00:00-00:01), there is a distinct, natural, and audible non-verbal sigh ('Haa...'), which directly fulfills the requirement for '非语言发声' (non-verbal vocalization/sigh). The subsequent speech '总算完成了，可算松了一口气' (00:01-00:04) maintains a weary yet relieved tone that perfectly aligns with the physiological act of sighing. The prosody is breathy and the pace is appropriately slow, enhancing the naturalness.",
-    "reasoning_model_2": "The model generates the text content accurately ('总算完成了，可算松了一口气'), and the tone is somewhat relieved and upbeat (00:00-00:02). However, it fails to incorporate the specific '非语言发声' (non-verbal vocalization) requested. There is no audible sigh sound (like an exhalation or 'Hah') either before, during, or after the speech. The delivery sounds like a standard reading of the sentence with a happy tone rather than a 'sighing' manner.",
-    "model_comparison": "Model 1 is the clear winner. The prompt explicitly requested the audio to be spoken 'with a sigh' (带叹气的方式) and evaluated on 'Non-verbal vocalization'. Model 1 successfully generated a realistic non-verbal sigh sound at the start of the audio and maintained the corresponding breathy prosody. Model 2 merely read the text with a relieved tone but failed to generate the actual non-verbal sigh sound, missing the core constraint of the prompt.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

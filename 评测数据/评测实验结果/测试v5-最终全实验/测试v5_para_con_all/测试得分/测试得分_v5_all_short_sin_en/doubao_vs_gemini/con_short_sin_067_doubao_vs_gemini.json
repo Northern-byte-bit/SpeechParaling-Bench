@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content matches the script 'Let's go out for dinner tonight.' perfectly (00:00-00:01). However, regarding the core dimension of 'Volume', the model fails to adhere to the instruction for a 'normal volume'. Instead of a standard conversational projection, the speech is delivered in a breathy, subdued, and almost whispering tone. The volume is noticeably lower than a natural speaking voice, sounding more like a 'low volume' or 'sad' style generation rather than the requested neutral/normal level.",
-    "reasoning_model_2": "The audio content accurately reproduces the script 'Let's go out for dinner tonight.' (00:00-00:02). The fluency is high with natural prosody. Critically, the model succeeds in the 'Volume' dimension. The voice is projected clearly with standard intensity, typical of a normal conversation. It is neither too loud nor too quiet, fitting the definition of 'normal volume' perfectly.",
-    "model_comparison": "Model 2 is the clear winner. The instruction specifically requested a 'normal volume'. Model 1 produced a soft, breathy, and whisper-like output that corresponds to 'low volume' or a specific emotional style (sadness/pleading), thereby failing the specific control constraint. Model 2 produced a clear, well-projected voice that accurately represents a standard, normal conversational volume as requested.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

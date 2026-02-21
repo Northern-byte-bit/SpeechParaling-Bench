@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'Happy New Year everyone! May all your wishes come true!' accurately. Regarding the core feature 'Volume' (loudly), the speech is delivered with high energy and strong projection (0:00-0:04). The tone is enthusiastic and the voice is raised, effectively simulating someone calling out a greeting to a crowd. This aligns well with the instruction to read with a 'loudly volume', avoiding being deafening but clearly differentiating itself from a conversational or quiet tone through increased vocal effort and pitch dynamics.",
-    "reasoning_model_2": "The model generates the text accurately. However, regarding the 'Volume' instruction, the audio fails completely. The delivery (0:00-0:05) is soft, gentle, and intimate, resembling a warm wish spoken in a quiet room rather than a loud declaration. The volume is low and the vocal projection is minimal. While the audio is fluent and natural-sounding, it expresses the opposite characteristic (soft/gentle) of the requested feature (loudly).",
-    "model_comparison": "Model 1 followed the instruction to speak with a 'loudly volume' by generating speech with high energy, enthusiasm, and vocal projection, suitable for a public greeting. Model 2, while producing high-quality natural speech, failed the specific paralinguistic instruction by adopting a soft, quiet, and intimate tone, which is the opposite of the requested 'loudly' volume. Therefore, Model 1 is the clear winner for adhering to the control prompt.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

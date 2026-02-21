@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately identifies the paralinguistic requirement for a 'quietly volume' (whispering) prompted by the text content 'Shhh, the baby is asleep'. From 00:00 to 00:01, the model produces a prolonged, realistic unvoiced 'Shhh' sound. From 00:01 to 00:05, the entire sentence 'the baby is asleep, let's be quiet' is delivered in a consistent, breathy whisper. The prosody is natural for a whisper, maintaining intelligibility while completely adhering to the low volume and hushed tone constraint. There are no fluency issues or artifacts.",
-    "reasoning_model_2": "Model 2 struggles to maintain the requested 'quietly volume' throughout the sentence. From 00:00 to 00:02 ('Shh, the baby is asleep'), the audio is delivered with a standard voiced phonation at a normal conversational volume, failing to adopt the requested quiet or whispered tone. It is only from 00:02 to 00:03 ('Let's be quiet') that the model lowers its volume and pitch significantly, attempting to sound quiet. This inconsistency makes the performance jarring and fails to meet the core instruction for the majority of the audio.",
-    "model_comparison": "Model 1 is the clear winner. It interprets 'quietly volume' in the context of the script ('baby is asleep') as a whisper and maintains this paralinguistic feature consistently from start to finish. The result is natural and fits the scenario perfectly. Model 2, in contrast, speaks the first half of the sentence in a normal, full voice, which directly contradicts the text ('Shhh') and the user's volume command. It only lowers the volume at the very end, resulting in a disjointed and largely incorrect performance.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

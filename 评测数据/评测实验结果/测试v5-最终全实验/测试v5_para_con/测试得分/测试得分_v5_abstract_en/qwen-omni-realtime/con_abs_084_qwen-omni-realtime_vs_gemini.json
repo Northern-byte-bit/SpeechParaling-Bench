@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with high content accuracy, with only a negligible deviation where the contraction 'it's' is expanded to 'it is', which actually enhances the formal and conservative tone. The paralinguistic performance is strong; the pacing is deliberately measured and slightly slower than average (e.g., the pause after 'collaboration' at 0:02), and the enunciation is precise. The tone is serious and restrained, effectively conveying a 'cautious' and 'conservative' attitude regarding the business proposal. The delivery avoids high-energy peaks, maintaining a safe, low-risk emotional profile consistent with the prompt.",
-    "reasoning_model_2": "The model completely fails the Content Accuracy criterion. Instead of reading the specified sentence ('Regarding this cross-departmental collaboration...'), the model paraphrases the meaning into entirely new text ('I believe it's wise to proceed with care here...'). According to the evaluation criteria, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, no further analysis of the paralinguistic features is relevant to the scoring.",
-    "model_comparison": "Model 1 followed the instructions, delivering the correct text with the requested paralinguistic features. The audio demonstrated a measured pace and serious tone that aligns well with a cautious and conservative attitude. Model 2, while generating fluent speech, failed to read the specific text provided in the prompt, instead hallucinating a paraphrase. This is a critical failure in instruction following regarding content generation. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

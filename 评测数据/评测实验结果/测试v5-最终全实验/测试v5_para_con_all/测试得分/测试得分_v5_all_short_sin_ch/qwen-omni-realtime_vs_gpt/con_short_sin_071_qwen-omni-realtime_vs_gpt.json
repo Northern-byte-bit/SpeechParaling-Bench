@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model's performance is fundamentally flawed regarding Content Accuracy. While the target sentence '你过来，我有个秘密要告诉你' is present, the model hallucinates and appends a long descriptive phrase: '声音轻的像风拂过耳畔，怕被别人听见是的' (0:03-0:07). This extra content violates the script requirements. In terms of the '音量' (Volume) dimension, the audio fails to convey the 'quiet' or 'whispered' characteristic. The delivery uses a standard, full-voice phonation with normal projection (0:00-0:07), lacking the breathiness or reduced intensity associated with 'small volume' or telling a secret.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reading only the target text '你过来，我有个秘密要告诉你' with no additions or omissions. Regarding the '音量' (Volume) dimension, the model successfully executes the command. From 0:00 to 0:04, the speech is delivered in a distinct whisper (breathy phonation, low intensity), which perfectly fits the context of telling a secret and the instruction for 'small volume'. The prosody remains natural despite the whisper, making it highly effective.",
-    "model_comparison": "Model 2 is significantly superior. Model 1 completely fails the evaluation because it hallucinates extra text and does not modify its vocal features to match the 'small volume' instruction (speaking in a normal tone instead). Model 2 correctly interprets the command, providing an audio clip that is both textually accurate and stylistically spot-on, using a convincing whisper to represent the requested volume.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

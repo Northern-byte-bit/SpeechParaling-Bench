@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '别吵醒他，他工作了一整晚' with perfect accuracy. Regarding the paralinguistic feature '音量' (Volume), the model explicitly follows the instruction to speak with a 'low volume' (小声). From 0:00 to the end, the voice is characterized by a breathy, hushed whisper (stage whisper), significantly reducing vocal projection. This perfectly matches the semantic context of not wanting to wake someone up. The delivery is natural, fluent, and effectively conveys the intended constraint.",
-    "reasoning_model_2": "The model accurately reproduces the text content. However, it fails to incorporate the required 'low volume' (小声) feature. From 0:00 to the end, the speech is delivered with a standard, bright, and fully projected conversational tone. There is no perceptible reduction in volume or change in timbre towards a whisper or hushed tone. The delivery sounds like a standard audiobook narration, which contradicts the explicit command and the semantic context of the sentence ('Don't wake him up').",
-    "model_comparison": "There is a stark contrast between the two models. Model 1 (T1) correctly interpreted the instruction 'low volume' and the context 'don't wake him up', producing a natural, hushed whisper. Model 2 (T2) completely ignored the paralinguistic instruction, delivering the line in a standard, normal-volume reading voice which is inappropriate for the specific request. T1 is superior as it successfully implements the control feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generated the audio with significant content hallucination. The user requested the model to say specifically '欢迎光临，我们很高兴为您服务。', but the model added '您的到来让这里更添温馨与喜悦，愿您在这里度过愉快的时光'. This violates the content accuracy requirement significantly (adding entire sentences). Regarding the '圆润' (mellow/round) tone, the voice is a standard bright and sweet female voice. While pleasant and smooth, it leans more towards 'sweet' (甜美) rather than the requested 'mellow/round' (圆润) quality, which usually implies a richer, fuller, and potentially lower-pitched resonance. The significant deviation from the script is a major flaw.",
-    "reasoning_model_2": "Model 2 followed the script perfectly, saying exactly '欢迎光临，我们很高兴为您服务。' without any additions or omissions. In terms of the '圆润' (mellow/round) tone, the model generated a male voice with a soft, warm, and smooth texture. The delivery is calm and polite, fitting the service context. The voice quality lacks sharpness and has a comfortable, rounded resonance, effectively capturing the requested 'mellow' characteristic. The pacing is natural, and the expression is clear.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the instruction adherence test by hallucinating additional sentences that were not requested in the prompt. Model 2 adhered strictly to the requested text. Furthermore, regarding the target feature '圆润' (mellow tone), Model 2's voice texture was warmer, smoother, and more resonant, fitting the description of 'mellow' better than Model 1's standard bright/sweet female voice.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

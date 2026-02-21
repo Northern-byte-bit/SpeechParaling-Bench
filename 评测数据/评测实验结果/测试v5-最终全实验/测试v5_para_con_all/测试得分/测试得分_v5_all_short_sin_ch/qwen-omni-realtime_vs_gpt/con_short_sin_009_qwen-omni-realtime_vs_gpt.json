@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the model to say the sentence: '明天早上我会去健身房锻炼身体。'. However, Model 1 completely ignored the specific script and instead generated an improvised, conversational paragraph: '明天早上啊，我得早点起来，去健身房活动活动...'. This constitutes a major failure in Content Accuracy as the voice content is clearly inconsistent with the required script. While the prosody attempts a conversational 'middle-aged aunty' persona, the failure to follow the text constraint is critical. According to the scoring standard, if content is clearly inconsistent, the score drops to 0.",
-    "reasoning_model_2": "Model 2 follows the text instruction perfectly, reading exactly '明天早上，我会去健身房锻炼身体。'. There are no pronunciation errors or unnecessary additions. In terms of the 'Age' feature, the voice used is a deep, resonant, and steady male voice, which naturally evokes the image of a middle-aged individual. The tone is calm and mature, fitting the 'middle-aged' (中年) descriptor well. The audio is fluent and high-quality.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the primary instruction to read the specific text provided, instead hallucinating a different script. This is a disqualifying error based on the Content Accuracy criterion. Model 2 accurately synthesized the requested text and successfully applied a voice timbre that fits the 'middle-aged' description.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly articulates the content '请给我一杯水，谢谢' (00:00-00:03). However, regarding the core requirement '沙哑的音质' (hoarse/husky voice quality), the model fails completely. The voice generated is a standard, clear, and bright female voice with no trace of huskiness, breathiness, or vocal strain. It sounds like a default reading tone. Therefore, it scores 0 on the paralinguistic dimension as it is devoid of the requested feature.",
-    "reasoning_model_2": "The audio correctly articulates the content '请给我一杯水，谢谢' (00:00-00:04). The model successfully implements the '沙哑的音质' (hoarse/husky voice quality). From the very first syllable to the end, the voice sounds strained, breathy, and raspy, effectively simulating the physical condition of a hoarse throat or weakness. The prosody is also adjusted to fit this vocal texture (slower, slightly dragging), enhancing the naturalness of the 'hoarse' persona. It is a vivid and accurate representation.",
-    "model_comparison": "Model 1 failed to follow the specific style instruction '沙哑' (hoarse/husky), producing a standard clear voice instead. Model 2 perfectly executed the instruction, delivering a voice that was distinctly hoarse and textured, matching the semantic context of asking for water. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

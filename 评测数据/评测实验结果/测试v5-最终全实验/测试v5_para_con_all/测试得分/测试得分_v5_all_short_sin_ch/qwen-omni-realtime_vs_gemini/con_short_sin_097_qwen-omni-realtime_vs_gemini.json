@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model attempts the target sentence '嗯……早……早安……有点困。' in the first segment (00:00-00:03) with the requested intermittent rhythm and a sleepy tone. However, the model fails critically on Content Accuracy. Immediately following the target sentence, it hallucinates a lengthy, unrequested monologue ('啊，眼皮好重...', etc.) lasting from 00:04 to 00:19. This violates the prompt's instruction to strictly 'read this sentence'. While the rhythm of the initial segment is correct, the inclusion of extensive extra content constitutes a major issue, rendering the audio inconsistent with the script constraints.",
-    "reasoning_model_2": "The model strictly adheres to the provided script with perfect Content Accuracy, containing no hallucinations or omissions. Regarding the dimension '节奏' (Rhythm), the audio demonstrates the requested '断断续续' (intermittent) feature effectively. The timestamps indicate distinct pauses between segments (e.g., '嗯' at 00:00, '早' at 00:01, '早安' at 00:02), creating a halting pace that fits the sleepy context ('有点困') and the user's specific rhythmic command. The delivery is controlled and accurate.",
-    "model_comparison": "Model 2 (T2) is the clear winner. T1 commits a severe error in Content Accuracy by generating a large amount of hallucinated text after the target sentence, which violates the core constraint of the prompt. T2, conversely, follows the instructions perfectly, delivering exactly the requested text with the specified 'intermittent' rhythm. Although T1's rendition of the specific target phrase was tonally adequate, the failure to stop makes the generation extremely poor in terms of instruction following.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

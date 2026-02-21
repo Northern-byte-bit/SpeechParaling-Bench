@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly synthesizes the text '太棒了，我们终于成功了！' (00:00-00:02). In terms of the 'High Pitch' (音高) requirement, the model utilizes a female voice with a naturally higher fundamental frequency. The delivery is bright, clear, and maintains a high register throughout the sentence, effectively conveying the excitement and meeting the acoustic constraint of 'high pitch'. The speech is fluent and natural.",
-    "reasoning_model_2": "The audio accurately synthesizes the text content (00:00-00:02) with good fluency and high energy. However, regarding the 'High Pitch' (音高) requirement, the model uses a male voice with a baritone/tenor quality. While the delivery is loud and enthusiastic (00:00-00:01 '太棒了'), the absolute pitch is low to mid-range. It fails to adhere to the specific instruction to use a 'high pitch', as the voice remains deep and resonant.",
-    "model_comparison": "Model 1 (T1) followed the user's specific command to use 'high pitch' by generating a female voice with a high fundamental frequency. Model 2 (T2) generated a male voice which, although energetic and loud, possesses a low acoustic pitch, directly contradicting the 'high pitch' constraint. Therefore, T1 is the clear winner for strictly following the feature control instruction.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

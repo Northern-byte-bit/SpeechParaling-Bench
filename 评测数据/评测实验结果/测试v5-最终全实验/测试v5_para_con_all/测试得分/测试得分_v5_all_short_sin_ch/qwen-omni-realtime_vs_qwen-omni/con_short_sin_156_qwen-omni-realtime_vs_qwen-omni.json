@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails strictly on Content Accuracy. The user requested the specific text '我已经尽力了，结果还是不理想。', but the model hallucinated and paraphrased the content to '哎，我真的已经拼尽全力了，可结果还是差那么一点点，真是让人无语又无奈啊。' (0.0s - end). According to the scoring standard, voice content clearly inconsistent with the script warrants a score of 0. Furthermore, regarding the '无奈' (helpless) tone, the delivery was too energetic, high-pitched, and sounded more like a casual or slightly acting-cute complaint rather than a genuine, heavy-hearted resignation.",
-    "reasoning_model_2": "Model 2 demonstrates excellent Content Accuracy, reading the text '我已经尽力了，结果还是不理想。' exactly as requested. Regarding the '认知状态' (Cognitive State) of helplessness/resignation: The model employs a slower pace, lower pitch, and a flatter intonation curve (0.0s - 2.5s). The pause after '尽力了' and the falling tone at the end of '不理想' effectively convey a sense of defeat and acceptance of a bad outcome, matching the '无奈' descriptor very well. The audio is natural and fluent.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 committed a critical error by completely changing the text content, which invalidates the generation based on the 'Content Accuracy' criteria. Additionally, Model 1's emotional expression was mismatched (too lively). Model 2 followed instructions precisely and delivered a convincing performance of the requested cognitive state.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

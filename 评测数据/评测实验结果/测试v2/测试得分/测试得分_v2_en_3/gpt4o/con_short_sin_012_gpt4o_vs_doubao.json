@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 demonstrates perfect content accuracy, reciting the text 'When I was young, we often helped in the fields' verbatim. In terms of paralinguistic compliance, the model successfully adopts a distinct elderly persona. The voice exhibits characteristic features such as a slight vocal tremor, raspiness, and a deliberate, somewhat slower pacing (0.0s-1.5s 'When I was young') that strongly aligns with the 'Age' attribute. The fluency is high, with natural intonation and no mechanical artifacts.",
-    "reasoning_model_2": "Model 2 fails the strict content accuracy test. The prompt required the word 'fields' (plural), but the model said 'field' (singular) at the end of the sentence. Regarding the 'Age' feature, while the voice is deeper and slower than a standard neutral voice, it lacks the specific textural qualities (shakiness, weathering) associated with an elderly voice. It sounds more like a middle-aged male speaking slowly or lethargically rather than a convincing elderly character. The expression is somewhat flat.",
-    "model_comparison": "Model 1 is the clear winner. It followed the content instructions perfectly and delivered a highly convincing 'elderly' vocal performance with appropriate timbre and prosody. Model 2 contained a content error (singular 'field' instead of 'fields') and the vocal characterization was much weaker, resembling a tired deep voice rather than a distinctly elderly one.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

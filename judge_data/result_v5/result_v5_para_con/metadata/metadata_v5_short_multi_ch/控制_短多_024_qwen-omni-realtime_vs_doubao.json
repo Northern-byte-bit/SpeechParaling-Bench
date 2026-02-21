@@ -1,0 +1,16 @@
+{
+    "sample_index": 24,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用极快速的语速冷淡地说: 行了行了，我知道了，没什么好说的。",
+    "dimensions": [
+        "语速",
+        "态度"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

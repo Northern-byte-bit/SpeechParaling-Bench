@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the sentence be read with a 'rude tone'. The generated audio (0:00-0:02) presents a voice that is bright, enthusiastic, and distinctly friendly. The word 'Hey' is elongated with a cheerful pitch, and the phrase 'Bring that thing over here' has an upward, inviting inflection. This delivery interprets the text as a helpful or happy suggestion, which is the exact opposite of the requested 'rude' attitude. While the content accuracy and fluency are high, the model completely fails the specific paralinguistic constraint by expressing a polite and positive emotion.",
-    "reasoning_model_2": "The model successfully adopts a tone consistent with a 'rude' or authoritative command. From 0:00 to 0:02, the delivery is direct, slightly deeper, and lacks pleasantries. The 'Hey' is short and demanding, and the command 'Bring that thing over here' is delivered with a downward, final inflection that implies impatience and authority. The pacing is deliberate and assertive. This effectively conveys the requested rude attitude, distinguishing it clearly from a neutral or friendly reading.",
-    "model_comparison": "The evaluation hinges entirely on the 'Attitude' dimension, specifically the request for a 'rude tone'. Model 1 failed this requirement significantly, producing a cheerful and friendly output that contradicts the user's intent. Model 2 successfully implemented the instruction, modifying the prosody and tone to sound commanding, impatient, and rude. As Model 1 expressed the opposite paralinguistic feature to what was requested, and Model 2 provided a vivid and accurate representation, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

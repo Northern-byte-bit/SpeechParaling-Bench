@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the primary evaluation criteria of Content Accuracy. The command required the specific sentence '你到底在干什么？' (What on earth are you doing?), but the model generated '你到底呢干什么？' (replacing '在' with '呢'). This substitution creates a grammatical error and alters the pragmatic tone of the sentence, making it sound more like a confused stutter than a command. Due to this text error, the paralinguistic goal of 'shouting' is undermined, as the particle '呢' is naturally softer and conflicts with the aggressive onset required for the command. The overall impact is unnatural and incorrect.",
-    "reasoning_model_2": "The model achieved perfect Content Accuracy, reciting the script '你到底在干什么？快给我住手！' exactly as requested. In terms of Paralinguistic Compliance, the audio effectively conveys the 'shouting' volume (音量) and the associated urgency. The delivery of '快给我住手！' (Stop it immediately!) maintains high energy and appropriate projection, consistent with a shouting style. The prosody is natural and fits the context of an angry confrontation without mechanical artifacts.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the most basic requirement of Content Accuracy by hallucinating/substituting the character '在' with '呢', which broke the sentence structure and the intended aggressive tone. Model 2 followed the text perfectly and successfully integrated the required 'shouting' paralinguistic feature, delivering a performance that matched the user's intent in both content and style.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

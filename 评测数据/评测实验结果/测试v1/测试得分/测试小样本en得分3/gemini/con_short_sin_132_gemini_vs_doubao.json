@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduces the content, though it expands the contraction 'it's' to 'it is', which is a minor normalization artifact. Paralinguistically, the model excels at conveying fear. From 0.0s to 2.5s, the voice exhibits a distinct trembling and shakiness characteristic of genuine fright. The prosody is hesitant, and the breathiness is well-calibrated to sound like someone who is scared of the dark. The emotional expression is vivid and immediately recognizable as fearful.",
-    "reasoning_model_2": "The model also expands 'it's' to 'it is', maintaining general content accuracy. In terms of emotion, the model adopts a breathy, whispered tone (0.0s - 2.5s). While this conveys a sense of suspense or mild fear (like telling a scary story), it lacks the visceral, trembling quality found in human fear responses. The expression is somewhat flat compared to a truly fearful reaction, making the emotion discernible but not fully vivid.",
-    "model_comparison": "Both models expanded the contraction 'it's' to 'it is', performing identically on content accuracy. The decisive factor is the 'Emotion' dimension. Model 1 provided a much more convincing performance by incorporating a trembling, shaky voice quality that strongly signals fear. Model 2 relied on a breathy, quiet tone which sounded more like a stage whisper or suspenseful storytelling rather than the immediate emotion of fear. Model 1's expression was more vivid and spot-on.",
-    "score_1": 3,
-    "score_2": 2,
-    "winner": 1
-}

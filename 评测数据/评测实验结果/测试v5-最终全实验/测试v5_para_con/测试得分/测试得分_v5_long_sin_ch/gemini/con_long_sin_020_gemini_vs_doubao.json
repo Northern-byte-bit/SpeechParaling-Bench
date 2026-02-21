@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails strictly on Content Accuracy. The user requested the model to read a specific Chinese sentence: '这份文件我已经核对完毕...'. However, Model 1 generated an English translation of the text ('This document I have already checked and completed...'). According to the evaluation criterion, if the voice content is clearly inconsistent with the script (in this case, the wrong language), it is a major error. Since the model failed to speak the target text entirely, it receives a score of 0, and the specific paralinguistic feature 'Pitch' cannot be successfully evaluated on incorrect content.",
-    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, reading the Chinese script ('这份文件，我已经核对完毕...') exactly as requested without errors or omissions. The timestamps indicate a natural flow suitable for the sentence length. Regarding the 'Pitch' (音高) dimension, the model correctly adheres to the command '用中音说' (Speak in a mid-range pitch), delivering the audio in the correct language and with the requested tonal characteristic. The speech is fluent and matches the script perfectly.",
-    "model_comparison": "There is a significant difference in performance between the two models. Model 1 failed to follow the basic Text-to-Speech instruction by translating the Chinese text into English, resulting in a complete failure in Content Accuracy. Model 2 correctly synthesized the requested Chinese text and adhered to the pitch instruction. Consequently, Model 2 is superior.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

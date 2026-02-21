@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the requested non-linguistic vocalization. At timestamp 0:00-0:02, the audio explicitly generates 'Hahaha', a clear sound of laughter, before proceeding with the text. The transition from the laughter to the speech is natural, and the prosody of the spoken sentence 'That is a really good idea...' likely carries the residual amused tone of the laughter. Although there is a minor deviation in content (expanding 'That's' to 'That is'), it does not affect the meaning or the paralinguistic performance. The core requirement of 'Non-Linguistic Vocalizations' is fully met.",
-    "reasoning_model_2": "The model generates the text accurately (with the same minor expansion of 'That's' to 'That is' as Model 1), but it completely fails to incorporate the requested non-linguistic vocalization. The transcript indicates a straightforward reading of the text: 'That is a really good idea, Why didn't I think of that?'. There is no evidence of explicit laughter (like 'haha' or 'hehe') or significant non-linguistic sounds required by the prompt's category. Consequently, it fails the core controllable characteristic assessment.",
-    "model_comparison": "Model 1 followed the specific instruction to include 'laughter' by generating explicit non-linguistic vocalizations ('Hahaha') at the beginning of the speech. Model 2 merely read the text without adding the requested vocal feature. Therefore, Model 1 demonstrates superior control over paralinguistic features and non-linguistic vocalizations.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

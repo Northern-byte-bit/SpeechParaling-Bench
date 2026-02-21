@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reads the script in English as requested. The paralinguistic feature of 'crying' is implemented very effectively. Throughout the audio (0:00-0:05), the voice exhibits distinct tremolo (shakiness), audible wet breaths/gasps between phrases (e.g., at 0:02), and a strained vocal quality characteristic of someone holding back tears or sobbing. The pacing is naturally broken up by the emotional state, enhancing the realism. The content matches the text perfectly.",
-    "reasoning_model_2": "The model fails the Content Accuracy criterion completely. Instead of reading the English text provided ('This movie is so touching...'), it translates the content into Chinese ('这部电影太感人了...'). Furthermore, it vocalizes the stage direction 'Sobbing' as spoken text at the beginning ('抽泣着', 0:00-0:01) rather than just performing the non-linguistic sound. While the tone of the Chinese speech is indeed sad and tearful, the unauthorized language switch and the reading of the mood instruction as text constitute a complete failure to follow the specific command regarding the script.",
-    "model_comparison": "Model 1 followed all instructions, providing the correct English text with a convincing, high-quality crying overlay (shaky voice, sobbing breaths). Model 2 hallucinated a translation task, speaking in Chinese and reading the emotion tag as text. Therefore, Model 1 is the clear winner due to Model 2's failure in Content Accuracy.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

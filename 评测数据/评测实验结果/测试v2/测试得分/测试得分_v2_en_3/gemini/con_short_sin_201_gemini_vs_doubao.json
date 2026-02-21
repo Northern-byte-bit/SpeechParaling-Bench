@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the text 'Hmph, not worth mentioning.' with a contemptuous tone. This model fails on Content Accuracy by omitting the initial 'Hmph' entirely; the audio starts directly with 'not worth mentioning.' regarding the tone, while it sounds slightly dismissive or bored, it lacks the specific emotional color of contempt. The delivery is somewhat flat and sounds more like a neutral statement of fact rather than an emotional expression. Due to the omission of text and the weak expression of the target attitude, this receives a low score.",
-    "reasoning_model_2": "This model follows the text script perfectly, including the non-verbal vocalization indicated by 'Hmph'. At 0:00-0:01, the model produces a clear scoffing sound, which effectively sets the contemptuous tone. The subsequent phrase 'not worth mentioning' (0:01-0:03) is delivered with a light, dismissive inflection that implies the subject is beneath the speaker's notice. The fluency is natural, and the paralinguistic feature is vivid and accurately conveyed.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to synthesize the complete text, omitting the word 'Hmph' entirely, which is a significant content error. Furthermore, Model 1's tone was relatively flat and closer to boredom than contempt. Model 2 correctly interpreted 'Hmph' as a scoffing sound, which greatly enhanced the paralinguistic performance, and delivered the rest of the sentence with a convincing, dismissive attitude that matched the prompt perfectly.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

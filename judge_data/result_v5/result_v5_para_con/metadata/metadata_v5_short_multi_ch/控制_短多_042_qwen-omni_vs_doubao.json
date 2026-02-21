@@ -1,0 +1,16 @@
+{
+    "sample_index": 42,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用极低音的声调冷淡地说: 这件事，你最好别插手。",
+    "dimensions": [
+        "音高",
+        "态度"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

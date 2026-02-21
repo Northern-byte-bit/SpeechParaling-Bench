@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '我觉得这个方案可能有点风险，不过我们可以再研究一下细节' with perfect content accuracy. Regarding the core paralinguistic requirement (start with a whisper, gradually increase volume to normal), the model performs very well. From 00:00 to 00:02 ('我觉得这个方案可能有点风险'), the voice is clearly breathy and whispered, perfectly matching the 'start with whisper' instruction. At 00:03 ('不过'), the voice begins to transition, gaining more phonation. By 00:04-00:06 ('我们可以再研究一下细节'), the voice has shifted to a full, normal speaking volume and modal voice quality. The gradual transition is distinct and effectively conveys the dynamic adjustment requested.",
-    "reasoning_model_2": "The model generates the text accurately. However, it completely fails to follow the paralinguistic instructions regarding volume and whispering. From 00:00 to the end, the audio is spoken in a consistent, standard projecting voice (modal voice). There is no whisper at the beginning ('我觉得这个方案可能有点风险' is spoken normally), and consequently, there is no gradual increase in volume. The audio remains flat in terms of dynamic variation, ignoring the prompt entirely.",
-    "model_comparison": "Model 1 followed the complex instruction to dynamically adjust the audio from a whisper to normal volume. The distinction between the whispered first half and the normal second half is clear and natural. Model 2 completely ignored the style instruction and read the whole sentence in a standard, constant volume without any whispering. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

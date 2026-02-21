@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the requested text: 'Look, that cat is chasing its tail again, so amusing.' The content is 100% accurate. Regarding the paralinguistic feature (Non-Linguistic Vocalizations/Laughter), the model successfully integrates laughter into the speech. There are audible breathy laughs at the beginning (0:00-0:01) and interwoven with the words 'Look' and throughout the sentence. The prosody reflects the physical act of laughing while speaking (trembling pitch, breathiness). The laughter sounds relatively natural and matches the context of the sentence perfectly.",
-    "reasoning_model_2": "The model fails completely on Content Accuracy. The user requested to read: 'Look, that cat is chasing its tail again, so amusing.' However, the model generated: 'Oh my gosh look at that cat, chasing its own tail again, he's absolutely hilarious, I can't stop laughing.' This is a complete hallucination/rewriting of the script. According to the Detailed Scoring Standard, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, despite the tone being consistent with amusement, the failure to follow the content constraint renders the generation invalid.",
-    "model_comparison": "Model 1 followed all instructions: it read the correct text and applied the requested paralinguistic feature (laughter) effectively. Model 2 failed the most basic instruction by completely changing the text script. Therefore, Model 1 is the clear winner. Model 2 receives a score of 0 due to the severe content hallucination.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

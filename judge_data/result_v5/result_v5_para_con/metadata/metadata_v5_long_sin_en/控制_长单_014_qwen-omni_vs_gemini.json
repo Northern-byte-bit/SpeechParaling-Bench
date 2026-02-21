@@ -1,0 +1,14 @@
+{
+    "sample_index": 14,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very high pitch: 'Run! There's a big bee over there! I'm most afraid of getting stung, it looks so fierce! Let's quickly hide inside the room, otherwise, it's going to chase us!'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

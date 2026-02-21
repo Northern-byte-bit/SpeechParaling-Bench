@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully synthesizes the text 'Paris is the capital and largest city of France.' with complete accuracy. No words are omitted or changed. In terms of fluency, the speech is smooth, clear, and paced naturally (0:00-0:04). Regarding the core paralinguistic requirement of 'neutral emotion,' the model performs excellent work. The tone is factual, calm, and steady, characteristic of a standard documentary or assistant voice, without any unnecessary inflection of happiness, sadness, or excitement. It perfectly adheres to the 'neutral' instruction.",
-    "reasoning_model_2": "The model fails strictly on the dimension of Content Accuracy. The user requested to read the specific sentence: 'Paris is the capital and largest city of France.' However, the model generated: 'Paris is the capital of France and one of the largest cities in Europe.' This is a significant deviation from the provided script, constituting a hallucination or paraphrasing error that is unacceptable for a controlled reading task. Consequently, per the scoring standards for 'Voice content is clearly inconsistent with the script,' this model receives a score of 0, regardless of its emotional tone.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested neutral emotion. Model 2 failed the most basic requirement of text-to-speech tasks by changing the script entirely (saying 'one of the largest cities in Europe' instead of 'largest city of France'). Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

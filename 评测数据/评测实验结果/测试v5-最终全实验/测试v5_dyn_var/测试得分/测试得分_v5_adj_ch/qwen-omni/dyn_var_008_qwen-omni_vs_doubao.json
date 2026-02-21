@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with high fluency and content accuracy; however, it fails significantly in the core requirement regarding pitch dynamics. The user requested to start with a medium pitch and gradually increase to an 'extremely high pitch'. The audio maintains a relatively flat, medium-to-low pitch throughout the entire clip (0.0s - 4.5s). Even during the climax segments '射门！进了！太精彩了！' (2.5s - 4.5s), the voice remains calm and composed, lacking the necessary rise in pitch and intensity associated with the text and the instruction. Consequently, the dynamic adjustment is ineffective.",
-    "reasoning_model_2": "The model successfully executes the user's instruction. The audio begins with a medium pitch and a narrator-like tone at '比赛进行到关键时刻' (0.0s - 1.5s). As the action progresses to '他带球突破' (1.5s - 2.5s), the pitch and intensity noticeably rise. The climax '射门，进了，太精彩了！' (2.5s - end) is delivered with a significantly higher pitch and increased energy, effectively simulating a sports commentator's excitement. The transition is smooth and natural, fulfilling the requirement for a gradual increase to a high pitch.",
-    "model_comparison": "Model 2 is the clear winner. While both models produced fluent speech with accurate content, Model 1 completely ignored the paralinguistic instruction to increase pitch, resulting in a flat, unemotional delivery that contradicted the context of a sports climax. Model 2, on the other hand, demonstrated a clear and natural progression in pitch, starting from a medium level and building up to a high-pitched, excited tone as requested. Model 2 followed the dynamic adjustment instructions effectively.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

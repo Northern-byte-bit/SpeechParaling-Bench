@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content '嗯，这个菜的味道真不错！' accurately, matching the script with good fluency and no mechanical artifacts. However, regarding the specific paralinguistic instruction '带咂嘴的方式' (with smacking lips), the audio fails to convey the required feature. The initial '嗯' (0.0s - 0.5s) is pronounced as a standard modal particle without any distinct lip-smacking or wet mouth sounds that would indicate savoring the food. The delivery is polite but lacks the specific non-verbal vocalization requested.",
-    "reasoning_model_2": "The model faithfully produces the script content. In terms of the paralinguistic dimension '非语言发声' (Non-verbal vocalization), the audio successfully incorporates the requested feature. At the very beginning (0.0s - 0.4s), preceding the word '嗯', there is a clear and natural 'smacking lips' sound (resembling a soft 'tsk' or tasting sound). This auditory cue effectively simulates the physical action of savoring, fulfilling the user's specific command '带咂嘴'. The transition into the spoken text is smooth.",
-    "model_comparison": "Both models demonstrate high performance in content accuracy and speech fluency. The key differentiator is the adherence to the 'Non-verbal vocalization' constraint. Model 1 provides a standard reading of the text without the requested sound effect. Model 2 accurately generates the specific 'smacking lips' sound required by the prompt, making the expression more vivid and contextually appropriate. Therefore, Model 2 demonstrates superior controllability.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

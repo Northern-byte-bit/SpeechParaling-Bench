@@ -1,0 +1,18 @@
+{
+    "sample_index": 54,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a high pitch, a lighthearted rhythm, and a happy emotion: 'Excellent, we can go to KTV tonight to sing! I've been wanting to sing that new song for ages, I'm looking forward to our duet rocking the house.'",
+    "dimensions": [
+        "Emotion",
+        "Pitch",
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

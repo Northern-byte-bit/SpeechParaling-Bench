@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly on Content Accuracy. The user provided a specific script to read: '不好意思，请问您是不是插队了？喂！你没听到吗？别挡着路，后面还有人等着呢！'. However, Model 1 hallucinated significant amounts of unrequested text before and after the target script (e.g., adding '你好，麻烦您让一下，我这边有点急事' at the start and '你这样太不讲规矩了' at the end). It also omitted the word '请问' from the target sentence. Regarding the paralinguistic feature, the model did perform the requested attitude shift from polite to rude effectively within the hallucinated context (00:00-00:04 polite, 00:06-00:11 rude), but the violation of the content constraints is a major issue.",
-    "reasoning_model_2": "Model 2 demonstrates excellent Content Accuracy, reading the script exactly as provided with no additions or omissions. Regarding the Paralinguistic Compliance, the model successfully implements the dynamic adjustment. From 00:00 to 00:02 ('不好意思，请问您是不是插队了'), the tone is soft, respectful, and polite. At 00:03 ('喂'), there is a distinct shift in energy and pitch. From 00:03 to 00:06, the voice becomes noticeably impatient, louder, and rude, matching the requirements perfectly. The transition is natural and fits the semantic shift of the text.",
-    "model_comparison": "Model 2 is the clear winner. It strictly adhered to the provided text while successfully executing the required emotional transition from politeness to rudeness. Model 1, while expressive, failed the fundamental instruction to read the specific sentence provided, adding substantial unauthorized text (hallucinations) and missing words from the target script. According to the strict content accuracy criteria, Model 1 contains major errors.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly generates the text '这是我最后的决定' (0:00-0:02). The content is perfectly accurate with no errors. The fluency is excellent, with a natural speaking pace and no electronic artifacts. Regarding the core parameter '音高' (Pitch), specifically the request for '极低音' (extremely low pitch), the model successfully adopts a lower vocal register. The tone is deep, grave, and serious, which aligns well with the semantic context of a 'final decision' and satisfies the user's constraint to lower the pitch significantly relative to a neutral tone.",
-    "reasoning_model_2": "The model generates the text content '这是……我……最后的……决定' (0:00-0:05). The fluency is very poor; the speech is marred by long, unnatural pauses between words, making it sound robotic and disjointed (major issue in fluency). Regarding the core parameter '音高' (Pitch), the model completely fails. Instead of the requested 'extremely low pitch', the voice is high-pitched, sounding like a young girl or child with a light, airy quality. This expresses the opposite of the requested characteristic.",
-    "model_comparison": "Model 1 is the clear winner. It delivers a fluent, natural audio clip that accurately reflects the user's command for an 'extremely low pitch' (within the boundaries of the speaker's timbre), creating a solemn and appropriate atmosphere. Model 2 fails on multiple fronts: it has very poor fluency with unnatural pausing, and critically, it uses a high-pitched voice that is the exact opposite of the requested 'extremely low pitch'. Model 2 receives a 0 for the Pitch dimension due to conveying the opposite characteristic.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

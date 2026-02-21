@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 successfully produces the non-verbal vocalization of tongue clicking (tsk-ing) at the very beginning (0:00-0:01), sounding like '啧啧啧'. However, it fails catastrophically in Content Accuracy. The user commanded the model to read a specific sentence: '啧，让我想想，这个计划还有什么地方能改进。'. Instead, Model 1 hallucinates a long, unrequested paragraph, changing the script to '这个计划嘛，确实还有点小地方能再抠一抠...' and continuing for several sentences. According to the scoring standard, because the voice content is clearly inconsistent with the script and completely changed, it receives a score of 0.",
-    "reasoning_model_2": "Model 2 follows the instructions perfectly. It adheres strictly to the text content '啧，让我想想，这个计划还有什么地方能改进。' with no errors. Crucially, it correctly interprets the character '啧' (0:00-0:01) as a non-verbal paralinguistic feature—a distinct, natural tongue-clicking sound—rather than reading the pinyin 'ze'. The subsequent pause and the thoughtful tone ('让我想想...') sound very natural and human-like. The integration of the non-verbal sound with the speech is seamless.",
-    "model_comparison": "In the dimension of '非语言发声' (Non-verbal vocalization), Model 2 is the clear winner. While Model 1 did generate the requested sound effect, it completely failed the fundamental requirement of Content Accuracy by generating a long, improvised speech instead of reading the specific prompt. Model 2, on the other hand, perfectly combined the non-verbal feature (a clear, natural 'tsk') with 100% script fidelity and a natural prosody. Model 1's failure to stick to the script makes it invalid under the evaluation criteria.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

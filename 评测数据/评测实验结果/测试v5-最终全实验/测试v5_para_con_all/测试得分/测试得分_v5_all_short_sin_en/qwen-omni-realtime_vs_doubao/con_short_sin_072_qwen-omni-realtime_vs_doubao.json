@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio for Model 1 accurately recites the text 'Don't wake him up, he worked all night.' (00:00-00:02). The fluency and naturalness are acceptable for standard speech. However, regarding the core constraint 'Volume' (specifically 'quietly'), the model completely fails. The delivery appears to be at a standard, full-projected volume, potentially even emphatic given the context (indicated by the energetic delivery implied by the exclamation in the transcript). There is no attempt to lower the vocal effort, whisper, or soften the tone to suit the instruction of being 'quiet'. Consequently, the paralinguistic compliance for the target feature is non-existent.",
-    "reasoning_model_2": "The audio for Model 2 correctly recites the content 'Don't wake him up, he worked all night.' (00:00-00:03). The fluency is natural. Crucially, the model successfully implements the 'quietly' constraint. The pacing is slightly slower (extending to 3 seconds), and the tone adopts a hushed, whispered quality consistent with the semantic context of not wanting to wake someone. The reduction in volume and vocal effort is clearly perceptible and aligns perfectly with the user's specific paralinguistic request.",
-    "model_comparison": "Model 1 failed to adhere to the 'quietly' volume constraint, delivering the line with a standard or potentially loud projection that contradicts the context of the sentence and the user's command. Model 2, in contrast, accurately modified its speaking style to a whispered/quiet volume, demonstrating strong control over the requested paralinguistic feature. Model 2 is the clear winner for following the specific style instruction.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

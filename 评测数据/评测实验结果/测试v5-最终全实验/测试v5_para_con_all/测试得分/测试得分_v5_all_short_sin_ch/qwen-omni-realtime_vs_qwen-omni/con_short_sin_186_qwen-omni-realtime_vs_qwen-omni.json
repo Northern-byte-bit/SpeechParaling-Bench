@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command explicitly requested the model to say '麻烦您了，请您稍等片刻。'. However, Model 1 generated '不好意思打扰您了，麻烦您稍等一下，我这就为您处理。' [0.00s - End]. This represents a significant hallucination and deviation from the script, violating the Content Accuracy criterion. Although the paralinguistic tone is indeed polite and service-oriented, the content is clearly inconsistent with the required script. According to the detailed scoring standard, voice content that is clearly inconsistent with the script results in a score of 0.",
-    "reasoning_model_2": "Model 2 perfectly followed the text command, generating the exact phrase '麻烦您了，请您稍等片刻。' [0.00s - End]. The audio exhibits high fluency and naturalness. The paralinguistic feature '态度' (Attitude) is correctly rendered as polite, respectful, and calm, suitable for the context. It meets all criteria for a high score: accurate content, natural fluency, and vivid expression of the target attitude.",
-    "model_comparison": "The decisive factor in this comparison is Content Accuracy. Model 2 strictly adhered to the user's text generation command, whereas Model 1 rewrote the sentence entirely. While Model 1's rewritten sentence was polite, the failure to speak the specific requested text is a critical error in a controlled generation task. Therefore, Model 2 is superior due to its instruction following capabilities.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

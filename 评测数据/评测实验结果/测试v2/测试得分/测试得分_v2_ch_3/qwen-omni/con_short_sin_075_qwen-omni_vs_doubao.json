@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails to strictly adhere to the content requirements. At timestamp [0.00s-0.50s], it adds a \"Shh\" sound which was not present in the requested text \"快走，有人来了\". Regarding the core feature \"whisper\" (耳语/Volume), while the volume is reduced, the speech from [0.50s-2.00s] is delivered as 'quiet voiced speech' (breathy phonation with discernible pitch) rather than a true unvoiced whisper. The vocal cords are clearly vibrating, which deviates from the definition of a whisper. The addition of extra content and the failure to fully unvoice the speech lowers the score significantly.",
-    "reasoning_model_2": "Model 2 demonstrates excellent adherence to both content and paralinguistic requirements. The text matches the script exactly with no additions or omissions [0.00s-1.80s]. Crucially, the model successfully generates a true unvoiced whisper. There is no fundamental frequency/pitch detected in the speech, relying entirely on turbulent airflow to form speech sounds, which perfectly aligns with the command \"耳语\" (whisper). The pacing implies urgency effectively, making it a highly natural and accurate generation.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 committed a content error by adding an unprompted \"Shh\" sound effect. Furthermore, Model 1 failed the core paralinguistic challenge; it merely lowered its volume and used a breathy tone but remained voiced (speaking quietly), whereas Model 2 achieved a technically accurate unvoiced whisper. Model 2 represents a 'Fully correct' execution, while Model 1 has major issues with both content accuracy and feature definition.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

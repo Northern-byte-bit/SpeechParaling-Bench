@@ -6,13 +6,12 @@ import os
 # -------------------------------
 # 1. 配置
 # -------------------------------
-INPUT_DIR = os.getenv("GPT_INPUT_DIR", "audio_dataset_en/para_con/控制_长单")
-# INPUT_DIR = "gpt_left"
-OUTPUT_DIR = os.getenv("GPT_OUTPUT_DIR", "api_models/gpt/output_en/para_con/控制_长单")
+INPUT_DIR = "audio_dataset_en/para_con/con_long_sin"
+OUTPUT_DIR = "api_models/gpt/output_en/para_con/con_long_sin"
 
-API_HOST = "api.getgoapi.com"
-API_PATH = "v1/chat/completions"
-API_KEY = os.getenv("PARALINGBENCH_GPT_API_KEY", "")
+API_HOST = ""
+API_PATH = ""
+API_KEY = ""
 
 MODEL_NAME = "gpt-audio-2025-08-28"
 
@@ -50,31 +49,33 @@ for filename in os.listdir(INPUT_DIR):
         # 5. 构造请求
         # -------------------------------
         payload = json.dumps({
-            "model": MODEL_NAME,
+            "model":
+            MODEL_NAME,
             "modalities": ["text", "audio"],
             "audio": {
                 "voice": "alloy",
                 "format": "wav"
             },
-            "messages": [
-                {
-                    "role": "user",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": "Directly speak the user's requested sentence in the specified tone without any prefix."
-                            # "text": "Please chat with users in an appropriate tone and keep responses concise and to the point."
-                        },
-                        {
-                            "type": "input_audio",
-                            "input_audio": {
-                                "data": encoded_wav,
-                                "format": "wav"
-                            }
+            "messages": [{
+                "role":
+                "user",
+                "content": [
+                    {
+                        "type":
+                        "text",
+                        "text":
+                        "Directly speak the user's requested sentence in the specified tone without any prefix."
+                        # "text": "Please chat with users in an appropriate tone and keep responses concise and to the point."
+                    },
+                    {
+                        "type": "input_audio",
+                        "input_audio": {
+                            "data": encoded_wav,
+                            "format": "wav"
                         }
-                    ]
-                }
-            ]
+                    }
+                ]
+            }]
         })
 
         headers = {

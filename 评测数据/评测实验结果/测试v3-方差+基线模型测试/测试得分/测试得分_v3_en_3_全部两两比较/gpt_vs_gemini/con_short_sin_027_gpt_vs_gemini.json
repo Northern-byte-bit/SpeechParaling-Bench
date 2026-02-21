@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the required text 'This is my final decision' with high content accuracy and clear pronunciation (0.0s - 2.2s). Regarding the core paralinguistic request for 'very low pitch', the audio demonstrates a significant compliance. The voice is rendered in a deep, bass-heavy register consistent with the instruction. The lower pitch is maintained steadily throughout the sentence without sounding robotic or artificially pitch-shifted to the point of distortion. The fluency is natural, and the prosody fits the serious tone implied by the low pitch.",
-    "reasoning_model_2": "The model accurately reads the script 'This is my final decision' (0.0s - 2.4s) with good fluency and natural intonation. However, in terms of the specific 'Pitch' constraint, the model fails to adhere to the instruction for a 'very low pitch'. The voice remains in a standard, neutral mid-range frequency (typical of a standard reading voice) and does not exhibit the requested depth or grave tone. While the audio is high quality in terms of clarity, it does not satisfy the specific feature control prompt.",
-    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The decisive factor is the 'Feature Control' dimension regarding 'Pitch'. Model 1 correctly interpreted and executed the command to lower the pitch, producing audio with a distinctively deep and low register that aligned with the user's request. Model 2 produced a high-quality but standard-pitch audio, effectively ignoring the 'very low pitch' modifier. Therefore, Model 1 is the clear winner for accurately following the paralinguistic instruction.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

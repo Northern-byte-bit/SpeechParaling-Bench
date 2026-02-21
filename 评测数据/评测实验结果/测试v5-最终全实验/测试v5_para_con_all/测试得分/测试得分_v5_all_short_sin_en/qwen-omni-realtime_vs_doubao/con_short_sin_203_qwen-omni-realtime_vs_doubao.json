@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails strictly on **Content Accuracy**. While the user requested the specific sentence 'Cut the nonsense, hurry up!', the model hallucinates a significant amount of additional text ('Don't make me wait any longer, you're wasting my time') from 00:02 to 00:06. Regarding **Fluency and Naturalness**, the voice sounds synthetic with a whiny, unstable prosody that lacks human-like qualities. In terms of **Attitude**, the tone from 00:00-00:02 is indeed impatient and annoyed (rude), but the expression is caricature-like and unnatural. The 'attitude' is partly carried by the hallucinated text rather than the target sentence alone.",
-    "reasoning_model_2": "The model performs perfectly on **Content Accuracy**, reading exactly the requested text with no additions or omissions. **Fluency and Naturalness** are high, with a stable and clear voice. However, regarding **Attitude** (00:00-00:02), the delivery is somewhat flat. While the voice is firm, it lacks a distinct 'rude' or aggressive coloring, sounding more like a neutral reading of a command rather than an emotionally charged utterance. It is a safe generation but under-expressive.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 commits a critical error by hallucinating additional text, violating the prompt's constraint to read the specific sentence. Furthermore, Model 1's audio quality is unnatural and whiny. Although Model 1 attempts a stronger emotional affect, the hallucinations and poor prosody make the audio unusable. Model 2 follows the instructions accurately and produces natural speech, even though its emotional expression is on the conservative/neutral side.",
-    "score_1_1": 1,
-    "score_2_1": 1,
-    "winner_1": 2
-}

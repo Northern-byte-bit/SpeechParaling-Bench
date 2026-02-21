@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the correct text content '这次，我们必须成功，没有退路！' without errors. However, regarding the specific instruction to emphasize '必须' (must), the audio fails to deliver. The prosody is relatively flat and monotonic (around 0:01-0:02), with the word '必须' receiving equal stress to '成功' and '这次'. There is no distinct change in pitch, volume, or duration to mark the emphasis. The overall tone is slightly robotic and lacks the urgency implied by the text 'no retreat'.",
-    "reasoning_model_2": "The model accurately generates the text content. In terms of paralinguistic compliance, it successfully places heavy stress on the word '必须' (around 0:01-0:02). The speaker increases volume and intensity on this specific word, effectively conveying determination. The overall delivery is natural, dramatic, and fits the context of the sentence (urgency/commanding tone), with appropriate pauses and intonation that enhance the specific emphasis requested.",
-    "model_comparison": "Model 2 is the clear winner. While both models produced accurate text, Model 1 failed the core instruction to apply specific emphasis; its delivery was flat and indistinguishable from a neutral reading. Model 2, conversely, demonstrated strong control over prosody, delivering the word '必须' with noticeable force and intensity, perfectly matching the user's constraint and the semantic context.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

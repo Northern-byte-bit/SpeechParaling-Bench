@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the target sentence 'Come here, I have a secret to tell you.' (0:00-0:03). However, it immediately continues to read the stylistic instructions provided in the prompt or training data: 'spoken softly, almost like a whisper, as if afraid to be overheard' (0:03-0:09). This is a severe content accuracy failure (hallucination/prompt leakage). Regarding the specific dimension 'Volume', while the initial sentence is spoken with a standard volume (not particularly quiet or whispering), the inclusion of the stage directions completely disrupts the performance. The volume control is not effectively applied to create a secretive atmosphere, and the content error is critical.",
-    "reasoning_model_2": "The model correctly generates only the requested text: 'Come here, I have a secret to tell you.' (0:00-0:04). The volume is significantly lowered, adopting a breathy, whispering tone consistent with telling a secret. The paralinguistic feature of 'quietly volume' is perfectly implemented throughout the clip. The prosody is natural for a whispered secret, effectively conveying the intended scenario without any content errors or artifacts.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 fails significantly in Content Accuracy by reading the stage directions/prompt description ('spoken softly...') aloud, rather than applying them as a style. Additionally, Model 1's volume is not particularly quiet. Model 2, in contrast, adheres strictly to the text and successfully applies the requested 'quietly volume' paralinguistic feature, sounding like a genuine whisper. Model 1 receives a low score due to the critical content error.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

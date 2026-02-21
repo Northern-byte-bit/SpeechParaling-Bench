@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the correct text content: 'We lost the game, we worked hard for a long time.' However, the emotional delivery is completely incorrect for the requested 'sad emotion'. The voice has a high pitch, a relatively fast tempo, and upward inflections at the end of clauses (0:01 'game', 0:03 'time'), which makes it sound cheerful, upbeat, or at best neutral-positive. There is no sense of defeat, heaviness, or sorrow in the prosody. The tone contradicts the semantic meaning of the text in the context of the prompt.",
-    "reasoning_model_2": "The model generates the correct text content with high fidelity. The delivery accurately captures the requested 'sad emotion'. From 0:00 to 0:02 ('We lost the game'), the pitch is lower and the inflection is downward, conveying defeat. There is a distinct, natural pause/breath between the two phrases (0:02-0:03) that adds to the feeling of resignation. In the second half ('we worked hard for a long time'), the speaker utilizes vocal fry (creaky voice) towards the end (0:04-0:05), particularly on the word 'time', which effectively simulates holding back tears or deep disappointment. The pacing is appropriately slow.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to follow the paralinguistic instruction entirely; despite the text describing a loss, the audio sounded cheerful and upbeat, resulting in a dissonance between text and tone. Model 2, conversely, provided a highly natural and vivid performance of sadness, utilizing prosodic features like slower tempo, downward inflection, vocal fry, and expressive pausing to convey the emotion effectively.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

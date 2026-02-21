@@ -1,0 +1,16 @@
+{
+    "sample_index": 45,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a medium pace, with laughter: 'Haha, guess who I ran into on the street yesterday? It was actually Mr. Wang, our high school teacher who was always late! He's even doing square dancing now!'",
+    "dimensions": [
+        "Non-Linguistic Vocalizations",
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

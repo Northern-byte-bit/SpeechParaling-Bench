@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content '图书馆里，请保持安静' accurately (0:00-0:03). Regarding the specific instruction to use a 'gentle tone' (柔和的音质), the audio succeeds exceptionally well. The speaker adopts a breathy, lower-volume delivery that closely mimics a whisper or a soft reminder suitable for a quiet environment like a library. The timbre is warm and non-intrusive, effectively capturing the requested paralinguistic feature. The fluency is natural with appropriate prosody.",
-    "reasoning_model_2": "The model correctly generates the text '图书馆里，请保持安静' (0:00-0:03). In terms of the 'gentle tone' requirement, the audio is polite and calm, but it lacks the specific textural softness requested. The voice is projected clearly with standard resonance, sounding more like a general public announcement than a soft, gentle reminder intended to preserve quietness. While not aggressive, it does not fully embody the 'soft' (柔和) acoustic characteristic to the same degree as a dedicated stylistic generation.",
-    "model_comparison": "Both models achieve perfect content accuracy and good naturalness. The decisive factor is the adherence to the 'gentle tone' (柔和的音质) instruction. Model 1 (T1) modifies the vocal timbre to be breathy, soft, and whisper-like, perfectly fitting the context of a library and the instruction for softness. Model 2 (T2) produces a standard, clear reading that is polite but lacks the specific acoustic softness; it sounds too resonant and projected for the prompt's intent. Therefore, Model 1 demonstrates superior control over the paralinguistic feature.",
-    "score_1": 3,
-    "score_2": 2,
-    "winner": 1
-}

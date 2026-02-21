@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 accurately follows the script with perfect content accuracy. Regarding the core paralinguistic feature (pitch adjustment), the audio starts with a stable, medium pitch for '报告显示一切正常' (0.0s - 1.5s). As the sentence progresses to '但我在数据中发现了一个异常点' (1.5s - 3.2s), the pitch begins to rise naturally with increasing tension. Finally, for '这可能是一个巨大的突破' (3.2s - end), the pitch reaches a significantly higher level, effectively conveying excitement and matching the instruction to use an 'extremely high pitch'. The transition is smooth and the paralinguistic change is fully compliant with the prompt.",
-    "reasoning_model_2": "Model 2 recites the text accurately and has a high-quality, dramatic timbre. However, it fails completely on the specific paralinguistic instruction. The user requested to 'gradually increase pitch' ending in 'extremely high pitch'. Model 2 starts with a medium-low tone, but instead of raising the pitch, it transitions into a low, breathy whisper (气声) for the final segment '这可能是一个巨大的突破' (4.5s - end). This drop in pitch and switching to a whisper is the exact opposite of the 'high pitch' instruction required.",
-    "model_comparison": "Model 1 followed the instructions perfectly, demonstrating a clear and natural gradient from medium to high pitch as requested. Model 2, while sounding dramatic and fluent, performed the opposite of the instruction by lowering the pitch into a whisper instead of raising it. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

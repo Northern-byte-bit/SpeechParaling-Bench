@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the audio with the requested emotion (sadness). Paralinguistically, the audio begins with sobbing sounds ('呜呜', 0.0s-1.2s) which immediately sets a sad tone. The delivery of the text '我的小狗不见了，我好难过' (1.2s-4.5s) uses a trembling, tearful voice characteristic of deep sadness. Although there is a minor addition of the sobbing sound and the final particle '啊', these serve to enhance the emotional expression requested ('伤心的情感'). The prosody is slow and melancholic, perfectly matching the prompt.",
-    "reasoning_model_2": "The model fails significantly on both content accuracy and emotional expression. Firstly, the content is a severe hallucination; instead of the requested short sentence, the model generates a long, dramatic paragraph ('...我心都碎了，每天都在等它回来...'). Secondly, and critically for this evaluation dimension, the tone is inappropriate. The speech rate is fast, the pitch is high, and the overall prosody sounds energetic and upbeat, resembling a casual or even cheerful storytelling style rather than a sad person expressing grief. It completely fails to convey 'sadness'.",
-    "model_comparison": "Model 1 is the clear winner. It accurately interprets the instruction to speak with a sad emotion, utilizing appropriate paralinguistic features like sobbing and a trembling voice tone. Model 2 fails completely; it hallucinates a long script instead of reading the specific sentence provided, and the emotional delivery is the opposite of what was requested (sounding upbeat/energetic instead of sad). Model 1 followed the instructions effectively, while Model 2 failed on all counts (content and style).",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

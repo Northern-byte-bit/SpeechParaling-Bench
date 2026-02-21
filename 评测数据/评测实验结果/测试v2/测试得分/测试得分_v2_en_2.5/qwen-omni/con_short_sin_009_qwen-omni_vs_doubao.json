@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately reproduced the text content and the speech was fluent. However, the core requirement of the prompt was to use an 'adult voice'. The generated voice throughout the entire audio (0.00s - 3.51s) is extremely high-pitched and sounds like a young child or a cartoon character. This is the opposite of the requested 'adult' age characteristic, representing a complete failure to comply with the paralinguistic instruction.",
-    "reasoning_model_2": "The model perfectly reproduced the text content with excellent fluency and natural-sounding prosody. Crucially, the voice quality throughout the entire utterance (0.00s - 3.63s) is that of a mid-pitch male, which is clearly and unambiguously an 'adult voice'. The model successfully and accurately embodied the target characteristic specified in the prompt.",
-    "model_comparison": "Both models demonstrated perfect content accuracy and high fluency. The critical difference lies in the core evaluation criterion: paralinguistic compliance. Model 2 successfully generated a voice that is clearly an adult, perfectly matching the user's command. In significant contrast, Model 1 failed completely, generating a high-pitched, child-like voice, which is the antithesis of the requested 'adult voice'. This is not a subtle flaw but a fundamental failure to follow the core instruction, making Model 2 unequivocally superior.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

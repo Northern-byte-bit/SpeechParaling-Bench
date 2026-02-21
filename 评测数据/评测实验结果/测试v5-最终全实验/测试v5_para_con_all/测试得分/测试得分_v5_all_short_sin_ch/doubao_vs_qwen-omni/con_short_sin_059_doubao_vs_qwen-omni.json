@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command required the model to read the specific sentence: '每个字，都要读清楚。'. However, Model 1 generated completely different content: '现在北京时间是21时18分' (Current Beijing time is 21:18). According to the Global Considerations and Evaluation Criterion, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, this model failed the fundamental requirement of content accuracy.",
-    "reasoning_model_2": "Model 2 correctly identifies the text to read: '每个字，都要读清楚。'. The content accuracy is perfect. Regarding the paralinguistic feature 'Extremely slow speaking rate' (极慢速), the model executes this well. From 0:00 to 0:05, the speaker elongates each syllable significantly and places deliberate pauses between phrases ('每个字... 都要... 读清楚'), resulting in a very slow, clear tempo that matches the 'extremely slow' instruction perfectly. The articulation is distinct for every character, adhering to the 'clearly' part of the instruction as well.",
-    "model_comparison": "Model 1 failed to generate the correct content, reciting a time announcement instead of the requested text. This is a critical failure. Model 2 not only generated the correct text but also adhered strictly to the style instruction ('extremely slow speaking rate'), delivering the line with elongated vowels and deliberate pacing. Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

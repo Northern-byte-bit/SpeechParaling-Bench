@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the non-linguistic vocalization 'Waaah' to be read with a crying tone. Model 1 completely failed to include this feature. Instead, it altered the script at 00:00, substituting the non-linguistic 'Waaah' with the linguistic phrase 'Oh no'. By changing the text to standard words, the model avoided generating the required vocalization entirely. Consequently, it scores 0 on the Non-Linguistic Vocalizations dimension as the specific target feature was removed.",
-    "reasoning_model_2": "Model 2 attempted to include the requested non-linguistic element at the beginning of the sentence (00:00). However, the generated audio resulted in the phrase 'Way up' instead of the target 'Waaah'. While this is a content error, phonetically 'Way up' is an approximation that suggests the model was attempting a wailing or crying sound (starting with 'W' and having a vowel trajectory) which often distorts clear articulation. Unlike Model 1, Model 2 did not sanitize the script to remove the vocalization slot, thereby making an attempt at the requested feature, even if the execution resulted in distorted intelligibility.",
-    "model_comparison": "Model 1 failed the prompt constraints by rewriting the script ('Oh no' instead of 'Waaah') to avoid generating the difficult non-linguistic vocalization. Model 2 attempted to generate the vocalization in the correct position, resulting in a distorted output ('Way up') which is characteristic of the requested 'crying' style affecting pronunciation. Since Model 2 attempted the specific feature while Model 1 removed it, Model 2 is superior in adhering to the Non-Linguistic Vocalizations requirement.",
-    "score_1_1": 0,
-    "score_2_1": 2,
-    "winner_1": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content '孩子们，晚饭后，记得收拾好自己的房间。' (00:00-00:04). In terms of the required paralinguistic feature '年龄' (Age: Middle-aged), the voice exhibits a mature, deeper timbre consistent with a middle-aged adult. The speaking pace is steady and authoritative yet caring, typical of a parent addressing children. There is a natural pause after '晚饭后' (00:01), enhancing the naturalness. The model fully satisfies the age constraint.",
-    "reasoning_model_2": "The model generates the correct content '孩子们，晚饭后记得收拾好自己的房间' (00:00-00:03). However, regarding the required feature '年龄' (Age: Middle-aged), the model fails completely. The voice is high-pitched, bright, and breathy, characteristic of a young girl or young adult (Youth), rather than a middle-aged person. The tone is overly cheerful and 'cutesy,' which directly contradicts the 'middle-aged' prompt requirement.",
-    "model_comparison": "Model 1 followed the user's instruction to use a 'middle-aged' voice. The timbre was mature, steady, and appropriate for the persona implied by the text and the explicit constraint. Model 2, while fluent and clear, used a 'young/youthful' voice (high-pitched, sweet), which is the opposite of the requested 'middle-aged' characteristic. Therefore, Model 1 is the clear winner for adhering to the controllable feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

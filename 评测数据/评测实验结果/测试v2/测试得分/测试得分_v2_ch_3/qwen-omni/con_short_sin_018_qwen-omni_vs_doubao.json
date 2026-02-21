@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates audio with a distinctly high-pitched, almost falsetto or cartoon-like tone, satisfying the 'High Pitch' (音高) requirement in a literal, acoustic sense. However, the content is significantly truncated. The script requires '真的吗？你快跟我说说细节！', but the audio cuts off abruptly after '真的吗，你快跟我说', omitting the key phrase '说细节' (timestamps: 0:00-0:02). This omission constitutes a major error in Content Accuracy. While the pitch feature is present, the failure to complete the sentence and the slightly strained naturalness due to the forced pitch severely impact the quality.",
-    "reasoning_model_2": "The model generates the full sentence '真的吗，你快跟我说说细节' with perfect Content Accuracy (timestamps: 0:00-0:03). The delivery uses an excited, gossip-like tone which naturally elevates the pitch (register), fitting the context of the sentence perfectly. The voice is fluent, natural, and free of mechanical artifacts. While it does not use an exaggeratedly artificial high pitch like Model 1, it employs a naturally high speaking register appropriate for the requested emotion and instruction, balancing the controllable feature with human-like naturalness.",
-    "model_comparison": "Model 1 attempts the 'High Pitch' feature more aggressively, resulting in a very high fundamental frequency, but it fails critically on Content Accuracy by truncating the end of the sentence. Model 2 delivers the complete text with high fluency and adopts a naturally high, excited tone that satisfies the prompt without sacrificing audio quality or completeness. Model 2 is the clear winner due to the completeness of content and superior naturalness.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

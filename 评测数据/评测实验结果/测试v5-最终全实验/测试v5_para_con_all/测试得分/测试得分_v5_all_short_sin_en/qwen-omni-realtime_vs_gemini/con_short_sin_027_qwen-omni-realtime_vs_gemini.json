@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately recites the text 'This is my final decision.' (0:00-0:04). Regarding the core constraint of 'very low pitch', the model successfully modulates the voice to a deeper, graver register. The delivery is slow and resonant, consistent with a lower pitch profile for a female voice. The pitch remains consistently low throughout the sentence, effectively conveying the weight and finality of the statement. The fluency is high, with no artifacts, although the tempo is deliberately slow to accentuate the low tone.",
-    "reasoning_model_2": "The audio accurately recites the text 'This is my final decision.' (0:00-0:02). However, regarding the core constraint of 'very low pitch', the model fails completely. The voice generated is high-pitched, light, and sounds somewhat like a young or anime-style character. This is the exact opposite of the requested 'very low pitch'. The tone is relatively cheerful or neutral-high rather than deep or grave.",
-    "model_comparison": "Model 1 followed the instructions effectively, producing a voice with a noticeably lowered pitch and a serious tone that matches the semantic content and the pitch constraint. Model 2 failed entirely to adhere to the paralinguistic instruction, generating a high-pitched voice instead of the requested low pitch. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

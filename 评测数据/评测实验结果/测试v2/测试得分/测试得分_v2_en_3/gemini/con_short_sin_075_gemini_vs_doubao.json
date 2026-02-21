@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content 'Hurry, someone's coming' accurately (0.0s-2.0s). The audio exhibits perfect paralinguistic compliance with the prompt 'with a whisper'. The speech is characterized by breathy phonation, lack of vocal cord vibration typical of modal speech, and an appropriate sense of urgency and hushed volume. The prosody is natural and fits the context of hiding or secrecy perfectly.",
-    "reasoning_model_2": "The model generates the content correctly (0.0s-2.0s). However, it fails the core paralinguistic requirement to 'whisper'. The audio is spoken in a modal voice (full vocal cord vibration) rather than a whisper. While the tone sounds anxious or urgent, it is essentially a projected voice, not a whisper. Consequently, it does not meet the specific feature control command regarding volume and style.",
-    "model_comparison": "Model 1 followed the instruction perfectly, generating a convincing and high-quality whisper that matches the semantic urgency of the text. Model 2 failed to generate a whisper, instead producing speech with a full voice (modal phonation) that sounded like a suppressed shout rather than a whisper. Model 1 is the clear winner for adhering to the specific paralinguistic constraint.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

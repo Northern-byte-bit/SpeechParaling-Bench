@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails strictly on the 'Content Accuracy' criterion. The user requested the specific sentence: '在没有充分证据之前，我们最好不要轻易下结论，以防万一。'. However, Model 1 generated a completely different, lengthy paragraph ('在没有确凿证据之前，我们确实应当保持谨慎...'). According to the Detailed Scoring Standard, a score of 0 must be assigned when 'Voice content is clearly inconsistent with the script'. Therefore, despite any paralinguistic features it might possess, the audio is scored 0 due to the critical hallucination and failure to follow the text constraint.",
-    "reasoning_model_2": "Model 2 accurately follows the text script without errors, meeting the 'Content Accuracy' requirement. In terms of 'Fluency and Naturalness', the speech is smooth with natural pausing. Regarding 'Paralinguistic Compliance' for '谨慎保守' (Cautious/Conservative): The speaker uses a measured, slightly slower pace (00:00-00:02) and a serious, low-pitched tone. There is a deliberate pause before '我们最好不要' and '以防万一', which simulates a thoughtful, careful thought process typical of a cautious attitude. The ending intonation is grounded and stable, avoiding any rash or emotional spikes. It effectively conveys the requested persona.",
-    "model_comparison": "This is a clear win for Model 2. Model 1 completely failed the task by reciting a different, hallucinated script that was not requested, which triggers an automatic failure under the Content Accuracy criterion. Model 2 followed the instructions perfectly, delivering the correct text with a tone that accurately reflected the 'cautious and conservative' (谨慎保守) attitude requested, utilizing appropriate pacing and intonation to convey carefulness.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

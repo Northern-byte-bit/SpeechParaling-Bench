@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully integrates the requested paralinguistic feature. At the very beginning (0:00-0:02), there is a distinct, natural-sounding yawn ('Ahhh...'). This non-verbal vocalization transitions smoothly into the spoken text. The delivery of the script '这么早就要起床，真是太难了' is accurate and maintains a lethargic, sleepy tone consistent with the act of yawning. The prosody reflects the physical state of tiredness requested, with slower pacing and softer articulation. It meets all criteria for a perfect score.",
-    "reasoning_model_2": "The model fails on multiple fronts. First, regarding Content Accuracy, it significantly alters the script. It changes '这么早就要起床，真是太难了' to 'Ha, 这么早就起床，真的好难啊' and hallucinates an entire extra sentence: '眼皮都快粘一起了' (Eyelids are sticking together). Second, regarding the paralinguistic feature 'yawn', the model merely pronounces the syllable 'Ha' (哈) at the start in a crisp, energetic tone, rather than performing the sound of a yawn. The overall tone is cheerful and awake, which is the opposite of the requested style. Due to script alteration and failure to produce the target sound effect, this is a complete failure.",
-    "model_comparison": "Model 1 followed the instructions perfectly. It produced the correct script and successfully generated a realistic non-verbal yawn sound integrated with a sleepy tone of voice. Model 2 failed to follow the script (adding hallucinated text and changing words) and failed to produce the non-verbal feature (reading the text 'Ha' instead of making a yawn sound, and speaking with an energetic tone). Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

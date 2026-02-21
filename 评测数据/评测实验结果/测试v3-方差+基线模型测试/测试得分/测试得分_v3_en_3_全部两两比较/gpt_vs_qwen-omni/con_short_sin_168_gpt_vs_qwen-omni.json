@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the sentence be read with a sigh. Examining the generated audio content (based on the provided transcript 'This weather is so hot, I am melting'), the model failed to incorporate any non-linguistic vocalization resembling a sigh (e.g., 'Ah', 'Hhh'). The delivery appears to be a standard reading of the text without the requested paralinguistic feature. Additionally, there is a minor content accuracy issue where the contraction 'I'm' from the prompt was expanded to 'I am'. Consequently, the model fails the core requirement of the prompt.",
-    "reasoning_model_2": "The model successfully integrated the requested paralinguistic feature by adding a sighing sound at the beginning, represented by the text 'Ah' (approx. 0.0s-0.5s). This effectively conveys the feeling of being overwhelmed by the heat as requested. However, like Model 1, this model also expanded the contraction 'I'm' to 'I am', which is a minor deviation from the strict script. Despite this minor accuracy flaw, the presence of the core feature (the sigh) makes it a successful generation in terms of feature control.",
-    "model_comparison": "The primary evaluation dimension is 'Feature Control' regarding Non-Linguistic Vocalizations (specifically a sigh). Model 1 completely ignored this instruction, producing a standard reading of the text. Model 2 successfully executed the instruction by prefixing the sentence with 'Ah', which serves as the requested sigh. Both models exhibited a minor script deviation by changing 'I'm' to 'I am', but Model 2 is superior because it adhered to the paralinguistic constraint.",
-    "score_1": 1,
-    "score_2": 2,
-    "winner": 2
-}

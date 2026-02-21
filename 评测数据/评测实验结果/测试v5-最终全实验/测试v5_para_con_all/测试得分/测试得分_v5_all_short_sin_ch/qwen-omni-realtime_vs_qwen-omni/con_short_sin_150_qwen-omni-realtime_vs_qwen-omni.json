@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly follows the content instructions, synthesizing the exact text: '这个新的技术听起来很有趣，它是怎么运作的？'. In terms of the paralinguistic dimension (Curiosity), the audio demonstrates a clear inquisitive tone. The phrase '很有趣' (very interesting) is spoken with a lighter, engaged pitch, and the final question '它是怎么运作的？' (how does it work?) features a natural rising intonation (00:02-00:04), effectively conveying a state of curiosity and desire for knowledge. The fluency is natural and human-like.",
-    "reasoning_model_2": "The model completely fails the 'Content Accuracy' criterion. The user explicitly asked the model to say the sentence: '这个新的技术听起来很有趣，它是怎么运作的？'. However, the model generated a long, improvised paragraph starting with '哇，这个新技术...' and continuing with a role-play script about magic and algorithms. According to the strict scoring standards, a score of 0 must be assigned when 'Voice content is clearly inconsistent with the script'. Although the voice acting itself sounds curious, the failure to follow the text generation constraint is a fatal error in a Feature Control task.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the required curious tone. Model 2 failed the primary constraint of the task by hallucinating a completely different and much longer script, despite the prompt asking it to read a specific sentence. Therefore, Model 1 is the clear winner based on content accuracy and adherence to the prompt.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

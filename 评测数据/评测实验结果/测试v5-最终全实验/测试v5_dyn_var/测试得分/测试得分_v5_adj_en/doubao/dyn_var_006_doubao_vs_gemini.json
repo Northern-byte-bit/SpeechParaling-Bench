@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text with perfect accuracy. In terms of paralinguistic features, the audio attempts the requested pitch dynamics. It starts with an elevated, excited pitch on 'Mommy, look! I drew a big sun!', effectively simulating a child's enthusiasm or 'motherese'. At 'I'll tell you a secret...', the voice drops in pitch and volume to convey a secretive tone. While the transition is smooth and the direction is correct (high to low), the drop is arguably more of a shift to a 'whisper' tone rather than a purely pitch-based drop to a 'very low' register, and the initial pitch isn't extremely high. However, it captures the intent well within a natural speaking context. The fluency and naturalness are excellent.",
-    "reasoning_model_2": "The model reads the text accurately, but the audio quality is noticeably lower, sounding muffled and distant. Regarding the core paralinguistic requirement, the model completely fails. The voice maintains a flat, monotonous pitch throughout the entire sentence. There is no attempt to start with a high pitch, nor is there any drop to a low pitch. The delivery lacks any expressive variation, remaining static and robotic.",
-    "model_comparison": "Model 1 is significantly better than Model 2. Model 1 successfully incorporates the requested pitch dynamics—starting elevated and excited, then dropping lower for the secretive part—while maintaining high fluency and naturalness. Model 2, on the other hand, produces a monotonic, flat delivery with no discernible pitch variation, completely failing the core instruction. Additionally, Model 1 has superior audio fidelity.",
-    "score_1": 2,
-    "score_2": 0,
-    "winner": 1
-}

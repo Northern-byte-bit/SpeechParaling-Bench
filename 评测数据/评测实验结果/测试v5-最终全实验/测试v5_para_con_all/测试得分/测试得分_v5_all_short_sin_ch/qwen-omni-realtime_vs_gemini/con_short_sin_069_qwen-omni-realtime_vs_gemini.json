@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 successfully follows the instruction to read the specific sentence '周末你有什么计划吗？'. \n1. **Content Accuracy**: The spoken text perfectly matches the target script. \n2. **Fluency and Naturalness**: The speech is fluent, natural, and sounds like a human speaker (0:00-0:02). \n3. **Paralinguistic Compliance (Volume)**: The user requested 'normal volume' (正常音量). The model generates the audio at a standard conversational level, neither whispering nor shouting, which aligns perfectly with the requirement. The volume is consistent and comfortable to listen to.",
-    "reasoning_model_2": "Model 2 fails the core task of reading the specified sentence. \n1. **Content Accuracy**: The user's command was 'Please say: Do you have any plans for the weekend?'. Instead of reading this sentence, Model 2 treats the prompt as a conversation and acts as a roleplay character answering the question ('周末我没什么特别的计划...' / 'I don't have special plans for the weekend...'). This is a complete deviation from the required script. \n2. **Fluency**: The speech itself is fluent. \n3. **Paralinguistic Compliance**: While the volume is technically normal, the score must be penalized severely due to the complete failure in content accuracy. According to the scoring criteria, if voice content is clearly inconsistent with the script, the score is 0.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact text with the requested 'normal volume'. Model 2 hallucinated a conversational response instead of synthesizing the requested text. Therefore, Model 2 failed the content accuracy criterion completely. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

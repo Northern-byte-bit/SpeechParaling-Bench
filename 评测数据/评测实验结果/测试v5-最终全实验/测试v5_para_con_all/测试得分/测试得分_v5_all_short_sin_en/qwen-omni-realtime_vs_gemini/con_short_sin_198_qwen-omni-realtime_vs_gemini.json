@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely failed the 'Content Accuracy' criterion. The user explicitly requested the model to read the specific sentence: 'What a \"brilliant\" idea you have there.' However, the model hallucinated and generated an entirely different, longer script ('Go absolutely, what a masterpiece of thought...'). While the hallucinated content is sarcastic in nature, the failure to adhere to the specified text script represents a critical error. According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0.",
-    "reasoning_model_2": "The model followed the instructions perfectly regarding 'Content Accuracy,' synthesizing the exact text requested without errors. In terms of 'Paralinguistic Compliance' for the sarcastic tone, the model effectively utilizes prosodic features such as elongating the vowel in 'brilliant' and employing a mocking, downward inflection curve on the latter half of the sentence. The delivery sounds natural and clearly conveys the intended attitude of sarcasm to the listener.",
-    "model_comparison": "Model 1 committed a fatal error by ignoring the target script and generating completely different text. Even though its improvised text was sarcastic, the evaluation criteria strictly mandate content accuracy. Model 2, on the other hand, delivered the correct text with the appropriate sarcastic attitude, demonstrating high quality in both content adherence and paralinguistic control. Therefore, Model 2 is the indisputable winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

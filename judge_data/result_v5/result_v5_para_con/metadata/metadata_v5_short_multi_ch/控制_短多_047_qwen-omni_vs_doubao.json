@@ -1,0 +1,16 @@
+{
+    "sample_index": 47,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用高音的声调调侃着说: 哟，我们的大学霸又在图书馆啊？",
+    "dimensions": [
+        "音高",
+        "态度"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

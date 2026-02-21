@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately synthesizes the text '我对你的提议不感兴趣' with clear pronunciation and high fluency. However, regarding the core requirement 'cold tone' (冷淡的语气), the model fails significantly. The speaker uses a bright, sweet, and somewhat cheerful voice (0:00-0:02). The intonation is light and polite, sounding more like a gentle or playful refusal rather than a cold, indifferent, or aloof rejection. The warmth in the voice directly contradicts the instruction to be 'cold'.",
-    "reasoning_model_2": "The audio accurately synthesizes the content with natural fluency. Regarding the 'cold tone' requirement, the model performs much better than Model 1. The voice is lower-pitched, firm, and decisive (0:00-0:02). The delivery is serious and lacks warmth, effectively conveying a sense of detachment and firm rejection. While it leans slightly more towards 'assertive/serious' than a highly dramatic 'icy' persona, it captures the lack of interest and emotional distance required by the prompt '冷淡'.",
-    "model_comparison": "Model 2 is the clear winner. The instruction specifically asked for a 'cold tone' (冷淡). Model 1 generated a voice that was sweet, bright, and friendly, which is the opposite of the requested paralinguistic feature. Model 2 generated a voice that was firm, serious, and devoid of warmth, which aligns well with the concept of being 'cold' or 'indifferent' to a proposal. Model 2 followed the stylistic instruction, whereas Model 1 ignored it in favor of a default cheerful style.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

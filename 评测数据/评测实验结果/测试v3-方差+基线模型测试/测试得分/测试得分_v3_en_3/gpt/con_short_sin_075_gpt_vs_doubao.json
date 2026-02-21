@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content 'Hurry, someone's coming' with high accuracy. Paralinguistically, the model perfectly adheres to the 'whisper' constraint. From 0.0s to 1.5s, the audio features distinct unvoiced, breathy phonation characteristic of a true whisper. The prosody also conveys the appropriate sense of urgency and secrecy required by the context of the sentence. The speech is natural, fluent, and free of artifacts.",
-    "reasoning_model_2": "The model generates the correct text content, but it completely fails the paralinguistic instruction to 'whisper'. From 0.0s to 1.8s, the audio is delivered in a full, modal voice (voiced phonation) rather than a whisper. While the tone conveys urgency, it sounds more like a loud, anxious exclamation or a shout than a quiet whisper. This is a direct violation of the volume and style constraint requested in the prompt.",
-    "model_comparison": "Model 1 followed the core instruction ('with a whisper') perfectly, utilizing an unvoiced, breathy tone that aligns with human whispering behavior. Model 2 failed the core instruction entirely, delivering the line in a loud, fully voiced tone that contradicts the request for a whisper. Therefore, Model 1 is the clear winner due to strict adherence to the feature control.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

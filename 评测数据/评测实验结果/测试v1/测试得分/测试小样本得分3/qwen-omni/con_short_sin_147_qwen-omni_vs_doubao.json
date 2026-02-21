@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '我跑不动了，感觉腿都快断了。' accurately (0:00-0:04). Regarding the 'fatigued' tone, the speaker adopts a higher-pitched, slightly whining or complaining tone (resembling 'sajiao' or coquettish complaining) rather than a tone of heavy physical exhaustion. While it conveys a lack of willingness to continue, it lacks the physiological markers of running fatigue, such as breathlessness, heavy panting, or a drop in energy. The delivery is fluent but feels stylistically specific (anime-like) rather than realistically physically tired.",
-    "reasoning_model_2": "The model reproduces the text accurately with high naturalness. Crucially, it captures the 'cognitive/physical state' of fatigue extremely well. From 0:00 to 0:02, the voice is breathy and deep. There is a natural pause and intake of breath, followed by a 'dying fall' in pitch and volume on '感觉腿都快断了' (0:02-0:05), effectively simulating the lack of breath and energy typical of someone who has just stopped running. The inclusion of panting/heavy breathing sounds makes the performance vivid and spot-on.",
-    "model_comparison": "Both models speak the correct text. However, Model 2 (T2) is significantly superior in interpreting the specific context of the command ('can't run anymore'). T2 incorporates the necessary physiological evidence of fatigue (heavy breathing, slower pace, energy drop), making it sound realistically exhausted. Model 1 (T1) interprets 'fatigue' more as an emotional complaint or whining, lacking the breathlessness required to make the 'running' context believable. T2 fully satisfies the core paralinguistic requirement.",
-    "score_1": 2,
-    "score_2": 3,
-    "winner": 2
-}

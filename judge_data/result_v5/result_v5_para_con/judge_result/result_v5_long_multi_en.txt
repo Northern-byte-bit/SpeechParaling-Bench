@@ -1,0 +1,174 @@
+======= 各模型最终得分 (各维度及总分均采用加权逻辑) =======
+
+=== gemini ===
+总分维度 (Overall): 122.78
+  Age: 9.37
+  Attitude: 17.22
+  Cognitive State: 9.90
+  Emotion: 9.65
+  Non-Linguistic Vocalizations: 5.65
+  Pace: 13.18
+  Pause: 3.50
+  Pitch: 9.63
+  Rhythm: 12.17
+  Stress: 6.00
+  Timbre: 10.61
+  Volume: 10.26
+
+=== gpt ===
+总分维度 (Overall): 91.00
+  Age: 9.00
+  Attitude: 9.00
+  Cognitive State: 14.00
+  Emotion: 8.50
+  Non-Linguistic Vocalizations: 3.50
+  Pace: 9.00
+  Pause: 2.00
+  Pitch: 7.50
+  Rhythm: 9.50
+  Stress: 4.00
+  Timbre: 8.50
+  Volume: 6.50
+
+=== doubao ===
+总分维度 (Overall): 55.00
+  Age: 4.50
+  Attitude: 4.50
+  Cognitive State: 5.00
+  Emotion: 8.00
+  Non-Linguistic Vocalizations: 1.00
+  Pace: 7.00
+  Pause: 0.50
+  Pitch: 7.50
+  Rhythm: 4.00
+  Stress: 1.00
+  Timbre: 5.50
+  Volume: 6.50
+
+=== qwen-omni ===
+总分维度 (Overall): 37.00
+  Age: 6.50
+  Attitude: 6.50
+  Cognitive State: 0.00
+  Emotion: 2.50
+  Non-Linguistic Vocalizations: 1.00
+  Pace: 4.00
+  Pause: 1.50
+  Pitch: 2.50
+  Rhythm: 2.50
+  Stress: 2.00
+  Timbre: 3.50
+  Volume: 4.50
+
+=== qwen-omni-realtime ===
+总分维度 (Overall): 16.00
+  Age: 3.00
+  Attitude: 1.50
+  Cognitive State: 1.00
+  Emotion: 0.50
+  Non-Linguistic Vocalizations: 1.00
+  Pace: 2.00
+  Pause: 1.00
+  Pitch: 1.50
+  Rhythm: 0.50
+  Stress: 0.00
+  Timbre: 0.50
+  Volume: 3.50
+
+
+======= 维度排名详情 =======
+
+【维度：Age】
+  gemini: 9.37
+  gpt: 9.00
+  qwen-omni: 6.50
+  doubao: 4.50
+  qwen-omni-realtime: 3.00
+
+【维度：Attitude】
+  gemini: 17.22
+  gpt: 9.00
+  qwen-omni: 6.50
+  doubao: 4.50
+  qwen-omni-realtime: 1.50
+
+【维度：Cognitive State】
+  gpt: 14.00
+  gemini: 9.90
+  doubao: 5.00
+  qwen-omni-realtime: 1.00
+  qwen-omni: 0.00
+
+【维度：Emotion】
+  gemini: 9.65
+  gpt: 8.50
+  doubao: 8.00
+  qwen-omni: 2.50
+  qwen-omni-realtime: 0.50
+
+【维度：Non-Linguistic Vocalizations】
+  gemini: 5.65
+  gpt: 3.50
+  qwen-omni: 1.00
+  qwen-omni-realtime: 1.00
+  doubao: 1.00
+
+【维度：Overall】
+  gemini: 122.78
+  gpt: 91.00
+  doubao: 55.00
+  qwen-omni: 37.00
+  qwen-omni-realtime: 16.00
+
+【维度：Pace】
+  gemini: 13.18
+  gpt: 9.00
+  doubao: 7.00
+  qwen-omni: 4.00
+  qwen-omni-realtime: 2.00
+
+【维度：Pause】
+  gemini: 3.50
+  gpt: 2.00
+  qwen-omni: 1.50
+  qwen-omni-realtime: 1.00
+  doubao: 0.50
+
+【维度：Pitch】
+  gemini: 9.63
+  gpt: 7.50
+  doubao: 7.50
+  qwen-omni: 2.50
+  qwen-omni-realtime: 1.50
+
+【维度：Rhythm】
+  gemini: 12.17
+  gpt: 9.50
+  doubao: 4.00
+  qwen-omni: 2.50
+  qwen-omni-realtime: 0.50
+
+【维度：Stress】
+  gemini: 6.00
+  gpt: 4.00
+  qwen-omni: 2.00
+  doubao: 1.00
+  qwen-omni-realtime: 0.00
+
+【维度：Timbre】
+  gemini: 10.61
+  gpt: 8.50
+  doubao: 5.50
+  qwen-omni: 3.50
+  qwen-omni-realtime: 0.50
+
+【维度：Volume】
+  gemini: 10.26
+  gpt: 6.50
+  doubao: 6.50
+  qwen-omni: 4.50
+  qwen-omni-realtime: 3.50
+
+
+======= 跳过的样本 =======
+74

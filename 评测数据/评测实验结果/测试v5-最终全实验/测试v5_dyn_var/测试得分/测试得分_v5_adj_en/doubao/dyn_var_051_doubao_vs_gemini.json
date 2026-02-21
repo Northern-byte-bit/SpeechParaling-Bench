@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model achieves perfect content accuracy, with the script spoken clearly and without errors. regarding the CORE paralinguistic requirement (Volume), the audio successfully follows the instruction. From 0.0s to approximately 2.8s, the sentence 'Didn't we agree to have dinner together today?' is delivered at a normal, conversational volume. At the 2.8s mark, transitioning into 'Why are you late again?!', the volume abruptly and significantly increases, effectively simulating a shout. This sudden shift accurately reflects the 'suddenly increasing the volume' command, creating a distinct contrast between the two segments.",
-    "reasoning_model_2": "The model's content is accurate to the script. However, it fails to meet the CORE paralinguistic requirement for dynamic volume adjustment. The entire utterance (0.0s to 4.5s) is delivered with a consistent, relatively flat volume. While there may be a subtle shift in tone (perhaps sounding slightly more stern), the magnitude of the volume change is negligible and certainly does not constitute 'shouting' or a 'sudden increase'. The constraint to change the volume dynamically within the single generation was not met.",
-    "model_comparison": "Model 1 demonstrated a superior ability to control paralinguistic features dynamically within a single generation. It correctly identified the semantic break point and executed a sharp increase in volume (Normal -> Shouting) as requested. Model 2 failed to modulate the volume significantly, resulting in a flat delivery that missed the core instruction of the prompt. Model 1 matches the human preference for following specific stylistic constraints.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the text '哇，我赢了，太棒了' correctly (00:00-00:03). However, the delivery completely fails to meet the paralinguistic requirement of 'screaming' (尖叫). The tone is soft, gentle, and calm, merely expressing mild happiness with a low-to-mid pitch. It sounds like a polite conversation rather than an outburst of excitement. There is no intensity, high pitch, or loudness associated with screaming. Therefore, it scores 0 on the core feature compliance.",
-    "reasoning_model_2": "The model generates the text '哇，我赢了，太棒了' accurately (00:00-00:03). The delivery successfully incorporates the 'screaming' feature in the context of excitement. The voice is high-pitched, loud, and energetic, simulating a shout or scream of joy effectively. The prosody matches the intensity expected from someone screaming 'I won!'. It sounds natural and vivid.",
-    "model_comparison": "The user explicitly requested the text to be spoken in a 'screaming manner' (带尖叫的方式). Model 1 failed completely, producing a soft and gentle voice that is the opposite of a scream. Model 2 successfully modulated pitch and volume to create a high-energy, high-pitched shouting style that fits the description of a happy scream. Model 2 followed the instructions, while Model 1 did not.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

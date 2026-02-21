@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio accurately recites the text 'Please give me a glass of water, thank you.' (0:00-0:03). The fluency and naturalness are acceptable, resembling a standard, high-quality text-to-speech engine. However, regarding the core paralinguistic requirement, the model completely fails to produce a 'hoarse timbre'. The voice is bright, clear, and resonant, lacking any roughness, breathiness, or vocal strain associated with hoarseness. It sounds like a healthy, hydrated speaker, which is the direct opposite of the requested feature.",
-    "reasoning_model_2": "The audio accurately recites the text (0:00-0:05). The pacing is slower and more labored, which enhances naturalness given the context of the request. Critically, the model successfully implements the 'hoarse timbre'. From 0:00 to 0:05, the voice exhibits significant raspiness, breathiness, and vocal fry. The quality is rough and strained, perfectly conveying the physical sensation of a dry or sore throat, which aligns seamlessly with the semantic content of asking for water.",
-    "model_comparison": "Model 1 failed completely to modify the timbre, producing a standard clear voice instead of a hoarse one. Model 2 successfully generated a very distinct hoarse, raspy, and strained voice that fit the instruction perfectly. Therefore, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

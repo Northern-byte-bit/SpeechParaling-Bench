@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'Oh my god, I won the lottery! It is incredible!', expanding the contraction 'It's' to 'It is', which is a minor deviation but preserves meaning. Regarding the core dimension 'Pitch', the model successfully implements the user's command to use a 'very high pitch'. The voice is shifted to a significantly higher register (0:00-0:04), creating a distinct and appropriate effect that matches the excitement of winning a lottery. The prosody is natural within the constraints of the altered pitch, and the emotion is effectively conveyed.",
-    "reasoning_model_2": "The model generates the audio content 'Oh my god, I won the lottery. It is incredible', also expanding 'It's' to 'It is'. Regarding the core dimension 'Pitch', the audio fails to adhere to the 'very high pitch' constraint. The voice sounds like a standard range (0:00-0:04) with normal intonation, lacking the requested paralinguistic feature. The delivery feels flatter and does not exhibit the shift in frequency requested by the prompt.",
-    "model_comparison": "Model 1 followed the specific paralinguistic instruction to use a 'very high pitch', resulting in audio that distinctly matches the user's request. Model 2 produced a standard voice without the required pitch modification. Therefore, Model 1 is the clear winner for correctly implementing the controllable feature.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

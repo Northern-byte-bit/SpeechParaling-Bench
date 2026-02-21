@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly articulates the text content 'Sorry, I have to go, the next bus is leaving!' with high clarity. However, it fails significantly on the core paralinguistic requirement: 'very fast pace'. The delivery is slow, deliberate, and relaxed, with distinct pauses at 0:00-0:01 ('Sorry, [pause]') and 0:01-0:02 ('I have to go, [pause]'). The tone sounds more like a calm explanation than a hurried departure, completely missing the requested speed and urgency.",
-    "reasoning_model_2": "The audio accurately captures the text content. Crucially, it adheres to the 'very fast pace' instruction effectively. The delivery is hurried and urgent, compressing the sentence duration significantly compared to a neutral reading. The phrases 'I have to go' and 'the next bus is leaving' flow together rapidly without unnecessary pauses (0:00-0:02), mirroring the natural cadence of someone rushing to catch transport. The breathy quality adds to the realism of the urgency.",
-    "model_comparison": "Model 1 completely failed the specific instruction to speak at a 'very fast pace'. It delivered the line slowly and calmly, which contradicts both the prompt and the semantic urgency of the text (missing a bus). Model 2 successfully executed the command, delivering the line with speed, urgency, and a breathless quality that fits the context perfectly. Therefore, Model 2 is superior.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

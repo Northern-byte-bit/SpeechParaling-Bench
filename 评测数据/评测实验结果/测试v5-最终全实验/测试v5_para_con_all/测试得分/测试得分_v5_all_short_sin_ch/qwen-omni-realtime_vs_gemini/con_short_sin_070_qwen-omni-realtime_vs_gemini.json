@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly follows the user's command to use a 'quiet volume'. The content '嘘，孩子睡着了，我们小声点' (Shh, the child is asleep, let's keep it down) is accurate to the script. From 00:00 to 00:04, the speaker employs a consistent whispering tone (breathy voice, reduced vocal cord vibration) which effectively conveys the constraint of '小声' (quiet) and the context of not waking a sleeping child. The delivery is natural, with appropriate pauses and intonation that align well with a hushed warning.",
-    "reasoning_model_2": "The model fails to follow the user's command regarding volume. Instead of using a 'quiet volume', the speaker uses a standard, bright, and somewhat energetic projection (00:00-00:03). This completely contradicts the context of '孩子睡着了' (the child is asleep). Furthermore, the model hallucinates/adds extra content at the end: '别吵醒他' (Don't wake him up), which was not in the source text. The prosody is fast and lacks the necessary caution implied by the text.",
-    "model_comparison": "Model 1 is the clear winner. It accurately interprets the instruction for 'quiet volume' by generating a natural-sounding whisper that fits the semantic context of the sentence. Model 2 fails on both the paralinguistic feature (speaking loudly/normally instead of quietly) and content accuracy (adding the phrase '别吵醒他'). Model 1 demonstrates superior control over paralinguistic features and adherence to the prompt.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly reads the text content '我刚才呛到了，有点不舒服' with high clarity and fluency. However, regarding the core requirement '请用带咳嗽的方式说' (Please say in a coughing manner), the model completely fails. There are no coughing sounds (non-verbal vocalizations) present before, during, or after the speech. Furthermore, the tone is calm, steady, and neutral, lacking any paralinguistic indications of physical discomfort or the breathless quality associated with choking. It sounds like a standard, unemotional TTS reading.",
-    "reasoning_model_2": "The audio demonstrates exceptional adherence to the prompt. It begins with a very realistic sequence of coughing sounds (approx. 0:00-0:04), immediately establishing the context. When the speech begins ('我刚才呛到了...'), the vocal texture is strained, breathless, and slightly raspy, perfectly simulating the physical after-effects of choking. The pacing is natural for someone recovering their breath. The addition of a slight exhale and a natural particle at the end enhances the realism. The integration of the non-verbal coughing with the verbal content is seamless and highly convincing.",
-    "model_comparison": "Model 1 completely ignored the specific stylistic instruction to include coughing. It produced a standard, flat reading of the text. Model 2, in contrast, perfectly executed the command by generating realistic coughing sounds at the beginning and maintaining a strained, choked-up vocal quality throughout the speech. Model 2 successfully conveyed the physical state requested (uncomfortable, choked), whereas Model 1 did not.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

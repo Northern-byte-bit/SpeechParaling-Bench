@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content 'Help! Someone is injured here!' with perfect accuracy. Regarding the paralinguistic feature 'Volume', the audio demonstrates a clear and effective execution of the 'shouting manner'. The utterance starts with a high-volume, urgent 'Help!' (00:00-00:01), followed by 'Someone is injured here!' delivered with sustained intensity and projection appropriate for an emergency situation. The prosody reflects genuine urgency and high volume without sounding mechanical or clipping.",
-    "reasoning_model_2": "The model generates the correct text content. However, the paralinguistic performance regarding 'Volume' is lacking. While the voice might be slightly raised compared to a whisper, it does not reach the threshold of a 'shouting manner'. The delivery feels more like a standard reading or a mild statement rather than a cry for help. The pace is slower (extending to 00:03), and the energy is flat, failing to convey the high volume and urgency required by the prompt.",
-    "model_comparison": "Model 1 is the clear winner as it strictly follows the 'shouting manner' constraint. It exhibits high volume, urgency, and appropriate prosody for the context of the sentence. Model 2 produces a result that sounds like a normal or slightly emphasized reading, failing to increase the volume to a shouting level, which is the core requirement of the prompt. Model 1's expression is vivid and fits the context, while Model 2 is comparatively flat and inappropriate for the requested style.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

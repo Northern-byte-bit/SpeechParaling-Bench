@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 synthesizes the text 'This weather is so hot, I am melting', expanding the contraction 'I'm' to 'I am'. Regarding the core paralinguistic instruction, the audio fails to include the requested 'sigh'. The delivery is a standard, neutral reading of the sentence (0.0s - end) without any non-linguistic vocalizations at the beginning or end to convey the weariness or the specific feature requested. While the content is mostly accurate (aside from the contraction expansion), the absence of the core feature results in a low score.",
-    "reasoning_model_2": "Model 2 also synthesizes the text as 'This weather is so hot, I am melting', expanding 'I'm' to 'I am'. However, it successfully follows the paralinguistic command by incorporating a clear non-linguistic vocalization. The audio begins with a distinct audible sigh (approx. 0.0s - 1.0s) before speaking the text. This establishes the appropriate mood and strictly adheres to the 'Non-Linguistic Vocalizations' constraint. The transition from the sigh to the speech is natural.",
-    "model_comparison": "Model 2 is the winner because it successfully integrated the requested paralinguistic feature (a sigh) into the audio generation, whereas Model 1 ignored this instruction and provided a standard reading. Both models had a minor content deviation by expanding 'I'm' to 'I am', but Model 2's adherence to the feature control instruction ('with a sigh') makes it significantly better suited for the task.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

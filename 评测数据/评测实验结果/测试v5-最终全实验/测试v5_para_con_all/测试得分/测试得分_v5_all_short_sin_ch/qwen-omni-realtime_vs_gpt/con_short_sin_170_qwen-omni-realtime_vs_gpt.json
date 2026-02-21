@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content strictly adheres to the user's command and script '嗯，咳咳，我想说几句。'. The model correctly identifies the text '咳咳' as a non-verbal paralinguistic instruction, rendering it as a natural cough sound (at approximately the middle of the phrase) rather than reading the characters 'ke ke'. The expression matches the 'Non-verbal vocalization' requirement perfectly, maintaining content accuracy and natural fluency.",
-    "reasoning_model_2": "The model fails the 'Content Accuracy' criterion completely. The script required was specifically '嗯，咳咳，我想说几句。', but the model generated a long, improvised monologue ('嗯，我想说几句，这嗓子有点痒，说话都带着气儿...'). While the voice might sound like a person with a sore throat, the massive addition of hallucinated content and failure to read the specified script constitutes a critical error. According to the scoring standard, 'Content Accuracy: Voice content is clearly inconsistent with the script' results in a score of 0.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact script with the required paralinguistic feature (coughing). Model 2 failed the fundamental requirement of Content Accuracy by hallucinating a roleplay dialogue instead of reading the provided text. Since Model 2's content is completely incorrect relative to the script, it receives a 0. Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content '这个玩具真好玩，我喜欢它' with perfect accuracy and high fluency. There are no mispronunciations or mechanical glitches. However, regarding the core paralinguistic feature 'Age' (Child's voice), the model fails completely. The voice timbre (throughout 0:00-0:04) is distinctly that of an adult female, likely a standard TTS assistant voice. It lacks the higher pitch, lighter weight, and specific prosodic characteristics associated with a child's voice. Consequently, it does not meet the user's specific command to use a child's voice.",
-    "reasoning_model_2": "The model accurately produces the script '这个玩具真好玩，我喜欢它' with good fluency and naturalness. Regarding the core paralinguistic feature 'Age', the model performs very well. The voice (0:00-0:03) has a significantly higher pitch, a brighter tone, and a youthful resonance that effectively mimics a child or a very young girl. The delivery is enthusiastic and consistent with the persona requested. It successfully captures the controllable characteristic.",
-    "model_comparison": "The user explicitly requested the audio to be generated using a 'child's voice'. Model 1 generated an audio clip using a standard adult female voice, completely ignoring the age constraint. Model 2 generated an audio clip with a high-pitched, youthful voice that fits the description of a child's voice. Both models were fluent and accurate with the text, but only Model 2 followed the paralinguistic instruction regarding age. Therefore, Model 2 is the clear winner.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

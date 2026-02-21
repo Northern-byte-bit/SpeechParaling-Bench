@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails the fundamental requirement of Content Accuracy. The user requested the specific sentence: '黎明前的黑暗终将过去，美好的未来一定会如期而至，我们充满信心。'. However, Model 1 generated a completely different, paraphrased paragraph: '黎明前的黑暗虽然深沉，但它的尽头一定有光在等待...'. Although the audio quality is high and the tone is indeed warm and hopeful, the complete hallucination of the script constitutes a critical error. According to the scoring standard, if the 'Voice content is clearly inconsistent with the script', the score must be 0.",
-    "reasoning_model_2": "Model 2 follows the instructions perfectly. \n1. **Content Accuracy**: The spoken text matches the provided script exactly ('黎明前的黑暗终将过去...'). \n2. **Fluency**: The speech is natural, with appropriate pausing between clauses (e.g., after '过去' at 00:02). \n3. **Paralinguistic Compliance (Hopeful)**: The speaker uses a firm, energetic, and projecting voice. At 00:03-00:05 ('美好的未来一定会...'), the pitch rises, conveying anticipation and certainty. The final phrase '我们充满信心' (00:05-00:06) is delivered with strength and a decisive tone, effectively embodying the requested 'hopeful' and 'confident' attitude.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 committed a fatal error in Content Accuracy by completely rewriting the script, which automatically results in a score of 0 according to the evaluation criteria, regardless of its acoustic quality. Model 2 accurately pronounced the correct text and successfully infused the speech with the required 'hopeful' tone, using appropriate stress and upward inflection to convey confidence and optimism.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

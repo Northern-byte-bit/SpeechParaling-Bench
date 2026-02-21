@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with high intelligibility but exhibits a minor content accuracy issue: it expands the contraction 'it's' in the prompt to 'it is' (approx. timestamp 0:03). Regarding the paralinguistic core requirement (Fearful Emotion), the model performs well. The voice adopts a breathless, slightly trembling quality starting from 'suddenly' (0:01). The pacing is urgent, and the intonation on 'pitch dark' (0:04) drops to a hush, effectively conveying a sense of dread and fear. The naturalness is maintained despite the stylized emotion.",
-    "reasoning_model_2": "The model also fails strict content accuracy by expanding 'it's' to 'it is' (0:03). Furthermore, the prosody does not align with the requested 'fearful' emotion. The delivery is declarative and monotone, sounding more like a neutral reading or a news report. There is a distinct, calm pause between 'home' and 'It is' (0:02-0:03), which breaks the tension required for the scenario. The tone remains flat throughout, failing to satisfy the core instruction of expressing fear.",
-    "model_comparison": "Both models failed to strictly reproduce the text script by expanding 'it's' to 'it is', preventing a perfect score for Content Accuracy. However, Model 1 is significantly better in the Core dimension (Emotion). Model 1 successfully incorporates paralinguistic features associated with fear, such as breathiness, trembling, and urgency. In contrast, Model 2 produced a neutral, flat output that completely disregarded the emotional instruction. Therefore, Model 1 is the superior model.",
-    "score_1": 2,
-    "score_2": 1,
-    "winner": 1
-}

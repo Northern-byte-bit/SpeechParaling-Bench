@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio content 'Really? Quick, tell me the details!' accurately, matching the script perfectly. Regarding the paralinguistic feature (Pitch), the model adopts a female voice with a noticeably high register. From 0:00 to 0:04, the delivery is energetic and utilizes a high pitch consistent with excitement and urgency, particularly on 'Really?' and 'Quick'. The audio is fluent, natural, and free of artifacts. It successfully integrates the high pitch constraint into a natural-sounding, excited delivery.",
-    "reasoning_model_2": "The generated audio fails significantly in content accuracy. The required script was 'Really? Quick, tell me the details!', but the audio content appears to be a repetition of the word 'Details' ('Details, details.') or a similar truncation, omitting the majority of the sentence. According to the scoring criteria, a clear inconsistency with the script results in a score of 0, regardless of the pitch quality, as the primary communicative intent is lost.",
-    "model_comparison": "Model 1 is the clear winner. It correctly synthesizes the full text with the requested high-pitch paralinguistic feature, resulting in a natural and accurate output. Model 2 fails the most basic criterion of content accuracy, producing text that does not match the prompt (hallucination or severe omission). Therefore, Model 1 receives a perfect score while Model 2 receives a zero.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

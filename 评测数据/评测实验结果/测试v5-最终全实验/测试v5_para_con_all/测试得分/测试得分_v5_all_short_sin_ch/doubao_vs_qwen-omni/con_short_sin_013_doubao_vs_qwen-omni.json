@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with accurate content, strictly following the script '啊！那里有一只老鼠！'. Paralinguistically, the model successfully executes the command 'extremely high pitch'. The voice is elevated to a very high register, resembling a scream or falsetto (0.0s-1.8s), which fits the context of suddenly seeing a mouse. The high pitch is consistent throughout the sentence and clearly distinguishable from a normal speaking tone. The emotion of fear and surprise is naturally conveyed through this pitch shift.",
-    "reasoning_model_2": "The model fails to adhere strictly to the content requirements. The script is '啊！那里有一只老鼠！', but the audio content is '啊？那里有一只老鼠啊' (0.0s-2.0s), adding an extra particle '啊' at the end and changing the intonation of the first '啊' to a question. Regarding the 'extremely high pitch' dimension, the audio does not exhibit a significant upward shift in pitch to an 'extreme' level. It sounds more like a standard sentence with a questioning or casual tone rather than a high-pitched exclamation. The pitch remains within a relatively normal range, failing to meet the specific paralinguistic constraint.",
-    "model_comparison": "Model 1 demonstrates superior performance in both content accuracy and feature control. It accurately recites the text and effectively implements the 'extremely high pitch' constraint, resulting in a voice that sounds appropriately frightened and high-pitched. Model 2 fails on two counts: it alters the text (adding words and changing intonation) and fails to produce the requested 'extremely high pitch', delivering a more neutral or questioning tone instead. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

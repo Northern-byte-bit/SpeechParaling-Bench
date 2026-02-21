@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user command explicitly requested the model to say a specific sentence: '这部电影看起来很有趣，预告片效果很棒！但真的有传说中那么好吗？我有点怀疑它的口碑是不是被夸大了。'. However, Model 1 completely ignored this constraint and generated a long, improvised paragraph starting with '哎呀，这部电影真的有那么神吗？...'. While the voice acting itself is expressive, the model failed the fundamental 'Content Accuracy' criterion. According to the scoring standard, a score of 0 is assigned when 'Voice content is clearly inconsistent with the script'.",
-    "reasoning_model_2": "Model 2 followed the text script perfectly with no errors. Regarding the paralinguistic features: \n1. **Curiosity (00:00 - 00:04):** The phrase '这部电影看起来很有趣，预告片效果很棒！' is delivered with a higher pitch, brighter timbre, and slightly faster pace, effectively conveying interest and curiosity.\n2. **Transition and Skepticism (00:04 - 00:12):** At '但真的有传说中那么好吗？', the voice drops in pitch and slows down significantly. The pause before '但' effectively marks the turning point. The final sentence '我有点怀疑...' is spoken with a lower, more serious and doubtful tone, successfully completing the shift to skepticism. \nThe generated audio is natural, fluent, and accurately reflects the dynamic emotional adjustment requested.",
-    "model_comparison": "This is a clear win for Model 2. Model 1 failed the primary requirement of the task by not speaking the provided text script, resulting in a hallucinated response that, while natural-sounding, is completely incorrect content-wise. Model 2 accurately synthesized the correct text and successfully demonstrated the required paralinguistic shift from curiosity to skepticism with natural timing and prosody.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

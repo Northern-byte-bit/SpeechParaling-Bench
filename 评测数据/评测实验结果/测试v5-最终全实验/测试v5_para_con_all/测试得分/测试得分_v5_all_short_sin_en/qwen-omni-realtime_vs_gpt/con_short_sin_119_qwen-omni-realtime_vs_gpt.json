@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly follows the content instructions, reciting the text 'We lost the game, we worked hard for a long time' without any errors. The pacing is slow and deliberate, with pauses that effectively convey a sense of resignation and heaviness associated with sadness. The tone is somber and lower in pitch (e.g., the drop in pitch on 'game' and 'time' at 0:01 and 0:04), matching the requested emotional state naturally. The delivery feels authentic and fits the context of disappointment.",
-    "reasoning_model_2": "The model fails the content accuracy criterion significantly. Instead of reading the requested text, it alters the script to: 'We lost the game, we worked *so* hard for *so* long, *and now it's just gone*.' It adds intensifiers ('so') and an entire phrase that was not in the prompt. While the audio certainly sounds sad—using a trembling, higher-pitched, almost crying tone—the failure to adhere to the specified text is a major flaw. According to the evaluation criteria, if there are obvious flaws in content accuracy, this negatively impacts the overall assessment.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact text with a natural and convincing sad emotion. Model 2, while very expressive (perhaps even more dramatically sad than Model 1), hallucinated significant portions of the text, adding words and phrases not requested by the user. Since Model 2 failed the primary constraint of reading the specific sentence provided, it cannot be considered a successful generation despite its emotional tone. Model 1 is the clear winner for adhering to both the content and style constraints.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model perfectly executes the user's command. \n1. **Content Accuracy**: The spoken content matches the script '嗯，下次再说吧，我今天可能不太方便。' exactly with no omissions or errors. \n2. **Paralinguistic Compliance**: The model excellently captures the 'hesitant' (犹豫) tone. \n   - **Timestamp 0.0s - 1.2s**: The initial particle '嗯...' is significantly prolonged with an uncertain intonation, effectively establishing a hesitant cognitive state immediately.\n   - **Timestamp 1.2s - 4.5s**: The pacing is deliberately slow with meaningful pauses (e.g., after '再说吧'), and the final phrase '不太方便' is delivered with a trailing, softer volume that conveys reluctance and politeness. \n3. **Fluency**: The speech is natural and human-like.",
-    "reasoning_model_2": "The model fails significantly on content accuracy. \n1. **Content Accuracy**: The audio is incomplete. It cuts off after '我今天可能' (I today might...), omitting the crucial phrase '不太方便' (not be convenient). This makes the sentence grammatically incomplete and the meaning unclear.\n2. **Paralinguistic Compliance**: While the initial '嗯' has some hesitation, the pacing feels slightly rushed compared to a natural hesitant demeanor, and the abrupt cut-off prevents a full evaluation of the emotional arc.\n3. **Fluency**: The audio quality is acceptable until the sudden truncation.",
-    "model_comparison": "Model 1 is the clear winner. It provides a complete, high-quality audio generation that perfectly aligns with the requested 'hesitant' tone through prosodic features like vowel prolongation and slow pacing. Model 2 fails to complete the sentence, resulting in a critical content error (truncation) that makes the audio unusable.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

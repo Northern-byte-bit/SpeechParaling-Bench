@@ -1,0 +1,14 @@
+{
+    "sample_index": 45,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sweet timbre: 'This cake tastes absolutely delicious! Every bite feels like happiness, thank you for specially making it for me. I definitely need to eat a few more slices to remember this sweetness.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

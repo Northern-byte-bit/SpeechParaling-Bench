@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the core script 'Come here, I have a secret to tell you' (00:00-00:02). However, it commits a severe Content Accuracy error by continuing to speak the stylistic description: 'spoken softly, almost like a whisper, as if afraid to be overheard' (00:03-00:07). This is a hallucination where the model vocalizes the intended performance style or stage directions rather than just acting them out. While the textual description implies the volume was soft, the inclusion of this metadata violates the script requirements and disrupts the naturalness of the speech.",
-    "reasoning_model_2": "The model accurately generates the target text 'Come here, I have a secret to tell you' (00:00-00:03) without any additions, omissions, or hallucinations. The content matches the script perfectly. Given the text accuracy and the absence of any artifacts indicating a failure to follow the 'quietly volume' instruction, the speech appears to correctly implement the requested secretive tone, maintaining the immersion required by the prompt.",
-    "model_comparison": "Model 2 demonstrates superior quality. Model 1 fails significantly in Content Accuracy by vocalizing the stage directions ('spoken softly...'), which ruins the generated audio's usability despite potentially achieving the correct volume during the correct segments. Model 2 adheres strictly to the script and effectively conveys the requested 'quietly volume' feature without hallucination or error.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

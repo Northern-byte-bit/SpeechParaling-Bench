@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the text to be spoken with an 'extremely high pitch' (极高音). Model 1 successfully modifies the voice to a very high, almost falsetto or cartoon-like pitch (0:00-0:03). This distinctly distincts it from a normal speaking voice and aligns perfectly with the 'extremely high' requirement. The content '啊！那里有一只老鼠！' is articulated clearly, and the high pitch also naturally contributes to a sense of urgency or fear appropriate for the text. The execution is compliant with the specific paralinguistic command.",
-    "reasoning_model_2": "Model 2 produces a clear, high-quality female voice reading the text '啊，那里有一只老鼠' (0:00-0:03). However, regarding the core constraint 'extremely high pitch', the model fails to perform any significant modification. The pitch remains within the standard, comfortable speaking range for a female voice. It does not sound 'extremely high' or like a shriek/scream as implied by the combination of the prompt and text. The expression is relatively calm and does not reflect the 'extreme' parameter requested.",
-    "model_comparison": "Model 1 is the clear winner in this comparison because it strictly adhered to the specific paralinguistic instruction to use an 'extremely high pitch'. The resulting audio is noticeably high-pitched, effectively simulating a scream or a high-pitched character voice. Model 2, while providing natural-sounding audio with a standard female timbre, completely ignored the modifier 'extremely high', resulting in a standard read that lacks the requested feature control.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio correctly articulates the phrase 'Cut the nonsense, hurry up!' without any pronunciation errors. The fluency is high, with a natural speaking rate and no mechanical artifacts. Regarding the core requirement 'rude tone', the model performs well. From 00:00 to 00:01, the speaker delivers 'Cut the nonsense' with a stern, lower-pitched intonation that conveys annoyance and dismissal. At 00:01-00:02, 'hurry up' is delivered with a sharp, impatient cadence. The overall delivery successfully captures a bossy, dismissive, and rude attitude fitting the text.",
-    "reasoning_model_2": "The audio provides the text 'Cut the nonsense, hurry up', but the pronunciation of 'hurry' (00:01-00:02) sounds slightly distorted, closer to 'herry' or 'hairy'. In terms of the core requirement 'rude tone', the model fails significantly. The delivery (00:00-00:02) is breathy, soft, and sounds more like a pleading or exhausted whisper (resembling an anime-style 'weak' character) rather than someone being rude or aggressive. There is no sense of command, impatience, or dismissal; instead, it sounds vulnerable. Therefore, it does not meet the specific paralinguistic instruction.",
-    "model_comparison": "Model 1 followed the instructions effectively, delivering the line with a stern, impatient, and dismissive tone that qualifies as 'rude'. Model 2 completely missed the target tone, producing a soft, breathy, and pleading voice that contradicts the requested 'rude' attitude. Additionally, Model 2 had a minor pronunciation ambiguity on the word 'hurry'. Model 1 is the clear winner for accurately following the style constraint.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed the primary requirement of Content Accuracy. The target script was 'Paris is the capital and largest city of France.' However, the generated audio content was 'Paris is the capital of France and one of the largest cities in Europe.' (00:00 - 00:04). This is a significant hallucination and rewriting of the text, changing the specific factual claim (largest in France vs one of largest in Europe). Although the tone employed was generally neutral and documentary-like, the complete failure to adhere to the provided text script triggers a score of 0 according to the evaluation criterion for 'Content Accuracy' where content is clearly inconsistent.",
-    "reasoning_model_2": "The model successfully adhered to the text script 'Paris is the capital and largest city of France.' (00:00 - 00:03) without any errors, omissions, or additions. In terms of the 'Neutral Emotion' requirement, the delivery was factual, calm, and objective, lacking any exaggerated pitch modulation or affect that would suggest happiness, sadness, or excitement. The pacing was natural, and the prosody fit the style of a standard informative statement perfectly. It fulfills the 'Fully correct' standard.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed to read the correct text, rewriting the second half of the sentence entirely ('one of the largest cities in Europe' vs 'largest city of France'). This is a critical failure in content accuracy. Model 2 provided the exact text with the requested neutral paralinguistic features. Therefore, Model 2 receives the highest score while Model 1 receives the lowest due to the text hallucination.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

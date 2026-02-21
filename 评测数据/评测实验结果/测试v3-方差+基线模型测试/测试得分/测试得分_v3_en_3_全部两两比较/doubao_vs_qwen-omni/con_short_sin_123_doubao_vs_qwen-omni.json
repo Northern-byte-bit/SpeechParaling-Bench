@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully captures the required paralinguistic feature of 'anger'. At timestamp 0.2s-1.8s, the speaker's tone shifts from a neutral onset to a clearly frustrated and aggressive pitch on the phrase 'so many errors'. The stress on 'how' and 'errors' is well-placed, conveying distinct annoyance. The pacing is natural (3/3), and the content is perfectly accurate (3/3). The emotional expression is vivid and identifiable, matching the 'Fully correct' criteria for Paralinguistic Compliance.",
-    "reasoning_model_2": "The model generates the correct text (Content Accuracy 3/3), but completely fails to adhere to the emotional instruction. From 0.0s to 1.5s, the voice maintains a flat, monotone consistency typical of standard non-emotive TTS. There is no variation in pitch, volume, or speed to indicate anger or even surprise. The delivery sounds mechanical and detached. According to the scoring standard for Paralinguistic Compliance, a 'flat tone, completely devoid of emotion' warrants a score of 0.",
-    "model_comparison": "Model 1 followed the user's specific instruction to apply an 'angry emotion', effectively modifying the prosody and pitch to convey frustration. Model 2 ignored the paralinguistic instruction entirely, delivering the line in a neutral, flat tone. Model 1 is significantly superior in terms of Feature Control and instruction following.",
-    "score_1": 3,
-    "score_2": 0,
-    "winner": 1
-}

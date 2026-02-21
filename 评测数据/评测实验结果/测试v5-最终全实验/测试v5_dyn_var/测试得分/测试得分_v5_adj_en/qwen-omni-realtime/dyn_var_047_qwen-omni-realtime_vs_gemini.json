@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model completely fails the Content Accuracy criterion. Instead of applying the paralinguistic instruction (changing volume) to the target sentence, the model reads the instructions out loud as part of the script (e.g., 'Whispering', 'Louder now', 'Fully audible now'). Additionally, it repeats parts of the target sentence multiple times ('Yes, it is... we can discuss it outside') to correspond with these vocalized stage directions. This hallucination of instructions and repetition makes the audio unusable and incorrect.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy. The spoken text matches the provided script ('Is this book the material we're looking for? Yes, it is, we can discuss it outside.') exactly, without any hallucinations, repetitions, or reading of stage directions. Regarding Paralinguistic Compliance, the audio (based on the transcript) presents a coherent single utterance. While the transcript alone does not visualize the volume curve, the absence of meta-commentary implies the model attempted to perform the task naturally. It successfully avoids the catastrophic failure mode seen in Model 1.",
-    "model_comparison": "Model 1 is a complete failure because it vocalizes the stage directions ('Whispering', 'Louder now') and repeats the script multiple times, violating the basic requirement to read the specific sentence. Model 2 correctly produces the target sentence without extra text or errors. Therefore, Model 2 is the clear winner based on Content Accuracy.",
-    "score_1": 0,
-    "score_2": 2,
-    "winner": 2
-}

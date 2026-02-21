@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 generates the audio with high fidelity and accurate content content ('抱歉我得走了，下一班车要开了'). However, regarding the core constraint '极快速的语速' (extremely fast speaking rate), the model fails significantly. The speech is delivered at a standard, moderate pace (0:00-0:03), sounding polite and calm rather than urgent or fast. There is no acceleration in rhythm or prosody to reflect the specific instruction.",
-    "reasoning_model_2": "Model 2 accurately reproduces the text content. Critically, it adheres well to the '极快速的语速' (extremely fast speaking rate) instruction. From 0:00 to 0:02, the speaker delivers the lines with palpable urgency and a significantly faster pace than normal conversation. The inclusion of breathless vocal qualities suggests the speaker is physically running or rushing, which naturally accompanies the fast speed required. The prosody correctly reflects the context of nearly missing a bus.",
-    "model_comparison": "Model 1 completely ignores the style instruction for 'extremely fast speed', delivering a standard, neutral reading. Model 2 successfully implements the instruction by increasing the speaking rate and adding appropriate urgent/breathless tonal characteristics that align with the context of the text. Model 2 is the clear winner for following the specific paralinguistic control command.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

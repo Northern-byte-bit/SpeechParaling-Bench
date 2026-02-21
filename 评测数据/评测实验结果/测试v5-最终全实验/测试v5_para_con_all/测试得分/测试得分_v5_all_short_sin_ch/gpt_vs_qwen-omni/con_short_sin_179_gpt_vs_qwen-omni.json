@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content correctly matches the script '这么早就要起床，真是太难了。' (00:00-00:02). The speaker adopts a complaining and slightly whiny tone, which aligns with the sentiment of the text. However, regarding the core requirement 'Non-verbal vocalization (Yawn)', the model fails to produce any specific sound of a yawn. The speech is delivered clearly but lacks the requested paralinguistic feature (yawning sound or speaking while yawning). It interprets the prompt merely as an emotional request (complaint) rather than a sound event request.",
-    "reasoning_model_2": "The audio content is accurate to the script (00:00-00:04). The prosody is slow, weary, and groggy, fitting the context of waking up early perfectly. Crucially, the model explicitly generates the requested 'Non-verbal vocalization'. After the spoken phrase, from 00:04 to 00:06, there is a distinct, highly realistic sound of a yawn (a deep breath and sigh). This perfectly satisfies the user's command to include a yawn. The integration of the speech and the sound effect is natural.",
-    "model_comparison": "Model 2 (T2) is the clear winner. The user specifically requested the audio to be spoken 'with a yawn' (Non-verbal vocalization). Model 1 (T1) only provided a complaining tone without any actual yawning sound or characteristic acoustic modulation associated with yawning. Model 2, on the other hand, generated a high-quality, distinct non-verbal yawning sound immediately following the speech, while also maintaining a very fitting tired/groggy vocal texture during the speech. T2 fully adhered to the 'Feature Control' requirement, whereas T1 missed the core non-verbal component.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

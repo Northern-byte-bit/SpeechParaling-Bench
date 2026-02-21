@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates audio that closely follows the user's script '呃，这个，呃，会议什么时候开始？'. The transcript indicates the insertion of hiccup sounds ('嗝') at the beginning and end of the sentence (0.0s and end), and retains the hesitation markers ('呃') and the specific sentence structure ('这个...会议...'). The inclusion of hiccups effectively conveys the requested non-verbal vocalization ('非语言发声'). The pacing appears to accommodate the hiccups, maintaining the stuttering nature of the prompt.",
-    "reasoning_model_2": "The model generates audio that deviates significantly from the provided script. The prompt required the specific text '呃，这个，呃，会议什么时候开始？', which contains deliberate hesitation markers ('呃') to simulate a struggle with speech. Model 2 simplifies this to '这个会议什么时候开始啊' (When does this meeting start?), omitting the 'Uh, this, uh' segments entirely. While it includes a sound effect at the beginning (0.0s), the content accuracy score is severely penalized due to the rewriting of the script.",
-    "model_comparison": "Model 1 demonstrates superior performance primarily due to Content Accuracy. It faithfully adheres to the specific wording of the prompt, including the hesitation markers ('呃') which are contextually important for a command asking to speak with hiccups. It successfully integrates the hiccup feature into the flow of the text. Model 2 fails the Content Accuracy criterion by paraphrasing the text and removing the hesitation words, changing the sentence structure. Therefore, Model 1 is the clear winner.",
-    "score_1": 3,
-    "score_2": 1,
-    "winner": 1
-}

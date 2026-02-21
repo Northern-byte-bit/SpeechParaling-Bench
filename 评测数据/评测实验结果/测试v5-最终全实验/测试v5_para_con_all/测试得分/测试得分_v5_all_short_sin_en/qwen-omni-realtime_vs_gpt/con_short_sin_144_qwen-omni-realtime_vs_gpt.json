@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 attempts to express the 'doubting' cognitive state. The tone used is indeed high-pitched and incredulous, fitting the emotional profile of doubt (0:00-0:03). However, the model fails significantly on **Content Accuracy**. The user command explicitly asked to read a specific sentence: 'Are you sure you really didn't touch my things?'. Model 1 reads this sentence but then hallucinates and appends a long, unrequested monologue ('I mean really? You're telling me with a street face...'). This violation of the script is a major issue. While the paralinguistic expression of doubt is present in the added text, the failure to adhere to the script constraints severely impacts the score.",
-    "reasoning_model_2": "Model 2 follows the **Content Accuracy** requirements perfectly, reading exactly the requested text with no additions or omissions. In terms of **Cognitive State**, the model delivers an excellent performance. The pacing is deliberate, with a slight drag on 'really' (0:01) and 'sure' (0:00), and the intonation rises at the end to create a natural, suspicious, and doubting question. The tone sounds grounded and realistic, effectively conveying the requested cognitive state without being exaggerated. The audio is fluent and free of artifacts.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental instruction of reading the specific text provided, adding significant unprompted content. While Model 1's tone was doubting, the hallucinated text makes it a failed generation in terms of control and accuracy. Model 2 provided a high-quality, natural, and accurately doubting reading of the exact script requested.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

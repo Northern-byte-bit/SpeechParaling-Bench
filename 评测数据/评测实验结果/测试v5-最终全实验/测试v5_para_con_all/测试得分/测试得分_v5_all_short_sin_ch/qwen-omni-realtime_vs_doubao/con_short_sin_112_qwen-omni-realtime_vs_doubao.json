@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. The user requested the text '会议时间已调整，请查收邮件通知。', but the model hallucinated/added several words, saying '会议时间**已经**调整，请**您注意**查收**相关**邮件通知' (0.0s - 4.5s). Regarding the Core Paralinguistic Compliance (Emotion: Neutral), the model's performance is incorrect. The voice exhibits a lively, cheerful, and enthusiastic tone typical of a customer service greeting (e.g., upward inflection at the end of '通知' and a 'smiley' voice quality). This expressiveness contradicts the instruction for a 'neutral' (中性) emotion, which requires a flatter, calmer, and more objective delivery. Due to the text hallucination and the mismatch in emotional tone, the score is low.",
-    "reasoning_model_2": "Model 2 performs excellently on Content Accuracy. The spoken text '会议时间已调整，请查收邮件通知' (0.0s - 3.5s) matches the script perfectly with no additions or omissions. Regarding Core Paralinguistic Compliance (Emotion: Neutral), the model accurately captures the target. The tone is calm, steady, and professional. It conveys the information objectively without unnecessary fluctuations in pitch or added emotional coloring (like happiness or urgency). The prosody is natural but restrained, fitting the definition of 'neutral' perfectly.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed on both basic criteria: it altered the text script significantly (adding words like '已经', '您注意', '相关') and failed to produce the requested 'neutral' emotion, instead using a cheerful/lively tone. Model 2 followed the text exactly and delivered a spot-on neutral, professional tone that aligns perfectly with the user's prompt.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

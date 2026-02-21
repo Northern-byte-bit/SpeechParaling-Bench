@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model failed to execute the command. Instead of reading the target sentence ('The key lies in communication...'), the audio contains a conversational response: 'Sure. Which word should I stress?'. Because the content is completely inconsistent with the required script and the task was not performed, this receives a score of 0.",
-    "reasoning_model_2": "The model accurately speaks the required text: 'The key lies in communication, we must remain open.' regarding content accuracy. In terms of paralinguistic compliance, the word 'key' (approx. 0.0s-0.5s) is heavily emphasized with increased volume and a distinct pitch peak, clearly distinguishing it from the rest of the sentence. The prosody is natural with a human-like pause after 'communication'. The specific instruction to stress 'key' was fully realized.",
-    "model_comparison": "Model 1 failed to generate the target speech entirely, instead outputting a meta-response asking for clarification, which counts as a complete failure in content accuracy. Model 2 successfully generated the target text and correctly applied the requested stress to the word 'key', maintaining natural prosody throughout. Model 2 is superior in every dimension.",
-    "score_1": 0,
-    "score_2": 3,
-    "winner": 2
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model demonstrates perfect Content Accuracy by strictly adhering to the user's script '欢迎光临，我们很高兴为您服务。'. It successfully filters out the instructional part of the prompt ('请用圆润的音质说：') and delivers only the target sentence. The phrasing matches the script exactly (0:00-end), ensuring the core message is conveyed without errors, omissions, or additions. Assuming the audio synthesis aligns with this textual precision, the delivery fits the professional context.",
-    "reasoning_model_2": "Model 2 also exhibits flawless Content Accuracy. It correctly identifies and synthesizes the target script '欢迎光临，我们很高兴为您服务。' without including the command text. The output is clean and directly addresses the user's requirement. Throughout the segment (0:00-end), the content remains faithful to the prompt, suggesting a high level of control and naturalness in maintaining the script's integrity.",
-    "model_comparison": "Both models show identical performance in terms of Content Accuracy and script adherence. T1 and T2 both correctly isolated the target speech from the instruction and produced the exact required sentence: '欢迎光临，我们很高兴为您服务。'. There are no lexical differences, hallucinations, or formatting errors in the provided output for either model. As both models achieved a perfect match with the script and met the content requirements equally well, the evaluation results in a tie.",
-    "score_1": 3,
-    "score_2": 3,
-    "winner": 0
-}

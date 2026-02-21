@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately matches the script '你刚才说的，我好像没有听懂。能再说一遍吗？'. However, the delivery is notably unnatural. The pacing is extremely slow and segmented (e.g., 0.0s-1.5s '你刚才说的...'), creating a robotic or mechanical feel rather than a human expression of confusion. While the slowness might attempt to convey hesitation, it lacks the necessary prosodic variations—such as pitch inflection or stress—that characterize genuine confusion. The tone is largely flat and reads more like a slow dictation than a reaction to not understanding something.",
-    "reasoning_model_2": "The model generates the correct text with high fidelity. The fluency and naturalness are significantly better than Model 1. The pacing is conversational (0.0s-1.2s), and the intonation accurately reflects the cognitive state of confusion. Specifically, the segment '我好像没有听懂' (1.2s-2.5s) carries a tone of uncertainty, and the final question '能再说一遍吗？' (2.5s-end) has an appropriate rising intonation and a pleading quality that naturally conveys the desire for clarification. The emotional expression is vivid and fits the 'confused' prompt well.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 suffers from a robotic, overly slow delivery that fails to effectively convey the requested 'confused' tone; it sounds more like a TTS system reading text slowly. Model 2, in contrast, delivers the line with natural prosody, appropriate speed, and a clear emotional coloring of confusion and uncertainty. Model 2 successfully captures the paralinguistic features required for the 'Cognitive State' dimension.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

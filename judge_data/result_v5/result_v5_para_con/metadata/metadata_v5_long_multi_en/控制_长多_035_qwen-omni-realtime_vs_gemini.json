@@ -1,0 +1,16 @@
+{
+    "sample_index": 35,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a dragging rhythm and a helpless tone: 'Oh... why is this queue so long... Looks like I won't be able to eat lunch today... going to have to wait for ages...'",
+    "dimensions": [
+        "Cognitive State",
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

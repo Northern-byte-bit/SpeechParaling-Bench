@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the content accurately ('Sorry, I have to go, the next bus is leaving!'). However, regarding the core paralinguistic requirement (Pace), the model fails significantly. The delivery is slow, calm, and deliberate, which is the exact opposite of the requested 'very fast pace'. There are noticeable pauses after 'Sorry' (0:00-0:01) and 'go' (0:02), extending the clip to nearly 4 seconds. The tone is more akin to a relaxed reading than someone rushing to catch a bus.",
-    "reasoning_model_2": "The model accurately speaks the required text. Crucially, it adheres strictly to the 'very fast pace' instruction. The entire sentence is condensed into approximately 2 seconds (0:00-0:02). The speaker rushes through the words 'I have to go' and 'the next bus is leaving' with high urgency, minimizing pauses between clauses. The rhythm matches the context of someone in a hurry, satisfying the paralinguistic compliance criteria fully.",
-    "model_comparison": "This is a clear case of instruction following regarding feature control. Model 1 completely ignored the instruction to speak at a 'very fast pace', delivering the line slowly and calmly with significant pauses. Model 2 successfully executed the command, delivering the line rapidly and urgently. While Model 1 has slightly clearer audio fidelity, it failed the specific evaluation dimension (Pace). Model 2's performance on the core feature is vivid and spot-on.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}

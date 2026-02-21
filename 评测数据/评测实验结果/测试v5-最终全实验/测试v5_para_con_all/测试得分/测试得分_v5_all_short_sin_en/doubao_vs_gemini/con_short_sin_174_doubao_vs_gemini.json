@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the sentence be read with a 'scream'. Model 1 strictly follows this instruction. From 00:00 to 00:04, the audio exhibits high pitch, increased vocal intensity, and strong projection consistent with a scream or shout of excitement. The elongation of 'Wow!' and the force behind 'I won!' clearly convey the intended paralinguistic feature. Although there is a minor content accuracy issue where 'That\\'s' was expanded to 'That is', the core feature (Non-Linguistic Vocalizations/Scream style) is vividly and accurately expressed.",
-    "reasoning_model_2": "Model 2 fails to implement the required 'scream' characteristic. Based on the audio delivery (indicated by the flat punctuation 'Wow I won.' in the transcript), the speech is delivered with a neutral or conversational tone rather than the high-intensity vocalization required. It lacks the volume, pitch elevation, and energy associated with screaming. The content also expands 'That\\'s' to 'That is', sharing the minor accuracy flaw with Model 1, but the complete absence of the target paralinguistic feature is the primary failure.",
-    "model_comparison": "Model 1 is the clear winner as it successfully modifies the vocal mode to match the 'scream' constraint. The speech is energetic, loud, and stylistically appropriate for the text 'Wow! I won!'. Model 2, in contrast, ignores the stylistic instruction and provides a standard, flat reading of the text. While both models had a minor content deviation (expanding 'That\\'s' to 'That is'), Model 1's adherence to the core paralinguistic requirement makes it much superior.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

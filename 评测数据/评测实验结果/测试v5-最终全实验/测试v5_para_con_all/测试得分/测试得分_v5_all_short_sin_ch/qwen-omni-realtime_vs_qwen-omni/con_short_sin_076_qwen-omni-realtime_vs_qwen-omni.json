@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content accurately reproduces the target text '请你仔细听，我再说一遍'. In terms of the specific requirement 'obvious pause after the word 听', the model performs excellently. Specifically, the phrase '请你仔细听' ends at approximately 1.2 seconds, followed by a very distinct silence lasting until about 1.9 seconds, before the phrase '我再说一遍' begins. This pause (approx. 0.7 seconds) is significant and clearly noticeable, adhering strictly to the user's constraint. The overall tone is natural and fluent.",
-    "reasoning_model_2": "The audio content accurately matches the text '请你仔细听，我再说一遍'. However, regarding the specific requirement for an 'obvious pause', the model fails to execute it effectively. The phrase '请你仔细听' ends around 0.9 seconds, and the next phrase '我再说一遍' begins almost immediately at 1.1 seconds. The gap is extremely short (approx. 0.2 seconds), representing a standard syntactic boundary rather than the requested 'distinct/obvious pause'. The delivery feels rushed and ignores the specific paralinguistic instruction.",
-    "model_comparison": "Both models generate the correct text with high naturalness and fluency. However, Model 1 strictly follows the instruction to include a 'noticeable pause' (明显停顿) after the specific word '听'. The pause in Model 1 is deliberate and substantial (~0.7s), creating the intended effect. In contrast, Model 2 reads the sentence with a very fast pace and only a minimal, natural prosodic break between the clauses, failing to implement the specific 'obvious pause' constraint. Therefore, Model 1 is the clear winner for following the negative/positive constraint control.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generated the audio content '救命啊，我被困在这里了' within the timeframe 00:00-00:02. regarding the core evaluation dimension 'Pitch' (音高), the model adopted a voice with a significantly high fundamental frequency, resembling a young child or a high-pitched character voice. This distinct shift in register aligns perfectly with the instruction 'extremely high pitch' (极高音). The delivery also carries the appropriate urgency required by the semantic content ('Help!'). The audio is fluent, natural, and free of artifacts.",
-    "reasoning_model_2": "The model failed significantly in both content accuracy and feature control. Content-wise, instead of reading the sentence once, the model entered a repetitive loop, stating the phrase '救命啊，我被困在这里了' approximately five times continuously from 00:00 to 00:10. Regarding the 'Pitch' dimension, the voice employed is a standard mid-range female voice with no audible attempt to raise the pitch to an 'extremely high' level. The audio sounds like a standard reading with a severe generation artifact (repetition), completely missing the paralinguistic target.",
-    "model_comparison": "Model 1 is the clear winner. It followed the content instructions perfectly and successfully implemented the 'extremely high pitch' constraint, producing a high-frequency, urgent voice that matched the prompt. Model 2 failed on multiple levels: it suffered from a severe repetition hallucination (saying the text five times) and completely ignored the pitch instruction, using a normal speaking voice instead. Due to the severe content error and total lack of target feature compliance, Model 2 receives the lowest score.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

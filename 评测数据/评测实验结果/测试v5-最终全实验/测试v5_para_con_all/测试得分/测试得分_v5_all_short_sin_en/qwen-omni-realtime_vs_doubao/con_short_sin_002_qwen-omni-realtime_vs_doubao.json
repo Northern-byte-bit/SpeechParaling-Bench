@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the audio with the required text content 'Teacher, I have a question for you.' (00:00-00:02). The voice features a higher pitch, lighter timbre, and a polite, inquisitive tone characteristic of a child's voice. The speech is fluent and natural, with no hallucinations or pronunciation errors. The target paralinguistic feature 'Age' is clearly and accurately conveyed, complying perfectly with the user's prompt.",
-    "reasoning_model_2": "The model generates a voice that sounds very convincingly like a child, with excellent naturalness and appropriate prosody (00:00-00:06). However, the model fails significantly on Content Accuracy. While the requested sentence is read (00:00-00:02), the model hallucinates and appends a substantial amount of unrequested text: 'Can you help me? I'm just a little kid, but I really want to know.' (00:02-00:06). According to the evaluation criteria, major content inconsistencies or additions that deviate from the script constitute a major issue.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested child-like voice features. Model 2, while arguably possessing a more natural-sounding child timbre, failed the fundamental instruction of reading only the specific sentence provided. It hallucinated three additional clauses, violating the Content Accuracy criterion significantly. Therefore, Model 1 is the superior model for this task as it adheres to both the content and stylistic constraints.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

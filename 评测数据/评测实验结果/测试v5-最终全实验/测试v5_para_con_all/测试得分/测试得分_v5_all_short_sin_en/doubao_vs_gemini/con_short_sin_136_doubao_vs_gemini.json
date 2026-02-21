@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model successfully generates the content with a distinct hesitant tone. The pacing is significantly slowed down (taking nearly 9 seconds for a short sentence), with marked elongation of vowels in words like 'This' (00:00), 'weekend' (00:01-00:02), and 'park' (00:07-00:08). The prosody features dragging intonations and pauses (e.g., before 'park') that effectively simulate the cognitive state of uncertainty and deliberation. The audio sounds like someone thinking while speaking, perfectly aligning with the instruction.",
-    "reasoning_model_2": "The model generates the content accurately and with high naturalness in terms of audio quality. However, the delivery is fast, fluid, and decisive, taking only about 3 seconds. The tone sounds like a standard, casual question or a confident suggestion rather than someone experiencing hesitation. There are no pauses, filler sounds, or uncertain pitch variations that would indicate the requested 'hesitant' cognitive state. It fails to convey the specific paralinguistic feature requested.",
-    "model_comparison": "Model 1 (T1) followed the specific instruction to use a 'hesitant tone' very effectively. It utilized temporal expansion (slowing down), vowel elongation, and tentative intonation to convey uncertainty. Model 2 (T2) ignored the specific tone instruction, delivering the line with a standard, confident, and fast pace that contradicted the requested cognitive state. While T2 is more natural in a general sense, T1 is the clear winner for this specific 'Feature Control' task.",
-    "score_1_1": 3,
-    "score_2_1": 1,
-    "winner_1": 1
-}

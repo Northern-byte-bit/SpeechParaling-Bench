@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user explicitly requested the model to say: '麻烦您了，请您稍等片刻。'. However, Model 1 generated completely different content: '不好意思打扰您了，麻烦您稍等一下，我这就为您处理。' (00:00-00:03). While the tone used is indeed polite and sounds like a customer service agent, the content accuracy is a complete failure as it did not follow the script provided in the prompt. According to the scoring standard, if the voice content is clearly inconsistent with the script, it must be assigned a score of 0.",
-    "reasoning_model_2": "Model 2 strictly follows the content constraints. The spoken text is exactly '麻烦您了，请您稍等片刻。' (00:00-00:02). In terms of paralinguistic features, the model uses a calm, deep, and respectful tone that perfectly embodies the requested 'polite' (礼貌) attitude. The pacing is natural (00:01 pause between clauses), and the stress on '麻烦' and '稍等' conveys sincerity and respect without being exaggerated. It meets the criteria for a fully correct generation.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 failed the most basic requirement of Content Accuracy by hallucinating a completely different script than the one commanded ('不好意思打扰您了...' vs '麻烦您了...'). Although Model 1's tone was polite, the content error renders it unusable based on the evaluation criteria. Model 2 provided the exact text requested with high fidelity and applied the requested polite tone naturally and effectively.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

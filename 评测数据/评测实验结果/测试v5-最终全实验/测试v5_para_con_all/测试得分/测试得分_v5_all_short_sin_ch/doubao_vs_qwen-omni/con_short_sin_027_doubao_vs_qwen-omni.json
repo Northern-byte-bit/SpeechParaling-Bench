@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The audio content correctly matches the script '这是我最后的决定。' (00:00-00:01). However, regarding the core requirement '极低音' (extremely low pitch), the model fails completely. The generated voice is that of a young female or child with a naturally high pitch. There is no attempt to modulate the voice to a lower register; in fact, the pitch remains high and light throughout the segment. This is effectively the opposite of the requested paralinguistic feature.",
-    "reasoning_model_2": "The audio content matches the script '这是我最后的决定。' perfectly (00:00-00:02). The model successfully executes the '极低音' (extremely low pitch) instruction. The generated voice is a deep male baritone/bass, and the delivery is resonant and significantly lower in frequency than a standard speaking voice. The pacing is deliberate, and the low pitch is consistent throughout the phrase, accurately conveying the requested feature.",
-    "model_comparison": "Model 2 is the clear winner. The user specifically requested 'extremely low pitch'. Model 1 generated a high-pitched female/child voice, which is the exact opposite of the instruction. Model 2 generated a deep, low-pitched male voice that perfectly aligned with the prompt. Model 1 failed the core controllable constraint, while Model 2 succeeded with high quality and naturalness.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

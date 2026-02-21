@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately generates the text '这么早就要起床，真是太难了' without any deviations. Regarding the paralinguistic feature (yawning), the audio successfully integrates a yawning effect into the speech. The delivery starts with a breathy, stretched quality characteristic of a yawn, and the prosody is lethargic and dragged out (e.g., the elongation of '早' and '太难了'), effectively simulating the sound of someone speaking while yawning. The emotion perfectly matches the context of being sleepy.",
-    "reasoning_model_2": "The model fails significantly in content accuracy. Instead of the requested text, it says '哈，这么早就要起床，真的好难啊，眼皮都快粘一起了' (Ha, getting up so early, it's really hard, my eyelids are sticking together). This is a hallucination/unauthorized modification of the script. Regarding the paralinguistic feature, the voice sounds bright, energetic, and crisp, completely lacking any yawning characteristics or sleepiness. The initial '哈' is pronounced as a clear syllable rather than a non-verbal yawn sound. The tone contradicts the instruction.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with a convincing yawning effect that modified the phonation and rhythm naturally. Model 2 failed completely; it changed the text significantly (hallucination) and used an energetic, happy tone instead of the requested yawning/sleepy style. Therefore, Model 1 is the superior model.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

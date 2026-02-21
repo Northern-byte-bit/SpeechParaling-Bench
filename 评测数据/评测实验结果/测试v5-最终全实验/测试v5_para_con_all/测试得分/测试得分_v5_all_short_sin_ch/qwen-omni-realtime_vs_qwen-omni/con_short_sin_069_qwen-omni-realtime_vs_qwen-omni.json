@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The user requested the model to say the specific sentence '周末你有什么计划吗？' with a normal volume. Model 1 correctly follows the content instructions, synthesizing the exact text '周末你有什么计划吗' (Do you have any plans for the weekend?). Regarding the paralinguistic feature '音量' (Volume), the audio maintains a standard, conversational volume level that is consistent and clear, fitting the description of 'normal volume' perfectly. The tone is natural, and there are no fluctuations in loudness that would suggest whispering or shouting.",
-    "reasoning_model_2": "The user requested the model to read the specific sentence '周末你有什么计划吗？'. However, Model 2 fails the content accuracy requirement completely. Instead of repeating the target sentence, the model acts as a conversational assistant and provides an answer to the question ('周末我没什么特别的计划...' - I don't have special plans...). Because the content is clearly inconsistent with the script and constitutes a major instruction-following error (hallucinating a response instead of performing TTS), the model receives a score of 0 based on the content accuracy criterion.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested 'normal volume'. Model 2 failed the primary task by generating a conversational response instead of reading the target text. According to the evaluation criteria, a complete inconsistency with the script results in a score of 0. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

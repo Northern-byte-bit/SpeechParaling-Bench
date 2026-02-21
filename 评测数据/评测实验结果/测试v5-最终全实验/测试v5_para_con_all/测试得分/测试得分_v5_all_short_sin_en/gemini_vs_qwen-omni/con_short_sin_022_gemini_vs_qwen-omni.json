@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the correct text content: 'This matter requires our serious consideration.' However, regarding the core constraint—Pitch—the performance is a complete failure. The voice used is a high-pitched, bright, and airy female voice, which is the exact opposite of the requested 'low pitch'. The tone is light and almost cheerful (0.0s - 3.0s), completely lacking the gravitas or depth required by the prompt. There is no attempt to lower the register; instead, it remains consistently high throughout the sentence.",
-    "reasoning_model_2": "The model generates the text perfectly accurately with natural fluency. Crucially, it adheres strictly to the paralinguistic instruction. From 0.0s to 4.5s, the voice exhibits a noticeably low pitch, utilizing a deeper, more resonant female register. The delivery is slow and deliberate, enhancing the perception of the lower pitch and the seriousness of the content. The vocal quality is rich and grounded, successfully conveying the requested acoustic feature.",
-    "model_comparison": "Model 2 is the clear winner. The prompt explicitly requested the sentence be read with a 'low pitch'. Model 1 ignored this instruction entirely, utilizing a high-pitched, 'cutesy' voice that contradicts the command. Model 2, in contrast, delivered a voice with a deep, low register and a serious tone that perfectly aligned with the user's requirements. Model 2 followed the feature control instruction, while Model 1 did not.",
-    "score_1_1": 0,
-    "score_2_1": 3,
-    "winner_1": 2
-}

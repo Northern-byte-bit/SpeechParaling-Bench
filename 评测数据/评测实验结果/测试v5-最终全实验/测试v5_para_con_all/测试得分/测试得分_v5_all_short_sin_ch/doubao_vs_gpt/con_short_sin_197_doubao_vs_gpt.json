@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails significantly in Content Accuracy. The generated speech deviates from the requested text in two major ways: the final particle is changed from '呢' (ne) to '啊' (a), and more critically, the word '结果' (result) is mispronounced or hallucinated as a non-existent sound represented as 'zleguo'. This specific artifact sounds mechanical and breaks immersion. Due to these content and fluency failures, the target 'sarcastic' attitude cannot be effectively established or evaluated. The output is unnatural and contains severe glitches.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, matching the script '嗯，真没想到会是这个结果呢' exactly. In terms of Paralinguistic Compliance, it successfully conveys the 'sarcastic' attitude. The initial 'Mm' is appropriately lengthened and weighted to sound like a mock realization or a sneer. The pitch contour on '真没想到' (really didn't expect) and the final '呢' utilizes a rising-falling or exaggerated intonation pattern typical of sarcasm, implying 'I knew this would happen' or 'How predictable.' The speech is fluent and natural.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 suffers from a critical pronunciation failure (glitching on the word '结果') and a text mismatch (wrong final particle), which severely impacts both intelligibility and the ability to convey the requested tone. Model 2, in contrast, delivers a flawless performance with accurate text and a vivid, clearly discernible sarcastic tone that matches the user's intent perfectly.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

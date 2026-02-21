@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model generates the audio with high fidelity to the requested 'tired' cognitive state. From 0.0s to 1.5s ('The workload today was huge'), the speaker uses a lower pitch, slower tempo, and a dragging intonation characteristic of fatigue. From 1.5s to the end ('I am really so tired'), the delivery becomes even more lethargic, with a breathy quality that effectively simulates exhaustion. Note that the model expanded the contraction 'I'm' to 'I am', which is a minor deviation in content accuracy, but this actually aids the paralinguistic goal by slowing down the sentence to emphasize the tired state.",
-    "reasoning_model_2": "The model completely fails to convey the requested 'tired' cognitive state. Throughout the entire clip (0.0s - 2.8s), the voice is bright, energetic, higher-pitched, and bouncy, reminiscent of a cheerful anime character. The intonation on words like 'huge' and 'tired' is upward and emphatic in a happy way, which is the direct opposite of the requested paralinguistic feature. While the content accuracy is perfect (correctly saying 'I'm'), the emotional delivery is completely mismatched with the prompt.",
-    "model_comparison": "Model 1 followed the paralinguistic instruction 'tired tone' very effectively, altering pitch, speed, and breathiness to match the cognitive state. Model 2 ignored the tonal instruction entirely, delivering the line with high energy and cheerfulness. Although Model 1 had a very minor text deviation (expanding 'I'm' to 'I am'), its adherence to the core instruction makes it the clear winner over Model 2, which failed to generate the required feature.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

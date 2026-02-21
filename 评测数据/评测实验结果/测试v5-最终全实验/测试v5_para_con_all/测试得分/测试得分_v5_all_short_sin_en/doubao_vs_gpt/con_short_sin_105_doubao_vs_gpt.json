@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model accurately follows the command to read the target sentence: 'The key lies in communication, we must remain open.' content-wise. In terms of the paralinguistic feature (Stress), the model successfully emphasizes the target word 'key'. This is achieved by isolating the word 'key' (00:00-00:01) with a distinct pause immediately following it before continuing with 'lies in communication'. This prosodic choice effectively draws the listener's attention to the specific word requested. The audio is fluent and clear.",
-    "reasoning_model_2": "The model completely fails to execute the command. Instead of reading the requested sentence with the specified stress, the model outputs a conversational response: 'Sure, which word should I stress?' (00:00-00:02). This indicates a failure in instruction following regarding the text-to-speech task, as it treats the prompt as a dialogue query rather than a generation command. Consequently, it is impossible to evaluate the stress on the target sentence.",
-    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested paralinguistic feature (stress on 'key'). The stress was achieved through a noticeable pause and emphasis on the target word. Model 2 failed to generate the target audio entirely, offering a conversational refusal/query instead. Therefore, Model 1 is the clear winner.",
-    "score_1_1": 3,
-    "score_2_1": 0,
-    "winner_1": 1
-}

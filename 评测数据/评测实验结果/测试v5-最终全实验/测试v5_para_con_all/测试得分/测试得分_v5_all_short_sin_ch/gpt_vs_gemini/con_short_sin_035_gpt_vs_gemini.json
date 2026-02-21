@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model correctly generates the content '这首歌的旋律，真是优美动听' (00:00-00:03). However, regarding the core requirement '圆润的音质' (round/mellow tone quality), the performance is lacking. The voice timbre is relatively thin, bright, and digital, typical of a standard female TTS engine. It lacks the acoustic warmth, resonance, and fullness associated with 'roundness'. The prosody is acceptable but slightly stiff, with a distinct mechanical pause at 00:01.",
-    "reasoning_model_2": "The model accurately generates the script content (00:00-00:03). In terms of '圆润的音质', the model performs excellently. The voice exhibits a distinct warmth, resonance, and fullness. The lower frequencies are well-supported, and the delivery is smooth without any sharp or tinny artifacts, perfectly fitting the description of a 'round' and 'mellow' quality. The prosody is natural and soothing, enhancing the perception of the tone.",
-    "model_comparison": "Both models achieve accurate content generation. However, Model 2 is significantly superior in adhering to the 'Feature Control' constraint ('圆润的音质'). Model 1 produces a standard, somewhat thin and bright voice that does not convey 'roundness'. Model 2 produces a rich, warm, and resonant voice that captures the requested 'round' timbre effectively. Model 2 is also more natural in its prosody.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

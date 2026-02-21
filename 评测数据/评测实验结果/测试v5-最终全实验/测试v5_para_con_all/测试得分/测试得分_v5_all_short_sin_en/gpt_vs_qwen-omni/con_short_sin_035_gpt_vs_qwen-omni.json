@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails the Content Accuracy criterion significantly at the very beginning. Between 0:00 and 0:01, it mispronounces the subject of the sentence 'The melody' as 'Namality' (or a similar garbled phonetic sequence). This error disrupts the flow and meaning of the sentence. Due to this significant pronunciation flaw, the 'smoothness' of the timbre is compromised by the glitchy artifact associated with the error. While the latter part of the sentence ('...of this song is truly beautiful and pleasant') is intelligible, the initial failure constitutes a major issue in fluency and naturalness.",
-    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, articulating the script 'The melody of this song is truly beautiful and pleasant' clearly from 0:00 to 0:04. In terms of Paralinguistic Compliance, the model successfully adopts a 'smooth timbre.' The voice is warm, steady, and lacks roughness or vocal fry. The articulation is legato, and the prosody is natural and soothing, fitting the semantic content of the sentence well. The request for a smooth timbre is fully realized without any mechanical artifacts.",
-    "model_comparison": "Model 2 is the clear winner. Model 1 suffers from a significant content error (hallucination/mispronunciation) on the first phrase ('The melody' -> 'Namality'), which severely impacts its score for content accuracy and overall naturalness. Model 2 follows the script perfectly and successfully executes the target feature of a 'smooth timbre' with a high-quality, natural-sounding voice.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

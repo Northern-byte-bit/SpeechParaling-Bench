@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "The model fails to correctly integrate the non-linguistic vocalization. Instead of performing a yawn sound, the model explicitly speaks the word 'Yawns' at the beginning of the audio (0:00-0:01). This is a significant error in instruction following and content accuracy, as 'Yawns' was not part of the target sentence ('This lecture is so boring, it makes me yawn.'). While the subsequent delivery has a somewhat tired tone, the inclusion of the stage direction as spoken text destroys the naturalness and fails the core requirement of the prompt.",
-    "reasoning_model_2": "The model successfully integrates a natural yawning sound at the very beginning of the clip (0:00-0:02), manifesting as a prolonged, breathy vocalization that transitions smoothly into the spoken words. The prosody throughout the sentence is lethargic and stretched, characteristic of speaking while or immediately after yawning. The content is accurate to the script without adding extra words. The execution is natural and vivid.",
-    "model_comparison": "Model 2 is superior. Model 1 committed a critical error by reading the action description ('Yawns') as part of the script, rather than performing the sound. Model 2 correctly interpreted the instruction, generating an actual non-linguistic yawn sound that blended naturally with the speech, demonstrating high control over paralinguistic features.",
-    "score_1_1": 1,
-    "score_2_1": 3,
-    "winner_1": 2
-}

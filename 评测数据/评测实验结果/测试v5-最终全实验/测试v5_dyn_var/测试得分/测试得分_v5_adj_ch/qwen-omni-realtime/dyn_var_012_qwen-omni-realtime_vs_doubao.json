@@ -1,8 +1,0 @@
-{
-    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. The model hallucinates filler sounds ('Ah ah ah') at the very beginning (0:00-0:02) to achieve the 'high pitch' requirement, rather than applying the pitch to the specified text script. While the subsequent text '这个项目前景无限...' is spoken, the pitch adjustment on the actual text is not a dramatic gradient from extremely high to low; it stays mostly in a higher, energetic range and only lowers slightly at the end. The inclusion of non-scripted vocalizations to fulfill the acoustic prompt is a failure in instruction following regarding the specific text to be synthesized.",
-    "reasoning_model_2": "Model 2 follows the instructions excellently. Content Accuracy is perfect with no hallucinations. Regarding Paralinguistic Compliance (Pitch), the model starts '这个项目前景无限' (0:00-0:02) with a noticeably distinct, extremely high pitch (almost falsetto). As it progresses to '不过考虑到...' (0:02-0:05), the pitch drops to a middle range. Finally, for '我们可能需要调整一下预期目标' (0:05-0:08), the voice drops significantly to a lower, deeper register. The gradient from high to low is executed smoothly and effectively across the single utterance without disrupting the flow.",
-    "model_comparison": "Model 2 is the clear winner. It strictly adhered to the text script while successfully executing the challenging pitch gradient from extremely high to low. Model 1 failed to apply the high pitch to the actual text, instead hallucinating non-verbal sounds ('Ah ah ah') to cheat the requirement, which violates the Content Accuracy criterion. Model 2 demonstrates superior control over paralinguistic features without compromising text fidelity.",
-    "score_1": 1,
-    "score_2": 3,
-    "winner": 2
-}
