@@ -61,10 +61,19 @@ SpeechParaling-Bench/
 
 The SpeechParaling-Bench dataset is available on 🤗 HuggingFace:
 
+### Main Audio Datasets
+
 | Dataset                                                                                               | Description           | Size   | Samples |
 | ----------------------------------------------------------------------------------------------------- | --------------------- | ------ | ------- |
 | [SpeechParaling-Bench-Chinese](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Chinese) | Chinese audio dataset | ~361MB | 1001    |
 | [SpeechParaling-Bench-English](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-English) | English audio dataset | ~438MB | 1001    |
+
+### Baseline Model Outputs
+
+| Dataset                                                                                                       | Description                    | Notes                    |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------------------------ |
+| [SpeechParaling-Bench-Baseline-Doubao](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline-Doubao)   | Doubao Chinese outputs (output_ch)  | Chinese baseline model   |
+| [SpeechParaling-Bench-Baseline-Gemini](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline-Gemini)   | Gemini English outputs (output_en)  | English baseline model   |
 
 ### Dataset Statistics
 
@@ -86,7 +95,11 @@ cd SpeechParaling-Bench
 
 ### 2. Download the Dataset
 
-#### Option A: Using Python Script
+You need to download both the main audio datasets and the baseline model outputs.
+
+#### 2.1 Main Audio Datasets
+
+##### Option A: Using Python Script
 
 ```python
 # download_data.py
@@ -112,7 +125,7 @@ def download_datasets():
         local_dir_use_symlinks=False
     )
     
-    print("Download completed!")
+    print("Main datasets download completed!")
 
 if __name__ == "__main__":
     download_datasets()
@@ -124,7 +137,7 @@ pip install huggingface_hub
 python download_data.py
 ```
 
-#### Option B: Using huggingface-cli
+##### Option B: Using huggingface-cli
 
 ```bash
 # Install huggingface_hub
@@ -142,6 +155,59 @@ huggingface-cli download \
     --repo-type dataset \
     Ruohan2/SpeechParaling-Bench-English \
     --local-dir ./audio_dataset_en \
+    --local-dir-use-symlinks False
+```
+
+#### 2.2 Baseline Model Outputs
+
+Download the baseline model outputs for evaluation comparison:
+
+##### Option A: Using Python Script
+
+```python
+# download_baseline.py
+from huggingface_hub import snapshot_download
+
+def download_baselines():
+    # Download Doubao Chinese baseline outputs
+    print("Downloading Doubao Chinese baseline...")
+    snapshot_download(
+        repo_id="Ruohan2/SpeechParaling-Bench-Baseline-Doubao",
+        local_dir="./api_models/doubao/output_ch",
+        repo_type="dataset",
+        local_dir_use_symlinks=False
+    )
+    
+    # Download Gemini English baseline outputs
+    print("Downloading Gemini English baseline...")
+    snapshot_download(
+        repo_id="Ruohan2/SpeechParaling-Bench-Baseline-Gemini",
+        local_dir="./api_models/gemini/output_en",
+        repo_type="dataset",
+        local_dir_use_symlinks=False
+    )
+    
+    print("Baseline datasets download completed!")
+
+if __name__ == "__main__":
+    download_baselines()
+```
+
+##### Option B: Using huggingface-cli
+
+```bash
+# Download Doubao Chinese baseline
+huggingface-cli download \
+    --repo-type dataset \
+    Ruohan2/SpeechParaling-Bench-Baseline-Doubao \
+    --local-dir ./api_models/doubao/output_ch \
+    --local-dir-use-symlinks False
+
+# Download Gemini English baseline
+huggingface-cli download \
+    --repo-type dataset \
+    Ruohan2/SpeechParaling-Bench-Baseline-Gemini \
+    --local-dir ./api_models/gemini/output_en \
     --local-dir-use-symlinks False
 ```
 
