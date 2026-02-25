@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <h1 class="logo">SpeechParaling-Bench</h1>
+                <p class="subtitle">A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</p>
+            </div>
+            <nav class="nav">
+                <a href="#introduction">Introduction</a>
+                <a href="#benchmark">Benchmark</a>
+                <a href="#leaderboard">Leaderboard</a>
+                <a href="#examples">Examples</a>
+                <a href="#citation">Citation</a>
+            </nav>
+            <div class="header-links">
+                <a href="https://arxiv.org" class="btn btn-outline" target="_blank">
+                    <i class="fas fa-file-pdf"></i> arXiv
+                </a>
+                <a href="https://github.com/Northern-byte-bit/SpeechParaling-Bench" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>The First Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</h2>
+                <p class="hero-desc">
+                    SpeechParaling-Bench evaluates Large Audio-Language Models (LALMs) on <strong>100+ paralinguistic dimensions</strong> 
+                    across <strong>1000+ bilingual (Chinese-English) samples</strong> using baseline-candidate comparative evaluation.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Samples</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Paralinguistic Dimensions</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Evaluation Dimensions</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="section">
+        <div class="container">
+            <h2 class="section-title">Introduction</h2>
+            <div class="intro-content">
+                <p>
+                    As Large Audio-Language Models (LALMs) advance, the ability to generate speech with appropriate 
+                    <strong>paralinguistic information</strong> (tone, emotion, rhythm, etc.) becomes increasingly important. 
+                    However, there lacks a comprehensive benchmark to evaluate this capability.
+                </p>
+                <p>
+                    <strong>SpeechParaling-Bench</strong> addresses this gap by providing:
+                </p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> <strong>Diverse Evaluation Dimensions</strong>: Covers controllable generation, dynamic regulation, and situational adaptation</li>
+                    <li><i class="fas fa-check"></i> <strong>Bilingual Coverage</strong>: Chinese-English aligned prompts across multiple life scenarios</li>
+                    <li><i class="fas fa-check"></i> <strong>Fair Comparison</strong>: Baseline-candidate evaluation protocol using Gemini-3 Pro as judge</li>
+                    <li><i class="fas fa-check"></i> <strong>Extensible Framework</strong>: Easy to add new models and dimensions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benchmark Section -->
+    <section id="benchmark" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Benchmark</h2>
+            
+            <!-- Dataset Statistics -->
+            <div class="subsection">
+                <h3>Dataset Statistics</h3>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Dimension</th>
+                                <th>Chinese Samples</th>
+                                <th>English Samples</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>DynVar</strong> (Dynamic Variation)</td>
+                                <td>120</td>
+                                <td>120</td>
+                                <td>Models' ability to dynamically adjust paralinguistic features</td>
+                            </tr>
+                            <tr>
+                                <td><strong>ParaCon</strong> (Paralanguage Control)</td>
+                                <td>691</td>
+                                <td>691</td>
+                                <td>Single & multi-dimensional paralinguistic generation</td>
+                            </tr>
+                            <tr>
+                                <td><strong>SitAda</strong> (Situational Adaptation)</td>
+                                <td>190</td>
+                                <td>190</td>
+                                <td>Context-aware empathetic speech generation</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td><strong>Total</strong></td>
+                                <td>1001</td>
+                                <td>1001</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Evaluation Dimensions -->
+            <div class="subsection">
+                <h3>Evaluation Dimensions</h3>
+                <div class="dimension-cards">
+                    <div class="dimension-card">
+                        <div class="card-icon">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                        <h4>Paralanguage Control</h4>
+                        <p>Evaluates single-dimensional and multi-dimensional paralinguistic information generation capabilities</p>
+                        <div class="card-tags">
+                            <span class="tag">Single-dimension</span>
+                            <span class="tag">Multi-dimension</span>
+                            <span class="tag">Abstract</span>
+                        </div>
+                    </div>
+                    <div class="dimension-card">
+                        <div class="card-icon">
+                            <i class="fas fa-wave-square"></i>
+                        </div>
+                        <h4>Dynamic Variation</h4>
+                        <p>Assesses models' ability to dynamically adjust paralinguistic features over time</p>
+                        <div class="card-tags">
+                            <span class="tag">Tempo</span>
+                            <span class="tag">Emotion Shift</span>
+                            <span class="tag">Rhythm</span>
+                        </div>
+                    </div>
+                    <div class="dimension-card">
+                        <div class="card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Situational Adaptation</h4>
+                        <p>Tests situational empathy and context-appropriate paralinguistic expression</p>
+                        <div class="card-tags">
+                            <span class="tag">Empathy</span>
+                            <span class="tag">Context-aware</span>
+                            <span class="tag">Scenario-based</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Composition -->
+            <div class="subsection">
+                <h3>Data Composition</h3>
+                <div class="composition-grid">
+                    <div class="composition-item">
+                        <a href="static/images/overall_composition.pdf" target="_blank">
+                            <img src="static/images/overall_composition.pdf" alt="Overall Composition" class="composition-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <div style="display:none; padding: 40px; background: #f3f4f6; border-radius: 8px; text-align: center;">
+                                <i class="fas fa-file-pdf" style="font-size: 48px; color: #dc2626;"></i>
+                                <p style="margin-top: 10px;">Click to view Overall Composition (PDF)</p>
+                            </div>
+                        </a>
+                        <p class="img-caption">Dataset composition by dimensions and languages</p>
+                    </div>
+                    <div class="composition-item">
+                        <a href="static/images/task-perf.png" target="_blank">
+                            <img src="static/images/task-perf.png" alt="Task Performance" class="composition-img">
+                        </a>
+                        <p class="img-caption">Performance across different task types</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scenarios -->
+            <div class="subsection">
+                <h3>Coverage Scenarios</h3>
+                <div class="scenario-tags">
+                    <span class="scenario-tag"><i class="fas fa-home"></i> Daily Life</span>
+                    <span class="scenario-tag"><i class="fas fa-university"></i> Campus</span>
+                    <span class="scenario-tag"><i class="fas fa-briefcase"></i> Workplace</span>
+                    <span class="scenario-tag"><i class="fas fa-users"></i> Family</span>
+                    <span class="scenario-tag"><i class="fas fa-gamepad"></i> Entertainment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard Section -->
+    <section id="leaderboard" class="section">
+        <div class="container">
+            <h2 class="section-title">Leaderboard</h2>
+            <p class="section-desc">
+                Model performance on SpeechParaling-Bench. Scores are calculated using baseline-candidate comparative evaluation with Gemini-3 Pro as the judge.
+            </p>
+            
+            <div class="leaderboard-tabs">
+                <button class="tab-btn active" data-tab="dyn_var">Dynamic Variation</button>
+                <button class="tab-btn" data-tab="para_con">Paralanguage Control</button>
+                <button class="tab-btn" data-tab="sit_ada">Situational Adaptation</button>
+            </div>
+
+            <div class="leaderboard-content">
+                <!-- DynVar Leaderboard -->
+                <div class="leaderboard-table active" id="dyn_var">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Model</th>
+                                <th>Overall Score</th>
+                                <th>Chinese</th>
+                                <th>English</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="#">Gemini-2.5-Flash</a></td>
+                                <td class="score">75.3</td>
+                                <td>74.8</td>
+                                <td>75.8</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#">Doubao-Realtime</a></td>
+                                <td class="score">72.1</td>
+                                <td>73.5</td>
+                                <td>70.7</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#">GPT-4o-Audio</a></td>
+                                <td class="score">68.9</td>
+                                <td>67.2</td>
+                                <td>70.6</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a href="#">Qwen-Omni</a></td>
+                                <td class="score">65.4</td>
+                                <td>64.8</td>
+                                <td>66.0</td>
+                                <td>2025-02</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- ParaCon Leaderboard -->
+                <div class="leaderboard-table" id="para_con">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Model</th>
+                                <th>Overall Score</th>
+                                <th>Long</th>
+                                <th>Short</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="#">Gemini-2.5-Flash</a></td>
+                                <td class="score">78.2</td>
+                                <td>76.5</td>
+                                <td>79.9</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#">Doubao-Realtime</a></td>
+                                <td class="score">74.6</td>
+                                <td>72.3</td>
+                                <td>76.9</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#">GPT-4o-Audio</a></td>
+                                <td class="score">71.3</td>
+                                <td>69.8</td>
+                                <td>72.8</td>
+                                <td>2025-02</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- SitAda Leaderboard -->
+                <div class="leaderboard-table" id="sit_ada">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Model</th>
+                                <th>Overall Score</th>
+                                <th>Single</th>
+                                <th>Multi</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="#">Gemini-2.5-Flash</a></td>
+                                <td class="score">81.5</td>
+                                <td>83.2</td>
+                                <td>79.8</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#">Doubao-Realtime</a></td>
+                                <td class="score">77.9</td>
+                                <td>79.4</td>
+                                <td>76.4</td>
+                                <td>2025-02</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Examples</h2>
+            <p class="section-desc">
+                Sample evaluations from SpeechParaling-Bench. Each example shows a prompt with target paralinguistic dimensions and model outputs.
+            </p>
+            
+            <div class="examples-grid">
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge">ParaCon</span>
+                        <span class="lang-badge">Chinese</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "Please say in a child's voice: 妈妈，我可以再吃一块饼干吗？"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong> <span class="dimension-tag">age</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge">DynVar</span>
+                        <span class="lang-badge">English</span>
+                    </div>
+                    <div class="example-content class="example-prompt">
+                            <strong>Prompt:</strong> "Start, then switch to">
+                        <div with a merry rhythm urgent: let me watch TV to unwind; no, why is this broken TV again?"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong> <span class="dimension-tag">tempo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge">SitAda</span>
+                        <span class="lang-badge">Chinese</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "我的小狗不见了，呜呜呜，我找了一整天了，会不会出什么事啊？"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong> <span class="dimension-tag">nonverbal_sound: crying</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citation Section -->
+    <section id="citation" class="section">
+        <div class="container">
+            <h2 class="section-title">Citation</h2>
+            <div class="citation-box">
+                <pre><code>@misc{speechparalingbench2026,
+  title={SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation},
+  author={},
+  year={2026},
+  howpublished={\url{https://github.com/Northern-byte-bit/SpeechParaling-Bench}}
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="https://github.com/Northern-byte-bit/SpeechParaling-Bench">GitHub</a>
+                    <a href="#">HuggingFace Datasets</a>
+                    <a href="#">Contact</a>
+                </div>
+                <p class="copyright">
+                    &copy; 2026 SpeechParaling-Bench. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
