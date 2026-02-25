@@ -2,6 +2,18 @@
 
 [📄 Paper (arXiv)]() · [🌐 Project Page](https://Northern-byte-bit.github.io/SpeechParaling-Bench) · [🤗 Dataset](https://huggingface.co/datasets/Ruohan2) · [💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)
 
+## 🧭 项目主页
+- 主页已迁移至 docs/index.html，打开地址：`docs/index.html`（在本仓库根目录下）。页面内容结合了论文 ICML 2026 的要点、数据集特征、以及模型对比表格，便于快速浏览与引用。
+- 主页链接在本 README 的“主页”章节也可访问。
+
+## 🛠 修改说明（同步自 ICML 2026 论文要点）
+- 标题 The First 改成 A。
+- Paralinguistic Feature Categories：将论文 Figure 5 的 13 个副语言维度分配至 Expressive、Prosodic、Acoustic 三大类，确保没有维度缺失。
+- Dataset Composition：保留第一张图并命名为 Figure 1，补充数据集特征信息（参考 Table 1 的统计数据）。
+- Figure 2：第二张图展示五个模型在 Paralanguage Control Task (Chinese) 上的表现，放置在 Leaderboard 之后。
+- Leaderboard：直接对应论文 Table 3 的对比结果，注意 IndexTTS 不是基线。
+- 备注：静态图片在主页中的引用位置已更新，图片资源出自 static/images 目录。
+
 **SpeechParaling-Bench** is a comprehensive benchmark designed to evaluate **paralinguistic-aware speech generation** capabilities of large audio-language models (LALMs). It features **100+ paralinguistic dimensions** and **1000+ Chinese-English evaluation samples**, using a **baseline-candidate comparative evaluation** approach to produce a leaderboard for mainstream multimodal large models.
 
 ## 🗒 SpeechParaling-Bench Overview

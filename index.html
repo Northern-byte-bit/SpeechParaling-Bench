@@ -37,7 +37,7 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h2>The First Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</h2>
+                <h2>A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</h2>
                 <p class="hero-desc">
                     SpeechParaling-Bench evaluates Large Audio-Language Models (LALMs) on <strong>100+ paralinguistic dimensions</strong> 
                     across <strong>1000+ bilingual (Chinese-English) samples</strong> using baseline-candidate comparative evaluation.
@@ -138,7 +138,7 @@
             <!-- Paralinguistic Features Categories -->
             <div class="subsection">
                 <h3>Paralinguistic Feature Categories</h3>
-                <p class="subsection-desc">We categorize paralinguistic dimensions into three main categories:</p>
+                <p class="subsection-desc">We categorize 13 paralinguistic dimensions into three main categories:</p>
                 <div class="dimension-cards">
                     <div class="dimension-card">
                         <div class="card-icon" style="background: linear-gradient(135deg, #ef4444, #f97316);">
@@ -150,6 +150,8 @@
                             <span class="tag">Emotion</span>
                             <span class="tag">Mood</span>
                             <span class="tag">Attitude</span>
+                            <span class="tag">Cognitive State</span>
+                            <span class="tag">Nonverbal Sound</span>
                         </div>
                     </div>
                     <div class="dimension-card">
@@ -162,6 +164,8 @@
                             <span class="tag">Tempo</span>
                             <span class="tag">Pitch</span>
                             <span class="tag">Volume</span>
+                            <span class="tag">Rhythm</span>
+                            <span class="tag">Stress</span>
                         </div>
                     </div>
                     <div class="dimension-card">
@@ -182,18 +186,12 @@
             <!-- Data Composition -->
             <div class="subsection">
                 <h3>Dataset Composition</h3>
-                <div class="composition-grid">
+                <div class="composition-grid single-image">
                     <div class="composition-item">
                         <a href="static/images/overall_composition.png" target="_blank">
                             <img src="static/images/overall_composition.png" alt="Dataset Composition" class="composition-img">
                         </a>
-                        <p class="img-caption">Figure 3: The dataset consists of over 1,000 bilingual speech queries, encompassing more than 100 paralinguistic features</p>
-                    </div>
-                    <div class="composition-item">
-                        <a href="static/images/task-perf.png" target="_blank">
-                            <img src="static/images/task-perf.png" alt="Task Performance" class="composition-img">
-                        </a>
-                        <p class="img-caption">Figure 5: Dimension-wise performance on Paralanguage Control task (Chinese)</p>
+                        <p class="img-caption">Figure 1: The dataset consists of over 1,000 bilingual speech queries, encompassing more than 100 paralinguistic features</p>
                     </div>
                 </div>
             </div>
@@ -287,15 +285,6 @@
                                 <td>59.2</td>
                                 <td>2025-02</td>
                             </tr>
-                            <tr class="baseline-row">
-                                <td>-</td>
-                                <td><strong>Baseline (Index-TTS)</strong></td>
-                                <td class="score">50.0</td>
-                                <td>50.0</td>
-                                <td>50.0</td>
-                                <td>50.0</td>
-                                <td>-</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -345,14 +334,6 @@
                                 <td>64.8</td>
                                 <td>66.0</td>
                                 <td>2025-02</td>
-                            </tr>
-                            <tr class="baseline-row">
-                                <td>-</td>
-                                <td><strong>Baseline (Index-TTS)</strong></td>
-                                <td class="score">50.0</td>
-                                <td>50.0</td>
-                                <td>50.0</td>
-                                <td>-</td>
                             </tr>
                         </tbody>
                     </table>
@@ -404,22 +385,27 @@
                                 <td>68.1</td>
                                 <td>2025-02</td>
                             </tr>
-                            <tr class="baseline-row">
-                                <td>-</td>
-                                <td><strong>Baseline (Index-TTS)</strong></td>
-                                <td class="score">50.0</td>
-                                <td>50.0</td>
-                                <td>50.0</td>
-                                <td>-</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
 
+            <!-- Model Performance Figure -->
+            <div class="subsection">
+                <h3>Dimension-wise Performance</h3>
+                <div class="composition-grid single-image">
+                    <div class="composition-item">
+                        <a href="static/images/task-perf.png" target="_blank">
+                            <img src="static/images/task-perf.png" alt="Task Performance" class="composition-img">
+                        </a>
+                        <p class="img-caption">Figure 2: Dimension-wise performance on Paralanguage Control task (Chinese)</p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Model Comparison Note -->
             <div class="leaderboard-note">
-                <p><i class="fas fa-info-circle"></i> <strong>Evaluation Protocol:</strong> We use Gemini-3 Pro as the judge to compare baseline (Index-TTS) with candidate models in pairwise evaluation. Scores are calculated as win rate (0-100).</p>
+                <p><i class="fas fa-info-circle"></i> <strong>Evaluation Protocol:</strong> We use Gemini-3 Pro as the judge to conduct pairwise comparison evaluation. Scores are calculated as win rate (0-100).</p>
             </div>
         </div>
     </section>
