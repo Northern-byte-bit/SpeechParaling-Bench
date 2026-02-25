@@ -1,6 +1,7 @@
 # SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation
 
-[📄 Paper (arXiv)]() · [🌐 Project Page]() · [🤗 Dataset](https://huggingface.co/datasets/Ruohan2) · [💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)
+[📄 Paper (arXiv)]() · [🌐 Project Page](https://Northern-byte-bit.github.io/SpeechParaling-Bench)
+ · [🤗 Dataset](https://huggingface.co/datasets/Ruohan2) · [💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)
 
 **SpeechParaling-Bench** is a comprehensive benchmark designed to evaluate **paralinguistic-aware speech generation** capabilities of large audio-language models (LALMs). It features **100+ paralinguistic dimensions** and **1000+ Chinese-English evaluation samples**, using a **baseline-candidate comparative evaluation** approach to produce a leaderboard for mainstream multimodal large models.
 
