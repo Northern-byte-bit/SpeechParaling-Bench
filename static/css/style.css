@@ -312,6 +312,15 @@ body {
     font-weight: 600;
 }
 
+.data-table .baseline-row {
+    background: #fef3c7;
+    font-style: italic;
+}
+
+.data-table .baseline-row td {
+    color: #92400e;
+}
+
 .data-table a {
     color: var(--primary-color);
     text-decoration: none;
@@ -480,6 +489,31 @@ body {
 
 .leaderboard-table.active {
     display: block;
+}
+
+.leaderboard-note {
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    background: #eff6ff;
+    border-left: 4px solid var(--primary-color);
+    border-radius: var(--radius-md);
+}
+
+.leaderboard-note p {
+    margin: 0;
+    color: var(--text-dark);
+    font-size: 0.9rem;
+}
+
+.leaderboard-note i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+.subsection-desc {
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
 }
 
 /* ================================

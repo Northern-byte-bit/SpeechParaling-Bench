@@ -45,7 +45,7 @@
                 <div class="hero-stats">
                     <div class="stat-item">
                         <span class="stat-number">1000+</span>
-                        <span class="stat-label">Samples</span>
+                        <span class="stat-label">Bilingual Samples</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">100+</span>
@@ -53,11 +53,11 @@
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">3</span>
-                        <span class="stat-label">Evaluation Dimensions</span>
+                        <span class="stat-label">Core Tasks</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">2</span>
-                        <span class="stat-label">Languages</span>
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Model APIs</span>
                     </div>
                 </div>
             </div>
@@ -78,10 +78,10 @@
                     <strong>SpeechParaling-Bench</strong> addresses this gap by providing:
                 </p>
                 <ul class="feature-list">
-                    <li><i class="fas fa-check"></i> <strong>Diverse Evaluation Dimensions</strong>: Covers controllable generation, dynamic regulation, and situational adaptation</li>
-                    <li><i class="fas fa-check"></i> <strong>Bilingual Coverage</strong>: Chinese-English aligned prompts across multiple life scenarios</li>
+                    <li><i class="fas fa-check"></i> <strong>Three Core Evaluation Tasks</strong>: Paralanguage Control, Dynamic Variation, and Situational Adaptation</li>
+                    <li><i class="fas fa-check"></i> <strong>Bilingual Coverage</strong>: Chinese-English aligned prompts across 5 life scenarios (Daily Life, Campus, Workplace, Family, Entertainment)</li>
                     <li><i class="fas fa-check"></i> <strong>Fair Comparison</strong>: Baseline-candidate evaluation protocol using Gemini-3 Pro as judge</li>
-                    <li><i class="fas fa-check"></i> <strong>Extensible Framework</strong>: Easy to add new models and dimensions</li>
+                    <li><i class="fas fa-check"></i> <strong>Comprehensive Dimensions</strong>: Covers Expressive, Prosodic, and Acoustic paralinguistic features</li>
                 </ul>
             </div>
         </div>
@@ -99,7 +99,7 @@
                     <table class="data-table">
                         <thead>
                             <tr>
-                                <th>Dimension</th>
+                                <th>Task</th>
                                 <th>Chinese Samples</th>
                                 <th>English Samples</th>
                                 <th>Description</th>
@@ -107,19 +107,19 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><strong>DynVar</strong> (Dynamic Variation)</td>
-                                <td>120</td>
-                                <td>120</td>
-                                <td>Models' ability to dynamically adjust paralinguistic features</td>
-                            </tr>
-                            <tr>
-                                <td><strong>ParaCon</strong> (Paralanguage Control)</td>
+                                <td><strong>Paralanguage Control</strong></td>
                                 <td>691</td>
                                 <td>691</td>
                                 <td>Single & multi-dimensional paralinguistic generation</td>
                             </tr>
                             <tr>
-                                <td><strong>SitAda</strong> (Situational Adaptation)</td>
+                                <td><strong>Dynamic Variation</strong></td>
+                                <td>120</td>
+                                <td>120</td>
+                                <td>Models' ability to dynamically adjust paralinguistic features</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Situational Adaptation</strong></td>
                                 <td>190</td>
                                 <td>190</td>
                                 <td>Context-aware empathetic speech generation</td>
@@ -135,44 +135,45 @@
                 </div>
             </div>
 
-            <!-- Evaluation Dimensions -->
+            <!-- Paralinguistic Features Categories -->
             <div class="subsection">
-                <h3>Evaluation Dimensions</h3>
+                <h3>Paralinguistic Feature Categories</h3>
+                <p class="subsection-desc">We categorize paralinguistic dimensions into three main categories:</p>
                 <div class="dimension-cards">
                     <div class="dimension-card">
-                        <div class="card-icon">
-                            <i class="fas fa-sliders-h"></i>
+                        <div class="card-icon" style="background: linear-gradient(135deg, #ef4444, #f97316);">
+                            <i class="fas fa-smile"></i>
                         </div>
-                        <h4>Paralanguage Control</h4>
-                        <p>Evaluates single-dimensional and multi-dimensional paralinguistic information generation capabilities</p>
+                        <h4>Expressive Features</h4>
+                        <p>Emotional and affective dimensions that convey feelings and attitudes</p>
                         <div class="card-tags">
-                            <span class="tag">Single-dimension</span>
-                            <span class="tag">Multi-dimension</span>
-                            <span class="tag">Abstract</span>
+                            <span class="tag">Emotion</span>
+                            <span class="tag">Mood</span>
+                            <span class="tag">Attitude</span>
                         </div>
                     </div>
                     <div class="dimension-card">
-                        <div class="card-icon">
-                            <i class="fas fa-wave-square"></i>
+                        <div class="card-icon" style="background: linear-gradient(135deg, #3b82f6, #6366f1);">
+                            <i class="fas fa-music"></i>
                         </div>
-                        <h4>Dynamic Variation</h4>
-                        <p>Assesses models' ability to dynamically adjust paralinguistic features over time</p>
+                        <h4>Prosodic Features</h4>
+                        <p>Rhythmic and tonal elements of speech delivery</p>
                         <div class="card-tags">
                             <span class="tag">Tempo</span>
-                            <span class="tag">Emotion Shift</span>
-                            <span class="tag">Rhythm</span>
+                            <span class="tag">Pitch</span>
+                            <span class="tag">Volume</span>
                         </div>
                     </div>
                     <div class="dimension-card">
-                        <div class="card-icon">
-                            <i class="fas fa-heart"></i>
+                        <div class="card-icon" style="background: linear-gradient(135deg, #10b981, #14b8a6);">
+                            <i class="fas fa-wave-square"></i>
                         </div>
-                        <h4>Situational Adaptation</h4>
-                        <p>Tests situational empathy and context-appropriate paralinguistic expression</p>
+                        <h4>Acoustic Features</h4>
+                        <p>Voice quality and spectral characteristics</p>
                         <div class="card-tags">
-                            <span class="tag">Empathy</span>
-                            <span class="tag">Context-aware</span>
-                            <span class="tag">Scenario-based</span>
+                            <span class="tag">Timbre</span>
+                            <span class="tag">Age</span>
+                            <span class="tag">Gender</span>
                         </div>
                     </div>
                 </div>
@@ -180,23 +181,19 @@
 
             <!-- Data Composition -->
             <div class="subsection">
-                <h3>Data Composition</h3>
+                <h3>Dataset Composition</h3>
                 <div class="composition-grid">
                     <div class="composition-item">
-                        <a href="static/images/overall_composition.pdf" target="_blank">
-                            <img src="static/images/overall_composition.pdf" alt="Overall Composition" class="composition-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <div style="display:none; padding: 40px; background: #f3f4f6; border-radius: 8px; text-align: center;">
-                                <i class="fas fa-file-pdf" style="font-size: 48px; color: #dc2626;"></i>
-                                <p style="margin-top: 10px;">Click to view Overall Composition (PDF)</p>
-                            </div>
+                        <a href="static/images/overall_composition.png" target="_blank">
+                            <img src="static/images/overall_composition.png" alt="Dataset Composition" class="composition-img">
                         </a>
-                        <p class="img-caption">Dataset composition by dimensions and languages</p>
+                        <p class="img-caption">Figure 3: The dataset consists of over 1,000 bilingual speech queries, encompassing more than 100 paralinguistic features</p>
                     </div>
                     <div class="composition-item">
                         <a href="static/images/task-perf.png" target="_blank">
                             <img src="static/images/task-perf.png" alt="Task Performance" class="composition-img">
                         </a>
-                        <p class="img-caption">Performance across different task types</p>
+                        <p class="img-caption">Figure 5: Dimension-wise performance on Paralanguage Control task (Chinese)</p>
                     </div>
                 </div>
             </div>
@@ -224,14 +221,87 @@
             </p>
             
             <div class="leaderboard-tabs">
-                <button class="tab-btn active" data-tab="dyn_var">Dynamic Variation</button>
-                <button class="tab-btn" data-tab="para_con">Paralanguage Control</button>
+                <button class="tab-btn active" data-tab="para_con">Paralanguage Control</button>
+                <button class="tab-btn" data-tab="dyn_var">Dynamic Variation</button>
                 <button class="tab-btn" data-tab="sit_ada">Situational Adaptation</button>
             </div>
 
             <div class="leaderboard-content">
+                <!-- ParaCon Leaderboard -->
+                <div class="leaderboard-table active" id="para_con">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Model</th>
+                                <th>Overall</th>
+                                <th>Expressive</th>
+                                <th>Prosodic</th>
+                                <th>Acoustic</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="#">Gemini-2.5-Flash</a></td>
+                                <td class="score">72.8</td>
+                                <td>71.5</td>
+                                <td>73.2</td>
+                                <td>73.6</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#">Doubao-Realtime</a></td>
+                                <td class="score">68.3</td>
+                                <td>66.8</td>
+                                <td>69.1</td>
+                                <td>69.0</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#">GPT-4o-Audio</a></td>
+                                <td class="score">65.7</td>
+                                <td>64.2</td>
+                                <td>66.8</td>
+                                <td>66.1</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a href="#">Qwen-Omni</a></td>
+                                <td class="score">61.2</td>
+                                <td>59.8</td>
+                                <td>62.5</td>
+                                <td>61.3</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><a href="#">Qwen-Omni-Realtime</a></td>
+                                <td class="score">58.9</td>
+                                <td>57.4</td>
+                                <td>60.1</td>
+                                <td>59.2</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr class="baseline-row">
+                                <td>-</td>
+                                <td><strong>Baseline (Index-TTS)</strong></td>
+                                <td class="score">50.0</td>
+                                <td>50.0</td>
+                                <td>50.0</td>
+                                <td>50.0</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <!-- DynVar Leaderboard -->
-                <div class="leaderboard-table active" id="dyn_var">
+                <div class="leaderboard-table" id="dyn_var">
                     <table class="data-table">
                         <thead>
                             <tr>
@@ -276,47 +346,13 @@
                                 <td>66.0</td>
                                 <td>2025-02</td>
                             </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <!-- ParaCon Leaderboard -->
-                <div class="leaderboard-table" id="para_con">
-                    <table class="data-table">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Model</th>
-                                <th>Overall Score</th>
-                                <th>Long</th>
-                                <th>Short</th>
-                                <th>Date</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td><a href="#">Gemini-2.5-Flash</a></td>
-                                <td class="score">78.2</td>
-                                <td>76.5</td>
-                                <td>79.9</td>
-                                <td>2025-02</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td><a href="#">Doubao-Realtime</a></td>
-                                <td class="score">74.6</td>
-                                <td>72.3</td>
-                                <td>76.9</td>
-                                <td>2025-02</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td><a href="#">GPT-4o-Audio</a></td>
-                                <td class="score">71.3</td>
-                                <td>69.8</td>
-                                <td>72.8</td>
-                                <td>2025-02</td>
+                            <tr class="baseline-row">
+                                <td>-</td>
+                                <td><strong>Baseline (Index-TTS)</strong></td>
+                                <td class="score">50.0</td>
+                                <td>50.0</td>
+                                <td>50.0</td>
+                                <td>-</td>
                             </tr>
                         </tbody>
                     </table>
@@ -330,8 +366,8 @@
                                 <th>#</th>
                                 <th>Model</th>
                                 <th>Overall Score</th>
-                                <th>Single</th>
-                                <th>Multi</th>
+                                <th>Single-dim</th>
+                                <th>Multi-dim</th>
                                 <th>Date</th>
                             </tr>
                         </thead>
@@ -352,9 +388,38 @@
                                 <td>76.4</td>
                                 <td>2025-02</td>
                             </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#">GPT-4o-Audio</a></td>
+                                <td class="score">74.2</td>
+                                <td>76.1</td>
+                                <td>72.3</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a href="#">Qwen-Omni</a></td>
+                                <td class="score">69.8</td>
+                                <td>71.5</td>
+                                <td>68.1</td>
+                                <td>2025-02</td>
+                            </tr>
+                            <tr class="baseline-row">
+                                <td>-</td>
+                                <td><strong>Baseline (Index-TTS)</strong></td>
+                                <td class="score">50.0</td>
+                                <td>50.0</td>
+                                <td>50.0</td>
+                                <td>-</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
+            </div>
+
+            <!-- Model Comparison Note -->
+            <div class="leaderboard-note">
+                <p><i class="fas fa-info-circle"></i> <strong>Evaluation Protocol:</strong> We use Gemini-3 Pro as the judge to compare baseline (Index-TTS) with candidate models in pairwise evaluation. Scores are calculated as win rate (0-100).</p>
             </div>
         </div>
     </section>
@@ -370,37 +435,39 @@
             <div class="examples-grid">
                 <div class="example-card">
                     <div class="example-header">
-                        <span class="dimension-badge">ParaCon</span>
+                        <span class="dimension-badge" style="background: #ef4444;">Paralanguage Control</span>
                         <span class="lang-badge">Chinese</span>
                     </div>
                     <div class="example-content">
                         <div class="example-prompt">
-                            <strong>Prompt:</strong> "Please say in a child's voice: 妈妈，我可以再吃一块饼干吗？"
+                            <strong>Prompt:</strong> "Please say in a cheerful tone: 妈妈，我可以再吃一块饼干吗？"
                         </div>
                         <div class="example-dimensions">
-                            <strong>Target Dimension:</strong> <span class="dimension-tag">age</span>
+                            <strong>Target Dimension:</strong> 
+                            <span class="dimension-tag">Emotion (Expressive)</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="example-card">
                     <div class="example-header">
-                        <span class="dimension-badge">DynVar</span>
+                        <span class="dimension-badge" style="background: #3b82f6;">Dynamic Variation</span>
                         <span class="lang-badge">English</span>
                     </div>
-                    <div class="example-content class="example-prompt">
-                            <strong>Prompt:</strong> "Start, then switch to">
-                        <div with a merry rhythm urgent: let me watch TV to unwind; no, why is this broken TV again?"
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "Start with a merry rhythm, then switch to urgent: let me watch TV to unwind; no, why is this broken TV again?"
                         </div>
                         <div class="example-dimensions">
-                            <strong>Target Dimension:</strong> <span class="dimension-tag">tempo</span>
+                            <strong>Target Dimension:</strong> 
+                            <span class="dimension-tag">Tempo (Prosodic)</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="example-card">
                     <div class="example-header">
-                        <span class="dimension-badge">SitAda</span>
+                        <span class="dimension-badge" style="background: #10b981;">Situational Adaptation</span>
                         <span class="lang-badge">Chinese</span>
                     </div>
                     <div class="example-content">
@@ -408,7 +475,56 @@
                             <strong>Prompt:</strong> "我的小狗不见了，呜呜呜，我找了一整天了，会不会出什么事啊？"
                         </div>
                         <div class="example-dimensions">
-                            <strong>Target Dimension:</strong> <span class="dimension-tag">nonverbal_sound: crying</span>
+                            <strong>Target Dimension:</strong> 
+                            <span class="dimension-tag">Nonverbal Sound: Crying (Expressive)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #ef4444;">Paralanguage Control</span>
+                        <span class="lang-badge">English</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "Please say in an elderly voice: Could you help me carry this bag?"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong> 
+                            <span class="dimension-tag">Age (Acoustic)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #10b981;">Situational Adaptation</span>
+                        <span class="lang-badge">English</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "My presentation got cancelled due to the storm. I worked so hard on it..."
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong> 
+                            <span class="dimension-tag">Cognitive State: Disappointment (Expressive)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #3b82f6;">Dynamic Variation</span>
+                        <span class="lang-badge">Chinese</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "从平静到愤怒：我真的受够了！"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong> 
+                            <span class="dimension-tag">Emotion Shift (Expressive)</span>
                         </div>
                     </div>
                 </div>
@@ -437,8 +553,8 @@
             <div class="footer-content">
                 <div class="footer-links">
                     <a href="https://github.com/Northern-byte-bit/SpeechParaling-Bench">GitHub</a>
-                    <a href="#">HuggingFace Datasets</a>
-                    <a href="#">Contact</a>
+                    <a href="https://huggingface.co/datasets/Ruohan2">HuggingFace</a>
+                    <a href="mailto:221900134@smail.nju.edu.cn">Contact</a>
                 </div>
                 <p class="copyright">
                     &copy; 2026 SpeechParaling-Bench. All rights reserved.
