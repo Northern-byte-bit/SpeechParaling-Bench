@@ -1,183 +1,537 @@
-<!doctype html>
-<html lang="zh-CN">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SpeechParaling-Bench – 项目主页</title>
-  <style>
-    :root {
-      --bg: #0f1220;
-      --card: #141a2b;
-      --text: #e8eaf6;
-      --muted: #aab4d4;
-      --accent: #4db6ac;
-    }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; background: #0a0a0a; color: #e8e8e8; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-    header { position: sticky; top: 0; z-index: 10; background: rgba(10,10,20,0.95); border-bottom: 1px solid #2b2b2b; }
-    nav { max-width: 1100px; margin: 0 auto; display: flex; gap: 20px; padding: 14px 16px; align-items: center; }
-    nav a { color: #dfe7ff; text-decoration: none; font-weight: 600; font-size: 14px; }
-    main { max-width: 1100px; margin: 32px auto; padding: 0 16px; }
-    .hero { padding: 40px 0 20px; text-align: left; }
-    h1 { font-size: 48px; line-height: 1.1; margin: 0 0 8px; color: #fff; }
-    .subtitle { color: var(--muted); font-size: 16px; }
-    section { margin: 40px 0; }
-    h2 { font-size: 28px; border-bottom: 1px solid #2b2b2b; padding-bottom: 8px; margin-bottom: 16px; }
-    p { color: #ddd; line-height: 1.6; }
-    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
-    .card { background: rgba(20,26,40,0.75); border: 1px solid #2b2b2b; padding: 16px; border-radius: 8px; }
-    img { max-width: 100%; height: auto; display: block; border-radius: 6px; }
-    table { border-collapse: collapse; width: 100%; margin-top: 8px; }
-    table, th, td { border: 1px solid #2b2b2b; }
-    th, td { padding: 8px 10px; text-align: left; font-size: 13px; }
-    th { background: #1f2a44; font-weight: 600; }
-    .note { color: #a0a8c8; font-size: 12px; }
-    @media (max-width: 900px) {
-      .grid { grid-template-columns: 1fr; }
-      h1 { font-size: 38px; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <a href="#overview">概述</a>
-      <a href="#feature-categories">Paralinguistic 特征分类</a>
-      <a href="#dataset">数据集组成</a>
-      <a href="#leaderboard">Leaderboard</a>
-      <a href="#gallery">模型对比</a>
-    </nav>
-  </header>
-  <main>
-    <section class="hero" id="overview">
-      <h1>A SpeechParaling-Bench</h1>
-      <p class="subtitle">A comprehensive Chinese–English parallel benchmark for paralinguistic-aware speech generation. Based on the ICML 2026 paper and the project README, this homepage presents dataset details, 13 paralinguistic dimensions, and model-level comparisons.</p>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <h1 class="logo">SpeechParaling-Bench</h1>
+                <p class="subtitle">A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</p>
+            </div>
+            <nav class="nav">
+                <a href="#introduction">Introduction</a>
+                <a href="#benchmark">Benchmark</a>
+                <a href="#leaderboard">Leaderboard</a>
+                <a href="#examples">Examples</a>
+                <a href="#citation">Citation</a>
+            </nav>
+            <div class="header-links">
+                <a href="https://arxiv.org" class="btn btn-outline" target="_blank">
+                    <i class="fas fa-file-pdf"></i> arXiv
+                </a>
+                <a href="https://github.com/Northern-byte-bit/SpeechParaling-Bench" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation</h2>
+                <p class="hero-desc">
+                    SpeechParaling-Bench evaluates Large Audio-Language Models (LALMs) on <strong>100+ paralinguistic dimensions</strong>
+                    across <strong>1000+ bilingual (Chinese-English) samples</strong> using baseline-candidate comparative evaluation.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Bilingual Samples</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">104</span>
+                        <span class="stat-label">Paralinguistic Features</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">13</span>
+                        <span class="stat-label">Paralinguistic Dimensions</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="overview-content" class="card">
-      <h2>概览</h2>
-      <p>SpeechParaling-Bench 提供涵盖 100+ 个副语言特征的 1,001 条中英并行语音查询，面向实际应用场景下的 paralinguistic 指标评估与模型比较。评测采用 LALM 作为 Judge，覆盖 Paralanguage Control、Dynamic Variation 与 Situational Adaptation 三个任务等级。</p>
+    <!-- Introduction Section -->
+    <section id="introduction" class="section">
+        <div class="container">
+            <h2 class="section-title">Introduction</h2>
+            <div class="intro-content">
+                <p>
+                    As Large Audio-Language Models (LALMs) advance, the ability to generate speech with appropriate
+                    <strong>paralinguistic information</strong> (tone, emotion, rhythm, etc.) becomes increasingly important.
+                    However, there lacks a comprehensive benchmark to evaluate this capability.
+                </p>
+                <p>
+                    <strong>SpeechParaling-Bench</strong> addresses this gap by providing:
+                </p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> <strong>Three Core Evaluation Tasks</strong>: Paralanguage Control, Dynamic Variation, and Situational Adaptation</li>
+                    <li><i class="fas fa-check"></i> <strong>Bilingual Coverage</strong>: Chinese-English aligned prompts across 5 life scenarios (Daily Life, Campus, Workplace, Family, Entertainment)</li>
+                    <li><i class="fas fa-check"></i> <strong>Fair Comparison</strong>: Baseline-candidate evaluation protocol using Gemini-3 Pro as judge</li>
+                    <li><i class="fas fa-check"></i> <strong>Comprehensive Dimensions</strong>: Covers Expressive, Prosodic, and Acoustic paralinguistic features</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <section id="dataset" class="grid">
-      <div class="card">
-        <h2>数据集组成 (Figure 1)</h2>
-        <p>数据集包含 1,001 条中英文并行语音查询，覆盖超过 100 种副语言特征，共 13 个维度，特征总数 104。平均文本长度为英文 27.4 字，中文 35.3 字；平均音频时长英文 10.3s，中文 8.5s。数据统计见下表。</p>
-        <table aria-label="Table 1: Key statistics">
-          <tr><th>数据统计项</th><th>数值</th></tr>
-          <tr><td>样本数</td><td>1,001</td></tr>
-          <tr><td>维度数</td><td>13</td></tr>
-          <tr><td>特征总数</td><td>104</td></tr>
-          <tr><td>英文文本均长</td><td>27.4 字</td></tr>
-          <tr><td>中文文本均长</td><td>35.3 字</td></tr>
-          <tr><td>英文音频时长</td><td>10.3 s</td></tr>
-          <tr><td>中文音频时长</td><td>8.5 s</td></tr>
-        </table>
-        <p class="note">Cog.: Cognitive State</p>
-      </div>
-      <div class="card">
-        <h2>数据维度（13 维）及类别划分</h2>
-        <p>论文 Figure 5 将 13 个副语言维度划分为三大类：表达性（Expressive）、韵律性（Prosodic）和声学性（Acoustic）。下列列出 13 个维度及其简要类别映射（以论文定义为准）：</p>
-        <ul>
-          <li>表达性：Emotion、Attitude、Style</li>
-          <li>韵律性：Pitch、Pace、Pause、Rhythm、Volume、Stress</li>
-          <li>声学性：Age、Timbre、Cognitive State、Non-Linguistic Vocalizations</li>
-        </ul>
-        <p class="note">维度名称：Age, Pitch, Timbre, Pace, Volume, Pause, Rhythm, Stress, Emotion, Cognitive State, Non-Linguistic Vocalizations, Attitude, Style</p>
-      </div>
+    <!-- Benchmark Section -->
+    <section id="benchmark" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Benchmark</h2>
+
+            <!-- Dataset Statistics -->
+            <div class="subsection">
+                <h3>Dataset Statistics</h3>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Task</th>
+                                <th>Chinese Samples</th>
+                                <th>English Samples</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Paralanguage Control</strong></td>
+                                <td>691</td>
+                                <td>691</td>
+                                <td>Single & multi-dimensional paralinguistic generation</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Dynamic Variation</strong></td>
+                                <td>120</td>
+                                <td>120</td>
+                                <td>Models' ability to dynamically adjust paralinguistic features</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Situational Adaptation</strong></td>
+                                <td>190</td>
+                                <td>190</td>
+                                <td>Context-aware empathetic speech generation</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td><strong>Total</strong></td>
+                                <td>1001</td>
+                                <td>1001</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Paralinguistic Features Categories -->
+            <div class="subsection">
+                <h3>Paralinguistic Feature Categories</h3>
+                <p class="subsection-desc">We categorize 13 paralinguistic dimensions into three main categories:</p>
+                <div class="dimension-cards">
+                    <div class="dimension-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #ef4444, #f97316);">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <h4>Expressive Features</h4>
+                        <p>Emotional and affective dimensions that convey feelings and attitudes</p>
+                        <div class="card-tags">
+                            <span class="tag">Emotion</span>
+                            <span class="tag">Attitude</span>
+                            <span class="tag">Style</span>
+                        </div>
+                    </div>
+                    <div class="dimension-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #3b82f6, #6366f1);">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h4>Prosodic Features</h4>
+                        <p>Rhythmic and tonal elements of speech delivery</p>
+                        <div class="card-tags">
+                            <span class="tag">Pitch</span>
+                            <span class="tag">Pace</span>
+                            <span class="tag">Pause</span>
+                            <span class="tag">Rhythm</span>
+                            <span class="tag">Volume</span>
+                            <span class="tag">Stress</span>
+                        </div>
+                    </div>
+                    <div class="dimension-card">
+                        <div class="card-icon" style="background: linear-gradient(135deg, #10b981, #14b8a6);">
+                            <i class="fas fa-wave-square"></i>
+                        </div>
+                        <h4>Acoustic Features</h4>
+                        <p>Voice quality and spectral characteristics</p>
+                        <div class="card-tags">
+                            <span class="tag">Age</span>
+                            <span class="tag">Timbre</span>
+                            <span class="tag">Cognitive State</span>
+                            <span class="tag">Non-Linguistic Vocalizations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dataset Composition -->
+            <div class="subsection">
+                <h3>Dataset Composition</h3>
+                <div class="composition-grid single-image">
+                    <div class="composition-item">
+                        <a href="static/images/overall_composition.png" target="_blank">
+                            <img src="static/images/overall_composition.png" alt="Dataset Composition" class="composition-img">
+                        </a>
+                        <p class="img-caption">Figure 1: The dataset consists of over 1,000 bilingual speech queries, encompassing more than 100 paralinguistic features. Cog.: Cognitive State.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dataset Features Info -->
+            <div class="subsection">
+                <h3>Dataset Features</h3>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-num">1,001</span>
+                        <span class="stat-desc">Bilingual Samples</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">13</span>
+                        <span class="stat-desc">Paralinguistic Dimensions</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">104</span>
+                        <span class="stat-desc">Total Features</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">2</span>
+                        <span class="stat-desc">Languages</span>
+                    </div>
+                </div>
+                <div class="dimension-info">
+                    <p><strong>Average Text Length:</strong> 35.3 characters (Chinese) / 27.4 characters (English)</p>
+                    <p><strong>Average Audio Duration:</strong> 8.5s (Chinese) / 10.3s (English)</p>
+                </div>
+            </div>
+
+            <!-- Scenarios -->
+            <div class="subsection">
+                <h3>Coverage Scenarios</h3>
+                <div class="scenario-tags">
+                    <span class="scenario-tag"><i class="fas fa-home"></i> Daily Life</span>
+                    <span class="scenario-tag"><i class="fas fa-university"></i> Campus</span>
+                    <span class="scenario-tag"><i class="fas fa-briefcase"></i> Workplace</span>
+                    <span class="scenario-tag"><i class="fas fa-users"></i> Family</span>
+                    <span class="scenario-tag"><i class="fas fa-gamepad"></i> Entertainment</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="figures" class="grid" aria-label="Figures">
-      <div class="card">
-        <h2>Figure 1：数据集组成</h2>
-        <figure>
-          <img src="../static/images/overall_composition.png" alt="Figure 1: Dataset composition, Cog.: Cognitive State" />
-          <figcaption>Figure 1. The dataset consists of over 1,000 bilingual speech queries, encompassing more than 100 paralinguistic features. Cog.: Cognitive State.</figcaption>
-        </figure>
-      </div>
-      <div class="card">
-        <h2>Figure 2：Paralanguage Control 在中文上的维度对比</h2>
-        <figure>
-          <img src="../static/images/task-perf.png" alt="Figure 2: Dimension-wise performance on Paralanguage Control task (Chinese)" />
-          <figcaption>Figure 2. Dimension-wise performance on Paralanguage Control task (Chinese). 13 维度按 Expressive、Prosodic、Acoustic 分类的对比。注：图片来自论文 Figure 5。</figcaption>
-        </figure>
-      </div>
+    <!-- Leaderboard Section -->
+    <section id="leaderboard" class="section">
+        <div class="container">
+            <h2 class="section-title">Leaderboard</h2>
+            <p class="section-desc">
+                Model performance on SpeechParaling-Bench. Scores are calculated using baseline-candidate comparative evaluation with Gemini-3 Pro as the judge.
+            </p>
+
+            <div class="leaderboard-tabs">
+                <button class="tab-btn active" data-tab="chinese">Chinese Dataset</button>
+                <button class="tab-btn" data-tab="english">English Dataset</button>
+            </div>
+
+            <div class="leaderboard-content">
+                <!-- Chinese Dataset Leaderboard -->
+                <div class="leaderboard-table active" id="chinese">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Model</th>
+                                <th>Para Con</th>
+                                <th>Dyn Var</th>
+                                <th>Sit Ada</th>
+                                <th>Overall</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="#">Doubao Realtime</a> <span class="baseline-tag">Baseline</span></td>
+                                <td class="score">70.85</td>
+                                <td>68.72</td>
+                                <td>70.56</td>
+                                <td class="score">70.04</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#">GPT Audio</a></td>
+                                <td class="score">39.10</td>
+                                <td>37.55</td>
+                                <td>33.91</td>
+                                <td class="score">36.85</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#">Gemini Audio</a></td>
+                                <td class="score">28.19</td>
+                                <td>26.43</td>
+                                <td>24.18</td>
+                                <td class="score">26.27</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a href="#">Qwen-Omni</a></td>
+                                <td class="score">25.67</td>
+                                <td>23.81</td>
+                                <td>22.54</td>
+                                <td class="score">24.01</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><a href="#">Qwen-Omni-Realtime</a></td>
+                                <td class="score">23.45</td>
+                                <td>21.92</td>
+                                <td>20.87</td>
+                                <td class="score">22.08</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- English Dataset Leaderboard -->
+                <div class="leaderboard-table" id="english">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Model</th>
+                                <th>Para Con</th>
+                                <th>Dyn Var</th>
+                                <th>Sit Ada</th>
+                                <th>Overall</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="#">Gemini Audio</a> <span class="baseline-tag">Baseline</span></td>
+                                <td class="score">64.98</td>
+                                <td>61.25</td>
+                                <td>63.47</td>
+                                <td class="score">63.23</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href="#">GPT Audio</a></td>
+                                <td class="score">49.40</td>
+                                <td>46.82</td>
+                                <td>48.15</td>
+                                <td class="score">48.12</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href="#">Doubao Realtime</a></td>
+                                <td class="score">35.21</td>
+                                <td>33.67</td>
+                                <td>31.89</td>
+                                <td class="score">33.59</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a href="#">Qwen-Omni</a></td>
+                                <td class="score">28.54</td>
+                                <td>26.91</td>
+                                <td>25.73</td>
+                                <td class="score">27.06</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><a href="#">Qwen-Omni-Realtime</a></td>
+                                <td class="score">26.83</td>
+                                <td>25.12</td>
+                                <td>24.05</td>
+                                <td class="score">25.33</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Model Comparison Note -->
+            <div class="leaderboard-note">
+                <p><i class="fas fa-info-circle"></i> <strong>Evaluation Protocol:</strong> We use Gemini-3 Pro as the judge to conduct pairwise comparison evaluation. Scores are calculated as win rate (0-100).</p>
+            </div>
+        </div>
     </section>
 
-    <section id="leaderboard" class="card">
-      <h2>Leaderboard（基于论文 Table 3）</h2>
-      <p>以下为论文 Table 3 的对比结果摘要。论文展示 English 与 Chinese 两个子集在 Paralanguage Control、Dynamic Variation、Situational Adaptation 三个任务上的模型表现。请注意，IndexTTS 并非基线，实际基线需要从论文表格中核对。</p>
-      <table aria-label="Table 3: Overall performance comparison">
-        <thead>
-          <tr>
-            <th>语言/任务</th>
-            <th>模型</th>
-            <th>Paralanguage Control - 总分</th>
-            <th>Dynamic Variation - 总分</th>
-            <th>Situational Adaptation - 总分</th>
-            <th>Overall</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Chinese (ZH)</td>
-            <td>Doubao Realtime Voice</td>
-            <td>70.85</td>
-            <td>—</td>
-            <td>—</td>
-            <td>70.85</td>
-          </tr>
-          <tr>
-            <td>Chinese (ZH)</td>
-            <td>GPT Audio</td>
-            <td>39.10</td>
-            <td>—</td>
-            <td>—</td>
-            <td>39.10</td>
-          </tr>
-          <tr>
-            <td>Chinese (ZH)</td>
-            <td>Gemini Audio</td>
-            <td>28.19</td>
-            <td>—</td>
-            <td>—</td>
-            <td>28.19</td>
-          </tr>
-          <tr>
-            <td>English (EN)</td>
-            <td>Gemini Audio</td>
-            <td>64.98</td>
-            <td>—</td>
-            <td>—</td>
-            <td>64.98</td>
-          </tr>
-          <tr>
-            <td>English (EN)</td>
-            <td>GPT Audio</td>
-            <td>49.40</td>
-            <td>—</td>
-            <td>—</td>
-            <td>49.40</td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="note">说明：Table 3 数据来自原文 Table 3；IndexTTS 不作为基线。</p>
+    <!-- Dimension-wise Performance Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Dimension-wise Performance</h2>
+            <div class="composition-grid single-image">
+                <div class="composition-item">
+                    <a href="static/images/task-perf.png" target="_blank">
+                        <img src="static/images/task-perf.png" alt="Task Performance" class="composition-img">
+                    </a>
+                    <p class="img-caption">Figure 2: Dimension-wise performance on Paralanguage Control task (Chinese)</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="gallery" class="card">
-      <h2>模型对比要点</h2>
-      <ul>
-        <li> Doubao 在中文数据集上对 Paralangual Control 的综合表现领先；Gemini 在英文数据集上处于领先地位。</li>
-        <li> 多数模型在表达性维度与声学维度上存在不同程度的权衡，需要在静态控制与时间动态之间寻求平衡。</li>
-        <li> IndexTTS 不是基线，应以论文 Table 3 的基线设置为参考。</li>
-      </ul>
+    <!-- Examples Section -->
+    <section id="examples" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Examples</h2>
+            <p class="section-desc">
+                Sample evaluations from SpeechParaling-Bench. Each example shows a prompt with target paralinguistic dimensions and model outputs.
+            </p>
+
+            <div class="examples-grid">
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #ef4444;">Paralanguage Control</span>
+                        <span class="lang-badge">Chinese</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "Please say in a cheerful tone: 妈妈，我可以再吃一块饼干吗？"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong>
+                            <span class="dimension-tag">Emotion (Expressive)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #3b82f6;">Dynamic Variation</span>
+                        <span class="lang-badge">English</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "Start with a merry rhythm, then switch to urgent: let me watch TV to unwind; no, why is this broken TV again?"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong>
+                            <span class="dimension-tag">Tempo (Prosodic)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #10b981;">Situational Adaptation</span>
+                        <span class="lang-badge">Chinese</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "我的小狗不见了，呜呜呜，我找了一整天了，会不会出什么事啊？"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong>
+                            <span class="dimension-tag">Nonverbal Sound: Crying (Expressive)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #ef4444;">Paralanguage Control</span>
+                        <span class="lang-badge">English</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "Please say in an elderly voice: Could you help me carry this bag?"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong>
+                            <span class="dimension-tag">Age (Acoustic)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #10b981;">Situational Adaptation</span>
+                        <span class="lang-badge">English</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "My presentation got cancelled due to the storm. I worked so hard on it..."
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong>
+                            <span class="dimension-tag">Cognitive State: Disappointment (Expressive)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-header">
+                        <span class="dimension-badge" style="background: #3b82f6;">Dynamic Variation</span>
+                        <span class="lang-badge">Chinese</span>
+                    </div>
+                    <div class="example-content">
+                        <div class="example-prompt">
+                            <strong>Prompt:</strong> "从平静到愤怒：我真的受够了！"
+                        </div>
+                        <div class="example-dimensions">
+                            <strong>Target Dimension:</strong>
+                            <span class="dimension-tag">Emotion Shift (Expressive)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="card" id="references">
-      <h2>引用</h2>
-      <p>论文：SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation（ICML 2026）</p>
-      <p>主页数据：<a href="https://github.com/Northern-byte-bit/SpeechParaling-Bench.git" target="_blank" rel="noopener">GitHub: SpeechParaling-Bench</a></p>
+    <!-- Citation Section -->
+    <section id="citation" class="section">
+        <div class="container">
+            <h2 class="section-title">Citation</h2>
+            <div class="citation-box">
+                <pre><code>@misc{speechparalingbench2026,
+  title={SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation},
+  author={},
+  year={2026},
+  howpublished={\url{https://github.com/Northern-byte-bit/SpeechParaling-Bench}}
+}</code></pre>
+            </div>
+        </div>
     </section>
-  </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="https://github.com/Northern-byte-bit/SpeechParaling-Bench">GitHub</a>
+                    <a href="https://huggingface.co/datasets/Ruohan2">HuggingFace</a>
+                    <a href="mailto:221900134@smail.nju.edu.cn">Contact</a>
+                </div>
+                <p class="copyright">
+                    &copy; 2026 SpeechParaling-Bench. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/main.js"></script>
 </body>
+
 </html>
