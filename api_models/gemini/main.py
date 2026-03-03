@@ -8,17 +8,17 @@ from google.genai import types
 import soundfile as sf
 import librosa
 
-# === 输入输出目录（环境变量覆盖） ===
+# === Input/Output directories ===
 INPUT_DIR = "audio_dataset_en/para_con/con_long_sin"
 OUTPUT_DIR = "api_models/gemini/output_en/para_con/con_long_sin"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# === API 配置 ===
+# === API Configuration ===
 GOOGLE_API_KEY = ""
 client = genai.Client(api_key=GOOGLE_API_KEY)
 model = "gemini-2.5-flash-native-audio-preview-09-2025"
 
-# 复述类prompt
+# Paraphrasing prompt
 config = {
     "response_modalities": ["AUDIO"],
     "realtime_input_config": {
@@ -31,7 +31,7 @@ config = {
 }
 
 
-# 非复述类prompt
+# Non-paraphrasing prompt
 # from google.genai.types import LiveConnectConfig, RealtimeInputConfig, AutomaticActivityDetection, StartSensitivity, EndSensitivity, Blob
 
 # config = LiveConnectConfig(
@@ -46,7 +46,7 @@ config = {
 async def main():
     async with client.aio.live.connect(model=model, config=config) as session:
 
-        # 遍历输入文件夹
+        # Process input directory
         for filename in os.listdir(INPUT_DIR):
             if not filename.endswith(".wav"):
                 continue
@@ -54,59 +54,47 @@ async def main():
             input_file = os.path.join(INPUT_DIR, filename)
             output_file = os.path.join(OUTPUT_DIR, filename)
 
-            print(f"--- 正在处理文件: {filename} ---")
+            print(f"--- Processing file: {filename} ---")
 
             try:
-                # ========== 1. WAV -> PCM16 RAW ==========
+                # Convert WAV to PCM16 RAW
                 buffer = io.BytesIO()
                 y, sr = librosa.load(input_file, sr=16000)
                 sf.write(buffer, y, sr, format='RAW', subtype='PCM_16')
                 buffer.seek(0)
                 audio_bytes = buffer.read()
-                # If already in correct format, you can use this:
-                # audio_bytes = Path("sample.pcm").read_bytes()
 
-                # ========== 2. 发送音频 ==========
+                # Send audio
                 await session.send_realtime_input(
                     activity_start=types.ActivityStart())
                 await session.send_realtime_input(audio=types.Blob(
                     data=audio_bytes, mime_type="audio/pcm;rate=16000"))
                 await session.send_realtime_input(
                     activity_end=types.ActivityEnd())
-                # await session.send_realtime_input(
-                #     audio=types.Blob(data=audio_bytes, mime_type="audio/pcm;rate=16000")
-                # )
-                # message = "Hello, how are you?"
-                # await session.send_client_content(turns=message, turn_complete=True)
-                # await session.send_realtime_input(audio_stream_end=True)
-                # ========== 3. 输出 wav ==========
+
+                # Output wav
                 wf = wave.open(output_file, "wb")
                 wf.setnchannels(1)
                 wf.setsampwidth(2)
-                wf.setframerate(24000)  # Gemini 输出是 24kHz
+                wf.setframerate(24000)  # Gemini outputs at 24kHz
 
                 async for response in session.receive():
                     if response.data is not None:
                         wf.writeframes(response.data)
-                # Un-comment this code to print audio data info
-                # if response.server_content.model_turn is not None:
-                #      print(response.server_content.model_turn.parts[0].inline_data)
-                # else:
-                #     print("nothing get")
 
                 wf.close()
-                print(f"✔ 已输出到: {output_file}")
+                print(f"Saved: {output_file}")
 
             except Exception as e:
-                print(f"❌ 处理文件时出错：{filename}")
-                print(f"错误信息：{e}")
-                # 出错时确保文件句柄关闭
+                print(f"Error processing file: {filename}")
+                print(f"Error message: {e}")
+                # Ensure file handle is closed on error
                 try:
                     wf.close()
                 except:
                     pass
 
-    print("--- 批量处理完成 ---")
+    print("--- Batch processing complete ---")
 
 
 if __name__ == "__main__":

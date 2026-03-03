@@ -64,17 +64,17 @@ The SpeechParaling-Bench dataset is available on 🤗 HuggingFace:
 
 ### Main Audio Datasets
 
-| Dataset                                                                                               | Description           | Size   | Samples |
-| ----------------------------------------------------------------------------------------------------- | --------------------- | ------ | ------- |
+| Dataset                                                                                              | Description           | Size   | Samples |
+| ---------------------------------------------------------------------------------------------------- | --------------------- | ------ | ------- |
 | [SpeechParaling-Bench-Chinese](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Chinese) | Chinese audio dataset | ~361MB | 1001    |
 | [SpeechParaling-Bench-English](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-English) | English audio dataset | ~438MB | 1001    |
 
 ### Baseline Model Outputs
 
-| Dataset                                                                                                       | Description                    | Notes                    |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------------------------ |
-| [SpeechParaling-Bench-Baseline-Doubao](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline-Doubao)   | Doubao Chinese outputs (output_ch)  | Chinese baseline model   |
-| [SpeechParaling-Bench-Baseline-Gemini](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline-Gemini)   | Gemini English outputs (output_en)  | English baseline model   |
+| Dataset                                                                                                              | Description                        | Notes                  |
+| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------------- |
+| [SpeechParaling-Bench-Baseline-Doubao](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline-Doubao) | Doubao Chinese outputs (output_ch) | Chinese baseline model |
+| [SpeechParaling-Bench-Baseline-Gemini](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline-Gemini) | Gemini English outputs (output_en) | English baseline model |
 
 ### Dataset Statistics
 
@@ -215,6 +215,46 @@ huggingface-cli download \
 ### 3. Prepare Your Model Output
 
 Run your **speech-to-speech (S2S)** model on the SpeechParaling-Bench dataset and generate audio responses.
+
+#### Sample Run Script
+
+We provide a sample run script using **Qwen-Omni API** to help you get started quickly:
+
+```bash
+# 1. Go to the qwen-omni directory
+cd api_models/qwen-omni
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the sample script (Chinese)
+python run_sample.py \
+    --input_dir ../../audio_dataset_ch/para_con/con_short_sin \
+    --output_dir output_ch/para_con/con_short_sin \
+    --api_key YOUR_DASHSCOPE_API_KEY \
+    --language zh
+
+# 4. Run the sample script (English)
+python run_sample.py \
+    --input_dir ../../audio_dataset_en/para_con/con_short_sin \
+    --output_dir output_en/para_con/con_short_sin \
+    --api_key YOUR_DASHSCOPE_API_KEY \
+    --language en
+```
+
+For testing, you can use `--max_files N` to process only N files:
+```bash
+python run_sample.py \
+    --input_dir ../../audio_dataset_ch/para_con/con_short_sin \
+    --output_dir output_demo \
+    --api_key YOUR_DASHSCOPE_API_KEY \
+    --language zh \
+    --max_files 3
+```
+
+**Get API Key**: Register at https://dashscope.console.aliyun.com/ to get your free API key.
+
+#### Output Directory Structure
 
 Format your audio output according to the structure in `api_models/doubao/output_ch/`:
 

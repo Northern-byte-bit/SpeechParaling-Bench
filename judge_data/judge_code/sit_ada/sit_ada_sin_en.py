@@ -9,7 +9,7 @@ from google import genai
 from google.genai import types
 
 # ---------------------------------------------------------------------
-#  基础配置
+#  Basic Configuration
 # ---------------------------------------------------------------------
 API_KEY = ""
 BASE_URL = ""
@@ -17,7 +17,7 @@ TARGET_MODEL = "gemini-3-pro-preview"
 
 PROMPT_JSONL = "jsonl_prompt_en/sit_ada/sit_ada_sin.jsonl"
 
-# 已生成的音频目录
+# Generated audio directories
 MODEL_DIRS = {
     "doubao": "api_models/doubao/output_en/sit_ada/sit_ada_sin",
     # "gpt": "api_models/gpt/output_en/sit_ada/sit_ada_sin",
@@ -27,7 +27,7 @@ MODEL_DIRS = {
     "YOU_MODEL_NAME": "api_models/YOU_MODEL/output_en/sit_ada/sit_ada_sin",
 }
 
-# 输出各模型的评分 jsonl
+# Output directories for model scores
 OUTPUT_DIRS = {
     "doubao":
     "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_sin_en/doubao",
@@ -40,15 +40,15 @@ OUTPUT_DIRS = {
 }
 
 METADATA_DIR = "judge_data/result_v5/result_v5_sit_ada2/metadata/metadata_v5_sin_en"
-MAX_RETRY_PER_SAMPLE = 5  # 每个样本最多重试次数
-RETRY_SLEEP_SECONDS = 2  # 每次失败后的等待时间（防止打爆 API）
+MAX_RETRY_PER_SAMPLE = 5  # Max retries per sample
+RETRY_SLEEP_SECONDS = 2  # Wait time after each failure (to avoid API rate limit)
 
 client = genai.Client(http_options=types.HttpOptions(base_url=BASE_URL),
                       api_key=API_KEY)
 
 
 # ---------------------------------------------------------------------
-# 工具函数
+# Utility Functions
 # ---------------------------------------------------------------------
 def load_prompt_from_jsonl(path, index):
     with open(path, "r", encoding="utf-8") as f:
@@ -56,7 +56,7 @@ def load_prompt_from_jsonl(path, index):
             if i == index:
                 obj = json.loads(line)
                 return obj["prompt"], obj["dimensions"]
-    raise IndexError(f"JSONL 不足 {index} 行")
+    raise IndexError(f"JSONL line {index} not found")
 
 
 def list_wavs(folder):
@@ -69,7 +69,7 @@ def list_wavs(folder):
 
 
 def load_audio(path):
-    """加载音频文件，返回原始字节数据 (bytes)"""
+    """Load audio file, return raw bytes data"""
     with open(path, 'rb') as f:
         audio_bytes = f.read()
     return audio_bytes
@@ -77,11 +77,11 @@ def load_audio(path):
 
 def random_assign_T1_T2(base_wav, cand_wav, seed):
     """
-    随机分配基线和候选音频到 T1/T2，并返回：
-    1. audio_1, audio_2 (已随机排序的音频数据)
-    2. candidate_index (候选音频所在的位置, 1 或 2)
+    Randomly assign baseline and candidate audio to T1/T2, return:
+    1. audio_1, audio_2 (randomly shuffled audio data)
+    2. candidate_index (position of candidate audio, 1 or 2)
     
-    使用 seed 确保随机分配的可复现性。
+    Use seed to ensure reproducibility.
     """
     rng = random.Random(seed)
     if rng.random() < 0.5:
@@ -94,26 +94,26 @@ def random_assign_T1_T2(base_wav, cand_wav, seed):
 
 def normalize_json_output(raw_text):
     """
-    清理模型的原始输出文本，去除可能的 ```json 前缀和 ``` 后缀，
-    并尝试解析为 Python 字典。
+    Clean model raw output text, remove possible ```json prefix and ``` suffix，
+    and try to parse as Python dict.
     """
     cleaned_text = raw_text.strip()
-    # 移除 ```json 和 ```
+    # Remove ```json and ```
     if cleaned_text.startswith("```json"):
         cleaned_text = cleaned_text[len("```json"):].strip()
     if cleaned_text.endswith("```"):
         cleaned_text = cleaned_text[:-len("```")].strip()
 
     try:
-        # 尝试解析 JSON
+        # Try to parse JSON
         return json.loads(cleaned_text), "Success"
     except json.JSONDecodeError as e:
-        # 如果解析失败，返回 None 和错误信息
+        # If parsing fails, return None and error message
         return None, f"JSONDecodeError: {e}"
 
 
 # ---------------------------------------------------------------------
-# Judger Prompt (C.3版本，定制为sit_ada)
+# Judger Prompt (C.3 version, customized forsit_ada)
 # ---------------------------------------------------------------------
 def build_judger_prompts(demand, dims_str, dims):
     system_prompt_judger = (f"""
@@ -220,7 +220,7 @@ Now you will be provided with the generated speech from model 1, please analyze 
 
 
 # ---------------------------------------------------------------------
-# 主评测流程
+# Main Evaluation Process
 # ---------------------------------------------------------------------
 def evaluate(candidate_name, baseline_name="gemini", start_index=1):
     os.makedirs(OUTPUT_DIRS[candidate_name], exist_ok=True)
@@ -229,7 +229,7 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
     cand_wavs = list_wavs(MODEL_DIRS[candidate_name])
 
     if len(base_wavs) != len(cand_wavs):
-        raise ValueError("基线和候选模型音频数量不一致！")
+        raise ValueError("Baseline and candidate audio count mismatch!")
 
     total = len(base_wavs)
     base_wavs_slice = base_wavs[start_index - 1:]
@@ -240,16 +240,16 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                                                start=start_index):
 
         success = False
-        max_retries = 5  # 每个样本最多重试次数
+        max_retries = 5  # Max retries per sample
         retry_count = 0
 
         while not success and retry_count < max_retries:
             print(
-                f"\n[{candidate_name}] 样本 {i} 开始处理... (尝试第 {retry_count + 1} 次)"
+                f"\n[{candidate_name}] sample {i} started... (attempt {retry_count + 1})"
             )
 
             try:
-                # 1. 加载数据
+                # 1. Load data
                 demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, i)
                 dims_str = "、".join(dims)
                 system_prompt_judger, post_audio_1_message = build_judger_prompts(
@@ -261,7 +261,7 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                 audio_bytes_1, audio_bytes_2, candidate_index = random_assign_T1_T2(
                     base_audio,
                     cand_audio,
-                    seed=i + retry_count  # 改变种子以防模型对特定顺序卡死
+                    seed=i + retry_count  # Change seed to prevent model from getting stuck on specific order
                 )
 
                 contents = [
@@ -273,7 +273,7 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                                           mime_type="audio/wav"),
                 ]
 
-                # 2. 调用 API
+                # 2. Call API
                 response = client.models.generate_content(
                     model=TARGET_MODEL,
                     contents=contents,
@@ -281,17 +281,17 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
 
                 result_text = response.text
 
-                # 3. 解析 JSON
+                # 3. Parse JSON
                 judger_output_parsed, parse_status = normalize_json_output(
                     result_text)
 
                 if parse_status != "Success":
-                    raise ValueError(f"JSON 解析失败: {parse_status}")
+                    raise ValueError(f"JSON parsing failed: {parse_status}")
 
-                # 4. 如果运行到这里，说明 API 和 解析都成功了
+                # 4. If we reach here, API and parsing succeeded
                 success = True
 
-                # 处理 winner 映射
+                # Handle winner mapping
                 winner_positions = {}
                 for idx in range(1, len(dims) + 1):
                     key = f"winner_{idx}"
@@ -299,7 +299,7 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                         f"winner_position_{idx}"] = judger_output_parsed.get(
                             key, -1)
 
-                # 5. 保存结果
+                # 5. Save result
                 file_name_base = os.path.splitext(
                     os.path.basename(cand_path))[0]
                 output_filename = f"{file_name_base}_{candidate_name}_vs_{baseline_name}.json"
@@ -334,51 +334,51 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                               ensure_ascii=False,
                               indent=4)
 
-                print(f"✔ 样本 {i} 处理成功并已保存。")
+                print(f"[OK] Sample {i} processed successfully and saved。")
 
             except Exception as e:
                 retry_count += 1
-                print(f"❌ 样本 {i} 出错: {e}")
+                print(f"[ERROR] Sample {i} error: {e}")
                 if retry_count < max_retries:
-                    wait_time = 2**retry_count  # 指数退避
-                    print(f"等待 {wait_time} 秒后重试...")
+                    wait_time = 2**retry_count  # Exponential backoff
+                    print(f"Wait {wait_time} seconds before retry...")
                     time.sleep(wait_time)
                 else:
-                    print(f"🛑 样本 {i} 在重试 {max_retries} 次后依然失败，跳过。")
+                    print(f"[SKIP] Sample {i} failed after {max_retries} retries, skipping。")
 
-    print(f"\n任务完成，处理范围：[{start_index} ~ {total}]")
+    print(f"\nTask completed, processing range：[{start_index} ~ {total}]")
 
 
 def run_with_auto_resume(candidate_name,
                          baseline_name="gemini",
                          start_index=1):
     """
-    自动监视 evaluate()，若 evaluate 中断（异常/崩溃/退出），
-    则自动从下一个样本 start_index 继续进行。
+    Auto Resume(), if evaluate is interrupted (exception/crash/exit),
+    automatically continue from next sample start_index.
     """
 
     while True:
         try:
             print(
-                f"\n🚀 开始运行 candidate={candidate_name}, 从 start_index={start_index}"
+                f"\n[START] Starting run candidate={candidate_name}, from start_index={start_index}"
             )
 
             # ----------------------------
-            # 核心：调用你的 evaluate()
+            # Core: call your evaluate()
             # ----------------------------
             evaluate(candidate_name, baseline_name, start_index=start_index)
 
-            # 能运行到这里 → evaluate 正常结束，说明任务成功
-            print(f"\n🎉 {candidate_name} 全部正常结束！评测完成。")
+            # If we reach here, evaluate finished successfully
+            print(f"\n[DONE] {candidate_name} All completed successfully! Evaluation done。")
             break
 
         except Exception as e:
-            # 捕获 evaluate 内没捕获到的所有异常（例如断电/脚本退出等）
-            print(f"\n❌ evaluate() 发生未捕获异常：{e}")
-            print("⚠️ 自动查找已完成的最后一个样本，继续向后评测…")
+            # Catch all uncaught exceptions in evaluate (e.g., power failure, script exit)
+            print(f"\n[ERROR] evaluate() uncaught exception：{e}")
+            print("[WARN] Auto find last completed sample, continue evaluation…")
 
             # -----------------------------------------------------------
-            # 自动更新 start_index：扫描 output 目录下已生成的 json 文件数量
+            # Auto update start_index: scan output dir for generated json files
             # -----------------------------------------------------------
 
             output_dir = OUTPUT_DIRS[candidate_name]
@@ -386,24 +386,24 @@ def run_with_auto_resume(candidate_name,
                 f for f in os.listdir(output_dir)
                 if f.endswith(".json") or f.endswith(".jsonl")
             ]
-            # 已完成样本的数量 + 1 = 下一个 start_index
+            # Completed samples count + 1 = next start_index
             new_start = len(finished) + 1
 
             print(
-                f"👉 已完成 {len(finished)} 个样本，下一次将从 start_index={new_start} 继续")
+                f"👉 Completed {len(finished)} samples, next run will start from={new_start}")
 
-            # 更新 start_index 并继续 while True
+            # Update start_index and continue while True
             start_index = new_start
 
 
 # ---------------------------------------------------------------------
-# 主入口
+# Main Entry
 # ---------------------------------------------------------------------
 # if __name__ == "__main__":
 #     evaluate("gpt4o")
 #     evaluate("gemini")
 #     evaluate("qwen-omni")
-#     print("\n全部任务完成！")
+#     print("\nAll tasks completed！")
 if __name__ == "__main__":
     # run_with_auto_resume("doubao", baseline_name="gemini", start_index=1)
     # run_with_auto_resume("gpt", baseline_name="gemini", start_index=1)
@@ -412,4 +412,4 @@ if __name__ == "__main__":
     run_with_auto_resume("YOU_MODEL_NAME",
                          baseline_name="gemini",
                          start_index=1)
-    print("\n全部任务完成！")
+    print("\nAll tasks completed！")

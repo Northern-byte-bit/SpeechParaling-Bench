@@ -5,15 +5,10 @@ import os
 import base64
 import wave
 
-# -------------------------------
-# 1. 配置
-# -------------------------------
-import json
-
+# Configuration
 BATCH_TASKS = [
     ("audio_dataset_ch/para_con/con_short_multi",
      "api_models/qwen-omni-realtime/output_ch/para_con/con_short_multi"),
-    # 可以继续添加更多任务
 ]
 
 API_KEY = ""
@@ -22,9 +17,7 @@ API_URL = "wss://dashscope.aliyuncs.com/api-ws/v1/realtime?model=qwen3-omni-flas
 HEADERS = ["Authorization: Bearer " + API_KEY]
 
 
-# -------------------------------
-# 2. 工具函数
-# -------------------------------
+# Helper functions
 def wav_to_pcm16_chunks(wav_path, chunk_samples=3200):
     chunks = []
     with wave.open(wav_path, "rb") as wf:
@@ -47,14 +40,12 @@ def save_output_audio(output_path, frames):
         wf.writeframes(b"".join(frames))
 
 
-# -------------------------------
-# 3. 单文件处理函数
-# -------------------------------
+# Single file processing function
 def process_one_wav(input_path, output_path):
     output_frames = []
 
     def on_open(ws):
-        # session 初始化
+        # Session initialization
         ws.send(
             json.dumps({
                 "type": "session.update",
@@ -63,14 +54,12 @@ def process_one_wav(input_path, output_path):
                     "voice": "Cherry",
                     "input_audio_format": "pcm16",
                     "output_audio_format": "pcm16",
-                    "instructions":
-                    "请按照用户的要求，直接用指定的语气生说用户要求的句子，不包含任何前置语句和其它内容。",
-                    # "instructions": "请用合适的语气与用户聊天。",
+                    "instructions": "Please directly speak the sentence with the specified tone as requested, without any introductory phrases.",
                     "turn_detection": None
                 }
             }))
 
-        # 发送音频
+        # Send audio
         pcm_chunks = wav_to_pcm16_chunks(input_path)
         for chunk in pcm_chunks:
             ws.send(
@@ -111,12 +100,10 @@ def process_one_wav(input_path, output_path):
     ws.run_forever()
 
 
-# -------------------------------
-# 4. 批量遍历
-# -------------------------------
+# Batch processing
 for input_dir, output_dir in BATCH_TASKS:
     os.makedirs(output_dir, exist_ok=True)
-    print(f"\n=== 开始处理文件夹: {input_dir} ===")
+    print(f"\n=== Starting to process directory: {input_dir} ===")
 
     for filename in os.listdir(input_dir):
         if not filename.endswith(".wav"):
@@ -125,8 +112,8 @@ for input_dir, output_dir in BATCH_TASKS:
         input_path = os.path.join(input_dir, filename)
         output_path = os.path.join(output_dir, filename)
 
-        print(f"\n--- 正在处理: {filename} ---")
+        print(f"\n--- Processing: {filename} ---")
         process_one_wav(input_path, output_path)
-        print(f"✅ 完成: {output_path}")
+        print(f"Done: {output_path}")
 
-print("\n--- 所有文件夹处理完成 ---")
+print("\n--- All directories processed ---")

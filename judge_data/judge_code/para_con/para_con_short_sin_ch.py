@@ -9,7 +9,7 @@ from google import genai
 from google.genai import types
 
 # ---------------------------------------------------------------------
-#  基础配置
+#  Basic Configuration
 # ---------------------------------------------------------------------
 YOUR_API_KEY = ""
 BASE_URL = "http://43.131.235.107:45101/"
@@ -17,7 +17,7 @@ TARGET_MODEL = "gemini-3-pro-preview"
 
 PROMPT_JSONL = "jsonl_prompt_ch/para_con/short_sin.jsonl"
 
-# 已生成的音频目录
+# Generated audio directories
 MODEL_DIRS = {
     "doubao": "api_models/doubao/output_ch/para_con/con_short_sin",
     # "gpt": "api_models/gpt/output_ch/para_con/con_short_sin",
@@ -27,7 +27,7 @@ MODEL_DIRS = {
     "YOU_MODEL_NAME": "api_models/YOU_MODEL/output_ch/para_con/con_short_sin",
 }
 
-# 输出各模型的评分 jsonl
+# Output directories for model scores
 OUTPUT_DIRS = {
     # "gemini": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_short_sin_ch/gemini",
     # "gpt": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_short_sin_ch/gpt",
@@ -46,7 +46,7 @@ client = genai.Client(http_options=types.HttpOptions(base_url=BASE_URL),
 
 
 # ---------------------------------------------------------------------
-# 工具函数
+#  Utility Functions
 # ---------------------------------------------------------------------
 def load_prompt_from_jsonl(path, index):
     with open(path, "r", encoding="utf-8") as f:
@@ -54,7 +54,7 @@ def load_prompt_from_jsonl(path, index):
             if i == index:
                 obj = json.loads(line)
                 return obj["prompt"], obj["dimensions"]
-    raise IndexError(f"JSONL 不足 {index} 行")
+    raise IndexError(f"JSONL line {index} not found")
 
 
 def list_wavs(folder):
@@ -67,7 +67,7 @@ def list_wavs(folder):
 
 
 def load_audio(path):
-    """加载音频文件，返回原始字节数据 (bytes)"""
+    """Load audio file, return raw bytes data"""
     with open(path, 'rb') as f:
         audio_bytes = f.read()
     return audio_bytes
@@ -75,11 +75,11 @@ def load_audio(path):
 
 def random_assign_T1_T2(base_wav, cand_wav, seed):
     """
-    随机分配基线和候选音频到 T1/T2，并返回：
-    1. audio_1, audio_2 (已随机排序的音频数据)
-    2. candidate_index (候选音频所在的位置, 1 或 2)
+    Randomly assign baseline and candidate audio to T1/T2, return:
+    1. audio_1, audio_2 (randomly shuffled audio data)
+    2. candidate_index (position of candidate audio, 1 or 2)
     
-    使用 seed 确保随机分配的可复现性。
+    Use seed to ensure reproducibility.
     """
     rng = random.Random(seed)
     if rng.random() < 0.5:
@@ -92,26 +92,46 @@ def random_assign_T1_T2(base_wav, cand_wav, seed):
 
 def normalize_json_output(raw_text):
     """
-    清理模型的原始输出文本，去除可能的 ```json 前缀和 ``` 后缀，
-    并尝试解析为 Python 字典。
+    Clean the model's raw output text, remove possible ```json prefix and ``` suffix,
+    and try to parse as Python dictionary.
+    """
+    Randomly assign baseline and candidate audio to T1/T2, return:
+    1. audio_1, audio_2 (randomly shuffled audio data)
+    2. candidate_index (position of candidate audio, 1 or 2)
+    
+    Use seed to ensure reproducibility.
+    """
+    rng = random.Random(seed)
+    if rng.random() < 0.5:
+        # T1 = Candidate, T2 = Baseline. Candidate is at position 1.
+        return cand_wav, base_wav, 1
+    else:
+        # T1 = Baseline, T2 = Candidate. Candidate is at position 2.
+        return base_wav, cand_wav, 2
+
+
+def normalize_json_output(raw_text):
+    """
+    Clean model raw output text, remove possible ```json prefix and ``` suffix，
+    and try to parse as Python dict.
     """
     cleaned_text = raw_text.strip()
-    # 移除 ```json 和 ```
+    # Remove ```json and ```
     if cleaned_text.startswith("```json"):
         cleaned_text = cleaned_text[len("```json"):].strip()
     if cleaned_text.endswith("```"):
         cleaned_text = cleaned_text[:-len("```")].strip()
 
     try:
-        # 尝试解析 JSON
+        # Try to parse JSON
         return json.loads(cleaned_text), "Success"
     except json.JSONDecodeError as e:
-        # 如果解析失败，返回 None 和错误信息
+        # If parsing fails, return None and error message
         return None, f"JSONDecodeError: {e}"
 
 
 # ---------------------------------------------------------------------
-# Judger Prompt (C.3版本，定制为para_con)
+# Judger Prompt (C.3 version, customized forpara_con)
 # ---------------------------------------------------------------------
 def build_judger_prompts(demand, dims_str, dims):
     system_prompt_judger = (f"""
@@ -217,55 +237,55 @@ Now you will be provided with the generated speech from model 1, please analyze 
 
 
 # ---------------------------------------------------------------------
-# 主评测流程
+# Main Evaluation Process
 # ---------------------------------------------------------------------
 def evaluate(candidate_name, baseline_name="gemini", start_index=1):
 
     os.makedirs(OUTPUT_DIRS[candidate_name], exist_ok=True)
 
-    # 按 index 读取音频
+    # Read audio by index
     base_wavs = list_wavs(MODEL_DIRS[baseline_name])
     cand_wavs = list_wavs(MODEL_DIRS[candidate_name])
 
     if len(base_wavs) != len(cand_wavs):
-        raise ValueError("基线和候选模型音频数量不一致！")
+        raise ValueError("Baseline and candidate audio count mismatch!")
 
     total = len(base_wavs)
 
-    # ---- 新增：从 start_index 起切片 ----
+    # ---- New: slice from start_index ----
     base_wavs = base_wavs[start_index - 1:]
     cand_wavs = cand_wavs[start_index - 1:]
 
-    # ---- enumerate 起始编号也设为 start_index ----
+    # ---- Enumerate start index also set to start_index ----
     for i, (base_path, cand_path) in enumerate(zip(base_wavs, cand_wavs),
                                                start=start_index):
 
-        print(f"\n[{candidate_name}] 样本 {i} 开始处理...")
+        print(f"\n[{candidate_name}] sample {i} started...")
 
         result_text = ""
         status = "Error"
-        candidate_index = -1  # 默认值，以防异常
+        candidate_index = -1  # Default value, in case of exception
 
         try:
-            # 读取 prompt
+            # Read prompt
             demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, i)
             dims_str = "、".join(dims)
 
-            # 构建 Judger prompt (获取 System, User, Post-Audio 1 消息)
+            # Build Judger prompt (get System, User, Post-Audio 1 messages)
             system_prompt_judger, post_audio_1_message = build_judger_prompts(
                 demand, dims_str, dims)
 
             # -------------------------------
-            # 读取音频 + 随机分配 T1 / T2
+            # Read audio + randomly assign T1/T2
             # -------------------------------
             base_audio = load_audio(base_path)
             cand_audio = load_audio(cand_path)
 
-            # 使用样本索引 i 作为种子，确保可复现性
+            # Use sample index i as seed, ensure reproducibility
             audio_bytes_1, audio_bytes_2, candidate_index = random_assign_T1_T2(
                 base_audio, cand_audio, seed=i)
             # -------------------------------
-            # 构造多模态 Contents 列表 (交错文本和音频)
+            # Construct multimodal Contents list (interleaved text and audio)
             # -------------------------------
             contents = [
                 system_prompt_judger,
@@ -277,14 +297,14 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
             ]
 
             # -------------------------------
-            # 调用 Gemini 评分
+            # Call Gemini for scoring
             # -------------------------------
             config = types.GenerateContentConfig(
-                temperature=1.0,  # gemini 3 pro 最好保持1.0
+                temperature=1.0,  # gemini 3 pro best keep at 1.0
                 # temperature=0.0,
             )
 
-            # 实际的 API 调用
+            # Actual API call
             response = client.models.generate_content(model=TARGET_MODEL,
                                                       contents=contents,
                                                       config=config)
@@ -293,8 +313,8 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
             status = "Success"
 
         except Exception as e:
-            print(f"❌ 样本 {i} 调用 API 或处理时发生错误: {str(e)}")
-            # 构建一个包含错误的 JSON 字符串作为模型的输出
+            print(f"[ERROR] Sample {i} API call or processing error: {str(e)}")
+            # Build JSON string with error as model output
             result_text = json.dumps(
                 {
                     "reasoning_system_1": f"Client/Processing Error: {str(e)}",
@@ -307,7 +327,7 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                 ensure_ascii=False)
 
         # -------------------------------
-        # 处理并解析 Judger 输出
+        # Process and parse Judger output
         # -------------------------------
         judger_output_parsed, parse_status = normalize_json_output(result_text)
 
@@ -315,7 +335,7 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
 
         if parse_status.startswith("JSONDecodeError"):
             status = "JSON_Parse_Error"
-            # 如果解析失败，确保 judger_output_parsed 包含错误信息
+            # If parsing fails, ensure judger_output_parsed contains error info
             judger_output_parsed = {
                 "error": parse_status,
                 "winner": -1,
@@ -324,20 +344,20 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
             }
             winner_position = -1
         elif status == "Success":
-            # 如果 API 调用成功，且 JSON 解析成功，则进一步获取 winner_position
+            # If API call successful and JSON parsed, get winner_position
             for idx in range(1, len(dims) + 1):
                 key = f"winner_{idx}"
                 winner_positions[
                     f"winner_position_{idx}"] = judger_output_parsed.get(
                         key, -1)
 
-        # ---- 文件名生成：使用候选音频的文件名作为基础名 ----
+        # ---- File name generation: use candidate audio filename as base name ----
         file_name_base = os.path.splitext(os.path.basename(cand_path))[0]
-        # 文件名保持一致，便于关联
+        # Keep filename consistent for correlation
         output_filename = f"{file_name_base}_{candidate_name}_vs_{baseline_name}.json"
 
         # -------------------------------
-        # 保存输出 jsonl
+        # Save Output JSONL
         # -------------------------------
         metadata_data = {
             "sample_index": i,
@@ -346,60 +366,60 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
             "judger_model": TARGET_MODEL,
             "demand": demand,
             "dimensions": dims,
-            "candidate_position": candidate_index,  # 候选音频所在位置 (1 或 2)
+            "candidate_position": candidate_index,  # Candidate audio position (1 or 2)
             "status": status,
             "category": "feature_control",
         }
-        # ---- 新增：逐维度 winner_position ----
+        # ---- New: dimension-wise winner_position ----
         for idx in range(1, len(dims) + 1):
             key = f"winner_position_{idx}"
             metadata_data[key] = winner_positions.get(key, -1)
 
-        # 使用候选音频的文件名作为输出文件的基础名，并添加 '_comparison.jsonl' 后缀
+        # Use candidate audio filename as output file base name, add '_comparison.jsonl' suffix
         metadata_path = os.path.join(METADATA_DIR, output_filename)
         with open(metadata_path, "w", encoding="utf-8") as f:
             json.dump(metadata_data, f, ensure_ascii=False, indent=4)
-        print(f"✔ 元数据已保存 {metadata_path}")
+        print(f"[OK] Metadata saved {metadata_path}")
 
         judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name],
                                           output_filename)
         with open(judger_output_path, "w", encoding="utf-8") as f:
             json.dump(judger_output_parsed, f, ensure_ascii=False, indent=4)
-        print(f"✔ 评判结果已保存 {judger_output_path}")
+        print(f"[OK] Judger result saved {judger_output_path}")
 
-    print(f"\n任务完成，处理范围：[{start_index} ~ {total}]")
+    print(f"\nTask completed, processing range：[{start_index} ~ {total}]")
 
 
 def run_with_auto_resume(candidate_name,
                          baseline_name="gemini",
                          start_index=1):
     """
-    自动监视 evaluate()，若 evaluate 中断（异常/崩溃/退出），
-    则自动从下一个样本 start_index 继续进行。
+    Auto Resume(), if evaluate is interrupted (exception/crash/exit),
+    automatically continue from next sample start_index.
     """
 
     while True:
         try:
             print(
-                f"\n🚀 开始运行 candidate={candidate_name}, 从 start_index={start_index}"
+                f"\n[START] Starting run candidate={candidate_name}, from start_index={start_index}"
             )
 
             # ----------------------------
-            # 核心：调用你的 evaluate()
+            # Core: call your evaluate()
             # ----------------------------
             evaluate(candidate_name, baseline_name, start_index=start_index)
 
-            # 能运行到这里 → evaluate 正常结束，说明任务成功
-            print(f"\n🎉 {candidate_name} 全部正常结束！评测完成。")
+            # If we reach here, evaluate finished successfully
+            print(f"\n[DONE] {candidate_name} All completed successfully! Evaluation done。")
             break
 
         except Exception as e:
-            # 捕获 evaluate 内没捕获到的所有异常（例如断电/脚本退出等）
-            print(f"\n❌ evaluate() 发生未捕获异常：{e}")
-            print("⚠️ 自动查找已完成的最后一个样本，继续向后评测…")
+            # Catch all uncaught exceptions in evaluate (e.g., power failure, script exit)
+            print(f"\n[ERROR] evaluate() uncaught exception：{e}")
+            print("[WARN] Auto find last completed sample, continue evaluation…")
 
             # -----------------------------------------------------------
-            # 自动更新 start_index：扫描 output 目录下已生成的 json 文件数量
+            # Auto update start_index: scan output dir for generated json files
             # -----------------------------------------------------------
 
             output_dir = OUTPUT_DIRS[candidate_name]
@@ -407,24 +427,24 @@ def run_with_auto_resume(candidate_name,
                 f for f in os.listdir(output_dir)
                 if f.endswith(".json") or f.endswith(".jsonl")
             ]
-            # 已完成样本的数量 + 1 = 下一个 start_index
+            # Completed samples count + 1 = next start_index
             new_start = len(finished) + 1
 
             print(
-                f"👉 已完成 {len(finished)} 个样本，下一次将从 start_index={new_start} 继续")
+                f"👉 Completed {len(finished)} samples, next run will start from={new_start}")
 
-            # 更新 start_index 并继续 while True
+            # Update start_index and continue while True
             start_index = new_start
 
 
 # ---------------------------------------------------------------------
-# 主入口
+# Main Entry
 # ---------------------------------------------------------------------
 # if __name__ == "__main__":
 #     evaluate("gpt4o")
 #     evaluate("gemini")
 #     evaluate("qwen-omni")
-#     print("\n全部任务完成！")
+#     print("\nAll tasks completed！")
 if __name__ == "__main__":
     # run_with_auto_resume("gpt", baseline_name="doubao", start_index=1)
     # run_with_auto_resume("gemini", baseline_name="doubao", start_index=1)
@@ -433,4 +453,4 @@ if __name__ == "__main__":
     run_with_auto_resume("YOU_MODEL_NAME",
                          baseline_name="doubao",
                          start_index=1)
-    print("\n全部任务完成！")
+    print("\nAll tasks completed！")
