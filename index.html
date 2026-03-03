@@ -20,9 +20,10 @@
             <nav class="nav">
                 <a href="#introduction">Introduction</a>
                 <a href="#benchmark">Benchmark</a>
+                <a href="#pipeline">Evaluation</a>
                 <a href="#leaderboard">Leaderboard</a>
+                <a href="#insights">Insights</a>
                 <a href="#examples">Examples</a>
-                <a href="#citation">Citation</a>
             </nav>
             <div class="header-links">
                 <a href="https://arxiv.org" class="btn btn-outline" target="_blank">
@@ -239,6 +240,35 @@
         </div>
     </section>
 
+    <!-- Evaluation Pipeline Section -->
+    <section id="pipeline" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Evaluation Pipeline</h2>
+            <p class="section-desc">
+                We employ a fully automatic, transcription-free evaluation framework that directly assesses generated audio using a Large Audio-Language Model (LALM) as a judge.
+            </p>
+            <div class="pipeline-container">
+                <div class="pipeline-step">
+                    <div class="step-num">1</div>
+                    <h4>Data Engine</h4>
+                    <p>Leverages Gemini to synthesize textual instructions based on 100+ dimensions, followed by IndexTTS to generate high-quality audio prompts.</p>
+                </div>
+                <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="pipeline-step">
+                    <div class="step-num">2</div>
+                    <h4>Pairwise Comparison</h4>
+                    <p>Conducts blind tests between baseline and candidate models using randomized ordering to mitigate positional biases.</p>
+                </div>
+                <div class="pipeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="pipeline-step">
+                    <div class="step-num">3</div>
+                    <h4>LALM-as-a-Judge</h4>
+                    <p>Gemini-3.0-Pro evaluates responses with <strong>Chain-of-Thought reasoning</strong>, grounded in specific audio timestamps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Leaderboard Section -->
     <section id="leaderboard" class="section">
         <div class="container">
@@ -377,6 +407,60 @@
         </div>
     </section>
 
+    <!-- Insights & Failure Analysis -->
+    <section id="insights" class="section">
+        <div class="container">
+            <h2 class="section-title">Insights & Failure Analysis</h2>
+            <div class="insights-grid">
+                <!-- Key Takeaways -->
+                <div class="takeaways-column">
+                    <div class="takeaway-card">
+                        <div class="takeaway-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="takeaway-text">
+                            <strong>Multilingual Gap:</strong> Leading models still struggle to maintain rich paralinguistic features and human-like fluency across multiple languages simultaneously.
+                        </div>
+                    </div>
+                    <div class="takeaway-card">
+                        <div class="takeaway-icon"><i class="fas fa-balance-scale"></i></div>
+                        <div class="takeaway-text">
+                            <strong>Static vs. Dynamic:</strong> Balancing static control (Paralanguage Control) with temporal dynamics (Dynamic Variation) remains a significant challenge for modern LALMs.
+                        </div>
+                    </div>
+                    <div class="takeaway-card">
+                        <div class="takeaway-icon"><i class="fas fa-brain"></i></div>
+                        <div class="takeaway-text">
+                            <strong>Implicit Bottleneck:</strong> 43.3% of errors in situational dialogues stem from the model's failure to capture paralinguistic cues hidden in user speech.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Error Distribution Chart Placeholder -->
+                <div class="error-chart-box">
+                    <h4>Error Distribution (Gemini Audio, Chinese - Situational Adaptation)</h4>
+                    <div class="error-stats-visual">
+                        <div class="error-item" style="--width: 43.3%; --color: #ef4444;">
+                            <span class="error-label">Neglecting Paralanguage</span>
+                            <span class="error-value">43.3%</span>
+                        </div>
+                        <div class="error-item" style="--width: 28.4%; --color: #f59e0b;">
+                            <span class="error-label">Template Response</span>
+                            <span class="error-value">28.4%</span>
+                        </div>
+                        <div class="error-item" style="--width: 17.9%; --color: #3b82f6;">
+                            <span class="error-label">Intent Misunderstanding</span>
+                            <span class="error-value">17.9%</span>
+                        </div>
+                        <div class="error-item" style="--width: 10.4%; --color: #10b981;">
+                            <span class="error-label">Role-play Failure</span>
+                            <span class="error-value">10.4%</span>
+                        </div>
+                    </div>
+                    <p class="chart-desc">Error analysis of Gemini Audio on Chinese Situational Adaptation task, revealing the critical role of paralinguistic perception.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Dimension-wise Performance Section -->
     <section class="section">
         <div class="container">
@@ -395,116 +479,176 @@
     <!-- Examples Section -->
     <section id="examples" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">Examples</h2>
+            <h2 class="section-title">Example Showcase</h2>
             <p class="section-desc">
-                Sample evaluations from SpeechParaling-Bench. Each example shows a prompt with target paralinguistic dimensions.
+                Explore how different models handle complex paralinguistic instructions. Select a task below to see representative examples from our benchmark.
             </p>
 
-            <div class="examples-grid" style="grid-template-columns: repeat(3, 1fr);">
-                <!-- Group 1: Pitch -->
-                <div class="example-column">
-                    <div class="example-card">
-                        <div class="example-header">
-                            <span class="dimension-badge" style="background: #3b82f6;">Dynamic Variation</span>
-                            <span class="lang-badge">Chinese</span>
+            <!-- Example Tabs -->
+            <div class="example-tabs">
+                <button class="ex-tab-btn active" data-ex-tab="para-con">
+                    <i class="fas fa-sliders-h"></i> Paralanguage Control
+                </button>
+                <button class="ex-tab-btn" data-ex-tab="dyn-var">
+                    <i class="fas fa-chart-line"></i> Dynamic Variation
+                </button>
+                <button class="ex-tab-btn" data-ex-tab="sit-ada">
+                    <i class="fas fa-theater-masks"></i> Situational Adaptation
+                </button>
+            </div>
+
+            <!-- Example Grid Container -->
+            <div class="examples-container">
+                <!-- Paralanguage Control Examples -->
+                <div class="example-grid active" id="para-con">
+                    <div class="example-card modern">
+                        <div class="ex-badge-row">
+                            <span class="ex-type-badge">Control</span>
+                            <span class="ex-lang-badge"><i class="fas fa-globe-asia"></i> Chinese</span>
                         </div>
-                        <div class="example-content">
-                            <div class="example-prompt">
-                                请先用极低音开始，然后逐渐转变为中音说: '你看，那是什么？原来是只小猫在草丛里玩耍，真可爱。'
+                        <div class="ex-body">
+                            <div class="ex-label">Prompt</div>
+                            <p class="ex-text">请用青年的声音，抑扬顿挫的节奏，热情地说：欢迎新同学加入我们社团，希望大家玩得开心！</p>
+                            <div class="ex-dimensions-row">
+                                <span class="dim-tag">Age: Youth</span>
+                                <span class="dim-tag">Rhythm: Emphatic</span>
+                                <span class="dim-tag">Attitude: Enthusiastic</span>
                             </div>
-                            <div class="example-dimensions">
-                                <strong>Dimension:</strong>
-                                <span class="dimension-tag">Pitch</span>
+                            <div class="ex-audio-section">
+                                <div class="audio-player">
+                                    <div class="player-info">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span>Multi-dimensional Control</span>
+                                    </div>
+                                    <audio controls src="static/audio/para-con-zh-1.wav"></audio>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="example-card">
-                        <div class="example-header">
-                            <span class="dimension-badge" style="background: #3b82f6;">Dynamic Variation</span>
-                            <span class="lang-badge">English</span>
+                    <div class="example-card modern">
+                        <div class="ex-badge-row">
+                            <span class="ex-type-badge">Control</span>
+                            <span class="ex-lang-badge"><i class="fas fa-globe-americas"></i> English</span>
                         </div>
-                        <div class="example-content">
-                            <div class="example-prompt">
-                                Please read this sentence starting with a very low pitch and gradually transitioning to a medium pitch: 'Look, what's that? It's just a small cat playing in the grass, so cute.'
+                        <div class="ex-body">
+                            <div class="ex-label">Prompt</div>
+                            <p class="ex-text">Please read this sentence with a youthful voice, an emphatic rhythm, and an enthusiastic tone: 'Welcome new students to our club! Hope everyone has a great time!'</p>
+                            <div class="ex-dimensions-row">
+                                <span class="dim-tag">Age: Youth</span>
+                                <span class="dim-tag">Rhythm: Emphatic</span>
+                                <span class="dim-tag">Attitude: Enthusiastic</span>
                             </div>
-                            <div class="example-dimensions">
-                                <strong>Dimension:</strong>
-                                <span class="dimension-tag">Pitch</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Group 2: Age, Attitude, Rhythm -->
-                <div class="example-column">
-                    <div class="example-card">
-                        <div class="example-header">
-                            <span class="dimension-badge" style="background: #ef4444;">Paralanguage Control</span>
-                            <span class="lang-badge">Chinese</span>
-                        </div>
-                        <div class="example-content">
-                            <div class="example-prompt">
-                                请用青年的声音，抑扬顿挫的节奏，热情地说：欢迎新同学加入我们社团，希望大家玩得开心！
-                            </div>
-                            <div class="example-dimensions">
-                                <strong>Dimensions:</strong>
-                                <span class="dimension-tag">Age</span>
-                                <span class="dimension-tag">Rhythm</span>
-                                <span class="dimension-tag">Attitude</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="example-card">
-                        <div class="example-header">
-                            <span class="dimension-badge" style="background: #ef4444;">Paralanguage Control</span>
-                            <span class="lang-badge">English</span>
-                        </div>
-                        <div class="example-content">
-                            <div class="example-prompt">
-                                Please read this sentence with a youthful voice, an emphatic rhythm, and an enthusiastic tone: 'Welcome new students to our club! Hope everyone has a great time!'
-                            </div>
-                            <div class="example-dimensions">
-                                <strong>Dimensions:</strong>
-                                <span class="dimension-tag">Age</span>
-                                <span class="dimension-tag">Attitude</span>
-                                <span class="dimension-tag">Rhythm</span>
+                            <div class="ex-audio-section">
+                                <div class="audio-player">
+                                    <div class="player-info">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span>Multi-dimensional Control</span>
+                                    </div>
+                                    <audio controls src="static/audio/para-con-en-1.wav"></audio>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Group 3: Non-Linguistic Vocalizations -->
-                <div class="example-column">
-                    <div class="example-card">
-                        <div class="example-header">
-                            <span class="dimension-badge" style="background: #10b981;">Situational Adaptation</span>
-                            <span class="lang-badge">Chinese</span>
+                <!-- Dynamic Variation Examples -->
+                <div class="example-grid" id="dyn-var">
+                    <div class="example-card modern">
+                        <div class="ex-badge-row">
+                            <span class="ex-type-badge variant">Variation</span>
+                            <span class="ex-lang-badge"><i class="fas fa-globe-asia"></i> Chinese</span>
                         </div>
-                        <div class="example-content">
-                            <div class="example-prompt">
-                                奶奶的身体越来越差了，呜呜，我好担心她。
+                        <div class="ex-body">
+                            <div class="ex-label">Prompt</div>
+                            <p class="ex-text">请先用极低音开始，然后逐渐转变为中音说: '你看，那是什么？原来是只小猫在草丛里玩耍，真可爱。'</p>
+                            <div class="ex-dimensions-row">
+                                <span class="dim-tag">Feature: Pitch</span>
+                                <span class="dim-tag">Transition: Low → Medium</span>
                             </div>
-                            <div class="example-dimensions">
-                                <strong>Dimension:</strong>
-                                <span class="dimension-tag">Non-Linguistic Vocalizations: Crying</span>
+                            <div class="ex-audio-section">
+                                <div class="audio-player">
+                                    <div class="player-info">
+                                        <i class="fas fa-wave-square"></i>
+                                        <span>Dynamic Pitch Shift</span>
+                                    </div>
+                                    <audio controls src="static/audio/dyn-var-zh-1.wav"></audio>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="example-card">
-                        <div class="example-header">
-                            <span class="dimension-badge" style="background: #10b981;">Situational Adaptation</span>
-                            <span class="lang-badge">English</span>
+                    <div class="example-card modern">
+                        <div class="ex-badge-row">
+                            <span class="ex-type-badge variant">Variation</span>
+                            <span class="ex-lang-badge"><i class="fas fa-globe-americas"></i> English</span>
                         </div>
-                        <div class="example-content">
-                            <div class="example-prompt">
-                                Grandma's health is getting worse, boohoo, I'm so worried about her.<br><br>
+                        <div class="ex-body">
+                            <div class="ex-label">Prompt</div>
+                            <p class="ex-text">Please read this sentence starting with a very low pitch and gradually transitioning to a medium pitch: 'Look, what's that? It's just a small cat playing in the grass, so cute.'</p>
+                            <div class="ex-dimensions-row">
+                                <span class="dim-tag">Feature: Pitch</span>
+                                <span class="dim-tag">Transition: Low → Medium</span>
                             </div>
-                            <div class="example-dimensions">
-                                <strong>Dimension:</strong>
-                                <span class="dimension-tag">Non-Linguistic Vocalizations: Crying</span>
+                            <div class="ex-audio-section">
+                                <div class="audio-player">
+                                    <div class="player-info">
+                                        <i class="fas fa-wave-square"></i>
+                                        <span>Dynamic Pitch Shift</span>
+                                    </div>
+                                    <audio controls src="static/audio/dyn-var-en-1.wav"></audio>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Situational Adaptation Examples -->
+                <div class="example-grid" id="sit-ada">
+                    <div class="example-card modern">
+                        <div class="ex-badge-row">
+                            <span class="ex-type-badge adaptation">Adaptation</span>
+                            <span class="ex-lang-badge"><i class="fas fa-globe-asia"></i> Chinese</span>
+                        </div>
+                        <div class="ex-body">
+                            <div class="ex-label">Prompt</div>
+                            <p class="ex-text">奶奶的身体越来越差了，呜呜，我好担心她。</p>
+                            <div class="ex-dimensions-row">
+                                <span class="dim-tag">Emotion: Sad/Crying</span>
+                                <span class="dim-tag">Non-Linguistic: Sobbing</span>
+                            </div>
+                            <div class="ex-audio-section">
+                                <div class="audio-player">
+                                    <div class="player-info">
+                                        <i class="fas fa-heartbeat"></i>
+                                        <span>Empathetic Generation</span>
+                                    </div>
+                                    <audio controls src="static/audio/sit-ada-zh-1.wav"></audio>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="example-card modern">
+                        <div class="ex-badge-row">
+                            <span class="ex-type-badge adaptation">Adaptation</span>
+                            <span class="ex-lang-badge"><i class="fas fa-globe-americas"></i> English</span>
+                        </div>
+                        <div class="ex-body">
+                            <div class="ex-label">Prompt</div>
+                            <p class="ex-text">Grandma's health is getting worse, boohoo, I'm so worried about her.</p>
+                            <div class="ex-dimensions-row">
+                                <span class="dim-tag">Emotion: Sad/Crying</span>
+                                <span class="dim-tag">Non-Linguistic: Sobbing</span>
+                            </div>
+                            <div class="ex-audio-section">
+                                <div class="audio-player">
+                                    <div class="player-info">
+                                        <i class="fas fa-heartbeat"></i>
+                                        <span>Empathetic Generation</span>
+                                    </div>
+                                    <audio controls src="static/audio/sit-ada-en-1.wav"></audio>
+                                </div>
                             </div>
                         </div>
                     </div>
