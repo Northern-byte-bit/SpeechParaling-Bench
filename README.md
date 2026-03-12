@@ -242,7 +242,7 @@ OUTPUT_DIRS = {
 }
 ```
 
-1. **Run the evaluation**:
+3. **Run the evaluation**:
 
 ```bash
 # Dynamic Variation - Chinese
