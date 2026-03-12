@@ -1,27 +1,38 @@
 # download_data.py
-from huggingface_hub import snapshot_download
+from huggingface_hub import hf_hub_download
+import zipfile
 import os
 
-def download_datasets():
+def download_and_extract():
     # Download Chinese audio dataset
-    print("Downloading Chinese audio dataset...")
-    snapshot_download(
-        repo_id="Ruohan2/SpeechParaling-Bench-Chinese",
-        local_dir="./audio_dataset_ch",
-        repo_type="dataset",
-        local_dir_use_symlinks=False
+    print("Downloading audio_dataset_ch.zip...")
+    zip_path = hf_hub_download(
+        repo_id="Ruohan2/SpeechParaling-Bench",
+        filename="audio_dataset_ch.zip",
+        local_dir="./",
+        repo_type="dataset"
     )
+    print("Extracting...")
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall("./")
+    os.remove(zip_path)
+    print("audio_dataset_ch extracted!")
     
     # Download English audio dataset
-    print("Downloading English audio dataset...")
-    snapshot_download(
-        repo_id="Ruohan2/SpeechParaling-Bench-English",
-        local_dir="./audio_dataset_en",
-        repo_type="dataset",
-        local_dir_use_symlinks=False
+    print("Downloading audio_dataset_en.zip...")
+    zip_path = hf_hub_download(
+        repo_id="Ruohan2/SpeechParaling-Bench",
+        filename="audio_dataset_en.zip",
+        local_dir="./",
+        repo_type="dataset"
     )
+    print("Extracting...")
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall("./")
+    os.remove(zip_path)
+    print("audio_dataset_en extracted!")
     
-    print("Main datasets download completed!")
+    print("Download completed!")
 
 if __name__ == "__main__":
-    download_datasets()
+    download_and_extract()

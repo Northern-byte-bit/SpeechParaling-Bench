@@ -1,26 +1,22 @@
 # download_baseline.py
-from huggingface_hub import snapshot_download
+from huggingface_hub import hf_hub_download
+import zipfile
+import os
 
-def download_baselines():
-    # Download Doubao Chinese baseline outputs
-    print("Downloading Doubao Chinese baseline...")
-    snapshot_download(
-        repo_id="Ruohan2/SpeechParaling-Bench-Baseline-Doubao",
-        local_dir="./api_models/doubao/output_ch",
-        repo_type="dataset",
-        local_dir_use_symlinks=False
+def download_and_extract():
+    print("Downloading api_models.zip...")
+    zip_path = hf_hub_download(
+        repo_id="Ruohan2/SpeechParaling-Bench-Baseline",
+        filename="api_models.zip",
+        local_dir="./",
+        repo_type="dataset"
     )
-    
-    # Download Gemini English baseline outputs
-    print("Downloading Gemini English baseline...")
-    snapshot_download(
-        repo_id="Ruohan2/SpeechParaling-Bench-Baseline-Gemini",
-        local_dir="./api_models/gemini/output_en",
-        repo_type="dataset",
-        local_dir_use_symlinks=False
-    )
-    
-    print("Baseline datasets download completed!")
+    print("Extracting...")
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall("./")
+    os.remove(zip_path)
+    print("api_models extracted!")
+    print("Download completed!")
 
 if __name__ == "__main__":
-    download_baselines()
+    download_and_extract()
