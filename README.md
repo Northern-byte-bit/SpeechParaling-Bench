@@ -1,13 +1,17 @@
 # SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation
 
-Speech Generation
-Paralanguage
-Dataset
+![Speech Generation](https://img.shields.io/badge/Task-Speech_Generation-red)
+![Paralanguage](https://img.shields.io/badge/Task-Paralanguage-red)
+![Dataset](https://img.shields.io/badge/Dataset-SpeechParaling--Bench-blue)
 
-Gemini
-Doubao
-GPT
-Qwen
+![Gemini](https://img.shields.io/badge/Model-Gemini-green)
+![Doubao](https://img.shields.io/badge/Model-Doubao-green)
+![GPT](https://img.shields.io/badge/Model-GPT-green)
+![Qwen](https://img.shields.io/badge/Model-Qwen-green)
+
+<p align="center">
+    <img src="./pic.png" width="100%" height="100%">
+</p>
 
 [[📖 Paper](https://arxiv.org/)] [[🌐 Project Page](https://speechparaling-bench.github.io/)] [[🤗 Dataset](https://huggingface.co/datasets/Ruohan2)] [[💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)]
 
