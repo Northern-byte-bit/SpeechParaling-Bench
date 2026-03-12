@@ -1,0 +1,16 @@
+{
+    "sample_index": 16,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用孩童的声音好奇地说：这是什么呀？可以玩吗？",
+    "dimensions": [
+        "年龄",
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

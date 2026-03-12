@@ -1,0 +1,14 @@
+{
+    "sample_index": 24,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a rich timbre and gradually becoming sweet: 'Life's journey is always full of challenges, but as long as you persevere, you will see beautiful scenery. Just like this little flower, swaying in the wind, how lovely it is.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

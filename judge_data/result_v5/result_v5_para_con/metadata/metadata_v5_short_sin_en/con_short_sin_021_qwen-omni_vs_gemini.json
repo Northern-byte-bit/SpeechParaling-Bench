@@ -1,0 +1,14 @@
+{
+    "sample_index": 21,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a medium pitch: 'I'll go to the supermarket to buy some groceries tomorrow.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

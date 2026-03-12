@@ -1,0 +1,14 @@
+{
+    "sample_index": 4,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a professional and objective tone: 'According to the latest market research data, the product's sales volume increased by fifteen percent in the third quarter.'",
+    "dimensions": [
+        "professional and objective"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0
+}

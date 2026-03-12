@@ -1,0 +1,14 @@
+{
+    "sample_index": 119,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a contemptuous tone initially, suddenly switching to a polite tone: 'Hmph, what do you know? That's utter nonsense. My apologies, I was emotional just now, please forgive my outburst, could we talk properly?'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

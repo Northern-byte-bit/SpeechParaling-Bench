@@ -1,0 +1,16 @@
+{
+    "sample_index": 2,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hoarse voice and an anxious tone: 'It seems there's a problem with the data in this urgent report; I've double-checked it several times, but it just won't match up. The boss is pushing hard, and if we can't fix it in time, the project might be in trouble.'",
+    "dimensions": [
+        "Cognitive State",
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

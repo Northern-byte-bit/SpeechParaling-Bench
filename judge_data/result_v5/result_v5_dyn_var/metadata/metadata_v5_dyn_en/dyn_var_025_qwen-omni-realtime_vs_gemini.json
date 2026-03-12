@@ -1,0 +1,14 @@
+{
+    "sample_index": 25,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a bright timbre and gradually transitioning to a rich timbre: 'Good morning! The weather is really nice today. Regarding the topic we discussed last time, I have some deeper thoughts and insights.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

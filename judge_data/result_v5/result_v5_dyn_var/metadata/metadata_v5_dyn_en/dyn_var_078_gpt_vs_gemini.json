@@ -1,0 +1,14 @@
+{
+    "sample_index": 78,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a happy emotion and suddenly switching to a sad emotion: 'I successfully published my first academic paper; I feel a step closer to my dream! But my advisor just told me my research direction might need to change.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

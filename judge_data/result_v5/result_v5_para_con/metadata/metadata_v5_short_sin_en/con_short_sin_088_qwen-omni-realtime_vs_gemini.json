@@ -1,0 +1,14 @@
+{
+    "sample_index": 88,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a rushed rhythm: 'Time is running out, we must make a decision quickly.'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

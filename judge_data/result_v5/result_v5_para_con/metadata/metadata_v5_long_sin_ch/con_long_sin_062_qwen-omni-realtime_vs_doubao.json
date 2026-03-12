@@ -1,0 +1,14 @@
+{
+    "sample_index": 62,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用喊叫的音量说：大家注意！消防演习现在开始，请所有人立即从最近的紧急出口撤离，不要拥挤，保持冷静！",
+    "dimensions": [
+        "音量"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 33,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a gentle voice and a slow pace: 'A long, long time ago, in a faraway forest, there lived a very cute little rabbit, who always hopped around looking for the sweetest carrots.'",
+    "dimensions": [
+        "Pace",
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

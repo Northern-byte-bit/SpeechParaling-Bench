@@ -1,0 +1,14 @@
+{
+    "sample_index": 65,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a steady rhythm and suddenly becoming a dragging rhythm: 'I walk along this path every day; the scenery is beautiful, and my mood is calm. But today, today feels so, so heavy, somehow?'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

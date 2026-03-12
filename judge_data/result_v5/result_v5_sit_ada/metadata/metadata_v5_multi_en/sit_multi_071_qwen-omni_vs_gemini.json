@@ -1,0 +1,16 @@
+{
+    "sample_index": 71,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Cough cough, can you hurry up, stop dawdling here, okay?",
+    "dimensions": [
+        "Attitude: Rude",
+        "Non-Linguistic Vocalizations: With Coughing"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "situational_adaptation",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

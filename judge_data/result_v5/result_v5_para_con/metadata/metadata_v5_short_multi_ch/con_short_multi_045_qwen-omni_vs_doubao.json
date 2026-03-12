@@ -1,0 +1,16 @@
+{
+    "sample_index": 45,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中速的语速，笑着说: 哈哈，你真是太逗了！",
+    "dimensions": [
+        "语速",
+        "非语言发声"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 93,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an indifferent and aloof tone: 'Those lively social events hold no particular appeal for me.'",
+    "dimensions": [
+        "indifferent and aloof"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

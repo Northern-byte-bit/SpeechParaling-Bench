@@ -1,0 +1,14 @@
+{
+    "sample_index": 110,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a forceful tone on the phrase 'what do you want': 'What do you want? I've already done everything I can, why are you still not satisfied? Can we communicate properly, stop being unreasonable.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 68,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用急促的节奏开始，然后突然转变为断续说：比赛只剩下最后几分钟了，我们必须得分！快传球，射门……糟糕，球被抢走了！",
+    "dimensions": [
+        "节奏"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

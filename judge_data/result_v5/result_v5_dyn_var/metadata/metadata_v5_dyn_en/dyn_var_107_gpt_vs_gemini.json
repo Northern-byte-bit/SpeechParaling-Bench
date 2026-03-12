@@ -1,0 +1,14 @@
+{
+    "sample_index": 107,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a cold tone initially, gradually transitioning to an enthusiastic tone: 'I didn't have high expectations for this fan meeting. But after seeing him in person, his performance was truly amazing, it completely exceeded my imagination!'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

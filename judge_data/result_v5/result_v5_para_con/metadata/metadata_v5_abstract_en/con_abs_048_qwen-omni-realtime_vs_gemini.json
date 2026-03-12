@@ -1,0 +1,14 @@
+{
+    "sample_index": 48,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a curious and investigative tone: 'I heard a new escape room opened next door. Are there any special mechanisms inside? I really want to try it!'",
+    "dimensions": [
+        "curious and investigative"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

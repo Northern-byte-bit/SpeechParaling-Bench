@@ -1,0 +1,14 @@
+{
+    "sample_index": 17,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a firm and powerful tone: 'This reform is imperative, and no resistance will be allowed to hinder our progress.'",
+    "dimensions": [
+        "firm and powerful"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

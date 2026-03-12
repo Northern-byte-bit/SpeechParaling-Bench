@@ -1,0 +1,18 @@
+{
+    "sample_index": 69,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sigh, quietly, and a tired tone: 'Sigh... Today's workload was truly astonishing; I feel like my whole body is about to fall apart. All I want is to lie down immediately and not care about anything.'",
+    "dimensions": [
+        "Cognitive State",
+        "Non-Linguistic Vocalizations",
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

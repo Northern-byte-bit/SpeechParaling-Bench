@@ -1,0 +1,18 @@
+{
+    "sample_index": 63,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用明亮的音质，在“完美”后明显停顿，带着讽刺说：你的方案真是“完美” 极了，我无话可说。",
+    "dimensions": [
+        "音质",
+        "停顿",
+        "态度"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

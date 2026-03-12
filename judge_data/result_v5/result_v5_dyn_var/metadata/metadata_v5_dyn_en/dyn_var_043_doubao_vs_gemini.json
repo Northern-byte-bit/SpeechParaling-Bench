@@ -1,0 +1,14 @@
+{
+    "sample_index": 43,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a slow pace and suddenly speeding up to a fast pace: 'Students, please pay attention, this experiment is extremely critical. Now everyone, please start operating immediately and be sure to complete it within five minutes!'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

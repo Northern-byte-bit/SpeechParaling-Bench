@@ -1,0 +1,14 @@
+{
+    "sample_index": 114,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用礼貌的态度开始，然后逐渐转变为粗鲁说：同学，您好，我有个不同看法，能听我说完吗？行了，别再打断我了，你们根本不懂我在说什么！",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

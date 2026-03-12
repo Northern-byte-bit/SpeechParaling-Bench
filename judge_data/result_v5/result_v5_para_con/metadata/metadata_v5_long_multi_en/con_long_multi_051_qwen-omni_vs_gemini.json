@@ -1,0 +1,18 @@
+{
+    "sample_index": 51,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a rich timbre, an emphatic rhythm, and a sincere tone: 'Dear colleagues, after months of hard work by our team, this project is finally complete. I believe its successful launch will bring significant growth to the company.'",
+    "dimensions": [
+        "Attitude",
+        "Rhythm",
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

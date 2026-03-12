@@ -1,0 +1,14 @@
+{
+    "sample_index": 75,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用耳语的音量说：嘘，电影马上就要开始精彩片段了，我们先不要说话，静静地欣赏这一幕吧。",
+    "dimensions": [
+        "音量"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

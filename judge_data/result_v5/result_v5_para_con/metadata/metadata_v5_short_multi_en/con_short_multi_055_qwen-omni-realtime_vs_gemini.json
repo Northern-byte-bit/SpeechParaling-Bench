@@ -1,0 +1,18 @@
+{
+    "sample_index": 55,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an elderly voice, a very slow pace, and a helpless tone: 'Sigh, with age, there are many things I just can't do anymore.'",
+    "dimensions": [
+        "Age",
+        "Cognitive State",
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

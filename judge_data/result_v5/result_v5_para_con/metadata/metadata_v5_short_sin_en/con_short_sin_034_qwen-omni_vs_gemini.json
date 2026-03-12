@@ -1,0 +1,14 @@
+{
+    "sample_index": 34,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a smooth timbre: 'Hello, please have a seat here, I've prepared refreshments for you.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

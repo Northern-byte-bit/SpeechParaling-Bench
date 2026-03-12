@@ -1,0 +1,14 @@
+{
+    "sample_index": 29,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a sweet timbre and suddenly becoming hoarse: 'Good morning, what a beautiful day today! However, I feel a bit uncomfortable in my throat, maybe I caught a cold.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

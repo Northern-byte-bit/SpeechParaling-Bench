@@ -1,0 +1,14 @@
+{
+    "sample_index": 7,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an adult voice: 'The project is progressing smoothly, we're on schedule.'",
+    "dimensions": [
+        "Age"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

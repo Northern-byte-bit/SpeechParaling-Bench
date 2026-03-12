@@ -1,0 +1,14 @@
+{
+    "sample_index": 46,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very fast pace: 'That team fight just now was incredibly intense; our jungler snatched the Baron with a precise smite, then our mid-laner instantly eliminated their carry with a combo of skills, and we barely managed to win this game.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 4,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用大声的音量真诚地说：各位亲朋好友，非常感谢大家今天能抽出宝贵时间来参加我们的聚会！有你们的陪伴，我们的生活才更加精彩，希望大家都能玩得开心，吃得尽兴！",
+    "dimensions": [
+        "音量",
+        "态度"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 0
+}

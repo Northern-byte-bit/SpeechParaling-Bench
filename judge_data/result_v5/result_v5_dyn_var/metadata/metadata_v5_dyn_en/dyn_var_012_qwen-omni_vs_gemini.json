@@ -1,0 +1,14 @@
+{
+    "sample_index": 12,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very high pitch and gradually lowering the pitch to a low pitch: 'This project has endless prospects! However, considering the current budget and manpower, we might need to adjust our expected goals.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

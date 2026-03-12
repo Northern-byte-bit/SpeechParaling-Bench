@@ -1,0 +1,14 @@
+{
+    "sample_index": 22,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a rich timbre and gradually becoming sweet: 'As a man, you must not back down when facing difficulties; you must face them bravely. Dad believes you can do it, come on!'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 8,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a tone of awe and admiration: 'This ancient architectural complex, with its exquisite craftsmanship and majestic grandeur, truly showcases the wisdom and glory of our ancestors.'",
+    "dimensions": [
+        "awe and admiration"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 31,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very slow pace and gradually increasing to a medium pace: 'The morning sunlight gently falls by the window. Hmm, time to get up, I need to hurry and make breakfast.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

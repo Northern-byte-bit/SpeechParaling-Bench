@@ -1,0 +1,16 @@
+{
+    "sample_index": 67,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "妈妈，外面打雷了，我好怕，你能抱抱我吗？",
+    "dimensions": [
+        "情感: 害怕",
+        "年龄: 孩童"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "situational_adaptation",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

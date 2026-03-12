@@ -1,0 +1,18 @@
+{
+    "sample_index": 66,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中年的声音，正常音量，犹豫地说：嗯……这个事情，我们可能需要再考虑一下。",
+    "dimensions": [
+        "年龄",
+        "音量",
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 0,
+    "winner_position_3": 2
+}

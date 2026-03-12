@@ -1,0 +1,14 @@
+{
+    "sample_index": 60,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用急切催促的语速说: 医生，求您了，快去看看我的孩子，他高烧不退，情况很危急！",
+    "dimensions": [
+        "急切催促"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

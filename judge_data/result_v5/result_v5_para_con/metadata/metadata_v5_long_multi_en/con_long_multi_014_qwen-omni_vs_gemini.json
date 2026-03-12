@@ -1,0 +1,16 @@
+{
+    "sample_index": 14,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence in a whisper and a fearful emotion: 'Did you hear anything? I feel like someone is moving outside, and that shadow... it seems to be coming towards us. I'm so scared; should we hide?'",
+    "dimensions": [
+        "Emotion",
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

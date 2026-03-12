@@ -1,0 +1,16 @@
+{
+    "sample_index": 5,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a steady rhythm and a confident tone: 'Through the team's tireless efforts, we have successfully overcome the technical challenges, and the project progress is fully in line with expectations. I am very confident about the upcoming market promotion and anticipate excellent results.'",
+    "dimensions": [
+        "Cognitive State",
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

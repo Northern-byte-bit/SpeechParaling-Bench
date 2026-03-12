@@ -1,0 +1,14 @@
+{
+    "sample_index": 27,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a bright timbre and gradually transitioning to a rich timbre: 'You know what? I went to a super cool music festival yesterday, it was absolutely amazing! Life should be experienced more, to feel its depth.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

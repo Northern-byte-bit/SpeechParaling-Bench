@@ -1,0 +1,18 @@
+{
+    "sample_index": 80,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中年的声音，断续地，犹豫地说：这个方案…嗯…听起来…确实有些吸引人，前景似乎也不错，但是…我总觉得在执行上…可能会遇到一些…预料之外的阻碍，我们是不是应该再多考虑一下？",
+    "dimensions": [
+        "年龄",
+        "节奏",
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

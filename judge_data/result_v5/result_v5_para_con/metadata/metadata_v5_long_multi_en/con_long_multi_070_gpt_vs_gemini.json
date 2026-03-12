@@ -1,0 +1,18 @@
+{
+    "sample_index": 70,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a halting rhythm, a slow pace, and a perfunctory tone: 'Um... teacher... regarding that... question... I think... it seems... quite difficult... I haven't... thought about it carefully yet.'",
+    "dimensions": [
+        "Attitude",
+        "Pace",
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 0,
+    "winner_position_3": 0
+}

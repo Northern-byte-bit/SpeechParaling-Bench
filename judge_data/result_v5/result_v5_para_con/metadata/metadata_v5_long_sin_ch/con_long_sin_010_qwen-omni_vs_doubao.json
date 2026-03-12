@@ -1,0 +1,14 @@
+{
+    "sample_index": 10,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用老年的声音说：孩子们，今天的晚餐味道怎么样？这些菜都是我早上特意去菜市场挑选的新鲜食材。你们常回家看看，我这老骨头就知足啦。",
+    "dimensions": [
+        "年龄"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

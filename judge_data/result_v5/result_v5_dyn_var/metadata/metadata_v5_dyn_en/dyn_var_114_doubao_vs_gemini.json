@@ -1,0 +1,14 @@
+{
+    "sample_index": 114,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a polite tone initially, gradually transitioning to a rude tone: 'Excuse me, classmate, I have a different opinion, could you let me finish? Alright, stop interrupting me, you clearly don't understand what I'm saying!'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

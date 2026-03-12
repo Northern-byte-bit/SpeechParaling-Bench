@@ -1,0 +1,14 @@
+{
+    "sample_index": 63,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用喊叫的音量说：小明！你跑到哪里去了？晚饭已经准备好了，快回来吃饭，再不回来饭菜都要凉了！",
+    "dimensions": [
+        "音量"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

@@ -1,0 +1,18 @@
+{
+    "sample_index": 64,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a shouting manner, a slow pace, and with emphasis on 'here': 'Hey! Can you hear me? We are here!'",
+    "dimensions": [
+        "Pace",
+        "Stress",
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

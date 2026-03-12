@@ -1,0 +1,14 @@
+{
+    "sample_index": 187,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sincere tone: 'I'm sorry, Mom, I know I was wrong this time; I shouldn't have talked back to you like that. I will definitely correct my behavior in the future and never make you sad again. Please forgive me.'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 35,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a fast pace and suddenly switching to a very slow pace: 'Mom! I have great news to tell you! I... I... think... I... lost... the keys.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

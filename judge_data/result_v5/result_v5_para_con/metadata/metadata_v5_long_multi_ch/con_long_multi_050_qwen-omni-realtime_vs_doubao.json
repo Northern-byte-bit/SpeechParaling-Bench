@@ -1,0 +1,16 @@
+{
+    "sample_index": 50,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用平稳的节奏中性地说：根据我们目前所掌握的数据来看，市场反馈与预期存在一定偏差。我们需要进一步分析原因并调整策略。",
+    "dimensions": [
+        "节奏",
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

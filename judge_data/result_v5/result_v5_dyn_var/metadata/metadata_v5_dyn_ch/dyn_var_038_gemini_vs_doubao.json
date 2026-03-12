@@ -1,0 +1,14 @@
+{
+    "sample_index": 38,
+    "candidate_name": "gemini",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用中速开始，然后逐渐提高语速用极快速说: 我早上通常会先洗漱，然后吃个简单的早餐，看看新闻，接着就得赶紧出门上班了，不然要迟到了！",
+    "dimensions": [
+        "语速"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

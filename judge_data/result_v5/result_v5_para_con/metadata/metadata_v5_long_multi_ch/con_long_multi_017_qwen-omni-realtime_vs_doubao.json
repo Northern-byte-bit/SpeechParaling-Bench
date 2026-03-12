@@ -1,0 +1,16 @@
+{
+    "sample_index": 17,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用高音的声调紧张地说：我的天啊，马上就要轮到我上台演讲了，我的心跳得好快，手心都出汗了。我真的能顺利完成吗？我感觉我把准备好的内容都忘了！",
+    "dimensions": [
+        "音高",
+        "认知状态"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

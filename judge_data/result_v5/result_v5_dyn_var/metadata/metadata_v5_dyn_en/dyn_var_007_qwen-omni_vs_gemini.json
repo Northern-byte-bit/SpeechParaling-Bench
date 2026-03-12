@@ -1,0 +1,14 @@
+{
+    "sample_index": 7,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a medium pitch and gradually raising the pitch to a very high pitch: 'The report shows everything is normal, but I found an anomaly in the data; this could be a huge breakthrough!'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

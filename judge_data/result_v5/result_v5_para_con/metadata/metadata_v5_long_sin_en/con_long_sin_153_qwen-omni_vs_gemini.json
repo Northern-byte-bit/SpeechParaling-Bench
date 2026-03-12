@@ -1,0 +1,14 @@
+{
+    "sample_index": 153,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an anxious tone: 'Grandpa's surgery has been going on for several hours now; why hasn't the doctor come out yet? My heart is pounding, and I've been praying he gets through this safely.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

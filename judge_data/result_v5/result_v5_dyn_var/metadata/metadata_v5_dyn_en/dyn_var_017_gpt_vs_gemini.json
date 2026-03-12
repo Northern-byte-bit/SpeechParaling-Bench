@@ -1,0 +1,14 @@
+{
+    "sample_index": 17,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a smooth timbre and gradually becoming hoarse: 'The melody of this song is so moving, I can't help but sing along. When I get to the high notes, why can't I sing anymore?'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

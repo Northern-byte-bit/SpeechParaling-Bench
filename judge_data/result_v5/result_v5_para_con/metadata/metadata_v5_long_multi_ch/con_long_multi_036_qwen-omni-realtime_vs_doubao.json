@@ -1,0 +1,16 @@
+{
+    "sample_index": 36,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用老年的声音，在“身体”一词上加重地说：孩子啊，钱是挣不完的，但身体可是一辈子的本钱。你一定要好好照顾自己，别太累了。",
+    "dimensions": [
+        "年龄",
+        "重音"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

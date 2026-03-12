@@ -1,0 +1,14 @@
+{
+    "sample_index": 38,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a medium pace and gradually increasing to a very fast pace: 'In the morning, I usually brush my teeth, then have a simple breakfast, check the news, and then I have to rush out for work, or I'll be late!'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

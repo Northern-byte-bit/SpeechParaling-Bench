@@ -1,0 +1,14 @@
+{
+    "sample_index": 38,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an innocent and pure voice: 'Wow, this puppy is so cute! Can I pet it? Will it bite?'",
+    "dimensions": [
+        "innocent and pure"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

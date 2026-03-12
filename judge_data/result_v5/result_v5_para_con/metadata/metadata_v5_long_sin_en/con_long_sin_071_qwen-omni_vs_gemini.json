@@ -1,0 +1,14 @@
+{
+    "sample_index": 71,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a quiet voice: 'This is the library, everyone please keep quiet, do not speak loudly, so as not to disturb other students' studying and reading.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

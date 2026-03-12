@@ -1,0 +1,16 @@
+{
+    "sample_index": 42,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very low pitch and a cold tone: 'I am not interested in your proposal. Please stop wasting my time; I have more important matters to attend to.'",
+    "dimensions": [
+        "Attitude",
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

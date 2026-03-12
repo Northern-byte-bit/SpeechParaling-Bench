@@ -1,0 +1,14 @@
+{
+    "sample_index": 6,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a high pitch and suddenly dropping to a very low pitch: 'Mommy, look! I drew a big sun! I'll tell you a secret, this is my surprise for you.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 39,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用极慢速的语速，叹着气说：唉……这、这些文件……好像永远……都整理不完……我感觉……好累啊……",
+    "dimensions": [
+        "语速",
+        "非语言发声"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

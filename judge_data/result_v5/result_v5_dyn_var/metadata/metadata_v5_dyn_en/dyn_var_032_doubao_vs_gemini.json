@@ -1,0 +1,14 @@
+{
+    "sample_index": 32,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very slow pace and gradually increasing to a medium pace: 'This precise instrument calibration must be done with extreme care. The subsequent routine operations can be sped up.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

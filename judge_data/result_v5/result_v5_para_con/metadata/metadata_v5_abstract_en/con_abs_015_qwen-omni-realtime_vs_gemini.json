@@ -1,0 +1,14 @@
+{
+    "sample_index": 15,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a lazy and casual manner: 'Forget it, I'll fold these clothes tonight. They won't run away anyway, let me rest for a bit first.'",
+    "dimensions": [
+        "lazy and casual"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

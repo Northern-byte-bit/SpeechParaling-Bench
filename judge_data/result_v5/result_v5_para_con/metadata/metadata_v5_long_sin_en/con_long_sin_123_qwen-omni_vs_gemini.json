@@ -1,0 +1,14 @@
+{
+    "sample_index": 123,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an angry emotion: 'I've already waited for you for half an hour, why are you late for every date? Do you even care about me? I've really had enough, next time this happens, I won't wait!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

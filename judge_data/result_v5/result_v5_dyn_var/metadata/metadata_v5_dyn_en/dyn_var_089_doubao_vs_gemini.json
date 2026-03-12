@@ -1,0 +1,14 @@
+{
+    "sample_index": 89,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a surprised emotion and suddenly switching to a fearful emotion: 'Oh my goodness, we won the lottery! It's the grand prize! Wait, why is there blood on the back of this lottery ticket?'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

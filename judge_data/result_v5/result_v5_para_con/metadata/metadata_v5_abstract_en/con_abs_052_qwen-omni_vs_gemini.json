@@ -1,0 +1,14 @@
+{
+    "sample_index": 52,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an exhausted and weary tone: 'I am truly so tired; I feel completely drained, and all I want to do is collapse and sleep.'",
+    "dimensions": [
+        "exhausted and weary"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

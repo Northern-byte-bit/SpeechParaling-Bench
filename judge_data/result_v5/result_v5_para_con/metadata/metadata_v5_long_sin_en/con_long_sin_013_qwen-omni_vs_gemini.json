@@ -1,0 +1,14 @@
+{
+    "sample_index": 13,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very high pitch: 'Oh my goodness! You won the lottery? Is that real? I can't believe my ears! This is the travel fund we've been dreaming of, quickly tell me all the details!'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

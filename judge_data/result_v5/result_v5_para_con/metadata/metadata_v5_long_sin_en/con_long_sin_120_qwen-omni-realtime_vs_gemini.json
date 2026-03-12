@@ -1,0 +1,14 @@
+{
+    "sample_index": 120,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sad emotion: 'My pet dog is sick, and the vet said it might not recover, I'm truly worried about it. It has accompanied me for so many years, it's my best friend, I really hope it gets better soon.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

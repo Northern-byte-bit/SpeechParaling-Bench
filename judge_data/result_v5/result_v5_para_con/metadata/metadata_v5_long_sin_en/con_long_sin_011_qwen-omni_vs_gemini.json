@@ -1,0 +1,14 @@
+{
+    "sample_index": 11,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an elderly voice: 'Young people, don't always stay up late; health is the foundation of everything. I've always lived by going to bed early and getting up early, practicing Tai Chi in the park every day, and life has been quite comfortable.'",
+    "dimensions": [
+        "Age"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

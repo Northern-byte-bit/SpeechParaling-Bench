@@ -1,0 +1,14 @@
+{
+    "sample_index": 39,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a rich timbre: 'Today, let's discuss the future development direction of the company; this is a topic that requires careful consideration. I hope everyone can speak freely and contribute their wisdom to the long-term development of the company.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

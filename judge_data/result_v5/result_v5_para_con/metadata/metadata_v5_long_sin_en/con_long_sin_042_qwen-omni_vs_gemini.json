@@ -1,0 +1,14 @@
+{
+    "sample_index": 42,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a gentle timbre: 'Good evening, how was your day? I specially cooked some warm porridge for you; you must be tired after a day of work. Come and try it, warm your stomach.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

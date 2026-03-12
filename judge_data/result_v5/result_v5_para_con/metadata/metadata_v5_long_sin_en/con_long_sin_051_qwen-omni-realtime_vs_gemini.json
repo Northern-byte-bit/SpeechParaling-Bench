@@ -1,0 +1,14 @@
+{
+    "sample_index": 51,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a fast pace: 'I heard the new theme park is incredibly exciting, with all sorts of thrilling roller coasters and unique interactive attractions; we absolutely must go experience it this weekend, we're sure to have a blast.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

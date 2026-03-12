@@ -1,0 +1,14 @@
+{
+    "sample_index": 3,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用极低音开始，然后逐渐转变为中音说: '你看，那是什么？原来是只小猫在草丛里玩耍，真可爱。'",
+    "dimensions": [
+        "音高"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

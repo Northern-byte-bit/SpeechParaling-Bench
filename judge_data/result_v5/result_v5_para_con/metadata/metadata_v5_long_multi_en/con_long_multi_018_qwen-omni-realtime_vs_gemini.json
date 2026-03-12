@@ -1,0 +1,16 @@
+{
+    "sample_index": 18,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sweet timbre and a polite tone: 'Hello, may I help you with anything? If you have any questions about our products, or encounter any problems during use, please feel free to let me know, and I will do my best to assist you.'",
+    "dimensions": [
+        "Attitude",
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 80,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a confused and puzzled tone: 'That's strange. I distinctly remember putting the keys here. How could they suddenly be gone?'",
+    "dimensions": [
+        "confused and puzzled"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 118,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a contemptuous tone initially, suddenly switching to a polite tone: 'You, with that idea? It's utterly childish. However, now that you've explained it, I seem to have misunderstood, could you please elaborate?'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

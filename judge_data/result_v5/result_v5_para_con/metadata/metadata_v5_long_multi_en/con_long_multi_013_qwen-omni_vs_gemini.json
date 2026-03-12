@@ -1,0 +1,16 @@
+{
+    "sample_index": 13,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a rich timbre and a tired tone: 'I'm absolutely exhausted today, busy from 8 AM until now; I feel like my body is falling apart. I need to get home quickly, take a hot bath, and then get some good rest, because there's another tough battle tomorrow.'",
+    "dimensions": [
+        "Cognitive State",
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

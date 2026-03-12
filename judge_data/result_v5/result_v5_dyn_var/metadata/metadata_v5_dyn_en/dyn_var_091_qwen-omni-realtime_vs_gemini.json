@@ -1,0 +1,14 @@
+{
+    "sample_index": 91,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a confused tone initially, gradually transitioning to a confident tone: 'This report... I'm a bit unclear about the data source, but after careful verification, I'm now certain these analyses are accurate, and the project direction is clear.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

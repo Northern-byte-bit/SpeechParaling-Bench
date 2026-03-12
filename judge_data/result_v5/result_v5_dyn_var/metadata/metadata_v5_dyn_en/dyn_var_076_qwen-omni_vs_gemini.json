@@ -1,0 +1,14 @@
+{
+    "sample_index": 76,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a happy emotion and suddenly switching to a sad emotion: 'Wow! I got the promotion opportunity I've always dreamed of, this is fantastic! But why did Grandma get sick at this very moment…'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

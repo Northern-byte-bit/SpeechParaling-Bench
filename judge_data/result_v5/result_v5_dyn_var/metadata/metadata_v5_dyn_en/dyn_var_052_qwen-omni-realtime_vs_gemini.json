@@ -1,0 +1,14 @@
+{
+    "sample_index": 52,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting loudly and suddenly switching to quietly: 'Attention everyone, today's meeting will be postponed to 3 PM! But don't tell the boss I said that.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

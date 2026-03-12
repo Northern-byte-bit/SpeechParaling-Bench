@@ -1,0 +1,14 @@
+{
+    "sample_index": 5,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用高音开始，然后突然降低音高用极低音说: '嘿，好久不见！你听说了吗，期末考试的范围变了，我们得重新准备了。'",
+    "dimensions": [
+        "音高"
+    ],
+    "candidate_position": 2,
+    "winner_position": 0,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

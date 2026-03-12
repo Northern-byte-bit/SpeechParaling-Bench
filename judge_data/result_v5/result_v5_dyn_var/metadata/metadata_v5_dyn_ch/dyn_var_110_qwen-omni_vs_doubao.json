@@ -1,0 +1,14 @@
+{
+    "sample_index": 110,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用敷衍的态度开始，然后突然转变为真诚说：行了行了，我知道错了。不，等等，我真的不是故意的，这次是我真的考虑不周，请原谅我好吗？",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

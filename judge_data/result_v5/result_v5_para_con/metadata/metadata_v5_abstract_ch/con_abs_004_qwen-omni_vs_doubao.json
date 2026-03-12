@@ -1,0 +1,14 @@
+{
+    "sample_index": 4,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用一种专业客观的口吻说: 根据最新 market 调研数据，该产品在第三季度的销售额增长了百分之十五。",
+    "dimensions": [
+        "专业客观"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

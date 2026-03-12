@@ -1,0 +1,14 @@
+{
+    "sample_index": 74,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用耳语的音量说：这份文件非常机密，只能在你我之间传阅，看完之后请务必销毁，不要留下任何痕迹。",
+    "dimensions": [
+        "音量"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

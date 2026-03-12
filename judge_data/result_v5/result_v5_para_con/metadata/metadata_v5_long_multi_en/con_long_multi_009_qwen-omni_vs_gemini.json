@@ -1,0 +1,14 @@
+{
+    "sample_index": 9,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a slow pace and heavy stress on the word 'must': 'Please remember, this task is extremely crucial, and all details must be thoroughly checked. Any slight oversight could lead to serious consequences, so everyone must be cautious.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

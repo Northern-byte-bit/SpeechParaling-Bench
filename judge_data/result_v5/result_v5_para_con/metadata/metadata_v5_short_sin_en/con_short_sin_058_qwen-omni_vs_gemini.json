@@ -1,0 +1,14 @@
+{
+    "sample_index": 58,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very slow pace: 'I'm too tired to move.'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,18 @@
+{
+    "sample_index": 79,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a medium pace, a polite tone, with heavy stress on the word 'final': 'Thank you very much for your suggestion, but regarding the final decision for this meeting, we already have a clear plan and strict procedures internally, and are no longer considering other options, please understand and cooperate.'",
+    "dimensions": [
+        "Attitude",
+        "Pace",
+        "Stress"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

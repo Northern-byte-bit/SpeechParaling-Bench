@@ -1,0 +1,18 @@
+{
+    "sample_index": 60,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "哭着，用大声的音量，伤心地说: 妈妈，我的玩具小熊坏了，它是爸爸送给我的生日礼物！我再也修不好了，呜呜呜，我好难过啊！",
+    "dimensions": [
+        "非语言发声",
+        "音量",
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

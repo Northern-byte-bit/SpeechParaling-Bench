@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio from Model 1 (T1) perfectly matches the text script with no errors. In terms of fluency, the speech is smooth and consistent. Regarding the paralinguistic features, the model exhibits a very high level of energy (00:00-00:04), fitting the 'Lively' (活泼) dimension well; the voice is loud, fast-paced, and enthusiastic. However, for the 'Funny/Quirky' (搞怪) dimension, the expression feels slightly generic. It sounds like a standard high-energy announcement or a shouting anime character rather than capturing the specific mischievous nuance of playing a prank ('hiding socks'). While it is certainly energetic, it lacks the subtle teasing or goofy intonation that characterizes '搞怪'.",
+    "reasoning_model_2": "The audio from Model 2 (T2) is accurate in content and fluent in delivery. For the 'Lively' (活泼) dimension, the model maintains a dynamic and active tone throughout the clip (00:00-00:04) without being overly loud. Crucially, for the 'Funny/Quirky' (搞怪) dimension, T2 excels. The intonation, particularly on the phrase '藏到盆栽里了' (hid in the potted plant) and the final question '是不是很惊喜' (isn't it a surprise?), carries a distinct teasing and playful quality. The prosody reflects a sense of mischief and character acting that aligns perfectly with the context of a prank, making the '搞怪' feature vivid and natural.",
+    "model_comparison": "Both models successfully achieve the 'Lively' aspect of the prompt, delivering the text with high energy and good pacing. However, Model 2 significantly outperforms Model 1 in the 'Funny/Quirky' (搞怪) dimension. Model 1 relies on raw volume and standard excitement, resulting in a delivery that feels more like a generic shout than a playful prank. Model 2 utilizes more nuanced pitch variations and a teasing tone that accurately captures the mischievous intent of the text, making it sound much more authentically 'quirky' and suitable for the specific scenario of hiding socks.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

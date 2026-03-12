@@ -1,0 +1,14 @@
+{
+    "sample_index": 46,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a whisper and gradually increasing the volume to a normal volume: 'Did you hear? Xiao Ming is moving tomorrow, we need to prepare a farewell party for him.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}
