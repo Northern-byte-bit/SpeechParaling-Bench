@@ -12,7 +12,7 @@
     <img src="./pic.png" width="100%" height="100%">
 </p>
 
-<font size=7><div align='center' >[[📖 Paper](https://arxiv.org/)] [[🌐 Project Page](https://speechparaling-bench.github.io/)] [[🤗 Dataset](https://huggingface.co/datasets/Ruohan2)] [[💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)]
+<font size=7><div align='center' >[[📖 Paper](https://arxiv.org/)] [[🌐 Project Page](https://speechparaling-bench.github.io/)] [[🤗 Dataset](https://huggingface.co/datasets/Ruohan2)] [[💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)]</div></font>
 
 **SpeechParaling-Bench** is a comprehensive benchmark designed to evaluate **paralinguistic-aware speech generation** capabilities of large audio-language models (LALMs). It features **100+ paralinguistic dimensions** and **1000+ Chinese-English evaluation samples**, using a **baseline-candidate comparative evaluation** approach to produce a leaderboard for mainstream multimodal large models.
 
