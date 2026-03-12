@@ -3,7 +3,6 @@
 ![Speech Generation](https://img.shields.io/badge/Task-Speech_Generation-red)
 ![Paralanguage](https://img.shields.io/badge/Task-Paralanguage-red)
 ![Dataset](https://img.shields.io/badge/Dataset-SpeechParaling--Bench-blue)
-
 ![Gemini](https://img.shields.io/badge/Model-Gemini-green)
 ![Doubao](https://img.shields.io/badge/Model-Doubao-green)
 ![GPT](https://img.shields.io/badge/Model-GPT-green)
@@ -13,7 +12,7 @@
     <img src="./pic.png" width="100%" height="100%">
 </p>
 
-[[📖 Paper](https://arxiv.org/)] [[🌐 Project Page](https://speechparaling-bench.github.io/)] [[🤗 Dataset](https://huggingface.co/datasets/Ruohan2)] [[💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)]
+<font size=7><div align='center' >[[📖 Paper](https://arxiv.org/)] [[🌐 Project Page](https://speechparaling-bench.github.io/)] [[🤗 Dataset](https://huggingface.co/datasets/Ruohan2)] [[💻 Code](https://github.com/Northern-byte-bit/SpeechParaling-Bench)]
 
 **SpeechParaling-Bench** is a comprehensive benchmark designed to evaluate **paralinguistic-aware speech generation** capabilities of large audio-language models (LALMs). It features **100+ paralinguistic dimensions** and **1000+ Chinese-English evaluation samples**, using a **baseline-candidate comparative evaluation** approach to produce a leaderboard for mainstream multimodal large models.
 
