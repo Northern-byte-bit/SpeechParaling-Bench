@@ -3,6 +3,7 @@
 ![Speech Generation](https://img.shields.io/badge/Task-Speech_Generation-red)
 ![Paralanguage](https://img.shields.io/badge/Task-Paralanguage-red)
 ![Dataset](https://img.shields.io/badge/Dataset-SpeechParaling--Bench-blue)
+
 ![Gemini](https://img.shields.io/badge/Model-Gemini-green)
 ![Doubao](https://img.shields.io/badge/Model-Doubao-green)
 ![GPT](https://img.shields.io/badge/Model-GPT-green)
