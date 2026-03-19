@@ -39,27 +39,28 @@ for filename in os.listdir(INPUT_DIR):
 
         # Construct request
         payload = json.dumps({
-            "model": MODEL_NAME,
+            "model":
+            MODEL_NAME,
             "modalities": ["text", "audio"],
             "audio": {
                 "voice": "alloy",
                 "format": "wav"
             },
             "messages": [{
-                "role": "user",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "Directly speak the user's requested sentence in the specified tone without any prefix."
-                    },
-                    {
-                        "type": "input_audio",
-                        "input_audio": {
-                            "data": encoded_wav,
-                            "format": "wav"
-                        }
+                "role":
+                "user",
+                "content": [{
+                    "type":
+                    "text",
+                    "text":
+                    "Directly speak the user's requested sentence in the specified tone without any prefix."
+                }, {
+                    "type": "input_audio",
+                    "input_audio": {
+                        "data": encoded_wav,
+                        "format": "wav"
                     }
-                ]
+                }]
             }]
         })
 

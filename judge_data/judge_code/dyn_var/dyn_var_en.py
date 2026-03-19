@@ -8,14 +8,15 @@ import numpy as np
 from google import genai
 from google.genai import types
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
 from judge_data import config
 
 # ---------------------------------------------------------------------
 #  Basic Configuration
 # ---------------------------------------------------------------------
 API_KEY = config.API_KEY
-BASE_URL = "http://43.131.235.107:45101/"
+BASE_URL = config.BASE_URL
 TARGET_MODEL = "gemini-3-pro-preview"
 
 PROMPT_JSONL = "jsonl_prompt_en/dyn_var/dyn_var.jsonl"
@@ -25,7 +26,8 @@ MODEL_DIRS = {
     # "doubao": "api_models/doubao/output_en/dyn_var",
     # "gpt": "api_models/gpt/output_en/dyn_var",
     "gemini": "api_models/gemini/output_en/dyn_var",
-    config.MY_MODEL_NAME: f"api_models/{config.MY_MODEL_NAME}/output_en/dyn_var",
+    config.MY_MODEL_NAME:
+    f"api_models/{config.MY_MODEL_NAME}/output_en/dyn_var",
     # "qwen-omni": "api_models/qwen-omni/output_en/dyn_var",
     # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_en/dyn_var",
 }
@@ -212,11 +214,10 @@ Now you will be provided with the generated speech from model 1, please analyze 
 # ---------------------------------------------------------------------
 # Main Evaluation Process
 # ---------------------------------------------------------------------
-def evaluate(candidate_name, baseline_name="doubao", start_index=1):
+def evaluate(candidate_name, baseline_name="gemini"):
 
     os.makedirs(OUTPUT_DIRS[candidate_name], exist_ok=True)
 
-    # Read audio by index
     base_wavs = list_wavs(MODEL_DIRS[baseline_name])
     cand_wavs = list_wavs(MODEL_DIRS[candidate_name])
 
@@ -225,13 +226,32 @@ def evaluate(candidate_name, baseline_name="doubao", start_index=1):
 
     total = len(base_wavs)
 
-    # ---- New: slice from start_index ----
-    base_wavs = base_wavs[start_index - 1:]
-    cand_wavs = cand_wavs[start_index - 1:]
+    files_to_process = []
+    skipped_count = 0
 
-    # ---- Enumerate start index also set to start_index ----
-    for i, (base_path, cand_path) in enumerate(zip(base_wavs, cand_wavs),
-                                               start=start_index):
+    for base_path, cand_path in zip(base_wavs, cand_wavs):
+        file_name_base = os.path.splitext(os.path.basename(cand_path))[0]
+        output_filename = f"{file_name_base}_{candidate_name}_vs_{baseline_name}.json"
+        output_path = os.path.join(OUTPUT_DIRS[candidate_name],
+                                   output_filename)
+
+        if os.path.exists(output_path):
+            skipped_count += 1
+        else:
+            files_to_process.append((base_path, cand_path))
+
+    if not files_to_process:
+        print(f"All files have already been processed! No API calls made.")
+        print(f"Total Completed: {total}/{total}")
+        return
+
+    print(f"\n[START] Starting run candidate={candidate_name}")
+    print(f"Total Files: {total}")
+    print(f"Skipped (Already Existed): {skipped_count}")
+    print(f"To Process: {len(files_to_process)}")
+    print("-" * 60)
+
+    for i, (base_path, cand_path) in enumerate(files_to_process, start=1):
 
         print(f"\n[{candidate_name}] sample {i} started...")
 
@@ -316,7 +336,8 @@ def evaluate(candidate_name, baseline_name="doubao", start_index=1):
             winner_position = -1
         elif status == "Success":
             # If API call successful and JSON parsed, get winner_position
-            winner = judger_output_parsed.get("winner", 0)  # Default to 0 (tie)
+            winner = judger_output_parsed.get("winner",
+                                              0)  # Default to 0 (tie)
             winner_position = winner
 
         # ---- File name generation: use candidate audio filename as base name ----
@@ -334,7 +355,8 @@ def evaluate(candidate_name, baseline_name="doubao", start_index=1):
             "judger_model": TARGET_MODEL,
             "demand": demand,
             "dimensions": dims,
-            "candidate_position": candidate_index,  # Candidate audio position (1 or 2)
+            "candidate_position":
+            candidate_index,  # Candidate audio position (1 or 2)
             "winner_position":
             winner_position,  # Winning model's T1/T2 position (1, 2, or 0/Tie)
             "status": status,
@@ -353,70 +375,15 @@ def evaluate(candidate_name, baseline_name="doubao", start_index=1):
             json.dump(judger_output_parsed, f, ensure_ascii=False, indent=4)
         print(f"[OK] Judger result saved {judger_output_path}")
 
-    print(f"\nTask completed, processing range：[{start_index} ~ {total}]")
-
-
-def run_with_auto_resume(candidate_name,
-                         baseline_name="doubao",
-                         start_index=1):
-    """
-    Auto Resume(), if evaluate is interrupted (exception/crash/exit),
-    automatically continue from next sample start_index.
-    """
-
-    while True:
-        try:
-            print(
-                f"\n[START] Starting run candidate={candidate_name}, from start_index={start_index}"
-            )
-
-            # ----------------------------
-            # Core: call your evaluate()
-            # ----------------------------
-            evaluate(candidate_name, baseline_name, start_index=start_index)
-
-            # If we reach here, evaluate finished successfully
-            print(f"\n[DONE] {candidate_name} All completed successfully! Evaluation done。")
-            break
-
-        except Exception as e:
-            # Catch all uncaught exceptions in evaluate (e.g., power failure, script exit)
-            print(f"\n[ERROR] evaluate() uncaught exception：{e}")
-            print("[WARN] Auto find last completed sample, continue evaluation…")
-
-            # -----------------------------------------------------------
-            # Auto update start_index: scan output dir for generated json files
-            # -----------------------------------------------------------
-
-            output_dir = OUTPUT_DIRS[candidate_name]
-            finished = [
-                f for f in os.listdir(output_dir)
-                if f.endswith(".json") or f.endswith(".jsonl")
-            ]
-            # Completed samples count + 1 = next start_index
-            new_start = len(finished) + 1
-
-            print(
-                f"👉 Completed {len(finished)} samples, next run will start from={new_start}")
-
-            # Update start_index and continue while True
-            start_index = new_start
+    print("-" * 60)
+    print(f"Done! Overall Success (including skipped): {total}/{total}")
+    print(f"Skipped (Already Existed): {skipped_count}")
+    print(f"Actually Processed this run: {len(files_to_process)}")
 
 
 # ---------------------------------------------------------------------
 # Main Entry
 # ---------------------------------------------------------------------
-# if __name__ == "__main__":
-#     evaluate("gpt4o")
-#     evaluate("gemini")
-#     evaluate("qwen-omni")
-#     print("\nAll tasks completed！")
 if __name__ == "__main__":
-    # run_with_auto_resume("gpt", baseline_name="gemini", start_index=1)
-    # run_with_auto_resume("doubao", baseline_name="gemini", start_index=1)
-    # run_with_auto_resume("qwen-omni", baseline_name="gemini", start_index=1)
-    # run_with_auto_resume("qwen-omni-realtime", baseline_name="gemini", start_index=1)
-    run_with_auto_resume(config.MY_MODEL_NAME,
-                         baseline_name="gemini",
-                         start_index=1)
+    evaluate(config.MY_MODEL_NAME, baseline_name="gemini")
     print("\nAll tasks completed！")

@@ -159,39 +159,67 @@ Run your **speech-to-speech (S2S)** model on the SpeechParaling-Bench dataset an
 
 #### Sample Run Script
 
-We provide a sample run script using **Qwen-Omni API** to help you get started quickly:
+We provide sample run scripts using **Qwen-Omni API** in `api_models/qwen-omni-eval/` to help you get started quickly. The scripts support parallel processing and auto-retry on rate limits.
+
+**Get API Key**: Register at [https://dashscope.console.aliyun.com/](https://dashscope.console.aliyun.com/) to get your DashScope API key.
+
+**Install Dependencies**:
+```bash
+cd api_models/qwen-omni-eval
+pip install -r requirements.txt
+```
+
+##### Option 1: Run All Tasks at Once (Recommended)
+
+The `run_all_tasks.py` script automatically traverses all subdirectories in `audio_dataset_ch` and `audio_dataset_en`, processing every `.wav` file in parallel:
 
 ```bash
-# 1. Go to the qwen-omni directory
-cd api_models/qwen-omni
-
-# 2. Run the sample script (Chinese)
-python run_sample.py \
-    --input_dir ../../audio_dataset_ch/para_con/con_short_sin \
-    --output_dir output_ch/para_con/con_short_sin \
+python api_models/qwen-omni-eval/run_all_tasks.py \
     --api_key YOUR_DASHSCOPE_API_KEY \
-    --language zh
+    --max_workers 5
+```
 
-# 3. Run the sample script (English)
-python run_sample.py \
-    --input_dir ../../audio_dataset_en/para_con/con_short_sin \
-    --output_dir output_en/para_con/con_short_sin \
+##### Option 2: Run a Specific Folder Manually
+
+If you only want to process a specific dataset folder, use `run_sample_parallel_v2.py` directly:
+
+```bash
+# Example: Process Chinese Short Single-dimension dataset
+python api_models/qwen-omni-eval/run_sample_parallel_v2.py \
+    --input_dir audio_dataset_ch/para_con/con_short_sin \
+    --output_dir api_models/qwen-omni/output_ch/para_con/con_short_sin \
     --api_key YOUR_DASHSCOPE_API_KEY \
-    --language en
+    --language ch \
+    --max_workers 5
+
+# Example: Process English dataset
+python api_models/qwen-omni-eval/run_sample_parallel_v2.py \
+    --input_dir audio_dataset_en/para_con/con_short_sin \
+    --output_dir api_models/qwen-omni/output_en/para_con/con_short_sin \
+    --api_key YOUR_DASHSCOPE_API_KEY \
+    --language en \
+    --max_workers 5
 ```
 
 For testing, you can use `--max_files N` to process only N files:
 
 ```bash
-python run_sample.py \
-    --input_dir ../../audio_dataset_ch/para_con/con_short_sin \
-    --output_dir output_demo \
+python api_models/qwen-omni-eval/run_sample_parallel_v2.py \
+    --input_dir audio_dataset_ch/para_con/con_short_sin \
+    --output_dir api_models/qwen-omni/output_demo \
     --api_key YOUR_DASHSCOPE_API_KEY \
-    --language zh \
+    --language ch \
     --max_files 3
 ```
 
-**Get API Key**: Register at [https://dashscope.console.aliyun.com/](https://dashscope.console.aliyun.com/) to get your free API key.
+**Arguments for `run_sample_parallel_v2.py`:**
+- `--input_dir`: Path to the directory containing input audio files.
+- `--output_dir`: Path to the directory to save generated output audio.
+- `--api_key`: Your DashScope API key (required).
+- `--language`: Language of the task, either `ch` (Chinese) or `en` (English).
+- `--max_files`: (Optional) Limit number of files to process (useful for testing).
+- `--max_workers`: Number of parallel threads to run (default: 3).
+- `--max_retries`: Maximum retries on Rate Limit (429) errors (default: 5).
 
 #### Output Directory Structure
 

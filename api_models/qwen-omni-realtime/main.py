@@ -54,7 +54,8 @@ def process_one_wav(input_path, output_path):
                     "voice": "Cherry",
                     "input_audio_format": "pcm16",
                     "output_audio_format": "pcm16",
-                    "instructions": "Please directly speak the sentence with the specified tone as requested, without any introductory phrases.",
+                    "instructions":
+                    "Please directly speak the sentence with the specified tone as requested, without any introductory phrases.",
                     "turn_detection": None
                 }
             }))

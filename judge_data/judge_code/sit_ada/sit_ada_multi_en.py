@@ -9,14 +9,16 @@ from google import genai
 from google.genai import types
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
 from judge_data import config
 
 # ---------------------------------------------------------------------
 #  Basic Configuration
 # ---------------------------------------------------------------------
-API_KEY = ""
-BASE_URL = "http://43.131.235.107:45101/"
+API_KEY = config.API_KEY
+BASE_URL = config.BASE_URL
 TARGET_MODEL = "gemini-3-pro-preview"
 
 PROMPT_JSONL = "jsonl_prompt_en/sit_ada/sit_ada_multi.jsonl"
@@ -25,10 +27,12 @@ PROMPT_JSONL = "jsonl_prompt_en/sit_ada/sit_ada_multi.jsonl"
 MODEL_DIRS = {
     # "doubao": "api_models/doubao/output_en/sit_ada/sit_ada_multi",
     # "gpt": "api_models/gpt/output_en/sit_ada/sit_ada_multi",
-    "gemini": "api_models/gemini/output_en/sit_ada/sit_ada_multi",
+    "gemini":
+    "api_models/gemini/output_en/sit_ada/sit_ada_multi",
     # "qwen-omni": "api_models/qwen-omni/output_en/sit_ada/sit_ada_multi",
     # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_en/sit_ada/sit_ada_multi",
-    config.MY_MODEL_NAME: f"api_models/{config.MY_MODEL_NAME}/output_en/sit_ada/sit_ada_multi",
+    config.MY_MODEL_NAME:
+    f"api_models/{config.MY_MODEL_NAME}/output_en/sit_ada/sit_ada_multi",
 }
 
 # Output directories for model scores
@@ -226,7 +230,7 @@ Now you will be provided with the generated speech from model 1, please analyze 
 # ---------------------------------------------------------------------
 # Main Evaluation Process
 # ---------------------------------------------------------------------
-def evaluate(candidate_name, baseline_name="gemini", start_index=1):
+def evaluate(candidate_name, baseline_name="gemini"):
     os.makedirs(OUTPUT_DIRS[candidate_name], exist_ok=True)
 
     base_wavs = list_wavs(MODEL_DIRS[baseline_name])
@@ -236,12 +240,33 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
         raise ValueError("Baseline and candidate audio count mismatch!")
 
     total = len(base_wavs)
-    base_wavs_slice = base_wavs[start_index - 1:]
-    cand_wavs_slice = cand_wavs[start_index - 1:]
 
-    for i, (base_path, cand_path) in enumerate(zip(base_wavs_slice,
-                                                   cand_wavs_slice),
-                                               start=start_index):
+    files_to_process = []
+    skipped_count = 0
+
+    for base_path, cand_path in zip(base_wavs, cand_wavs):
+        file_name_base = os.path.splitext(os.path.basename(cand_path))[0]
+        output_filename = f"{file_name_base}_{candidate_name}_vs_{baseline_name}.json"
+        output_path = os.path.join(OUTPUT_DIRS[candidate_name],
+                                   output_filename)
+
+        if os.path.exists(output_path):
+            skipped_count += 1
+        else:
+            files_to_process.append((base_path, cand_path))
+
+    if not files_to_process:
+        print(f"All files have already been processed! No API calls made.")
+        print(f"Total Completed: {total}/{total}")
+        return
+
+    print(f"\n[START] Starting run candidate={candidate_name}")
+    print(f"Total Files: {total}")
+    print(f"Skipped (Already Existed): {skipped_count}")
+    print(f"To Process: {len(files_to_process)}")
+    print("-" * 60)
+
+    for i, (base_path, cand_path) in enumerate(files_to_process, start=1):
 
         success = False
         max_retries = 5  # Max retries per sample
@@ -265,7 +290,8 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                 audio_bytes_1, audio_bytes_2, candidate_index = random_assign_T1_T2(
                     base_audio,
                     cand_audio,
-                    seed=i + retry_count  # Change seed to prevent model from getting stuck on specific order
+                    seed=i +
+                    retry_count  # Change seed to prevent model from getting stuck on specific order
                 )
 
                 contents = [
@@ -348,72 +374,19 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
                     print(f"Wait {wait_time} seconds before retry...")
                     time.sleep(wait_time)
                 else:
-                    print(f"[SKIP] Sample {i} failed after {max_retries} retries, skipping。")
+                    print(
+                        f"[SKIP] Sample {i} failed after {max_retries} retries, skipping。"
+                    )
 
-    print(f"\nTask completed, processing range：[{start_index} ~ {total}]")
-
-
-def run_with_auto_resume(candidate_name,
-                         baseline_name="gemini",
-                         start_index=1):
-    """
-    Auto Resume(), if evaluate is interrupted (exception/crash/exit),
-    automatically continue from next sample start_index.
-    """
-
-    while True:
-        try:
-            print(
-                f"\n[START] Starting run candidate={candidate_name}, from start_index={start_index}"
-            )
-
-            # ----------------------------
-            # Core: call your evaluate()
-            # ----------------------------
-            evaluate(candidate_name, baseline_name, start_index=start_index)
-
-            # If we reach here, evaluate finished successfully
-            print(f"\n[DONE] {candidate_name} All completed successfully! Evaluation done。")
-            break
-
-        except Exception as e:
-            # Catch all uncaught exceptions in evaluate (e.g., power failure, script exit)
-            print(f"\n[ERROR] evaluate() uncaught exception：{e}")
-            print("[WARN] Auto find last completed sample, continue evaluation…")
-
-            # -----------------------------------------------------------
-            # Auto update start_index: scan output dir for generated json files
-            # -----------------------------------------------------------
-
-            output_dir = OUTPUT_DIRS[candidate_name]
-            finished = [
-                f for f in os.listdir(output_dir)
-                if f.endswith(".json") or f.endswith(".jsonl")
-            ]
-            # Completed samples count + 1 = next start_index
-            new_start = len(finished) + 1
-
-            print(
-                f"👉 Completed {len(finished)} samples, next run will start from={new_start}")
-
-            # Update start_index and continue while True
-            start_index = new_start
+    print("-" * 60)
+    print(f"Done! Overall Success (including skipped): {total}/{total}")
+    print(f"Skipped (Already Existed): {skipped_count}")
+    print(f"Actually Processed this run: {len(files_to_process)}")
 
 
 # ---------------------------------------------------------------------
 # Main Entry
 # ---------------------------------------------------------------------
-# if __name__ == "__main__":
-#     evaluate("gpt4o")
-#     evaluate("gemini")
-#     evaluate("qwen-omni")
-#     print("\nAll tasks completed！")
 if __name__ == "__main__":
-    # run_with_auto_resume("gpt", baseline_name="gemini", start_index=1)
-    # run_with_auto_resume("doubao", baseline_name="gemini", start_index=1)
-    # run_with_auto_resume("qwen-omni", baseline_name="gemini", start_index=1)
-    # run_with_auto_resume("qwen-omni-realtime", baseline_name="gemini", start_index=1)
-    run_with_auto_resume(config.MY_MODEL_NAME,
-                         baseline_name="gemini",
-                         start_index=1)
+    evaluate(config.MY_MODEL_NAME, baseline_name="gemini")
     print("\nAll tasks completed！")

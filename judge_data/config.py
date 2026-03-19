@@ -1,3 +1,4 @@
 # Configuration for evaluation
-API_KEY = "YOUR_API_KEY"
-MY_MODEL_NAME = "YOUR_MODEL_NAME"
+API_KEY = ""
+MY_MODEL_NAME = ""
+BASE_URL = ""
