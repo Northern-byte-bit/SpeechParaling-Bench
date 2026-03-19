@@ -1,3 +1,4 @@
+import sys
 import os
 import json
 import random
@@ -7,10 +8,13 @@ import numpy as np
 from google import genai
 from google.genai import types
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+from judge_data import config
+
 # ---------------------------------------------------------------------
 #  Basic Configuration
 # ---------------------------------------------------------------------
-YOUR_API_KEY = ""
+API_KEY = config.API_KEY
 BASE_URL = "http://43.131.235.107:45101/"
 TARGET_MODEL = "gemini-3-pro-preview"
 
@@ -21,7 +25,7 @@ MODEL_DIRS = {
     # "doubao": "api_models/doubao/output_en/dyn_var",
     # "gpt": "api_models/gpt/output_en/dyn_var",
     "gemini": "api_models/gemini/output_en/dyn_var",
-    "YOU_MODEL_NAME": "api_models/YOU_MODEL/output_en/dyn_var",
+    config.MY_MODEL_NAME: f"api_models/{config.MY_MODEL_NAME}/output_en/dyn_var",
     # "qwen-omni": "api_models/qwen-omni/output_en/dyn_var",
     # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_en/dyn_var",
 }
@@ -34,14 +38,14 @@ OUTPUT_DIRS = {
     # "doubao": "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_en/doubao",
     # "qwen-omni": "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_en/qwen-omni",
     # "qwen-omni-realtime": "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_en/qwen-omni-realtime",
-    "YOU_MODEL_NAME":
-    "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_en/YOU_MODEL_NAME",
+    config.MY_MODEL_NAME:
+    f"judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_en/{config.MY_MODEL_NAME}",
 }
 
 METADATA_DIR = "judge_data/result_v5/result_v5_dyn_var/metadata/metadata_v5_dyn_en"
 
 client = genai.Client(http_options=types.HttpOptions(base_url=BASE_URL),
-                      api_key=YOUR_API_KEY)
+                      api_key=API_KEY)
 
 
 # ---------------------------------------------------------------------
@@ -412,7 +416,7 @@ if __name__ == "__main__":
     # run_with_auto_resume("doubao", baseline_name="gemini", start_index=1)
     # run_with_auto_resume("qwen-omni", baseline_name="gemini", start_index=1)
     # run_with_auto_resume("qwen-omni-realtime", baseline_name="gemini", start_index=1)
-    run_with_auto_resume("YOU_MODEL_NAME",
+    run_with_auto_resume(config.MY_MODEL_NAME,
                          baseline_name="gemini",
                          start_index=1)
     print("\nAll tasks completed！")

@@ -1,78 +1,87 @@
 ======= 各模型最终得分 (含独立加权的 Overall 维度) =======
 
 === gpt ===
-总分维度 (Overall): 105.47
-  Age: 27.03
-  Attitude: 25.08
-  Emotion: 27.13
-  Non-Linguistic Vocalizations: 24.59
-
-=== qwen-omni-realtime ===
-总分维度 (Overall): 89.50
-  Age: 20.00
-  Attitude: 17.50
-  Emotion: 27.00
+  Overall: 103.50
+  Age: 26.00
+  Attitude: 27.50
+  Emotion: 25.00
   Non-Linguistic Vocalizations: 25.00
 
 === gemini ===
-总分维度 (Overall): 81.00
-  Age: 18.50
-  Attitude: 16.50
-  Emotion: 23.00
-  Non-Linguistic Vocalizations: 23.00
+  Overall: 92.17
+  Age: 24.07
+  Attitude: 19.14
+  Emotion: 26.75
+  Non-Linguistic Vocalizations: 21.20
+
+=== qwen-omni-realtime ===
+  Overall: 92.00
+  Age: 19.00
+  Attitude: 21.00
+  Emotion: 23.50
+  Non-Linguistic Vocalizations: 28.50
 
 === doubao ===
-总分维度 (Overall): 66.50
-  Age: 18.50
-  Attitude: 20.00
-  Emotion: 12.00
-  Non-Linguistic Vocalizations: 16.00
+  Overall: 83.00
+  Age: 20.50
+  Attitude: 24.00
+  Emotion: 17.00
+  Non-Linguistic Vocalizations: 21.50
 
 === qwen-omni ===
-总分维度 (Overall): 45.00
-  Age: 13.50
-  Attitude: 11.00
-  Emotion: 9.50
-  Non-Linguistic Vocalizations: 11.00
+  Overall: 34.50
+  Age: 12.00
+  Attitude: 9.00
+  Emotion: 6.00
+  Non-Linguistic Vocalizations: 7.50
 
 
 ======= 各维度排名 (含 Overall) =======
 
 【维度：Age】
-  gpt: 27.03
-  qwen-omni-realtime: 20.00
-  gemini: 18.50
-  doubao: 18.50
-  qwen-omni: 13.50
+  gpt: 26.00
+  gemini: 24.07
+  doubao: 20.50
+  qwen-omni-realtime: 19.00
+  qwen-omni: 12.00
 
 【维度：Attitude】
-  gpt: 25.08
-  doubao: 20.00
-  qwen-omni-realtime: 17.50
-  gemini: 16.50
-  qwen-omni: 11.00
+  gpt: 27.50
+  doubao: 24.00
+  qwen-omni-realtime: 21.00
+  gemini: 19.14
+  qwen-omni: 9.00
 
 【维度：Emotion】
-  gpt: 27.13
-  qwen-omni-realtime: 27.00
-  gemini: 23.00
-  doubao: 12.00
-  qwen-omni: 9.50
+  gemini: 26.75
+  gpt: 25.00
+  qwen-omni-realtime: 23.50
+  doubao: 17.00
+  qwen-omni: 6.00
 
 【维度：Non-Linguistic Vocalizations】
-  qwen-omni-realtime: 25.00
-  gpt: 24.59
-  gemini: 23.00
-  doubao: 16.00
-  qwen-omni: 11.00
+  qwen-omni-realtime: 28.50
+  gpt: 25.00
+  doubao: 21.50
+  gemini: 21.20
+  qwen-omni: 7.50
 
 【维度：Overall】
-  gpt: 105.47
-  qwen-omni-realtime: 89.50
-  gemini: 81.00
-  doubao: 66.50
-  qwen-omni: 45.00
+  gpt: 103.50
+  gemini: 92.17
+  qwen-omni-realtime: 92.00
+  doubao: 83.00
+  qwen-omni: 34.50
 
 
 ======= 跳过的样本 =======
-无
+12, 81
+
+======= Baseline 与各 Candidate 比较的【Overall 原始得分】 =======
+
+### Baseline: gemini ###
+  vs doubao: 95.00
+  vs gpt: 76.50
+  vs qwen-omni: 143.50
+  vs qwen-omni-realtime: 88.00
+

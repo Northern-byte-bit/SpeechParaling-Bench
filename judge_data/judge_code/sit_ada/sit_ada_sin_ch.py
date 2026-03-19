@@ -6,6 +6,10 @@ import numpy as np
 
 from google import genai
 from google.genai import types
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+from judge_data import config
 
 # ---------------------------------------------------------------------
 #  Basic Configuration
@@ -23,7 +27,7 @@ MODEL_DIRS = {
     # "gemini": "api_models/gemini/output_ch/sit_ada/sit_ada_sin",
     # "qwen-omni": "api_models/qwen-omni/output_ch/sit_ada/sit_ada_sin",
     # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_ch/sit_ada/sit_ada_sin",
-    "YOU_MODEL_NAME": "api_models/YOU_MODEL/output_ch/sit_ada/sit_ada_sin",
+    config.MY_MODEL_NAME: "api_models/YOU_MODEL/output_ch/sit_ada/sit_ada_sin",
 }
 
 # Output directories for model scores
@@ -34,8 +38,8 @@ OUTPUT_DIRS = {
     # "gemini": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gemini",
     # "qwen-omni": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_ch/qwen-omni",
     # "qwen-omni-realtime": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_ch/qwen-omni-realtime",
-    "YOU_MODEL_NAME":
-    "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_sin_ch/YOU_MODEL_NAME",
+    config.MY_MODEL_NAME:
+    "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_sin_ch/{config.MY_MODEL_NAME}",
 }
 
 METADATA_DIR = "judge_data/result_v5/result_v5_sit_ada2/metadata/metadata_v5_sin_ch"
@@ -432,7 +436,7 @@ if __name__ == "__main__":
     # run_with_auto_resume("gemini", baseline_name="doubao", start_index=1)
     # run_with_auto_resume("qwen-omni", baseline_name="doubao", start_index=1)
     # run_with_auto_resume("qwen-omni-realtime", baseline_name="doubao", start_index=1)
-    run_with_auto_resume("YOU_MODEL_NAME",
+    run_with_auto_resume(config.MY_MODEL_NAME,
                          baseline_name="doubao",
                          start_index=1)
     print("\nAll tasks completed！")

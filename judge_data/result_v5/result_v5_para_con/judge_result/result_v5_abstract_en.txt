@@ -1,7 +1,7 @@
 ======= 各模型最终得分 (各维度及总分均采用加权逻辑) =======
 
 === gemini ===
-总分维度 (Overall): 72.25
+  Overall: 72.25
   arrogant and scornful: 1.00
   awe and admiration: 2.00
   bold and unrestrained: 1.00
@@ -38,7 +38,7 @@
   urgent and pressing: 1.33
 
 === gpt ===
-总分维度 (Overall): 51.00
+  Overall: 51.00
   arrogant and scornful: 2.00
   awe and admiration: 1.00
   bold and unrestrained: 3.00
@@ -75,7 +75,7 @@
   urgent and pressing: 1.00
 
 === doubao ===
-总分维度 (Overall): 28.50
+  Overall: 28.50
   arrogant and scornful: 0.00
   awe and admiration: 1.00
   bold and unrestrained: 2.00
@@ -112,7 +112,7 @@
   urgent and pressing: 2.00
 
 === qwen-omni ===
-总分维度 (Overall): 10.50
+  Overall: 10.50
   arrogant and scornful: 0.00
   awe and admiration: 1.00
   bold and unrestrained: 0.00
@@ -149,7 +149,7 @@
   urgent and pressing: 0.00
 
 === qwen-omni-realtime ===
-总分维度 (Overall): 1.00
+  Overall: 1.00
   arrogant and scornful: 0.00
   awe and admiration: 0.00
   bold and unrestrained: 0.00
@@ -205,8 +205,8 @@
 【维度：awe and admiration】
   gemini: 2.00
   qwen-omni: 1.00
-  gpt: 1.00
   doubao: 1.00
+  gpt: 1.00
   qwen-omni-realtime: 0.00
 
 【维度：bold and unrestrained】
@@ -281,8 +281,8 @@
 
 【维度：exhausted and weary】
   gemini: 2.00
-  gpt: 1.00
   doubao: 1.00
+  gpt: 1.00
   qwen-omni: 0.00
   qwen-omni-realtime: 0.00
 
@@ -323,16 +323,16 @@
 
 【维度：helpless and resigned】
   gemini: 2.00
-  gpt: 1.00
   doubao: 1.00
+  gpt: 1.00
   qwen-omni: 0.00
   qwen-omni-realtime: 0.00
 
 【维度：hopeful】
   gemini: 2.00
   qwen-omni: 1.00
-  gpt: 1.00
   doubao: 1.00
+  gpt: 1.00
   qwen-omni-realtime: 0.00
 
 【维度：humorous and witty】
@@ -358,8 +358,8 @@
 
 【维度：indignant】
   qwen-omni: 3.00
-  gpt: 3.00
   doubao: 3.00
+  gpt: 3.00
   gemini: 3.00
   qwen-omni-realtime: 0.00
 
@@ -373,8 +373,8 @@
 【维度：lively and mischievous】
   gemini: 2.00
   qwen-omni: 1.00
-  gpt: 0.00
   doubao: 0.00
+  gpt: 0.00
   qwen-omni-realtime: 0.00
 
 【维度：mysterious and unpredictable】
@@ -387,8 +387,8 @@
 【维度：narrative and engaging】
   gemini: 2.50
   qwen-omni: 0.50
-  gpt: 0.00
   doubao: 0.00
+  gpt: 0.00
   qwen-omni-realtime: 0.00
 
 【维度：nostalgic and melancholy】
@@ -415,15 +415,15 @@
 【维度：rigid and dogmatic】
   gemini: 2.00
   qwen-omni: 1.00
-  gpt: 0.00
   doubao: 0.00
+  gpt: 0.00
   qwen-omni-realtime: 0.00
 
 【维度：sensational and exaggerated】
   gemini: 2.00
   qwen-omni: 1.00
-  gpt: 1.00
   doubao: 1.00
+  gpt: 1.00
   qwen-omni-realtime: 0.00
 
 【维度：urgent and pressing】
@@ -436,3 +436,12 @@
 
 ======= 跳过的样本 =======
 47, 98
+
+======= Baseline 与各 Candidate 比较的【Overall 原始得分】 =======
+
+### Baseline: gemini ###
+  vs doubao: 82.50
+  vs gpt: 60.00
+  vs qwen-omni: 100.50
+  vs qwen-omni-realtime: 108.00
+

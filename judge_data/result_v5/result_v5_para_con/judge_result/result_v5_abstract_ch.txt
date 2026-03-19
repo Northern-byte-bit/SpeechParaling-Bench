@@ -1,7 +1,7 @@
 ======= 各模型最终得分 (各维度及总分均采用加权逻辑) =======
 
 === doubao ===
-总分维度 (Overall): 88.83
+  Overall: 88.83
   不耐烦躁: 2.00
   专业客观: 2.50
   严肃认真: 1.50
@@ -28,7 +28,7 @@
   邪恶: 2.00
 
 === gpt ===
-总分维度 (Overall): 27.50
+  Overall: 27.50
   不耐烦躁: 1.00
   专业客观: 0.50
   严肃认真: 3.00
@@ -55,7 +55,7 @@
   邪恶: 1.00
 
 === gemini ===
-总分维度 (Overall): 23.00
+  Overall: 23.00
   不耐烦躁: 0.00
   专业客观: 3.00
   严肃认真: 1.50
@@ -82,7 +82,7 @@
   邪恶: 1.00
 
 === qwen-omni ===
-总分维度 (Overall): 8.50
+  Overall: 8.50
   不耐烦躁: 0.00
   专业客观: 0.00
   严肃认真: 0.00
@@ -109,7 +109,7 @@
   邪恶: 0.00
 
 === qwen-omni-realtime ===
-总分维度 (Overall): 2.50
+  Overall: 2.50
   不耐烦躁: 1.00
   专业客观: 0.00
   严肃认真: 0.00
@@ -149,8 +149,8 @@
   doubao: 2.00
   gpt: 1.00
   qwen-omni-realtime: 1.00
-  gemini: 0.00
   qwen-omni: 0.00
+  gemini: 0.00
 
 【维度：专业客观】
   gemini: 3.00
@@ -169,8 +169,8 @@
 【维度：义愤填膺】
   doubao: 2.00
   gpt: 1.00
-  gemini: 0.00
   qwen-omni: 0.00
+  gemini: 0.00
   qwen-omni-realtime: 0.00
 
 【维度：优雅克制】
@@ -183,8 +183,8 @@
 【维度：充满疑惑】
   doubao: 2.00
   gpt: 1.00
-  gemini: 1.00
   qwen-omni: 1.00
+  gemini: 1.00
   qwen-omni-realtime: 1.00
 
 【维度：冷漠疏离】
@@ -204,8 +204,8 @@
 【维度：华丽高贵】
   gpt: 2.00
   doubao: 1.50
-  gemini: 1.00
   qwen-omni: 1.00
+  gemini: 1.00
   qwen-omni-realtime: 0.00
 
 【维度：古板教条】
@@ -225,8 +225,8 @@
 【维度：坚定有力】
   gpt: 2.00
   doubao: 1.00
-  gemini: 0.00
   qwen-omni: 0.00
+  gemini: 0.00
   qwen-omni-realtime: 0.00
 
 【维度：好奇探究】
@@ -274,15 +274,15 @@
 【维度：煽情夸张】
   doubao: 2.50
   gpt: 0.50
-  gemini: 0.00
   qwen-omni: 0.00
+  gemini: 0.00
   qwen-omni-realtime: 0.00
 
 【维度：疲惫不堪】
   doubao: 2.07
   gpt: 1.00
-  gemini: 1.00
   qwen-omni: 1.00
+  gemini: 1.00
   qwen-omni-realtime: 0.50
 
 【维度：自信洒脱】
@@ -295,8 +295,8 @@
 【维度：谨慎保守】
   doubao: 2.00
   gpt: 1.00
-  gemini: 1.00
   qwen-omni: 1.00
+  gemini: 1.00
   qwen-omni-realtime: 0.00
 
 【维度：豪迈奔放】
@@ -316,3 +316,12 @@
 
 ======= 跳过的样本 =======
 无
+
+======= Baseline 与各 Candidate 比较的【Overall 原始得分】 =======
+
+### Baseline: doubao ###
+  vs gemini: 88.00
+  vs gpt: 83.50
+  vs qwen-omni: 102.50
+  vs qwen-omni-realtime: 108.50
+

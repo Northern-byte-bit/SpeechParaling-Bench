@@ -1,7 +1,7 @@
 ======= 各模型最终得分 (各维度及总分均采用加权逻辑) =======
 
 === doubao ===
-总分维度 (Overall): 125.58
+  Overall: 125.58
   停顿: 2.90
   年龄: 7.94
   态度: 16.72
@@ -16,7 +16,7 @@
   音高: 13.50
 
 === gemini ===
-总分维度 (Overall): 78.50
+  Overall: 78.50
   停顿: 2.50
   年龄: 8.00
   态度: 8.00
@@ -31,7 +31,7 @@
   音高: 3.50
 
 === gpt ===
-总分维度 (Overall): 71.50
+  Overall: 71.50
   停顿: 2.50
   年龄: 10.00
   态度: 9.00
@@ -46,7 +46,7 @@
   音高: 2.00
 
 === qwen-omni ===
-总分维度 (Overall): 28.50
+  Overall: 28.50
   停顿: 1.50
   年龄: 3.00
   态度: 4.50
@@ -61,7 +61,7 @@
   音高: 2.00
 
 === qwen-omni-realtime ===
-总分维度 (Overall): 11.00
+  Overall: 11.00
   停顿: 1.00
   年龄: 0.50
   态度: 1.50
@@ -87,8 +87,8 @@
 
 【维度：停顿】
   doubao: 2.90
-  gpt: 2.50
   gemini: 2.50
+  gpt: 2.50
   qwen-omni: 1.50
   qwen-omni-realtime: 1.00
 
@@ -122,8 +122,8 @@
 
 【维度：认知状态】
   doubao: 15.09
-  gpt: 6.50
   gemini: 6.50
+  gpt: 6.50
   qwen-omni-realtime: 1.00
   qwen-omni: 0.50
 
@@ -135,8 +135,8 @@
   qwen-omni-realtime: 2.00
 
 【维度：重音】
-  gpt: 7.00
   gemini: 7.00
+  gpt: 7.00
   doubao: 4.04
   qwen-omni: 4.00
   qwen-omni-realtime: 1.50
@@ -172,3 +172,12 @@
 
 ======= 跳过的样本 =======
 无
+
+======= Baseline 与各 Candidate 比较的【Overall 原始得分】 =======
+
+### Baseline: doubao ###
+  vs gemini: 111.50
+  vs gpt: 118.50
+  vs qwen-omni: 161.50
+  vs qwen-omni-realtime: 179.00
+

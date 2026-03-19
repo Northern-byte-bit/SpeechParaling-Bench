@@ -7,10 +7,15 @@ import numpy as np
 from google import genai
 from google.genai import types
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+from judge_data import config
+
 # ---------------------------------------------------------------------
 #  Basic Configuration
 # ---------------------------------------------------------------------
-API_KEY = ""
+API_KEY = config.API_KEY
 BASE_URL = "http://43.131.235.107:45101/"
 TARGET_MODEL = "gemini-3-pro-preview"
 
@@ -19,7 +24,7 @@ PROMPT_JSONL = "jsonl_prompt_ch/dyn_var/dyn_var.jsonl"
 # Generated audio directories
 MODEL_DIRS = {
     "doubao": "api_models/doubao/output_ch/dyn_var",
-    "YOU_MODEL_NAME": "api_models/YOU_MODEL/output_ch/dyn_var",
+    config.MY_MODEL_NAME: f"api_models/{config.MY_MODEL_NAME}/output_ch/dyn_var",
     # "gpt": "api_models/gpt/output_ch/dyn_var",
     # "gemini": "api_models/gemini/output_ch/dyn_var",
     # "qwen-omni": "api_models/qwen-omni/output_ch/dyn_var",
@@ -30,8 +35,8 @@ MODEL_DIRS = {
 OUTPUT_DIRS = {
     "doubao":
     "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_ch/doubao",
-    "YOU_MODEL_NAME":
-    "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_ch/YOU_MODEL_NAME",
+    config.MY_MODEL_NAME:
+    f"judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_ch/{config.MY_MODEL_NAME}",
 }
 
 METADATA_DIR = "judge_data/result_v5/result_v5_dyn_var/metadata/metadata_v5_dyn_ch"
@@ -408,7 +413,7 @@ if __name__ == "__main__":
     # run_with_auto_resume("gemini", baseline_name="doubao", start_index=1)
     # run_with_auto_resume("qwen-omni", baseline_name="doubao", start_index=1)
     # run_with_auto_resume("qwen-omni-realtime", baseline_name="doubao", start_index=1)
-    run_with_auto_resume("YOU_MODEL_NAME",
+    run_with_auto_resume(config.MY_MODEL_NAME,
                          baseline_name="doubao",
                          start_index=1)
     print("\nAll tasks completed！")

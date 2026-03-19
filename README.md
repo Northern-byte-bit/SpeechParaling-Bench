@@ -223,55 +223,32 @@ api_models/YOUR_MODEL/
 
 Use the evaluation codes in `judge_data/judge_code/`:
 
-1. **Add your API_KEY** in the evaluation script
-2. **Modify the paths** in `MODEL_DIRS` and `OUTPUT_DIRS`:
+1. **Configure your settings** in `judge_data/config.py`:
 
 ```python
-# Example: judge_data/judge_code/dyn_var/dyn_var_ch.py
+# judge_data/config.py
 
 API_KEY = "YOUR_API_KEY"
-
-MODEL_DIRS = {
-    "doubao": "api_models/doubao/output_ch/dyn_var",
-    "YOUR_MODEL_NAME": "api_models/YOUR_MODEL/output_ch/dyn_var",  # Add your model
-}
-
-OUTPUT_DIRS = {
-    "doubao": "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_ch/doubao",
-    "YOUR_MODEL_NAME": "judge_data/result_v5/result_v5_dyn_var/judge_json/judge_json_v5_dyn_ch/YOUR_MODEL_NAME",  # Add your output path
-}
+MY_MODEL_NAME = "YOUR_MODEL_NAME"
 ```
 
-3. **Run the evaluation**:
+2. **Run the evaluation** (no further modification of evaluation scripts needed):
 
 ```bash
-# Dynamic Variation - Chinese
-python judge_data/judge_code/dyn_var/dyn_var_ch.py
-
-# Dynamic Variation - English
-python judge_data/judge_code/dyn_var/dyn_var_en.py
-
-# Paralanguage Control - various configurations
-python judge_data/judge_code/para_con/para_con_long_sin_ch.py
-python judge_data/judge_code/para_con/para_con_short_sin_ch.py
-python judge_data/judge_code/para_con/para_con_abstract_ch.py
-# ... etc
-
-# Situational Adaptation
-python judge_data/judge_code/sit_ada/sit_ada_sin_ch.py
-python judge_data/judge_code/sit_ada/sit_ada_multi_ch.py
-# ... etc
+# Run all evaluations automatically
+python judge_data/run_all_evaluations.py
 ```
 
 ### 7. Calculate Scores
 
-After evaluation, calculate the leaderboard scores (use dynamic variation as an example):
+After evaluation, you can calculate all module scores and the overall leaderboard score in one go:
 
 ```bash
-python judge_data/score_calculate/score_calculate_dyn_var.py
+python judge_data/run_all_calculate.py
 ```
 
-Results will be saved in `judge_data/result_v5/result_v5_dyn_var/judge_result/`.
+- Detailed per-module scores are saved in `judge_data/result_v5/result_v5_[module]/judge_result/`.
+- Final normalized aggregated scores are saved in `judge_data/score_calculate/final_results/`.
 
 ---
 
