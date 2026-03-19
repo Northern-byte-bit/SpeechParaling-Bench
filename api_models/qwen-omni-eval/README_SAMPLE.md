@@ -1,6 +1,6 @@
-# Qwen-Omni Parallel Evaluation Tool
+# Qwen-Omni Evaluation Tool
 
-This directory contains scripts for parallelized evaluation of the Qwen-Omni model on the SpeechParaling-Bench dataset, designed to handle large datasets efficiently with auto-retry on rate limits.
+This directory contains scripts for evaluating the Qwen-Omni model on the SpeechParaling-Bench dataset. It supports parallel processing and auto-retry on rate limits, running seamlessly on Windows, Linux, and macOS.
 
 ## Prerequisites
 
@@ -13,24 +13,26 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-### Running via Shell Script (Recommended)
+### Option 1: Run All Tasks at Once (Recommended)
 
-The `run_task.sh` script is a wrapper for running parallel tasks. Ensure you have set your API key and configured the paths within the script if necessary.
+The `run_all_tasks.py` script automatically traverses all subdirectories in `audio_dataset_ch` and `audio_dataset_en`, processing every `.wav` file in parallel. This is the easiest way to run the full benchmark evaluation.
 
 ```bash
-# Make the script executable if not already
-chmod +x run_task.sh
-
-# Run the task
-./run_task.sh
+python run_all_tasks.py --api_key YOUR_DASHSCOPE_API_KEY --max_workers 5
 ```
 
-### Running Manually via Python
+**Arguments for `run_all_tasks.py`:**
+- `--api_key`: Your DashScope API key (required).
+- `--max_workers`: Number of parallel threads per task (default: 5).
 
-You can run the parallel evaluation script directly with custom arguments:
+---
+
+### Option 2: Run a Specific Folder Manually
+
+If you only want to process a specific dataset folder, use `run_sample_parallel_v2.py` directly:
 
 ```bash
-# Example: Run parallel evaluation on Chinese Short Single-dimension dataset
+# Example: Process Chinese Short Single-dimension dataset
 python run_sample_parallel_v2.py \
     --input_dir ../../audio_dataset_ch/para_con/con_short_sin \
     --output_dir ../../api_models/qwen-omni/output_ch/para_con/con_short_sin \
@@ -39,18 +41,11 @@ python run_sample_parallel_v2.py \
     --max_workers 5
 ```
 
-### Available Arguments
-
+**Arguments for `run_sample_parallel_v2.py`:**
 - `--input_dir`: Path to the directory containing input audio files.
 - `--output_dir`: Path to the directory to save generated output audio.
 - `--api_key`: Your DashScope API key (required).
-- `--language`: Language of the task, either `zh` or `en`.
+- `--language`: Language of the task, either `zh` (Chinese) or `en` (English).
 - `--max_files`: (Optional) Limit number of files to process (useful for testing).
 - `--max_workers`: Number of parallel threads to run (default: 3).
 - `--max_retries`: Maximum retries on Rate Limit (429) errors (default: 5).
-
-## Features
-
-- **Parallel Processing**: Uses `ThreadPoolExecutor` to process multiple audio files simultaneously.
-- **Rate Limit Handling**: Implements exponential backoff retry logic for 429 errors.
-- **Resume Capability**: Checks if output files already exist in `output_dir` and skips them automatically.

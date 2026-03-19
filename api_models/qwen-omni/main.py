@@ -59,8 +59,10 @@ def process_audio_file(input_path, output_path):
             },
         },
         {
-            "type": "text",
-            "text": "Please directly speak the sentence with the specified tone as requested, without any introductory phrases.",
+            "type":
+            "text",
+            "text":
+            "Please directly speak the sentence with the specified tone as requested, without any introductory phrases.",
         },
     ]
 
@@ -86,7 +88,9 @@ def process_audio_file(input_path, output_path):
         for chunk in completion:
             if chunk.choices:
                 delta = chunk.choices[0].delta
-                if hasattr(delta, "audio") and delta.audio and delta.audio.get("data"):
+                if hasattr(
+                        delta,
+                        "audio") and delta.audio and delta.audio.get("data"):
                     audio_string += delta.audio.get("data", "")
                 if hasattr(delta, "text") and delta.text:
                     transcript += delta.text
