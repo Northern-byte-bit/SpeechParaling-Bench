@@ -28,7 +28,7 @@ MODEL_DIRS = {
     "gemini": "api_models/gemini/output_en/para_con/con_long_sin",
     # "qwen-omni": "api_models/qwen-omni/output_en/para_con/con_long_sin",
     # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_en/para_con/con_long_sin",
-    config.MY_MODEL_NAME: "api_models/YOU_MODEL/output_en/para_con/con_long_sin",
+    config.MY_MODEL_NAME: f"api_models/{config.MY_MODEL_NAME}/output_en/para_con/con_long_sin",
 }
 
 # Output directories for model scores
@@ -40,7 +40,7 @@ OUTPUT_DIRS = {
     # "qwen-omni": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_en/qwen-omni",
     # "qwen-omni-realtime": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_en/qwen-omni-realtime",
     config.MY_MODEL_NAME:
-    "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_en/{config.MY_MODEL_NAME}",
+    f"judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_en/{config.MY_MODEL_NAME}",
 }
 
 METADATA_DIR = "judge_data/test_v5_para_con/metadata/metadata_v5_long_sin_en"

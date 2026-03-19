@@ -9,7 +9,9 @@ from google import genai
 from google.genai import types
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
 from judge_data import config
 
 # ---------------------------------------------------------------------
@@ -23,12 +25,14 @@ PROMPT_JSONL = "jsonl_prompt_ch/para_con/short_sin.jsonl"
 
 # Generated audio directories
 MODEL_DIRS = {
-    "doubao": "api_models/doubao/output_ch/para_con/con_short_sin",
+    "doubao":
+    "api_models/doubao/output_ch/para_con/con_short_sin",
     # "gpt": "api_models/gpt/output_ch/para_con/con_short_sin",
     # "gemini": "api_models/gemini/output_ch/para_con/con_short_sin",
     # "qwen-omni": "api_models/qwen-omni/output_ch/para_con/con_short_sin",
     # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_ch/para_con/con_short_sin",
-    config.MY_MODEL_NAME: "api_models/YOU_MODEL/output_ch/para_con/con_short_sin",
+    config.MY_MODEL_NAME:
+    f"api_models/{config.MY_MODEL_NAME}/output_ch/para_con/con_short_sin",
 }
 
 # Output directories for model scores
@@ -40,7 +44,7 @@ OUTPUT_DIRS = {
     # "qwen-omni": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_short_sin_ch/qwen-omni",
     # "qwen-omni-realtime": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_short_sin_ch/qwen-omni-realtime",
     config.MY_MODEL_NAME:
-    "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_short_sin_ch/{config.MY_MODEL_NAME}",
+    f"judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_short_sin_ch/{config.MY_MODEL_NAME}",
 }
 
 METADATA_DIR = "judge_data/result_v5/result_v5_para_con/metadata/metadata_v5_short_sin_ch"
@@ -78,26 +82,6 @@ def load_audio(path):
 
 
 def random_assign_T1_T2(base_wav, cand_wav, seed):
-    """
-    Randomly assign baseline and candidate audio to T1/T2, return:
-    1. audio_1, audio_2 (randomly shuffled audio data)
-    2. candidate_index (position of candidate audio, 1 or 2)
-    
-    Use seed to ensure reproducibility.
-    """
-    rng = random.Random(seed)
-    if rng.random() < 0.5:
-        # T1 = Candidate, T2 = Baseline. Candidate is at position 1.
-        return cand_wav, base_wav, 1
-    else:
-        # T1 = Baseline, T2 = Candidate. Candidate is at position 2.
-        return base_wav, cand_wav, 2
-
-
-def normalize_json_output(raw_text):
-    """
-    Clean the model's raw output text, remove possible ```json prefix and ``` suffix,
-    and try to parse as Python dictionary.
     """
     Randomly assign baseline and candidate audio to T1/T2, return:
     1. audio_1, audio_2 (randomly shuffled audio data)
@@ -370,7 +354,8 @@ def evaluate(candidate_name, baseline_name="gemini", start_index=1):
             "judger_model": TARGET_MODEL,
             "demand": demand,
             "dimensions": dims,
-            "candidate_position": candidate_index,  # Candidate audio position (1 or 2)
+            "candidate_position":
+            candidate_index,  # Candidate audio position (1 or 2)
             "status": status,
             "category": "feature_control",
         }
@@ -414,13 +399,16 @@ def run_with_auto_resume(candidate_name,
             evaluate(candidate_name, baseline_name, start_index=start_index)
 
             # If we reach here, evaluate finished successfully
-            print(f"\n[DONE] {candidate_name} All completed successfully! Evaluation done。")
+            print(
+                f"\n[DONE] {candidate_name} All completed successfully! Evaluation done。"
+            )
             break
 
         except Exception as e:
             # Catch all uncaught exceptions in evaluate (e.g., power failure, script exit)
             print(f"\n[ERROR] evaluate() uncaught exception：{e}")
-            print("[WARN] Auto find last completed sample, continue evaluation…")
+            print(
+                "[WARN] Auto find last completed sample, continue evaluation…")
 
             # -----------------------------------------------------------
             # Auto update start_index: scan output dir for generated json files
@@ -435,7 +423,8 @@ def run_with_auto_resume(candidate_name,
             new_start = len(finished) + 1
 
             print(
-                f"👉 Completed {len(finished)} samples, next run will start from={new_start}")
+                f"👉 Completed {len(finished)} samples, next run will start from={new_start}"
+            )
 
             # Update start_index and continue while True
             start_index = new_start

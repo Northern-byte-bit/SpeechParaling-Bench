@@ -24,7 +24,7 @@ PROMPT_JSONL = "jsonl_prompt_ch/para_con/abstract_style.jsonl"
 # Generated audio directories
 MODEL_DIRS = {
     "doubao": "api_models/doubao/output_ch/para_con/con_abs",
-    config.MY_MODEL_NAME: "api_models/YOU_MODEL/output_ch/para_con/con_abs",
+    config.MY_MODEL_NAME: f"api_models/{config.MY_MODEL_NAME}/output_ch/para_con/con_abs",
     # "gpt": "api_models/gpt/output_ch/para_con/con_abs",
     # "gemini": "api_models/gemini/output_ch/para_con/con_abs",
     # "qwen-omni": "api_models/qwen-omni/output_ch/para_con/con_abs",
@@ -40,7 +40,7 @@ OUTPUT_DIRS = {
     # "qwen-omni": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_ch/qwen-omni",
     # "qwen-omni-realtime": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_ch/qwen-omni-realtime",
     config.MY_MODEL_NAME:
-    "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_ch/{config.MY_MODEL_NAME}",
+    f"judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_ch/{config.MY_MODEL_NAME}",
 }
 
 METADATA_DIR = "judge_data/result_v5/result_v5_para_con/metadata/metadata_v5_abstract_ch"

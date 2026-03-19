@@ -24,7 +24,7 @@ PROMPT_JSONL = "jsonl_prompt_en/para_con/abstract_style.jsonl"
 # Generated audio directories
 MODEL_DIRS = {
     # "doubao": "api_models/doubao/output_en/para_con/con_abs",
-    config.MY_MODEL_NAME: "api_models/YOU_MODEL/output_en/para_con/con_abs",
+    config.MY_MODEL_NAME: f"api_models/{config.MY_MODEL_NAME}/output_en/para_con/con_abs",
     # "gpt": "api_models/gpt/output_en/para_con/con_abs",
     "gemini": "api_models/gemini/output_en/para_con/con_abs",
     # "qwen-omni": "api_models/qwen-omni/output_en/para_con/con_abs",
@@ -36,7 +36,7 @@ OUTPUT_DIRS = {
     "gemini":
     "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_en/gemini",
     config.MY_MODEL_NAME:
-    "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_en/{config.MY_MODEL_NAME}",
+    f"judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_en/{config.MY_MODEL_NAME}",
     # "gpt": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_en/gpt",
     # "doubao": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_en/doubao",
     # "qwen-omni-realtime": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_abstract_en/qwen-omni-realtime",
