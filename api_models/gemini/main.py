@@ -14,7 +14,7 @@ OUTPUT_DIR = "api_models/gemini/output_en/para_con/con_long_sin"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # === API Configuration ===
-GOOGLE_API_KEY = config.API_KEY
+GOOGLE_API_KEY = ""
 client = genai.Client(api_key=GOOGLE_API_KEY)
 model = "gemini-2.5-flash-native-audio-preview-09-2025"
 
