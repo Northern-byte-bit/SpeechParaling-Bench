@@ -258,6 +258,7 @@ Use the evaluation codes in `judge_data/judge_code/`:
 
 API_KEY = "YOUR_API_KEY"
 MY_MODEL_NAME = "YOUR_MODEL_NAME"
+BASE_URL = "BASE_URL"
 ```
 
 2. **Run the evaluation** (no further modification of evaluation scripts needed):
