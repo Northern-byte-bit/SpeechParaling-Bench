@@ -268,18 +268,22 @@ def evaluate(candidate_name, baseline_name="gemini"):
 
     for i, (base_path, cand_path) in enumerate(files_to_process, start=1):
 
+        # Extract sample index from filename (e.g., sit_multi_001 -> 1)
+        file_name_base = os.path.splitext(os.path.basename(cand_path))[0]
+        sample_index = int(file_name_base.split('_')[-1])
+
         success = False
         max_retries = 5  # Max retries per sample
         retry_count = 0
 
         while not success and retry_count < max_retries:
             print(
-                f"\n[{candidate_name}] sample {i} started... (attempt {retry_count + 1})"
+                f"\n[{candidate_name}] sample {sample_index} started... (attempt {retry_count + 1})"
             )
 
             try:
                 # 1. Load data
-                demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, i)
+                demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, sample_index)
                 dims_str = "、".join(dims)
                 system_prompt_judger, post_audio_1_message = build_judger_prompts(
                     demand, dims_str, dims)
@@ -335,7 +339,7 @@ def evaluate(candidate_name, baseline_name="gemini"):
                 output_filename = f"{file_name_base}_{candidate_name}_vs_{baseline_name}.json"
 
                 metadata_data = {
-                    "sample_index": i,
+                    "sample_index": sample_index,
                     "candidate_name": candidate_name,
                     "baseline_name": baseline_name,
                     "judger_model": TARGET_MODEL,

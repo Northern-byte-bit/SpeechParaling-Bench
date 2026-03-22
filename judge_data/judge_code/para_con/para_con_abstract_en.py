@@ -265,7 +265,10 @@ def evaluate(candidate_name, baseline_name="gemini"):
 
     for i, (base_path, cand_path) in enumerate(files_to_process, start=1):
 
-        print(f"\n[{candidate_name}] sample {i} started...")
+        # Extract sample index from filename (e.g., para_con_abstract_en_001 -> 1)
+        file_name_base = os.path.splitext(os.path.basename(cand_path))[0]
+        sample_index = int(file_name_base.split('_')[-1])
+        print(f"\n[{candidate_name}] sample {sample_index} started...")
 
         result_text = ""
         status = "Error"
@@ -273,7 +276,7 @@ def evaluate(candidate_name, baseline_name="gemini"):
 
         try:
             # Read prompt
-            demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, i)
+            demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, sample_index)
             dims_str = "、".join(dims)
 
             # Build Judger prompt (get System, User, Post-Audio 1 messages)
@@ -365,7 +368,7 @@ def evaluate(candidate_name, baseline_name="gemini"):
         # Save Output JSONL
         # -------------------------------
         metadata_data = {
-            "sample_index": i,
+            "sample_index": sample_index,
             "candidate_name": candidate_name,
             "baseline_name": baseline_name,
             "judger_model": TARGET_MODEL,
