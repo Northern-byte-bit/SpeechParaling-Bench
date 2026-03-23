@@ -37,17 +37,17 @@ MODEL_DIRS = {
 
 # Output directories for model scores
 OUTPUT_DIRS = {
-    # "gemini": "judge_data/result_v5/result_v5_variance_test/judge_json/judge_json_v5_long_sin_ch/gemini",
-    # "gpt": "judge_data/result_v5/result_v5_variance_test/judge_json/judge_json_v5_long_sin_ch/gpt",
+    # "gemini": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_ch/gemini",
+    # "gpt": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_ch/gpt",
     "doubao":
-    "judge_data/result_v5/result_v5_variance_test/judge_json/judge_json_v5_long_sin_ch/doubao",
-    # "qwen-omni": "judge_data/result_v5/result_v5_variance_test/judge_json/judge_json_v5_long_sin_ch/qwen-omni",
-    # "qwen-omni-realtime": "judge_data/result_v5/result_v5_variance_test/judge_json/judge_json_v5_long_sin_ch/qwen-omni-realtime",
+    "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_ch/doubao",
+    # "qwen-omni": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_ch/qwen-omni",
+    # "qwen-omni-realtime": "judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_ch/qwen-omni-realtime",
     config.MY_MODEL_NAME:
-    f"judge_data/result_v5/result_v5_variance_test/judge_json/judge_json_v5_long_sin_ch/{config.MY_MODEL_NAME}",
+    f"judge_data/result_v5/result_v5_para_con/judge_json/judge_json_v5_long_sin_ch/{config.MY_MODEL_NAME}",
 }
 
-METADATA_DIR = "judge_data/result_v5/result_v5_variance_test/metadata/metadata_v5_long_sin_ch"
+METADATA_DIR = "judge_data/result_v5/result_v5_para_con/metadata/metadata_v5_long_sin_ch"
 
 client = genai.Client(http_options=types.HttpOptions(base_url=BASE_URL),
                       api_key=API_KEY)
