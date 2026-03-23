@@ -25,10 +25,11 @@ PROMPT_JSONL = "jsonl_prompt_en/sit_ada/sit_sin.jsonl"
 
 # Generated audio directories
 MODEL_DIRS = {
-    "doubao":
-    "api_models/doubao/output_en/sit_ada/sit_sin",
+    # "doubao":
+    # "api_models/doubao/output_en/sit_ada/sit_sin",
     # "gpt": "api_models/gpt/output_en/sit_ada/sit_sin",
-    # "gemini": "api_models/gemini/output_en/sit_ada/sit_sin",
+    "gemini":
+    "api_models/gemini/output_en/sit_ada/sit_sin",
     # "qwen-omni": "api_models/qwen-omni/output_en/sit_ada/sit_sin",
     # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_en/sit_ada/sit_sin",
     config.MY_MODEL_NAME:
@@ -37,10 +38,11 @@ MODEL_DIRS = {
 
 # Output directories for model scores
 OUTPUT_DIRS = {
-    "doubao":
-    "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_sin_en/doubao",
+    # "doubao":
+    # "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_sin_en/doubao",
     # "gpt": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gpt",
-    # "gemini": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gemini",
+    "gemini":
+    "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gemini",
     # "qwen-omni": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_ch/qwen-omni",
     # "qwen-omni-realtime": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_ch/qwen-omni-realtime",
     config.MY_MODEL_NAME:
@@ -360,9 +362,13 @@ def evaluate(candidate_name, baseline_name="gemini"):
                     json.dump(metadata_data, f, ensure_ascii=False, indent=4)
                 print(f"[OK] Metadata saved {metadata_path}")
 
-                judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name], output_filename)
+                judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name],
+                                                  output_filename)
                 with open(judger_output_path, "w", encoding="utf-8") as f:
-                    json.dump(judger_output_parsed, f, ensure_ascii=False, indent=4)
+                    json.dump(judger_output_parsed,
+                              f,
+                              ensure_ascii=False,
+                              indent=4)
                 print(f"[OK] Judger result saved {judger_output_path}")
 
             except Exception as e:
