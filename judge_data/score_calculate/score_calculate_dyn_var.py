@@ -3,7 +3,7 @@ import json
 from collections import defaultdict
 
 # ===== Batch Input & Output Root Directories =====
-IINPUT_ROOT = "judge_data/result_v5/result_v5_para_con/metadata"
+INPUT_ROOT = "judge_data/result_v5/result_v5_para_con/metadata"
 OUTPUT_ROOT = "judge_data/result_v5/result_v5_para_con/judge_result"
 os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
