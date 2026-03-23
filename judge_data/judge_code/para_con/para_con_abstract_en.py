@@ -21,7 +21,7 @@ API_KEY = config.API_KEY
 BASE_URL = config.BASE_URL
 TARGET_MODEL = "gemini-3-pro-preview"
 
-PROMPT_JSONL = "jsonl_prompt_en/para_con/abstract_style.jsonl"
+PROMPT_JSONL = "jsonl_prompt_en/para_con/abs.jsonl"
 
 # Generated audio directories
 MODEL_DIRS = {
