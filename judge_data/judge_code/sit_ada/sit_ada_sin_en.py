@@ -39,17 +39,17 @@ MODEL_DIRS = {
 # Output directories for model scores
 OUTPUT_DIRS = {
     # "doubao":
-    # "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_sin_en/doubao",
-    # "gpt": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gpt",
+    # "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_sin_en/doubao",
+    # "gpt": "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/gpt",
     "gemini":
-    "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gemini",
-    # "qwen-omni": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_ch/qwen-omni",
-    # "qwen-omni-realtime": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_ch/qwen-omni-realtime",
+    "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/gemini",
+    # "qwen-omni": "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_ch/qwen-omni",
+    # "qwen-omni-realtime": "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_ch/qwen-omni-realtime",
     config.MY_MODEL_NAME:
-    f"judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_sin_en/{config.MY_MODEL_NAME}",
+    f"judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_sin_en/{config.MY_MODEL_NAME}",
 }
 
-METADATA_DIR = "judge_data/result_v5/result_v5_sit_ada2/metadata/metadata_v5_sin_en"
+METADATA_DIR = "judge_data/result_v5/result_v5_sit_ada/metadata/metadata_v5_sin_en"
 MAX_RETRY_PER_SAMPLE = 5  # Max retries per sample
 RETRY_SLEEP_SECONDS = 2  # Wait time after each failure (to avoid API rate limit)
 

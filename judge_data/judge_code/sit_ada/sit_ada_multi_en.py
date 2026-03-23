@@ -37,17 +37,17 @@ MODEL_DIRS = {
 
 # Output directories for model scores
 OUTPUT_DIRS = {
-    # "doubao": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/doubao",
-    # "gpt": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gpt",
+    # "doubao": "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/doubao",
+    # "gpt": "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/gpt",
     "gemini":
-    "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/gemini",
-    # "qwen-omni": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/qwen-omni",
-    # "qwen-omni-realtime": "judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/qwen-omni-realtime",
+    "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/gemini",
+    # "qwen-omni": "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/qwen-omni",
+    # "qwen-omni-realtime": "judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/qwen-omni-realtime",
     config.MY_MODEL_NAME:
-    f"judge_data/result_v5/result_v5_sit_ada2/judge_json/judge_json_v5_multi_en/{config.MY_MODEL_NAME}",
+    f"judge_data/result_v5/result_v5_sit_ada/judge_json/judge_json_v5_multi_en/{config.MY_MODEL_NAME}",
 }
 
-METADATA_DIR = "judge_data/result_v5/result_v5_sit_ada2/metadata/metadata_v5_multi_en"
+METADATA_DIR = "judge_data/result_v5/result_v5_sit_ada/metadata/metadata_v5_multi_en"
 MAX_RETRY_PER_SAMPLE = 5  # Max retries per sample
 RETRY_SLEEP_SECONDS = 2  # Wait time after each failure (to avoid API rate limit)
 
@@ -360,9 +360,13 @@ def evaluate(candidate_name, baseline_name="gemini"):
                     json.dump(metadata_data, f, ensure_ascii=False, indent=4)
                 print(f"[OK] Metadata saved {metadata_path}")
 
-                judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name], output_filename)
+                judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name],
+                                                  output_filename)
                 with open(judger_output_path, "w", encoding="utf-8") as f:
-                    json.dump(judger_output_parsed, f, ensure_ascii=False, indent=4)
+                    json.dump(judger_output_parsed,
+                              f,
+                              ensure_ascii=False,
+                              indent=4)
                 print(f"[OK] Judger result saved {judger_output_path}")
 
             except Exception as e:
