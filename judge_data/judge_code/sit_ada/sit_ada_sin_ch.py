@@ -20,18 +20,18 @@ API_KEY = config.API_KEY
 BASE_URL = config.BASE_URL
 TARGET_MODEL = "gemini-3-pro-preview"
 
-PROMPT_JSONL = "jsonl_prompt_ch/sit_ada/sit_ada_sin.jsonl"
+PROMPT_JSONL = "jsonl_prompt_ch/sit_ada/sit_sin.jsonl"
 
 # Generated audio directories
 MODEL_DIRS = {
     "doubao":
-    "api_models/doubao/output_ch/sit_ada/sit_ada_sin",
-    # "gpt": "api_models/gpt/output_ch/sit_ada/sit_ada_sin",
-    # "gemini": "api_models/gemini/output_ch/sit_ada/sit_ada_sin",
-    # "qwen-omni": "api_models/qwen-omni/output_ch/sit_ada/sit_ada_sin",
-    # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_ch/sit_ada/sit_ada_sin",
+    "api_models/doubao/output_ch/sit_ada/sit_sin",
+    # "gpt": "api_models/gpt/output_ch/sit_ada/sit_sin",
+    # "gemini": "api_models/gemini/output_ch/sit_ada/sit_sin",
+    # "qwen-omni": "api_models/qwen-omni/output_ch/sit_ada/sit_sin",
+    # "qwen-omni-realtime": "api_models/qwen-omni-realtime/output_ch/sit_ada/sit_sin",
     config.MY_MODEL_NAME:
-    f"api_models/{config.MY_MODEL_NAME}/output_ch/sit_ada/sit_ada_sin",
+    f"api_models/{config.MY_MODEL_NAME}/output_ch/sit_ada/sit_sin",
 }
 
 # Output directories for model scores
