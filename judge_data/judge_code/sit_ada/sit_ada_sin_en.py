@@ -355,21 +355,15 @@ def evaluate(candidate_name, baseline_name="gemini"):
                     metadata_data[key] = winner_positions.get(key, -1)
 
                 os.makedirs(METADATA_DIR, exist_ok=True)
-                with open(os.path.join(METADATA_DIR, output_filename),
-                          "w",
-                          encoding="utf-8") as f:
+                metadata_path = os.path.join(METADATA_DIR, output_filename)
+                with open(metadata_path, "w", encoding="utf-8") as f:
                     json.dump(metadata_data, f, ensure_ascii=False, indent=4)
+                print(f"[OK] Metadata saved {metadata_path}")
 
-                with open(os.path.join(OUTPUT_DIRS[candidate_name],
-                                       output_filename),
-                          "w",
-                          encoding="utf-8") as f:
-                    json.dump(judger_output_parsed,
-                              f,
-                              ensure_ascii=False,
-                              indent=4)
-
-                print(f"[OK] Sample {i} processed successfully and saved。")
+                judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name], output_filename)
+                with open(judger_output_path, "w", encoding="utf-8") as f:
+                    json.dump(judger_output_parsed, f, ensure_ascii=False, indent=4)
+                print(f"[OK] Judger result saved {judger_output_path}")
 
             except Exception as e:
                 retry_count += 1
