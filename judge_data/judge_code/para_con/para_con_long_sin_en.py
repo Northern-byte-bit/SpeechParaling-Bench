@@ -1,7 +1,7 @@
 import os
 import json
 import random
-from tracemalloc import start
+import time
 import soundfile as sf
 import numpy as np
 
@@ -269,133 +269,110 @@ def evaluate(candidate_name, baseline_name="gemini"):
         # Extract sample index from filename (e.g., para_con_long_sin_en_001 -> 1)
         file_name_base = os.path.splitext(os.path.basename(cand_path))[0]
         sample_index = int(file_name_base.split('_')[-1])
-        print(f"\n[{candidate_name}] sample {sample_index} started...")
 
-        result_text = ""
-        status = "Error"
-        candidate_index = -1  # Default value, in case of exception
+        success = False
+        max_retries = 5  # Max retries per sample
+        retry_count = 0
 
-        try:
-            # Read prompt
-            demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, sample_index)
-            dims_str = "、".join(dims)
-
-            # Build Judger prompt (get System, User, Post-Audio 1 messages)
-            system_prompt_judger, post_audio_1_message = build_judger_prompts(
-                demand, dims_str, dims)
-
-            # -------------------------------
-            # Read audio + randomly assign T1/T2
-            # -------------------------------
-            base_audio = load_audio(base_path)
-            cand_audio = load_audio(cand_path)
-
-            # Use sample index i as seed, ensure reproducibility
-            audio_bytes_1, audio_bytes_2, candidate_index = random_assign_T1_T2(
-                base_audio, cand_audio, seed=i)
-            # -------------------------------
-            # Construct multimodal Contents list (interleaved text and audio)
-            # -------------------------------
-            contents = [
-                system_prompt_judger,
-                types.Part.from_bytes(data=audio_bytes_1,
-                                      mime_type="audio/wav"),
-                post_audio_1_message,
-                types.Part.from_bytes(data=audio_bytes_2,
-                                      mime_type="audio/wav"),
-            ]
-
-            # -------------------------------
-            # Call Gemini for scoring
-            # -------------------------------
-            config = types.GenerateContentConfig(
-                temperature=1.0,  # gemini 3 pro best keep at 1.0
-                # temperature=0.0,
+        while not success and retry_count < max_retries:
+            print(
+                f"\n[{candidate_name}] sample {sample_index} started... (attempt {retry_count + 1})"
             )
 
-            # Actual API call
-            response = client.models.generate_content(model=TARGET_MODEL,
-                                                      contents=contents,
-                                                      config=config)
+            try:
+                # 1. Load data
+                demand, dims = load_prompt_from_jsonl(PROMPT_JSONL, sample_index)
+                dims_str = "、".join(dims)
+                system_prompt_judger, post_audio_1_message = build_judger_prompts(
+                    demand, dims_str, dims)
 
-            result_text = response.text
-            status = "Success"
+                base_audio = load_audio(base_path)
+                cand_audio = load_audio(cand_path)
 
-        except Exception as e:
-            print(f"[ERROR] Sample {i} API call or processing error: {str(e)}")
-            # Build JSON string with error as model output
-            result_text = json.dumps(
-                {
-                    "reasoning_system_1": f"Client/Processing Error: {str(e)}",
-                    "reasoning_system_2": f"Client/Processing Error: {str(e)}",
-                    "model_comparison": f"Client/Processing Error: {str(e)}",
-                    "score_1": -1,
-                    "score_2": -1,
-                    "winner": -1
-                },
-                ensure_ascii=False)
+                audio_bytes_1, audio_bytes_2, candidate_index = random_assign_T1_T2(
+                    base_audio,
+                    cand_audio,
+                    seed=i +
+                    retry_count  # Change seed to prevent model from getting stuck on specific order
+                )
 
-        # -------------------------------
-        # Process and parse Judger output
-        # -------------------------------
-        judger_output_parsed, parse_status = normalize_json_output(result_text)
+                contents = [
+                    system_prompt_judger,
+                    types.Part.from_bytes(data=audio_bytes_1,
+                                          mime_type="audio/wav"),
+                    post_audio_1_message,
+                    types.Part.from_bytes(data=audio_bytes_2,
+                                          mime_type="audio/wav"),
+                ]
 
-        winner_positions = {}
+                # 2. Call API
+                config = types.GenerateContentConfig(temperature=1.0)
+                response = client.models.generate_content(model=TARGET_MODEL,
+                                                          contents=contents,
+                                                          config=config)
 
-        if parse_status.startswith("JSONDecodeError"):
-            status = "JSON_Parse_Error"
-            # If parsing fails, ensure judger_output_parsed contains error info
-            judger_output_parsed = {
-                "error": parse_status,
-                "winner": -1,
-                "score_1": -1,
-                "score_2": -1
-            }
-            winner_position = -1
-        elif status == "Success":
-            # If API call successful and JSON parsed, get winner_position
-            for idx in range(1, len(dims) + 1):
-                key = f"winner_{idx}"
-                winner_positions[
-                    f"winner_position_{idx}"] = judger_output_parsed.get(
-                        key, -1)
+                result_text = response.text
 
-        # ---- File name generation: use candidate audio filename as base name ----
-        file_name_base = os.path.splitext(os.path.basename(cand_path))[0]
-        # Keep filename consistent for correlation
-        output_filename = f"{file_name_base}_{candidate_name}_vs_{baseline_name}.json"
+                # 3. Parse JSON
+                judger_output_parsed, parse_status = normalize_json_output(
+                    result_text)
 
-        # -------------------------------
-        # Save Output JSONL
-        # -------------------------------
-        metadata_data = {
-            "sample_index": sample_index,
-            "candidate_name": candidate_name,
-            "baseline_name": baseline_name,
-            "judger_model": TARGET_MODEL,
-            "demand": demand,
-            "dimensions": dims,
-            "candidate_position":
-            candidate_index,  # Candidate audio position (1 or 2)
-            "status": status,
-            "category": "feature_control",
-        }
-        # ---- New: dimension-wise winner_position ----
-        for idx in range(1, len(dims) + 1):
-            key = f"winner_position_{idx}"
-            metadata_data[key] = winner_positions.get(key, -1)
+                if parse_status != "Success":
+                    raise ValueError(f"JSON parsing failed: {parse_status}")
 
-        # Use candidate audio filename as output file base name, add '_comparison.jsonl' suffix
-        metadata_path = os.path.join(METADATA_DIR, output_filename)
-        with open(metadata_path, "w", encoding="utf-8") as f:
-            json.dump(metadata_data, f, ensure_ascii=False, indent=4)
-        print(f"[OK] Metadata saved {metadata_path}")
+                # 4. If we reach here, API and parsing succeeded
+                success = True
 
-        judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name],
-                                          output_filename)
-        with open(judger_output_path, "w", encoding="utf-8") as f:
-            json.dump(judger_output_parsed, f, ensure_ascii=False, indent=4)
-        print(f"[OK] Judger result saved {judger_output_path}")
+                # Handle winner mapping
+                winner_positions = {}
+                for idx in range(1, len(dims) + 1):
+                    key = f"winner_{idx}"
+                    winner_positions[
+                        f"winner_position_{idx}"] = judger_output_parsed.get(
+                            key, -1)
+
+                # 5. Save result
+                file_name_base = os.path.splitext(
+                    os.path.basename(cand_path))[0]
+                output_filename = f"{file_name_base}_{candidate_name}_vs_{baseline_name}.json"
+
+                metadata_data = {
+                    "sample_index": sample_index,
+                    "candidate_name": candidate_name,
+                    "baseline_name": baseline_name,
+                    "judger_model": TARGET_MODEL,
+                    "demand": demand,
+                    "dimensions": dims,
+                    "candidate_position": candidate_index,
+                    "status": "Success",
+                    "category": "feature_control",
+                }
+                for idx in range(1, len(dims) + 1):
+                    key = f"winner_position_{idx}"
+                    metadata_data[key] = winner_positions.get(key, -1)
+
+                os.makedirs(METADATA_DIR, exist_ok=True)
+                metadata_path = os.path.join(METADATA_DIR, output_filename)
+                with open(metadata_path, "w", encoding="utf-8") as f:
+                    json.dump(metadata_data, f, ensure_ascii=False, indent=4)
+                print(f"[OK] Metadata saved {metadata_path}")
+
+                judger_output_path = os.path.join(OUTPUT_DIRS[candidate_name], output_filename)
+                with open(judger_output_path, "w", encoding="utf-8") as f:
+                    json.dump(judger_output_parsed, f, ensure_ascii=False, indent=4)
+                print(f"[OK] Judger result saved {judger_output_path}")
+
+            except Exception as e:
+                retry_count += 1
+                print(f"[ERROR] Sample {i} error: {e}")
+                if retry_count < max_retries:
+                    wait_time = 2**retry_count  # Exponential backoff
+                    print(f"Wait {wait_time} seconds before retry...")
+                    time.sleep(wait_time)
+                else:
+                    print(
+                        f"[SKIP] Sample {i} failed after {max_retries} retries, skipping。"
+                    )
 
     print("-" * 60)
     print(f"Done! Overall Success (including skipped): {total}/{total}")
