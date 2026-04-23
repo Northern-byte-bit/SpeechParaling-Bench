@@ -1,44 +1,48 @@
-# download_data.py
-from huggingface_hub import snapshot_download
 import os
 import shutil
+from huggingface_hub import snapshot_download
 
-
-def download_dataset(lang):
-    """Download a language dataset from Hugging Face."""
-
-    target_dir = f"audio_dataset_{lang}"
-
-    if os.path.exists(target_dir):
-        print(f"{target_dir} already exists, skipping download...")
-        return
-
-    print(f"Downloading audio_dataset_{lang}...")
-
-    source_folder = f"{lang}/audio_files"
-
+def setup_dataset():
+    repo_id = "Ruohan2/SpeechParaling-Bench"
+    local_dir = "./temp_hf_download"
+    
+    # 1. Download the repository
+    print(f"Downloading dataset from {repo_id}...")
     snapshot_download(
-        repo_id="Ruohan2/SpeechParaling-Bench",
-        local_dir="./",
+        repo_id=repo_id,
+        local_dir=local_dir,
         repo_type="dataset",
-        allow_patterns=[f"{source_folder}/**"],
+        allow_patterns=["ch/audio_files/*", "en/audio_files/*"]
     )
 
-    source_dir = source_folder
-    if os.path.exists(source_dir):
-        if os.path.exists(target_dir):
-            shutil.rmtree(target_dir)
-        shutil.move(source_dir, target_dir)
-        print(f"audio_dataset_{lang} downloaded!")
-    else:
-        print(f"Error: {source_dir} not found")
+    # Define the mapping from HF structure to your desired local structure
+    mapping = {
+        "ch/audio_files": "audio_dataset_ch",
+        "en/audio_files": "audio_dataset_en"
+    }
 
+    for src_subpath, target_name in mapping.items():
+        src_path = os.path.join(local_dir, src_subpath)
+        target_path = os.path.join(os.getcwd(), target_name)
 
-def download_all():
-    download_dataset("ch")
-    download_dataset("en")
-    print("Download completed!")
+        if os.path.exists(src_path):
+            # Remove target dir if it already exists to avoid nesting
+            if os.path.exists(target_path):
+                shutil.rmtree(target_path)
+            
+            # Move the content to the top level as requested
+            print(f"Organizing {target_name}...")
+            shutil.move(src_path, target_path)
+        else:
+            print(f"Warning: Source path {src_path} not found.")
 
+    # 2. Clean up temporary download artifacts
+    if os.path.exists(local_dir):
+        shutil.rmtree(local_dir)
+    
+    print("Dataset download and reorganization complete!")
+    print(f"Structure created: \n - {os.path.abspath('audio_dataset_ch/')} \n - {os.path.abspath('audio_dataset_en/')}")
 
 if __name__ == "__main__":
-    download_all()
+    # Ensure you have huggingface_hub installed: pip install huggingface_hub
+    setup_dataset()
