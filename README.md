@@ -111,9 +111,7 @@ cd SpeechParaling-Bench
 
 ### 2. Download the Dataset
 
-You need to download both the main audio datasets and the baseline model outputs.
-
-#### Option A: Using Python Script
+You need to download both the main audio datasets and the baseline model outputs:
 
 ```bash
 pip install huggingface_hub
@@ -125,25 +123,7 @@ python script/download_data.py
 python script/download_baseline.py
 ```
 
-#### Option B: Manual Download
-
-You can also download the zip files directly from HuggingFace and extract them to the corresponding locations:
-
-- **SpeechParaling-Bench**: [https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench)
-  - Download `audio_dataset_ch.zip` → extract to project root
-  - Download `audio_dataset_en.zip` → extract to project root
-- **SpeechParaling-Bench-Baseline**: [https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench-Baseline)
-  - Download `api_models.zip` → extract to project root
-
-### 3. (Optional) Download Other Model Outputs
-
-If you want to evaluate with other models' outputs directly (without running the API yourself), you can download them from HuggingFace:
-
-- SpeechParaling-Bench: [https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench](https://huggingface.co/datasets/Ruohan2/SpeechParaling-Bench)
-
-More model outputs will be added soon.
-
-### 4.  (Optional) Run Existing API Models
+### 3.  (Optional) Run Existing API Models
 
 If you want to run the API models yourself to generate outputs, install the dependencies and run the scripts:
 
@@ -153,7 +133,7 @@ pip install -r requirements.txt
 # Configure your API key and run MODEL_NAME/main.py
 ```
 
-### 5. Prepare Your Model Output
+### 4. Prepare Your Model Output
 
 Run your **speech-to-speech (S2S)** model on the SpeechParaling-Bench dataset and generate audio responses.
 
@@ -247,7 +227,7 @@ api_models/YOUR_MODEL/
     └── sit_ada/
 ```
 
-### 6. Run Evaluation
+### 5. Run Evaluation
 
 Use the evaluation codes in `judge_data/judge_code/`:
 
@@ -268,7 +248,7 @@ BASE_URL = "BASE_URL"
 python judge_data/run_all_evaluations.py
 ```
 
-### 7. Calculate Scores
+### 6. Calculate Scores
 
 After evaluation, you can calculate all module scores and the overall leaderboard score in one go:
 
