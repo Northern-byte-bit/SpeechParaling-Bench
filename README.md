@@ -116,8 +116,11 @@ You need to download both the main audio datasets and the baseline model outputs
 ```bash
 pip install huggingface_hub
 
-# Download main audio datasets
+# Option A: Standard download
 python script/download_data.py
+
+# Option B: Faster ZIP download (Recommended for slow connections)
+python script/download_data_zip.py
 
 # Download baseline model outputs
 python script/download_baseline.py
