@@ -1,38 +1,44 @@
 # download_data.py
-from huggingface_hub import hf_hub_download
-import zipfile
+from huggingface_hub import snapshot_download
 import os
+import shutil
 
-def download_and_extract():
-    # Download Chinese audio dataset
-    print("Downloading audio_dataset_ch.zip...")
-    zip_path = hf_hub_download(
+
+def download_dataset(lang):
+    """Download a language dataset from Hugging Face."""
+
+    target_dir = f"audio_dataset_{lang}"
+
+    if os.path.exists(target_dir):
+        print(f"{target_dir} already exists, skipping download...")
+        return
+
+    print(f"Downloading audio_dataset_{lang}...")
+
+    source_folder = f"{lang}/audio_files"
+
+    snapshot_download(
         repo_id="Ruohan2/SpeechParaling-Bench",
-        filename="audio_dataset_ch.zip",
         local_dir="./",
-        repo_type="dataset"
+        repo_type="dataset",
+        allow_patterns=[f"{source_folder}/**"],
     )
-    print("Extracting...")
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        zip_ref.extractall("./")
-    os.remove(zip_path)
-    print("audio_dataset_ch extracted!")
-    
-    # Download English audio dataset
-    print("Downloading audio_dataset_en.zip...")
-    zip_path = hf_hub_download(
-        repo_id="Ruohan2/SpeechParaling-Bench",
-        filename="audio_dataset_en.zip",
-        local_dir="./",
-        repo_type="dataset"
-    )
-    print("Extracting...")
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        zip_ref.extractall("./")
-    os.remove(zip_path)
-    print("audio_dataset_en extracted!")
-    
+
+    source_dir = source_folder
+    if os.path.exists(source_dir):
+        if os.path.exists(target_dir):
+            shutil.rmtree(target_dir)
+        shutil.move(source_dir, target_dir)
+        print(f"audio_dataset_{lang} downloaded!")
+    else:
+        print(f"Error: {source_dir} not found")
+
+
+def download_all():
+    download_dataset("ch")
+    download_dataset("en")
     print("Download completed!")
 
+
 if __name__ == "__main__":
-    download_and_extract()
+    download_all()
