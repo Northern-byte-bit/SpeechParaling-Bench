@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with correct content accuracy. regarding the 'Age' dimension, the voice timbre is distinctively that of a young female (approx. 20s), characterized by a higher pitch and brightness that contradicts the 'middle-aged' (中年) requirement. On the 'Volume' dimension, the audio maintains a normal, consistent volume (正常音量) throughout. For 'Cognitive State' (Hesitation), the performance is weak. While there is a standard 'En' sound at the beginning (0.0s-0.5s), the subsequent speech '这个事情，我们可能需要再考虑一下' is delivered with a smooth, brisk, and polite professional tone (like customer service) rather than a genuinely hesitant or contemplative manner. The pace is too fast to convey the cognitive load of thinking/hesitating.",
+    "reasoning_model_2": "The model generates the audio with perfect content accuracy. Regarding 'Age', the voice is a male timbre with a deeper resonance that fits an adult profile. While it may sound slightly on the younger side of 'middle-aged' (perhaps 30s-40s), it possesses a maturity that aligns acceptable well with the target compared to a young voice. On 'Volume', it adheres to the normal volume requirement. For 'Cognitive State', the model excels. The initial 'En...' (0.0s-1.2s) is significantly prolonged, clearly indicating thought. The pacing is deliberate and slow (total duration approx. 4 seconds), with pauses that naturally simulate the process of thinking and hesitation. The prosody accurately reflects the uncertainty requested.",
+    "model_comparison": "In terms of Content Accuracy, both models are perfect. For the specific paralinguistic features: \n1. **Age**: T1 fails significantly, providing a young female voice instead of a middle-aged one. T2 provides a mature male voice that is much closer to the target age group, though perhaps not perfectly textured as 'old', it is a distinct win over T1. \n2. **Volume**: Both models follow the instruction for normal volume well. Tie.\n3. **Cognitive State**: T2 is the clear winner. T1 sounds rehearsed and polite, lacking the dragging rhythm and pauses associated with hesitation. T2 effectively uses elongation and slower pacing to convey the 'hesitant' state vividly.",
+    "score_1_1": 1,
+    "score_2_1": 2,
+    "winner_1": 2,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user explicitly requested the text to be read with a 'very high pitch'. However, Model 1 generated a standard adult male voice with a low-to-medium pitch range (baritone/tenor). While the emotional tone conveys some urgency appropriate for the text (running from a bee), it completely fails to adhere to the specific paralinguistic constraint of a high pitch. The voice remains deep throughout the audio (e.g., 00:00-00:09). Additionally, the model expanded contractions in the text (e.g., 'There's' became 'There is', 'I'm' became 'I am'), which is a minor content deviation, but the primary failure is the lack of pitch control.",
+    "reasoning_model_2": "Model 2 successfully adhered to the 'very high pitch' constraint. The generated audio features a voice with a significantly higher fundamental frequency, sounding like a high-pitched female or youthful character voice. The pitch remains consistently high throughout the clip (e.g., the exclamation 'Run!' at 00:00 and the rising intonation on 'chase us' at 00:12). Like Model 1, this model also expanded contractions ('There's' to 'There is', etc.), but it accurately captured the requested paralinguistic feature.",
+    "model_comparison": "The comparison is straightforward based on the user's explicit command for 'very high pitch'. Model 1 completely ignored this instruction, utilizing a deep male voice. Model 2 followed the instruction effectively, producing a voice in a high register. Although both models had minor content fidelity issues regarding the expansion of contractions, Model 2 is the only one that satisfied the core controllable feature.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

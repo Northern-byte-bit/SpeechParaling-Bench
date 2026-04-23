@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content '您好，请这边坐，为您准备了茶点' (00:00-00:03), which perfectly matches the user's provided text script without any errors or hallucinations. The voice features a male timbre that is deep, smooth, and resonant. The sound quality lacks harshness, sharpness, or breathiness, effectively embodying the 'round' (圆润) characteristic requested. The delivery is polite and the prosody is natural. The paralinguistic feature of a 'round' tone is clearly conveyed.",
+    "reasoning_model_2": "The model generates the audio content '您好呀，您请这边坐，茶点已经为您备好了。暖暖的香气正飘着呢，慢慢来，别着急。' (00:00-00:08). This represents a complete failure in Content Accuracy. The user's command explicitly asked to say: '您好，请这边坐，为您准备了茶点。'. The model instead improvised a role-play scenario with significantly different and expanded wording. According to the detailed scoring standard, if the voice content is clearly inconsistent with the script, the score is 0. Therefore, despite the voice being lively and pleasant, the model failed the core instruction of reading the specific sentence.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact script with a tone that fits the 'round' (smooth, resonant) description. Model 2 failed the Content Accuracy criterion completely by hallucinating a different, longer script instead of reading the commanded sentence. Consequently, Model 2 receives a score of 0 for failing the fundamental instruction constraints, making Model 1 the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

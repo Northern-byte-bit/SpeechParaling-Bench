@@ -1,0 +1,14 @@
+{
+    "sample_index": 50,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a normal volume and suddenly increasing the volume in a shouting manner: 'That was a great pass, excellent teamwork. What? How could they make such a rookie mistake!'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

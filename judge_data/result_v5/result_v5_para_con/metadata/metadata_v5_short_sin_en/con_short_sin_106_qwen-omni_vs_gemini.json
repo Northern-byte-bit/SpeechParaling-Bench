@@ -1,0 +1,14 @@
+{
+    "sample_index": 106,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with heavy stress on 'not allowed': 'You are not allowed to be picky, finish all your vegetables!'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with high clarity. Regarding **Content Accuracy**, the model expands the contractions 'I'm' to 'I am' and 'it's' to 'It is' (0:00-0:04), which deviates slightly from the text but enhances the formal register often associated with a 'Polite' tone. **Attitude**: The delivery is warm and respectful. The use of a period/full stop implied by the intonation after 'Li Ming' (around 0:01.5) creates a distinct, polite boundary between self-introduction and greeting. **Pace**: The speech is delivered at a steady, medium pace with appropriate pausing, avoiding any rush. **Timbre**: The voice quality is consistent, clear, and 'smooth', free of artifacts. The model successfully meets all paralinguistic constraints.",
+    "reasoning_model_2": "The model also expands contractions to 'I am' and 'It is'. However, the transcript and implied prosody suggest a 'comma splice' structure ('...Li Ming, It is...'), where the pause between the two clauses is shorter or less distinct (0:01.5). **Attitude**: While generally polite, the flow feels slightly more run-on or hurried due to the lack of a full sentence break, making it marginally less formally polite than T1. **Pace**: The phrasing suggests a pace that leans towards being slightly faster or continuous rather than a deliberate 'medium' pace with clear separation. **Timbre**: The voice is generally smooth, but the prosodic flow is slightly less controlled due to the sentence structure choice, impacting the perception of a 'smooth' delivery.",
+    "model_comparison": "Model 1 (T1) demonstrates superior control over the requested paralinguistic features. By utilizing a sentence structure that implies a full stop (audible pause), T1 achieves a better 'Medium Pace' and a more respectful 'Polite' attitude compared to T2. T2's rendition, characterized by a comma splice structure in the transcript, implies a more continuous and potentially rushed flow that detracts slightly from the 'medium pace' and 'polite' (formal) requirements. Both models deviated slightly on content by expanding contractions, but T1's prosodic choices align better with the target attributes.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

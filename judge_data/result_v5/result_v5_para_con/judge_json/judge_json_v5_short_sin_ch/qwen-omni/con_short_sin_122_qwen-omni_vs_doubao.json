@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 delivers the line with high arousal and intensity, fitting the 'angry' (生气) instruction very well. From 0.0s to 1.3s ('这简直是欺骗'), the voice is loud, strained, and forceful, exhibiting a shouting quality typical of outrage. The pitch is elevated, and the speed is fast. The second half, '我无法接受' (1.3s-2.3s), maintains this high energy and forceful tone. Although there is a slight stutter or breathy artifact at the very beginning (0.0s), this could be interpreted as speech impeded by rage. The emotion is vivid and immediately recognizable as anger.",
+    "reasoning_model_2": "Model 2 provides a very clean and high-fidelity recording, but it fails to capture the required 'angry' emotion effectively. The delivery from 0.0s to 1.5s ('这简直是欺骗') sounds like a mild complaint or disbelief rather than genuine anger. The tone is relatively flat and soft. The second part, '我无法接受' (1.6s-2.8s), drops in pitch and intensity, sounding resigned or calm rather than outraged. The paralinguistic features associated with anger (high volume, sharp stress, fast pace) are largely missing.",
+    "model_comparison": "In the dimension of Emotion (情感), Model 1 is significantly superior. Model 1 correctly interprets 'anger' as a high-arousal state, delivering the text with a shouting, forceful tone that matches the semantic content ('This is simply deception!'). Model 2, while audio-visually cleaner, fails the core constraint of the prompt. It delivers the line with a polite, calm, or slightly annoyed tone that contradicts the exclamation marks and the explicit instruction to be angry. Therefore, Model 1 wins decisively on the evaluation dimension.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

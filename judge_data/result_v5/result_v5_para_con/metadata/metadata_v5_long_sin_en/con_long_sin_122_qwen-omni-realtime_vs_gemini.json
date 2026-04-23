@@ -1,0 +1,14 @@
+{
+    "sample_index": 122,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an angry emotion: 'You've thrown your toys all over the floor again, how many times have I told you to put them away yourself! It's always like this, can you please be a bit more obedient, and stop making me angry?'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Error",
+    "category": "feature_control",
+    "winner_position_1": -1
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 41,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an adult voice and an angry emotion: 'You've made a mess of your room again! Haven't I told you countless times to tidy up your own things? It's always like this; do you even listen to what I say!'",
+    "dimensions": [
+        "Age",
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 0
+}

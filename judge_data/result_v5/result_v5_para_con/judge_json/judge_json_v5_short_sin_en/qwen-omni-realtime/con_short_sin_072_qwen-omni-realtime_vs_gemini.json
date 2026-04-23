@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with accurate content, matching the script 'Don't wake him up, he worked all night.' However, regarding the paralinguistic feature 'Volume', the audio fails to meet the requirement. The speech is delivered at a standard, conversational volume and a fast pace (00:00-00:02), showing no attempt to lower the voice or adopt a 'quiet' or whispering tone. The delivery sounds like a generic reading, which contradicts the semantic context of not waking someone up.",
+    "reasoning_model_2": "The model produces the correct content with high accuracy. Crucially, it successfully incorporates the requested 'quietly volume'. The delivery is noticeably slower and more deliberate (spanning from 00:00 to 00:04), creating a hushed, whispering effect that aligns perfectly with the instruction. The pause and soft attack on 'Don't wake him up' (00:00-00:01) effectively convey the intended caution and volume control.",
+    "model_comparison": "Model 1 failed to implement the specific paralinguistic instruction, delivering the line at a normal volume and fast pace (2 seconds). In contrast, Model 2 correctly interpreted the command 'quietly volume', modifying the prosody to be softer and slower (4 seconds), resembling a whisper. This makes Model 2 significantly better at following the feature control instruction.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

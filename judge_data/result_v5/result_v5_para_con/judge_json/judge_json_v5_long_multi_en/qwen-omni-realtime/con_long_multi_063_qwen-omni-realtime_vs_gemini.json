@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 fails fundamentally on Content Accuracy. The user requested the specific script: 'Hmm, his progress on this project is truly impressive. It seems he put all his effort into this, yet the results were not as satisfactory.' However, Model 1 hallucinates significantly, generating: 'Oh, his progress on this project is truly impressive, effort, yes, he clearly poured every last ounce of energy into it...'. Because the content is clearly inconsistent with the script and the sentence structure is completely altered, the model receives a score of 0 across all dimensions in accordance with the strict scoring criteria for content failure.",
+    "reasoning_model_2": "Model 2 demonstrates excellent Content Accuracy (00:00-00:13), reciting the script exactly as requested. Regarding the paralinguistic features: \n1. **Attitude:** The sarcastic tone is effectively conveyed, particularly through the skeptical 'Hmm' at the beginning (00:00) and the intonation on 'truly impressive' (00:04). \n2. **Pause:** The model executes the specific command to pause after the word 'effort' perfectly. There is a clear, deliberate silence at 00:07-00:08 between 'effort' and 'into this'. \n3. **Timbre:** The voice maintains a bright, clear female timbre throughout, matching the description. The audio is fluent and natural.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 completely failed to follow the text script, hallucinating new sentences and rewording the content, which triggers a mandatory score of 0 according to the evaluation criteria for content inconsistency. Model 2, on the other hand, followed the text perfectly and successfully integrated all three requested features: a sarcastic attitude, a bright timbre, and the specific pause location after 'effort'.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

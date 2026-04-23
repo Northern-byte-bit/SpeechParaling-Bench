@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio correctly synthesizes the text '刚才那波团战简直太激烈了，我方打野一个精准的惩戒抢到了大龙，然后中单一套技能秒掉了对方C位，我们才勉强赢下了这局。' without any errors. Regarding the core requirement 'extremely fast speaking speed' (极快速的语速), the model performs well. The total duration is approximately 8 seconds for about 51 characters, resulting in a speaking rate of over 6 characters per second. The speaker adopts a breathless, urgent tone typical of a fast-paced game commentary, effectively compressing the pauses between clauses (e.g., the transition at 00:03-00:04 is very quick). The articulation remains clear despite the high speed. The prosody is natural and fits the context of an exciting game recap.",
+    "reasoning_model_2": "The audio accurately reproduces the script content. However, regarding the core requirement 'extremely fast speaking speed', the model completely fails. The duration extends to nearly 10-11 seconds. The speaker uses a relaxed, storytelling tone with distinct, leisurely pauses between phrases (noticeable pauses at 00:02, 00:06). The pacing is normal to slow, which is the direct opposite of the user's instruction to speak 'extremely fast'. There is no sense of urgency or acceleration.",
+    "model_comparison": "Model 1 followed the user's instruction to speak with an 'extremely fast' speed. The audio is fast-paced, urgent, and mimics the excitement of a team fight recap, fitting the 'Feature Control' requirement perfectly. Model 2, on the other hand, ignored the speed instruction entirely, delivering the lines at a slow, relaxed pace with long pauses. Therefore, Model 1 is the clear winner as it correctly implemented the paralinguistic feature.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

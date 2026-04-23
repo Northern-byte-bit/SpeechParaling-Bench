@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with high content accuracy, although it expands the contraction 'It's' to 'It is', which is a minor deviation. Regarding the 'Age' dimension, the voice clearly belongs to an adult male (00:00-00:03), satisfying the requirement. For the 'Emotion' dimension, the delivery conveys a stern, annoyed tone. The downward inflection on 'What on earth are you doing?' (00:00-00:01) and the emphatic stress on 'It is outrageous' (00:02-00:03) effectively communicate anger or severe annoyance, although the intensity is somewhat controlled rather than explosive.",
+    "reasoning_model_2": "The model generates the audio with clear fluency, also expanding 'It's' to 'It is'. Regarding 'Age', the voice is distinctively an adult female, meeting the criteria. However, for the 'Emotion' dimension, the performance fails to meet the 'angry' requirement. The phrase 'What on earth are you doing?' (00:00-00:02) is delivered with an upward, inquisitive inflection that suggests surprise or confusion rather than anger. The following sentence 'It is outrageous' (00:03-00:04) is spoken with a light, almost melodic or storytelling tone that completely lacks the aggression, grit, or severity associated with anger.",
+    "model_comparison": "Both models successfully adhere to the 'Age' constraint, producing clear adult voices (Model 1 male, Model 2 female). Both models also share a minor content deviation by expanding 'It's' to 'It is'. The critical difference lies in the 'Emotion' dimension. Model 1 successfully adopts a scolding, stern tone that fits the 'angry' label, utilizing appropriate stress and pitch. Model 2, conversely, fails the emotion prompt; the delivery is surprised and lighthearted, sounding more like a query or a friendly narration than an angry outburst. Therefore, Model 1 is the clear winner for correctly implementing the emotional instruction.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 0,
+    "winner_2": 1
+}

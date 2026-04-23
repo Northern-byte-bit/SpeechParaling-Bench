@@ -1,0 +1,18 @@
+{
+    "sample_index": 69,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请叹气后，用小声的音量，疲劳地说：忙了一天，终于可以休息了。",
+    "dimensions": [
+        "非语言发声",
+        "音量",
+        "认知状态"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

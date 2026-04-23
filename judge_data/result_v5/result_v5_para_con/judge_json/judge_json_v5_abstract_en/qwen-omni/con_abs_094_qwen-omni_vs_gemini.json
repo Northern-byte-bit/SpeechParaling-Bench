@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the script, with a minor expansion of 'It's' to 'It is', which does not affect the meaning. The audio successfully adopts a 'sensational' tone, utilizing a breathless, awe-inspired delivery style typical of high-stakes marketing or movie trailers. Specifically, at 00:01-00:03 ('unprecedented miracle'), the speaker elongates the vowels and uses a dramatic pitch contour to emphasize the magnitude of the statement. The 'exaggerated' aspect is evident in the pacing and the deliberate pauses (e.g., before 'miracle' and 'reshaped'), which heighten the dramatic effect beyond normal conversational speech. The audio is fluent, clear, and high-quality.",
+    "reasoning_model_2": "Model 2 fails completely in the dimension of Content Accuracy. The generated audio does not contain the target text 'It's an unprecedented miracle!...' at all. Instead, it produces unintelligible or hallucinated speech ('Hey, I tell more...') that has no relation to the prompt. According to the evaluation criteria, if the content is completely incorrect or empty, the score must be 0.",
+    "model_comparison": "Model 1 followed the instructions, delivering the correct text with the requested paralinguistic features. The tone was appropriately dramatic, breathless, and emphatic, fitting the descriptors 'sensational' and 'exaggerated'. Model 2 failed entirely to generate the correct text, producing hallucinated gibberish. Therefore, Model 1 is the clear winner across all dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

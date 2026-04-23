@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 successfully synthesizes the text '喂！把那东西给我拿过来！' with perfect content accuracy. The speech is fluent and natural, with no mechanical artifacts. Regarding the required 'rude' attitude (00:00-00:02), the speaker employs a loud, forceful projection and a sharp, commanding intonation. The emphasis on '喂' serves as an impolite shout to get attention, and the rapid, downward inflection on '给我拿过来' conveys impatience and dominance. The paralinguistic features align well with a rude and aggressive demeanor.",
+    "reasoning_model_2": "Model 2 completely fails the Content Accuracy criterion. The prompt required the model to read '喂！把那东西给我拿过来！', but the model hallucinated a completely different script: '喂，你他妈的还愣着干嘛，赶紧把那破东西给我拿过来，别在这磨蹭' (00:00-00:05). While the tone is indeed extremely rude and expressive, the model violated the fundamental instruction to read the specific sentence provided. According to the scoring standard, since the voice content is clearly inconsistent with the script and contains major additions/changes, it must be assigned a score of 0.",
+    "model_comparison": "Model 1 followed the instructions precisely, delivering the correct text with the requested rude tone. Model 2, while expressive, failed the core task of text-to-speech by ignoring the script constraints and generating a role-play scenario with profanity and extra sentences. Therefore, Model 2 is penalized for content hallucination, making Model 1 the winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

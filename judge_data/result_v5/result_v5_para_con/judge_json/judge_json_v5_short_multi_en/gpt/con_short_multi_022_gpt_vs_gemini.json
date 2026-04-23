@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the text 'He really left, I am so sad.' Note that it expands the contraction 'I'm' to 'I am'. Regarding the 'Emotion' dimension (Sad), the performance is poor. At 00:00-00:03, the delivery is loud, projected, and energetic. The stress on 'so' at 00:02 sounds more like a dramatic reading or even a caricature rather than genuine sadness. The tone lacks the somberness, breathiness, or subdued energy typically associated with sadness. Regarding the 'Pitch' dimension (Low), the model fails to follow the instruction. The voice operates in a standard mid-to-high female range, particularly rising in pitch on the words 'left' and 'sad'. It does not sound lowered or deepened to match the prompt.",
+    "reasoning_model_2": "The model generates the text 'He really left, I am so sad' (also expanding the contraction). Regarding the 'Emotion' dimension (Sad), the model performs excellently. The delivery (00:00-00:03) is slow, subdued, and quiet. There is a perceptible sense of resignation and heaviness in the tone, particularly in the drop in energy at 'I am so sad'. This effectively conveys the required emotion. Regarding the 'Pitch' dimension (Low), the audio maintains a consistent low register. The voice sounds deep and grounded, effectively adhering to the specific control command for a low pitch.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Model 1 failed to capture the requested paralinguistic features; its tone was too bright and energetic to be considered 'sad', and its pitch was standard to high rather than 'low'. Model 1 sounded more like a neutral or slightly dramatic reading. In contrast, Model 2 successfully modulated its voice to be quiet, slow, and somber, fitting the 'sad' emotion perfectly. Additionally, Model 2 maintained a deep, low resonance throughout the clip, satisfying the 'low pitch' constraint. Model 2 followed the user's instructions accurately, while Model 1 largely ignored the stylistic constraints.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

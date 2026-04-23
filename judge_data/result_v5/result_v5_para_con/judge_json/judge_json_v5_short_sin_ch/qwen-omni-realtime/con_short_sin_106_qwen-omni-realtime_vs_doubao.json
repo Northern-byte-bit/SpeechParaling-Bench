@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model perfectly follows the provided script '不许挑食，把菜都吃完'. In terms of the required feature '重音' (Emphasis), the speaker places a clear, forceful stress on the word '不许' (00:00-00:01). The tone is authoritative and commanding, consistent with the context of correcting a child's behavior. The pitch on '不许' is elevated, and the articulation is stronger than the subsequent words, successfully fulfilling the prompt's requirement.",
+    "reasoning_model_2": "The model fails the Content Accuracy criterion significantly. The user requested the specific sentence '不许挑食，把菜都吃完！', but the model generated a much longer sequence: '不许啥，不许挑食，把菜都吃完，一口都不能剩。听清楚没有？'. Although the target phrase is included and the character acting (a nagging parent) is vivid with emphasis on '不许', the addition of unrequested text (hallucinations) constitutes a major flaw in following the 'read this sentence' command. According to the evaluation criteria, major content inconsistencies limit the score regardless of the emotional expressiveness.",
+    "model_comparison": "Model 1 (T1) is the clear winner. T1 adhered strictly to the requested text and successfully applied the requested emphasis on '不许' in a natural, commanding tone. Model 2 (T2), while expressive, failed the fundamental requirement of Content Accuracy by adding significant amounts of text ('不许啥', '一口都不能剩', etc.) that were not in the prompt. In a controllable TTS task, strict adherence to the script is a prerequisite for a high score. T1 demonstrates both control over the text and the paralinguistic feature, whereas T2 fails the text control.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

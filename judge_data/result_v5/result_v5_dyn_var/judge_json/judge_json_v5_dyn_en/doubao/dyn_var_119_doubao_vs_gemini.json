@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the audio in English, closely following the provided script. There is a very minor deviation where 'That's' is expanded to 'That is', but this does not impact meaning. In terms of paralinguistic compliance, the model performs excellently. The first segment ('Hmph, what do you know? That is utter nonsense.') is delivered with a clear scoff and a haughty, contemptuous tone, perfectly matching the 'contemptuous' instruction. The transition is distinct, and the second segment ('My apologies...') shifts to a much softer, slower, and sincere tone, effectively conveying 'polite' and 'apologetic' attitudes. The prosody is natural and the emotional shift is convincing.",
+    "reasoning_model_2": "The model fails strictly on Content Accuracy. The user provided an English sentence to read ('Hmph, what do you know?...'), but the model translated the content into Chinese ('哼，你懂什么？简直一派胡言...') and spoke it in that language. While the paralinguistic features (tone shift from angry to apologetic) are actually present in the Chinese speech, the complete deviation from the required script language constitutes a critical failure in following the 'read this sentence' command.",
+    "model_comparison": "Model 1 followed the instructions, delivering the English text with the required emotional shift from contempt to politeness. The performance was natural and accurate. Model 2 failed the primary requirement of Content Accuracy by translating the English script into Chinese instead of reading it as requested. Therefore, Model 2 receives a score of 0 due to the complete inconsistency with the script language.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

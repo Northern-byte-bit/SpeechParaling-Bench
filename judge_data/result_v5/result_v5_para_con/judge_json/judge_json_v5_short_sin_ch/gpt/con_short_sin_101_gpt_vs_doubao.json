@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 perfectly executes the user's command. The content '我就是觉得这个方案最好' is accurate. In terms of the core requirement—stressing '就是'—the model performs excellently. Between 0:00 and 0:01, the speaker noticeably raises the pitch and intensity on the word '就是', creating a strong emphatic tone (insistence). This aligns perfectly with the instruction to stress that specific word. The overall fluency is high, sounding like a natural human argument.",
+    "reasoning_model_2": "Model 2 generates the correct text content with high fluency and naturalness; the voice sounds very realistic. However, regarding the specific paralinguistic instruction to stress '就是', the model fails to comply effectively. In the segment 0:00-0:01, the word '就是' is spoken with standard, flat prosody, merging quickly into '觉得'. The acoustic prominence (loudness/pitch) actually falls more on the end of the sentence ('最好') or the phrase '这个方案', rather than the requested target word. Consequently, the specific control command was ignored.",
+    "model_comparison": "Model 1 followed the specific paralinguistic instruction ('stress 就是'), while Model 2 produced a natural-sounding sentence but ignored the specific stress placement. In Model 1, '就是' is the clear acoustic peak of the first phrase, exactly as requested. In Model 2, '就是' is unstressed. Therefore, Model 1 is the clear winner for Feature Control.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

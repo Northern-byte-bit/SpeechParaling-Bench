@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 successfully synthesizes the text content accurately (00:00-00:04), but it fails to incorporate the requested paralinguistic features. \n1. **Attitude**: The tone is flat and conversational (00:00-00:02), lacking the biting or mocking inflection required for sarcasm. It sounds like a genuine compliment rather than a sarcastic remark.\n2. **Pause**: The specific instruction for a 'clear pause after the word perfect' is ignored. The phrase 'truly perfect indeed' (00:00-00:02) is delivered as a continuous stream with no discernible break after 'perfect'.\n3. **Timbre**: The voice sounds somewhat neutral or deep, lacking the 'bright' quality requested. It does not stand out as having a distinctively clear or resonant high-frequency profile.",
+    "reasoning_model_2": "Model 2 demonstrates excellent control over the requested features while maintaining accurate content.\n1. **Attitude**: The model employs a slower pace and deliberate prosody to convey sarcasm effectively. The disjointed delivery ('Your plan is truly... perfect... indeed') mimics the use of air quotes or mocking emphasis, and the dismissive drop in pitch for 'I have nothing to say' (00:04-00:06) solidifies the sarcastic attitude.\n2. **Pause**: There is a very distinct and clear pause after the word 'perfect' (ending approx 00:02) before 'indeed' (starting approx 00:03), strictly adhering to the user's constraint.\n3. **Timbre**: The voice has a lighter, cleaner quality that fits the description of a 'bright' timbre, contrasting with the heavier or neutral tone often found in default settings.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. \n\n**Attitude**: Model 1 delivered a standard, neutral reading that failed to capture the sarcastic intent. Model 2 used pacing and emphasis to create a distinct, mocking persona that aligned perfectly with the prompt.\n\n**Pause**: This was an objective constraint. Model 1 rushed through the sentence, connecting 'perfect' and 'indeed'. Model 2 inserted a noticeable silence after 'perfect', demonstrating superior controllability.\n\n**Timbre**: Model 1's voice was generic and lacked the specific 'bright' character. Model 2 provided a voice with the requested tonal quality.\n\nOverall, Model 2 followed all specific instructions, while Model 1 essentially ignored them.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

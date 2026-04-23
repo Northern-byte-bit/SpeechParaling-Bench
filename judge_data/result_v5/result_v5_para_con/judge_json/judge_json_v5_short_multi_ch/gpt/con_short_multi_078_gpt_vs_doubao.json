@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio content '我们团队成功克服了所有挑战' is accurate (00:00-00:02). However, regarding the controllable features: 1. **音质 (Timbre):** The voice is a standard male voice, relatively high-pitched and thin, lacking the requested '浑厚' (deep/resonant) quality. It sounds more like a casual, young reading voice. 2. **重音 (Stress):** The delivery is fast and flat. There are no significant pauses or pitch changes to emphasize key words like '成功' (success) or '所有' (all). The sentence is rushed through as a single stream. 3. **认知状态 (Confidence):** While the speech is fluent, the rushed tempo and lack of projection make it sound casual rather than 'confident' or proud. It lacks the weight required for a statement about overcoming challenges.",
+    "reasoning_model_2": "The audio content matches the script perfectly with clear articulation (00:00-00:04). 1. **音质 (Timbre):** The voice has a noticeable depth and resonance ('浑厚'), sounding like a professional broadcaster or narrator, which fits the prompt well. 2. **重音 (Stress):** The model effectively uses pausing and prosody for emphasis. There is a distinct pause after '我们团队' (00:01), and strong stress placed on '成功' (success) and '所有' (all), giving the sentence weight and structure. 3. **认知状态 (Confidence):** The tone is commanding, steady, and declarative. The downward inflection at the end and the deliberate pacing convey a strong sense of confidence and accomplishment.",
+    "model_comparison": "Model 2 is significantly superior across all three dimensions. Regarding **音质**, T2 provides the requested deep/resonant quality, whereas T1 is a standard, lighter voice. Regarding **重音**, T2 uses appropriate pauses and emphatic stress on keywords to highlight the meaning, while T1 rushes through the sentence with a flat rhythm. Regarding **认知状态**, T2 conveys a sense of pride and unwavering confidence suitable for the content, while T1 sounds casual and hasty. T2 followed the specific style instructions much more accurately.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

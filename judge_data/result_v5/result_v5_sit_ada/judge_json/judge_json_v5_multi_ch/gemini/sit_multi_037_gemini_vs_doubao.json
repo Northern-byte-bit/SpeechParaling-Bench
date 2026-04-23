@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model effectively detects the high-arousal context of the user's input (implied by 'Scream' and 'Surprise'). At 00:00, it starts with a breathy, aspirated 'Wow' (哇) which immediately mirrors the user's shock. From 00:01 to 00:04, the speech rate accelerates ('快跟我说说', tell me quickly), and the pitch is dynamic and elevated, simulating genuine human curiosity and excitement. The content ('saw something incredible') logically infers the cause of the user's state. The paralinguistic strategy perfectly aligns with a user who is screaming in surprise by reciprocating with high-energy urgency and empathy.",
+    "reasoning_model_2": "The model correctly identifies the semantic content of the user's surprise ('听起来你很意外', Sounds like you are very surprised) at 00:00. However, the vocal delivery is completely flat, calm, and lacks any emotional variation. Throughout the clip (00:00-00:03), the pitch remains monotonous and the pace is standard, characteristic of a default TTS assistant. It fails to account for the 'Scream' non-verbal feature; responding to a scream with such low-arousal calmness creates a disconnect and lacks the necessary situational adaptation/empathy required by the prompt.",
+    "model_comparison": "Model 1 (T1) demonstrates superior situational adaptation compared to Model 2 (T2). T1 captures the essence of the user's 'Surprise' and 'Scream' by employing a paralinguistic strategy of high arousal, fast pace, and dynamic pitch, creating a natural and engaging interaction that feels like a shared emotional moment. T2, while semantically relevant, fails to adapt its vocal persona to the context, providing a generic and emotionally mismatched response to a user who is supposedly screaming. T1 creates an emotionally appropriate acoustic interaction, while T2 sounds indifferent.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

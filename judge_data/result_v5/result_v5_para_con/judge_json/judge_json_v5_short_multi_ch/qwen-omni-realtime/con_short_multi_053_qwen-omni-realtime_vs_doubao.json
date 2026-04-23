@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 successfully generates a 'whisper' (耳语) voice with a very evident breathy quality, lacking vocal cord vibration, which perfectly matches the volume requirement. The cognitive state (认知状态) is also well-rendered; the rapid, breathy delivery conveys a sense of high tension and nervousness ('紧张'). However, the model fails significantly in Content Accuracy. It hallucinates the phrase '过来一次' (likely reading the instruction '过来一词') at the beginning (0:00-0:02). Furthermore, it modifies the core sentence from '老师好像过来了一些' to '老师好像过来了' (0:04-0:05). Due to this text modification, the specific instruction to 'pause significantly after 过来' cannot be evaluated as the following words '了一些' are missing, destroying the context for the pause. Therefore, it scores high on style but fails the specific pause constraint due to content errors.",
+    "reasoning_model_2": "Model 2 fails the core Volume (音量) requirement. It does not use a whisper; instead, it uses a soft, phonated voice (normal vocal cord vibration), sounding more like a narrator reading a story than a character whispering in a tense situation. Regarding the Pause (停顿), the model reads the text '老师好像过来了一些' (0:02-0:04) fluently without the required significant pause after '过来'. The Cognitive State (认知状态) is somewhat dramatic but lacks the visceral nervousness requested, sounding too composed. Additionally, the model has severe Content Accuracy issues, adding '嘘' at the start and hallucinating a long continuation ('你听，脚步声在靠近...') after the target text.",
+    "model_comparison": "Model 1 is the clear winner in terms of the paralinguistic features requested, despite content errors. T1 accurately produces a 'whisper' and a 'nervous' tone, whereas T2 fails to whisper (using a normal voice) and sounds merely dramatic rather than nervous. Regarding the specific 'Pause' instruction, both models failed: T1 changed the text, removing the context for the pause, while T2 ignored the pause instruction entirely. However, T1's mastery of the difficult 'whisper' timbre and emotional state makes it superior for this specific Feature Control task.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 0,
+    "score_2_2": 0,
+    "winner_2": 0,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

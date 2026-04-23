@@ -1,0 +1,14 @@
+{
+    "sample_index": 10,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an evil tone: 'Foolish mortals, your fear will be my feast; tremble, for despair is about to descend!'",
+    "dimensions": [
+        "evil"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

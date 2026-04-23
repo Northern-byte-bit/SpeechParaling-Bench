@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio from Model 1 (00:00-00:02) perfectly adheres to the user's command. Regarding content, the phrase '糟了，时间不够了！' is articulated clearly and accurately. In terms of the first dimension '音高' (Pitch), the model generates a distinctly high-pitched voice, bordering on falsetto or a cartoon-like urgency, which aligns exactly with '高音'. For the second dimension '认知状态' (Cognitive State/Nervousness), the delivery is rapid, breathless, and high-energy. The pacing from 00:00 to 00:01 ('糟了') flows immediately into '时间不够了' without a relaxed pause, effectively conveying the requested 'nervous' (紧张) state. The overall expression is vivid and accurately captures the panic of running out of time.",
+    "reasoning_model_2": "The audio from Model 2 (00:00-00:02) fails to meet the specific paralinguistic requirements. While the content accuracy and general fluency are acceptable (the words are clear), the style is incorrect. Regarding '音高' (Pitch), the voice is in a standard, medium-to-low female range, completely ignoring the instruction for 'high pitch' (高音). For '认知状态' (Cognitive State), the delivery is slow and measured. There is a perceptible pause after '糟了' (00:00-00:01), and the tone of '时间不够了' (00:01-00:02) sounds resigned, disappointed, or sad rather than 'nervous' or 'tense'. It lacks the urgency and high arousal required by the prompt.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. The user explicitly requested a 'high-pitched' and 'nervous' delivery. Model 1 modified its prosody to produce a high-frequency, fast-paced, and urgent clip that perfectly matches the description of panic. Model 2, conversely, provided a standard TTS delivery that sounded calm, resigned, or slightly disappointed, with a lower pitch and slower tempo. Model 2 failed to incorporate the specific control tags requested by the user, whereas Model 1 followed them with high fidelity.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

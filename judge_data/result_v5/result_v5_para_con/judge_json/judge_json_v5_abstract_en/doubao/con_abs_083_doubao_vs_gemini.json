@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model completely failed to follow the primary instruction regarding Content Accuracy. The user requested the specific text: 'Investment carries risks. Although the prospects are tempting, we still need to remain vigilant about potential uncertainties.' However, Model 1 generated a completely different sentence: 'We need to be extremely careful and think twice before we make any decisions.' Although the meaning is related to caution, the textual content is entirely incorrect and does not match the script provided. According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0.",
+    "reasoning_model_2": "Model 2 achieved perfect Content Accuracy, reading the requested text word-for-word without errors. The Fluency and Naturalness are also high, with a clear, high-quality voice. However, regarding the Paralinguistic Compliance for 'cautious and conservative', the performance is weak. The tone adopted is bright, energetic, and somewhat casual—typical of a standard friendly text-to-speech assistant or a commercial advertisement. It lacks the gravity, slower pacing, lower pitch, or restrained modulation that characterizes a 'cautious' or 'conservative' attitude. The delivery sounds too optimistic and brisk for the subject matter of risk and vigilance. While it is fluent, it fails to capture the specific emotional prompt, landing it in the 'Major issues' category for the core feature.",
+    "model_comparison": "Model 1 failed the most basic criterion of Content Accuracy by generating completely different text than what was prompted (a paraphrase instead of a reading). This results in an automatic failure. Model 2 followed the text instructions perfectly and produced high-quality, fluent audio. Although Model 2 failed to effectively convey the specific 'cautious and conservative' paralinguistic features—opting instead for a standard, bright tone—it is objectively superior to Model 1 because it respected the script content. Model 1 is unusable due to the hallucinated text.",
+    "score_1_1": 0,
+    "score_2_1": 1,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 1,
+    "winner_2": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails to follow the paralinguistic instruction. Instead of generating the non-linguistic sound of a yawn, the model literally speaks the word 'Yawns' at the beginning of the audio (0:00-0:01). The subsequent text 'This lecture is so boring...' is delivered with a strained, whining tone that attempts to sound tired, but the core requirement to produce a non-linguistic vocalization (a yawn) is completely missed. By reading the stage direction as text, it violates the content accuracy relative to the intended effect and fails the feature control task entirely.",
+    "reasoning_model_2": "Model 2 successfully integrates the required non-linguistic vocalization. The audio begins with a distinct, natural-sounding yawn (0:00-0:02) before proceeding to the spoken text. The transition from the non-linguistic sound to speech is fluid. The text 'This lecture is so boring, it makes me yawn' is delivered clearly with a tone appropriate for the context (sounding bored/tired). The model correctly interpreted the instruction to perform the action rather than read it as text.",
+    "model_comparison": "Model 2 is the clear winner. The evaluation dimension is 'Non-Linguistic Vocalizations'. Model 1 failed significantly by reading the instruction 'Yawns' as the spoken word 'Yawns' instead of performing the sound. This is a hallucination of text where a sound effect was required. Model 2 correctly generated a realistic yawn sound followed by the target sentence. Therefore, Model 2 achieved the paralinguistic goal, while Model 1 failed completely.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

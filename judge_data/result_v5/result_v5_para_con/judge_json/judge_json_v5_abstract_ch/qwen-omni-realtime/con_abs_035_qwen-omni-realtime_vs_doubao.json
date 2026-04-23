@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the user's command regarding the script, producing the text '天呐，我，我们是不是迷路了？周围怎么全是黑漆漆的一片啊' (adding only a natural modal particle '啊' at the end). In terms of the required paralinguistic features: \n1. **Fear (恐惧)**: From 0:00 to 0:06, the speaker exhibits intense fear through heavy breathiness, pitch instability, and a tone verging on crying. The emotion feels visceral and immediate.\n2. **Trembling (颤抖)**: The vocal texture contains a distinct, consistent quiver or shakiness, especially noticeable on the prolonged vowels in '迷路了' and '一片'. This perfectly matches the 'trembling' instruction.",
+    "reasoning_model_2": "Model 2 fails significantly on **Content Accuracy**, hallucinating a large amount of text not requested by the user (e.g., '我手都在抖，根本看不到路...', etc.), transforming a single sentence into a paragraph. Regarding the paralinguistic features:\n1. **Fear (恐惧)**: While the tone is somewhat anxious, it lacks the raw intensity of T1. It sounds more like a dramatic reading or narration of a scary story rather than a person genuinely experiencing terror.\n2. **Trembling (颤抖)**: The voice is surprisingly stable. While the text *says* 'my hands are shaking', the voice itself does not exhibit the requested vocal trembling or quivering quality. The delivery is too clean and controlled.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. \n\n**Content Accuracy:** Model 1 adhered to the script (with negligible deviation), whereas Model 2 hallucinated significant amounts of extra text, violating the user's explicit command to read a specific sentence.\n\n**Feature Control (Fear & Trembling):** Model 1 delivered a high-fidelity performance of a terrified, trembling person. The vocal shaking was distinct and natural. Model 2, conversely, provided a performance that was merely 'worried' without the specific physical characteristic of 'trembling' in the voice. Model 2 relied on the *content* of the extra text to convey fear rather than the *paralinguistic* delivery.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

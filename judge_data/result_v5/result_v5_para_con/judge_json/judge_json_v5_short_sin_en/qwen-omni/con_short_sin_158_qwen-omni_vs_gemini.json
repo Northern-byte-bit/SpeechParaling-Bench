@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully captures the requested cognitive state of 'nervousness' throughout the entire clip. From 0:00 to 0:02 ('This is my first...'), there is a palpable hesitation and breathiness in the voice, indicating anxiety. The pause before 'time meeting him' feels natural for someone second-guessing themselves. The final phrase 'what should I say?' (0:03-0:05) delivers a higher pitch and shaky prosody characteristic of worry and uncertainty. The pacing is deliberately uneven, and the vocal quality is timid. Content is accurate, and fluency is high within the context of the character acting.",
+    "reasoning_model_2": "The model generates the audio with high fidelity and clarity, but it fails to incorporate the requested 'nervous tone'. The delivery from 0:00 to 0:03 is confident, bright, and steady. The pacing is regular, and the pitch contour suggests a cheerful or neutral declarative statement rather than an anxious internal monologue. There are no signs of hesitation, breathiness, or shakiness associated with nervousness. While the content is accurate and the speech is fluent, it completely lacks the required paralinguistic feature.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering a performance that clearly conveyed nervousness through breathiness, hesitation, and pitch modulation. Model 2 ignored the paralinguistic instruction, delivering a neutral/confident reading that contradicts the requested cognitive state. Model 1 is the clear winner for successfully implementing the feature control.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

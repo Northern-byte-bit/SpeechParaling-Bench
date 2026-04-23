@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio from Model 1 (00:00-00:02) successfully generates the content '他真的走了，我好难过' with high accuracy. Regarding the paralinguistic features: \n1. **Pitch (音高):** The model adopts a distinctively deep, resonant, and low-frequency vocal profile. This strictly adheres to the 'low tone' (低音) command, creating a heavy, somber atmosphere.\n2. **Emotion (情感):** The sadness is conveyed through a suppressed, breathy delivery and the deep timbre itself, which adds a layer of solemnity. Although the duration is short (2s), the delivery feels intimate and resigned, fitting the text well.",
+    "reasoning_model_2": "The audio from Model 2 (00:00-00:03) accurately produces the text content. Regarding the paralinguistic features:\n1. **Pitch (音高):** The voice is male and sits in a lower range relative to a female voice, but it sounds like a standard baritone rather than a stylistically manipulated 'low tone' or 'deep bass'. It lacks the specific deep resonance observed in T1.\n2. **Emotion (情感):** The model performs well here, using a slightly slower pace (3s duration implies reasonable pausing) and clear stress on '难过' to convey distress. The emotion is vivid and clearly identifiable as sadness.",
+    "model_comparison": "Both models accurately synthesize the text and convey the emotion of sadness effectively. However, T1 demonstrates superior control over the specific 'Pitch' constraint. The command requested a 'low tone' (低音). T1 produced a voice with a noticeably deeper, bass-heavy timbre that stylistically matched the request perfectly. T2 provided a standard male voice which, while naturally lower than a female voice, did not exhibit the distinct 'low tone' manipulation requested, sounding more like a default voice acting sad. On the 'Emotion' dimension, both are successful (3), though T2's pacing is slightly better, T1's timbre enhances the perception of sadness, resulting in a tie for emotion but a clear win for T1 on pitch feature control.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0
+}

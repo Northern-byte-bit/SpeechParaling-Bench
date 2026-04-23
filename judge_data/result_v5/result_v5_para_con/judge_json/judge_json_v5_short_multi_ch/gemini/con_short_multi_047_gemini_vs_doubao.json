@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the content '哟，我们的大学霸又在图书馆' (00:00-00:02). Note that the final particle '啊' is either missing or extremely clipped, making the sentence feel incomplete compared to the script. Regarding the 'High Pitch' (音高) requirement, the voice is a standard female timbre with a neutral pitch range; there is no discernible effort to raise the pitch for effect or style as requested. Regarding 'Attitude' (态度 - 调侃/Teasing), the delivery is flat and sounds like a standard news or reading broadcast. The intonation is declarative rather than playful or bantering. The '哟' at the start lacks the sliding tone typical of teasing, and the overall rhythm is too regular and mechanical for the intended emotional context.",
+    "reasoning_model_2": "Model 2 generates the full text '哟，我们的大学霸又在图书馆啊' (00:00-00:04) with clear articulation of all words, including the final particle. Regarding 'High Pitch' (音高), the model adopts a distinct, elevated pitch, sounding almost like a falsetto or a specifically high-keyed character voice, which aligns perfectly with the instruction to use a 'high tone'. Regarding 'Attitude' (态度 - 调侃/Teasing), the performance is excellent. The '哟' (00:00) is elongated with a varying pitch contour. The stress on '大学霸' (00:01) and the rising, prolonged intonation on '啊' at the end (00:03-00:04) create a vivid, playful, and slightly mocking atmosphere suitable for teasing a friend. The prosody is highly expressive.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 in both dimensions. \n\n1. **Pitch (音高):** Model 1 uses a standard female voice with no specific pitch modification. Model 2 explicitly alters the voice to a high-pitched, almost falsetto tone, strictly adhering to the user's constraint. \n\n2. **Attitude (态度):** Model 1 provides a neutral, flat reading that fails to convey 'teasing'. Model 2 delivers a highly expressive performance with exaggerated intonation, elongated vowels, and a playful tone that perfectly matches the 'teasing/bantering' requirement. \n\nAdditionally, Model 1 had a minor issue with text completeness (clipping the final particle), whereas Model 2 was complete.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

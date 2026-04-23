@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model's generated content strictly adheres to the user's provided script ('年轻人，遇到困难不要轻易放弃...'). The text is accurate with no omissions or hallucinations (00:00-00:11). In terms of the paralinguistic feature '浑厚' (rich/deep/resonant timbre), the delivery matches the requested serious and encouraging tone typically associated with this sound quality. The pacing is stable and appropriate for the message.",
+    "reasoning_model_2": "The model fails completely in the 'Content Accuracy' dimension. The user requested the model to read a specific sentence ('年轻人，遇到困难不要轻易放弃...'), but the model generated a completely different, improvised motivational speech ('年轻人啊，遇到困难别轻言放弃... 别怕路长... 满身是金...'). According to the evaluation criteria, if the voice content is clearly inconsistent with the script, the score must be 0. Due to this fundamental error in instruction following, the paralinguistic performance cannot redeem the generation.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested paralinguistic features. Model 2 failed the most basic constraint of the task by rewriting the text entirely (hallucination/improvisation). Since Content Accuracy is a prerequisite for a valid response, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

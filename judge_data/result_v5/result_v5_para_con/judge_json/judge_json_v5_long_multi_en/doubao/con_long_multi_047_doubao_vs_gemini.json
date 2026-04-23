@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model successfully generates the audio with high content accuracy, including the final word 'Honestly!' which is present in the script. Regarding the paralinguistic features: \n1. **Pitch**: The model strictly adheres to the 'high pitch' constraint. The voice is noticeably shifted to a higher register (00:00-00:08), distinct from a standard speaking voice. While this introduces a slightly artificial quality, it satisfies the prompt's specific request perfectly.\n2. **Attitude**: The 'teasing' tone is clearly conveyed through exaggerated prosody. The elongation of 'Oh' (00:00), the playful rhythm on 'busy bee' (00:01), and the sharp, emphatic rising intonation on the questions (00:04-00:06) and the final exclamation demonstrate a mocking, playful attitude fitting the description. The expression is vivid and clearly identifiable.",
+    "reasoning_model_2": "The model produces a very natural-sounding voice with high fluency, but it fails significantly on several fronts:\n1. **Content Accuracy**: The audio cuts off after '...didn't tell us?', completely omitting the final word 'Honestly!' required by the script.\n2. **Pitch**: The pitch is within a standard, comfortable female range (00:00-00:06). It does not exhibit the 'high pitch' requested in the prompt; it sounds like a neutral baseline.\n3. **Attitude**: The tone is friendly, polite, and conversational. It lacks the specific 'teasing' or playful nuance requested. The delivery of the questions sounds like genuine inquiries rather than playful jabs. Consequently, the target attitude is not effectively conveyed.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. While Model 2 offers superior naturalness in terms of audio fidelity (sounding less robotic), it fails to follow the user's specific instructions. Model 2 omits part of the text ('Honestly!'), fails to raise the pitch, and delivers a neutral tone instead of a teasing one. Model 1, conversely, strictly follows the control commands: it maintains a high pitch throughout and adopts a distinctively teasing prosody with playful intonations, while also completing the full text. Therefore, Model 1 is much better at feature control.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on content accuracy and feature control. \n\n1. **Content Accuracy**: While the model starts with the requested sentence \"呃，我最讨厌这种黏糊糊的东西了\", it hallucinates and adds a long continuation (\"啧，真让人反胃，每碰一下...\" etc.) that was not requested. \n\n2. **Pitch (音高)**: The user requested a 'low tone' (低音). The generated audio uses a standard female voice that is not low; in fact, the pitch rises frequently to express annoyance (e.g., at 00:08 \"烦死了\"). It completely ignores the low pitch constraint. \n\n3. **Rhythm (节奏)**: The user requested a 'dragging rhythm' (拖沓). The model speaks with a relatively fast, crisp, and fluid pace, typical of an angry complaint. There is no dragging or elongation of syllables whatsoever. \n\n4. **Emotion (情感)**: The model does convey 'disgust' (厌恶) and annoyance effectively through tone and breathiness (e.g., the sigh at 00:00 and 00:03). However, because the pitch and rhythm are wrong, the specific *type* of disgust (weary, heavy) is lost, replaced by an energetic, petulant disgust.",
+    "reasoning_model_2": "Model 2 follows all instructions perfectly.\n\n1. **Content Accuracy**: The model reads exactly the requested text: \"呃……我……最……讨厌……这种……黏……糊……糊……的……东西……了。\" with no additions or omissions.\n\n2. **Pitch (音高)**: The voice is deep and low (00:00-00:07), strictly adhering to the 'low tone' (低音) requirement.\n\n3. **Rhythm (节奏)**: The rhythm is extremely slow and dragging. The model elongates syllables and inserts pauses between words (e.g., \"黏...糊...糊...\" at 00:04-00:06), perfectly capturing the 'dragging' (拖沓) characteristic.\n\n4. **Emotion (情感)**: The combination of the deep voice, the groaning delivery, and the slow pace creates a vivid expression of visceral 'disgust' (厌恶). It sounds like someone so repulsed they barely want to expend the energy to speak.",
+    "model_comparison": "Model 2 is the superior model across all dimensions. Model 1 failed to follow the specific paralinguistic constraints: it used a normal/high pitch instead of 'low', and a fast rhythm instead of 'dragging'. Furthermore, Model 1 hallucinated a large amount of extra text, violating content accuracy. Model 2, in contrast, adhered strictly to the script and nailed the specific style requested: a deep, slow, dragging voice that conveys disgust. Model 2's performance is a perfect example of controllable speech generation, while Model 1 behaved more like a role-playing chatbot that ignored the specific style constraints.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

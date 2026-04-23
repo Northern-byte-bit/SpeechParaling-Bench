@@ -1,0 +1,18 @@
+{
+    "sample_index": 74,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用正常音量，中性地重读“六十分”说：请大家注意，本次考试的及格线是六十分，请务必牢记这个标准。任何低于此分数的结果都将视为不合格，需要进行补考，并且补考机会只有一次。",
+    "dimensions": [
+        "音量",
+        "情感",
+        "重音"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 0,
+    "winner_position_3": 1
+}

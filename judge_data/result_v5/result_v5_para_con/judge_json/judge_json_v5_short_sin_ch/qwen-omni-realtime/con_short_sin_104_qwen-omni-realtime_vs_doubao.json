@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the text instruction, speaking the sentence '皮肤护理，每天都要坚持才有效。' without any errors. Regarding the required feature 'Emphasis' (重音) on '每天' (every day), the model effectively highlights this phrase. The speaker uses a combination of increased loudness, a slight pause before the word, and emphatic intonation on '每天' (around 00:01-00:02) to convey the importance of daily persistence. The prosody is natural, and the stress placement aligns perfectly with the user's command.",
+    "reasoning_model_2": "Model 2 fails the 'Content Accuracy' criterion completely. The user commanded the model to say a specific sentence: '皮肤护理，每天都要坚持才有效。'. However, Model 2 generated a long, improvised paragraph ('皮肤护理不是一天两天的事...'), completely deviating from the provided script. According to the evaluation standards, if the voice content is clearly inconsistent with the script or the meaning is completely changed due to major errors, the score must be 0.",
+    "model_comparison": "There is a stark contrast in performance. Model 1 followed the instructions perfectly, delivering the correct text with the requested emphasis on '每天'. Model 2 suffered from a severe hallucination or instruction-following failure, generating entirely different content than what was requested. Consequently, Model 2 receives a 0 score for content mismatch, making Model 1 the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

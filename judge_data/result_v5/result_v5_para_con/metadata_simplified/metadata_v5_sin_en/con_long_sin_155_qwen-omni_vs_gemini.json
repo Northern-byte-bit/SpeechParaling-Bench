@@ -1,0 +1,14 @@
+{
+    "sample_index": 155,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a helpless tone: 'We've tried various methods to solve this technical problem, but to no avail; it seems we can only put it aside for now, which is truly frustrating. Perhaps it's time to seek external help.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

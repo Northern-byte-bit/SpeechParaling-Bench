@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately delivers the content with a high degree of naturalness and fluency. The pacing is deliberately slow and measured (00:00 - 00:10), effectively creating a solemn atmosphere appropriate for a commemoration. The speaker employs significant pauses between phrases (e.g., after 'commemorate', 'heroes', 'lives') which enhances the gravity of the statement. The pitch of the voice is lowered, possessing a resonant and breathy quality that satisfies the 'deep' requirement. The intonation is flat to downward-sloping, avoiding cheerful lilts, which aligns perfectly with a 'solemn' tone. The emotional weight is consistent throughout the clip.",
+    "reasoning_model_2": "Model 2 delivers the correct text, but the paralinguistic execution fails to meet the specific requirements. Regarding the 'deep' constraint, the voice used is a higher-pitched, thinner female voice (00:00 - 00:07) rather than a deep or resonant one; it sounds like a standard TTS voice without pitch modification. Regarding the 'solemn' constraint, the delivery lacks the necessary gravitas. There is an unnatural pause at the beginning (00:00 'We... are here'), and the prosody feels slightly disjointed rather than grave. The tone is relatively light and conversational, lacking the weight and seriousness required for commemorating fallen heroes. It does not convey the intended emotion effectively.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. \n\nFor the 'deep' dimension, Model 1 utilizes a voice with a noticeably lower register and resonance, while Model 2 uses a higher-pitched voice that completely ignores the instruction to be deep.\n\nFor the 'solemn' dimension, Model 1 employs a slow tempo, deliberate pausing, and a respectful, grave intonation that perfectly fits the context of the sentence. Model 2's pacing is awkward (specifically the start) and the overall tone is too light and casual, failing to capture the seriousness of the text. Model 1 follows the stylistic instructions perfectly, whereas Model 2 largely ignores them.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

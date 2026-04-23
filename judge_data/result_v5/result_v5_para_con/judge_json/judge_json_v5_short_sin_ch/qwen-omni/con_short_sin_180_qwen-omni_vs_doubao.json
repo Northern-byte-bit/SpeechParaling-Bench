@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio correctly synthesizes the text content '这个讲座真没意思，听得我直打哈欠' with accurate pronunciation and fluency. However, regarding the specific paralinguistic instruction '带哈欠的方式' (with a yawn), the model fails to generate an actual yawn sound or significantly modify the speech to simulate the acoustic characteristics of yawning (e.g., changes in resonance, articulation). The tone is merely slightly bored or flat, lacking the specific non-verbal vocalization requested. There is no distinct 'yawn' event in the audio.",
+    "reasoning_model_2": "The audio begins with a very distinct and natural non-verbal yawning sound (0:00-0:02) before commencing the speech. The subsequent speech '这个讲座……真没意思' is delivered with a lethargic, heavy tone that perfectly matches the physiological state of someone who has just yawned or is yawning. The integration of the non-verbal sound with the spoken content is seamless, and the overall expression is vivid and completely aligns with the prompt '带哈欠的方式'.",
+    "model_comparison": "Model 2 is the clear winner. The prompt explicitly requested the audio to be generated 'with a yawn' (Non-verbal vocalization). Model 1 merely read the text with a slightly bored tone but failed to include any audible yawn sound or specific yawn-like vocal characteristics. Model 2, on the other hand, generated a realistic, explicit yawning sound at the beginning and maintained a consistent sleepy prosody throughout the sentence, demonstrating superior control over non-verbal vocalizations and paralinguistic features.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

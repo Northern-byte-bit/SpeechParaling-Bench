@@ -1,0 +1,14 @@
+{
+    "sample_index": 45,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a slow pace and suddenly speeding up to a fast pace: 'The movie opening was very slow-paced, the camera slowly zoomed in, as if everything was peaceful. Suddenly! A gunshot broke the silence, and the plot took a sharp turn!'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

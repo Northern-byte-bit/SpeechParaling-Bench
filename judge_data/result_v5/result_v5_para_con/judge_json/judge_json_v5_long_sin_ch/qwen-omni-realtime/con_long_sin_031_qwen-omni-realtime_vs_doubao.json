@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user provided specific text to be spoken: '咳咳...昨晚加班到太晚，又吹了风，嗓子有点不舒服。今天恐怕不能给大家讲太多话了，请大家理解一下。'. However, Model 1 completely rewrote the content to '咳咳...昨晚加班熬得太晚，还被风吹着，嗓子现在有点哑，今天怕是没法多说几句话，大家多都包涵啊，真的不好意思。'. According to the evaluation criterion, this constitutes a major error in Content Accuracy as the voice content is clearly inconsistent with the script. Due to this fundamental failure in following the text command, the evaluation of the 'Hoarseness' feature is severely compromised. The model acted more like a chatbot paraphrasing a response than a controllable TTS model. Consequently, it receives the lowest score.",
+    "reasoning_model_2": "Model 2 strictly adhered to the requested text script: '咳咳...昨晚加班到太晚，又吹了风，嗓子有点不舒服。今天恐怕不能给大家讲太多话了，请大家理解一下。', ensuring perfect Content Accuracy. In terms of the paralinguistic feature 'Hoarseness' (沙哑的音质), the model successfully integrated the cough ('咳咳') at 00:00 naturally. The subsequent speech maintains the requested raspiness and strained vocal quality throughout the sentence, effectively conveying the physical state of a sore throat and the apologetic tone required by the context. The prosody is natural, and the feature control is consistent.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the primary constraint of Content Accuracy by hallucinating/paraphrasing the text script entirely, which is a critical failure in a controlled generation task (0 score). Model 2 followed the text instruction verbatim and successfully applied the requested 'hoarse' voice quality paralinguistic feature to the correct content.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 76,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请在“重要”一词后明显停顿地说：这份报告包含了我们公司未来三年的发展规划，其中每个数据和策略都非常重要，需要各位同事认真研读。",
+    "dimensions": [
+        "停顿"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

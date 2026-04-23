@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 adheres strictly to the Content Accuracy requirement, reading the target sentence exactly as scripted. Regarding Paralinguistic Compliance, the model effectively conveys a 'Confident' Cognitive State through a steady, firm, and professional tone. For 'Stress', the model places heavy emphasis on key points by utilizing distinct pauses and slower pacing (e.g., before 'successfully' at 00:01, 'overcame' at 00:02, and 'all' at 00:03). While this successfully fulfills the prompt's request for emphasis, it slightly compromises 'Fluency and Naturalness', making the speech sound somewhat stilted or mechanical rather than perfectly indistinguishable from human speech. The 'Timbre' is clear and reasonably deep, fitting the 'rich voice' description acceptable.",
+    "reasoning_model_2": "Model 2 fails the Content Accuracy criterion completely. The prompt explicitly instructed the model to 'read this sentence', but the model generated a 25-second speech containing extensive unrequested text (hallucinations), such as 'No exceptions, no setbacks, no doubts' (00:05 onwards) and 'We conquered them' (00:11). According to the detailed scoring standard, a score of 0 must be assigned when 'Voice content is clearly inconsistent with the script' or contains major errors/additions. Consequently, despite the audio actually possessing a very expressive and rich tone, the critical failure to follow the text constraint results in a score of 0 across all dimensions.",
+    "model_comparison": "Model 1 followed the user's instructions regarding both the text script and the requested paralinguistic features (emphasis, confidence). Model 2, while sounding emotionally expressive, failed the fundamental task of reading the specific sentence by hallucinating a large amount of extra content. Per the evaluation criterion, content inconsistency results in a minimum score. Therefore, Model 1 is the clear winner across all dimensions.",
+    "score_1_1": 2,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 2,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 2,
+    "score_2_3": 0,
+    "winner_3": 1
+}

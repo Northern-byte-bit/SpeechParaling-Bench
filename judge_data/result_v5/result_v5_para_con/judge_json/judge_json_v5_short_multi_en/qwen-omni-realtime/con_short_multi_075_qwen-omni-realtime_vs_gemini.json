@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 failed significantly on Content Accuracy. Instead of reading the requested sentence strictly, it hallucinated a lengthy continuation ('...now, you're standing right in the middle like you own the place, and I'm not even asking nicely'). Regarding the paralinguistic features: \n1. **Attitude**: The added text conveys a rude attitude semantically, and the delivery is colloquial/impatient, but it fails to deliver the specific rude command requested on the target text. \n2. **Non-Linguistic Vocalizations**: The requested coughing sound is completely absent. \n3. **Volume**: The delivery appears to be standard conversational speech (a run-on sentence) rather than the requested 'loud' projection.",
+    "reasoning_model_2": "Model 2 followed all instructions perfectly. \n1. **Content Accuracy**: The spoken text matches the script exactly ('Hey! Don't block the way, move aside!'). \n2. **Non-Linguistic Vocalizations**: The audio begins with distinct coughing sounds as requested. \n3. **Attitude**: The delivery is abrupt and commanding, effectively conveying a rude tone. \n4. **Volume**: The projection and emphasis on 'Hey!' and the command phrasing demonstrate a loud volume consistent with the prompt.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 failed the fundamental instruction to read specific text (Content Accuracy failure) by adding significant hallucinated dialogue. Furthermore, Model 1 completely missed the 'coughing' constraint (Non-Linguistic Vocalizations) and did not clearly demonstrate 'loudness'. Model 2 successfully integrated the coughing sound, maintained the exact text, and delivered it with the requested rude and loud paralinguistic features.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 104,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a nervous tone initially, gradually transitioning to a helpless tone: 'The car suddenly broke down, what should I do? I barely made it for this one... Oh well, it seems I'll just have to wait for the next one.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

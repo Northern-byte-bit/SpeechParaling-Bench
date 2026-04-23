@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content 'Attention everyone, the meeting is about to start!'. However, regarding the core paralinguistic requirement 'loudly volume', the audio fails significantly. The delivery (00:00-00:03) is notably soft, calm, and lacks projection. It sounds more like a polite, intimate reminder spoken in a quiet room rather than an announcement meant to grab the attention of a group. The tone expresses the opposite of 'loudly', leaning towards a soft/calm volume.",
+    "reasoning_model_2": "The model accurately generates the text content. regarding the 'loudly volume' requirement, the audio succeeds (00:00-00:03). The speaker uses a projected voice with raised pitch and energy consistent with making an announcement to a room of people. The volume is perceived as louder due to the prosodic stress and projection used on 'Attention everyone', which effectively simulates shouting or speaking loudly to be heard by a crowd. It fits the context and the prompt perfectly.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 completely fails the constraint to speak with a 'loudly volume', instead delivering the line in a soft, calm, and low-energy manner that contradicts the context of getting everyone's attention. Model 2 understands the paralinguistic instruction, utilizing vocal projection, higher pitch, and increased energy to simulate a loud announcement, adhering to the user's command effectively.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio for the text 'Run, there is a snake' (0:00-0:02). \n1. **Content Accuracy:** The model expands the contraction 'There's' to 'There is', which is a minor deviation from the script but preserves meaning. \n2. **Emotion:** The speaker adopts a louder, urgent tone, but lacks genuine acoustic markers of fear such as trembling, breathiness, or instability. It sounds more like a stern warning than a fearful reaction. \n3. **Pitch:** The pitch is elevated compared to a neutral reading, fitting a general sense of urgency, but does not reach the 'high pitch' associated with extreme panic or screaming. \n4. **Rhythm:** The pacing is fast, effectively satisfying the 'rushed rhythm' requirement.",
+    "reasoning_model_2": "The model generates the audio for the text 'Run, there is a snake' (0:00-0:02). \n1. **Content Accuracy:** The model also expands 'There's' to 'There is', a minor deviation. \n2. **Emotion:** The audio demonstrates high expressiveness. The voice has a noticeable tremor and breathy quality, vividly conveying a state of panic and fear. \n3. **Pitch:** The pitch is pushed very high, entering a falsetto or screaming register. This exaggerated pitch change aligns perfectly with the user's request for a 'high pitch' reading of a scary sentence. \n4. **Rhythm:** The delivery is frantic and rapid, perfectly matching the 'rushed' description.",
+    "model_comparison": "Both models fail slightly on strict content accuracy by expanding 'There's' to 'There is', but this does not significantly hinder the evaluation of paralinguistic features. \nIn terms of **Emotion**, Model 2 is the clear winner. Model 1 provides a generic urgent tone, while Model 2 incorporates specific acoustic textures (tremor, instability) that define the 'fearful' emotion. \nRegarding **Pitch**, Model 2 achieves a much higher register, sounding like a shriek, whereas Model 1 stays within a normal, albeit stressed, vocal range. Model 2's interpretation is more aligned with the extreme nature of the prompt. \nFor **Rhythm**, both models successfully deliver the line with speed. While Model 2 feels slightly more frantic (enhancing the rushed feel), Model 1 is sufficiently fast to qualify as 'fully correct' for the rhythm constraint. Thus, rhythm is a tie, but Model 2 wins on the other two dimensions.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

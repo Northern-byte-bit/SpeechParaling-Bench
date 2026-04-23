@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user explicitly requested the model to include a 'smacking lips' sound (represented by the character '啧') at the beginning of the sentence. Analyzing the audio for Model 1, the playback starts directly with the word '今天' (Today) at 0.0s. The model completely omitted the character '啧' and the associated non-verbal sound effect. While the remaining sentence '今天这顿饭吃得真舒服' is spoken clearly with a pleasant tone, the failure to produce the specific non-verbal vocalization requested in the prompt constitutes a major error in controllable generation features.",
+    "reasoning_model_2": "Model 2 successfully interprets the command to include a non-verbal sound. At the very beginning of the audio (0.0s - 0.4s), there is a distinct and natural 'tsk' or lip-smacking sound corresponding to the character '啧'. This is followed by the sentence '今天这顿饭吃得真舒服啊' delivered with a relaxed and satisfied tone that matches the content. Although there is a slight addition of the modal particle '啊' at the end which was not in the strict text, the core requirement of generating the specific 'non-verbal vocalization' (smacking lips) is perfectly executed and sounds very authentic.",
+    "model_comparison": "The evaluation focuses on the 'Non-verbal vocalization' (非语言发声) dimension. Model 1 completely failed to generate the requested 'smacking lips/tsk' sound, omitting the character '啧' entirely from the audio. Model 2, on the other hand, generated a clear, crisp, and natural-sounding lip-smack at the beginning of the sentence, perfectly adhering to the 'Feature Control' instruction. Model 2 demonstrates superior capability in handling paralinguistic commands.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the provided script with perfect content accuracy. Regarding the 'Age' dimension, the voice exhibits a higher pitch and softer timbre characteristic of a young child or a female voice actor portraying a child (00:00-00:06). The tone is appropriately sad and plaintive. However, regarding 'Non-Linguistic Vocalizations', the model interprets the text 'boohoohoo' literally as spoken words (00:04-00:06) rather than converting it into a natural non-linguistic sound of crying or sobbing. While the delivery is sad, it lacks the visceral, non-verbal elements of genuine crying (sobs, sharp intakes of breath). Therefore, the age representation is decent, but the non-linguistic vocalization is interpreted linguistically.",
+    "reasoning_model_2": "Model 2 fails significantly in Content Accuracy. It hallucinates a large amount of text not present in the script ('I'm crying so hard it's not fair why did it break? Please fix it I love it so much'), violating the core instruction. Regarding 'Age', the voice sounds highly synthetic and mechanically pitch-shifted, resembling a 'chipmunk' effect rather than a natural child's voice. It lacks human-like fluency. For 'Non-Linguistic Vocalizations', it rushes through the word 'boohoohoo' (00:02) without any crying characteristics, and the subsequent hallucinated text explains the emotion rather than embodying the sound. Due to the severe content error and unnatural audio quality, it scores lowest across the board.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. Model 1 adheres to the text constraints perfectly and provides a natural-sounding, albeit slightly stylized, child-like voice. Model 2 fails completely due to significant hallucinations (adding several sentences) and a highly unnatural, robotic voice quality. In terms of Non-Linguistic Vocalizations, while Model 1 reads the onomatopoeia literally rather than generating a sound effect, it still conveys the intended sadness, whereas Model 2 rushes through it and loses the paralinguistic focus entirely amidst its hallucinations.",
+    "score_1_1": 2,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 1,
+    "score_2_2": 0,
+    "winner_2": 1
+}

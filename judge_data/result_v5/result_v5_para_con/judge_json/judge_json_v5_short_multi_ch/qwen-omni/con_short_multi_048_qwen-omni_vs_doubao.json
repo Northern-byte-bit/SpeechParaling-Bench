@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the script without any hallucinations. \n\n1. **Voice Quality (音质):** The model successfully adopts a 'hoarse' (沙哑) and exhausted tone. The voice sounds breathy, lower in pitch, and carries a sense of fatigue that perfectly matches the semantic context ('throat is hoarse'). The vocal fry and breathiness are consistent throughout the utterance.\n2. **Pause (停顿):** The model executes the instruction 'pause obviously after 昨天' very well. The word '昨天' ends at approximately 0:01, followed by a clear, audible breath/silence lasting until 0:03 before continuing with '我加班到很晚'. This pause is natural and emphasizes the fatigue.",
+    "reasoning_model_2": "Model 2 fails significantly in content accuracy, which affects the evaluation of the control features.\n\n1. **Voice Quality (音质):** The model does attempt a hoarse/whispery timbre. The voice is soft and breathy, which aligns with the 'hoarse' requirement to some extent. However, the expression feels slightly less grounded than Model 1.\n2. **Pause (停顿):** The model completely fails this instruction. Instead of performing a silence/pause after '昨天', it literally reads the instruction word '停顿' (Pause) out loud at timestamp 0:01-0:02 ('Zuótian, *Tingdun*, wǒ...'). This is a severe hallucination error where the stage direction is treated as spoken text.",
+    "model_comparison": "Model 1 is the clear winner. It perfectly executes both the paralinguistic requirements (hoarse voice and specific pause) and maintains 100% content accuracy. The voice sounds naturally tired and the pause is dramatically effective. Model 2 commits a critical error by reading the instruction keyword '停顿' (meaning 'pause') as part of the spoken text instead of executing the action of pausing. While Model 2's voice timbre is arguably hoarse, the failure to distinguish instructions from script renders the 'Pause' dimension a complete failure and severely degrades the overall quality.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

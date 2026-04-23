@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model attempts to convey the teasing tone but fails significantly in **Content Accuracy**. Specifically, at 00:00 it replaces 'Oh' with a laugh/breath sound ('Huh'), changes 'the busy bee' to 'a busy bee', and most critically, hallucinates two complete additional sentences from 00:04 to 00:09 ('I was starting to think you'd vanished into your hive for good. What took you so long?'). While the **Fluency** is high and the **Attitude** (teasing/playful) is expressed naturally in the delivered segments (e.g., the upward inflection on 'face'), the substantial addition of text violates the script constraints heavily, constituting a major issue.",
+    "reasoning_model_2": "The model demonstrates perfect **Content Accuracy**, reciting the script exactly as requested from 00:00 to 00:06. In terms of **Fluency**, the speech is clear, though slightly slow and deliberate. regarding **Paralinguistic Compliance** (Attitude), the model successfully implements a teasing tone. The elongation of 'Oh' (00:00-00:01) and the prosody on 'busy bee' (00:02-00:03) and 'finally' (00:03-00:04) effectively convey a sarcastic, mocking, yet playful attitude consistent with the prompt.",
+    "model_comparison": "Model 2 wins decisively due to strict adherence to the text script. While Model 1 actually possesses a more natural and highly expressive voice quality that fits the 'teasing' description very well, its failure to stop after the requested sentence (hallucinating extra dialogue) is a critical error in instruction following. Model 2 provides a correct, compliant generation where the requested attitude is clearly discernible and the content is accurate.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

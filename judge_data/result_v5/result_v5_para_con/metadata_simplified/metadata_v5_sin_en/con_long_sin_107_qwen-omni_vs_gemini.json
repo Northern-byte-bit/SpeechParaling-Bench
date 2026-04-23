@@ -1,0 +1,14 @@
+{
+    "sample_index": 107,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with heavy stress on the word 'must': 'This assignment must be completed and submitted today, otherwise the teacher will directly deduct a lot of participation points, the consequences are very serious, you absolutely cannot be careless.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

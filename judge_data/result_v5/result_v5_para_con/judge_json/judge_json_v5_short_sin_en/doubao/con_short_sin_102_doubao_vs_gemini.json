@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the content of the script with good fluency and naturalness. Regarding the specific instruction to emphasize the word 'here', the performance is partially effective. At timestamp ~1.8s, the word 'here' is pronounced clearly, but the prosody follows a standard declarative contour where the stress is shared with or even overshadowed by the final word 'there'. The pitch and intensity on 'here' do not stand out significantly enough to constitute a strong 'emphasis' as requested for contrastive stress. It sounds like a neutral reading rather than a directed command.",
+    "reasoning_model_2": "The model generates the audio with high fidelity and naturalness. It adheres strictly to the paralinguistic instruction. At timestamp ~1.7s, the word 'here' is delivered with a noticeable increase in pitch and intensity, effectively highlighting it. Furthermore, the subsequent phrase 'not over there' is delivered with a slightly lower volume and flatter pitch, which reinforces the contrast. The stress on 'here' is unambiguous and aligns perfectly with the communicative intent of the prompt.",
+    "model_comparison": "Both models produce high-quality, fluent speech with accurate text. However, Model 2 (T2) demonstrates superior control over prosody in response to the specific 'emphasis' instruction. While Model 1 (T1) provides a natural but neutral reading where the stress is not particularly focused on 'here', Model 2 successfully manipulates the pitch and loudness to make 'here' the focal point of the sentence, creating the intended contrast with 'there'. Therefore, Model 2 is the clear winner for the Stress dimension.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2
+}

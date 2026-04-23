@@ -1,0 +1,14 @@
+{
+    "sample_index": 76,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用在“听”一词后明显停顿的方式说：请你仔细听，我再说一遍。",
+    "dimensions": [
+        "停顿"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

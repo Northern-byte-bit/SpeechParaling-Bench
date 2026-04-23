@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. The user requested the specific sentence '总算完成了，可算松了一口气。', but the model hallucinated a much longer paragraph ('...呼，这一口气可算松下来了，心里的石头总算落地了...'). According to the scoring criteria, voice content clearly inconsistent with the script warrants a score of 0. Regarding the paralinguistic feature, while it included a 'Hoo' sound (00:02) resembling a sigh, it was embedded in the unauthorized extra text and sounded more like a dramatic reading than a natural interaction.",
+    "reasoning_model_2": "Model 2 demonstrates excellent performance. First, the Content Accuracy is perfect; it reads exactly the requested text with no additions or omissions. Second, regarding the 'Non-verbal vocalization' (sighing), the model generates a very distinct, natural exhalation/sigh sound at the very beginning (00:00-00:01) before speaking. The subsequent speech maintains a weary but relieved tone that aligns perfectly with the sigh. The execution is natural and meets the 'Fully correct' standard.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed to follow the text instructions, generating a long hallucinated script that deviated entirely from the prompt's constraints. Model 2 followed the text instructions perfectly and successfully integrated the required non-verbal sighing sound naturally at the beginning of the audio, enhancing the expressiveness as requested.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

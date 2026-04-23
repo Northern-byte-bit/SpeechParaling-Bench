@@ -1,0 +1,14 @@
+{
+    "sample_index": 56,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a shouting manner and gradually decreasing the volume to a whisper: 'What is going on?! Didn't I tell you not to touch my stuff?! Forget it, can't find it anyway.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

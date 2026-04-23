@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately follows the command. The content matches the script perfectly: 'The key lies in communication, we must remain open.' regarding the paralinguistic feature (Stress), the word 'key' (approx. 00:00-00:01) is pronounced with distinct emphasis, utilizing higher pitch, increased volume, and elongated duration compared to the surrounding words. The prosody is natural, and the stress is clearly perceivable as requested.",
+    "reasoning_model_2": "The model fails to execute the command entirely. Instead of reading the requested sentence with the specified stress, the model output is a meta-response: 'Sure, which word should I stress?' (00:00-00:02). This indicates a failure in instruction following, as the prompt explicitly stated the sentence and the word to stress. Therefore, the content is completely incorrect.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested stress on the word 'key'. The emphasis was natural and effective. Model 2 failed the task completely by asking a clarifying question instead of generating the audio, ignoring the explicit instruction provided in the prompt. Consequently, Model 1 receives a full score, while Model 2 receives a zero for failing to generate the target content.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

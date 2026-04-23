@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. The user requested the specific sentence: 'Ugh, I really don't want to get up this morning. Just let me lie here for ten more minutes, okay? Just ten?'. However, the model generated: 'Ugh, I'm not even going to pretend that I didn't just mumble my way through that.' This is a complete hallucination of the script, sounding more like a blooper than the requested text. According to the evaluation criteria, if the content is clearly inconsistent with the script, the score must be 0, regardless of the paralinguistic tone (which was arguably lazy, but irrelevant due to the content error).",
+    "reasoning_model_2": "Model 2 follows the script perfectly with no errors or omissions (Content Accuracy). In terms of the 'Lazy' dimension, the audio begins with a convincing groan/sigh ('Ugh' at 00:00). The delivery is slow, slightly dragged out, and lacks energy, perfectly mimicking the lethargy of someone waking up (e.g., the elongation on 'really' at 00:01 and 'ten' at 00:07). For the 'Casual' dimension, the tone is conversational and intimate, lacking any stiffness or formal enunciation. The prosody is natural, resembling a genuine morning complaint. The vocal fry and breathy quality add to the realism.",
+    "model_comparison": "Model 2 is the undisputed winner. Model 1 completely failed to generate the correct text, producing a meta-commentary about mumbling instead of the target script. This constitutes a critical failure in Content Accuracy, resulting in a score of 0. Model 2, conversely, delivered the text accurately and successfully applied the requested 'lazy and casual' paralinguistic features. The voice in Model 2 sounded genuinely tired, groggy, and relaxed, fitting the context of the sentence perfectly.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

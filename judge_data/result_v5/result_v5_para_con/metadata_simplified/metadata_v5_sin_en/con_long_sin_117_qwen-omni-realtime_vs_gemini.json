@@ -1,0 +1,14 @@
+{
+    "sample_index": 117,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a happy emotion: 'That's fantastic! Our project has finally passed the final review, and the client is extremely satisfied with our proposal. Everyone on the team put in tremendous effort, so tonight's on me, let's all go celebrate and relax!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

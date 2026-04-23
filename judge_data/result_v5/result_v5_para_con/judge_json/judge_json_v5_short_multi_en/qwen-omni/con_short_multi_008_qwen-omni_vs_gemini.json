@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The user requested the model to read a specific English sentence: 'Why are you always like this?!'. However, Model 1 generated the speech in Chinese ('为什么你总是这样', timestamp 00:00-00:01). This constitutes a major content accuracy failure as it did not adhere to the script provided in the prompt. Additionally, regarding the paralinguistic features, the tone used is a normal conversational pitch with a hint of mild complaint, completely failing to meet the requirements for 'angry emotion' and 'shouting manner'. The volume is standard and not elevated. Due to the complete failure in content language and the lack of requested features, the score is penalized heavily.",
+    "reasoning_model_2": "Model 2 accurately follows the text script in English with perfect content accuracy and natural fluency. Regarding 'Emotion' (00:00-00:02), the model successfully conveys a strong sense of anger and exasperation, particularly stressing words like 'Why' and 'Always'. The emotional delivery is vivid and matches the context of a heated argument. Regarding 'Volume', the voice is projected and significantly louder than a neutral speaking voice, effectively simulating a 'shouting manner' or yelling at someone close by. The expression is distinct and accurate to the prompt.",
+    "model_comparison": "Model 1 fails fundamentally by speaking the wrong language (Chinese instead of English) and failing to apply the requested paralinguistic features (it is quiet and relatively calm). Model 2 correctly speaks English, accurately interprets the 'angry' emotion with a convincing, exasperated tone, and adopts a 'shouting manner' by raising the voice volume and projection significantly. Model 2 is superior in all aspects.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 2,
+    "winner_2": 2
+}

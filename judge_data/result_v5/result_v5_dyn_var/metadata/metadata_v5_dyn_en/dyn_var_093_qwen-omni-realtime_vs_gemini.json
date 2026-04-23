@@ -1,0 +1,14 @@
+{
+    "sample_index": 93,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a confused tone initially, gradually transitioning to a confident tone: 'How much sugar does the recipe say? Hmm, I'm a bit confused... But it's okay, I'll go by experience, and it'll definitely taste the best!'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

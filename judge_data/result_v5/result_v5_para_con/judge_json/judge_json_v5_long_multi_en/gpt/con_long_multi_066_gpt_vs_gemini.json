@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates a male voice that clearly sounds like an adult, satisfying the Age dimension. In terms of Content Accuracy, there is a minor expansion of the contraction 'I'm' to 'I am', but the rest of the text is accurate. Regarding Cognitive State (Hesitant), the model performs exceptionally well. There are distinct, weighty pauses (e.g., between 'education' and 'I think', and before 'I am worried') and a slow, deliberate pace that conveys genuine hesitation and concern. The prosody is tentative, perfectly matching the requested tone. The Volume is consistent and falls within the normal range, appropriate for a serious conversation.",
+    "reasoning_model_2": "The model generates a female voice that sounds like an adult, satisfying the Age dimension. Regarding Content Accuracy, the model expands 'I'm' to 'I am' and significantly hallucinates an additional sentence at the end: 'What do you think?'. This deviation impacts the fidelity to the script. For Cognitive State (Hesitant), while the pacing is somewhat slower than a happy speech, it flows quite smoothly and sounds more like a standard, slightly concerned reading rather than a truly 'hesitant' one. The rhythm lacks the tentative stops and starts characteristic of hesitation. The Volume is normal and clear.",
+    "model_comparison": "Both models successfully convey the Adult Age and Normal Volume, resulting in a tie for those dimensions. However, Model 1 is the clear winner for Cognitive State. Model 1 utilizes pacing, pauses, and intonation to create a very convincing hesitant and worried affect. Model 2, by contrast, delivers the lines with too much fluidity and confidence to be considered truly hesitant, sounding more like a standard reading. Additionally, Model 2 fails on content accuracy by adding an unrequested sentence ('What do you think?') at the end, which further detracts from the specific prompt adherence, although the scoring focus here is on the paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

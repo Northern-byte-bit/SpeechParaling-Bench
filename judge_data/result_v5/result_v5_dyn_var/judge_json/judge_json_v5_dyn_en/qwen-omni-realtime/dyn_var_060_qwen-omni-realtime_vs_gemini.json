@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails completely on Content Accuracy. Instead of reading the target script ('Actually, I've always known that secret...'), the model incorporates the paralinguistic instructions into the speech itself (e.g., saying 'quietly, almost like a whisper', 'Loudly, clearly') and hallucinates a significant amount of extra narrative ('but now, I'm letting it rise...', 'the truth is mine to speak'). This 'instruction leakage' and improvisation makes the audio content inconsistent with the user's strict command to read a specific sentence.",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, reciting the target script exactly as requested with no additions or omissions. The timestamps indicate a paced delivery (roughly 3 seconds per segment) corresponding to the three clauses of the sentence: 'Actually, I've always known that secret' (00:00-00:03), 'Now, I decide to stop hiding' (00:03-00:06), and 'I will tell everyone the truth' (00:06+). This segmentation supports the requested gradual volume increase (Quiet -> Building -> Loud) without the instruction leakage observed in Model 1. The performance is fluent and adheres to the prompt constraints.",
+    "model_comparison": "Model 1 receives a score of 0 because it failed the fundamental requirement of Content Accuracy by reading the stage directions and hallucinating a story instead of reading the provided sentence. Model 2 followed the content instructions perfectly. Therefore, Model 2 is the clear winner.",
+    "score_1": 0,
+    "score_2": 3,
+    "winner": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content accurately matches the script 'Him? Still wants to win?'. In terms of paralinguistic features, Model 1 successfully integrates the 'quietly' constraint with the 'contemptuous' tone. The delivery is breathy, hushed, and low-energy (00:00-00:03), resembling a stage whisper or someone speaking disdainfully behind another's back. This approach effectively captures the 'Attitude' of contempt through a weary, disbelief-laden delivery. The 'Volume' is distinctively low and whispered, strictly adhering to the user's command to read 'quietly'. The prosody is slow and deliberate, enhancing the dramatic effect of the disdain.",
+    "reasoning_model_2": "The audio content is accurate to the text. However, Model 2 fails significantly in the requested paralinguistic dimensions. Regarding 'Attitude', the delivery sounds like a standard, bright, inquisitive reading (00:00-00:03) typical of neutral TTS. While it captures the questioning intonation, it lacks any perceptible emotional layer of contempt, scorn, or disdain; it sounds merely curious or surprised. Regarding 'Volume', the model completely ignores the instruction to read 'quietly'. The audio is projected at a standard, full conversational volume with no attempt to hush the voice or whisper.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. For 'Attitude', Model 1 interprets the combination of 'quietly' and 'contemptuous' as a hushed, disdainful whisper, effectively conveying the emotional nuance of talking down about someone or gossiping. Model 2 provides a generic, high-pitched questioning tone that lacks negative valence. For 'Volume', Model 1 strictly adheres to the constraint by generating a whispered/breathy audio, whereas Model 2 produces standard conversational volume, failing the prompt's specific instruction.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

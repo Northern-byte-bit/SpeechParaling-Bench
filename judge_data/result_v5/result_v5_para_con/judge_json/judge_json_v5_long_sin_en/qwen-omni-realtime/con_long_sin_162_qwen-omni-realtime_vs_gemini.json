@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly in Content Accuracy. It paraphrases the script extensively (e.g., adding 'scattered', changing 'It's embarrassing just thinking about it' to 'but just thinking about it makes me blush', and adding 'promise' at the end). Regarding the target feature 'Non-Linguistic Vocalizations', the model merely reads the text 'Haha' literally (00:00-00:01) with an energetic, anime-style character voice, rather than generating actual non-linguistic laughter sounds. There is no insertion of natural laughter or breathiness characteristic of the requested feature.",
+    "reasoning_model_2": "The model demonstrates excellent performance. It correctly interprets the text 'Haha' as a prompt for the target feature, generating a natural, realistic non-linguistic laugh from 00:00 to 00:02 instead of reading the word. The speech that follows maintains a natural, amused prosody ('smiled speech') consistent with the context, with subtle breathiness (e.g., around 00:13). Content Accuracy is high, with only a minor expansion of the contraction 'It's' to 'It is', which does not alter the meaning or flow.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 fails to follow the script verbatim (hallucinating/paraphrasing several phrases) and fails to generate the required non-linguistic vocalization, offering only a literal reading of the onomatopoeia. Model 2 successfully generates a realistic laugh sound, integrates it naturally at the start, and maintains the appropriate paralinguistic tone throughout the clip while adhering closely to the text.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with correct content '喂！你能听到我吗？我们在这里！'. \n\n1. **Volume (音量):** The volume is elevated and sounds energetic (0.0s-3.0s), approximating a 'shouting' intensity, but it feels more like a loud, excited nearby exclamation rather than a projected shout intended for distance.\n2. **Speed (语速):** The model completely fails the 'slowly' (缓慢) instruction. The phrase '你能听到我吗' (0.6s-1.8s) is spoken at a standard, conversational, or even slightly fast pace. There is no elongation of syllables characteristic of a slow shout.\n3. **Stress (重音):** While there is natural intonation, the 'emphatic' (强调) quality is limited to standard conversational stress. Because the speed is fast, the emphasis feels light rather than heavy or commanding.",
+    "reasoning_model_2": "The model generates the audio with correct content. \n\n1. **Volume (音量):** The model perfectly captures 'shouting volume'. The acoustic characteristics (projection, slight vocal strain, and resonance) imply the speaker is shouting across a distance to be heard, matching the context of 'Can you hear me?'.\n2. **Speed (语速):** The instruction 'slowly' (缓慢) is followed exceptionally well. The total duration is much longer (~7s). The model elongates the vowels significantly, e.g., 'Weeeei' (0.0s-1.5s) and 'Tiiiing daaaao' (2.0s-3.5s), mimicking how one naturally slows down speech when shouting to ensure clarity.\n3. **Stress (重音):** The 'emphatic' (强调) requirement is met fully. Each word is punched out with distinct force and separation, particularly '喂', '听', '吗', and '在'.",
+    "model_comparison": "Model 2 is significantly superior across all dimensions. \n\nRegarding **Volume**, while Model 1 is loud, Model 2 captures the specific physical characteristics of a shout (projection) much better. \n\nRegarding **Speed**, there is a stark difference. Model 1 ignored the 'slowly' instruction and spoke at a normal/fast pace. Model 2 correctly interpreted that shouting to someone far away requires slowing down and elongating syllables, resulting in a very natural and compliant performance. \n\nRegarding **Stress**, Model 2's slow pace allowed for heavy, distinct emphasis on every key syllable, whereas Model 1's stress was merely conversational. Model 2 effectively simulated the scenario, whereas Model 1 just read the text loudly.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

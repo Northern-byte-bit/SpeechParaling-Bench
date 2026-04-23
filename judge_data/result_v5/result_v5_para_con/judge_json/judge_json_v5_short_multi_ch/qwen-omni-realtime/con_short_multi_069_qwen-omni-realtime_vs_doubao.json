@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 perfectly follows the user's instructions. \n1. **Content Accuracy:** The spoken text \"忙了一天，终于可以休息了\" matches the script exactly.\n2. **Non-verbal vocalization:** At [0:00-0:01], there is a distinct, natural exhaling sound (sigh) before speaking, fulfilling the \"sigh\" requirement.\n3. **Volume:** The entire sentence is spoken in a whisper/very low volume, accurately adhering to the \"小声\" (quiet/low volume) constraint.\n4. **Cognitive State:** The prosody is slow, breathy, and weak, effectively conveying a sense of deep \"fatigue\" (疲劳) and relief.",
+    "reasoning_model_2": "Model 2 fails significantly on content accuracy and specific constraints.\n1. **Content Accuracy:** The model completely hallucinates the text. Instead of the requested script, it generates a long, colloquial complaint: \"唉，终于能歇口气了，腿都快散架了...\" This is a critical failure according to the evaluation criteria (Score 0 for inconsistent content).\n2. **Non-verbal vocalization:** It does start with a vocalized sigh \"唉\" (Ai) at [0:00-0:01], but this is part of the hallucinated text.\n3. **Volume:** The volume is normal to loud, failing the \"小声\" (quiet) instruction.\n4. **Cognitive State:** The tone is expressive and somewhat energetic (complaining style) rather than the requested low-energy \"weary\" state.",
+    "model_comparison": "Model 1 is the clear winner. It accurately speaks the target text and flawlessly integrates all requested paralinguistic features (sigh, low volume, fatigue). Model 2 fails strictly on Content Accuracy by rewriting the script entirely. Furthermore, Model 2 fails the 'Volume' constraint (speaking too loudly) and the 'Cognitive State' constraint (sounding too energetic/dramatic rather than weary). Therefore, Model 1 receives full scores, while Model 2 receives 0 due to the critical content error and failure to follow constraints.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

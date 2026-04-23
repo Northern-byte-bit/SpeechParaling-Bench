@@ -1,0 +1,14 @@
+{
+    "sample_index": 144,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a doubting tone: 'You caught thirty pounds of fish by yourself yesterday? That sounds a bit exaggerated, didn't you perhaps count other people's catch? I don't remember you being that good at fishing.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

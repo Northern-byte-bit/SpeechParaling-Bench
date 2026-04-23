@@ -1,0 +1,14 @@
+{
+    "sample_index": 102,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with indignant emotion: 'This fraudulent behavior is a moral decay and must be severely punished to give the victims justice!'",
+    "dimensions": [
+        "indignant"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

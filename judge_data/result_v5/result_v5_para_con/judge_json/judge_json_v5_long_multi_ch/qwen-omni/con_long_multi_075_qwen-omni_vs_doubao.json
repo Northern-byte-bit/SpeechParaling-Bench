@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 fails to execute the non-verbal instruction. Instead of generating a coughing sound, it literally reads the text '(咳嗽)' as '咳嗽哎' (Ke Sou Ai) at the beginning (0:00-0:02). Regarding the attitude, the voice is soft, gentle, and calm, sounding more like a mild complaint or a normal conversation rather than a 'rude' or aggressive tone. It completely misses the requested 'rude' persona. For volume, the speech is delivered at a standard conversational level, ignoring the instruction to speak 'loudly'. The overall performance fails to meet any of the specific paralinguistic requirements.",
+    "reasoning_model_2": "Model 2 successfully executes the paralinguistic instructions. It begins with a realistic sound of clearing the throat/coughing (0:00-0:01) instead of reading the text, satisfying the non-verbal requirement. The attitude is distinctly rude and aggressive; the speaker shouts 'Wei!' (0:01) and maintains an angry, scolding tone throughout the clip, perfectly matching the 'rude' descriptor. The volume is noticeably elevated, simulating someone shouting or yelling in a public space, which fulfills the 'loudly' requirement. The delivery is natural and highly expressive.",
+    "model_comparison": "There is a stark contrast between the two models. Model 1 failed to understand the meta-instruction for the sound effect, reading the prompt text '(咳嗽)' aloud as words, whereas Model 2 correctly generated the actual non-verbal sound of coughing. In terms of attitude and volume, Model 1 provided a soft, polite reading that was the exact opposite of the prompt's request for 'rude' and 'loud' speech. Model 2, conversely, provided a vivid, high-energy, angry, and loud performance that perfectly aligned with the persona of someone shouting rudely in public. Model 2 is superior in all dimensions.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

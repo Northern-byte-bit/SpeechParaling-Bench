@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text content accurately with high fluency and no audio artifacts. However, regarding the core requirement of 'disgusted emotion', the performance is poor. The tone at 00:00-00:02 ('Is this food spoiled?') is inquisitive but sounds polite, bright, and neutral rather than repulsed. The phrase 'It looks disgusting' at 00:02-00:03 is delivered with a standard reading tone, lacking the visceral qualities of disgust such as a sneer, roughness in the voice, or sharp downward inflections. It sounds like a helpful assistant reading a sentence about disgust rather than a person feeling it.",
+    "reasoning_model_2": "The model generates the text accurately. The expression of the 'disgusted' emotion is clearly discernible. The speaker uses a lower pitch and a rougher, more grounded vocal texture that aligns with negative valence. Specifically, the delivery of 'It looks disgusting' (00:02-00:03) features a heavy, downward inflection and a tone of genuine repulsion. The pacing and prosody feel natural for someone observing something unappetizing. The emotional target is met effectively.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 in the specified dimension of 'Emotion'. Model 1 fails to modulate its tone away from a standard, neutral/cheerful TTS delivery, resulting in a mismatch between the command and the output. Model 2 successfully incorporates the paralinguistic features of disgust, such as lower pitch, darker timbre, and appropriate intonation, making the audio sound authentic to the context of the sentence.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

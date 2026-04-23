@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The speech content matches the script '就凭他？还想赢？' accurately. Regarding the paralinguistic features: \n1. **Volume (音量)**: The command requires a 'low volume' (小声). However, the generated audio is spoken at a standard, bright conversational volume (0.0s-1.5s). It lacks the suppressed, quiet, or whispering quality typically associated with '小声'. \n2. **Attitude (态度)**: The command asks for 'disdain' (轻蔑). The model produces a tone that is inquisitive and slightly light-hearted, perhaps sounding like a casual doubt, but it lacks the heavy, biting, or cold emotional weight of disdain. The voice sounds too young and cheerful, failing to capture the negative valence of the target emotion.",
+    "reasoning_model_2": "The speech content is accurate. Regarding the paralinguistic features: \n1. **Volume (音量)**: The model successfully lowers the projection of the voice. From 0.0s to 1.8s, the audio sounds like a mutter or a stage whisper, distinctively quieter than normal speech, which fits the 'low volume' requirement perfectly. \n2. **Attitude (态度)**: The expression of 'disdain' is vividly conveyed. The speaker uses a breathy, scoffing tone. The pause after '他' (around 0.8s) and the disbelief in the intonation of '还想赢' strongly suggest scorn. The vocal fry and airiness contribute to a feeling of looking down on the subject.",
+    "model_comparison": "Model 2 (T2) is significantly superior to Model 1 (T1) in both dimensions. \n\nFor **Volume**, T2 actually modifies the vocal projection to sound like a quiet whisper/mutter, whereas T1 maintains a standard, full-voiced conversational volume that ignores the 'low volume' instruction. \n\nFor **Attitude**, T2 captures the essence of 'disdain' through a scoffing, breathy delivery that sounds like a genuine reaction of contempt. T1, conversely, sounds too bright, clear, and neutral/inquisitive, missing the emotional target completely. T2 creates a coherent performance where the low volume enhances the secretive, gossipy nature of the disdain.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

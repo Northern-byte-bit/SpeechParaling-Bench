@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 attempts to follow the instructions for 'extremely high pitch' and 'loudly'. \n1. **Content Accuracy**: The generated audio misses the initial interjection '啊！' (Ah!), starting directly with '再来一首' (00:00). The rest of the script is accurate. This is a minor omission.\n2. **Paralinguistic Compliance**: \n   - **Pitch (音高)**: The model successfully generates an extremely high-pitched voice, resembling a falsetto or a 'chipmunk' effect, consistent throughout the clip (00:00-00:06). This aligns well with the request for 'extremely high pitch'.\n   - **Volume (音量)**: The voice is projected and energetic, sounding like someone shouting or screaming at a concert, which satisfies the 'loudly' requirement.\n3. **Naturalness**: While the voice sounds processed due to the extreme pitch shift, the prosody mimics the excitement of a fan shouting effectively.",
+    "reasoning_model_2": "Model 2 generates a standard reading of the text.\n1. **Content Accuracy**: The content is perfectly accurate, including the initial '啊' (00:00-00:04). \n2. **Paralinguistic Compliance**: \n   - **Pitch (音高)**: The audio uses a standard female voice with normal pitch. It does not exhibit the requested 'extremely high pitch' modification. The tone is enthusiastic but within a normal speaking range.\n   - **Volume (音量)**: The volume is consistent with a normal conversation or reading, failing to portray the requested 'loudly' (shouting) characteristic.\n3. **Naturalness**: The speech is fluent and natural for a standard reading, but fails to capture the specific intense atmosphere requested.",
+    "model_comparison": "Model 1 is the clear winner in terms of feature control. Although Model 1 has a minor content omission (missing the initial 'Ah!'), it successfully executes the challenging paralinguistic commands of 'extremely high pitch' and 'loud volume', effectively simulating a fan screaming. Model 2 provides a grammatically correct but generic reading that completely ignores the specific 'extremely high pitch' and 'loud' instructions, resulting in a flat performance relative to the prompt's demands. Therefore, Model 1 is superior for following the control constraints.",
+    "score_1_1": 2,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 2,
+    "score_2_2": 1,
+    "winner_2": 1
+}

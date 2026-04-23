@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates audio that perfectly follows the text script '你看这件裙子是不是很漂亮？我一眼就看中了它的颜色和设计。我觉得穿上它去参加派对一定会是全场的焦点呢！'. In terms of the core requirement '音高' (Pitch), the model successfully adopts a significantly higher pitch than a standard male speaking voice, utilizing a falsetto or head voice technique effectively throughout the entire clip (00:00-00:10). The high pitch creates an excited and lively tone that matches the content well. The speech is fluent and natural, with no artifacts.",
+    "reasoning_model_2": "The model generates audio that is mostly accurate to the text, but omits the final particle '呢' (ending at '焦点' instead of '焦点呢'), which constitutes a minor content error. Regarding the core requirement '音高' (Pitch), the model completely fails to follow the instruction. The audio is delivered in a standard, medium-to-low range male voice (00:00-00:11) with no attempt to raise the pitch or simulate a 'high pitch' voice. While the fluency is good, the lack of feature control is a major failure.",
+    "model_comparison": "Model 1 followed the instruction '用高音说' (Speak with high pitch) perfectly, altering the fundamental frequency of the voice to be distinctively high while maintaining naturalness and expressiveness. Model 2 ignored the pitch instruction entirely, producing a standard male voice in a normal register. Additionally, Model 2 omitted the final character of the script. Therefore, Model 1 is the superior model for this specific paralinguistic task.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with a clear happy tone, characterized by a brighter timbre and a relaxed pace, effectively conveying the sense of relief and joy. Key expressive segments occur throughout the short clip (00:00-00:03). However, regarding Content Accuracy, the model hallucinates/adds the word 'Yeah' at the very beginning (00:00), which is not part of the requested script '我考试通过了！终于可以放松了。'. While the emotion 'Happy' is correctly expressed (Paralinguistic Compliance), the addition of unprompted words prevents it from being a perfect generation.",
+    "reasoning_model_2": "The model strictly adheres to the requested script with perfect Content Accuracy, pronouncing '我考试通过了，终于可以放松了' without any additions or omissions. In terms of Paralinguistic Compliance for 'Happy' (情感), the audio demonstrates high energy, increased volume, and a fast, excited pace (00:00-00:02), sounding like a genuine shout of joy and relief after an exam. The prosody is very natural and the emotional intensity is vivid and spot-on.",
+    "model_comparison": "Both models successfully convey the 'Happy' (情感) emotion. Model 1 adopts a sweeter, more relaxed happy tone, while Model 2 adopts a more energetic, ecstatic tone. However, Model 1 fails the strict Content Accuracy criterion by adding the word 'Yeah' at the start of the sentence. Model 2 follows the text perfectly while delivering a highly expressive and natural performance that fits the context of passing an exam very well. Therefore, Model 2 is the superior model due to its adherence to the text constraints and vivid emotional expression.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2
+}

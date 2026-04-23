@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio accurately transcribes the text content '我的玩具坏了，再也修不好了'. However, regarding the paralinguistic requirements: \n1. **Non-verbal vocalizations (Crying):** The model completely fails to incorporate any crying sounds. The delivery is a standard, calm speaking voice with no sobbing, trembling, or breathiness associated with crying.\n2. **Volume:** The volume is conversational and relatively soft/calm, failing the instruction to use 'loud volume' (大声). \n3. **Emotion:** The emotional tone is largely neutral, perhaps with a very slight hint of resignation, but lacks the requested 'sadness'. It sounds like a factual statement rather than an emotional expression of loss.",
+    "reasoning_model_2": "The audio accurately follows the text script. \n1. **Non-verbal vocalizations (Crying):** The model successfully integrates crying into the speech. From 0:00 to the end, the voice is trembling, shaky, and includes the distinctive acoustic characteristics of sobbing while speaking.\n2. **Volume:** The audio is projected with high energy and loudness, effectively simulating a child crying out loud, which matches the 'loud volume' instruction perfectly.\n3. **Emotion:** The emotion of 'sadness' is vividly conveyed through the pitch variations, the crying tone, and the elongated vowels (e.g., '坏了', '好了'), creating a convincing portrayal of distress.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 across all three dimensions. Model 1 essentially ignored the stylistic instructions, producing a flat, standard reading. Model 2 followed all instructions explicitly: it sounded like a person crying (Non-verbal), the projection was forceful and loud (Volume), and the tone was distinctly heartbroken (Emotion). Model 2 represents a 'Fully correct' execution, whereas Model 1 fails to meet the core paralinguistic requirements.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

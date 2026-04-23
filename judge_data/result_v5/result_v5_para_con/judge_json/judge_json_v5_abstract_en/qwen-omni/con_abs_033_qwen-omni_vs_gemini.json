@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model accurately reproduces the text content 'Cheating is a serious violation of academic integrity and will not be tolerated under any circumstances.' without errors. In terms of fluency and naturalness, the speech is excellent; the pacing is deliberate and measured, mimicking a human authority figure giving a warning. Regarding the paralinguistic features: \n1. **Serious**: The tone (0:00-0:07) is consistently grave, low-pitched, and stern. The speaker uses a falling intonation at the end of the sentence that conveys finality and authority, perfectly matching the 'serious' requirement.\n2. **Earnest**: The emphasis on 'serious violation' (0:01-0:03) and 'not be tolerated' (0:04-0:06) demonstrates a sincere conviction and intensity, effectively capturing the 'earnest' dimension.",
+    "reasoning_model_2": "The model generates the text content accurately. The fluency is generally good, sounding like a standard high-quality TTS voice. However, regarding the paralinguistic features: \n1. **Serious**: The tone (0:00-0:06) is surprisingly light, higher-pitched, and possesses a somewhat 'bouncy' or friendly rhythm. It sounds like a pleasant assistant reading a fact rather than a stern warning. It fails to convey the gravity required for a 'serious' tone.\n2. **Earnest**: Because the delivery is casual and light, it lacks the weight and sincerity associated with being 'earnest'. The prosody does not reflect the severity of the message, resulting in a mismatch between the requested style and the output.",
+    "model_comparison": "Model 1 (T1) is the clear winner across both dimensions. T1 adopts a persona that is authoritative, stern, and deliberate, perfectly aligning with the command to be 'serious and earnest'. The use of lower pitch, slower tempo, and firm articulation enhances the gravity of the message. In contrast, Model 2 (T2) utilizes a default, friendly, and somewhat lighthearted tone that contradicts the content's severity. T2 fails to modulate its prosody to match the requested negative/stern emotional state, resulting in a delivery that sounds too casual for a warning about academic integrity.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

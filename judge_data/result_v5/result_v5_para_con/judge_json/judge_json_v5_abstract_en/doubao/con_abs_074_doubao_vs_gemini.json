@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the content accurately with no pronunciation errors. However, the delivery lacks the requested paralinguistic features. The tone is calm, polite, and relatively slow-paced (spanning roughly 5 seconds), which contradicts the 'impatient' instruction. The intonation on 'How much longer do we have to wait?' sounds like a genuine, patient query rather than a complaint. Similarly, the second sentence 'I have so many other things to deal with!' is read with a neutral declarative tone, lacking the 'irritable' edge or frustration expected from the text's context.",
+    "reasoning_model_2": "The model accurately reproduces the text script. The delivery successfully captures the requested paralinguistic features. The pacing is noticeably faster (spanning roughly 4 seconds), effectively conveying a sense of urgency and 'impatience'. The tone carries a distinct emotional weight of frustration and annoyance, particularly in the dragging of vowels or sharper attack on words, which aligns well with being 'irritable'. The prosody sounds naturally fed up, fitting the persona of someone who is tired of waiting.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Regarding 'impatience', Model 2 uses a faster pace and urgency that naturally conveys the feeling of being pressed for time, whereas Model 1 is too slow and relaxed. Regarding 'irritability', Model 2 adopts a frustrated, complaining tone that matches the command, while Model 1 remains polite and neutral. Model 2 effectively modulates prosody to express the emotion, while Model 1 essentially performs a standard text-to-speech reading without specific emotional coloring.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with high content accuracy, strictly following the text 'Project progress, must be completed today.' The paralinguistic features are analyzed as follows: \n1. **Emotion**: The tone is professional and neutral throughout the clip (00:00-00:03), satisfying the 'neutral emotion' requirement. \n2. **Stress**: The model places emphasis on the word 'today' (00:02-00:03). This is achieved primarily through a slight elongation of the vowel and a preceding micropause implied by the comma in the script. While the emphasis is perceptible, it feels somewhat reliant on the sentence structure rather than a distinct prosodic 'punch' or pitch accent, making it sound slightly standard rather than intentionally emphasized.\n3. **Volume**: The volume is consistent and falls within the normal range throughout the recording.",
+    "reasoning_model_2": "The model produces a very natural-sounding audio that aligns with the content requirements. \n1. **Emotion**: The emotional tone is effectively neutral, avoiding any unnecessary excitement or negativity, fitting the 'neutral emotion' criteria perfectly (00:00-00:03). \n2. **Stress**: The emphasis on 'today' (00:02-00:03) is handled excellently. The model uses a clear pitch accent and slightly increased intensity on the target word without disrupting the natural flow of the sentence. This creates a vivid contrast that highlights the deadline effectively.\n3. **Volume**: The volume is stable, clear, and maintains a normal level consistent with the command.",
+    "model_comparison": "Both models successfully follow the core command instructions regarding content, volume, and emotion. They both maintain a neutral tone and normal volume effectively. The distinguishing factor lies in the 'Stress' dimension. Model 1 (T1) correctly emphasizes 'today', but does so in a way that feels slightly more mechanical, relying on a pause and duration stretch that is typical of standard TTS prosody. Model 2 (T2), however, integrates the emphasis more naturally using pitch and dynamic stress (loudness), making the word 'today' stand out more vividly and organically as requested. Therefore, Model 2 is judged as superior for its more natural and effective execution of the stress requirement.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

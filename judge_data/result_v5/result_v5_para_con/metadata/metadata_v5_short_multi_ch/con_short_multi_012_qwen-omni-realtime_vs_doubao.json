@@ -1,0 +1,16 @@
+{
+    "sample_index": 12,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中音的声调中性地说：会议将在十分钟后开始。",
+    "dimensions": [
+        "音高",
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

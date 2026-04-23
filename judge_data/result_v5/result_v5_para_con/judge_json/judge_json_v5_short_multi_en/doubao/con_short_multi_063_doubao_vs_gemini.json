@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 delivers the text with correct content accuracy. In terms of Attitude, the delivery of the phrase 'Your plan is truly perfect' happens in a single continuous block between 00:00 and 00:02. This relatively fast pacing diminishes the sarcastic effect, making the tone sound more like a standard reading than a biting, ironic statement. Regarding the Pause dimension, although there is a timestamp gap before 'indeed' starts at 00:02, the length of the preceding phrase suggests the pause is brief and potentially rushed, making it less 'clear' than requested. The Timbre is acceptable but is somewhat flattened by the lack of expressive prosody.",
+    "reasoning_model_2": "Model 2 demonstrates excellent control over paralinguistic features. For Attitude, the model inserts a dramatic pause before 'perfect' (indicated by the gap between 00:00 and 00:02) and isolates the word, effectively simulating 'air quotes' which strongly enhances the sarcastic tone. Regarding Pause, the model explicitly places 'perfect' at 00:02 and 'indeed' at 00:03; given the short duration of the word 'perfect', this guarantees a distinct and clear pause after the word, fully satisfying the constraint. The Timbre is bright and clear, benefiting from the deliberate pacing.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 on the core controllable features. Model 2's use of timing creates a convincing sarcastic attitude by isolating the key word 'perfect', whereas Model 1 rushes through the phrase, resulting in a flatter delivery. Model 2 also executes the requested pause with greater clarity and distinctness. Model 1 meets the basic requirements but lacks the expressiveness and precise control demonstrated by Model 2.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

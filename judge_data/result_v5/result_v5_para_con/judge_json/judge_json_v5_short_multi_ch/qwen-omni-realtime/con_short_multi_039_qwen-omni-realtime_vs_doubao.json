@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. The user requested the specific sentence '唉，这日子，什么时候才是个头啊？', but the model hallucinated a 21-second long paragraph ('唉，日子啊，真像被拉长的糖丝...'), completely disregarding the script constraint. Regarding the specific paralinguistic dimensions: \n1. **Speaking Rate (语速)**: The speech is delivered at a moderate to lively pace, which is the opposite of the requested 'extremely slow' (极慢速). \n2. **Non-verbal vocalizations (非语言发声)**: While there is an initial interjection (00:00) and one later (00:15), the overall tone is energetic, bright, and storytelling-like. It does not convey the requested 'sighing' (叹着气) or weary mood at all. Due to the complete failure in content and feature control, the score is 0.",
+    "reasoning_model_2": "Model 2 performs perfectly across all dimensions. \n1. **Content Accuracy**: It reads the script exactly as requested with no errors. \n2. **Speaking Rate (语速)**: The delivery is 'extremely slow' as requested. The sentence spans about 5 seconds (00:01-00:06) with prolonged syllables and heavy pauses, effectively conveying a sense of dragging time. \n3. **Non-verbal vocalizations (非语言发声)**: The audio starts with a very clear, natural, and heavy sigh (00:00-00:01). The vocal quality remains breathy and exhausted throughout the sentence, perfectly integrating the 'sighing' characteristic into the speech flow.",
+    "model_comparison": "Model 1 is a complete failure as it hallucinates a long, unrequested text and uses a lively, fast pace that contradicts the prompt's instruction for a slow, sighing delivery. Model 2 follows the text script perfectly and executes both the 'extremely slow' speed and the 'sighing' non-verbal vocalization with high precision and naturalness. Model 2 is superior in every aspect.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

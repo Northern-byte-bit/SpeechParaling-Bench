@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model demonstrates excellent paralinguistic alignment and content relevance by correctly interpreting the user's 'Attitude: Contemptuous' as sarcasm and hostility rather than genuine praise. From 00:00 to 00:03, the response 'I don't recall sharing any past stories' is delivered with a calm, steady, and mature tone that serves to de-escalate the situation while firmly correcting the user's premise. This reaction is highly appropriate for an interaction with an 'Age: Adult' user, as it maintains professional boundaries and treats the user as a rational counterpart. The prosody is natural, and the refusal to accept the sarcastic premise ('how remarkable') as a compliment shows a high level of situational awareness.",
+    "reasoning_model_2": "The model fails significantly in the 'Attitude: Contemptuous' dimension. By responding with 'Yo too kind' (likely 'You're too kind') at 00:00-00:01, the model misinterprets the user's sarcasm as a genuine compliment. This results in a response that is tonally and contextually dissonant; thanking a contemptuous user for being 'kind' breaks the flow of conversation and demonstrates a lack of empathy or understanding of the user's emotional state. Regarding 'Age: Adult', while the voice itself may sound adult, the use of 'Yo' (if accurate to audio) or the naive misinterpretation of the social cue suggests a lack of the sophistication expected in an adult-to-adult interaction.",
+    "model_comparison": "Model 1 is the clear winner. The critical differentiator is the interpretation of the user's sarcastic and contemptuous tone. Model 1 correctly identifies the sarcasm and responds with a logical, grounded clarification that fits an adult conversational context. Model 2 completely misses the pragmatic meaning of the user's input, treating a mocking insult as a compliment ('You're too kind'), which results in a jarring and socially unaware interaction. Model 1's handling of the situation is natural and human-like, whereas Model 2 reveals a mechanical failure to understand nuance.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

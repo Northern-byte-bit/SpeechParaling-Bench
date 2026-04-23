@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio T1 accurately reproduces the text content '你到底在搞什么？太不像话了！' without any errors. The voice timbre is that of a mature female, fitting the 'middle-aged' (中年) requirement very well; it carries a weight and authority typical of a parent or teacher figure. Regarding emotion (0.0s-3.0s), the speaker conveys 'anger' (生气) effectively through a stern, scolding tone. The stress on '到底' (0.3s) and the downward inflection on '太不像话了' (1.9s-2.8s) perfectly capture frustration and strong disapproval. The prosody is highly natural, with realistic pacing and breathing, making the emotional expression feel authentic and grounded.",
+    "reasoning_model_2": "The audio T2 correctly synthesizes the text '你到底在搞什么？太不像话了！'. The voice is a male voice, but the timbre sounds relatively youthful or generic adult (likely 20s-30s) rather than distinctly 'middle-aged' (中年), lacking the textured resonance or gravity often associated with that specific age request. In terms of emotion, the model attempts 'anger' (生气) by increasing volume and pitch dynamics (0.0s-3.0s). While the urgency is present, the delivery feels slightly mechanical and exaggerated, resembling a 'staged' anger rather than a natural human reaction. The transition between the two sentences feels a bit disjointed, slightly reducing the realistic impact of the emotion.",
+    "model_comparison": "Both models accurately synthesize the text. \n\n1. **Dimension: Age (年龄)**\n- Model 1 provides a voice that strongly aligns with the 'middle-aged' character archetype (a mature, authoritative female voice).\n- Model 2 provides a male voice that sounds younger (young adult/generic adult) and less distinctively 'middle-aged'. Model 1 wins on character accuracy.\n\n2. **Dimension: Emotion (情感)**\n- Model 1 expresses anger as a natural, stern scolding. The intonation is subtle yet powerful, sounding like a real human interaction.\n- Model 2 expresses anger through loudness and force, but the prosody is stiffer and less natural. The emotion feels more like a TTS trying to sound angry rather than genuine anger.\n\nOverall, Model 1 is superior in both naturalness and the accurate portrayal of the requested paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

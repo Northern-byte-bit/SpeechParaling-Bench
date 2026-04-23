@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with high content accuracy, matching the script perfectly ('哎呦，我们的大忙人...' from 00:00 to 00:08). The fluency and naturalness are high, presenting a clear, standard female voice. However, regarding the core paralinguistic requirements: \n1. **Pitch (音高):** The voice maintains a medium, standard range throughout. There is no audible attempt to shift to a 'high pitch' (高音) as requested. The pitch remains conversational and grounded (e.g., at 00:02 '终于舍得'). \n2. **Attitude (态度):** The tone is friendly and polite, perhaps slightly lively, but lacks the specific 'teasing' (调侃) quality. The delivery of '哎呦' (00:00) is standard, and '真是的' (00:07) sounds more like a gentle closure than a playful complaint. It fails to convey the required mocking or playful vibe.",
+    "reasoning_model_2": "The model correctly produces the text content with no errors. \n1. **Pitch (音高):** The model significantly alters the voice to a very high register (almost falsetto or a high-pitched character voice), consistently maintaining this 'high pitch' characteristic from 00:00 to 00:08. This aligns perfectly with the command. \n2. **Attitude (态度):** The 'teasing' (调侃) attitude is vividly expressed. The elongation and pitch modulation on '哎呦' (00:00) and the exaggerated emphasis on '终于舍得' (00:02) create a strong, playful, and mocking atmosphere. The final '真是的' (00:07) carries a distinct dismissive yet affectionate teasing tone. The expression is vivid and matches the persona requested.",
+    "model_comparison": "In comparing the two models, Model 2 (T2) is the clear winner across both dimensions. \n**Pitch:** Model 1 (T1) used a standard, neutral pitch which completely ignored the 'high pitch' instruction. Model 2 (T2) adopted a distinct, high-pitched voice that strictly adhered to the user's constraint. \n**Attitude:** T1's delivery was safe, polite, and lacked character, failing to portray the 'teasing' nuance. T2 provided a highly expressive, exaggerated performance that captured the playful and mocking essence of '调侃' perfectly. T2 successfully followed the specific style instructions, whereas T1 reverted to a default speaking style.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

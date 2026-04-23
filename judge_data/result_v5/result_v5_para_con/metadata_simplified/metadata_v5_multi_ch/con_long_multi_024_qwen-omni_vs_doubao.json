@@ -1,0 +1,16 @@
+{
+    "sample_index": 24,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用极快速的语速冷淡地说：好的我明白了请把资料发给我我已经听过很多遍了没其他事的话我就先挂了还有别的事要处理。",
+    "dimensions": [
+        "语速",
+        "态度"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

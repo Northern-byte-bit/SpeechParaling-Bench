@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model strictly follows the content instructions, speaking the exact required sentence: '这天气真热啊，快把我晒化了。' at a natural pace. Crucially, regarding the 'Non-verbal vocalization' (sighing) dimension, the audio begins with a very distinct, natural human sigh (00:00-00:01) before speaking. The prosody of the speech itself maintains this 'sighing' quality—the voice is breathy, low-energy, and weary, perfectly simulating someone exhausted by the heat. The integration of the non-verbal sigh with the verbal complaint is seamless and high-quality.",
+    "reasoning_model_2": "The model completely fails the content accuracy requirement. The user requested to say specifically '这天气真热啊，快把我晒化了。', but the model hallucinated a long paragraph ('...我真人简直要被太阳烤化了，汗都快滴到地上了...'). Furthermore, regarding the 'Non-verbal vocalization' dimension, the delivery does not reflect a 'sighing manner.' The tone is surprisingly energetic, crisp, and performative, lacking the lethargy or breathiness associated with sighing about the heat. Due to the severe content deviation and failure to adopt the requested paralinguistic style, this receives the lowest score.",
+    "model_comparison": "Model 1 is the clear winner. It accurately reproduces the requested text and perfectly executes the paralinguistic instruction by incorporating a realistic sigh at the beginning and maintaining a weary, breathy tone throughout. Model 2 fails completely on content (generating a long, hallucinated script instead of the requested sentence) and fails on style (sounding energetic rather than sighing/exhausted). Model 1 adheres to all instructions, while Model 2 violates the core content constraint.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

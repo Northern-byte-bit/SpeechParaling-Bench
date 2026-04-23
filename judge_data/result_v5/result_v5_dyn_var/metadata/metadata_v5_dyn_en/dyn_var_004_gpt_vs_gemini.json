@@ -1,0 +1,14 @@
+{
+    "sample_index": 4,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a high pitch and suddenly dropping to a very low pitch: 'Fantastic, I'm going to win! Wait, how is this possible? My base was ambushed.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

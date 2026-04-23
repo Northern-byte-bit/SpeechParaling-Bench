@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The user requested a 'medium pitch' and 'neutral tone'. \n1. **Content Accuracy**: The model reads '会议将在十分钟后开始' correctly with no errors. \n2. **Fluency**: The speech is fluent, with a standard rhythm suitable for an announcement. \n3. **Pitch (音高)**: The voice is female. Throughout the clip (00:00-00:02), the pitch remains steady in the middle of the speaker's vocal register, avoiding high-pitched excitement or low-pitched whispering. It aligns well with 'medium pitch' relative to the voice type. \n4. **Emotion (情感)**: The tone is perfectly neutral and professional (00:00-00:02). It sounds like a standard public address announcement, detached and informative, without any distinct happiness, sadness, or urgency. It fully satisfies the 'neutral' requirement.",
+    "reasoning_model_2": "The user requested a 'medium pitch' and 'neutral tone'. \n1. **Content Accuracy**: The content '会议将在十分钟后开始' is spoken correctly. \n2. **Fluency**: The speech is natural and fluent. \n3. **Pitch (音高)**: The voice is male. The pitch (00:00-00:02) is grounded and sits in a comfortable middle range for a male voice. It is consistent and stable, meeting the 'medium pitch' criteria. \n4. **Emotion (情感)**: The delivery is calm and flat (00:00-00:02). It conveys the information without adding emotional color, effectively achieving a 'neutral' state. The style is slightly more conversational than Model 1 but remains objectively neutral.",
+    "model_comparison": "Both models performed excellently in following the specific paralinguistic instructions. \n- **Pitch**: Model 1 (female) and Model 2 (male) both utilized a pitch range that is 'medium' relative to their respective voice types. Neither drifted into extremes (high/low). \n- **Emotion**: Both models achieved a 'neutral' tone. Model 1 adopted a professional, announcer-like neutrality, while Model 2 adopted a calm, conversational neutrality. Both interpretations are valid and accurate for the prompt. \n- **Overall**: There are no significant flaws in pronunciation, fluency, or feature control for either model. The difference comes down to voice timbre choice (gender), which is outside the bias evaluation scope. Both are fully correct examples.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0
+}

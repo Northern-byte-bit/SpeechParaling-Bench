@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the content 'Hello, how may I assist you?' accurately and with high fluency. \n1. **Attitude**: The model successfully adopts a 'polite tone'. From 0.0s to 1.5s, the speaker uses a soft onset and a welcoming upward inflection at the end of the sentence, making the offer of assistance sound genuinely courteous and helpful. \n2. **Timbre**: The voice is distinctly 'bright' as requested. It features a higher pitch profile and clear, crisp resonance throughout the segment, avoiding any heaviness or low-frequency dominance. The expression is vivid and spot-on.",
+    "reasoning_model_2": "The model correctly synthesizes the text 'Hello, how may I assist you?' with reasonable fluency, though it sounds slightly more mechanical than Model 1. \n1. **Attitude**: The tone is neutral rather than explicitly 'polite'. While not rude, the delivery (0.0s-1.6s) is flat and lacks the warmth or engaging prosody expected of a polite offer, falling into the 'Major issues' category where the target emotion is insufficiently expressed. \n2. **Timbre**: The voice does not meet the 'bright' criterion. It sounds like a standard, mid-range or slightly deep synthetic voice. The acoustic quality lacks the energy and higher frequency lift associated with a bright timbre, making the target feature only vaguely perceived or non-existent.",
+    "model_comparison": "Model 1 demonstrates superior performance across both paralinguistic dimensions. For **Attitude**, Model 1 provides a naturally polite and welcoming contour, whereas Model 2 is flat and neutral. For **Timbre**, Model 1 effectively modulates the voice to sound 'bright' and energetic, while Model 2 retains a standard, non-descript voice profile that fails to satisfy the specific style constraint. Consequently, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

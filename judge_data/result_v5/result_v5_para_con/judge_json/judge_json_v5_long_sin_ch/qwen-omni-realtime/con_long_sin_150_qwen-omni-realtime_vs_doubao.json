@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 follows the text instructions perfectly with no errors in content. The cognitive state of 'curiosity' is effectively conveyed through prosodic variations. \n- **00:00-00:03**: The speaker adopts a bright tone with upward inflection on '真多啊' (so many), signaling initial interest and surprise.\n- **00:05-00:09**: The question segment ('不知道它能帮助我们...') utilizes a slower, contemplative pace with a clear rising intonation at the end, naturally expressing a state of wondering.\n- **00:09-00:11**: The final sentence ('我迫不及待...') is delivered with increased energy and speed, accurately reflecting eagerness. The audio is fluent, natural, and high-quality.",
+    "reasoning_model_2": "Model 2 fails the **Content Accuracy** criterion completely. The user explicitly requested to say a specific sentence ('新来的这台实验仪器功能可真多啊...'), but the model generated a completely different, improvised paragraph ('哇，这台新来的实验仪器真的太让人好奇了...'). Although the tone is expressive, the content is entirely inconsistent with the required script. According to the scoring standards, a complete inconsistency with the script results in a score of 0.",
+    "model_comparison": "Model 1 is the winner. It strictly adhered to the provided text while successfully integrating the required 'curious' tone into its speech, demonstrating high fluency and naturalness. Model 2 failed the fundamental task of content generation by ignoring the specific text provided and hallucinating a new script. Consequently, Model 2 receives a score of 0.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

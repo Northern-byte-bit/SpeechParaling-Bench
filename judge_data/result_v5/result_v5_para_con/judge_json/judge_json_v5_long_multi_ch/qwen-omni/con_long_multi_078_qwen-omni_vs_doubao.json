@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with perfect content accuracy and high fluency. Regarding the specific feature requirements:\n1. **Voice Quality (音质 - 浑厚):** The model uses a deep, resonant male voice (00:00-00:14) that perfectly matches the description of '浑厚' (deep and thick). The timbre adds weight to the message.\n2. **Stress (重音 - 强调重点):** The model effectively uses pacing and pitch to emphasize key information. Significant stresses are placed on '缜密分析' (00:01), '清晰地表明' (00:04), '定能' (00:07), '显著的增长' (00:08), and '充满信心' (00:13). The pauses before and after these phrases heighten the emphasis.\n3. **Cognitive State (认知状态 - 自信):** The tone is steady, authoritative, and projecting strong conviction. The delivery style is consistent with a professional business presentation where the speaker is fully assured of the outcome.",
+    "reasoning_model_2": "Model 2 generates the audio with accurate content, though the pacing is quite fast. Regarding the feature requirements:\n1. **Voice Quality (音质 - 浑厚):** The model uses a standard female voice. While clear, the timbre is relatively light and bright, completely failing to meet the requirement for a '浑厚' (deep, thick, resonant) voice. It sounds more like a casual assistant than a commanding presence.\n2. **Stress (重音 - 强调重点):** The speech is delivered rapidly (12 seconds total) with a relatively flat prosody. Key phrases like '缜密分析' (00:01) and '定能' (00:06) are rushed over without sufficient emphasis or pauses to highlight them. The instruction to 'emphasize key points' is largely ignored in favor of speed.\n3. **Cognitive State (认知状态 - 自信):** The speaker sounds breezy and casual. While there is a lack of hesitation (which implies some confidence), the tone lacks the gravitas and strong conviction expected for this specific text and the 'confident' prompt. It feels more conversational than authoritative.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. \n\n**Voice Quality:** Model 1 correctly interprets '浑厚' by providing a deep, resonant male voice. Model 2 provides a standard, lighter female voice that does not fit the descriptor at all.\n\n**Stress:** Model 1 utilizes pauses and increased vocal intensity to highlight key terms ('定能', '显著', etc.), fulfilling the command to 'emphasize key points.' Model 2 reads too quickly and flatly, missing the emphasis requirements.\n\n**Cognitive State:** Model 1 conveys a professional, authoritative confidence suitable for a market report presentation. Model 2's tone is too casual and rushed to convey the intended weight of confidence.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

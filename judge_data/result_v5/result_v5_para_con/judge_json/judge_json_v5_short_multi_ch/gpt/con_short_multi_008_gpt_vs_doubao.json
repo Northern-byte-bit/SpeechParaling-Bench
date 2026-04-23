@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately generates the content '你为什么总是这样' (00:00-00:02). Regarding the 'Volume' dimension, the audio exhibits high vocal effort and projection consistent with 'shouting' (喊叫). The volume is forcefully projected throughout the phrase. regarding the 'Emotion' dimension, the tone is distinctly 'angry' (生气). The delivery is sharp, aggressive, and confrontational, particularly on the words '为什么' and '总是'. The prosody reflects high arousal and negative valence typical of anger. The synthesis is fluent with no obvious artifacts.",
+    "reasoning_model_2": "Model 2 generates the correct content '你为什么总是这样' (00:00-00:01). In terms of 'Volume', the voice is raised and louder than a whisper or conversation, but it lacks the visceral force and projection of a true 'shout'. It sounds more like a loud complaint or a raised voice in frustration rather than full-blown shouting. regarding 'Emotion', while the tone is negative and expressive, it leans heavily towards 'exasperation', 'despair', or 'whining' rather than 'anger'. The speaker sounds helpless and frustrated rather than furious or confrontational. The intonation drags slightly, indicating weariness rather than the sharp attack of anger.",
+    "model_comparison": "In comparing the two models, Model 1 is the clear winner for both dimensions based on the specific prompt requirements ('shouting volume' and 'angrily'). \n\nFor Volume: Model 1 demonstrates a much higher level of vocal effort and acoustic intensity that matches the definition of 'shouting'. Model 2 is loud but lacks the explosive quality of a shout, sounding more like a loud complaint.\n\nFor Emotion: Model 1 captures the aggression and confrontation associated with 'anger' perfectly. The attack on the words is sharp. Model 2 interprets the text as 'frustrated despair' or 'pleading', which is a valid interpretation of the text semantically, but fails to meet the specific style instruction of being 'angry'. Model 1 follows the control prompts much more accurately.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

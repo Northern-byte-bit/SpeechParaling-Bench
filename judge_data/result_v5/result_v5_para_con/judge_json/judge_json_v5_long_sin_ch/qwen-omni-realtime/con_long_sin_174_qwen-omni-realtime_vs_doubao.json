@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the provided text and the paralinguistic instruction 'with screaming'. At 00:00, the model articulates '啊——！' as a sustained, high-intensity scream/shriek, perfectly matching the 'Non-verbal vocalization' requirement. The subsequent speech (00:01-00:09) maintains a high-arousal, fearful tone consistent with the scream, with natural pacing and no content errors. The execution is vivid and accurate.",
+    "reasoning_model_2": "Model 2 fails to strictly adhere to the text content and the specific vocalization style requested. At 00:00, instead of a sustained scream for '啊——', it produces repeated stuttering sounds '啊啊啊', which alters the intended 'scream' feature to a stutter. Crucially, at 00:07-00:08, the model hallucinates extra content '真的，真的' (Really, really) which was not in the script. While the emotion of fear is present, the content inaccuracy and the deviation in the vocalization type represent major issues.",
+    "model_comparison": "Model 1 demonstrates superior performance by strictly adhering to the text and accurately rendering the required 'scream' as a non-verbal vocalization. Model 2 exhibits content hallucinations (adding words) and alters the specific nature of the vocalization from a scream to a stutter, failing to meet the content accuracy and specific feature control standards. Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

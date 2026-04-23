@@ -1,0 +1,14 @@
+{
+    "sample_index": 13,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a lazy and casual manner: 'Ugh, I really don't want to get up this morning. Just let me lie here for ten more minutes, okay? Just ten?'",
+    "dimensions": [
+        "lazy and casual"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

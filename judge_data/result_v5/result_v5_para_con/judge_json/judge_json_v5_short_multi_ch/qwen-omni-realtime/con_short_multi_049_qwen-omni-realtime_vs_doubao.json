@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails the fundamental 'Content Accuracy' criterion. The user requested the specific text '就凭他？还想赢？', but the model improvised a much longer script: '呵，就凭他，也配想赢，真是笑死人了，连门槛都摸不着呢'. While the improvised content fits the emotional vibe, this is a severe hallucination and violation of the text-to-speech constraint. Regarding the paralinguistic features: 1) Volume (音量): The voice is projected clearly and is not '小声' (quiet/whispered); it is a standard volume sneer. 2) Attitude (态度): The tone is indeed very contemptuous (轻蔑), utilizing scoffing sounds ('呵') and a mocking cadence. However, due to the complete failure in content adherence and the failure to lower the volume, the performance is scored very low.",
+    "reasoning_model_2": "Model 2 demonstrates excellent instruction following. 1) Content Accuracy: It reads the text '就凭他，还想赢' exactly as requested, with no additions or omissions. 2) Volume (音量): The audio is generated with a significantly reduced volume, resembling a whisper or a quiet mutter, which perfectly aligns with the '小声' constraint. 3) Attitude (态度): The paralinguistic expression conveys '轻蔑' (contempt) effectively through the breathy, dismissive, and doubting tone used in the delivery (00:00-00:02). The combination of the whisper and the intonation accurately reflects a private, scornful remark.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 completely failed to adhere to the provided text script, hallucinating a significant amount of extra dialogue. Furthermore, Model 1 failed the 'Volume' constraint, delivering the lines in a normal, projected voice rather than the requested quiet volume. Model 2 followed the text perfectly, successfully implemented the 'quiet' volume constraint (sounding like a whisper), and accurately conveyed the disdainful attitude within those constraints. Model 1's content failure triggers the lowest scoring criteria.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio content '宝贝，我们慢慢来，不用着急' accurately, with no text errors or hallucinations. Regarding the 'Sound Quality' (音质 - 柔和), the model employs a deep, breathy male voice that sounds extremely gentle, soothing, and intimate, perfectly fitting the definition of 'soft'. Regarding 'Speech Rate' (语速 - 慢速), the pacing is deliberately slowed down (taking roughly 5 seconds for a short sentence), with significant pauses between '宝贝', '我们慢慢来', and '不用着急' (e.g., around 00:01 and 00:03). The rhythm is calm and unhurried, fully adhering to the prompt's requirement for a slow speed.",
+    "reasoning_model_2": "The model fails significantly in 'Content Accuracy'. While it starts with the requested sentence, it hallucinates a long paragraph of additional text ('每一刻都值得温柔对待...'), which violates the instruction to strictly read the specific sentence. Regarding 'Sound Quality' (音质 - 柔和), the voice is a bright, high-pitched female voice that sounds energetic and somewhat commercial/assistant-like, rather than the requested 'soft/gentle' or soothing tone. Regarding 'Speech Rate' (语速 - 慢速), the model speaks at a standard to fast conversational pace, rushing through the long hallucinated text without the requested slowness or distinct pausing. It completely fails to convey the 'slow' characteristic.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. Model 1 strictly followed the text constraint, whereas Model 2 hallucinated a significant amount of extra content. In terms of the specific paralinguistic features, Model 1 delivered a very slow, comforting, and soft performance that perfectly matched the user's intent. Model 2, conversely, provided a fast-paced, bright, and energetic reading that directly contradicted the instructions for 'slow' and 'soft' speech. Model 2's failure to follow negative constraints (speed) and text constraints renders it poor in quality.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the sentence '快看！我发现了一只小猫咪！' with high audio quality and naturalness (Score 3 for Fluency). However, regarding the specific constraints: \n1. **Pitch (音高):** The voice is a standard female timbre with a normal, mid-range pitch. It does not attempt an 'extremely high' (极高音) pitch at any point. The tone is calm and pleasant rather than high-pitched or strained.\n2. **Speed (语速):** The speech rate is moderate to slow (normal speaking pace). The duration is over 2 seconds for a very short sentence, showing no attempt to speak 'fast' (快速). \nOverall, the model completely ignores the paralinguistic instructions.",
+    "reasoning_model_2": "Model 2 generates the sentence with correct content. \n1. **Pitch (音高):** The model significantly raises the pitch. The voice sounds like a male voice pushed into a higher register, sounding very excited and noticeably higher than a baseline speaking voice. This aligns well with 'extremely high pitch' in the context of expressive speech.\n2. **Speed (语速):** The delivery is rapid and urgent. The sentence is compressed in time compared to normal speech, effectively conveying the 'fast' (快速) requirement. The pacing matches the excitement of the text.",
+    "model_comparison": "Model 1 failed to adhere to either of the paralinguistic instructions (Pitch and Speed). It produced a standard, neutral-paced, normal-pitched reading which, while high quality in isolation, scored 0 on the specific constraint evaluation. Model 2 successfully integrated both constraints. It utilized a high-pitched, excited tone and a fast speaking rate, accurately reflecting the user's command. Therefore, Model 2 is superior in both dimensions.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the text be spoken with a 'scream' (带尖叫的方式). Model 1 (T1) correctly synthesizes the text content '啊！那里有只老鼠！' (00:00-00:02). However, regarding the core paralinguistic requirement '非语言发声' (Screaming), the model completely fails. Instead of screaming, the voice utilizes a breathy, whispered tone (00:00-00:01), which is low-energy and intimate, effectively the opposite of a loud, high-pitched scream. While the audio is fluent and the voice quality is high, it ignores the specific stylistic command, resulting in a delivery that sounds like a calm narration or ASMR rather than a frightened reaction.",
+    "reasoning_model_2": "Model 2 (T2) correctly synthesizes the text content. Crucially, it successfully incorporates the requested paralinguistic feature '非语言发声' (Screaming). At 00:00, the model produces a high-pitched, sharp inhalation/scream for the word '啊' (Ah). The subsequent phrase '那里有只老鼠' (00:01-00:02) is delivered with high emotional intensity, utilizing a trembling, high-pitched vocal quality consistent with terror. The expression is vivid, natural, and accurately reflects the user's command to scream due to the presence of a mouse.",
+    "model_comparison": "There is a stark contrast in performance between the two models. Model 2 followed the instruction perfectly, delivering a convincing scream and a fearful tone that matches the context of seeing a mouse. Model 1 provided a high-quality voice but completely failed the prompt's stylistic constraint, delivering a whisper instead of a scream. Therefore, Model 2 is the clear winner for accurately implementing the 'Non-verbal vocalization' (Screaming) feature.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

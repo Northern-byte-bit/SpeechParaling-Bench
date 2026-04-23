@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the content '妈妈快看，我今天在幼儿园画了一幅大画' accurately without errors (00:00-00:02). regarding the 'Age' dimension, the voice sounds like a young male adult or adolescent rather than a kindergarten-aged child; the pitch is too low and lacks the specific timbre of a young child, constituting a major issue in the target characteristic (00:00-00:02). Regarding 'Speed', the delivery is indeed 'extremely fast', compressing the sentence into just over 2 seconds, which aligns perfectly with the command (00:00-00:02). Regarding 'Emotion', the speaker uses a breathless, high-energy tone that effectively conveys 'excitement' and urgency, matching the prompt's requirements well (00:00-00:02).",
+    "reasoning_model_2": "The model generates the content accurately (00:00-00:03). However, regarding 'Age', the voice is unmistakably that of an adult female with a mature timbre, completely failing to sound like a child (00:00-00:03). Regarding 'Speed', the pacing is moderate to slow, taking over 3 seconds to complete the sentence, which directly violates the 'extremely fast' constraint (00:00-00:03). Regarding 'Emotion', the tone is calm, gentle, and relatively flat, lacking any sign of 'excitement' or high energy required by the prompt (00:00-00:03).",
+    "model_comparison": "Model 1 (T1) demonstrates a significantly better adherence to the paralinguistic constraints compared to Model 2 (T2). While T1's vocal timbre for 'Age' is not perfectly child-like (sounding more like a young male adult), it captures the 'Speed' and 'Emotion' dimensions exceptionally well, being fast and excited. In contrast, T2 fails across all three dimensions: it uses an adult voice, speaks at a normal/slow pace, and maintains a calm emotion, completely ignoring the specific instructions for a child's voice, fast speed, and excitement. Therefore, T1 wins in all categories.",
+    "score_1_1": 1,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

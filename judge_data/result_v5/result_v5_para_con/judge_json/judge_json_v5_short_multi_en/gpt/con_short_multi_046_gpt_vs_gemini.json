@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio correctly follows the text content. Regarding the 'Age' dimension, the voice has a high pitch and a lighter timbre (0:00-0:05), sounding like a young female or a cartoonish child character, which aligns reasonably well with the 'child voice' request, earning a score of 2. Regarding 'Non-Linguistic Vocalizations', the model fails to generate actual crying sounds. Specifically, at 0:03-0:05, it reads the onomatopoeia 'boohoohoo' literally as distinct words ('boo-who-who') with a merely sad/whiny inflection, rather than simulating the physiological act of crying or sobbing. There are no non-linguistic sounds like sniffling or sobbing breaths.",
+    "reasoning_model_2": "The audio follows the text content. Regarding the 'Age' dimension, the voice is distinctly that of an adult woman with a deeper, mature resonance (0:00-0:07). It does not sound like a child at all, which is a complete failure for the 'child voice' command, resulting in a score of 0. Regarding 'Non-Linguistic Vocalizations', the model performs well in simulating the physical act of crying. Throughout the clip, and especially during the 'boohoohoo' segment (0:04-0:07), the voice exhibits trembling, breathiness, and a 'breaking' quality characteristic of sobbing. While it still articulates the word 'boohoohoo' rather than replacing it entirely with a sound effect, the delivery is heavily imbued with the non-linguistic texture of crying.",
+    "model_comparison": "Model 1 significantly outperforms Model 2 in the 'Age' dimension, as Model 1 provides a voice that approximates a child or young character, whereas Model 2 uses a clearly adult voice. However, for the 'Non-Linguistic Vocalizations' dimension (crying), Model 2 is superior. Model 1 simply reads the text 'boohoohoo' with a flat, sad tone, whereas Model 2 acts out the emotion with a trembling voice and breathy sobbing textures that authentically simulate crying, despite the age mismatch. Since the evaluations are independent, Model 1 wins on Age, and Model 2 wins on Non-Linguistic Vocalizations.",
+    "score_1_1": 2,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 1,
+    "score_2_2": 2,
+    "winner_2": 2
+}

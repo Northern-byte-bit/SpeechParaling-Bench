@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates a high level of adherence to the specific paralinguistic constraints. \n1. **Cognitive State (Anxious):** From the very beginning (0:00), the speaker exhibits a high-arousal state characterized by breathiness and tonal instability. The rising inflection on 'missing' (0:02) and the desperate plea in 'what am I going to do?' (0:08) effectively convey genuine panic and anxiety.\n2. **Rhythm (Rushed):** The pacing is consistently fast. The phrase 'I distinctly remember putting it on the table' (0:03-0:05) is delivered in a rapid burst of speech without distinct pauses between words, simulating the racing thoughts of a panicked individual.\n3. **Timbre (Hoarse):** The vocal quality is breathy, strained, and rasping throughout the clip. It lacks the clear resonance of a normal voice, effectively simulating a 'hoarse' texture often associated with extreme stress or vocal strain.",
+    "reasoning_model_2": "Model 2 fails to meet the specific constraints provided in the prompt, opting for a standard dramatic reading instead.\n1. **Cognitive State (Anxious):** While there is a dramatic tone, it feels performative and lacks the visceral urgency of anxiety. The delivery sounds more like annoyance or exaggerated disbelief (e.g., the drawn-out 'Oh my god' at 0:00-0:02) rather than genuine fear over lost valuables.\n2. **Rhythm (Rushed):** The rhythm is the opposite of rushed. It is slow, deliberate, and punctuated by significant pauses. The speaker elongates words like 'distinctly' (0:04) and takes a measured pace that contradicts the urgency of the situation.\n3. **Timbre (Hoarse):** The voice is crystal clear, bright, and resonant. There is absolutely no hoarseness, raspiness, or vocal strain present in the audio.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. It successfully modifies the audio output to match the specific descriptors: the voice is texturally hoarse, the speed is rushed, and the emotion is palpably anxious. Model 2 provides a high-fidelity audio generation but completely ignores the style instructions; the voice is clear instead of hoarse, the rhythm is slow instead of rushed, and the tone is melodramatic rather than genuinely anxious. Model 1 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

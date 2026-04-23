@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately speaks the content with no errors. Regarding the target features:\n1. **Cognitive State (Confidence):** The model adopts a very deliberate, slow, and steady pace (e.g., 'clearly indicates' at 0:06, 'definitely bring' at 0:11). The tone is unwavering and authoritative, fitting the persona of someone presenting a finalized report. While the pacing is slightly slower than a natural conversation, it effectively conveys a sense of assurance and gravity.\n2. **Stress:** The model excels here. It uses pauses and increased duration to emphasize key points heavily. For instance, there are distinct pauses before and after 'thorough analysis' (0:02) and 'significant growth' (0:13), ensuring the listener focuses on these terms. \n3. **Timbre:** The voice is clear and professional. While perhaps not deeply resonant in a 'movie trailer' sense, it has a solid weight and clarity that fits the description of a 'rich voice' better than a thin or reedy one. It sounds grounded.",
+    "reasoning_model_2": "Model 2 speaks the content accurately but fails to meet the stylistic requirements:\n1. **Cognitive State (Confidence):** The delivery feels rushed and lacks authority. The pacing is too fast for a serious market report presentation (e.g., rushing through 'market research report' at 0:02-0:03). Crucially, the final sentence 'We are full of confidence in this' (0:13-0:15) ends with a rising, almost whining pitch that sounds like a question or a plea rather than a confident assertion. \n2. **Stress:** Due to the fast pace, key points are glossed over. Phrases like 'clearly indicates' and 'significant growth' are spoken with the same speed and intensity as the surrounding text, lacking the requested emphasis.\n3. **Timbre:** The voice sounds somewhat thin and breathy, lacking the 'rich' quality requested. It lacks the acoustic weight or resonance expected for a 'rich voice.'",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. \n\n**Cognitive State:** Model 1 maintains a stable, authoritative tone throughout, effectively conveying confidence. Model 2 undermines the sense of confidence entirely with a rushed delivery and a weak, questioning intonation at the end.\n\n**Stress:** Model 1 effectively identifies and emphasizes key phrases ('thorough analysis', 'significant growth') through deliberate pacing and pauses. Model 2 rushes through the text, flattening the prosody and failing to highlight important information.\n\n**Timbre:** Model 1 provides a voice with decent body and clarity, suitable for the request. Model 2's voice is thinner and breathier, failing to meet the 'rich voice' criterion.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 2,
+    "score_2_3": 1,
+    "winner_3": 1
+}

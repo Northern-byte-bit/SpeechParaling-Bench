@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 successfully generates the complete text script with no omissions. Regarding the 'Pitch' dimension, the audio maintains a consistently high pitch throughout, strictly adhering to the user's constraint. However, for the 'Attitude' dimension (teasing tone), the performance is lacking. The delivery is rapid and energetic (particularly from 00:04 to 00:07), which sounds more like generic excitement or a loud announcement rather than a nuanced, playful tease. The specific prosodic features of teasing—such as elongation and varied intonation contours—are absent, making the target emotion unclear. Therefore, it scores low on Attitude due to vague expression but high on Pitch for strict compliance.",
+    "reasoning_model_2": "Model 2 captures the 'Attitude' dimension with high fidelity. The intonation on 'Oh' (00:00) and the melodic contour of 'busy bee' (00:01-00:02) effectively convey the requested teasing and playful nature, sounding very natural. The pitch is also appropriately high, satisfying the 'Pitch' requirement organically. However, the generated audio ends at 'tell us?' (00:08), omitting the final word 'Honestly!' from the source text. According to the scoring criteria, a score of 3 requires perfect content accuracy. Consequently, despite the vivid and spot-on emotional expression which would otherwise merit a top score, the content omission caps the scores for both dimensions at 2.",
+    "model_comparison": "Model 2 is significantly superior in terms of paralinguistic performance for the 'Attitude' dimension. It correctly identifies and enacts the 'teasing' tone with appropriate pacing and intonation, whereas Model 1 provides a generic high-energy delivery that misses the specific nuance of the prompt. However, Model 1 followed the content instructions perfectly, whereas Model 2 omitted the final word ('Honestly!'). This content error penalizes Model 2's scores. As a result, Model 2 wins the 'Attitude' comparison (scoring 2 vs 1) because its superior tonal quality outweighs the minor content omission when evaluating the specific feature. Model 1 wins the 'Pitch' comparison (scoring 3 vs 2) because it combined the required high pitch with perfect content accuracy.",
+    "score_1_1": 1,
+    "score_2_1": 2,
+    "winner_1": 2,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

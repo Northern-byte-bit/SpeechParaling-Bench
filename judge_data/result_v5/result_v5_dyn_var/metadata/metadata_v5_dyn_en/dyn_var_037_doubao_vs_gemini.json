@@ -1,0 +1,14 @@
+{
+    "sample_index": 37,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a medium pace and gradually increasing to a very fast pace: 'The game is in the second half, both teams are in a deadlock. Now the ball is with player number three, he dribbles, passes, shoots! Goal!'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

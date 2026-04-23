@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on both content accuracy and the required paralinguistic feature. Regarding content, the model hallucinates a large amount of text not present in the prompt ('Sorry about that, I'm still trying to catch my breath between hiccups'). Regarding the paralinguistic feature 'hiccups', instead of producing the non-linguistic sound of a hiccup, the model verbally pronounces the onomatopoeia 'Hick-hick-hick' at 00:02. This is a literal reading of a sound effect rather than a simulation of the physiological event. Consequently, the performance is unnatural and incorrect.",
+    "reasoning_model_2": "Model 2 demonstrates a high level of paralinguistic control. It accurately reads the core sentence while integrating the required non-linguistic vocalizations (hiccups) directly into the speech stream. The audio features spasmodic interruptions, glottal stops, and breathy pauses (e.g., between 'drank' and 'water', and 'too' and 'fast') that mimic the involuntary nature of hiccups. The pacing is naturally disrupted by these vocalizations, realistic to the user's request. The content adheres to the script without adding hallucinatory dialogue.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed to generate the actual sound of hiccups, opting instead to speak the word 'hick' and adding unsanctioned conversational filler. Model 2 successfully modulated the audio to simulate the physical act of hiccuping, including the resulting rhythmic disruption and breathiness, while sticking to the requested text. Model 2's execution of the non-linguistic vocalization was vivid and natural, whereas Model 1's was semantic and artificial.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

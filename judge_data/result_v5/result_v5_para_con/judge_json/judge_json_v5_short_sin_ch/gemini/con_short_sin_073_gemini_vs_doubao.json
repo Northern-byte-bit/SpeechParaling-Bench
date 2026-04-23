@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '我悄悄告诉你，他就是老板。' accurately (00:00-0:03) with no pronunciation errors. The speech is fluent and natural in terms of rhythm. However, regarding the core paralinguistic requirement '耳语' (Whisper) and '音量' (Volume), the model fails to execute the command. The audio uses a standard modal voice (full vocal cord vibration) rather than a whispered voice. While the tone is calm, it is a normal speaking volume and lacks the breathy, unvoiced characteristics defined by a whisper. The model ignored the specific style constraint.",
+    "reasoning_model_2": "The model accurately generates the text '我悄悄告诉你，他就是老板。' (00:00-0:03). The fluency is high, maintaining natural pacing suitable for the context. Crucially, the model perfectly adheres to the '耳语' (Whisper) command. The audio is generated using a distinct whispered phonation (unvoiced, breathy), with the volume appropriately reduced to simulate a secretive conversation while remaining intelligible. The paralinguistic feature control is precise and vivid.",
+    "model_comparison": "The user explicitly requested the text to be spoken in a 'whisper' (耳语). Model 1 (T1) failed to adhere to this instruction, providing a standard, modal voice recording that sounds like a normal narration. It did not lower the volume significantly nor change the phonation mode to a whisper. Model 2 (T2), in contrast, successfully generated a realistic whisper, capturing the breathy texture and low volume required by the prompt. T2 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

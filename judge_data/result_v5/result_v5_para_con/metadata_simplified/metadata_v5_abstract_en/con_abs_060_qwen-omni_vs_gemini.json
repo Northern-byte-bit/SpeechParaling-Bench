@@ -1,0 +1,14 @@
+{
+    "sample_index": 60,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an urgent and pressing speed: 'Doctor, please, quickly go see my child; he has a persistent high fever and is in critical condition!'",
+    "dimensions": [
+        "urgent and pressing"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

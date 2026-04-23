@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully integrates the required non-linguistic vocalization. At the very beginning of the audio (0:00 - 0:02), there is a distinct, natural-sounding sigh (audible exhalation) before the speech begins. The subsequent speech ('This weather is so hot...') is delivered with a weary, dragged-out prosody that perfectly matches the context of the sigh and the semantic meaning of feeling melted by heat. Although the contraction 'I'm' is expanded to 'I am' (0:04-0:06), this fits the lethargic pacing and does not detract from the quality. The target feature is vividly and accurately conveyed.",
+    "reasoning_model_2": "The model fails to include the required non-linguistic vocalization. The audio begins immediately with speech (0:00) without any audible sigh. Furthermore, the tone of voice is upbeat, energetic, and somewhat bright, which completely contradicts the semantic content of the sentence ('so hot', 'melting') and the requested mood associated with a sigh. There is no attempt to perform the specific command features.",
+    "model_comparison": "Model 1 is the clear winner. It followed the specific instruction to include a sigh, executing it naturally at the start of the clip, and maintained a consistent, exhausted tone appropriate for the text. Model 2 completely ignored the instruction to include a sigh and used an inappropriate, cheerful tone for the complaint about the heat. Model 1 demonstrates effective control over paralinguistic features, while Model 2 does not.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

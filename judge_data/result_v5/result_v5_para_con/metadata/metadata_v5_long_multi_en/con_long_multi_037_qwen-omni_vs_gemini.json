@@ -1,0 +1,16 @@
+{
+    "sample_index": 37,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a low pitch and a perfunctory tone: 'Hmm, okay. Got it. You handle it. Anyway, the final outcome has nothing to do with me, just decide yourselves.'",
+    "dimensions": [
+        "Attitude",
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

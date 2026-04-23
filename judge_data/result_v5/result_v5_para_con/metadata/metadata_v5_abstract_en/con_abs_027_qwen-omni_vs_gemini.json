@@ -1,0 +1,14 @@
+{
+    "sample_index": 27,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a calm and rational voice: 'Although the situation seems bad, as long as we take it one step at a time, we will always find a solution.'",
+    "dimensions": [
+        "calm and rational"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

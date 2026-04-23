@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the correct text content '喂，你能听到我吗？我们在这里', but completely fails to adhere to the paralinguistic constraints. Regarding 'Volume' (音量), the audio is produced at a standard, intimate conversational level, sounding like a close-microphone voice assistant rather than someone shouting. There is no auditory evidence of increased vocal effort or projection. Regarding 'Speed' (语速), the pace is normal to slightly brisk, ignoring the instruction to speak 'slowly' (缓慢). Regarding 'Stress' (重音), the prosody is flat and casual, lacking the requested 'emphatic' (强调) nature intended to convey urgency or distance. The result is a generic reading that does not match the prompt's stylistic requirements.",
+    "reasoning_model_2": "Model 2 generates the correct text content and strictly follows all paralinguistic instructions. Regarding 'Volume' (音量), the speaker exhibits clear characteristics of high vocal effort, altering the timbre to simulate shouting or projecting the voice across a distance (0.0s-6.0s). Regarding 'Speed' (语速), the speech is significantly slowed down, with elongated vowels and distinct pauses between phrases ('喂... 你... 能...'), perfectly matching the 'slowly' requirement. Regarding 'Stress' (重音), the model places heavy emphasis on almost every syllable, which is natural when yelling to ensure clarity over distance. The delivery feels organic and fits the scenario effectively.",
+    "model_comparison": "Model 2 is the clear winner across all three dimensions. Model 1 provided a standard, conversational reading that ignored the specific style instructions ('shouting', 'slow', 'emphatic'). In contrast, Model 2 accurately simulated the physical characteristics of shouting, slowed down the tempo significantly to enhance clarity (as one does when shouting), and applied strong stress to the words. Model 2's performance aligns perfectly with the user's intent to simulate a scenario of calling out to someone far away, while Model 1 failed to modify its default speaking style.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text 'Wow, this new cafe is great! Let's come again next time!' without any errors. In terms of paralinguistic features:\n1. **Emotion (Happy):** The audio starts with an expressive 'Wow' and maintains a bright, cheerful tone throughout. The expression is vivid and clearly conveys happiness.\n2. **Pitch (High):** The speaker adopts a noticeably higher register than a neutral baseline, creating a lighter, airier sound that aligns perfectly with the 'high pitch' instruction.\n3. **Rhythm (Lighthearted):** The rhythm is bouncy and fluid. There is a pleasant lilt in the intonation, particularly on 'great' and 'next time', which characterizes a 'lighthearted' rhythm effectively.",
+    "reasoning_model_2": "Model 2 fails the content accuracy check, producing 'What's come again next time!' instead of 'Let's come again next time!'. This error significantly impacts the sentence's meaning and naturalness.\n1. **Emotion (Happy):** While there is some energy in the delivery, the mispronunciation/content error makes the emotion feel forced and less genuinely 'happy'. The prosody feels disrupted.\n2. **Pitch (High):** The pitch control is weak. The voice does not shift to the requested 'high' register effectively, sounding closer to a neutral or slightly aggressive baseline rather than the requested high, airy tone.\n3. **Rhythm (Lighthearted):** The rhythm is clumsy, largely due to the stumbling over the phrase 'What's come', which breaks the flow. It fails to convey a 'lighthearted' feeling, sounding more confused or rushed.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. It delivers the content with perfect accuracy and successfully integrates all three requested paralinguistic features: a high pitch, a lighthearted rhythm, and a happy emotion. The result is natural and vivid. Model 2, conversely, fails on content accuracy ('What's' vs 'Let's'), which undermines the entire performance. Additionally, it fails to achieve the requested high pitch and lighthearted rhythm, resulting in a performance that is disjointed and does not meet the user's specific feature controls.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

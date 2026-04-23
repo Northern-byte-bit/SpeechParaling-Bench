@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates audio that is perfectly consistent with the script 'Oh my goodness, is this really for me? This is fantastic!', including the correct prosody implied by the punctuation. 1. **Emotion (Surprised):** The audio successfully conveys a strong sense of surprise; the tone is lively, expressive, and captures the 'fantastic' realization with genuine excitement. 2. **Pace (Fast):** The speaker accelerates the delivery significantly compared to a neutral reading, matching the 'fast pace' constraint without sacrificing clarity. 3. **Pitch (Very High):** The voice modulates into a noticeably higher register, particularly on keywords like 'goodness' and 'fantastic', effectively adhering to the 'very high pitch' requirement. The overall naturalness is high, with no mechanical artifacts.",
+    "reasoning_model_2": "The model generates the content accurately in terms of words, but the delivery is lackluster. 1. **Emotion (Surprised):** The tone is relatively flat and monotonous. While it reads the text, it fails to inject the requested 'surprised' emotion, sounding more like a neutral statement than an exclamation. 2. **Pace (Fast):** The reading speed is standard or even slightly slow, completely ignoring the 'fast pace' command. There is no sense of urgency or excitement. 3. **Pitch (Very High):** The pitch remains in a standard, mid-range frequency throughout the clip. It does not attempt to reach a 'very high' pitch, failing this constraint entirely. The lack of prosodic variation makes it sound somewhat robotic.",
+    "model_comparison": "Model 1 is the clear winner across all paralinguistic dimensions. It successfully integrates the three specific constraints: a very high pitch, a fast pace, and a surprised emotion. The resulting audio is expressive and accurately reflects the user's intent. In contrast, Model 2 treats the prompt as a standard text-to-speech task, ignoring the style modifiers. It delivers the text with a neutral pitch, normal pace, and flat emotion, failing to meet the core requirements of the prompt.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

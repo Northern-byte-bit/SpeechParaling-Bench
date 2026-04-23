@@ -1,0 +1,16 @@
+{
+    "sample_index": 39,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用极慢速的语速，叹着气说: 唉，这日子，什么时候才是个头啊？",
+    "dimensions": [
+        "语速",
+        "非语言发声"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

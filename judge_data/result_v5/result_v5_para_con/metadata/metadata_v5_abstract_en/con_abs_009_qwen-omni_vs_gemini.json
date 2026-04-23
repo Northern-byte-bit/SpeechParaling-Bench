@@ -1,0 +1,14 @@
+{
+    "sample_index": 9,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a tone of awe and admiration: 'He persevered despite being in desperate circumstances and ultimately achieved such great success; it is truly awe-inspiring.'",
+    "dimensions": [
+        "awe and admiration"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

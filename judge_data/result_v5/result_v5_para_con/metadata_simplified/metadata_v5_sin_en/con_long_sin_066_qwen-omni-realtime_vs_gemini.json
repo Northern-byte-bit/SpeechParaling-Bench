@@ -1,0 +1,14 @@
+{
+    "sample_index": 66,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a loud voice: 'Hey! Can you hear me? The sound equipment here seems to have a problem, please help check if the microphone cable connection is normal.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 92,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a confused tone initially, gradually transitioning to a confident tone: 'What's going on with this question? The concept is a bit blurry... Wait, I think I remember now, we covered this topic just last week, and I'm completely confident I can answer it!'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

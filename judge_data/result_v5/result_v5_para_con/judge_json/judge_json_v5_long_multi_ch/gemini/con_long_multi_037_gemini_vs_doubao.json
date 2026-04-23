@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content accurately matches the script '嗯，好。知道了。你看着办吧。反正最后结果跟我没关系，你们自己决定就好。'. The fluency is high with natural pausing. Regarding the 'Pitch' (音高), the model uses a deep male voice that maintains a consistently low register throughout the entire clip (0:00-0:09), perfectly adhering to the 'low tone' instruction. For 'Attitude' (态度), the delivery is distinctively perfunctory. The pacing is slightly lethargic, and the intonation is flat and weary, particularly in the segments '嗯，好' (0:00-0:02) and '反正最后结果跟我没关系' (0:05-0:09). It effectively conveys a sense of resignation and lack of interest ('whatever, do what you want'), fitting the 'perfunctory' description very well.",
+    "reasoning_model_2": "The content is accurate and the speech is very fluent with high acoustic quality. However, regarding 'Pitch' (音高), the audio features a female voice with a standard, mid-range pitch. There is no noticeable effort to lower the tone or speak in a lower register relative to the voice type; it sounds like a standard reading voice. Regarding 'Attitude' (态度), the performance misses the mark. The delivery is crisp, clear, and sounds polite and attentive rather than perfunctory. The '嗯，好' (0:00-0:02) sounds like active acknowledgement, and the rest of the sentence is read with a standard, earnest audiobook style rather than a dismissive or half-hearted manner.",
+    "model_comparison": "Model 1 (T1) demonstrates superior performance on both dimensions. For 'Pitch', T1 utilizes a deep voice that naturally sits in a low frequency range, fulfilling the 'low tone' requirement significantly better than T2, which uses a standard pitch female voice. For 'Attitude', T1 successfully captures the nuance of being 'perfunctory' through a weary, flat, and dismissive delivery. In contrast, T2 sounds too professional, clear, and engaged, failing to convey the requested lack of care or dismissal.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

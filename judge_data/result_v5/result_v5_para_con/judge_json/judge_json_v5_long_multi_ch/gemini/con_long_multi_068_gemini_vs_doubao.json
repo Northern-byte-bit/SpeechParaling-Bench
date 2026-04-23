@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates a deep, breathy male voice that is extremely soft and intimate, perfectly aligning with the '柔和的音质' (soft tone quality) requirement; the emotion is vivid and comforting. Regarding '语速' (speed), the speech is notably slow, with significant pauses (e.g., a long pause after '宝贝' and '永远'), which deviates from the requested '中速' (medium speed), leaning heavily towards '慢速' (slow). regarding '重音' (stress), the model successfully emphasizes the word '陪伴' (~0:09) by isolating it with distinct pauses before and after ('永远...陪伴...在你身边') and delivering it with a deliberate, gentle intensity. This effectively fulfills the stress requirement in a way that fits the soft mood.",
+    "reasoning_model_2": "The model generates a standard female voice with a bright, crisp tone typical of broadcast or reading styles. While clear, it lacks the specific '柔和' (soft/gentle) texture required for the emotional context of comforting a child; it sounds more neutral than soft. Regarding '语速' (speed), the model maintains a consistent and standard pace that perfectly fits the definition of '中速' (medium speed). However, regarding '重音' (stress), the model fails to place any emphasis on the word '陪伴' (~0:10). The phrase '永远陪伴' is spoken with a flat, uniform rhythm and pitch, making the target word indistinguishable from the rest of the sentence.",
+    "model_comparison": "In terms of **Tone Quality (音质)**, Model 1 is far superior, delivering a highly natural, emotional, and soft voice that fits the semantic context perfectly, whereas Model 2 sounds somewhat mechanical and too bright/neutral (broadcast style). In terms of **Speed (语速)**, Model 2 follows the instruction much better, providing a standard medium speed, while Model 1 is quite slow with long dramatic pauses. In terms of **Stress (重音)**, Model 1 effectively highlights the target word '陪伴' through prosodic isolation (pausing), whereas Model 2 completely ignores the stress instruction, reading the sentence flatly. Overall, Model 1 is preferred for its high expressiveness and adherence to the tone and stress constraints, despite the speed deviation.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

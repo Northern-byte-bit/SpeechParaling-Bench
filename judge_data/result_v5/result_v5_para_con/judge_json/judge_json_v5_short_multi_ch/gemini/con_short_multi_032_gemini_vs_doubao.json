@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the text '没问题，这个项目我能搞定。' accurately with no pronunciation errors. \n\n1. **Pitch (音高):** The audio uses a voice with a naturally higher pitch (0:00-0:03), typical of a standard 'bright' female TTS assistant. This deviates from the specific user command for a 'mid-tone' (中音) voice. The pitch remains consistently high throughout the sentence, failing to adjust to the requested register.\n\n2. **Cognitive State (认知状态):** The delivery is fluent and polite but lacks the specific emotional coloring of 'confidence'. The prosody is flat and neutral (0:00-0:03), resembling a generic reading style or customer service tone. It does not convey the assertiveness, weight, or conviction expected when someone confidently claims they can 'handle a project'.",
+    "reasoning_model_2": "Model 2 generates the text '没问题，这个项目我能搞定。' accurately and fluently.\n\n1. **Pitch (音高):** The model employs a voice that sits firmly in a mid-range pitch (0:00-0:03). It is neither too high nor too deep, effectively satisfying the 'mid-tone' (中音) constraint.\n\n2. **Cognitive State (认知状态):** The model successfully captures the 'confident' tone. At 0:00-0:01, the phrase '没问题' is spoken with a brisk, decisive rhythm. At 0:02-0:03, the phrase '我能搞定' features a firm downward inflection and stronger stress, projecting a sense of capability and assurance that perfectly matches the required cognitive state.",
+    "model_comparison": "Both models achieve perfect content accuracy and fluency. The decisive difference lies in the control of paralinguistic features specified in the prompt.\n\nFor **Pitch**, Model 2 correctly produces a 'mid-tone' audio, whereas Model 1 defaults to a high-pitched voice, ignoring the constraint. Model 2 is the clear winner here.\n\nFor **Cognitive State** (Confidence), Model 1 offers a standard, neutral reading that sounds polite but not specifically confident. Model 2, in contrast, effectively modulates prosody, stress, and intonation to sound assertive and assured, closely adhering to the 'confident' instruction. Therefore, Model 2 demonstrates superior control over both dimensions.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

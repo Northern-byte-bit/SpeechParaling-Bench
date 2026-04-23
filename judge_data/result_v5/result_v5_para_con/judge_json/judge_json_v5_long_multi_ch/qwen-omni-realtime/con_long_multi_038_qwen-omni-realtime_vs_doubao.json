@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the provided text script without any errors or omissions. In terms of '音质' (Voice Quality), the voice is distinctively bright and clear, with a higher pitch and energetic resonance that aligns perfectly with the descriptor '明亮'. For '态度' (Attitude), the speaker conveys a very polite, enthusiastic, and welcoming tone, particularly evident in the segment '非常高兴您能抽出宝贵时间' (00:01-00:04). The pacing is fluid and natural, effectively simulating a professional yet warm greeting.",
+    "reasoning_model_2": "Model 2 exhibits a significant failure in Content Accuracy. It paraphrases the latter half of the script, changing '会议室已经准备好了，请随我这边走' to '会议室已经准备就绪，我这就带您过去，请您这边走' (00:05-00:09). While the speech is fluent and the '态度' (Attitude) is polite and professional, and the voice quality is clear (though more gentle/elegant than explicitly 'bright'), the substantial deviation from the source text violates the core requirement of reading the specific sentence. According to the scoring criteria, significant content inconsistencies result in a low score.",
+    "model_comparison": "Model 1 is the clear winner. It adhered perfectly to the content constraints, whereas Model 2 hallucinated and rewrote the end of the sentence, which is a critical failure in a text-to-speech instruction task. Furthermore, Model 1 captured the specific paralinguistic requirement of a 'bright' (明亮) voice more accurately, delivering an energetic and resonant tone. Model 2's voice was polite but leaned more towards a standard gentle/calm professional tone rather than the requested 'bright' quality. Due to the content failure in Model 2, it receives significantly lower scores.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates excellent adherence to the specific paralinguistic constraints. \n1. **Pitch**: From the very first word '哇' (00:00), the voice utilizes a significantly higher pitch range, resembling a falsetto or a very bright, youthful tone, which strictly follows the 'high pitch' (高音) instruction. \n2. **Rhythm**: The pacing is fast and bouncy (00:01-00:03), particularly on '真不错', creating a 'light and brisk' (轻快) feel. \n3. **Emotion**: The tone is bubbling with excitement and happiness. The intonation on '下次再来' (00:03-00:04) rises enthusiastically. The audio sounds vivid and fully embodies the requested persona.",
+    "reasoning_model_2": "Model 2 generates a high-fidelity, natural-sounding audio, but fails to adhere to the specific stylistic modifiers requested. \n1. **Pitch**: The voice maintains a standard, medium-range adult female pitch (00:00-00:04). It ignores the 'high pitch' instruction entirely. \n2. **Rhythm**: The rhythm is steady and emphatic rather than 'light and brisk'. It sounds authoritative and grounded (e.g., the stress on '真不错' at 00:02 is heavy). \n3. **Emotion**: While the tone is positive and conveys satisfaction (matching the text semantics), it lacks the overt 'happy' and excited energy requested. It sounds more like a professional review than a joyful exclamation.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. The prompt explicitly requested specific paralinguistic changes: high pitch, light rhythm, and happy emotion. Model 1 modified the voice synthesis to strictly match these parameters, resulting in an expressive, high-pitched, and energetic clip. Model 2 produced a standard, high-quality reading of the text but failed to incorporate the specific 'high pitch' and 'light rhythm' constraints, resulting in a performance that, while fluent, did not follow the user's stylistic command.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

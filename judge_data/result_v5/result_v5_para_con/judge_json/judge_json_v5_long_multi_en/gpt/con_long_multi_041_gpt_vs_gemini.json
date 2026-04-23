@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates a voice that clearly sounds like an adult male, satisfying the age requirement. Regarding the emotion, the audio starts immediately with a loud, punchy onset at 0:00 ('You've made a mess...'), placing strong emphasis on 'mess'. The pacing is brisk, and the prosody reflects frustration and annoyance, particularly in the segment 0:02-0:05 ('Haven't I told you countless times'). The tone is consistently scolding throughout the clip, effectively capturing the requested 'angry' emotion. The only minor content deviation is expanding 'It's' to 'It is', but this does not detract from the emotional delivery.",
+    "reasoning_model_2": "Model 2 generates a voice that sounds like an adult female, fulfilling the age requirement. However, the emotional expression is completely incorrect. The pacing is extremely slow and lethargic (e.g., 0:00-0:04 'You've made a mess...'), and the tone is calm, gentle, and soothing, sounding more like a patient observation or a bedtime story than an angry scolding. There is no intensity, raised pitch, or urgency associated with anger. It fails to convey the requested paralinguistic feature of anger entirely. Like Model 1, it also expands 'It's' to 'It is'.",
+    "model_comparison": "Both models successfully produce an adult voice, adhering to the Age constraint. However, there is a stark difference in the Emotion dimension. Model 1 successfully conveys anger through increased volume, stress on key words, and a frustrated prosody that fits the context of a scolding parent. Model 2, conversely, delivers the line with a slow, calm, and gentle tone that is the complete opposite of the requested angry emotion. Therefore, Model 1 is the clear winner for the Emotion dimension, while the Age dimension is a tie.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

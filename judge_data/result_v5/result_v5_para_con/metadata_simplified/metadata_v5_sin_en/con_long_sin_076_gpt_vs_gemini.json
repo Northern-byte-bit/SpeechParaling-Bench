@@ -1,0 +1,14 @@
+{
+    "sample_index": 76,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a clear pause after the word 'important': 'This report contains our company's development plan for the next three years, and every piece of data and strategy within it is extremely important and requires diligent study by all colleagues.'",
+    "dimensions": [
+        "Pause"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

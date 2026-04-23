@@ -1,0 +1,14 @@
+{
+    "sample_index": 90,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用惊喜的语气开始，然后突然转变为害怕说：没想到你竟然记得我的生日，还特意准备了蛋糕！可是，为什么房间里会发出奇怪的声音？",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

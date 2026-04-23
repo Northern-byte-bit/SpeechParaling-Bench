@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content perfectly matching the script: '你所做的决定将影响许多人的命运...'. The pronunciation is clear, and the rhythm is steady and grave, suitable for the serious nature of the text. Regarding the core paralinguistic feature 'Extremely Low Pitch' (极低音), the model successfully lowers the vocal register significantly. The voice is deep, resonant, and maintains a consistent low frequency throughout the clip (e.g., noticeably deep resonance at 00:00-00:03 and 00:06-00:08). It effectively conveys the solemnity and weight required by the prompt through this lowered pitch.",
+    "reasoning_model_2": "The model generates the content accurately according to the script. The fluency is high, and the articulation is clear. However, regarding the core paralinguistic feature 'Extremely Low Pitch' (极低音), the model completely fails. The voice generated is a relatively high-pitched, bright, and energetic voice (sounding like a standard female or young voice). Throughout the entire clip (00:00-00:08), there is no attempt to lower the pitch; in fact, the intonation is quite lifted and light, which is the opposite of the requested 'extremely low' characteristic.",
+    "model_comparison": "Model 1 followed the specific instruction to use an 'extremely low pitch' very well. The resulting audio is deep, serious, and acoustically low in frequency, aligning perfectly with the command. Model 2 completely ignored the pitch constraint, producing a voice with a standard to high pitch that contradicts the user's request for a low tone. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model fails significantly in Content Accuracy. Instead of just saying the target sentence '那声音太可怕了', it reads the style descriptors '耳语' (Whisper) and '害怕' (Fear) out loud as part of the script ('耳语，害怕，那声音，太可怕了'). Regarding the paralinguistic dimension of '音量' (Volume), while the voice is relatively soft, it is fully phonated and clearly not a whisper; it lacks the breathy characteristic required for '耳语'. Regarding '情感' (Emotion), the delivery is somewhat flat and calm. While it is not energetic, it does not convey the trembling or tension associated with '害怕' (Fear). The inclusion of the prompt instructions in the speech breaks the immersion completely.",
+    "reasoning_model_2": "The model demonstrates perfect Content Accuracy, speaking only the target text '那声音太可怕了'. Regarding '音量' (Volume), the audio is an excellent example of a 'whisper'. The model successfully suppresses vocal cord vibration, relying on breath sounds, which aligns perfectly with the '耳语' instruction. Regarding '情感' (Emotion), the delivery effectively conveys '害怕' (Fear). The pacing is slow and hesitant (00:00-00:02), and the breathiness of the whisper enhances the feeling of terror and secrecy. The performance is natural and highly compliant with the user's specific paralinguistic requests.",
+    "model_comparison": "Model 2 is superior in all aspects. Model 1 makes a critical error by reading the instructions ('耳语', '害怕') aloud, which violates content accuracy. Furthermore, Model 1 fails to generate the requested paralinguistic features: it uses a soft phonated voice instead of a whisper, and the emotional tone is neutral rather than fearful. Model 2, in contrast, generates a high-quality audio that is both a genuine whisper (Volume) and clearly fearful (Emotion), matching the script perfectly without errors. Therefore, Model 2 wins decisively on both dimensions.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

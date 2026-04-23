@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user explicitly commanded the model to read the sentence in a 'shouting manner'. However, Model 1 produced audio with a very calm, polite, and moderate volume level throughout the entire duration (0:00-0:10). The tone resembles a standard, soft-spoken public announcement or a calm instructional reading rather than a shout. There is no evidence of increased vocal effort, projection, or loudness. Consequently, the model failed completely to convey the required paralinguistic feature 'Volume' (shouting), essentially performing the opposite style (calm/soft).",
+    "reasoning_model_2": "Model 2 successfully followed the instruction to use a 'shouting manner'. From the very beginning at 0:00 ('Attention, everyone!'), the voice exhibits high projection, increased tension, and the acoustic characteristics of someone yelling to be heard by a crowd. The intensity is maintained effectively through the urgent phrases like 'The fire drill starts now' (0:02). The vocal quality accurately reflects the physical strain of shouting while maintaining high content accuracy and fluency. It perfectly embodies the target 'Volume' feature.",
+    "model_comparison": "The comparison shows a stark contrast in performance regarding the specific instruction 'shouting manner'. Model 1 completely ignored the volume/style instruction, providing a standard, calm TTS voice that contradicts the request for shouting. Model 2, on the other hand, generated a voice that sounds genuinely loud and projected, capturing the urgency and vocal effort of a shout. Therefore, Model 2 is the clear winner as it satisfied the core paralinguistic constraint, whereas Model 1 failed entirely.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

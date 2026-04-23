@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content accurately follows the script, though the initial particle '啊' (Ah) is realized as a scoffing '哈' (Ha), which is a natural variation in expressive speech. The voice features a young female timbre, perfectly aligning with the 'Age: Youth' requirement (0.0s-1.5s). Regarding 'Emotion: Disgust', the model performs excellently. The initial scoff (0.0s-0.5s) sets a tone of annoyance immediately. The delivery of '我最讨厌吃这个了' (I hate eating this the most) uses a slightly higher pitch and a sharp, complaining prosody that vividly conveys rejection and disgust. The expression is distinct, natural, and matches the command well.",
+    "reasoning_model_2": "The audio content is accurate, pronouncing the '啊' correctly as a sigh. The voice features a young male timbre, which satisfies the 'Age: Youth' requirement (0.0s-2.0s). regarding 'Emotion: Disgust', the performance is acceptable but less intense. The initial 'Ah' (0.0s-0.8s) is a prolonged sigh, and the subsequent sentence is delivered with a lower pitch and slower pace. This prosody conveys a sense of weariness, resignation, or boredom rather than a strong, visceral 'disgust' or intense 'hate'. While it fits a negative sentiment, it lacks the expressive punch expected for the specific command 'disgust'.",
+    "model_comparison": "Both models successfully control the 'Age' dimension, generating convincing youthful voices (Model 1 female, Model 2 male). In the 'Emotion' dimension, Model 1 is superior. Model 1's delivery is sharper, more energetic, and clearly captures the feeling of 'disgust' and 'complaint' through intonation and stress. Model 2's interpretation leans heavily towards 'lethargy' or 'resignation,' resulting in a flatter emotional profile that is less aligned with the prompt's request for 'disgust' compared to Model 1's vivid expression.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

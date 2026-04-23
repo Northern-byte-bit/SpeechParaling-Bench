@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio for Model 1 accurately recites the content 'This is my last warning to you!'. However, regarding the paralinguistic features: \n1. **Pace:** The speaker adopts a moderate, conversational tempo (approx. 2.5 seconds). There is no noticeable acceleration to meet the 'fast pace' requirement; it sounds like a standard declaration.\n2. **Stress:** The stress pattern is natural but incorrect for the specific command. The emphasis falls heavily on the adjectives and nouns ('last' and 'warning'), which is the default prosody for this sentence. The target word 'is' is unstressed and blends into the flow. \nOverall, the model produced high-fidelity speech but failed to adhere to the specific style control instructions.",
+    "reasoning_model_2": "The audio for Model 2 correctly recites the text. Regarding the features:\n1. **Pace:** The delivery is noticeably rapid, completing the sentence in roughly 1.5 seconds. The articulation is quick but clear, effectively conveying the 'fast pace' requested.\n2. **Stress:** The model successfully alters the prosody to place distinct emphasis on the word 'is'. There is a perceptible pitch peak and slight elongation on 'is' ('This IS my last warning...'), distinguishing it from the rest of the sentence as requested. \nThe model demonstrated strong controllability on both dimensions.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 generated a natural-sounding audio but completely ignored the user's specific constraints regarding pace and stress, defaulting to a standard reading style. Model 2, conversely, adhered strictly to the prompt, delivering the sentence with the requested fast tempo and correctly placing the prosodic stress on the word 'is'. Model 2 effectively demonstrates 'Feature Control', whereas Model 1 only demonstrates basic text-to-speech capability.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

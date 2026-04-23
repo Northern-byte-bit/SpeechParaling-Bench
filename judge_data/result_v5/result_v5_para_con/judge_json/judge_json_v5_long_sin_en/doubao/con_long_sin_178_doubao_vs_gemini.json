@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 successfully incorporates the required paralinguistic feature. At 00:00, it generates a very natural and realistic yawning sound ('Ahhh...') instead of reading the text 'Aaaah-choo!'. While this technically constitutes a modification of the input text (replacing the onomatopoeic sneeze 'Aaaah-choo' with the requested yawn sound), it perfectly adheres to the instruction to 'read with a yawn'. The subsequent speech (00:01-00:12) maintains a drowsy, lethargic tone consistent with someone who hasn't woken up yet, effectively integrating the paralinguistic context into the prosody.",
+    "reasoning_model_2": "Model 2 completely fails to generate the required non-linguistic vocalization. Instead of performing a yawn sound, it literally speaks the word 'Yawns' at 00:00. This is a 'stage direction' error where the model reads the intent as text. Additionally, like Model 1, it skips the 'Aaaah-choo!' portion of the text. The voice sounds relatively standard and does not convey the sleepy, groggy characteristic associated with the command, resulting in a flat delivery that fails the core requirement.",
+    "model_comparison": "Model 1 is the clear winner. It correctly interpreted the command to generate a non-linguistic vocalization (a yawn) and integrated it naturally at the beginning of the audio, followed by appropriate sleepy prosody. Model 2 failed significantly by reading the instruction 'Yawns' as spoken text rather than generating the sound effect. Model 1's handling of the feature is vivid and natural, while Model 2 receives a 0 for failing to produce the feature entirely.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

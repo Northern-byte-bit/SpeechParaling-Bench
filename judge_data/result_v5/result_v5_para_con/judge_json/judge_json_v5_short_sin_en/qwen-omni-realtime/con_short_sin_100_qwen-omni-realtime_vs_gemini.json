@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the correct text content 'You must finish your homework before playing games.' without errors. However, regarding the core requirement to emphasize the word 'must', the performance is poor. The audio is delivered at a very fast pace (00:00-00:02), and the word 'must' (~00:00) is rushed over with no discernable increase in volume, duration, or pitch change to denote stress. The prosody is flat and rapid, making the sentence sound like a casual, hurried remark rather than a stern instruction with specific emphasis. The target feature is effectively absent.",
+    "reasoning_model_2": "The model generates the text accurately and with high naturalness. The pacing is deliberate and appropriate for an authoritative instruction. Crucially, the model strictly adheres to the paralinguistic instruction to emphasize 'must'. At timestamp 00:00-00:01, the word 'must' is significantly elongated and spoken with a distinct pitch contour that highlights it against the rest of the sentence. The gap between 'must' and 'finish' further reinforces the emphasis. The expression is vivid and perfectly matches the user's intent.",
+    "model_comparison": "Model 2 is the clear winner in this evaluation. While both models produced the correct text, Model 1 failed to incorporate the requested paralinguistic feature. Model 1's delivery was rushed and monotonic, with no audible stress on the target word 'must'. In contrast, Model 2 demonstrated excellent control over prosody, applying significant elongation and pitch stress to 'must' exactly as requested, resulting in a natural and correct output.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully incorporates the requested 'hesitant' tone. It achieves this primarily through significant elongation of vowels, particularly on the words 'weekend' (0:00-0:02) and 'park' (0:05-0:06). The pacing is notably slow, and the intonation drags, mimicking the cognitive process of thinking or uncertainty. However, the elongation is somewhat exaggerated, making the speech sound slightly unnatural or drowsy rather than purely hesitant. Despite this, the content is accurate, and the target paralinguistic feature is clearly identifiable.",
+    "reasoning_model_2": "The model generates a high-quality, fluent audio clip with natural prosody and clear articulation. However, it completely fails to adhere to the 'hesitant tone' instruction. The delivery is confident, rhythmic, and decisive, sounding like a standard suggestion rather than someone unsure of themselves. There are no pauses, fillers, or changes in tempo that would indicate hesitation. It sounds like a standard text-to-speech reading of a question.",
+    "model_comparison": "Model 1 is the clear winner in terms of Feature Control. While Model 2 offers superior fluency and naturalness in a general sense, it completely ignores the specific constraint to be 'hesitant'. Model 1 clearly modifies its prosody to match the user's command, using tempo and elongation to convey uncertainty. Although Model 1's execution is slightly exaggerated (affecting naturalness), it successfully implements the required cognitive state, whereas Model 2 delivers a neutral/confident tone that contradicts the prompt's intent.",
+    "score_1_1": 2,
+    "score_2_1": 0,
+    "winner_1": 1
+}

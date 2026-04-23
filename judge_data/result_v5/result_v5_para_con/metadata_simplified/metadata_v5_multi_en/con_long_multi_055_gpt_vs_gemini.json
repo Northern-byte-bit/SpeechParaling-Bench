@@ -1,0 +1,18 @@
+{
+    "sample_index": 55,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an elderly voice, a very slow pace, and a helpless tone: 'Sigh, these old bones are getting less and less useful, even going downstairs to buy groceries requires several rests. Back in my day, I could carry two loads of firewood up the mountain in one breath.'",
+    "dimensions": [
+        "Age",
+        "Cognitive State",
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 0
+}

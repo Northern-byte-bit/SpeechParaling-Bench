@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the text 'The meeting will start in ten minutes.' accurately. However, the audio quality is noticeably lower fidelity, sounding slightly grainy and processed. \n\nRegarding Emotion: The delivery is fairly flat and lacks strong emotional coloring, which aligns with 'neutral'. However, the tone feels somewhat casual and rushed rather than a deliberate, professional neutral tone. It scores a 2 as it is discernible but lacks the polished naturalness of a perfect generation.\n\nRegarding Pitch: The voice has a distinctly high timbre, sounding like a young female or child's voice. This deviates from the requested 'medium pitch'. While not an extreme falsetto, it is naturally high-pitched, failing to meet the specific control constraint for a medium range. Therefore, it scores a 1 for Pitch.",
+    "reasoning_model_2": "The model generates the text with perfect accuracy and high audio fidelity. The pronunciation is crisp and clear.\n\nRegarding Emotion: The model delivers the sentence with a standard, professional announcement tone. It is calm, steady, and devoid of unnecessary affect, perfectly capturing the 'neutral' emotion required. It scores a 3.\n\nRegarding Pitch: The speaker is an adult female with a voice that sits comfortably in the middle of the vocal range. It is neither high/shrill nor low/deep. It accurately satisfies the 'medium pitch' constraint. It scores a 3.",
+    "model_comparison": "Model 2 is the clear winner in both dimensions. \n\nFor Emotion, Model 2 provides a professional, high-quality neutral tone suitable for the context, whereas Model 1 feels casual and suffers from lower audio fidelity. \n\nFor Pitch, Model 2 correctly uses a standard medium-pitch adult voice, whereas Model 1 uses a high-pitched voice (sounding youthful/child-like) which directly contradicts the 'medium pitch' instruction. Model 2 followed all instructions perfectly.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

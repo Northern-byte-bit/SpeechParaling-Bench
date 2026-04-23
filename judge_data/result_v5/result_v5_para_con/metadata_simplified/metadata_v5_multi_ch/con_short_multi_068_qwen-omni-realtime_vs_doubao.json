@@ -1,0 +1,18 @@
+{
+    "sample_index": 68,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用柔和的音质，中速，在“最重要”上重读地说：宝贝，今晚的故事会告诉你，爱是最重要的。",
+    "dimensions": [
+        "音质",
+        "语速",
+        "重音"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

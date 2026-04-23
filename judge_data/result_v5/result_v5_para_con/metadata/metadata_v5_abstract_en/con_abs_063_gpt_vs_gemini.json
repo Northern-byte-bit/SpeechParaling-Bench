@@ -1,0 +1,14 @@
+{
+    "sample_index": 63,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a plain and simple tone: 'I've finished the report and placed it on your desk. There's nothing particularly noteworthy.'",
+    "dimensions": [
+        "plain and simple"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

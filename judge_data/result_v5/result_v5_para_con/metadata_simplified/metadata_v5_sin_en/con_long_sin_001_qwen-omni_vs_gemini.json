@@ -1,0 +1,14 @@
+{
+    "sample_index": 1,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a child's voice: 'Mommy, I made so many new friends at kindergarten today, we played with building blocks and built a big castle! Tomorrow I want to go on the slide again, kindergarten is so much fun!'",
+    "dimensions": [
+        "Age"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

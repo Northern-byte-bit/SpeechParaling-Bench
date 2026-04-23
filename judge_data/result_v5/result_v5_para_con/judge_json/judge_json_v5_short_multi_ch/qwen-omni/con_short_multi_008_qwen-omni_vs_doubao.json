@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content correctly matches the script '你为什么总是这样' (00:00-00:02). However, regarding the feature 'Volume' (音量), the model fails significantly to adhere to the instruction 'shouting volume' (喊叫的音量). The volume is at a standard conversational level, sounding more like a close-mic narration than a shout. regarding 'Emotion' (情感), the tone conveys a sense of grievance, complaint, or mild annoyance rather than the requested 'angry' (生气). It sounds more like someone whining or expressing disappointment softly rather than expressing rage or strong anger.",
+    "reasoning_model_2": "The audio content matches the script perfectly '你为什么总是这样' (00:00-00:02). Regarding 'Volume' (音量), the model successfully executes the 'shouting volume' instruction. The voice projection is high, with increased intensity and air pressure characteristic of yelling or shouting. Regarding 'Emotion' (情感), the delivery is forcefully angry. The stress on '为什么' (why) and the overall tense, elevated pitch accurately convey frustration and anger. The performance feels natural for the given context.",
+    "model_comparison": "In this comparison, Model 2 (T2) vastly outperforms Model 1 (T1) on both requested dimensions. The user explicitly requested 'shouting volume' and 'angry' tone. T1 provided a standard conversational volume with a tone of mild complaint or grievance, which barely meets the emotion criteria and fails the volume criteria. T2 provided a distinct shouting voice with strong projection and a clearly angry, frustrated tone, perfectly matching the user's prompt. T2 followed the specific paralinguistic instructions, whereas T1 ignored the intensity requirements.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

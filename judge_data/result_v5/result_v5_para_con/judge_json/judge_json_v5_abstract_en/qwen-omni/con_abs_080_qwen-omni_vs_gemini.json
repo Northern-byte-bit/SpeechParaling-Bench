@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with high fluency and no mechanical artifacts. Regarding content accuracy, the model expands the contraction 'That's' to 'That is', which is a minor deviation from the script 'That's strange'. In terms of the 'confused' and 'puzzled' dimensions, the model adopts a softer, breathy tone with a rising intonation at the end of the question (approx 0:04-0:06). While there is a sense of mild curiosity or light surprise, the expression lacks the genuine weight of confusion. The delivery feels slightly hurried and reads more like a standard narration with a polite questioning tone rather than a person genuinely struggling to understand a situation. The emotion is present but lacks depth and specific prosodic coloring associated with being puzzled.",
+    "reasoning_model_2": "The model also expands 'That's' to 'That is', sharing the same minor content accuracy flaw as Model 1. However, purely on the paralinguistic features, this model excels. The pacing is significantly slower, reflecting the cognitive processing time of a puzzled person. The phrase 'That is strange' (0:00-0:02) is delivered with a drawn-out, contemplating tone. The emphasis on 'distinctly' (0:03) and the specific pitch contour on the final question 'How could they suddenly be gone?' (0:05-0:08) sound very natural and genuinely perplexed. The pauses and the vocal modulation effectively convey a state of confusion and deep thought.",
+    "model_comparison": "Both models failed to strictly adhere to the text by expanding 'That's' to 'That is', putting them on equal footing regarding content accuracy. In terms of the target paralinguistic features 'confused' and 'puzzled', Model 2 is the clear winner. Model 1 provides a 'safe' rendition that sounds like a standard TTS voice with a mild questioning filter applied; it lacks the temporal dynamics (pauses, slowing down) that characterize genuine confusion. Model 2, in contrast, utilizes pacing and pitch variation effectively to mimic the human cognitive state of being puzzled. The elongation of words and the thoughtful pauses make the emotion feel authentic and vivid (Score 3) compared to the somewhat superficial delivery of Model 1 (Score 2).",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

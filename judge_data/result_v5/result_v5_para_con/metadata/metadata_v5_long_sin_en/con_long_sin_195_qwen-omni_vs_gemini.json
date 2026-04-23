@@ -1,0 +1,14 @@
+{
+    "sample_index": 195,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a cold tone: 'I'm not interested in that movie; you go ahead and have fun. Right now, I just want to be alone and do nothing. Don't ask again, I said I don't want to go.'",
+    "dimensions": [
+        "Attitude"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

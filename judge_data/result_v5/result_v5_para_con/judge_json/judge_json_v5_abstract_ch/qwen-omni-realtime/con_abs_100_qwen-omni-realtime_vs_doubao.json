@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly in **Content Accuracy**. While the first sentence matches the script ('这种不公平的待遇简直令人发指'), the model immediately hallucinates and generates a large amount of unrequested text starting from 00:03 ('我怒火中烧，怎能忍气吞声...'). It expands the short command into a long dramatic monologue involving '任由不公横行', '挺身而出', and '荆棘满布'. According to the scoring criteria, since the voice content is clearly inconsistent with the script and the meaning is changed/expanded significantly, the model receives a score of 0 regardless of the emotional quality of the added speech.",
+    "reasoning_model_2": "The model demonstrates perfect **Content Accuracy**, reading the script exactly as requested with no omissions or additions ('这种不公平的待遇简直令人发指！我们绝不能姑息养奸，必须抗争到底！'). In terms of **Paralinguistic Compliance**, the audio effectively captures '义愤填膺' (righteous indignation). The speaker uses a forceful, projecting tone. Specific expressive segments include the heavy stress and slight trembling on '令人发指' (00:02) and the firm, decisive rhythm of '必须抗争到底' (00:05). The pace is accelerated to reflect urgency and anger, and the prosody sounds natural and human-like.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 suffers from a catastrophic failure in instruction following regarding the text script. It hallucinates a lengthy paragraph instead of reading the specific lines provided, which strictly violates the Content Accuracy criterion for a passing score. Model 2, in contrast, adheres perfectly to the text and delivers a high-quality emotional performance that fits the 'righteous indignation' description well, with appropriate stress, volume, and pacing.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

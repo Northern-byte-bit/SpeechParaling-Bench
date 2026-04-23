@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the script content '总算完成了，可算松了一口气。' without any errors. In terms of the required paralinguistic feature 'sighing' (Non-verbal vocalization), the model attempts to convey relief through prosody, using a downward intonation and a slightly weary tone. However, it fails to generate an explicit non-verbal sigh sound (audible exhalation of breath) either at the beginning, middle, or end of the sentence. The expression relies entirely on the tone of voice rather than the specific vocal artifact requested. Consequently, the fulfillment of the 'Non-verbal vocalization' constraint is weak/absent.",
+    "reasoning_model_2": "The model accurately follows the script. Crucially, regarding the 'Non-verbal vocalization' requirement, the audio begins with a distinct, natural-sounding sigh (audible exhalation 'Haa...') from [0.00s - 0.80s] before the speech begins. This explicitly satisfies the command to speak 'with a sigh'. The subsequent speech matches the relieved emotion established by the sigh, maintaining natural fluency and integration between the non-verbal sound and the spoken words.",
+    "model_comparison": "Model 2 (T2) is the clear winner because it successfully generated the specific non-verbal paralinguistic feature (a sigh sound) requested in the prompt. Model 1 (T1) only modified the tone of the speech (prosody) to sound relieved but failed to produce the actual non-verbal vocalization. Since the evaluation dimension is specifically 'Non-verbal vocalization' (Feature Control), T2's inclusion of the explicit sound makes it fully correct, whereas T1 has major issues by omitting the core feature.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

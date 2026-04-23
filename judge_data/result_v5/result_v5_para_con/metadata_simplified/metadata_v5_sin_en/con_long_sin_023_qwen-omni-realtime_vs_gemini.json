@@ -1,0 +1,14 @@
+{
+    "sample_index": 23,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a low pitch: 'Don't worry, everything will be fine, I'm here with you. No matter what difficulties we encounter, we will face them together; there's nothing we can't overcome.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

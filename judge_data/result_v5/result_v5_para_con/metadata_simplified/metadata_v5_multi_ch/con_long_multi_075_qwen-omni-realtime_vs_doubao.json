@@ -1,0 +1,18 @@
+{
+    "sample_index": 75,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请在咳嗽后，用粗鲁的语气大声地说：(咳嗽) 喂！你们到底有没有公德心啊？这么晚了还在外面大声喧哗，完全不顾及别人的休息！简直是太过分了，难道你们不知道这里有老人和孩子吗？",
+    "dimensions": [
+        "非语言发声",
+        "态度",
+        "音量"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

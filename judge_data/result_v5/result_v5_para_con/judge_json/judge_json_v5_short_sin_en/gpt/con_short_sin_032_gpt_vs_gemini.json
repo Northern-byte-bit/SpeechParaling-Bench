@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text content accurately (00:00-00:03). However, regarding the core requirement of 'hoarse timbre', the audio fails completely. The voice remains clear, resonant, and consistent throughout the sentence. There is no audible roughness, raspiness, breathiness, or vocal strain that would indicate a hoarse voice. The delivery is also relatively fast and energetic, which contradicts the semantic context of being unable to speak due to shouting. It sounds like a standard, healthy reading voice.",
+    "reasoning_model_2": "The model generates the text accurately with appropriate pauses (00:00-00:05). The model successfully implements the requested paralinguistic feature. From the beginning 'I've been shouting' to the end, the voice exhibits a distinct raspiness and breathy quality characteristic of hoarseness. The prosody is also well-managed; the pauses after 'shouting' and 'all night' combined with the strained vocal texture effectively convey the physical struggle of speaking. The timbre is clearly distinguishable from a normal, healthy voice and aligns perfectly with the user's command.",
+    "model_comparison": "Model 1 completely ignores the paralinguistic instruction, providing a clean and clear voice that contradicts the 'hoarse' requirement. Model 2 successfully modifies the vocal timbre to sound hoarse, raspy, and strained, and supports this with a prosody that reflects the difficulty of speaking. Model 2 is superior in adhering to the specific style constraint.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

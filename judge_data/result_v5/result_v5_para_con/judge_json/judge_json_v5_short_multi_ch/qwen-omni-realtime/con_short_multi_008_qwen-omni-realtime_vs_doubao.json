@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The user requested the text '你为什么总是这样？！' to be spoken with 'shouting volume' and 'angry emotion'. \n\n1. **Content Accuracy:** Model 1 severely fails here. It hallucinates a significant amount of text not in the prompt, saying: '你为什么总是这样，每次都这样，我受够了，你到底有没有想过我的感受' (00:00-00:05). This is a major deviation from the script.\n2. **Volume (音量):** throughout the clip, and specifically on the target phrase '你为什么总是这样' (00:00-00:01), the volume is at a standard conversational level. There is absolutely no 'shouting' or projection. The energy is low to medium.\n3. **Emotion (情感):** The tone is one of weary complaint or mild annoyance rather than active 'anger'. It sounds like a grievance rather than an angry outburst. It fails to convey the requested intensity.",
+    "reasoning_model_2": "The user requested the text '你为什么总是这样？！' with specific paralinguistic features.\n\n1. **Content Accuracy:** Model 2 follows the script perfectly, speaking only the required phrase '你为什么总是这样' (00:00-00:01) without addition or omission.\n2. **Volume (音量):** The model successfully simulates a 'shouting' volume. The projection is high, the voice is strained in a natural way associated with yelling, and the energy is high.\n3. **Emotion (情感):** The emotion is clearly 'angry'. The delivery is forceful, sharp, and conveys frustration and rage effectively, matching the 'shouting' style naturally.",
+    "model_comparison": "Model 2 is superior in every aspect. \n\n**Content:** Model 1 hallucinated a long continuation of the script, whereas Model 2 stuck strictly to the requested text. \n\n**Volume:** The prompt explicitly asked for 'shouting volume'. Model 1 used a normal speaking voice (score 0), while Model 2 produced a convincing shout (score 3). \n\n**Emotion:** The prompt asked for 'angry'. Model 1 sounded merely complaining or whiny (score 1), lacking the intensity of anger. Model 2 delivered a fierce, angry tone that matched the shouting constraint perfectly (score 3). \n\nModel 2 followed all instructions, while Model 1 failed the script constraint and both style constraints.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

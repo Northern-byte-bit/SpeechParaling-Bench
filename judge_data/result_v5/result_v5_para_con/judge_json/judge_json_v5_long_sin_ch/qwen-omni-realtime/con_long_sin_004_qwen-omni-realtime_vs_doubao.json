@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The generated audio completely fails the 'Content Accuracy' criterion. The user requested to read a specific sentence: '这份项目报告我已经仔细核对过了...'. However, Model 1 hallucinated and improvised a totally different script: '这份项目报告我可是逐字逐句核对过的...真不是瞎编的...多跑几趟...'. While the voice timbre sounds like a young female which aligns with the 'Age' feature, the severe deviation from the provided text (hallucination/rewriting) triggers the 'Completely incorrect' scoring standard (0), as the voice content is clearly inconsistent with the script.",
+    "reasoning_model_2": "Model 2 performs perfectly across all criteria. 1. **Content Accuracy**: The audio matches the provided text exactly (00:00-00:09) without any errors or modifications. 2. **Fluency**: The speech is smooth, natural, and free of artifacts. 3. **Paralinguistic Compliance (Age)**: The selected voice is a young adult male, fitting the 'Youth' (青年) descriptor perfectly. The tone is professional yet energetic, suitable for the business context of the report and the requested age group.",
+    "model_comparison": "Model 2 wins decisively. Model 1 failed to follow the basic instruction to read the provided text, instead generating a paraphrased and colloquial version of the script. This is a critical failure in Content Accuracy. Model 2 accurately read the text while successfully embodying the requested 'Youth' (Young Adult) voice characteristic with high quality and naturalness.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

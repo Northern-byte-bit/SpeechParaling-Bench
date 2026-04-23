@@ -1,0 +1,14 @@
+{
+    "sample_index": 71,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a halting rhythm and gradually becoming an emphatic rhythm: 'This, this puzzle, is really, really difficult. However, I believe that as long as we persevere, we will eventually find the clues to solve it!'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

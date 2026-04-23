@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model completely failed the Content Accuracy criterion. The user's command explicitly requested to say the sentence: '请现在就把报告提交上来！'. However, Model 1 generated: '现在就请你把报告提交上来，别再拖了，我等你马上处理'. It changed the word order at the beginning and hallucinated two additional sentences ('别再拖了，我等你马上处理'). Due to this severe content deviation, the audio receives a score of 0 regardless of prosody.",
+    "reasoning_model_2": "The model followed the Content Accuracy criterion perfectly, synthesizing the exact text '请现在就把报告提交上来'. regarding the feature control (Stress/重音), at timestamp 00:00-00:01, the model places a very distinct and heavy emphasis on the word '现在'. It achieves this through increased volume, a forceful tone, and slight pausing around the target word, effectively conveying the urgency implied by the prompt. The overall delivery is fluent and fits the imperative context.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinated a significant amount of text and changed the sentence structure, resulting in a mandatory score of 0 for content failure. Model 2 accurately synthesized the requested text and successfully applied the requested paralinguistic feature (stressing the word '现在') with clear audible prominence.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

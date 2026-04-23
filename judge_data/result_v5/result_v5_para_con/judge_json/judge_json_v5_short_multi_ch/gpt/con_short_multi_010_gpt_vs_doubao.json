@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio is short (approx. 1.5s), delivering the text '你真是个小懒虫' with perfect content accuracy. Regarding the 'Rhythm' (节奏), the speech is fast-paced and fluid, matching the 'brisk/light' (轻快) requirement well. The syllables are connected smoothly without dragging. Regarding 'Attitude' (态度), the tone is light and carries a slight upward inflection at the end, suggesting a friendly and playful vibe consistent with 'teasing' (调侃). However, the emotional intensity is somewhat moderate; while it captures the correct sentiment, it could be slightly more expressive to be fully vivid.",
+    "reasoning_model_2": "The audio is longer (approx. 2s) for the same short sentence. Regarding 'Rhythm' (节奏), the pacing is noticeably slower and more deliberate, with heavy stress on individual words like '真' and '小'. This dragging pace directly contradicts the user's request for a 'brisk/light' (轻快) rhythm. Regarding 'Attitude' (态度), the delivery sounds overly emphatic and dramatic, resembling a broadcast announcer or a serious declaration rather than a playful tease. The heaviness of the tone misses the intimate and lighthearted nature required for 'teasing' (调侃) a 'lazybones'.",
+    "model_comparison": "Model 1 significantly outperforms Model 2 in adhering to the specific paralinguistic constraints. On the 'Rhythm' dimension, Model 1 effectively captures the 'brisk' (轻快) pace, whereas Model 2 is slow and heavy, failing the prompt. On the 'Attitude' dimension, Model 1's lighter, faster delivery naturally conveys the 'teasing' (调侃) vibe, while Model 2's emphatic and serious tone sounds unnatural for the context and misses the playful intent. Therefore, Model 1 is the clear winner across both dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 2,
+    "score_2_2": 1,
+    "winner_2": 1
+}

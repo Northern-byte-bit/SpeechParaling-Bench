@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio correctly articulates the text content 'Oh, when will these days, ever end'. Regarding the 'Non-Linguistic Vocalizations' dimension, the model simply reads the word 'Oh' as a linguistic token with standard phonation. It fails to produce a distinct, breathy non-linguistic 'sigh' sound as requested; the expression remains textual rather than visceral. Regarding 'Pace', the delivery follows a standard or slightly moderate rhythm (indicated by the comma pause), but it does not achieve the 'very slow' tempo required to convey deep weariness. The speed feels too conversational and lacks the necessary dragging quality.",
+    "reasoning_model_2": "The audio accurately produces the text content. For 'Non-Linguistic Vocalizations', the model generates a clear 'Oh...' where the vocalization is prolonged and breathy, effectively simulating a deep sigh. This successfully integrates the requested non-linguistic feature into the speech start. regarding 'Pace', the delivery is markedly slow and lethargic. The use of the sigh at the beginning sets a heavy tempo, and the subsequent words are delivered with a dragging rhythm ('when will these days ever end') that perfectly fits the 'very slow pace' constraint.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Model 1 essentially performed a standard text-to-speech reading: it read the word 'Oh' literally without converting it into the requested non-linguistic 'sigh' and maintained a pace that was too fast for the requested context. Model 2, conversely, understood the paralinguistic instructions, using the 'Oh...' to generate a genuine sigh sound and slowing the entire sentence down to a 'very slow' pace that matched the weary emotion. Model 2 made the audio sound like a performance, whereas Model 1 sounded like a reading.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

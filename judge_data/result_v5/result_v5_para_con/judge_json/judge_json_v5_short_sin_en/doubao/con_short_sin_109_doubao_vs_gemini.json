@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content: 'Please submit the report now'. However, the paralinguistic execution completely fails to meet the requirement of a 'forceful tone'. Instead of being authoritative or commanding, the voice sounds shaky, weak, and almost pleading or fearful. The word 'now' (00:01-00:02) is delivered with a tapering, downward pitch and low energy, which is the opposite of the requested forceful stress. The overall tone is submissive rather than dominant.",
+    "reasoning_model_2": "The model generates the correct text with high content accuracy. It successfully executes the paralinguistic instruction. The speaker adopts a firm, authoritative voice. There is a deliberate rhythmic structure where the speaker places a slight emphasis and pause before the final word, and then delivers 'now' (00:01-00:02) with significantly increased intensity, volume, and a sharp, falling intonation that conveys a command. The stress is clearly placed on the target word.",
+    "model_comparison": "Model 2 follows the instructions perfectly, while Model 1 fails. The prompt explicitly requested a 'forceful tone on now'. Model 2 delivered a commanding, loud, and emphatic 'now'. Model 1 delivered a weak, trembling, and pleading 'now', which is semantically the opposite of the requested tone. Therefore, Model 2 is superior in controlling the stress and tone paralinguistics.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

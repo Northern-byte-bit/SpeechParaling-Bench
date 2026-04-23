@@ -1,0 +1,16 @@
+{
+    "sample_index": 13,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用浑厚的音质疲劳地说：今天真是累坏了，从早上八点一直忙到现在，感觉身体都要散架了。我得赶紧回家泡个热水澡，然后好好休息一下，明天还有硬仗要打。",
+    "dimensions": [
+        "音质",
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

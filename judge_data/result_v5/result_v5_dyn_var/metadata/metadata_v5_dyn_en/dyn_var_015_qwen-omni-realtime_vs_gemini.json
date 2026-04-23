@@ -1,0 +1,14 @@
+{
+    "sample_index": 15,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a low pitch and suddenly jumping to a high pitch: 'Don't be afraid, there's nothing to worry about. Ah, did you hide my glasses?'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

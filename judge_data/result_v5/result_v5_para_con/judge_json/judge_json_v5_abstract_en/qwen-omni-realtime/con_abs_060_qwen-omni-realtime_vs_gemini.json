@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails fundamentally on **Content Accuracy**. The user explicitly requested the model to read the specific sentence: 'Doctor, please, quickly go see my child; he has a persistent high fever and is in critical condition!'. However, Model 1 completely hallucinated and improvised a new script: 'Doctor, hurry... My child's got a fever that won't break and he's slipping fast. Please come now, right this second.' While the improvised content attempts an urgent tone, the content is completely inconsistent with the required script. According to the Detailed Scoring Standard, if the voice content is clearly inconsistent with the script, the score must be 0.",
+    "reasoning_model_2": "Model 2 follows the **Content Accuracy** requirement perfectly, reading the script exactly as provided without errors or omissions. regarding **Urgency (Speed)**, the model accelerates the pace significantly (00:00-00:02 'quickly go see my child'), adhering to the 'urgent and pressing speed' instruction. For **Pressing (Emotional Tone)**, the voice exhibits high tension, distinct stress on keywords like 'Doctor', 'quickly', and 'critical', and a breathless quality that conveys genuine alarm and seriousness. The flow is natural, and the paralinguistic features are vivid and spot-on.",
+    "model_comparison": "Model 1 is disqualified due to a complete failure in content accuracy; it did not read the prompt's text but instead generated a paraphrased scene. Model 2 followed the text instructions perfectly and successfully implemented the required paralinguistic features. The audio in Model 2 demonstrates a fast pace and an anxious, pressing tone that aligns perfectly with the user's request.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

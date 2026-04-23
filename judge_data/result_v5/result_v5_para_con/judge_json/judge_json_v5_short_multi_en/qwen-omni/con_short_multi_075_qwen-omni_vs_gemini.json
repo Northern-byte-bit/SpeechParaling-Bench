@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 begins with a sound resembling a throat clearing ('Ahem') at 0:00-0:01, which serves as the non-linguistic vocalization. While it acknowledges the instruction, it sounds more like a polite attention-getter than a genuine cough. Regarding attitude, the delivery from 0:01 to 0:04 is mildly annoyed but lacks the aggressive or impolite edge required for a 'rude' tone; it sounds more like a slightly irritated request. The volume is conversational and does not meet the criteria for being spoken 'loudly' or shouting.",
+    "reasoning_model_2": "Model 2 starts with two distinct, realistic coughing sounds from 0:00 to 0:02, effectively fulfilling the non-linguistic vocalization requirement. The speech that follows ('Hey! Don't block the way...') is delivered with a forceful, commanding tone that accurately captures 'rudeness'. The projection is significantly stronger, with the speaker raising their voice to command attention, satisfying the 'loudly' constraint. The prosody is natural and the emotion is consistent throughout.",
+    "model_comparison": "Model 2 outperforms Model 1 across all three dimensions. \n\n1. **Attitude**: Model 2 delivers a forceful, impatient, and commanding tone that fits 'rude' well. Model 1 sounds too polite and soft, lacking the requested aggression.\n2. **Non-Linguistic Vocalizations**: Model 2 generates realistic coughing sounds. Model 1 generates a throat-clearing sound ('Ahem'), which is less accurate to the specific prompt of 'coughing'.\n3. **Volume**: Model 2 projects the voice well, sounding loud and authoritative. Model 1 remains at a standard conversational volume, failing the 'loudly' instruction.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

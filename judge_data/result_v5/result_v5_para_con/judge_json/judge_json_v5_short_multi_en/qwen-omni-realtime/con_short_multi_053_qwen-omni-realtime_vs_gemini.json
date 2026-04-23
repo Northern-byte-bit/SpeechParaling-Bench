@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy. Regarding the paralinguistic features: \n1. **Volume**: The entire clip is delivered in a distinct, breathy whisper (00:00-00:07), completely adhering to the 'whisper' constraint.\n2. **Pause**: There is a deliberate and clear pause after the word 'over' (approx. 00:03.5 - 00:04.5), separating 'coming over' from 'a bit'. This flows naturally with the hesitant pacing.\n3. **Cognitive State**: The tone is hushed, slow, and cautious. The breathiness and pacing effectively convey a nervous state, sounding like someone genuinely trying to hide.",
+    "reasoning_model_2": "The model accurately reads the text content. However, looking at the features:\n1. **Volume**: The audio is spoken in a standard, full-voice phonation (normal speaking volume). It completely fails to execute the 'whisper' command.\n2. **Pause**: The model executes the requested pause after 'over' (00:02.5 - 00:03.5). The pause is very distinct, though it results in a somewhat disjointed prosody.\n3. **Cognitive State**: The tone sounds mechanical and slightly upbeat or neutral, lacking any discernible 'nervous' or fearful quality. It sounds like a standard TTS readout rather than a performance of the context.",
+    "model_comparison": "Model 1 is the clear winner across almost all dimensions. \n\n**Volume**: Model 1 successfully generated a whisper, whereas Model 2 used a normal speaking voice, completely ignoring the instruction. \n**Cognitive State**: Model 1 effectively acted out the 'nervous' persona with a shaky, breathy delivery. Model 2 sounded robotic and neutral.\n**Pause**: Both models followed the instruction to pause after 'over'. Model 2's pause was very obvious (perhaps mechanically so), while Model 1 integrated the pause naturally into the nervous breathing pattern. While both get high scores for the specific constraint of the pause, Model 1 is vastly superior in the other two dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

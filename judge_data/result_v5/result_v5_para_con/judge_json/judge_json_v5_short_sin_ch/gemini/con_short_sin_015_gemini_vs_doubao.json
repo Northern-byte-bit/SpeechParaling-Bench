@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully executes the command to use an 'extremely high pitch' (极高音). From 00:00 to 00:02, the voice is elevated to a falsetto or squeaky range, significantly higher than a normal speaking voice. This unnatural, almost cartoon-like pitch aligns perfectly with the 'extreme' modifier in the prompt. The content '救命啊，我被困在这里啦' matches the script semantically, with a minor, natural particle variation at the end ('啦' instead of '了') that fits the urgent context. The expression of distress is present, enhanced by the high pitch.",
+    "reasoning_model_2": "The model generates a clear, high-quality voice, likely a standard female or child profile. While the natural pitch of this voice is higher than a deep male voice, it remains within a standard, comfortable speaking range (00:00-00:02). It does not exhibit the 'extremely high' (极高) characteristic requested by the user. The delivery sounds more like a standard reading or mild acting rather than a stylistically manipulated high-pitch output. The content is perfectly accurate.",
+    "model_comparison": "Model 1 (T1) demonstrates superior adherence to the specific paralinguistic instruction. The user requested 'extremely high pitch', and T1 delivered a voice that was pushed to a squeaky, falsetto range, clearly distinguishing it from normal speech. Model 2 (T2), while producing natural and high-quality audio, failed to implement the 'extremely high' constraint, offering instead a standard female/child voice that sounds normal rather than extremely pitched up. Therefore, T1 wins on the dimension of Feature Control for Pitch.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

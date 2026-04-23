@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the target sentence between 00:00 and 00:02, effectively utilizing a bright, high-pitched female voice that fits the 'High Pitch' requirement naturally. The 'Teasing' attitude is vividly conveyed through playful intonation, particularly on the '哟' (Yo) and the particle '啦' (la) at the end. However, the model significantly fails Content Accuracy by generating a long, unrequested monologue (hallucination) continuing from 00:03 to the end, and substitutes the final particle '啊' with '啦'. Despite the content error, the paralinguistic performance on the target segment is highly natural and expressive.",
+    "reasoning_model_2": "Model 2 adheres strictly to the text script without any additions or omissions (00:00-00:04). Regarding 'High Pitch', the voice attempts a high register but sounds unnatural, resembling a mechanical falsetto or an artificial pitch-shift rather than a human voice. The 'Teasing' attitude is attempted through prosody, but due to the strong electronic/mechanical quality of the voice, it sounds stiff, forced, and lacks genuine emotional nuance. The overall naturalness is low.",
+    "model_comparison": "Model 1 demonstrates superior performance in the Core Paralinguistic dimensions (Pitch and Attitude). Its expression is natural, vivid, and accurately high-pitched and teasing. Model 2, while textually accurate, produces audio with a strong mechanical quality that makes the pitch sound artificial and the attitude stiff. Although Model 1 has a significant flaw in Content Accuracy (hallucinating extra text), its rendition of the target features is far more successful and human-like than Model 2's robotic delivery. Therefore, Model 1 is rated higher on the feature dimensions, with a penalty applied for the content issues.",
+    "score_1_1": 2,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 2,
+    "score_2_2": 1,
+    "winner_2": 1
+}

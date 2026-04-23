@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately speaks the text '这个消息，千万不能说出去'. The key requirement '耳语' (whisper) is executed perfectly. From 00:00 to 00:03, the voice is breathy, unvoiced, and low in volume, simulating a secretive atmosphere exactly as requested. The pacing is deliberate and slow, enhancing the feeling of conveying a secret. There are no content errors or fluency issues. The paralinguistic compliance is excellent.",
+    "reasoning_model_2": "The model accurately speaks the text '这个消息，千万不能说出去'. However, it completely fails to adhere to the '耳语' (whisper) instruction. Throughout the clip (00:00-00:03), the audio is fully phonated with normal vocal cord vibration and standard conversational volume. It sounds like a normal reading of the line rather than a whisper. While the audio quality is clear, the failure to change the speaking style/volume to a whisper constitutes a major failure in following the prompt's core constraint.",
+    "model_comparison": "The user explicitly requested the text to be spoken in a 'whisper' (耳语). Model 1 followed this instruction perfectly, generating a breathy, unvoiced, low-volume audio that perfectly fits the definition of a whisper. Model 2 ignored the instruction and produced a standard, full-voiced speech with normal volume. Therefore, Model 1 is the clear winner for its adherence to the paralinguistic control.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

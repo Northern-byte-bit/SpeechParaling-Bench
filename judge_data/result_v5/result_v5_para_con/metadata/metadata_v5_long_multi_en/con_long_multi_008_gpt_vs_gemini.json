@@ -1,0 +1,16 @@
+{
+    "sample_index": 8,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a shouting manner and an angry emotion: 'Are you even listening to me?! I've emphasized countless times that this matter must strictly follow the procedure! Why do you always take matters into your own hands and mess everything up!'",
+    "dimensions": [
+        "Emotion",
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

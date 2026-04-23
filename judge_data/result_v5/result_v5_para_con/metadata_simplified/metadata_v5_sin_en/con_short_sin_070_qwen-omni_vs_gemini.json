@@ -1,0 +1,14 @@
+{
+    "sample_index": 70,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a quietly volume: 'Shhh, the baby is asleep, let's be quiet.'",
+    "dimensions": [
+        "Volume"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

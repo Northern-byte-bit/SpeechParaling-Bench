@@ -1,0 +1,14 @@
+{
+    "sample_index": 108,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with heavy stress on the word 'only': 'This is the only chance, if we cannot seize this collaboration, it means the company will lose an important development opportunity, so everyone must go all out.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 1,
+    "status": "Error",
+    "category": "feature_control",
+    "winner_position_1": -1
+}

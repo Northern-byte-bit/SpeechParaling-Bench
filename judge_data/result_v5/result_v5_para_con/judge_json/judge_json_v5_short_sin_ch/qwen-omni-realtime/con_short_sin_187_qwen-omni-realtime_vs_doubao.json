@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails strictly on Content Accuracy. The user commanded to say the specific sentence '我为我的错误感到非常抱歉。' (I am very sorry for my mistake). However, Model 1 generated a much longer, improvised paragraph: '我真的为我的错误感到非常抱歉，心里特别过意不去... (I really feel very sorry for my mistake, I feel very bad in my heart...)' (00:00-00:09). While the prosody is fluid and the tone is apologetic (albeit somewhat performative/anime-like), the significant addition of unrequested text constitutes a major content error. According to the evaluation criteria, content consistency is the first priority. The model did not follow the 'read this sentence' constraint.",
+    "reasoning_model_2": "The model performs excellently. Content Accuracy is perfect, matching the script '我为我的错误感到非常抱歉。' exactly without errors or additions (00:00-00:02). In terms of Paralinguistic Compliance for '态度' (Attitude/Sincerity), the model uses a lower pitch, a slower tempo, and a heavy, grounded tone that naturally conveys genuine remorse and sincerity. The intonation falls at the end of the sentence, reinforcing the seriousness of the apology. The expression is vivid and spot-on.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental instruction to synthesize the specific text provided, hallucinating several additional sentences. While Model 1's tone was expressive, the content violation is a critical failure. Model 2 adhered strictly to the content constraints and delivered a highly natural, sincere, and human-like performance that perfectly matched the requested attitude.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

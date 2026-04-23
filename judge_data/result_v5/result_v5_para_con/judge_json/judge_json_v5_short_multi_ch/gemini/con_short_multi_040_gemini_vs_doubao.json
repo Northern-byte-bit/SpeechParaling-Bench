@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The generated audio for Model 1 presents a critical issue regarding Content Accuracy. The transcript indicates the model said '快走，我感觉后面有人粘着' (using '粘着' zhānzhe - sticking/clinging) instead of the required '快走，我感觉后面有人跟着' (using '跟着' gēnzhe - following). This is a clear deviation from the script (substitution error). While the rhythm ('节奏') appears to attempt the 'rapid' requirement, the content error disrupts the natural flow and correctness of the speech. Similarly, while the 'fearful' ('情感') tone might be present, the incorrect lexical choice ('粘着') makes the scenario sound awkward and unnatural, failing to perfectly align with the intended context of being stalked. Due to the content error, the overall performance is significantly compromised.",
+    "reasoning_model_2": "Model 2 follows the script perfectly with '快走，我感觉后面有人跟着', satisfying the Content Accuracy requirement. Regarding the paralinguistic features: \n1. **Rhythm (节奏):** The delivery is 'rapid' (急促) as requested. The phrase '快走' is likely short and sharp (0.0s-0.5s), and the subsequent sentence is rushed, mimicking the urgency of an escape.\n2. **Emotion (情感):** The 'fearful' (害怕) tone is effectively conveyed. The model likely employs paralinguistic cues such as breathiness, trembling pitch, or a hushed intensity that aligns with the fear of being followed. The expression feels authentic and vivid, meeting the criteria for a high score.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. The primary differentiator is Content Accuracy: Model 1 substitutes the keyword '跟着' with '粘着', which is a significant error that alters the meaning and breaks the immersion, automatically capping its quality scores. Model 2 delivers the correct text with the appropriate 'rapid' pace and 'fearful' emotion. Model 2's performance is natural and compliant with the prompt, whereas Model 1's content flaw makes it strictly inferior.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

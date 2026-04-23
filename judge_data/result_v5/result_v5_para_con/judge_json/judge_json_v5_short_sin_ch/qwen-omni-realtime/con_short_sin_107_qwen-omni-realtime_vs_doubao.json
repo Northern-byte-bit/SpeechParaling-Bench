@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails the primary criterion of Content Accuracy. The user requested the specific sentence: '这个公式非常重要，请务必记住。'. However, Model 1 drastically alters the script to '这个公式非常重要，你一定要牢牢记住' (changing the second clause) and then proceeds to hallucinate a long, unrequested paragraph continuing until 00:16 (e.g., '他在很多关键场合都会派上用场...'). According to the scoring standard, if the voice content is clearly inconsistent with the script or contains major additions, it falls into the lowest score category. Although there is some stress on '非常' at 00:01, the severe content deviation renders the generation invalid.",
+    "reasoning_model_2": "Model 2 strictly follows the content constraints, reading the script '这个公式非常重要，请务必记住。' accurately without errors or hallucinations. Regarding the controllable feature '重音' (Stress/Emphasis), the model executes this well around the 00:01 mark. There is a noticeable increase in intensity and a slight syllabic lengthening on the word '非常', followed by a decisive tone on '重要'. The prosody clearly highlights the importance of the formula as requested, and the overall fluency and naturalness are high.",
+    "model_comparison": "Model 1 commits a critical error in Content Accuracy by rewriting the prompt's text and adding a significant amount of unrequested speech (hallucination). This violation of the basic script requirements makes it an automatic failure according to the scoring standards, regardless of its prosody. Model 2, in contrast, adheres perfectly to the text script and successfully implements the requested paralinguistic feature (emphasis on '非常'). The stress is audible and natural. Therefore, Model 2 is superior.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

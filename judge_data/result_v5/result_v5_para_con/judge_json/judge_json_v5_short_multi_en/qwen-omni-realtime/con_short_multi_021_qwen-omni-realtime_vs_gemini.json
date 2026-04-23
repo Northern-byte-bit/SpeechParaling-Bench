@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 delivers the text with perfect content accuracy, adhering strictly to the script 'I'm not really sure'. However, regarding the paralinguistic features: \n1. **Age**: The voice timbre is high-pitched, breathy, and has a 'cute' quality typical of synthesized voices representing a child or a young teenager (anime-style). It does not convincingly sound like a mature adult voice.\n2. **Cognitive State (Hesitant)**: The delivery is quite fast (approx. 3 seconds). While there is a short pause after 'plan' (00:01), the subsequent phrase 'I'm not really sure if it will work' is spoken with a relatively confident, smooth flow. It lacks the wavering pitch, slower pacing, or disjointed rhythm required to effectively convey hesitation or uncertainty. It sounds more like a straightforward reading of the text.",
+    "reasoning_model_2": "Model 2 has a minor content deviation, expanding the contraction 'I'm' to 'I am', though this does not alter the meaning. Regarding paralinguistic features:\n1. **Age**: The voice is deeper, resonant, and mature, clearly identifiable as an adult female voice. It fits the age requirement perfectly.\n2. **Cognitive State (Hesitant)**: The model excellently conveys hesitation. The clip is longer (approx. 5 seconds), utilizing a slower pace. The word 'plan' is elongated (00:00-00:01), followed by a thoughtful pause. The phrase 'I am not really sure' is delivered with a dragging, heavy prosody that simulates the cognitive load of uncertainty. The tone is grounded and doubtful, matching the requested state vividly.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 in both dimensions. \n\n**Age**: Model 1 sounds like a young girl or teenager, failing the 'adult voice' constraint, whereas Model 2 sounds undeniably like a mature adult.\n\n**Cognitive State**: Model 1 reads the sentence too quickly and fluently to convey hesitation; it sounds like a standard statement. Model 2 uses elongation, pauses, and a slower tempo to act out the uncertainty, making the hesitation palpable and natural. \n\nAlthough Model 2 had a very minor text deviation ('I am' vs 'I'm'), its mastery of the required paralinguistic features makes it the superior choice.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

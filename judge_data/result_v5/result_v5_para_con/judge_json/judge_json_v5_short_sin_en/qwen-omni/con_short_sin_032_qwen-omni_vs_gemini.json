@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio T1 accurately captures the requested 'hoarse' timbre. From 00:00 to 00:03, the voice exhibits a breathy, strained quality consistent with vocal fatigue described in the text ('shouting all night'). The delivery is weak and lacks resonance, with noticeable vocal fry on the word 'speak' at 00:02, which effectively simulates the physical sensation of losing one's voice. The content is accurate, and the prosody is natural for someone struggling to speak.",
+    "reasoning_model_2": "The audio T2 fails to incorporate the requested paralinguistic feature. From 00:00 to 00:05, the voice is clear, resonant, and fully articulated, showing no signs of hoarseness, strain, or vocal damage. While the content is accurate and the speech is fluent (standard TTS quality), the timbre is the opposite of 'hoarse'. It sounds like a healthy, energetic speaker reading a script rather than embodying the character described.",
+    "model_comparison": "Model 1 followed the instruction to modify the timbre, producing a result that sounds genuinely hoarse, breathy, and strained, fitting the text perfectly. Model 2 ignored the timbre instruction and produced a standard, clear speech output. Therefore, Model 1 is the clear winner for accurately implementing the feature control.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

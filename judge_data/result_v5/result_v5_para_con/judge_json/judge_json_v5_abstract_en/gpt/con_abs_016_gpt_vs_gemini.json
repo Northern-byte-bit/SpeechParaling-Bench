@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates audio that strictly follows the script with perfect accuracy. In terms of fluency, the speech is natural, with appropriate pausing and rhythm. Regarding the paralinguistic request for a 'firm and powerful' tone, the model succeeds significantly. From 00:00, the speaker adopts a serious, authoritative vocal stance. The stress on key words is notable: 'assure' (00:01) is delivered with weight, and 'definitely' (00:04) is emphasized strongly to convey certainty. The sentence ends with a resolute falling intonation on 'on time' (00:06), reinforcing the aspect of firmness. The overall projection is strong, effectively satisfying the 'powerful' dimension.",
+    "reasoning_model_2": "The model generates audio that is content-accurate and very fluent, with a high-quality, natural-sounding voice. However, regarding the paralinguistic instruction, the performance is lackluster. The tone from 00:00 to 00:02 is calm, polite, and reassuring rather than 'firm and powerful'. The delivery has a melodic, narrative quality (e.g., the lift in pitch on 'encounter' at 00:04) that softens the message. While the word 'definitely' (00:06) receives some stress, the overall energy is restrained and lacks the authoritative command or intensity associated with a powerful tone. It sounds like a standard audiobook reading rather than a determined leader's pledge.",
+    "model_comparison": "Both models achieve perfect scores on content accuracy and fluency/naturalness. The distinguishing factor is the adherence to the specific paralinguistic command 'firm and powerful'. Model 1 (T1) adopts a distinct authoritative persona; the prosody is decisive, with strong emphasis and a resolute cadence that fits the description of 'firmness' and 'power' well. Model 2 (T2), while sounding natural, defaults to a standard, polite narrative style. It lacks the acoustic energy and assertive intonation required by the prompt. T2 sounds pleasant but fails to convey the requested emotional weight, whereas T1 successfully modifies the speaking style to match the user's intent.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

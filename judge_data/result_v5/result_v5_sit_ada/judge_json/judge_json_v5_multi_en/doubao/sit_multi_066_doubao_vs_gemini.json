@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model correctly identifies the user's hostile and dismissive attitude ('Contemptuous') and the non-linguistic cue of distress ('Sigh'). Instead of accepting the insult ('You're nothing') literally or ignoring it, the model adopts a de-escalating and empathetic persona. The phrase 'Calm down buddy' [00:00-00:01] directly attempts to manage the user's high arousal and contempt, showing a clear paralinguistic strategy to diffuse tension. Furthermore, the question 'What's bothering you?' [00:02-00:03] serves as a direct response to the 'Sigh' and the underlying negativity, showing that the model is listening to the emotional subtext rather than just the text. The flow is natural and conversational, fitting the situational adaptation criteria well.",
+    "reasoning_model_2": "The model fails to adapt to the specific paralinguistic features of the user's input. It interprets the insult 'You're nothing' and the sigh merely as negative customer feedback, responding with a standard, robotic service script: 'I appreciate your feedback' [00:00-00:01]. This response completely ignores the 'Contemptuous' interpersonal dynamic (the user is insulting the model's worth, not providing constructive criticism) and fails to acknowledge the 'Sigh' or the user's emotional distress. While fluent, the content is emotionally incongruent with the user's state, lacking the necessary situational empathy.",
+    "model_comparison": "Model 1 significantly outperforms Model 2 in Situational Adaptation. Model 1 detects the user's emotional volatility (Contempt) and resignation (Sigh) and employs a paralinguistic strategy of de-escalation and active listening ('Calm down', 'What's bothering you?'). This creates an emotionally appropriate acoustic interaction. In contrast, Model 2 relies on a safe, generic fallback response that treats a personal insult as standard feedback, failing to align with the specific paralinguistic intensity and cues provided by the user. Model 1's approach feels human-like and responsive to the context, while Model 2 feels mechanical and oblivious.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

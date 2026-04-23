@@ -1,0 +1,14 @@
+{
+    "sample_index": 70,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a halting rhythm and gradually becoming an emphatic rhythm: 'I… I'm a bit nervous, this is my first… first time giving a presentation. But, I will try my best to deliver a fantastic report for everyone!'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

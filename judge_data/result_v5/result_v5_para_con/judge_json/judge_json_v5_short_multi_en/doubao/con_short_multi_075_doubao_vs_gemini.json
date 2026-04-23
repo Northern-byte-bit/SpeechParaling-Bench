@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates audio with coughing at the beginning (00:00-00:02), followed by speech (00:02-00:03). However, there is a critical Content Accuracy failure: the model translates the English script 'Hey! Don't block the way, move aside!' into Mandarin Chinese ('Hey! 别挡路，靠边站！' / 'Hey! Bie dang lu, kao bian zhan!'). While the acoustic features of 'Attitude' (very aggressive/rude) and 'Volume' (shouting/loud) and 'Non-Linguistic Vocalizations' (coughing) are physically present and intense, the generation completely fails to follow the text script provided in the prompt. According to the Detailed Scoring Standard, if the voice content is clearly inconsistent with the script (wrong language), the score is 0. This global failure invalidates the paralinguistic performance because the output is unusable for the requested text.",
+    "reasoning_model_2": "The model generates audio with coughing at the start (00:00-00:02) followed by the correct English script (00:02-00:06). Content Accuracy is perfect. \n1. **Attitude (Rude):** The tone is stern and serious, but it lacks the genuine aggression or impoliteness associated with a 'rude' tone. It sounds like a polite but firm instruction rather than a rude outburst. The target emotion is insufficiently expressed (Score 1). \n2. **Non-Linguistic Vocalizations (Coughing):** The coughing is clear, realistic, and positioned correctly at the start of the sentence (Score 3). \n3. **Volume (Loudly):** The volume is conversational and steady. It does not exhibit the projection or intensity of speaking 'loudly' or shouting. The feature is barely perceptible (Score 1).",
+    "model_comparison": "Model 1 (T1) demonstrates superior acoustic modeling of the requested features (it is genuinely loud and rude), but it fails the fundamental instruction by speaking Mandarin Chinese instead of the requested English text. This constitutes a catastrophic Content Accuracy failure, resulting in a score of 0 across all dimensions based on the global evaluation criteria for unusable content. Model 2 (T2) follows the text instruction perfectly and generates high-quality coughing. However, T2 fails to effectively convey the 'rude' attitude and 'loud' volume, sounding too calm and conversational. T2 wins all categories because it is the only model that generated the correct content, whereas T1 is disqualified due to the language error.",
+    "score_1_1": 0,
+    "score_2_1": 1,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 1,
+    "winner_3": 2
+}

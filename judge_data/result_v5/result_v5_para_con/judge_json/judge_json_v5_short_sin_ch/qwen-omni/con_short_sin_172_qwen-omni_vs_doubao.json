@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 generates the text '啊，那里有只老鼠' accurately in terms of content (00:00-00:01). However, regarding the core instruction 'using a screaming way' (带尖叫的方式), the model completely fails. The tone is calm, standard, and conversational, lacking any intensity, high pitch, or fear associated with a scream. The initial 'Ah' is read as a mild interjection rather than a scream. The paralinguistic feature is non-existent.",
+    "reasoning_model_2": "Model 2 follows the instruction exceptionally well. At 00:00, it produces a high-pitched, breathy gasp/scream for the character '啊' (Ah), effectively simulating a reaction to a sudden fright. The subsequent sentence '那里有只老鼠' (00:01-00:02) is delivered with a trembling, high-pitched voice that maintains the 'screaming' or highly distressed quality. The emotion is vivid, natural, and perfectly aligns with the context of seeing a mouse.",
+    "model_comparison": "There is a stark contrast between the two models. Model 1 merely reads the text with a neutral/happy TTS voice, ignoring the stylistic constraint of 'screaming'. Model 2 successfully integrates the non-verbal vocalization (the gasp/scream) and modulates the prosody of the entire sentence to match a fearful, screaming state. Model 2 captures the required paralinguistic feature perfectly, while Model 1 fails completely.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

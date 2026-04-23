@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails strictly on Content Accuracy. The user provided a specific text script: '这里的环境实在是太脏了，到处都是垃圾和异味，真让人受不了。我真不明白为什么会有人把公共场所弄成这样，太恶心了！'. However, Model 1 generated completely different text: '恶心死了，这地方简直脏得让人作呕...'. According to the Evaluation Criterion, a score of 0 is assigned when 'Voice content is clearly inconsistent with the script'. Although the improvised text is spoken with a disgusted tone, the failure to follow the text constraint renders the generation invalid for the specific task.",
+    "reasoning_model_2": "Model 2 follows the text script perfectly with no errors or omissions. In terms of '情感' (Disgust), the model performs excellently. At 0:00-0:03, the phrase '这里的环境实在是太脏了' is delivered with a lowered, heavy tone indicating repulsion. At 0:05, '真让人受不了' conveys genuine annoyance and rejection. The final phrase at 0:14, '太恶心了', is emphasized strongly, effectively capturing the peak of the disgust emotion. The pacing is natural, and the prosody aligns well with the semantic content of a complaint.",
+    "model_comparison": "Model 1 completely disregarded the provided text script and hallucinated new content, which constitutes a critical failure in Content Accuracy. Per the scoring standards, this results in a score of 0 regardless of the emotional delivery. Model 2, on the other hand, adhered strictly to the text and delivered a high-quality, emotionally resonant performance. The feeling of disgust was conveyed naturally through pitch changes, stress on negative adjectives, and appropriate pacing. Therefore, Model 2 is the clear winner.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 143,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a doubting tone: 'Can he really complete all tasks in such a short time? This workload clearly exceeds one person's capacity; I doubt it, and I'm afraid the results won't be ideal.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

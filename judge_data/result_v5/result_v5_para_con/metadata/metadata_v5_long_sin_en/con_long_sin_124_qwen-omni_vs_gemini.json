@@ -1,0 +1,14 @@
+{
+    "sample_index": 124,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a surprised emotion: 'Oh my goodness! You actually won the jackpot! This is absolutely incredible, I can hardly believe my eyes, we must celebrate properly tonight, this luck is simply off the charts!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with a notably low pitch and a deliberate, slow pace that conveys a detached, cold attitude, aligning well with the paralinguistic instructions. The pitch (throughout 00:00-00:14) is lowered significantly compared to a standard female TTS voice, and the tone is stern and dismissive. However, the model exhibits a significant hallucination issue regarding Content Accuracy. It appends an unrequested sentence at the end: 'You have wasted too much time already' (00:11-00:14). Additionally, the pacing is somewhat robotic and overly slow, affecting naturalness. Despite the content error, the specific target features (Low Pitch, Cold Attitude) are strongly present.",
+    "reasoning_model_2": "The model achieves perfect Content Accuracy, reading the script exactly without errors (00:00-00:08). However, it fails completely to adhere to the paralinguistic instructions. The pitch is high (resembling a youthful or anime-style character), which is the direct opposite of the 'very low pitch' command. The attitude sounds slightly annoyed or pleading but retains a 'sweet' or lighter quality due to the voice timbre, failing to convey the requested 'cold' and authoritative tone. The expression is fluent but stylistically incorrect.",
+    "model_comparison": "Model 1 (T1) demonstrates a much stronger capability in 'Feature Control', effectively altering the voice to be low-pitched and cold as requested, whereas Model 2 (T2) ignores these instructions entirely, producing a high-pitched, lighter voice. However, T1 suffers from a significant content error (hallucination of an extra sentence) and robotic pacing. T2 is content-accurate but stylistically a failure (scoring 0 on Pitch for being opposite). In a Model-as-a-Judge context focusing on feature control, T1 is preferred because it successfully modeled the target features, even though the content score penalizes it. T1 represents the correct style with a content flaw, while T2 represents the wrong style entirely.",
+    "score_1_1": 1,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 1,
+    "score_2_2": 0,
+    "winner_2": 1
+}

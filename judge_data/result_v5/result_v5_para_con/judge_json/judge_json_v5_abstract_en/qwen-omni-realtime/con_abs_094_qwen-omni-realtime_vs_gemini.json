@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 attempts to read the target sentence, though it expands the contraction 'It's' to 'It is'. The delivery is characterized by an extremely slow, draggy pace (e.g., 'u-n-p-r-e-c-e-d-e-n-t-e-d' at 00:01-00:03, 't-r-a-n-s-f-o-r-m-e-d' at 00:08-00:10). While the prosody is technically 'exaggerated' in terms of duration and emphasis, it lacks the high energy and excitement required for a 'sensational' tone. The result sounds robotic, stiff, and unnatural, resembling a legacy TTS system rather than a human expressing genuine shock or awe. The fluency is poor due to the mechanical, disjointed rhythm. However, it largely adheres to the content constraint.",
+    "reasoning_model_2": "Model 2 completely fails the content accuracy requirement. Instead of reading the requested sentence ('It's an unprecedented miracle...'), it hallucinates a completely new, lengthy script starting with 'Oh my gosh, can you believe it?' (00:00) and continuing for over 30 seconds with improvisational marketing text. While the vocal tone itself is highly expressive, sensational, and exaggerated, the model failed the fundamental instruction to 'read this sentence'. According to the evaluation criteria, a model whose voice content is clearly inconsistent with the script must be assigned a score of 0.",
+    "model_comparison": "Model 1 followed the core instruction to read the specific text provided, although its delivery was robotic and lacked genuine emotional nuance. Model 2, despite having a much more expressive and human-like voice, completely disregarded the text constraint and hallucinated a long paragraph of unrelated content. In a controlled text-to-speech evaluation, adhering to the script is a prerequisite. Model 2's hallucination renders it a critical failure (Score 0). Therefore, Model 1 wins by default for attempting the correct task, despite its subpar prosody.",
+    "score_1_1": 1,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 1,
+    "score_2_2": 0,
+    "winner_2": 1
+}

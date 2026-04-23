@@ -1,0 +1,18 @@
+{
+    "sample_index": 67,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用低音的声调，拖沓的节奏，厌恶地说: 这堆碗筷真是脏得令人作呕，我真的不想碰它们。也不知道是谁把厨房弄得一团糟，简直太恶心了。",
+    "dimensions": [
+        "音高",
+        "节奏",
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

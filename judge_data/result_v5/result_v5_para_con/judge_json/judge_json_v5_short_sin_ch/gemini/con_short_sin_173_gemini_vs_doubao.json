@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text '天呐，好恐怖的画面' with accurate content and high fluency. The voice sounds breathless and fearful, resembling a gasp or a frightened whisper rather than a scream. While it conveys the emotion of fear effectively, it fails to execute the specific paralinguistic instruction to speak 'in a screaming manner' (带尖叫的方式). The volume and pitch are too low to be characterized as a scream. Therefore, while natural, it does not meet the specific feature control requirement.",
+    "reasoning_model_2": "The model generates the text '天呐，好恐怖的画面' with a significantly elevated pitch and increased volume, distinctly simulating a scream or a loud shriek of terror. The vocal strain and energy level are consistent with the instruction '带尖叫的方式'. The delivery is intense and vividly captures the requested paralinguistic feature while maintaining content intelligibility. The pacing reflects the urgency of the emotion.",
+    "model_comparison": "The user's prompt explicitly requested the audio to be generated 'in a screaming manner' (带尖叫的方式). Model 1 (T1) delivered the line with a fearful tone, but it was closer to a breathless gasp or whisper, completely missing the high energy and pitch associated with screaming. Model 2 (T2) successfully modulated the voice to sound like a high-pitched scream/shout, accurately following the feature control instruction. T2's expression was vivid and spot-on for the requested prompt, whereas T1 failed to perform the specific 'scream' action.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

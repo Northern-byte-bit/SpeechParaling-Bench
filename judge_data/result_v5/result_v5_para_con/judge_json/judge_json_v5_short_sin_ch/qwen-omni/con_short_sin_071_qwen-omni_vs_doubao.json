@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the correct text content '你过来，我有个秘密要告诉你。' with no pronunciation errors. However, regarding the core paralinguistic requirement '小声' (low volume), the performance is poor. The audio is delivered in a standard, full-projected speaking voice (0:00-0:03). The tone is bright and clear, lacking the breathiness, reduced projection, or hushed quality typically associated with speaking quietly or telling a secret. It fails to convey the requested feature effectively.",
+    "reasoning_model_2": "The model generates the text content accurately and fluently. Regarding the core requirement '小声' (low volume), the model performs excellently. From 0:00 to 0:04, the speaker adopts a hushed, breathy tone with reduced vocal projection, effectively simulating a whisper or a very soft voice. This style perfectly fits the context of 'telling a secret' and strictly adheres to the user's command to speak with low volume. The expression is natural and vivid.",
+    "model_comparison": "Both models achieve perfect content accuracy and good fluency. The decisive difference lies in the 'Feature Control' dimension (Volume/Low Voice). Model 1 (T1) completely fails to adapt its vocal style to the command, delivering the line in a standard, normal-volume reading tone that contradicts the context of telling a secret quietly. Model 2 (T2) accurately interprets the command, modifying its phonation to be breathy, soft, and hushed (a stage whisper style). T2 demonstrates superior control over paralinguistic features, making it the clear winner.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high content accuracy and excellent fluency; the speech is smooth, natural, and free of artifacts. However, regarding the core requirement of 'hoarse timbre', the model fails completely. The generated voice is a clear, clean, and healthy-sounding female voice with a standard reading tone. There is no raspiness, breathiness, or vocal strain associated with a hoarse timbre. Consequently, while the audio quality is high, it ignores the specific paralinguistic instruction.",
+    "reasoning_model_2": "The model generates the audio with accurate content. The delivery is characterized by a significant amount of breathiness and vocal strain, effectively simulating a hoarse voice or a 'stage whisper'. The timbre is raspy and lacks the tonal clarity of a healthy voice, which aligns perfectly with the user's request for a 'hoarse timbre'. The emotional tone also feels appropriate for the context of the sentence (concerned). The expression is vivid and the characteristic is maintained throughout the clip.",
+    "model_comparison": "The user's command specifically requested a 'hoarse timbre'. Model 1 provided a very high-quality but completely standard, clean voice that did not exhibit any hoarseness. Model 2 provided a voice that was distinctly raspy, breathy, and strained, accurately reflecting the definition of hoarse. Therefore, Model 2 is the only model that followed the core paralinguistic instruction.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

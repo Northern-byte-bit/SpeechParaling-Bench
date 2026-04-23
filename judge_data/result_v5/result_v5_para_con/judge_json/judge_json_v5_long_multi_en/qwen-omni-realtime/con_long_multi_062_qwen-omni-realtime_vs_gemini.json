@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates high proficiency in naturalness and emotion but struggles with specific paralinguistic controls for pitch and pace. \n1. **Content Accuracy:** The content is nearly perfect, with minor deviations where contractions in the text ('There's', 'it's') are expanded to full forms ('There is', 'it is') at 00:01 and 00:07. This does not alter meaning.\n2. **Emotion (Surprised):** The model successfully conveys a surprised and enthusiastic tone throughout the clip. The intonation is lively, and the stress on words like 'double rainbow' and 'beautiful' (00:02, 00:08) effectively communicates the requested emotion. \n3. **Pace (Fast):** The model fails to adhere to the 'fast' constraint. The duration is approximately 11 seconds, with distinct pauses (e.g., 00:01, 00:06). The speech rate is moderate/normal, not fast.\n4. **Pitch (Very High):** The pitch is within a standard female speaking range. While it is pleasant, it does not meet the requirement for 'very high' pitch.",
+    "reasoning_model_2": "Model 2 fails significantly across all dimensions, primarily due to severe content hallucinations and a lack of control over the requested features.\n1. **Content Accuracy:** The model completely fails to follow the script. It adds significant filler text ('Oh my gosh', 'I can't believe it', 'like seriously') and changes words ('totally' instead of 'absolutely'). This violates the core instruction.\n2. **Emotion (Surprised):** The delivery is flat, somewhat robotic, and sounds more like a bored or sarcastic teenager than someone genuinely surprised. There is no dynamic range in the expression.\n3. **Pace (Fast):** The speech is slow and dragged out (e.g., 'like seriously' at the end), directly contradicting the 'fast' command.\n4. **Pitch (Very High):** The pitch is low to mid-range and monotone, failing to meet the 'very high' requirement.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. While Model 1 did not perfectly execute the 'Fast' and 'Very High Pitch' constraints (staying in a natural range), it provided a high-quality, natural, and emotionally appropriate (Surprised) output with accurate content. In stark contrast, Model 2 suffered from severe hallucinations (speaking text not in the prompt), and its delivery was the opposite of the requested features: it was slow, low-pitched, and lacked the requested emotion. Therefore, Model 1 wins by default and merit.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 1,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 1,
+    "score_2_3": 0,
+    "winner_3": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 106,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with heavy stress on the word 'insist': 'Do you insist on going out now? It's raining so heavily outside, and the road conditions are bad, why not wait until the rain lessens and we go together, it would be safer.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

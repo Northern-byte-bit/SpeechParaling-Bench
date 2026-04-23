@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the sentence to be read with a 'quietly volume'. The generated audio (00:00 - 00:03) features a loud, high-pitched, and energetic voice that sounds more like shouting or an enthusiastic announcement than a quiet utterance. This is completely antithetical to the instruction 'quietly' and the context of the sentence 'Don't wake him up'. Additionally, there is a slight pronunciation anomaly at the end where 'night' sounds somewhat like 'nights' or has an unnatural release. Because the model expresses the exact opposite of the requested feature (loud vs. quiet), it fails the core paralinguistic requirement entirely.",
+    "reasoning_model_2": "The model generates a whispered voice from 00:00 to 00:04. The volume is significantly reduced, relying on breathy phonation characteristic of whispering, which aligns perfectly with the instruction 'quietly volume' and the semantic context of not waking someone up. The speech is fluent, natural, and clearly intelligible despite the whisper mode. The pacing is appropriate, conveying the necessary caution implied by the text. It fully satisfies the prompt.",
+    "model_comparison": "There is a stark contrast between the two models. Model 1 completely ignored the 'quietly volume' instruction, generating a loud and energetic audio that contradicts the text's meaning. Model 2 successfully implemented the instruction by generating a natural-sounding whisper. Model 2 is the clear winner as it followed the paralinguistic constraint, whereas Model 1 failed completely.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 88,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a surprised emotion and suddenly switching to a fearful emotion: 'Wow, this gift is too valuable, you're so generous! Huh, why is there a note inside the box? What does it say?'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

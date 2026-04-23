@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio begins with a distinct, prolonged, and breathy sigh (0:00-0:02), immediately establishing the non-linguistic vocalization requirement. The speaker effectively interprets the text 'Sigh...' as a vocal act rather than reading the word literally. Throughout the clip, there are additional audible exhales (e.g., at 0:06 and 0:09) that reinforce the exhausted persona. The cognitive state of tiredness is vividly conveyed through a slow tempo, downward pitch inflections, and a 'creaky' vocal quality often associated with fatigue. The volume is consistently low and soft, creating an intimate, quiet atmosphere that aligns perfectly with the instruction to speak 'quietly'. The articulation is clear but lethargic, matching the semantic content of the script flawlessly.",
+    "reasoning_model_2": "The audio attempts a non-linguistic sound at the very beginning (0:00-0:01), but it manifests as a short, clipped, high-frequency artifact or glitch ('ts-') rather than a natural sigh. It does not effectively convey the requested vocalization. Regarding cognitive state, while there is a slight attempt at a lower pitch, the pacing is relatively brisk and the projection is too energetic for someone claiming their body is 'about to fall apart.' The tone leans more towards a generic reading with a slight sad filter rather than genuine physical exhaustion. The volume is at a standard conversational level, lacking the 'quiet' or whispered quality requested in the prompt. The overall delivery sounds somewhat synthetic and lacks the paralinguistic depth required.",
+    "model_comparison": "Model 1 (T1) is superior across all dimensions. \n\n**Cognitive State:** T1 delivers a performance that sounds genuinely exhausted, with dragged-out vowels and a lethargic pace that perfectly matches the text. T2 is too fast and energetic, sounding like a standard TTS voice with a slight modification, failing to capture the depth of 'tiredness'.\n\n**Non-Linguistic Vocalizations:** T1 executes a realistic, heavy sigh at the start and incorporates breathiness throughout. T2 fails significantly here, producing a glitchy, unnatural noise at the start that detracts from the listening experience.\n\n**Volume:** T1 adheres to the 'quietly' constraint with a soft, breathy delivery. T2 projects at a normal volume, ignoring the specific instruction to be quiet.\n\nT1 follows all instructions perfectly, while T2 struggles with naturalness and adherence to the specific stylistic constraints.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

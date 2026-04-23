@@ -1,0 +1,14 @@
+{
+    "sample_index": 5,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a high pitch and suddenly dropping to a very low pitch: 'Hey, long time no see! Have you heard? The scope of the final exam has changed; we need to prepare all over again.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

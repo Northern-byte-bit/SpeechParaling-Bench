@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 completely fails the 'Content Accuracy' criterion. The user prompt explicitly requested the model to read a specific sentence: 'We rushed to the airport, finally caught the flight, now we can relax and really enjoy this slow-paced journey.' However, Model 1 hallucinated significant amounts of text, inserting meta-commentary such as 'fast, fast, fast', 'Suddenly, a little slower', and 'so calm, so steady, so peaceful'. While it attempted to modulate the pace, the inclusion of non-scripted text violates the core instruction to read the specific sentence. The voice also sounds somewhat unnatural and robotic.",
+    "reasoning_model_2": "Model 2 performs excellently. It follows the 'Content Accuracy' strictly, reading the script exactly as provided without any additions or omissions. Regarding 'Paralinguistic Compliance', the model successfully executes the dynamic adjustment. It starts with a fast, urgent pace for 'We rushed to the airport, finally caught the flight', takes a natural breath/pause, and then significantly slows down the tempo for 'Now we can relax and really enjoy this slow-paced journey.' The transition is natural and reflects the semantic meaning of the text perfectly. The voice quality is high and human-like.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed to adhere to the provided text, adding extra words and phrases that were not in the prompt, which constitutes a major hallucination error in a TTS task. Model 2 followed the text perfectly and effectively demonstrated the required paralinguistic feature (changing from a fast pace to a slow pace) in a natural and expressive manner.",
+    "score_1": 0,
+    "score_2": 3,
+    "winner": 2
+}

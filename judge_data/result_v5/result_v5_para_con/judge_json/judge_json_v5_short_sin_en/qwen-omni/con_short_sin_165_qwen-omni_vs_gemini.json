@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text content 'I am really sad, why did this happen?' correctly (00:00-00:03). However, regarding the core requirement 'with crying' and 'Non-Linguistic Vocalizations', the model fails completely. The delivery is flat, neutral, and somewhat casual, lacking any emotional weight. There are no non-linguistic vocalizations such as sobbing, sniffing, or trembling breath. The tone actually contradicts the semantic meaning of the sentence, sounding indifferent or even slightly upbeat.",
+    "reasoning_model_2": "The model successfully incorporates the required paralinguistic features. It begins with a distinct non-linguistic vocalization—a sharp, trembling intake of breath or sob (00:00-00:01)—before speaking. Throughout the sentence 'I am really sad... Why did this happen?' (00:01-00:05), the voice exhibits a trembling quality and pitch variation characteristic of crying or deep distress. The pacing is natural for someone who is upset, fulfilling the prompt's requirements vividly.",
+    "model_comparison": "Model 1 completely ignores the stylistic instruction 'with crying', producing a standard, emotionless TTS reading that sounds unnatural given the text's content. Model 2, in contrast, perfectly executes the instruction by including a clear non-linguistic vocalization (a sob/breath) at the start and maintaining a crying tone throughout the speech. Model 2 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

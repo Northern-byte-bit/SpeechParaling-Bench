@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The user requested the text: 'Welcome! Please feel free to try.' However, Model 1 produced a completely different script: 'Welcome and hey, go ahead feel totally free to give it a try, I'm so excited to see what you'll discover.' (00:00 - 00:06). While the voice is enthusiastic and relatively smooth, the model completely failed the Content Accuracy criterion by hallucinating a much longer and different sentence. According to the scoring standard, significant deviations in content where the script is inconsistent require a score of 0.",
+    "reasoning_model_2": "Model 2 followed the text instructions perfectly, saying exactly 'Welcome. Please feel free to try.' (00:00 - 00:02). The voice exhibits the requested paralinguistic features. Regarding 'Attitude' (Enthusiastic), the tone is warm, inviting, and upbeat, fitting the context of a welcome message naturally without being over-the-top. Regarding 'Timbre' (Smooth), the voice is clean, polished, and lacks any graininess or mechanical artifacts, fulfilling the 'smooth' descriptor well.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 committed a critical error in Content Accuracy by completely rewriting and expanding the script. Although Model 1's tone was enthusiastic, the failure to follow the text generation constraint renders the audio unusable based on the evaluation criteria (0 score for content inconsistency). Model 2 delivered the correct text with high fidelity and successfully applied the requested 'enthusiastic' and 'smooth' characteristics. The enthusiasm in Model 2 was appropriate and the timbre was very high quality.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generated the audio from 00:00 to 00:02, successfully speaking the target content '各位同事，请认真听取汇报' without any errors, omissions, or additions, satisfying the strict content accuracy requirement. In terms of the required feature '浑厚' (Deep/Resonant quality), the voice exhibits a stable, serious, and resonant timbre that aligns well with the request for a deep voice quality. The tone is authoritative and suitable for a formal announcement, effectively conveying the intended paralinguistic feature.",
+    "reasoning_model_2": "The model generated audio from 00:00 to 00:09. While it included the target sentence '各位同事，请认真听取汇报' at the beginning (00:00-00:02), it failed significantly in content accuracy by continuing to generate hallucinated text describing the voice itself ('声音低沉而稳重，向大钟...'). This violates the negative constraint against additions. By reading the prompt's descriptive text instead of just embodying it, the model shifted from acting to narrating. While the voice might have some depth, the severe content hallucination and failure to stop after the target sentence make it a failed generation in the context of controlled synthesis.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact text with the requested 'Deep/Resonant' (浑厚) voice quality. The audio is concise, accurate, and stylistically appropriate. Model 2 failed the instruction following task by reading out the description of the voice and generating a long continuation rather than just speaking the target line. This major content error makes Model 2's audio unusable for the specific command. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 produces the correct text content 'Oh my goodness, is this really for me? This is fantastic!' accurately. However, it fails significantly on the specific paralinguistic instructions. regarding Pace: The audio spans approximately 5 seconds (00:00-00:05), resulting in a slow to moderate delivery rather than the requested 'fast pace'. The speaker enunciates every word deliberately, particularly dragging out 'goodness' and 'fantastic'. Regarding Pitch: The voice is within a standard female register. While there is some intonational rise associated with the question, it does not constitute a 'very high pitch'. Regarding Emotion: The surprise is conveyed (00:00-00:05), but due to the slow pace and standard pitch, it sounds more like a polite, mild reaction than an energetic, shocked surprise.",
+    "reasoning_model_2": "Model 2 generates the text accurately and adheres strictly to all paralinguistic constraints. Regarding Pace: The delivery is very rapid, compressing the entire sentence into roughly 3 seconds (00:00-00:03). The words flow together quickly, matching the 'fast pace' instruction perfectly. Regarding Pitch: The voice has a noticeably higher, thinner quality consistent with a 'very high pitch' request. Regarding Emotion: The combination of the high pitch, breathiness, and rapid speed creates a vivid and convincing portrayal of genuine, high-energy surprise, fitting the context of the script perfectly.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. The user explicitly requested three features: 'very high pitch', 'fast pace', and 'surprised emotion'. Model 1 failed to implement the 'fast pace' (it was slow/normal) and the 'very high pitch' (it was standard). Model 1 only succeeded in conveying a generic sense of surprise. In contrast, Model 2 successfully integrated all three instructions. The audio in Model 2 is significantly faster (3s vs 5s), noticeably higher in pitch, and consequently conveys a more intense and appropriate emotion for the prompt.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

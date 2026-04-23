@@ -1,0 +1,14 @@
+{
+    "sample_index": 100,
+    "candidate_name": "gpt",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请在“务必”这个词上进行重读：这份报告，你务必在下班前发给我，因为我们明天一早就要提交给客户，没有任何延误的空间。",
+    "dimensions": [
+        "重音"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

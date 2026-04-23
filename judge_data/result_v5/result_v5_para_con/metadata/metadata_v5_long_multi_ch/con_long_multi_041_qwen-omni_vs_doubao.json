@@ -1,0 +1,16 @@
+{
+    "sample_index": 41,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用中年的声音生气地说：你又把房间弄得一团糟！我不是告诉过你多少次要收拾好自己的东西吗？每次都这样，你到底有没有把我的话放在心上！",
+    "dimensions": [
+        "年龄",
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 failed the Content Accuracy dimension significantly. The required text was '项目进展，今天必须完成。' (Project progress, must be completed today). However, the model generated '今天说项目进展，今天必须完成。' (00:00-00:03). It hallucinated the words '今天说' (Today say) at the beginning, likely misinterpreting the prompt's instruction '重读“今天”说' (Stress 'today' say) as part of the speech text. Regarding the paralinguistic features: The Volume is normal. The Emotion is neutral. Regarding Stress, because the sentence structure was altered by the extra words, the rhythm is disrupted. The stress on '今天' in the second clause is present but the overall delivery is flawed due to the text error. According to the scoring criteria, significant content errors limit the score to 1.",
+    "reasoning_model_2": "Model 2 achieved perfect Content Accuracy, speaking exactly '项目进展，今天必须完成。' without errors. In terms of Paralinguistic Compliance: 1. Volume: The audio maintains a consistent, normal volume (00:00-00:02). 2. Emotion: The tone is 'Neutral' and professional, suitable for a factual statement, devoid of exaggerated feelings. 3. Stress: The model successfully places stress on '今天' (00:01) within the phrase '今天必须完成'. This is achieved through a slight pitch elevation and clear articulation of the word 'Jintian' compared to the surrounding text, effectively conveying the time constraint without breaking the neutral tone. The fluency is high with natural pausing.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions primarily due to Model 1's failure in Content Accuracy. Model 1 hallucinated instructions into the spoken text ('今天说'), which fundamentally violates the generation requirement and creates a major flaw (Score 1). Model 2 followed the text content perfectly and correctly implemented the requested paralinguistic features. T2's volume was normal, emotion was appropriately neutral, and the stress on '今天' was perceptible and natural. T1's features, while acoustically present (normal volume), are invalidated by the incorrect content.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

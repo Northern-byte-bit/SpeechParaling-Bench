@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content strictly follows the script 'Why are you always like this?!' without errors. In terms of fluency, the speech is natural with no mechanical artifacts. Regarding the paralinguistic features: \n1. **Emotion**: The speaker conveys a very strong sense of anger and frustration. The tension in the voice is palpable throughout the sentence (0:00-0:02).\n2. **Volume**: The delivery is clearly executed in a 'shouting' manner. The projection is loud and forceful, distinct from a normal conversational volume, effectively meeting the requirement for high volume/shouting.",
+    "reasoning_model_2": "The audio correctly recites the text 'Why are you always like this?!'. The fluency is good, sounding natural and human-like. However, regarding the requested features:\n1. **Emotion**: The tone suggests mild annoyance or exasperation rather than the requested 'angry emotion'. It lacks the intensity and aggression usually associated with anger.\n2. **Volume**: The volume is at a normal conversational level or slightly emphatic speaking level. It does not exhibit the characteristics of 'shouting'. The energy is too low for the specific command.",
+    "model_comparison": "Model 1 follows the instructions much more closely than Model 2. Model 1 successfully implements the 'shouting' constraint, delivering the line with high volume and forceful projection. It also captures the 'angry' emotion vividly, matching the shouting style. Model 2, in contrast, delivers the line in a relatively calm, slightly annoyed conversational tone. It fails to shout and fails to convey strong anger. Therefore, Model 1 is superior in both dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

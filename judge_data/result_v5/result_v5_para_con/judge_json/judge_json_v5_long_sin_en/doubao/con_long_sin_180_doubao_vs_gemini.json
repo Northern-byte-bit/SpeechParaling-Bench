@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model completely fails to follow the user's instructions regarding both content and paralinguistic features. Instead of performing a yawn or reading the text 'Aaaah-choo!', the model explicitly reads the word 'Yawns' (likely treating an instruction as text) and then inexplicably replaces 'Aaaah-choo!' with 'Rip Van Winkle'. This indicates a severe hallucination and a breakdown in instruction following. No actual non-linguistic vocalization (yawn sound) is produced; it is merely spoken text.",
+    "reasoning_model_2": "The model successfully integrates the requested paralinguistic feature. At the beginning (0:00-0:02), there is a distinct, natural-sounding yawn combined with a sigh ('Uh...'), which aligns with the instruction to read with a yawn. However, the model omits the specific text 'Aaaah-choo!' found in the script. Given the prompt's contradictory nature (asking for a yawn while the text is a sneeze onomatopoeia), the model likely prioritized the 'yawn' instruction over the 'sneeze' text. The rest of the speech is accurate, fluent, and carries a tired, lethargic tone appropriate for the context.",
+    "model_comparison": "Model 1 receives a score of 0 because it hallucinates text ('Rip Van Winkle'), reads instructions out loud ('Yawns'), and fails to produce the actual sound effect. Model 2 demonstrates good paralinguistic control by generating a realistic yawn and maintaining a tired vocal persona. While Model 2 omits the 'Aaaah-choo!' text, this is a minor content error in the context of a conflicting prompt (sneeze text vs. yawn instruction), and the resulting audio is far more natural and compliant with the stylistic request than Model 1.",
+    "score_1_1": 0,
+    "score_2_1": 2,
+    "winner_1": 2
+}

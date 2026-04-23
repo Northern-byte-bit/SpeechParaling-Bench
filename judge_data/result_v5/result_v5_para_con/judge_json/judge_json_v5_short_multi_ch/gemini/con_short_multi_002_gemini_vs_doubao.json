@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content '我的钥匙不见了，怎么办？' is accurate and fluent. Regarding the 'Voice Quality' (音质 - 沙哑), the speaker adopts a strained, breathy tone characteristic of someone on the verge of crying or in deep distress. While not 'gravelly' hoarse like a sore throat, the voice texture is notably modified to be airy and shaky (00:00-00:03), fitting the description of a voice breaking due to emotion. Regarding 'Cognitive State' (认知状态 - 焦虑), the performance is excellent. From 00:00 to 00:02, the voice trembles significantly on '我的钥匙', and the heavy audible breathing/gasping between phrases conveys high panic. The final '怎么办' (00:02-00:03) ends with a desperate, rising inflection, perfectly capturing a state of high anxiety and helplessness.",
+    "reasoning_model_2": "The audio content is accurate to the script. However, regarding 'Voice Quality' (音质 - 沙哑), the model fails completely. The voice is a standard, clear female timbre with no roughness, breathiness, or raspiness whatsoever; it is polished and clean (00:00-00:03). Regarding 'Cognitive State' (认知状态 - 焦虑), the delivery is largely flat and detached. The pacing is slow and measured (00:00-00:02), lacking the urgency or erratic rhythm associated with anxiety. The final '怎么办' has a slight questioning intonation but sounds calm and thoughtful rather than panicked or worried. It sounds like a neutral reading of the text.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. For Voice Quality (Hoarse), Model 1 successfully modifies the vocal texture to sound strained and shaky (simulating emotional hoarseness), whereas Model 2 uses a completely clean and clear standard voice, failing the instruction. For Cognitive State (Anxious), Model 1 delivers a convincing performance with trembling pitch, urgent pacing, and breathiness that vividly conveys panic. Model 2 remains calm, slow, and neutral, failing to capture the required emotion.",
+    "score_1_1": 2,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

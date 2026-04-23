@@ -1,0 +1,14 @@
+{
+    "sample_index": 121,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an angry emotion: 'This is absolutely ridiculous! We've repeatedly emphasized the process, why is there still such a basic error? This irresponsible attitude is a detriment to the entire team!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

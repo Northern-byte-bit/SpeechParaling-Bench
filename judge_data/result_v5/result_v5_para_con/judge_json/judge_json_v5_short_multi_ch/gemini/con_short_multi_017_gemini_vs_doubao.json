@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the phrase '糟了，时间不够了！' with perfect content accuracy. Regarding the paralinguistic features:\n1. **Pitch (音高):** The model adopts a distinctly high-pitched, almost falsetto or head-voice register throughout the entire clip (0.0s-1.5s). This aligns perfectly with the instruction 'high-pitched tone'.\n2. **Cognitive State (认知状态 - Nervous):** The delivery is fast, breathless, and frantic. The high pitch accentuates the feeling of panic and extreme tension. The prosody on '糟了' is sharp and abrupt, and '时间不够了' is rushed, effectively conveying nervousness.",
+    "reasoning_model_2": "The model generates the phrase '糟了，时间不够了！' accurately. \n1. **Pitch (音高):** The voice has a naturally higher register (likely a female voice) and raises pitch for emphasis, particularly on '糟了'. However, it generally stays within a standard speaking range rather than adopting a stylized 'high-pitched tone' requested by the prompt.\n2. **Cognitive State (认知状态 - Nervous):** The speaker sounds urgent and worried. The pacing is quick, and the tone conveys anxiety well. It sounds like natural acting of a tense situation.",
+    "model_comparison": "Both models accurately synthesize the text and convey the 'nervous' state effectively. \n\nFor the **Pitch** dimension, Model 1 follows the instruction more strictly by shifting the voice into a significantly higher register/falsetto, distinct from a normal speaking voice. Model 2 uses a standard female pitch that is naturally higher but doesn't feel like a specific 'high-pitch' feature manipulation in response to the prompt as strongly as Model 1.\n\nFor the **Cognitive State** dimension, both are successful. Model 1's nervousness feels more frantic and panicked due to the extreme pitch, while Model 2 is more grounded urgency. Both satisfy the criteria well, resulting in a tie for this dimension, though Model 1's pitch makes the nervousness stand out more.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0
+}

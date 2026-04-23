@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates a standard female voice. While the audio is fluent and the content is accurate, it completely fails to adhere to the 'extremely high pitch' (极高音) instruction, maintaining a natural, medium-range pitch throughout. Regarding the 'fast' (快速) instruction, the speech rate is moderate (approx. 9 seconds for ~41 characters), with distinct pauses between phrases (e.g., after '快看', '好快呀'). The tone is calm and leisurely, which contradicts the requirement for rapid, excited speech. The model ignores the specific paralinguistic commands.",
+    "reasoning_model_2": "Model 2 generates a distinct, highly stylized voice that sounds like a male falsetto or a high-pitched character voice, effectively attempting the 'extremely high pitch' instruction. This pitch shift is significant and clearly distinguishable as a response to the prompt. Regarding the 'fast' instruction, the duration is similar to Model 1 (approx. 9 seconds), which is not objectively 'rapid'. However, the prosody and breathy delivery create a sense of urgency and excitement that aligns slightly better with the intent of 'fast' speech than Model 1's calm tone, even if the actual words-per-minute count is not significantly higher.",
+    "model_comparison": "Model 2 is the clear winner. It successfully follows the core instruction to modify the pitch to an 'extremely high' level (creating a falsetto/cartoonish effect), whereas Model 1 ignores this constraint entirely, producing a standard reading voice. In terms of speed, both models fail to generate truly 'rapid' speech (both take ~9 seconds), but Model 2's urgent and breathless tone fits the semantic context of the command better than Model 1's relaxed pacing. Therefore, Model 2 demonstrates superior control over the requested paralinguistic features.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 1,
+    "winner_2": 0
+}

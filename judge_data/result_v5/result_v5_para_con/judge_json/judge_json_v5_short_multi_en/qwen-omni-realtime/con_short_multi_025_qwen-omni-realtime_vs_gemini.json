@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. The prompt required the sentence 'Do as you please, I don't care.', but the model generated: 'Do as you please, I don't care. It's not like I'm going to stop you, not really.' This severe hallucination violates the script constraint. Regarding the paralinguistic features: \n1. **Attitude**: The tone is not 'cold'. It sounds high-pitched, whiny, and somewhat pleading or sad, lacking the dismissive, detached quality of a cold tone. \n2. **Non-Linguistic Vocalizations**: There is no distinct 'sigh' sound produced. The speech is breathy, but misses the specific non-linguistic vocalization requested.",
+    "reasoning_model_2": "Model 2 follows the Content Accuracy constraint perfectly, reading exactly the requested text. \n1. **Attitude**: The delivery is excellent. The speaker uses a lower pitch, flat prosody, and a dismissive pacing that perfectly conveys a 'cold', indifferent attitude. \n2. **Non-Linguistic Vocalizations**: The audio begins with a very clear, natural-sounding sigh (audible exhalation) from 00:00 to 00:01 before speaking, effectively satisfying the prompt.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 hallucinates a significant amount of text not present in the prompt, which is a critical failure. Furthermore, Model 1's tone is whiny and emotional rather than cold, and it fails to produce the required sigh. Model 2 produces the sigh explicitly at the start, maintains a perfectly cold and dismissive attitude, and adheres strictly to the text.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

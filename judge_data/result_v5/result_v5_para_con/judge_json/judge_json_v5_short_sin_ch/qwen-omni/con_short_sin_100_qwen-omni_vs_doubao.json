@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content '你必须完成作业才能玩游戏' accurately with no pronunciation errors. The speech is fluent and sounds natural (0.0s - 2.5s). However, regarding the core instruction to place stress on '必须' (must), the performance is lacking. The segment '必须' (approx 0.2s - 0.6s) is delivered with the same intensity, pitch, and speed as the rest of the sentence. There is no acoustic prominence to distinguish it as the focus of the sentence. The overall tone is flat and declarative, failing to convey the requested emphasis.",
+    "reasoning_model_2": "The model accurately generates the content '你必须完成作业，才能玩游戏'. The fluency is high, with a natural rhythm and a sensible pause after '作业'. Crucially, the model effectively executes the instruction to stress '必须'. In the segment (approx 0.2s - 0.8s), '必须' is articulated with greater intensity and slightly elongated duration compared to the surrounding text. The pitch contour clearly highlights this word, making the imperative nature of the sentence vivid and spot-on.",
+    "model_comparison": "Both models succeed in content accuracy and general fluency. The decisive difference lies in the 'Feature Control' dimension for '重音' (Stress). Model 1 fails to apply the requested stress on '必须', resulting in a uniform and somewhat casual delivery that misses the user's specific paralinguistic command. Model 2, conversely, successfully applies noticeable prosodic stress to '必须', fulfilling the prompt's requirement for emphasis. Therefore, Model 2 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

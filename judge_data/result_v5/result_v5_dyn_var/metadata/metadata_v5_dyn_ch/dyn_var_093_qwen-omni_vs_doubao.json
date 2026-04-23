@@ -1,0 +1,14 @@
+{
+    "sample_index": 93,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用困惑的状态开始，然后逐渐转变为自信说：食谱上说要放多少糖？嗯，有点困惑...不过没关系，我凭经验来，这样肯定能做出最好的味道！",
+    "dimensions": [
+        "认知状态"
+    ],
+    "candidate_position": 2,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

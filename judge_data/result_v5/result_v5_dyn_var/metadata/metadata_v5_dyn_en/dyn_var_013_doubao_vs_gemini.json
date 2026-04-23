@@ -1,0 +1,14 @@
+{
+    "sample_index": 13,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a low pitch and suddenly jumping to a high pitch: 'I'm thinking, where should we go this weekend? That's right! How about we go camping at the beach?'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

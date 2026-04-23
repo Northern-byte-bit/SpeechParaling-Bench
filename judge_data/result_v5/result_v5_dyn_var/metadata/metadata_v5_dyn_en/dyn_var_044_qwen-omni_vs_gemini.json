@@ -1,0 +1,14 @@
+{
+    "sample_index": 44,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a slow pace and suddenly speeding up to a fast pace: 'I remember that book, it was somewhere on the bookshelf? Oh, right! It's on my nightstand!'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

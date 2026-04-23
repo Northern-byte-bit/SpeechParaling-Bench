@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model successfully generates the audio in a whisper voice, characterized by unvoiced, breathy speech throughout the entire clip, adhering strictly to the volume constraint. Regarding the pause, there is a distinct and clear silence after the word 'secret' (approx. 0:03-0:04), which effectively creates tension. The cognitive state is well-represented; the slow pace, breathiness, and shaky delivery convey a convincing sense of nervousness and fear, matching the 'scared' context of the script. The content is accurate to the script.",
+    "reasoning_model_2": "The model fails the primary volume constraint; the audio is generated as voiced speech (speaking quietly) rather than a true unvoiced whisper. This fundamentally violates the 'whisper' instruction. While there is a pause after 'secret', it functions more as a standard sentence boundary than a stylistic emphasis. The cognitive state feels more like casual, inquisitive gossip rather than a nervous or scared tone, largely because the vocal characteristics of fear (trembling, breathiness) are missing due to the lack of whispering. Additionally, there is a minor content addition: the model says 'Did you hear that?' instead of 'Did you hear?'.",
+    "model_comparison": "Model 1 is the clear winner as it strictly adheres to all paralinguistic instructions. It produces a genuine whisper (unvoiced), whereas Model 2 produces voiced speech, failing the 'volume' dimension completely. Model 1 also captures the 'nervous' cognitive state effectively through its breathy and hesitant delivery, while Model 2 sounds merely conversational. Both models include a pause, but Model 1's execution aligns better with the dramatic tension required. Model 2 also has a minor content hallucination.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

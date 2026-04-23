@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. While it begins with the requested sentence, it hallucinates a large amount of additional text ('gently flowing like a quiet stream...') that was not in the script. Regarding the required feature 'Rhythm', the delivery is not 'soothing'; instead, it is upbeat, energetic, and somewhat fast-paced (e.g., 00:00-00:05), resembling an enthusiastic commercial or story narration rather than a peaceful reading. The rhythm is too bouncy and lacks the slow, calming cadence associated with the prompt.",
+    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, reading only the requested text without additions or omissions. Regarding the required feature 'Rhythm', the model successfully adopts a soothing style. The pacing is slow and deliberate, with well-placed pauses (e.g., 00:02 after 'movie', 00:04 after 'beautiful') that allow the listener to process the sentiment. The pitch contour is gentle and downward-inflecting, creating a relaxed and peaceful atmosphere that perfectly aligns with the semantic content and the user's command.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinates a significant amount of text not present in the prompt and uses an energetic, upbeat rhythm that contradicts the 'soothing' instruction. Model 2 strictly follows the script and effectively employs a slow, calm, and peaceful rhythm that matches the requested paralinguistic feature perfectly.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,18 @@
+{
+    "sample_index": 62,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very high pitch, a fast pace, and a surprised emotion: 'Oh my goodness, is this really for me? This is fantastic!'",
+    "dimensions": [
+        "Emotion",
+        "Pace",
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

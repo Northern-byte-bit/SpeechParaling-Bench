@@ -1,0 +1,14 @@
+{
+    "sample_index": 34,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a smooth timbre: 'Friends, it's an honor to welcome you all to tonight's poetry reading. I will be presenting a classic poem, and I hope my rendition allows everyone to feel its charm.'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio begins with a distinct, heavy exhaling breath (a sigh) from 0.0s to 0.8s, fulfilling the 'Non-verbal vocalization' requirement naturally. Regarding 'Volume', the speaker uses a very soft, breathy, and low-projection voice throughout, perfectly matching the instruction for 'quiet volume' (小声). The 'Cognitive State' of fatigue is exceptionally well-rendered; the pacing is slow, the articulation is slightly slurred and heavy, and the overall tone conveys deep exhaustion and relief, making it sound very realistic.",
+    "reasoning_model_2": "The audio starts with a clear, voiced sigh ('Ai...') from 0.0s to 1.1s, meeting the 'Non-verbal vocalization' requirement. However, regarding 'Volume', the speech is delivered at a fairly standard conversational level. While the energy is low, it does not possess the 'quiet' or 'whispered' quality characteristic of '小声'; it sounds like a normal volume performance of a tired script. For 'Cognitive State', while the prosody indicates tiredness (falling intonation, pauses), the voice timbre has a slight metallic/robotic quality, and the expression feels somewhat staged compared to a genuine physical state of fatigue.",
+    "model_comparison": "Both models successfully integrated the non-verbal sigh at the beginning. Model 1 used a realistic breathy exhale, while Model 2 used a voiced 'Ai'. Both are valid, resulting in a tie for the non-verbal dimension. For volume, Model 1 followed the instruction '小声' (quiet/small volume) much better, utilizing a soft, intimate projection, whereas Model 2 spoke at a relatively normal volume, failing to create a distinct 'quiet' acoustic profile. In terms of cognitive state (fatigue), Model 1 was superior; the voice sounded physically exhausted and organic. Model 2 conveyed the emotion but sounded more like a standard TTS adhering to a prosody template rather than embodying the physical state. Therefore, Model 1 is the clear winner for volume and cognitive state.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

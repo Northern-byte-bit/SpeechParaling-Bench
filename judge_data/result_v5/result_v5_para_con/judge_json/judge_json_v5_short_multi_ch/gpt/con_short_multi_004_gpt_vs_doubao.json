@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content '非常感谢您的帮助' (Thank you very much for your help) matches the script perfectly (00:00-00:03). The fluency is high, with no stuttering or mechanical artifacts. However, regarding the controllable features: \n1. **Volume (音量):** The instruction requested 'loud volume' (大声). The model generated a standard, conversational volume level with normal vocal effort (close-mic style). It does not sound loud, projected, or shouted; it sounds like a calm, indoor speaking voice. This fails to meet the specific 'loud' constraint.\n2. **Attitude (态度):** The instruction requested 'sincerely' (真诚). The tone is polite and gentle, which can be interpreted as sincere in a formal context. However, it lacks emotional depth and intensity. It sounds like a standard TTS reading rather than a heartfelt, vivid expression of gratitude.",
+    "reasoning_model_2": "The audio content '非常感谢您的帮助' matches the script accurately (00:00-00:02). The fluency is natural and human-like. regarding the controllable features:\n1. **Volume (音量):** The speaker clearly increases vocal effort/projection, simulating a 'loud' voice or calling out enthusiastically. This accurately reflects the 'loud volume' command, distinct from just increasing the gain of a quiet file.\n2. **Attitude (态度):** The attitude is highly expressive. The speaker sounds genuinely grateful and enthusiastic. The energy in the voice conveys the 'sincere' emotion vividly, making the gratitude feel authentic and immediate.",
+    "model_comparison": "Model 2 is significantly better in adhering to the user's specific paralinguistic instructions. \n**Volume:** Model 1 produced a standard conversational volume, ignoring the 'loud' command. Model 2 successfully simulated a projected, loud voice with increased vocal effort.\n**Attitude:** Model 1 was polite but flat and standard. Model 2 was energetic, enthusiastic, and clearly conveyed deep sincerity, making the emotional expression much more vivid. \nTherefore, Model 2 is superior in both dimensions.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

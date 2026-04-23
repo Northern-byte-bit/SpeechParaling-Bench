@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model completely fails the 'Content Accuracy' criterion. The user requested the specific sentence: 'Welcome everyone! Come in and sit down, make yourselves at home!', but the model generated: 'Welcome everyone, come on in, make yourselves comfy and feel right at home. This is your space now.' This represents a significant hallucination and deviation from the script. According to the scoring standard, a score of 0 is assigned when voice content is clearly inconsistent with the script, regardless of the emotional delivery.",
+    "reasoning_model_2": "The model follows the script perfectly with no errors or omissions (00:00 - 00:05). The fluency and naturalness are excellent, with a clear, high-quality voice. Regarding the 'Attitude' (Enthusiastic), the model delivers the line with a bright, warm, and welcoming tone that fits the context of inviting guests in. The intonation is upbeat on 'Welcome everyone' and maintains a friendly energy throughout. It satisfies the core paralinguistic requirement effectively.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental instruction to read a specific sentence, changing the wording significantly (hallucination), which mandates a zero score based on the content accuracy criterion. Model 2 followed the text instruction perfectly and delivered it with the requested enthusiastic and welcoming tone.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

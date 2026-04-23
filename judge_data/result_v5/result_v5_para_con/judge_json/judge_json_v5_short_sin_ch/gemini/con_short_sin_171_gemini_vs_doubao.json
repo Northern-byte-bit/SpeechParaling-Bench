@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the speaker to use a coughing manner to say 'I just choked, feeling a bit uncomfortable.' Model 1 begins with a very realistic sequence of coughing sounds (00:00-00:02) that sound visceral and genuine. The subsequent speech '我刚才呛到了，有点不舒服' (00:02-00:05) is delivered with a strained, slightly breathless tone, perfectly mimicking the physical aftermath of choking. The inclusion of the non-verbal coughing sounds is distinct and effectively sets the context. The content is accurate, although there is a very natural modal particle/breath at the end which enhances realism. The integration of the paralinguistic feature is excellent.",
+    "reasoning_model_2": "Model 2 reads the text '我刚才呛到了，有点不舒服' (00:00-00:03) clearly and fluently. However, it completely ignores the instruction to speak 'with a coughing manner' (带咳嗽的方式). The tone is neutral, polished, and sounds like a standard reading voice with absolutely no non-verbal vocalizations (coughing) or changes in phonation (breathiness/strain) to suggest the character is choking or uncomfortable. While the text is chemically accurate, the paralinguistic compliance is non-existent.",
+    "model_comparison": "The primary evaluation criterion is 'Non-verbal vocalizations' (specifically coughing). Model 1 successfully generates realistic coughing sounds before speaking and maintains a consistent vocal quality that reflects the physical state of choking. Model 2 completely fails to generate the requested non-verbal feature, providing a standard clean read instead. Therefore, Model 1 is the clear winner for following the specific paralinguistic instruction.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

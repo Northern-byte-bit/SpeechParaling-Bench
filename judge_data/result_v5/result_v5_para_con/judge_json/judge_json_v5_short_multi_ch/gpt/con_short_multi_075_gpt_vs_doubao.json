@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 strictly synthesizes the text '喂！别挡路，走开！' starting at 00:00. However, it completely fails to adhere to the instruction '在咳嗽后' (after coughing). There is no coughing sound generated at the beginning or anywhere in the audio; it simply starts with the spoken words. Regarding '态度' (Attitude), the voice sounds imperative and rude, fitting the '粗鲁' (rude) requirement. For '音量' (Volume), the speech is delivered with high intensity, matching the '大声' (loud) requirement. The content accuracy is perfect, but the critical non-verbal instruction was missed entirely.",
+    "reasoning_model_2": "Model 2 follows the instructions comprehensively. At 00:00, distinct coughing sounds ('咳咳') are generated, fulfilling the '非语言发声' (Non-verbal vocalization) requirement to speak 'after coughing'. Following the cough, at roughly 00:01, the model delivers the text '喂！别挡路，走开！'. The '态度' (Attitude) is accurately portrayed as rude and impatient, possibly enhanced by the physical distress of the cough. The '音量' (Volume) is consistently loud and commanding. The transition between the non-verbal sound and speech is natural.",
+    "model_comparison": "Model 2 is the clear winner. The user specifically requested a paralinguistic sequence: cough first, then speak. Model 1 ignored this constraint entirely, starting directly with speech, which constitutes a failure in the '非语言发声' dimension. Model 2 successfully generated the coughing sound before the speech, satisfying all constraints including Attitude and Volume. While both models handled the text, attitude, and volume well, Model 2's adherence to the specific non-verbal instruction makes it superior.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

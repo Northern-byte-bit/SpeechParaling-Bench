@@ -1,0 +1,14 @@
+{
+    "sample_index": 119,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a sad emotion: 'I've tried my best, but the outcome is still not satisfactory, it feels like all my efforts were in vain. Now I don't know what to do, it's like I'm stuck in a dead-end street.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

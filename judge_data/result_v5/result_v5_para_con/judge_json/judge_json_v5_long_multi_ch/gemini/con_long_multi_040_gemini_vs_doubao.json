@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio for Model 1 accurately pronounces most words, but it fails to strictly adhere to the specific stuttering cues in the text (e.g., '那、那个' is read as '那个', '我、我' is read as '我'). Regarding the 'Rhythm' (节奏), the user requested a 'rapid/hurried' (急促) pace. Model 1 delivers the speech at a moderate, steady speed (approx. 0:00-0:09) without the urgency or acceleration associated with panic. Regarding 'Emotion' (情感), the user requested 'fearful' (害怕). The tone in Model 1 is mildly anxious or worried (e.g., the pitch raises slightly at the end of sentences), but it sounds more like reading a script than genuinely experiencing fear. It lacks the trembling, breathiness, or intensity required for this emotion.",
+    "reasoning_model_2": "The audio for Model 2 follows the script accurately, including the stuttering cues which are performed as natural stammering due to fear. Regarding 'Rhythm' (节奏), the model captures the 'rapid/hurried' nature effectively. Although there are gasps (0:00-0:02), the delivery of the phrases (e.g., '快、快把灯打开' at 0:07-0:09) is burst-like and urgent, simulating the erratic rhythm of a panicked person perfectly. Regarding 'Emotion' (情感), the performance is outstanding. The audio includes heavy breathing, a trembling voice (tremolo), and an unstable pitch that vividly conveys intense fear. The paralinguistic features are fully aligned with the prompt 'fearful' (害怕), making it sound like a realistic human performance in a horror scenario.",
+    "model_comparison": "Model 2 vastly outperforms Model 1 in both dimensions. \n\nFor Rhythm: Model 1 provides a standard, steady reading pace that ignores the 'hurried' instruction. Model 2 interprets 'hurried' as 'urgent panic', utilizing short bursts of speech interspersed with gasps, which is far more appropriate for the context. \n\nFor Emotion: Model 1 is flat and only mildly concerned, failing to capture the visceral fear described in the text. Model 2 delivers a highly expressive performance with vocal trembling, breathlessness, and genuine panic, fulfilling the 'fearful' requirement perfectly. Model 2 feels like a scene from a movie, whereas Model 1 feels like a standard audiobook reading.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

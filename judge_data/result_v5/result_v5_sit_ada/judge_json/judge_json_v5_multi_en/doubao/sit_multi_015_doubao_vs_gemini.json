@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model employs a highly empathetic and soothing paralinguistic strategy throughout the clip (00:00-00:07). By starting with \"I'm sorry to hear...\" (00:00-00:02) in a gentle, warm tone, it immediately aligns with the user's \"Emotion: Sad\". The continuation, \"It's understandable to feel sad...\" (00:03-00:07), uses a slower pace and soft prosody to validate the user's feelings, which is an excellent adaptation to a user who is \"With Crying\". The model acts as a comforting presence, matching the user's distress with emotional support rather than trying to fix the problem immediately. The fluency is natural, and the tone perfectly complements the user's vulnerable state.",
+    "reasoning_model_2": "The model adopts a somewhat casual and pragmatic strategy. While it acknowledges the event with \"Oh no, that's too bad\" (00:00-00:01), the tone feels perfunctory and lacks the depth required to address deep sadness. Crucially, the follow-up question \"What are you going to do now?\" (00:02-00:03) creates a cognitive demand that is inappropriate for a user who is \"With Crying\" and saying \"boohoo\". This shift to a solution-oriented mindset so quickly feels dismissive of the user's emotional state. The paralinguistic alignment is weak; it fails to provide the comfort or patience needed for a crying user.",
+    "model_comparison": "Model 1 demonstrates superior Situational Adaptation compared to Model 2. \n\nRegarding the \"Emotion: Sad\" dimension, Model 1's vocal characteristics are warm, validating, and slow-paced, deeply resonating with the user's sadness. Model 2 provides a surface-level acknowledgement that feels emotionally distant.\n\nRegarding the \"Non-Linguistic Vocalizations: With Crying\" dimension, Model 1's strategy is significantly better. It offers a soothing psychological space (\"It's understandable...\") which is the correct response to crying. Model 2, conversely, pivots to a practical question (\"What are you going to do now?\") which is jarring and lacks empathy for someone in the act of crying. Model 1 understands the assignment of comforting a distressed user, while Model 2 treats the interaction as a logistical issue.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

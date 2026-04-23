@@ -1,0 +1,14 @@
+{
+    "sample_index": 11,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用极高音开始，然后逐渐降低到低音说: '我终于解开了这道难题！原来关键在这里，只要用这个方法就能迎刃而解。'",
+    "dimensions": [
+        "音高"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

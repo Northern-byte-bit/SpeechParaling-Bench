@@ -1,0 +1,14 @@
+{
+    "sample_index": 140,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a confused tone: 'I've tried solving this math problem multiple times, but I keep getting the wrong answer; it feels like there's a logical flaw somewhere. Did I misunderstand the question?'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

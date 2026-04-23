@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately captures all the requested paralinguistic features. \n1. **Pitch (音高):** The model adopts an extremely high pitch, almost falsetto or child-like, maintained consistently from start to finish (00:00-00:07). This strictly adheres to the '极高音' (extremely high pitch) instruction. \n2. **Speed (语速):** The speaking rate is fast and urgent, rushing through the sentence with breathless excitement, which fits the '快速' (fast) command perfectly. \n3. **Emotion (情感):** The emotion of 'surprise' (惊喜) is vividly conveyed. The breathless delivery and tone changes reflect a genuine reaction to seeing something amazing, sounding natural and immersed in the scenario.",
+    "reasoning_model_2": "Model 2 has mixed performance regarding the specific instructions. \n1. **Pitch (音高):** While the voice raises slightly at the beginning ('快看' at 00:00), it quickly settles into a standard male tenor range. It completely fails to meet the '极高音' (extremely high pitch) requirement, sounding like a normal adult male voice throughout most of the clip. \n2. **Speed (语速):** The pacing is moderate, with distinct pauses between phrases (e.g., 00:02, 00:06). It does not sound particularly 'fast' or urgent. \n3. **Emotion (情感):** The model conveys a sense of emphasis and mild excitement, but it sounds more like a dramatic reading than a genuine burst of surprise. The emotional intensity is lower than required.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. \n**Pitch:** Model 1 successfully modifies the voice to an 'extremely high' register as requested, whereas Model 2 remains in a standard male range, failing this constraint significantly. \n**Speed:** Model 1 is noticeably faster and more fluid, matching the urgency of the text. Model 2 is slower and more deliberate. \n**Emotion:** Model 1 sounds genuinely breathless and surprised, while Model 2 sounds somewhat staged and less intense. Model 1 followed the specific 'control' instructions much more strictly.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

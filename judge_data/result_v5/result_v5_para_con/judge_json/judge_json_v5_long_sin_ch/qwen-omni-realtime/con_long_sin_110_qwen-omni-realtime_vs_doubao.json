@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high content accuracy and natural fluency. Regarding the specific instruction to emphasize the phrase '到底想怎么样' (00:00-00:02), the model executes this well. The speaker slows down slightly and uses a lower, more emphatic pitch on '到底' and '怎么样', giving the phrase the requested 'heavy tone' (加重语气). The frustration in the voice aligns well with the context of the sentence. The transition to the rest of the sentence is smooth.",
+    "reasoning_model_2": "The model generates the content accurately with natural fluency and a distinct character voice. However, regarding the core instruction to emphasize '到底想怎么样' (00:00-00:01), the model performs poorly. The phrase is spoken very quickly and with a relatively light, rising intonation. It sounds more like a casual, quick complaint rather than a heavily emphasized or stressed confrontation. The delivery lacks the 'weight' requested by the prompt, failing to distinguish this phrase from the rest of the sentence effectively.",
+    "model_comparison": "Model 1 is the clear winner. The user's specific instruction was to 'add weight/emphasize' (加重语气) the phrase '到底想怎么样'. Model 1 achieved this by using a deliberate pace and a forceful, grounded tone for that specific segment, making it stand out as the focal point of the sentence. In contrast, Model 2 rushed through the target phrase with a light and fast delivery, effectively failing to apply the requested emphasis. Model 1 demonstrated much better control over the specific paralinguistic feature requested.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

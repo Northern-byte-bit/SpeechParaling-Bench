@@ -1,0 +1,14 @@
+{
+    "sample_index": 87,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用厌恶的语气开始，然后逐渐平复为中性说：又是我最讨厌的数学课，真是枯燥无味。不过为了毕业，我还是得认真听讲。",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

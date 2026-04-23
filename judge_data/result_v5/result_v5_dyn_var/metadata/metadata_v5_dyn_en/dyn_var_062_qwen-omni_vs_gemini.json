@@ -1,0 +1,14 @@
+{
+    "sample_index": 62,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a soothing rhythm and gradually transitioning to a lighthearted rhythm: 'This novel is truly captivating; I lost track of time while reading. Oh dear, my friends I was meeting are already downstairs!'",
+    "dimensions": [
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

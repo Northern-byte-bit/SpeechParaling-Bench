@@ -1,0 +1,16 @@
+{
+    "sample_index": 29,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a fast pace, with stress on the word 'surprisingly': 'Have you heard? Zhang Ming and Li Hua from the next class are surprisingly together! Didn't they always argue before? This is truly big news!'",
+    "dimensions": [
+        "Pace",
+        "Stress"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 1
+}

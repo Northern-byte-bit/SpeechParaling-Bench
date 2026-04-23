@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with accurate content matching the script '哎，又是一个无聊的周末。'. The voice is clear and fluent. Regarding the core requirement '非语言发声' (Non-verbal vocalization - Sigh), the model renders the character '哎' (Ai) primarily as a spoken word with a weary tone (00:00-00:01). While the intonation expresses boredom, it lacks the distinct acoustic characteristic of a physical sigh (a breathy exhalation). It feels like a verbal acting of the text rather than a paralinguistic non-verbal vocalization. The expression is somewhat stiff regarding the specific 'sigh' instruction.",
+    "reasoning_model_2": "The model generates the audio with accurate content. Crucially, at the very beginning (00:00-00:01), the model produces a very clear, audible exhalation of breath that naturally serves as the '哎' in the script. This is a genuine non-verbal sigh rather than just a spoken word. The subsequent text '又是一个无聊的周末' (00:01-00:03) is delivered with a low-energy, resigned tone that seamlessly follows the sigh, maintaining high consistency in emotional expression. The execution of the 'Non-verbal vocalization' feature is vivid and spot-on.",
+    "model_comparison": "Both models accurately convey the semantic content of the sentence. However, T2 is significantly superior in adhering to the specific 'Non-verbal vocalization' (Sigh) constraint. T1 merely speaks the word 'Ai' with a tired tone, which is a verbal approach. T2 actually generates the sound of a breathy sigh (exhalation), which physically embodies the requested paralinguistic feature. T2's rendition is much more natural and aligned with the prompt's request for a 'sighing manner'.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model correctly recites the text 'This thing, I must get it.' accurately. Regarding the paralinguistic features:\n1. **Stress**: The speaker delivers the line at [00:01] ('I must get it'). While there is a slight pitch inflection on 'I', the word 'must' receives nearly equal or greater emphasis, making the specific requested stress on 'I' somewhat ambiguous and not particularly distinct.\n2. **Volume**: The instruction specified 'normal volume'. However, the generated audio [00:00-00:02] has a distinctively breathy, hushed, and soft quality, sounding more like a stage whisper or low-volume intimate speech rather than a standard conversational projection. This deviates from the 'normal volume' requirement.",
+    "reasoning_model_2": "The model correctly recites the text. Regarding the paralinguistic features:\n1. **Stress**: The model adheres strictly to the stress instruction. At [00:01-00:02], the speaker isolates the word 'I' with a pause before and after, combined with increased loudness and pitch, making the emphasis unmistakable and very clear.\n2. **Volume**: The audio is delivered at a consistent, clear, and standard conversational level throughout [00:00-00:03]. It perfectly satisfies the 'normal volume' constraint, lacking the whispery quality of Model 1.",
+    "model_comparison": "In this evaluation, Model 2 (T2) significantly outperforms Model 1 (T1) on both dimensions.\n\n**Stress**: T2 explicitly highlights the word 'I' using pauses and pitch changes, making the stress obvious. T1 provides a much flatter delivery where the stress on 'I' is subtle and competes with the stress on 'must', failing to make the requested word stand out clearly.\n\n**Volume**: T2 speaks at a clear, standard projection ('normal volume'). T1 adopts a whispered, soft-spoken tone which violates the 'normal volume' instruction, resulting in a lower score for that dimension.\n\nTherefore, T2 is the clear winner for following the specific paralinguistic instructions.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

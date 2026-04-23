@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 detects the negative sentiment in the text but fails to interpret the paralinguistic 'Sarcastic' cue properly. Instead of responding to the sarcasm (which implies the user is likely teasing or being snarky rather than genuinely impressed), the model treats the input as a literal, serious complaint. From 00:00 to 00:02, the voice is flat, formal, and apologetic ('Apologies. I'll try to do better next time'). It lacks any emotional variation or personality that would align with a 'Youthful' user; it sounds like a standard, static IVR system or generic assistant. The response is fluent but completely lacks the situational adaptation required for the specific paralinguistic context.",
+    "reasoning_model_2": "Model 2 demonstrates excellent situational adaptation. It correctly identifies the 'Attitude: Sarcastic' in the user's command and responds by breaking the fourth wall and acknowledging the tone ('You're teasing me now aren't you?' at 00:00-00:02). The vocal delivery is playful, lighter, and emotionally expressive, which aligns perfectly with a 'Youthful' interaction style. The prosody is dynamic, and the closing word 'promise' (00:03-00:04) is delivered with a casual, human-like inflection that establishes a rapport appropriate for the user's age and attitude. The model effectively transforms a potential conflict (complaint) into a playful social interaction.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Regarding 'Attitude: Sarcastic', T1 fails to detect the nuance, providing a literal and stiff apology that kills the conversational vibe. T2, conversely, accurately interprets the sarcasm as teasing and responds with a playful retort that matches the user's intent. Regarding 'Age: Youthful', T1 remains stuck in a formal, robotic persona that feels distant. T2 adopts a casual, energetic, and warm tone ('promise') that mirrors the youthful energy of the user. T2's ability to handle the pragmatic meaning of the utterance rather than just the literal semantic meaning makes it far superior in situational adaptation.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately speaks the text script. However, regarding the paralinguistic features: \n1. **Cognitive State (Doubting):** The delivery lacks a genuine doubting tone. The first sentence (00:00-00:02) has a standard interrogative rise but feels mechanical. The second sentence (00:02-00:04), specifically the word 'off', ends with an unnatural, high-pitched rising inflection that sounds more like a cheerful robotic chime than human skepticism or concern. It fails to convey the requested 'feeling that something is off'.\n2. **Stress:** The user requested 'heavy stress' on the word 'correct'. While 'correct' (00:01-00:02) has the pitch rise associated with a question, it lacks specific emphatic weight, loudness, or pausing to distinguish it as heavily stressed. It blends into the standard sentence flow.\n3. **Volume:** The volume is consistent and normal throughout.",
+    "reasoning_model_2": "Model 2 speaks the text script accurately with high naturalness. \n1. **Cognitive State (Doubting):** The model excels here. From 00:00 to 00:06, the prosody is filled with hesitation and skepticism. The use of a slower tempo, lower pitch register, and vocal fry/creakiness at the end of 'off' (00:05) authentically mimics a human pondering a problem or feeling doubt.\n2. **Stress:** The model successfully places stress on 'correct' (00:02). There is a micro-pause after 'is' and a deliberate elongation and pitch modulation on 'correct' that draws attention to it, fulfilling the 'heavy stress' requirement naturally.\n3. **Volume:** The volume is appropriate and normal.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in terms of expressiveness and adherence to the specific paralinguistic commands. \n\n**Cognitive State:** Model 1 sounds robotic and artificial, particularly with the unnatural inflection at the end of the clip which contradicts the mood of doubt. Model 2 captures the nuance of 'doubt' perfectly with realistic pacing and intonation.\n\n**Stress:** Model 1 relies on standard text-to-speech question intonation without adding the requested heavy stress. Model 2 uses phrasing and emphasis to actually highlight the target word 'correct'.\n\n**Volume:** Both models adhered to the normal volume constraint.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

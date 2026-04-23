@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user's command '请用中音说：今天下午的安排是什么？' (Please say with medium pitch: What is the schedule for this afternoon?) is a specific Text-to-Speech (TTS) style instruction requiring the model to read the provided sentence. However, Model 1 failed to replicate the script '今天下午的安排是什么？' and instead hallucinated a response answering the question ('今天下午的安排是两点开会...'). According to the Evaluation Criterion for Content Accuracy, if the voice content is clearly inconsistent with the script, the score must be 0. Since the model failed the primary content requirement, the paralinguistic performance on 'Pitch' cannot be validly assessed on the wrong content.",
+    "reasoning_model_2": "Similarly, Model 2 failed to follow the explicit instruction to say the sentence '今天下午的安排是什么？'. Instead, it generated a detailed answer to the question ('今天下午的安排是先处理完手头的几份报告...'). This constitutes a complete failure in Content Accuracy as the spoken content does not match the required script. Per the strict scoring standards, a score of 0 is assigned for content inconsistency.",
+    "model_comparison": "Both models failed the instruction following task. The command required the models to speak a specific sentence ('今天下午的安排是什么？'), but both models interpreted the prompt as a query and generated their own answers (schedules). Since Content Accuracy is the first prerequisite of the evaluation criteria ('0 = Voice content is clearly inconsistent with the script'), both models receive a score of 0. Consequently, it is a tie based on the failure to meet the basic content requirements.",
+    "score_1_1": 0,
+    "score_2_1": 0,
+    "winner_1": 0
+}

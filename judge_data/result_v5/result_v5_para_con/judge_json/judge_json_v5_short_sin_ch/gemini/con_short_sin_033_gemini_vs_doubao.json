@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model perfectly follows the command to generate the text '请给我一杯水，谢谢' with a 'hoarse' (沙哑) voice quality. From 0.0s to 3.5s, the voice is characterized by significant breathiness, vocal fry, and a strained tone, which authentically simulates the physical sensation of a hoarse throat or extreme thirst. The delivery is suitably slow and weak, matching the acoustic characteristics of the requested voice quality. The content is accurate, and the paralinguistic execution is vivid and spot-on.",
+    "reasoning_model_2": "The model correctly reads the text '请给我一杯水，谢谢' in terms of content. However, it completely fails to adhere to the core paralinguistic instruction 'hoarse voice quality' (沙哑音质). The resulting audio (0.0s-end) features a standard, clear, and bright female voice with modal phonation. There is absolutely no roughness, strain, or breathiness in the voice. It sounds like a generic, high-quality TTS reading rather than the requested specific style.",
+    "model_comparison": "The user explicitly requested a 'hoarse' (沙哑) voice quality. Model 1 (T1) successfully modified the voice texture to sound raspy, strained, and breathy, perfectly matching the description of 'hoarse'. Model 2 (T2) ignored this constraint entirely, producing a clean and clear voice. Therefore, T1 demonstrates superior control over paralinguistic features, while T2 fails to meet the specific prompt requirement.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

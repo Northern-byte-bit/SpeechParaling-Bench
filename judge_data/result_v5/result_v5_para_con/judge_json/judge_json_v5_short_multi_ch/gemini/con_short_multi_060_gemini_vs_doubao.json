@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio content accurately matches the script '我的玩具坏了，再也修不好了！', with the addition of non-verbal crying sounds '呜呜呜' at the beginning (0:00-0:02), which perfectly satisfies the 'Non-verbal vocalization' requirement implied by '哭着'. The volume is projected clearly and loudly, consistent with the instruction '大声的音量'. The emotional tone is extremely sad and tearful throughout the speech (0:02-0:06), with the voice trembling and breaking naturally, demonstrating high fidelity to the '伤心地说' requirement. The synthesis is fluent, and the paralinguistic features are integrated seamlessly.",
+    "reasoning_model_2": "The audio content follows the script. The model incorporates sobbing/breathing sounds (0:00-0:01) to represent 'Non-verbal vocalization', fulfilling the '哭着' requirement, though the initial crying sound is shorter and less distinct than Model 1. Regarding 'Volume', the audio sounds somewhat distant, muffled, and quieter, resembling a whimper rather than the requested '大声' (loud) volume. The 'Emotion' is definitely sad and conveys the feeling of a grieving child, but the lack of volume intensity slightly undermines the dramatic impact requested.",
+    "model_comparison": "In terms of 'Non-verbal vocalization', Model 1 provides a very clear and distinct crying sound ('呜呜呜') that transitions naturally into speech, whereas Model 2's sounds are more breathy and less distinct. For 'Volume', Model 1 strictly follows the 'loud' instruction, projecting the voice well, while Model 2 sounds distant and quiet, failing to meet the 'loud' criteria effectively. Regarding 'Emotion', both models successfully convey sadness and the act of crying, but Model 1's delivery is more visceral and consistent with the high energy/volume requested, making it the superior generation overall.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 1
+}

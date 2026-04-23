@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content matches the text '我今天必须完成这项任务' accurately. However, regarding the paralinguistic requirements: \n1. **Speed (语速):** The total duration is extremely short (approx. 1.5 seconds) for an 11-character sentence. This corresponds to a fast speaking rate, which completely ignores the user's explicit command to speak 'slowly' (慢速). It expresses the opposite characteristic.\n2. **Stress (重音):** Due to the fast pace, the word '今天' (00:00-00:01) glides by without any noticeable emphasis. The prosody feels standard and flat, with perhaps a slight natural pitch lift on '必须' rather than the requested '今天'. The model fails to control the stress effectively.",
+    "reasoning_model_2": "The audio content is accurate. Regarding the paralinguistic requirements:\n1. **Speed (语速):** The speaker adopts a very slow, deliberate pace, taking approximately 5 seconds to complete the sentence. Each character is clearly enunciated with extended duration, perfectly adhering to the 'slowly' (慢速) instruction.\n2. **Stress (重音):** The model successfully places significant stress on '今天' (approx 00:01-00:02). The word is elongated and pronounced with a distinct tone that separates it from the preceding '我' and following '必须', making it the focal point of the sentence as requested.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Model 1 completely failed to follow the paralinguistic instructions, generating audio that was fast and lacked specific stress, essentially behaving like a standard TTS engine ignoring control tags. Model 2 followed the instructions precisely, slowing down the speech significantly and emphasizing the target word '今天' through elongation and pitch prominence. While Model 2's extreme slowness sounds slightly less 'conversational' than Model 1's standard flow, it is the only one that actually fulfilled the user's specific constraints.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

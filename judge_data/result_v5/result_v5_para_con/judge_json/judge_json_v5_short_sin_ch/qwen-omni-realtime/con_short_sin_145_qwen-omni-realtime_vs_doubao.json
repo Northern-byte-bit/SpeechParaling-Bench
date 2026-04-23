@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio content matches the script '今天工作量太大了，我真的好累啊' almost perfectly (with a very minor, natural addition of '的' which does not alter meaning). The speaker adopts a heavy, dragging tone consistent with fatigue. The pacing is slow, with pauses that suggest exhaustion (e.g., between phrases). The pitch is lower, and the ending particle '啊' is prolonged in a sigh-like manner (00:03-00:04), effectively conveying the cognitive state of being tired.",
+    "reasoning_model_2": "The audio content significantly deviates from the requested script. Instead of just reading '今天工作量太大了，我真的好累啊', the model hallucinates and adds a substantial amount of text: '哎...我连喘口气的时间都没有，整个人都快散架了...'. Furthermore, the tone is not consistent with 'fatigue'; it is fast-paced, high-pitched, and sounds more like an energetic complaint or venting frustration rather than physical or mental exhaustion. The rapid articulation contradicts the lethargy associated with the requested state.",
+    "model_comparison": "Model 1 is the clear winner. First and foremost, Model 1 adheres to the provided text script, whereas Model 2 hallucinates a significant amount of extra content, violating the Content Accuracy criterion entirely. Secondly, regarding the core dimension of '认知状态' (Cognitive State - Fatigue), Model 1 successfully employs a slow tempo, lower pitch, and sighing intonation to depict tiredness. Model 2, conversely, speaks quickly and energetically, which fails to convey the requested state of fatigue. Therefore, Model 2 receives a low score due to critical content errors and poor paralinguistic control.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

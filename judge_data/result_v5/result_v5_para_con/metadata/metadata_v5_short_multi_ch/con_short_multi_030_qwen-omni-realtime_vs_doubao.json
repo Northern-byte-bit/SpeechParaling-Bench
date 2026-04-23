@@ -1,0 +1,16 @@
+{
+    "sample_index": 30,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用舒缓的节奏真诚地说: 别担心，一切都会好起来的。",
+    "dimensions": [
+        "节奏",
+        "态度"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

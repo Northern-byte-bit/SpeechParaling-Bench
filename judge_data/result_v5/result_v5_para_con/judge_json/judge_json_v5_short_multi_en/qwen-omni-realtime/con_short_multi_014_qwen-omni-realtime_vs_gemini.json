@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 failed significantly on Content Accuracy. The prompt explicitly requested to read the sentence: 'That sound was terrifying.' However, Model 1 hallucinated and generated a much longer script ('I couldn't breathe. It was too close...'). Regarding the specific paralinguistic features: \n1. **Volume**: The audio is NOT a whisper. It uses standard phonation (voiced speech) throughout the clip. It completely fails to meet the 'whisper' constraint.\n2. **Emotion**: While there is a tone of anxiety or distress in the voice, the delivery feels more like a dramatic reading of a story than a fearful whisper. The failure to whisper undermines the requested 'fearful' atmosphere, and the severe hallucination of content makes the generation qualitatively poor.",
+    "reasoning_model_2": "Model 2 followed the command perfectly. \n1. **Content Accuracy**: It read exactly the target text ('That sound was terrifying') with no additions or omissions.\n2. **Volume**: The audio is a genuine whisper (unvoiced, aspirate phonation), strictly adhering to the volume constraint.\n3. **Emotion**: The model effectively conveys fear. The pacing is slow, trembling, and breathy, which, combined with the whisper, creates a convincing impression of someone who is terrified and trying not to be heard. The expression is vivid and accurate.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 failed the fundamental instruction by hallucinating three additional sentences and failing to utilize the requested 'whisper' vocal mode (it spoke with normal phonation). Model 2, in contrast, provided a highly natural, accurate, and expressive generation that perfectly matched both the text and the paralinguistic constraints (whisper and fear). Model 1's score is penalized heavily due to the content hallucination and the complete absence of the whisper feature.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

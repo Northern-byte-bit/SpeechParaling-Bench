@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully executes the command. From 00:00 to 00:03, the voice is loud, high-pitched, and intense, accurately simulating 'shouting' ('这到底是怎么回事！我不是告诉你不要动我的东西吗？！'). At 00:04, upon reaching the phrase '算了' (Forget it), the volume and intensity drop significantly. The final segment '反正也找不到' (00:04-00:05) is delivered in a low, breathy voice, effectively mimicking a 'whisper' or mutter. The transition reflects the semantic shift well. The paralinguistic features (Volume) change drastically and correctly according to the prompt.",
+    "reasoning_model_2": "The model fails to follow the paralinguistic instructions. The entire audio (00:00-00:06) is delivered in a consistent, standard reading tone with medium volume. There is no 'shouting' at the beginning; the tone is calm and even slightly cheerful. There is no 'gradual decrease' or transition to a 'whisper' at the end; the volume remains constant throughout. The model completely ignores the requirement to adjust volume dynamically.",
+    "model_comparison": "Model 1 followed the complex instruction to change volume dynamics within a single utterance. It started with a convincing shout and transitioned to a quiet whisper/mutter, demonstrating a clear dynamic adjustment. Model 2 produced a flat, standard reading with no paralinguistic changes, completely failing the specific constraints of the prompt (shouting to whispering). Therefore, Model 1 is the clear winner.",
+    "score_1": 3,
+    "score_2": 0,
+    "winner": 1
+}

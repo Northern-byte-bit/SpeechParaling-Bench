@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully executes the specific instruction to use a 'high pitch'. From 00:00 to 00:02, the voice generated has a significantly elevated fundamental frequency, resembling a child's voice or a cartoon-like high-pitched character. The content '太棒了，我们终于成功了！' is accurate. While the timbre is heavily stylized to achieve the pitch requirement, it perfectly aligns with the user's explicit constraint for 'high pitch'. The emotion of excitement is also conveyed through the rapid pace and upward inflection.",
+    "reasoning_model_2": "The model generates a very natural and fluent audio clip. The content is accurate, and the delivery is enthusiastic from 00:00 to 00:02. However, regarding the specific paralinguistic constraint 'high pitch', the model fails to comply. The voice remains a standard adult male voice (baritone range). While the excitement causes slight natural pitch modulation, the overall vocal register is not 'high pitch' by any standard definition of the feature control command. It sounds like a default male voice.",
+    "model_comparison": "The user command explicitly requested the audio to be generated with a specific feature: 'High Pitch' (音高). Model 1 (T1) strictly adhered to this constraint, altering the voice to a very high register (falsetto/child-like). Model 2 (T2) ignored the specific feature constraint, producing a standard male voice which, while high quality and natural, did not exhibit the requested 'high pitch' characteristic. Therefore, T1 is the clear winner for its adherence to the specific feature control prompt.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

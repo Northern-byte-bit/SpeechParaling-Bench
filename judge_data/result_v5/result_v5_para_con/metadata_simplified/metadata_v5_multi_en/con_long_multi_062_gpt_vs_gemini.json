@@ -1,0 +1,18 @@
+{
+    "sample_index": 62,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very high pitch, a fast pace, and a surprised emotion: 'Look quickly! There's a double rainbow! I've never seen such a clear, complete rainbow, it's absolutely as beautiful as a painting!'",
+    "dimensions": [
+        "Emotion",
+        "Pace",
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1,
+    "winner_position_3": 1
+}

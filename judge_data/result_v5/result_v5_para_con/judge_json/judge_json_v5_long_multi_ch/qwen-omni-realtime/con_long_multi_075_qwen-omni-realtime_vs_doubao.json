@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model fails completely on Content Accuracy, which impacts the overall score. \n1. **Content Accuracy:** Instead of reading the provided script, the model hallucinates a completely different text filled with colloquialisms and slang (e.g., '没心没肺', '菜市场', '老子'). This violates the core instruction to read the specific sentence provided. \n2. **Non-verbal vocalization (非语言发声):** The user requested a cough sound. At 00:00, the model literally reads the text '(咳嗽)' as the word 'Kesou' instead of generating the sound effect. This is a complete failure to control non-verbal features. \n3. **Attitude (态度):** While the hallucinated speech has a complaining tone, strictly evaluating against the prompt is impossible due to the script change. Furthermore, reading the stage direction breaks the character. \n4. **Volume (音量):** The volume is conversational and lacks the 'loud/shouting' projection required by the prompt. \nDue to the complete inconsistency with the script and failure to generate the non-verbal sound, the model receives a score of 0.",
+    "reasoning_model_2": "The model follows all instructions accurately and naturally. \n1. **Content Accuracy:** The speech matches the provided text script perfectly with no errors or hallucinations. \n2. **Non-verbal vocalization (非语言发声):** At 00:00-00:01, the model generates a realistic, double-cough sound effect, transitioning naturally into the speech. This precisely follows the 'after coughing' instruction. \n3. **Attitude (态度):** The tone is distinctly rude, angry, and confrontational. From 00:02 onwards ('喂！...'), the prosody conveys impatience and scolding, effectively capturing the 'rude tone' requested. \n4. **Volume (音量):** The audio is delivered with high energy and projection, simulating a person shouting to be heard at a distance or out of anger ('大声地说'). The intensity is well-maintained throughout the clip. \nThe model demonstrates full control over all specified paralinguistic dimensions.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 experienced a catastrophic failure in content accuracy, completely rewriting the script (hallucination) and reading the stage direction '(cough)' as text rather than performing the sound. Model 2, on the other hand, adhered strictly to the script, generated a high-quality non-verbal cough sound, and effectively conveyed the requested rude attitude and loud volume. Model 1's audio is effectively unusable for the specific request.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

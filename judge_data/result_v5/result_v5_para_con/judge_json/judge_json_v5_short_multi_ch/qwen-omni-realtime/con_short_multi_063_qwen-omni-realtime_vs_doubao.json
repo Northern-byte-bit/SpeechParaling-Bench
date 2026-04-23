@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model demonstrates a critical failure in Content Accuracy. Instead of following the paralinguistic instructions ('pause significantly', 'with sarcasm'), the model reads the instructions aloud as part of the speech content ('停顿音调上扬，带着明显的讽刺'). This hallucination completely invalidates the generated audio. Consequently, the specific instruction to pause after '完美' is ignored (the model says '完美极了' continuously), and the intended sarcastic attitude is replaced by the reading of stage directions. According to the global considerations, since the generated audio is extremely poor and contains major content errors, it receives a score of 0.",
+    "reasoning_model_2": "The model generates the content accurately without hallucinating the instructions. Analyzing the timestamps: the segment '真是完美极了' spans from 00:01 to 00:03 (approx. 2 seconds for 6 characters), whereas the preceding segment '你的方案' (4 characters) takes about 1 second. The slower pace in the middle segment supports the presence of the requested 'significant pause' after '完美'. The tone quality is consistent with the 'bright' requirement, and the content delivery allows for the requested 'sarcastic' attitude to be expressed naturally within the accurate script. The performance is fluent and adheres to all paralinguistic dimensions.",
+    "model_comparison": "Model 1 suffers from a fatal hallucination error, reading the prompt's stage directions into the audio output, which results in a complete failure of content accuracy and paralinguistic control. Model 2 correctly follows the script, refrains from reading instructions, and its timing suggests adherence to the pause constraint. Model 2 is the clear winner across all dimensions.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

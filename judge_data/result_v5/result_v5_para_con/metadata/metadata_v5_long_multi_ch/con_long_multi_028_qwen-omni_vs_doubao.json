@@ -1,0 +1,16 @@
+{
+    "sample_index": 28,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用圆润的声音中速地说：各位同事，上午好。现在我将向大家详细介绍我们团队近期完成的季度项目成果，以及未来三个月的详细规划。",
+    "dimensions": [
+        "音质",
+        "语速"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 0
+}

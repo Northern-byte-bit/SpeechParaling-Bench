@@ -1,0 +1,16 @@
+{
+    "sample_index": 26,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用孩童的声音轻快地说: 爸爸，我们今天去公园玩好不好？",
+    "dimensions": [
+        "年龄",
+        "节奏"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

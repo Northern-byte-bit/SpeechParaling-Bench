@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in both content accuracy and paralinguistic compliance. First, regarding content, the model hallucinates a substantial amount of text. The requested sentence was simply \"I'm so tired, I want to rest,\" but the model continues from 00:03 to 00:13 reading a poetic description (\"The words drag like heavy velvet curtains...\") which was not in the prompt. Second, regarding Cognitive State, the tone is completely mismatched. The speaker sounds bright, energetic, and youthful (00:00-00:02), with a crisp articulation that conveys alertness rather than fatigue. There is no sense of 'tiredness' in the prosody. Third, regarding Timbre, the voice is somewhat thin and high-pitched, lacking the requested 'rich' quality. It sounds like a standard, cheerful audiobook narrator rather than a character with a rich, tired voice.",
+    "reasoning_model_2": "Model 2 follows the instructions perfectly. Content-wise, it reads exactly the target sentence \"I am so tired, I want to rest\" without any additions or omissions. Regarding Cognitive State, the execution is excellent. The speaker uses a slow tempo, elongates vowels (specifically the word \"so\" at 00:01 and \"tired\" at 00:02), and employs a breathy, heavy delivery that vividly conveys exhaustion. The pauses are natural for a tired person. Regarding Timbre, the voice selected is deep, resonant, and warm, fitting the descriptor \"rich\" very well. The audio sounds natural and high-quality.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 committed a critical error by generating unrequested text (hallucination) and failed to modulate the voice to sound tired; instead, it sounded energetic and bright. Model 1's timbre was also thin and standard. In contrast, Model 2 strictly adhered to the text constraints, accurately portrayed the 'tired' cognitive state through prosody and pacing, and utilized a voice with a 'rich', resonant timbre. Model 2 successfully predicted the human preference for accurate instruction following and expressive TTS.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

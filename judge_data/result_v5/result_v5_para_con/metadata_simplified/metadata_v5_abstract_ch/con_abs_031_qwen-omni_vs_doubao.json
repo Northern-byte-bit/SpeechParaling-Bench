@@ -1,0 +1,14 @@
+{
+    "sample_index": 31,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用严肃认真的口吻说: 这次会议的内容非常重要，请大家务必仔细听讲，不得有任何遗漏。",
+    "dimensions": [
+        "严肃认真"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

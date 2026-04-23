@@ -1,0 +1,16 @@
+{
+    "sample_index": 10,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a lighthearted rhythm and a teasing tone: 'Oh, look at you, dressed so handsomely today, do you have another date? Don't forget about us buddies; next time we hang out, remember to treat us to a meal!'",
+    "dimensions": [
+        "Attitude",
+        "Rhythm"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

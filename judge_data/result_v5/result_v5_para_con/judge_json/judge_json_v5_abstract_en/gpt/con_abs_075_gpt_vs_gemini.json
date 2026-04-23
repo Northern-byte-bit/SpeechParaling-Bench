@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text content 'This repetitive work is simply a waste of life. Can we have something more challenging?' without any pronunciation errors. However, regarding the paralinguistic requirements, the audio fails completely. From 0:00 to 0:05, the speaker uses a calm, steady, and neutral narration style. The pace is moderate and relaxed, lacking the urgency or clipped articulation associated with 'impatience'. The tone remains polite and even-tempered throughout; specifically, the final question (0:04-0:06) is delivered with a standard rising inquisitive intonation, sounding genuinely curious rather than 'irritable' or annoyed. There is no emotional coloring to suggest frustration.",
+    "reasoning_model_2": "Model 2 correctly follows the script with high fluency and naturalness. Crucially, it effectively captures the required emotional dimensions. From 0:00 to 0:03, the speaker adopts a faster, slightly rushed pace, particularly on the phrase 'waste of life', effectively conveying 'impatience'. The paralinguistic features of 'irritability' are also prominent; the voice has a subtle roughness and the stress on 'simply' and 'waste' sounds sharp and accusatory. The final sentence (0:04-0:06) 'Can we have something more challenging?' acts as an anchor for the emotion, delivered with an exasperated, flat falling tone rather than a polite question, perfectly simulating an annoyed complaint.",
+    "model_comparison": "Both models achieve perfect content accuracy and high fluency. The decisive difference lies in the 'Feature Control' for the paralinguistic dimensions 'impatient' and 'irritable'. Model 1 produces a high-quality but emotionally neutral reading that completely ignores the stylistic command, resulting in a score of 0 for the target features. Model 2, conversely, successfully modulates pacing (impatience) and tone/inflection (irritability) to match the user's request. The expression in Model 2 is vivid and clearly discernible, making it the superior model for this specific instruction.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

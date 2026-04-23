@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately generates the requested text '宝贝，今晚的故事会告诉你，爱是最重要的。' without any errors, omissions, or additions. \n1. **Tone Quality (音质):** The voice is a gentle, male timbre (0:00-0:05). It maintains a soft and warm quality throughout, perfectly fitting the 'soft' (柔和) requirement for a bedtime story context.\n2. **Speaking Speed (语速):** The pacing is moderate (0:00-0:05), matching the 'medium speed' (中速) command. It is calm and steady.\n3. **Stress (重音):** In the segment '爱是最重要的' (0:03-0:05), the speaker places emphasis on '爱' and distinct stress on '最重要' through pitch elevation and clear enunciation. The stress on '最重要' is audible and natural.\nOverall, Model 1 follows all instructions perfectly regarding content and paralinguistic features.",
+    "reasoning_model_2": "Model 2 fails the fundamental 'Content Accuracy' criterion. While it begins by reading the target sentence '宝贝，今晚的故事会告诉你，爱是最重要的' (0:00-0:04), it immediately continues with a long, unrequested hallucination describing the voice itself ('轻轻的语气，像月光洒在窗台...'). \n1. **Tone Quality (音质):** The voice is a soft female tone, which technically meets the 'soft' requirement, but the evaluation is severely impacted by the extra content.\n2. **Speaking Speed (语速):** The speed is medium-slow, consistent with the command.\n3. **Stress (重音):** The speaker does stress '最重要' (0:03-0:04), but the subsequent hallucinated text dilutes the focus.\nDue to the major content error (adding substantial unrequested text), the model receives a significant penalty across all dimensions as per the evaluation standard for 'Major issues' or 'Completely incorrect' content.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. Model 1 strictly followed the content instructions and applied the paralinguistic features (soft tone, medium speed, stress) naturally to the correct text. Model 2, while having a high-quality audio voice that was indeed soft, failed critically on Content Accuracy by hallucinating a long continuation after the target sentence. This violation of the script makes the audio unusable for the user's specific request. Therefore, Model 1 is superior in terms of instruction following and reliability.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

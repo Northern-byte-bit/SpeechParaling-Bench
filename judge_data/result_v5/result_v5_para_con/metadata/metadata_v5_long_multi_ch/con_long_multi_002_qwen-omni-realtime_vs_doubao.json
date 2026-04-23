@@ -1,0 +1,16 @@
+{
+    "sample_index": 2,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用沙哑的声音焦虑地说：这份紧急报告的数据好像出了问题，我反复核对了几遍，怎么都对不上。领导那边催得很急，如果不能及时修正，项目恐怕会有麻烦了。",
+    "dimensions": [
+        "音质",
+        "认知状态"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

@@ -1,0 +1,18 @@
+{
+    "sample_index": 63,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a bright timbre, with a clear pause after the word 'perfect', and a sarcastic tone: 'Your plan is truly \"perfect\" indeed. I have nothing to say.'",
+    "dimensions": [
+        "Attitude",
+        "Pause",
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

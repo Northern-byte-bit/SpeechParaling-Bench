@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model fails significantly on Content Accuracy. The script required is '快看！我发现了一只小猫咪！', but the model generates a 15-second clip containing significant hallucinations ('快看快看快看', followed by '喵呜喵呜' and a long description of the cat's features). regarding the paralinguistic features: \n1. **Pitch (音高):** The voice timbre is high (resembling a young girl or anime character) and the tone is excited, which generally aligns with 'High Pitch'. However, it relies more on speaker timbre than a specific 'extremely high' modulation of a standard voice.\n2. **Speed (语速):** While the initial repetition of '快看' is fast, the overall generation is very long due to the hallucinated text. The delivery includes pauses and moderate-paced descriptions, failing the command to say the specific sentence 'quickly'. The extra content completely negates the 'Fast' constraint for the target sentence.",
+    "reasoning_model_2": "The model demonstrates excellent instruction following.\n1. **Content Accuracy:** The audio content matches the script '快看，我发现了一只小猫咪' exactly, with no hallucinations or omissions.\n2. **Pitch (音高):** The voice uses a significantly elevated pitch, sounding like a high-register urgent exclamation or falsetto. It effectively captures the 'Extremely High Pitch' requirement relative to a natural speaking baseline.\n3. **Speed (语速):** The delivery is rapid and urgent, completing the sentence in approximately 2 seconds. This perfectly satisfies the 'Fast' requirement.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 fails the fundamental 'Content Accuracy' criterion by hallucinating a large amount of extra text (15s duration vs ~2s target). This content failure directly impacts the 'Speed' dimension, as the model turns a quick command into a long storytelling segment. Model 2 follows the script perfectly and applies both the 'Extremely High Pitch' and 'Fast Speed' features accurately to the target text. Model 1's pitch is high, but its failure to follow the script and speed constraints makes it much worse overall.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

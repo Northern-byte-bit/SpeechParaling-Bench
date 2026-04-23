@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model correctly generates the content '快跑！有蛇！' without any errors. \n1. **Pitch (音高):** The speaker raises their voice significantly, using a high-pitched shout that naturally corresponds to a warning cry. \n2. **Rhythm (节奏):** The delivery is extremely rapid and urgent (00:00-00:02), with no unnecessary pauses, effectively conveying the 'urgent' instruction. \n3. **Emotion (情感):** The tone is filled with genuine panic and fear, perfectly matching the scenario of encountering a snake. The expression is vivid and natural.",
+    "reasoning_model_2": "The model completely fails to adhere to the script constraint. The user requested the specific sentence '快跑！有蛇！', but the model generated a 9-second long clip containing extensive hallucinations: '快跑快跑快跑，有蛇有蛇有蛇... 别回头... 嘶嘶就在你身后...'. \n1. **Content Accuracy:** The content is entirely different from the prompt due to massive additions and repetitions. \n2. **Feature Evaluation:** According to the scoring standard, a score of 0 is assigned because the 'Voice content is clearly inconsistent with the script'. Consequently, the specific features (Pitch, Rhythm, Emotion) cannot be validly scored against the target requirements.",
+    "model_comparison": "Model 1 followed all instructions perfectly, delivering the correct text with the requested high pitch, rapid rhythm, and fearful emotion. Model 2 failed the most basic instruction regarding the text script, hallucinating a long dramatic scene instead of reading the single sentence required. Therefore, Model 2 receives a score of 0 across all dimensions due to critical content failure, while Model 1 receives full marks for a high-quality, accurate performance.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

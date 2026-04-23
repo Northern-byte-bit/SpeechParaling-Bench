@@ -1,0 +1,14 @@
+{
+    "sample_index": 6,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用一种专业客观的口吻说: 报告显示，平均睡眠时间不足七小时的大学生，其期末考试成绩普遍低于其他群体。",
+    "dimensions": [
+        "专业客观"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

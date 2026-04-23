@@ -1,0 +1,14 @@
+{
+    "sample_index": 99,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a curious tone initially, gradually transitioning to a doubting tone: 'The company proposed a new strategy; it sounds quite interesting. But how will it actually be implemented? I doubt if these plans are truly feasible.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

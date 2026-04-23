@@ -1,0 +1,18 @@
+{
+    "sample_index": 73,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用甜美的音质，缓慢，在“蛋糕”一词后明显停顿着说：亲爱的，今天晚上我们不如去那家新开的甜品店，尝尝他们家的招牌蛋糕 听说那里的草莓慕斯和巧克力塔都做得非常精致可口，我们去放松一下吧。",
+    "dimensions": [
+        "音质",
+        "语速",
+        "停顿"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

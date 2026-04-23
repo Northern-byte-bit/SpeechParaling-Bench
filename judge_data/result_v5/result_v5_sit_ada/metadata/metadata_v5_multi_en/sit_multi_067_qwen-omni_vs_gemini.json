@@ -1,0 +1,16 @@
+{
+    "sample_index": 67,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Mom, it's thundering outside, I'm so scared, can you hug me?",
+    "dimensions": [
+        "Emotion: Fear",
+        "Age: Child"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "situational_adaptation",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 107,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请在“必须”这个词上施加重音：这份作业必须在今天之内完成并提交，否则老师会直接扣掉很多平时分，后果非常严重，你可千万不能大意。",
+    "dimensions": [
+        "重音"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

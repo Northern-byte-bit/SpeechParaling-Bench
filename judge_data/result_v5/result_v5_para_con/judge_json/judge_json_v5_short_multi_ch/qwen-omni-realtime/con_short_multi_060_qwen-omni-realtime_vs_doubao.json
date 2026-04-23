@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model successfully speaks the target sentence at the very beginning (00:00-00:02), but subsequently generates a large amount of unrequested text (hallucination) describing the crying action (e.g., 'I am crying heartbreakingly', 'Why did it leave me'). Regarding the 'Non-verbal vocalizations' dimension, the model verbally reads out 'Wu wu wu' (00:02) and describes the crying rather than naturally integrating sobbing sounds into the speech. For 'Volume', the audio is energetic and relatively loud. For 'Emotion', while the tone is distressed and dramatic, the delivery feels more like a scripted recitation or an exaggerated anime character performance rather than a natural emotional outburst, heavily penalized by the content adherence failure.",
+    "reasoning_model_2": "The model strictly adheres to the requested text content without any additions or omissions. Regarding 'Non-verbal vocalizations', the model excellently integrates the physical characteristics of crying—trembling voice, breathiness, and pitch breaks—directly into the speech flow (00:00-00:04), making it sound very realistic. The 'Volume' is appropriately loud, consistent with a crying complaint/outburst. The 'Emotion' of sadness and despair is vividly conveyed through the shaky prosody and tearful tone, perfectly matching the command to speak 'crying' and 'sadly'.",
+    "model_comparison": "Model 2 is significantly superior to Model 1. Model 1 commits a severe error in content accuracy by adding a long, unprompted monologue after the target sentence. Furthermore, Model 1 verbalizes non-verbal sounds (saying 'Wu wu wu') instead of performing them, whereas Model 2 naturally embeds the acoustic characteristics of crying (sobbing, trembling) into the speech. Model 2 follows all instructions regarding content, emotion, and paralinguistic features perfectly, while Model 1 fails on content and naturalness.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

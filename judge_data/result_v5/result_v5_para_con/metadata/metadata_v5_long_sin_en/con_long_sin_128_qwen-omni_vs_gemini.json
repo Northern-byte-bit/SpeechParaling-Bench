@@ -1,0 +1,14 @@
+{
+    "sample_index": 128,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a disgusted emotion: 'The vegetables in this salad are all wilted, and there's a strange smell, I can't eat it at all. It seems I can never come to this restaurant again, what a waste of money!'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

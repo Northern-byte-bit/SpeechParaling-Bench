@@ -1,0 +1,14 @@
+{
+    "sample_index": 101,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请在“真的”这个词上进行重读：你真的觉得这样做是正确的吗？仔细考虑一下后果，这关系到我们整个家庭的未来，不能有丝毫的马虎。",
+    "dimensions": [
+        "重音"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

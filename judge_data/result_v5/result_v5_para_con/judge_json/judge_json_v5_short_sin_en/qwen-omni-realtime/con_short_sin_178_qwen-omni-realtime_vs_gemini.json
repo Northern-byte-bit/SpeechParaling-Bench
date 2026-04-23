@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content 'Ah, I am so sleepy, I want to sleep.' accurately. At 00:00-00:01, the model produces a very convincing non-linguistic vocalization ('Ah~') that sounds like a deep, sleepy sigh or the onset of a yawn. The prosody throughout the sentence (00:01-00:05) is elongated, breathy, and lethargic, perfectly mimicking the physiological effect of yawning or extreme drowsiness while speaking. The performance is natural and fully adheres to the instruction to read with a yawn.",
+    "reasoning_model_2": "The model fails to understand the paralinguistic instruction. Instead of performing a yawn sound, it literally reads the word 'Yawn' at 00:00. Furthermore, it modifies the script by replacing 'Ah~' with this spoken word 'Yawn'. The subsequent delivery of 'I am so sleepy...' is somewhat flat and lacks the physiological characteristics of a yawning voice (stretched vowels, breathiness). This constitutes a major error in both content accuracy and paralinguistic compliance.",
+    "model_comparison": "Model 1 followed the instruction perfectly. It integrated the non-linguistic vocalization (yawn/sleepy sigh) naturally into the 'Ah~' segment and maintained the corresponding sleepy prosody throughout the sentence. Model 2 failed completely by reading the stage direction/description 'Yawn' as part of the text instead of performing the sound, and it failed to deliver the required 'Ah~' sound. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

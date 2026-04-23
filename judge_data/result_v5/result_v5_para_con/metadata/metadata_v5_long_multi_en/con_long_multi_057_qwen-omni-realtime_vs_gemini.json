@@ -1,0 +1,18 @@
+{
+    "sample_index": 57,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence at normal volume, with heavy stress on the word 'really', and a doubting tone: 'He said he watched the entire movie alone last night, and it was after lights out. This story really sounds a bit incredible, I'm quite doubtful.'",
+    "dimensions": [
+        "Cognitive State",
+        "Stress",
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 0
+}

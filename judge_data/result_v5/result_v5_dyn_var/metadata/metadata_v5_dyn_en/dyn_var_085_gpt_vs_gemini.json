@@ -1,0 +1,14 @@
+{
+    "sample_index": 85,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a disgusted emotion and gradually calming down to a neutral emotion: 'This taste is disgusting; I never want to touch this food again. But since it's for entertaining guests, I guess I'll just have to bear with it.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 perfectly follows the content instructions, reciting the text 'My keys are gone, what should I do?' (0:00-0:03) without errors or hallucinations. Regarding the 'Cognitive State' (Anxious), the delivery is somewhat calm and lacks the urgency, breathiness, or tension associated with high anxiety. There is a slight inflection of concern in the question 'what should I do?', but it registers as mild worry rather than anxiety, meriting a score of 1 for weak expression. For 'Timbre' (Hoarse), the voice is crystal clear, smooth, and feminine, showing absolutely no signs of hoarseness, roughness, or gravelly texture. Thus, it receives a 0 for Timbre.",
+    "reasoning_model_2": "Model 2 fails significantly in 'Content Accuracy'. While it reads the target sentence (0:00-0:02), it hallucinates a lengthy continuation ('I'm shaking, my voice is rough... they're just gone') from 0:02 to 0:12. According to the scoring criteria, such a major deviation where content is inconsistent with the strict script commands a score of 0. Regarding 'Cognitive State', while the audio portrays high anxiety (shaking, fast pace), the severe content failure caps the score at 0 based on the evaluation guidelines. For 'Timbre', despite the hallucinated text claiming 'my voice is rough', the actual audio features a high-pitched, strained, and shaky voice, but it lacks the specific spectral characteristics of a 'hoarse' or gravelly voice. Therefore, it scores 0 for Timbre as well.",
+    "model_comparison": "Model 1 is the winner. While Model 2 attempts a more expressive performance, it fails the fundamental requirement of Content Accuracy by hallucinating a large amount of text, which results in a mandatory low score according to the guidelines. Model 1 adheres strictly to the text. In terms of the specific dimensions, Model 1 provides a very mild (almost neutral) hint of worry (Cognitive State: 1) and fails to be hoarse (Timbre: 0). Model 2 acts out anxiety well but fails the content constraint (Cognitive State: 0 due to penalty) and also fails to sound genuinely hoarse (Timbre: 0). Model 1 is the only usable generation.",
+    "score_1_1": 1,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 0,
+    "score_2_2": 0,
+    "winner_2": 0
+}

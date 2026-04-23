@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model successfully generates the content with high accuracy and naturalness. Regarding the paralinguistic features: \n1. **Mysterious:** The model adopts a slow, deliberate storytelling pace with significant pauses between phrases (e.g., 00:01 after 'Legend has it', 00:02 after 'that deep', 00:06 after 'secret'). The intonation is grounded and serious, effectively creating a suspenseful, 'legend-telling' atmosphere consistent with a mysterious tone. \n2. **Unpredictable:** While the tone is dramatic, the rhythm is somewhat repetitive and segmented (phrase-pause-phrase-pause), lacking the chaotic or sudden shifts required for a truly 'unpredictable' nature. However, the dynamic range is present.",
+    "reasoning_model_2": "The model produces audio with significant quality issues. \n1. **Naturalness:** The voice has a strong, metallic, mechanical quality (evident throughout 00:00-00:08) and lacks human warmth, sounding like a low-quality legacy TTS system. \n2. **Mysterious:** The delivery is rushed and completely flat. There is no use of pacing, pauses, or pitch modulation to build atmosphere. It reads the text as a simple data stream rather than a story. \n3. **Unpredictable:** The prosody is monotonously flat with no variation in pitch or tempo.",
+    "model_comparison": "Model 1 is the clear winner. It correctly interprets the text semantics and applies a dramatic, slow-paced delivery with pauses to enhance the 'mysterious' dimension. While it struggles to be truly 'unpredictable' (remaining rhythmically consistent), it is vastly superior to Model 2. Model 2 fails to meet the basic fluency standards, exhibiting a robotic timbre and a rushed, flat delivery that conveys absolutely no emotion or controllable features.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 1,
+    "score_2_2": 0,
+    "winner_2": 1
+}

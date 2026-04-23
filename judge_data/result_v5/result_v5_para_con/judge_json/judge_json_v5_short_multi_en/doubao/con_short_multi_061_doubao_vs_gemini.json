@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately captures the content: 'Welcome new students to our club! Hope everyone has a great time!'. Regarding 'Age', the voice has a high pitch and timbre characteristic of a young boy or teenager (00:00-00:04), fitting the 'youthful' requirement perfectly. For 'Attitude', the delivery is high-energy, almost shouting with excitement, which clearly conveys an 'enthusiastic tone' (00:00 'Welcome', 00:03 'great time'). Regarding 'Rhythm', the speech is fast-paced and punchy, placing strong stress on key words like 'Welcome', 'Club', and 'Great', effectively creating the requested 'emphatic rhythm'. Although the audio quality is slightly raw due to the shouting style, it fully complies with the paralinguistic commands.",
+    "reasoning_model_2": "Model 2 provides accurate content: 'Welcome new students to our club! Hope everyone has a great time!'. However, it fails significantly on the requested features. Regarding 'Age', the voice sounds like a standard adult female professional (mid-20s to 30s), appearing more mature/neutral than distinctly 'youthful'. For 'Attitude', the tone is polite, calm, and welcoming (00:00-00:05), but lacks the high energy or excitement required for an 'enthusiastic tone'. Regarding 'Rhythm', the pacing is slow, measured, and smooth (legato), which is the opposite of an 'emphatic rhythm'. It sounds like a standard reading rather than an expressive performance.",
+    "model_comparison": "Model 1 is the clear winner across all three dimensions. Model 1 successfully modified its output to match the specific paralinguistic constraints: it sounds young (Age), extremely excited (Attitude), and punchy (Rhythm). Model 2 produced a high-fidelity but generic text-to-speech output that ignored the stylistic instructions, resulting in a standard adult voice with a calm demeanor and smooth pacing. Model 1 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

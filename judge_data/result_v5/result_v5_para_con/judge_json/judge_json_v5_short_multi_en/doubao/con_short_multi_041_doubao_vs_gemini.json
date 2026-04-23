@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates an audio with an adult male voice, satisfying the 'Age' requirement. The content spoken is 'What on earth are you doing? It is outrageous', expanding the contraction 'It's' to 'It is', which is a minor deviation. However, regarding the 'Emotion' dimension, the delivery is extremely flat and robotic (00:00-00:03). There is no discernible change in pitch, volume, or speed to indicate anger. The statement 'It is outrageous' is read with a neutral, almost monotonous tone that fails to convey any sense of outrage or anger. The fluency is also poor, with a distinct mechanical quality.",
+    "reasoning_model_2": "Model 2 generates an audio with an adult female voice, satisfying the 'Age' requirement. Like Model 1, it expands 'It's' to 'It is'. However, the performance on the 'Emotion' dimension is excellent. From 00:00 to 00:02, the speaker uses a sharp, incredulous tone on 'What on earth', with appropriate stress on 'earth'. The second sentence, 'It is outrageous' (00:02-00:04), is delivered with significant emphasis and a downward inflection that clearly communicates frustration and anger. The prosody is natural and human-like.",
+    "model_comparison": "Both models successfully meet the 'Age' requirement, providing clear adult voices (Model 1 male, Model 2 female). Both models also make the same minor content adjustment (expanding 'It's' to 'It is'). However, there is a stark difference in the 'Emotion' dimension. Model 1 is robotic, flat, and completely devoid of the requested angry emotion. Model 2 provides a natural, expressive performance where the anger is clearly palpable through intonation, stress, and pacing. Therefore, Model 2 is significantly superior in complying with the paralinguistic commands.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

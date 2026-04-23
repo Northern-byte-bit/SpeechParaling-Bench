@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly on Content Accuracy. Instead of reading the provided text verbatim, it paraphrases almost the entire sentence (e.g., 'Today's' to 'The two day', 'primarily includes' to 'mainly covers', 'attend' to 'arrive', 'in advance' to 'beforehand'). This indicates a failure to follow the explicit command to 'read this sentence'. Regarding the 'Neutral' emotion, the generated audio exhibits an upbeat, energetic, and slightly cartoonish tone, which carries a positive valence rather than the requested neutral, professional flatness. Due to the combination of script rewriting and style mismatch, the performance is poor.",
+    "reasoning_model_2": "The model follows the script with high accuracy, with one notable exception at the very beginning: it reads 'Today's' as 'Two days' (00:00). The rest of the sentence is read verbatim without errors. In terms of 'Neutral' emotion, the model performs very well. The tone is calm, steady, and professional, devoid of unnecessary emotional coloring, which fits the meeting agenda context and the user's request perfectly. The fluency is natural. The score is capped at 2 due to the text hallucination at the start.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed to perform the text-to-speech task correctly, rewriting the script entirely and using a tone that was too energetic/cheerful for the 'neutral' prompt. Model 2 adhered strictly to the script (except for the 'Two days' vs 'Today's' error at the start) and accurately conveyed the requested neutral emotion with a professional delivery.",
+    "score_1_1": 1,
+    "score_2_1": 2,
+    "winner_1": 2
+}

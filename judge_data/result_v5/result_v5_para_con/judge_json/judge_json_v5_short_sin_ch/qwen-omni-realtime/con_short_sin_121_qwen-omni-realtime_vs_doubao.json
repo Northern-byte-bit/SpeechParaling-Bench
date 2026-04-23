@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user command specifically requested the text '你为什么又把房间弄得这么乱？！'. However, Model 1 generated a significant amount of hallucinated text following the target sentence (00:02-00:08: '每次都这样...受不了你这种态度'). Regarding the 'Angry' emotion, the delivery feels more like a nagging complaint or frustration rather than genuine anger. The tone is relatively soft and lacks the intensity, sharpness, and forcefulness expected of an angry outburst. The pitch contour resembles whining more than scolding. Due to the severe content hallucination and weak emotional alignment, the performance is poor.",
+    "reasoning_model_2": "Model 2 strictly follows the requested text script without any additions or omissions. The delivery of '你为什么又把房间弄得这么乱？！' (00:00-00:01) is fast-paced, forceful, and carries a clear sense of immediate frustration and scolding. There is appropriate stress on the keyword '又' (again) and '乱' (messy), effectively conveying the required 'Angry' emotion. The prosody is natural and fits the context of someone reacting to a recurring annoyance.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the fundamental instruction of Content Accuracy by hallucinating a long continuation of the script, which is a critical error. Furthermore, regarding the specific 'Angry' emotion dimension, Model 1's tone was too soft and leaned towards complaining/whining, whereas Model 2 provided a punchy, stern, and accurately angry delivery that matched the text's intent perfectly.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

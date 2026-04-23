@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in both content accuracy and paralinguistic compliance. \n1. **Content Accuracy:** The model hallucinates a significant amount of text. Instead of just reading the target sentence, it prefaces it with 'I'll whisper it softly, almost like a secret shared between friends,' (00:00-00:05) before finally reading the target text 'I'll quietly tell you, he is the boss' (00:05-00:07). \n2. **Paralinguistic Compliance (Volume/Whisper):** The prompt explicitly requested the sentence be read with a 'whisper'. However, the audio is delivered in a full, resonant, normal-to-loud speaking voice. There is absolutely no whispering or volume reduction applied. The delivery is energetic rather than quiet and secretive.",
+    "reasoning_model_2": "Model 2 performs perfectly. \n1. **Content Accuracy:** The model reads exactly the target text: 'I'll quietly tell you, he is the boss' (00:00-00:03) with no hallucinations or omissions. \n2. **Paralinguistic Compliance (Volume/Whisper):** The model accurately implements the 'whisper' instruction. The voice is breathy, unvoiced (lacking vocal cord vibration), and low in volume, effectively simulating a secret being told close to the ear. The pacing is deliberate and careful, enhancing the perception of the quiet volume.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 completely failed the task by speaking in a normal, loud voice instead of a whisper, and by adding a long, unrequested intro sentence (hallucination). Model 2 followed the text instruction perfectly and delivered a high-quality, realistic whisper effect that matched the requested volume and style constraints.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

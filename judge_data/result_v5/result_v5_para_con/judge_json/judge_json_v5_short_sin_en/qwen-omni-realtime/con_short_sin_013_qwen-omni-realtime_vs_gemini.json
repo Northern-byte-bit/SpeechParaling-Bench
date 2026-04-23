@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested a 'very high pitch'. Model 1 strictly adheres to this instruction. From 00:00 to 00:02, the generated voice maintains a significantly elevated pitch, resembling a child's voice or a cartoon character, which aligns perfectly with the 'very high pitch' requirement. While the contraction 'There's' was expanded to 'there is', the content is accurate. The delivery is fluent, and the core paralinguistic feature (Pitch) is vividly and accurately expressed.",
+    "reasoning_model_2": "Model 2 produces a high-quality, natural-sounding voice, but it completely fails to adhere to the specific paralinguistic instruction of 'very high pitch'. The audio (00:00-00:02) features a standard female voice within a normal pitch range. While the intonation indicates surprise, the fundamental frequency (pitch) is not 'very high' as requested. The content also expands 'There's' to 'there is'. The failure to modify the pitch rendering constitutes a major issue regarding the core requirement.",
+    "model_comparison": "Model 1 is the clear winner because it successfully modifies the vocal characteristics to match the specific 'very high pitch' constraint. The voice in Model 1 is distinctly high-pitched throughout the clip. In contrast, Model 2 ignores the pitch instruction and outputs a standard voice. Although Model 2 sounds more natural in a general context, it fails the specific feature control test. Model 1 demonstrates superior controllability over the requested paralinguistic dimension.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model adopts a 'supportive ally' paralinguistic strategy, highly effective for an angry user. At 00:00-00:02 ('I get why you're upset'), it immediately validates the user's emotion. Crucially, at 00:02-00:03, it uses the phrase 'this does seem wild' to mirror the intensity of the user's 'outrageous' claim without being aggressive, establishing strong empathy. Finally, at 00:06-00:07 ('how we can push back'), it proposes a collaborative solution ('we'), treating the adult user as a peer and validating their stance against the 'plan'. The flow is natural and the tone is appropriately serious yet energetic.",
+    "reasoning_model_2": "The model employs a 'clinical de-escalation' strategy. At 00:00-00:02 ('It sounds like you have some concerns'), it attempts to label the emotion but significantly minimizes the user's reported 'outrage' to merely 'concerns', which can feel invalidating to an angry adult. At 00:03-00:06 ('What specifically do you find outrageous'), it pivots immediately to logical probing. While the content is relevant, the paralinguistic delivery feels detached and scripted, resembling a standard customer service bot rather than a sophisticated conversational partner. The response is fluent but lacks emotional resonance.",
+    "model_comparison": "Model 1 demonstrates superior performance in Situational Adaptation. Regarding 'Emotion: Angry', Model 1 validates the high intensity of the user's emotion ('wild', 'upset') and aligns itself with the user ('push back'), creating a sense of solidarity that effectively diffuses anger. Model 2, conversely, dilutes the user's 'outrage' to 'concerns', a clinical approach that often feels robotic and less empathetic. Regarding 'Age: Adult', Model 1 treats the user as a peer or colleague with a mature, collaborative tone, whereas Model 2 relies on a generic 'active listening' script ('It sounds like...') that feels less natural for an adult-to-adult interaction. Model 1 matches the paralinguistic requirements vividly.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

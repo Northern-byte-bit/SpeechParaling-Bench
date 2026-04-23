@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately interprets the text 'Cough cough...' as a non-linguistic vocalization instruction rather than text to be read aloud. From 00:00 to 00:03, the audio features realistic, natural-sounding coughing. The coughing sounds are convincing and distinct, effectively simulating a human clearing their throat or coughing. Following the coughs, the speech ('Excuse me, where was I?...') begins at 00:04 and flows naturally with appropriate pauses and intonation, reflecting the recovery from the coughing fit. The transition between the non-linguistic sound and the speech is seamless.",
+    "reasoning_model_2": "The model fails to interpret the instruction for non-linguistic vocalizations. Instead of generating the sound of coughing, it literally reads the words 'Cough, cough' phonetically at 00:00-00:02. While the subsequent speech content matches the script, the failure to generate the actual sound effect constitutes a complete failure in the 'Non-Linguistic Vocalizations' dimension. The voice itself is clear, but the delivery is purely textual and ignores the required paralinguistic feature.",
+    "model_comparison": "Model 1 demonstrates a superior ability to handle paralinguistic instructions by converting the text 'Cough cough...' into realistic coughing sounds (non-linguistic vocalizations). This creates a natural and immersive audio experience that aligns perfectly with the user's intent. In contrast, Model 2 treats the input strictly as text-to-speech, reading the onomatopoeia as words. This results in a failure to provide the required feature. Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

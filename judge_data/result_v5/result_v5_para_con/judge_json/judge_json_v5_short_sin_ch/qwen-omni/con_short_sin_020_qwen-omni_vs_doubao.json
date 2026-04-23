@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user explicitly commanded the model to say the sentence: '今天下午的安排是什么？' (What is the schedule for this afternoon?). However, Model 1 completely failed to read the target text. Instead, it hallucinated a detailed response answering the question, saying: '今天下午的安排是两点开会，三点接待来访客户，四点半参加一个线上会议。' (The schedule for this afternoon is a meeting at 2:00, receiving clients at 3:00...). According to the evaluation criterion, a score of 0 must be assigned when voice content is clearly inconsistent with the script. Although the pitch used was a standard medium-range male voice, the content failure is fatal.",
+    "reasoning_model_2": "Model 2 also failed the core instruction to read the specific sentence '今天下午的安排是什么？'. Instead of repeating the question, it provided a short answer: '今天下午的安排是开会' (The schedule for this afternoon is a meeting). This represents a failure in content accuracy as the model treated the TTS prompt as a chat query. Consequently, per the scoring standard for content inconsistency, the score is 0.",
+    "model_comparison": "Both models failed the primary instruction to synthesize the specific target text '今天下午的安排是什么？'. Both models interpreted the input as a question to be answered rather than text to be read aloud. Model 1 generated a long, detailed schedule, while Model 2 generated a short statement. Since both completely deviated from the required script, they both receive a score of 0 for Content Accuracy, rendering the Pitch evaluation moot as the target utterance was not produced. It is a tie due to mutual failure.",
+    "score_1_1": 0,
+    "score_2_1": 0,
+    "winner_1": 0
+}

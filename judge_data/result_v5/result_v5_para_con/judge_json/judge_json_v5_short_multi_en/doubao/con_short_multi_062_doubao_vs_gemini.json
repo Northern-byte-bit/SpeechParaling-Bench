@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with high audio quality and natural fluency. \n\n1. **Emotion (Surprised):** The model successfully conveys a surprised and happy emotion. The intonation rises appropriately on 'really for me?' and the tone is warm and enthusiastic (0:00-0:05). This dimension is well executed.\n2. **Pace (Fast):** The model fails to follow the 'fast pace' instruction. The delivery is actually quite leisurely and slow, with distinct, somewhat long pauses between the phrases 'Oh my goodness', 'is this really for me', and 'This is fantastic'. The total duration is longer than expected for a fast command.\n3. **Pitch (Very High):** The model fails to strictly follow the 'very high pitch' instruction. The voice uses a standard female pitch range. While there is natural pitch variation associated with the surprise emotion, the baseline pitch is not shifted to 'very high' or falsetto levels as requested.",
+    "reasoning_model_2": "Model 2 generates the audio with acceptable fluency, though the specific acoustic characteristics make it sound slightly breathless.\n\n1. **Emotion (Surprised):** The model expresses the surprised emotion very vividly. The breathiness and the dynamic range clearly convey shock and excitement (0:00-0:05).\n2. **Pace (Fast):** The model follows the 'fast pace' instruction significantly better than Model 1. The articulation within the phrases is hurried ('Ohmygoodness', 'Isthisreallyforme'). Although there are breaths between sentences, the overall tempo feels energetic and quicker than a neutral reading.\n3. **Pitch (Very High):** The model adheres strictly to the 'very high pitch' instruction. The voice is elevated to a high, almost falsetto or child-like register, distinct from a normal adult speaking voice. This accurately reflects the user's specific constraint.",
+    "model_comparison": "Both models accurately transcribe the text and convey the 'surprised' emotion effectively. However, Model 1 completely ignores the specific paralinguistic constraints regarding 'Pace' and 'Pitch'. Model 1 produces a standard-paced, standard-pitched voice. Model 2, in contrast, successfully modifies the voice to match the prompt's constraints. It adopts a noticeably higher pitch and a faster articulation rate, making it the only model that followed the full set of instructions (Emotion + Pace + Pitch). Therefore, Model 2 is superior in following the control features.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

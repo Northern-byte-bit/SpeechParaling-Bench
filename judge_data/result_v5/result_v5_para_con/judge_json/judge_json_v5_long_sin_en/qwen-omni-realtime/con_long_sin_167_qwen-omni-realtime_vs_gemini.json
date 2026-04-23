@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately follows the text script by reading the word 'Sigh' at 00:00. However, it fails to interpret the command 'with a sigh' as a paralinguistic instruction. Instead of producing a non-linguistic sigh sound or adopting a sighing tone, it simply reads the word 'Sigh' with a flat, robotic delivery. The prosody throughout the clip is mechanical and does not convey the requested physical and mental exhaustion, resulting in a failure to meet the core paralinguistic requirement.",
+    "reasoning_model_2": "Like Model 1, this model reads the text 'Sigh' at 00:00 literally rather than replacing it with a sound effect. However, Model 2 significantly outperforms in terms of naturalness and emotional expression. The tone is appropriately weary and breathless, matching the content of 'physically and mentally exhausted' (00:07) and 'crave rest' (00:14). While the literal reading of the stage direction prevents a perfect score for 'Non-Linguistic Vocalizations', the model successfully incorporates the 'sighing' quality into its prosody, making the emotion vivid and discernible.",
+    "model_comparison": "Both models exhibit a text-normalization issue where the stage direction 'Sigh' is spoken aloud rather than performed as a pure sound. However, Model 2 is the clear winner due to its superior paralinguistic compliance in terms of tone and emotion. Model 1 is monotone and robotic, failing to convey the 'exhausted' state. Model 2 captures the correct affective state with a weary, natural delivery that aligns well with the user's intent, despite the literal reading of the first word.",
+    "score_1_1": 0,
+    "score_2_1": 2,
+    "winner_1": 2
+}

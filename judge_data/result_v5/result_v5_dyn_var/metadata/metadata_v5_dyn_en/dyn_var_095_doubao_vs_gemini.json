@@ -1,0 +1,14 @@
+{
+    "sample_index": 95,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hesitant tone initially, suddenly switching to an anxious tone: 'My child's grades this time... I'm a bit worried, he seems to have been playing a lot recently, if this continues, what will he do about entering a higher grade next year?!'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 2,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model fails significantly in content accuracy. While it begins with the target sentence '这东西，我必须拿到手' (00:00-00:01), it fails to stop and continues to read out a large portion of the prompt's instructions and meta-commentary ('这话，我得说得清楚点，音量正常……') until 00:10. This makes the content clearly inconsistent with the script. Regarding the features: \n1. **Volume**: The volume is normal, but the severe content hallucination constitutes a major flaw.\n2. **Stress**: In the initial target segment, the delivery is rushed and flat. There is no perceptible emphasis on '我'; the rhythm does not highlight the pronoun as requested. \nDue to the 'Completely incorrect' content accuracy (hallucination/instruction reading), the score is penalized to 0 as per the scoring standard.",
+    "reasoning_model_2": "The model strictly follows the script, reading only '这东西，我必须拿到手' without any errors or hallucinations. \n1. **Volume**: The volume is normal and appropriate throughout.\n2. **Stress**: The model effectively highlights the word '我' (00:01). It uses a pause after '这东西' and elongates/emphasizes '我' before continuing with '必须拿到手', accurately conveying the requested paralinguistic feature.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 exhibits a critical failure in instruction following by reading out the prompt instructions (hallucination) rather than just the script, and it fails to apply the specific stress pattern on '我'. Model 2 delivers the correct text with high naturalness and accurately executes the requested emphasis on the specific word while maintaining normal volume.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

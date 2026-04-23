@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 attempts to generate the target sentence '这个方案，好，我们通过了'. However, it hallucinates the phrase '再好' (Zai hao) at the very beginning (00:00), which is a content error. Regarding the paralinguistic instruction to pause noticeably after '好', the model groups '这个方案好' together and then places a clear break (pause) before '我们通过了' (00:02). Although the prosody turns '好' into an adjective for the plan ('This plan is good') rather than an interjection ('This plan, okay...'), there is a distinct pause after the word '好' as requested. The feature is present, though the overall naturalness is affected by the initial hallucination.",
+    "reasoning_model_2": "Model 2 fails significantly in instruction following. Instead of performing the action of 'pausing' (停顿), it literally speaks the word '停顿' (00:02) as part of the text ('这个方案，好，停顿，我们通过了'). This is a severe content and logic error where the style control instruction was interpreted as text to be synthesized. Consequently, the requested silence is not achieved naturally; it is replaced by spoken text.",
+    "model_comparison": "Model 1 is the clear winner. While Model 1 has a content flaw (hallucinating '再好' at the start), it successfully executes the core paralinguistic instruction by placing a pause after the word '好'. Model 2 completely fails the task by reading the instruction keyword '停顿' aloud instead of executing a pause. Model 1 demonstrates control over the prosodic feature, whereas Model 2 demonstrates a failure to distinguish instructions from content.",
+    "score_1_1": 2,
+    "score_2_1": 0,
+    "winner_1": 1
+}

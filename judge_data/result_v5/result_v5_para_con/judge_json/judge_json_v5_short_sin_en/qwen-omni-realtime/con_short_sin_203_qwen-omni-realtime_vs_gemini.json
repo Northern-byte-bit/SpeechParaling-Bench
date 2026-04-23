@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully adopts a rude and aggressive tone, fulfilling the paralinguistic requirement. The target phrase 'Cut the nonsense, hurry up' is spoken between 00:00 and 00:02 with clear impatience. However, the model fails critically on Content Accuracy. It hallucinates and adds a significant amount of unrequested text: 'Don't make me wait any longer, you wasting my time' (00:02-00:06). According to the evaluation criteria, content must match the script without additions. This major error in content control significantly degrades the overall quality despite the correct emotional tone.",
+    "reasoning_model_2": "The model perfectly follows the content instructions, speaking only the phrase 'Cut the nonsense, hurry up' (00:00-00:02). The tone is distinctly rude, utilizing a sharp, dismissive intonation and a commanding pace that effectively conveys annoyance and impatience. The audio is fluent, natural, and free of artifacts. It fully satisfies both the content and paralinguistic constraints.",
+    "model_comparison": "Model 2 is the clear winner. While both models managed to convey a rude attitude, Model 1 failed the fundamental requirement of Content Accuracy by hallucinating an entire follow-up sentence ('Don't make me wait...'). Model 2 adhered strictly to the requested text while delivering a high-quality, naturally rude performance. Model 1's failure to stop after the prompt text constitutes a major issue.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

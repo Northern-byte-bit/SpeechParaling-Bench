@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content accurately according to the script. However, regarding the specific requirement '中音' (Mid-pitch), the performance is unstable. The audio starts in a lower-mid range (0:00-0:03), but around the segment '虽然不丰盛' (0:04), the pitch drops significantly lower, becoming gravelly and deep, deviating from a standard 'mid-tone'. The voice quality also fluctuates, sounding somewhat robotic and inconsistent, with the timbre shifting unnaturally towards a deeper, rougher texture in the second half. This instability fails to maintain the requested paralinguistic feature consistently.",
+    "reasoning_model_2": "The model accurately reproduces the script with high fluency and naturalness. Regarding the '中音' (Mid-pitch) requirement, the audio maintains a stable, standard male mid-range register throughout the entire clip. There are no sudden pitch shifts or unnatural drops. The prosody is conversational and pleasant, fitting the context of introducing a home-cooked dinner. The pitch is consistent, avoiding extremes of high or low, thus perfectly satisfying the instruction.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 exhibits significant instability in its pitch control. While it attempts a male voice, it suffers from a distinct drop in pitch and quality halfway through the audio (around 0:04), shifting from a mid-range to a low, gravelly texture that sounds unnatural and violates the 'mid-pitch' consistency. Model 2, on the other hand, delivers a very natural, fluent, and stable performance with a consistent mid-range pitch throughout, adhering perfectly to the prompt.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

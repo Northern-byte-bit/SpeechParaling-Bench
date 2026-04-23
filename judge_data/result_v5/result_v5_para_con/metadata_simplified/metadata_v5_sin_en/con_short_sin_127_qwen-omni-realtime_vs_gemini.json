@@ -1,0 +1,14 @@
+{
+    "sample_index": 127,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a disgusted emotion: 'This smell is too awful, I can't stand it.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Error",
+    "category": "feature_control",
+    "winner_position_1": -1
+}

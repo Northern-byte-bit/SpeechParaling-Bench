@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the text content '你到底在干什么？快给我住手' with accurate pronunciation and smooth fluency (00:00-00:02). However, regarding the core instruction 'shouting volume' (喊叫的音量), the model fails to comply. The audio is delivered in a standard conversational volume and tone. There is no auditory evidence of increased vocal effort, projection, or intensity associated with shouting. The delivery sounds like a calm, slightly annoyed complaint rather than a shout, making it ineffective for the requested feature.",
+    "reasoning_model_2": "The model accurately generates the text content '你到底在干什么？快给我住手' with high fidelity. Regarding the paralinguistic feature 'shouting volume', the model performs excellently. From 00:00 to 00:02, the speaker significantly raises their voice, exhibiting clear characteristics of shouting, including high projection, intensity, and a sense of urgency. The vocal strain and volume modulation are consistent with a human shouting in an agitated state, perfectly matching the user's command.",
+    "model_comparison": "The user command explicitly requested the speech be delivered with 'shouting volume'. Model 1 (T1) completely disregarded this stylistic constraint, delivering the line in a normal, conversational volume that contradicts the urgency of the text and the prompt. Model 2 (T2), on the other hand, successfully modulated the voice to sound like a genuine shout, with appropriate loudness and intensity. Therefore, Model 2 is the clear winner as it followed the 'Feature Control' instruction, whereas Model 1 failed to implement the required paralinguistic feature.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

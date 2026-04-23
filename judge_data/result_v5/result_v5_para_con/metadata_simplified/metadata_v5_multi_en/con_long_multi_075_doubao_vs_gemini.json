@@ -1,0 +1,18 @@
+{
+    "sample_index": 75,
+    "candidate_name": "doubao",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with coughing, in a rude tone and loudly: '(Cough) Hey! Do you people have any public morality? Making so much noise outside this late, completely disregarding other people's rest! It's utterly outrageous, don't you know there are elderly and children here?'",
+    "dimensions": [
+        "Attitude",
+        "Non-Linguistic Vocalizations",
+        "Volume"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

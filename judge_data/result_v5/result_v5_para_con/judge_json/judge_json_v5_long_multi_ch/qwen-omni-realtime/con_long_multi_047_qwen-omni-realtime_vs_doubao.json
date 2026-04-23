@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates audio with a naturally high-pitched female voice, fitting the 'High Pitch' (音高) requirement. The tone is lively and teasing (调侃), particularly noticeable in the intonation of '哎呦' (00:00) and the playful rhythm throughout. However, the model exhibits significant issues with Content Accuracy. It modifies the script from '也不告诉我们一声' to '都不跟我们说一声' (00:06), and significantly hallucinates by adding an entire sentence at the end: '我们可是等你好久了呢' (00:08-00:10). According to the evaluation criterion, scores are heavily dependent on content accuracy. Since the content contains unauthorized additions and modifications (more than extremely minor flaws), the score is capped despite the good paralinguistic performance.",
+    "reasoning_model_2": "Model 2 strictly follows the provided text without any omissions, modifications, or hallucinations, satisfying Content Accuracy perfectly. Regarding the paralinguistic features, the model uses a high-pitched, theatrical voice (resembling a falsetto or character voice), which satisfies the 'High Pitch' (音高) requirement effectively in a dramatic context. The 'Attitude' (态度) is vividly teasing and mocking, especially evident in the drawn-out '哎...呦...' (00:00-00:01) and the exaggerated prosody on '大忙人' (00:02) and '真是的' (00:07). The audio is fluent and the emotional expression is distinct and accurately conveys the requested style.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions primarily due to strict adherence to the text script. While Model 1 provides a pleasant and natural-sounding high-pitched voice with good emotion, it fails the fundamental requirement of Content Accuracy by paraphrasing parts of the sentence and hallucinating an additional sentence at the end. This violation of the script restricts its score according to the rubric (which requires accurate content for scores 2 and 3). Model 2, while using a more stylized/theatrical high-pitched voice (which may sound less 'natural' in a conversational sense but fits the 'teasing' persona well), follows the prompt perfectly and delivers the requested high pitch and teasing attitude accurately.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

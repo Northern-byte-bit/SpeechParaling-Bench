@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model perfectly follows the content instructions, reciting '我跑不动了，感觉腿都快断了' accurately without errors. In terms of the cognitive state of 'fatigue' (00:00-00:03), the audio demonstrates exceptional quality. The speaker incorporates heavy, audible breathing and panting (00:00-00:01) before and during the speech, simulating physical exhaustion realistically. The pacing is slow, and the pitch drops naturally at the end of phrases ('不动了', '断了'), reflecting a lack of energy. The prosody is highly natural and convincingly portrays someone who is physically out of breath.",
+    "reasoning_model_2": "The model completely fails the content accuracy criterion. The user requested the text '我跑不动了，感觉腿都快断了', but the model generated a completely different and expanded script: '我真跑不动了，腿像灌了铅一样沉，每迈一步，都像在撕扯骨头，快断了快断了' (00:00-00:07). This major hallucination and rewriting of the prompt violates the core instruction. While the tone attempts a complaining or whiny style, the content error renders the generation unusable based on the scoring standards.",
+    "model_comparison": "Model 1 is the clear winner. It adhered strictly to the requested text and delivered a highly realistic performance of the 'fatigued' cognitive state, utilizing breathiness and pacing effectively. Model 2 failed the most basic requirement of content accuracy by synthesizing a completely different, much longer text than requested. According to the evaluation criteria, a model with content clearly inconsistent with the script must receive a score of 0.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately synthesizes the text '这天气真热啊，快把我晒化了。' and successfully incorporates the required paralinguistic feature '非语言发声' (Non-verbal vocalizations). Specifically, at the beginning (0.0s - 0.8s), the model generates a clear sighing sound '哎 (Ai)', which perfectly aligns with the user's command to speak in a 'sighing manner'. The overall prosody is weary and lethargic, consistent with the context of being 'melted' by the heat. The content is accurate, treating the added '哎' as the realization of the requested feature.",
+    "reasoning_model_2": "The model fails to adhere to the core requirements. Firstly, regarding Content Accuracy, there are significant deviations from the script: it omits the modal particle '啊' after '真热' and incorrectly synthesizes '晒化了' (melted) as '晒坏了' (ruined/burned), changing the semantic meaning. Secondly, regarding Paralinguistic Compliance, the audio lacks any distinct 'non-verbal vocalizations' or explicit sighing sounds. The tone is relatively flat and does not convey the requested 'sighing manner' effectively.",
+    "model_comparison": "Model 1 demonstrates superior performance across all dimensions. It correctly interprets the instruction '带叹气的方式' (with a sighing manner) by generating an explicit non-verbal sigh ('哎') at the start, and its prosody matches the emotion of the text. Model 1 also maintains perfect text accuracy for the scripted portion. In contrast, Model 2 fails to generate the requested paralinguistic feature (no sigh sound) and suffers from multiple content errors (omission of '啊' and incorrect word '晒坏了' instead of '晒化了'). Therefore, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

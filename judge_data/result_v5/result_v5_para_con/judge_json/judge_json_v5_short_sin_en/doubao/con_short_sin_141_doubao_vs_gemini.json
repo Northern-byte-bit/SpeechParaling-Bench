@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the text script, although it slightly expands 'It's' to 'It is', which is a negligible deviation. In terms of the target feature 'Cognitive State' (Confused Tone), the audio performs excellently. From 00:00 to 00:02 ('Why is this data like this?'), the speaker uses a rising intonation and elongates the word 'Why', creating a clear sense of puzzlement. The pause before the second sentence and the continued wavering pitch in 'It is completely different...' (00:03-00:06) effectively convey disbelief and confusion. The prosody is natural, and the emotional coloring is vivid and spot-on.",
+    "reasoning_model_2": "Model 2 follows the script with the same minor expansion of 'It's' to 'It is'. However, regarding the target feature 'Cognitive State', the performance is poor. The delivery from 00:00 to 00:04 is rapid, flat, and largely monotone. While there is a slight interrogative lift at the end of the first sentence, it lacks the hesitation, pitch variance, or pacing shifts associated with genuine confusion. It sounds like a standard, neutral text-to-speech reading rather than a character expressing a specific cognitive state.",
+    "model_comparison": "Model 1 is the clear winner. T1 successfully modifies prosody, pitch, and pacing to emulate a 'confused' cognitive state. The voice sounds puzzled and hesitant, fitting the command perfectly. In contrast, T2 provides a flat, neutral reading that fails to capture the requested tone. T2 sounds like a standard statement reading with no emotional overlay, missing the prompt's requirement entirely.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

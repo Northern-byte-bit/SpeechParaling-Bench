@@ -1,0 +1,14 @@
+{
+    "sample_index": 109,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a forceful tone on the phrase 'say it again': 'I'll say it again, the project deadline is next Friday, no one can delay for any reason, all tasks must be completed on time.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

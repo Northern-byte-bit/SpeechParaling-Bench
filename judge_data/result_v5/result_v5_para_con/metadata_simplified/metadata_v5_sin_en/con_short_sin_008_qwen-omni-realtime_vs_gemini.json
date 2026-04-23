@@ -1,0 +1,14 @@
+{
+    "sample_index": 8,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an adult voice: 'Kids, remember to tidy up your rooms after dinner.'",
+    "dimensions": [
+        "Age"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

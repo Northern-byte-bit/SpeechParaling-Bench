@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates perfect Content Accuracy, delivering the exact script '我的钥匙不见了，怎么办？' without any additions or omissions. In terms of Paralinguistic Compliance, the audio effectively captures the '音质' (Timbre) requirement; the voice has a distinct hoarse and breathy quality (00:00-00:03), sounding strained as requested. For '认知状态' (Cognitive State/Emotion), the anxiety is vividly portrayed through a trembling tone, urgent pacing, and a helpless inflection on '怎么办', which accurately conveys a state of panic and distress. The generation is natural and fully adheres to all constraints.",
+    "reasoning_model_2": "Model 2 fails significantly in Content Accuracy. Although the user command explicitly requested to read the specific sentence '我的钥匙不见了，怎么办？', the model hallucinated a lengthy paragraph of unrequested text ('...我这心跳得快炸了，到处都找遍了...', 00:02-00:12). According to the Detailed Scoring Standard, 'Voice content is clearly inconsistent with the script' results in a score of 0. Due to this fundamental failure to follow the script constraint, the evaluation of specific paralinguistic features is rendered invalid, as the model turned a line-reading task into an improvised roleplay. Furthermore, such hallucinations typically revert to a standard clear voice rather than maintaining the specific 'hoarse' constraint.",
+    "model_comparison": "Model 1 is the clear winner as it strictly followed the text script and accurately rendered the required paralinguistic features of a hoarse timbre and anxious cognitive state. Model 2 produced a severe hallucination by generating a long paragraph instead of the requested sentence. This violation of Content Accuracy (Voice content clearly inconsistent with the script) mandates a score of 0 for Model 2 across dimensions as per the scoring criteria.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

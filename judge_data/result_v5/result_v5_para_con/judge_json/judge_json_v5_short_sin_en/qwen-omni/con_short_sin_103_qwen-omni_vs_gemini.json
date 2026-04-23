@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with high fidelity to the text script. Regarding the specific instruction to stress the word 'must', the model performs excellently. At approximately 1.5s to 2.0s, the speaker significantly slows down and elongates the word 'must', applying a distinct downward inflection and increased vocal weight. This effectively creates the requested emphasis, separating it from the surrounding words 'you' and 'try'. The overall flow is natural, and the stress sounds intentional and conversational.",
+    "reasoning_model_2": "The model correctly speaks the content of the script, but the delivery is somewhat fast and lacks the specific paralinguistic control requested. The word 'must' appears around the 1.2s mark, but it is rushed and blends seamlessly into 'try' without any notable change in pitch, duration, or volume to indicate stress. The prosody feels slightly artificial and 'singsong' (common in anime-style TTS), which results in a lack of focus on the keyword. The instruction to stress 'must' was ignored.",
+    "model_comparison": "Model 1 followed the instructions perfectly. It utilized elongation and intonation changes to clearly highlight the word 'must' as requested by the user. Model 2, on the other hand, delivered the sentence with a standard, somewhat hurried cadence where 'must' received no special emphasis compared to the rest of the sentence. Model 1 is the clear winner for effectively implementing the feature control.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 9,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用重读“今天”这个词的方式慢速地说：我今天必须完成这项任务。",
+    "dimensions": [
+        "重音",
+        "语速"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

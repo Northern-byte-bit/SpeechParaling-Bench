@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script 'I've been shouting all night, now I can't speak.' verbatim. In terms of fluency, the speech is natural with appropriate pacing. Regarding the core paralinguistic requirement (hoarse timbre), the model excels. From 0:00 to 0:04, the voice exhibits a significant breathy, strained quality with audible air leakage and reduced pitch stability, effectively simulating the physiological state of vocal cords damaged by shouting. The 'whispery' and weak projection perfectly align with the context of being unable to speak.",
+    "reasoning_model_2": "The model generates the audio with perfect content accuracy and excellent fluency. The voice is clear, crisp, and fully resonant with a standard female timbre. However, it completely fails the core paralinguistic instruction to use a 'hoarse timbre'. Throughout the entire clip (0:00-0:05), the voice is healthy and strong, showing no signs of strain, raspiness, or vocal fatigue. While the prosody is expressive (emphasizing 'shouting' and 'can't'), the timbre is the opposite of what was requested.",
+    "model_comparison": "Model 1 followed the specific instruction to modify the timbre to be 'hoarse'. It produced a strained, breathy voice that fit the semantic context of the sentence perfectly. Model 2 ignored the timbre constraint entirely, producing a standard, clear reading. Therefore, Model 1 is the clear winner for correctly implementing the paralinguistic feature.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

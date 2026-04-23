@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio accurately reproduces the text 'The report has been submitted, please check it yourself.' (0:00-0:03). Regarding 'Attitude', the voice sounds relatively neutral and flat. While a lack of emotion can be interpreted as 'cold', it feels more like a standard, default robotic reading rather than a stylistically cold or dismissive tone meant by the prompt. Regarding 'Pitch', the voice is in a standard male mid-range; it is not 'very low' as requested. The pitch does not drop significantly to meet the constraint. Regarding 'Rhythm', the speech flows with standard English prosody. It is fluent and relatively steady, but it does not exhibit the deliberate, measured pacing usually associated with a 'steady' command in a cold context; it is simply normal speed.",
+    "reasoning_model_2": "The audio accurately reproduces the text (0:00-0:06). Regarding 'Attitude', the model generates a very deliberate, slow, and detached delivery. The intonation is flat and serious, effectively conveying the requested 'cold' tone (0:00-0:06). Regarding 'Pitch', the voice appears to be a female timbre but modulated to a lower, more grounded register, or a softer male voice with low intonation. While not extremely deep bass, the intonation stays low and controlled, adhering better to the constraint than Model 1. Regarding 'Rhythm', the pacing is distinctively steady and slow. There are deliberate pauses between phrases ('The report... has been... submitted'), creating a mechanical and strict cadence that aligns perfectly with the 'steady rhythm' and 'cold tone' requirements.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 across all dimensions. Model 1 essentially produced a standard, neutral TTS output that ignored the specific paralinguistic instructions. Model 2, in contrast, adopted a stylized delivery. For 'Attitude', Model 2's slow, detached delivery was much 'colder' than Model 1's neutral reading. For 'Pitch', Model 2 utilized a lower, more suppressed register compared to Model 1's standard mid-range. For 'Rhythm', Model 2's deliberate, measured pacing captured the 'steady' requirement perfectly, whereas Model 1 just spoke at a normal, conversational speed. Model 2 effectively integrated the constraints to create a cohesive persona.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 2,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

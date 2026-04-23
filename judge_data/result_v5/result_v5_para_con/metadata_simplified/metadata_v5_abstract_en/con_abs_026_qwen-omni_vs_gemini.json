@@ -1,0 +1,14 @@
+{
+    "sample_index": 26,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a calm and rational voice: 'In this situation, emotional judgment will only complicate matters; we must follow data and facts.'",
+    "dimensions": [
+        "calm and rational"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

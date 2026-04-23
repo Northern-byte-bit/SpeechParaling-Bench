@@ -1,0 +1,14 @@
+{
+    "sample_index": 3,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a very low pitch and gradually transitioning to a medium pitch: 'Look, what's that? It's just a small cat playing in the grass, so cute.'",
+    "dimensions": [
+        "Pitch"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

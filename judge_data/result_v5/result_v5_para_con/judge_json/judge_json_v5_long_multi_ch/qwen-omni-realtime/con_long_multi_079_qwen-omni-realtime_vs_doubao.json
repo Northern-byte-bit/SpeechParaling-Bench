@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the script with no content errors. \n1. **语速 (Speed):** The speech duration is approximately 10 seconds for a text of this length, which corresponds well to a natural 'medium' speaking rate. The pacing is steady and rhythmic.\n2. **态度 (Attitude):** The speaker uses a polite, professional, and bright female voice, fitting the '礼貌' (polite) requirement perfectly. The tone conveys courtesy while maintaining firm professional boundaries.\n3. **重音 (Stress):** At timestamp **00:03**, the speaker clearly places stress on the word '最终' (final). There is a noticeable rise in pitch and a slight increase in intensity on these two characters compared to the surrounding text ('关于这次会议的...决定'), effectively fulfilling the command to 'say it heavily'. The emphasis is natural yet distinct.",
+    "reasoning_model_2": "Model 2 has a minor content accuracy issue. It inserts the character '是' at **00:02**, changing '但' to '但是', which deviates from the strict script. \n1. **语速 (Speed):** The audio lasts about 12 seconds. While fluent, the pace is slightly slower and more deliberate than Model 1, leaning towards a slow-medium pace, though still acceptable.\n2. **态度 (Attitude):** The male voice is deep, calm, and formal, effectively conveying a 'polite' and sincere attitude appropriate for a business context.\n3. **重音 (Stress):** Regarding the stress on '最终' (~00:03-00:04), the model inserts a rhythmic pause before the phrase but does not significantly increase the acoustic weight (loudness or pitch) of the word '最终' itself. The word sounds relatively flat and blends into the rest of the sentence, making the requested emphasis weak and less effective than required.",
+    "model_comparison": "Model 1 is the clear winner. First, Model 1 achieves perfect content accuracy, whereas Model 2 hallucinates an extra character ('是'), deviating from the script. Second, regarding the specific paralinguistic instruction to emphasize '最终' (Stress), Model 1 delivers a clear acoustic stress with pitch elevation, making the word stand out naturally. Model 2 relies on a pause structure that fails to make the word itself sound 'heavy' or emphasized, resulting in a flatter delivery. Both models perform well on speed and attitude, though Model 1's medium speed feels slightly more standard and efficient.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

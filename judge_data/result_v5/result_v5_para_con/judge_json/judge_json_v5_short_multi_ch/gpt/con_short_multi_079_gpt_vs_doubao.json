@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately generates the text content '感谢您，非常配合我们的工作。' without errors. \n\n1. **语速 (Speed):** The pace is noticeably slow (approx. 4 seconds for a short sentence). While clear, it feels slower than the requested 'medium speed' (中速), with distinct pauses inserted for emphasis (e.g., after '感谢您' and before '配合').\n2. **态度 (Attitude):** The tone is extremely polite, sincere, and respectful, fitting the '礼貌' (polite) requirement perfectly. It sounds earnest.\n3. **重音 (Stress):** The model explicitly adheres to the instruction to stress '非常' (very). It achieves this by pausing slightly before the word and elongating/emphasizing the pronunciation of '非常'. The stress is distinct and unmistakable.",
+    "reasoning_model_2": "Model 2 accurately generates the text content '感谢您，非常配合我们的工作。' without errors.\n\n1. **语速 (Speed):** The speaking rate is a standard, natural conversational pace (approx. 2 seconds). This aligns perfectly with the 'medium speed' (中速) requirement.\n2. **态度 (Attitude):** The tone is polite, professional, and bright. It conveys a good service attitude.\n3. **重音 (Stress):** While the prosody is natural, the specific instruction to 'heavily stress' (加重) the word '非常' is not strongly executed. The word flows naturally with the rest of the sentence without significant prominence or distinct emphasis compared to Model 1.",
+    "model_comparison": "In terms of **Speed**, Model 2 is superior as it maintains a natural medium pace, whereas Model 1 is quite slow, bordering on slow speed rather than medium. \n\nIn terms of **Attitude**, both models perform well. Model 1 is more sincere/earnest, while Model 2 is more professional/bright. Both are valid interpretations of 'polite'.\n\nIn terms of **Stress**, Model 1 follows the specific control instruction much better. It clearly isolates and emphasizes '非常' as requested. Model 2 reads it too fluently, missing the specific 'heavy stress' requirement on the designated keyword.\n\nOverall, Model 2 wins on naturalness and speed, but Model 1 wins on the specific controllable feature of stress. Since the evaluation asks to separate dimensions, the scores reflect these individual strengths.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

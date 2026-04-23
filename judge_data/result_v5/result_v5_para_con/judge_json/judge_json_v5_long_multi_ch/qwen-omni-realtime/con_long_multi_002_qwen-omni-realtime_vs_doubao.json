@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model perfectly follows the provided script with no errors. Regarding the 'Voice Quality' (音质), the voice is distinctively hoarse, breathy, and raspy (e.g., throughout the entire clip, especially noticeable on words like '出', '对不上'), sounding like a throat under strain, which perfectly matches the '沙哑' requirement. For 'Cognitive State' (认知状态), the speaker successfully conveys 'anxiety' (焦虑). The pacing is hesitant yet rushed (e.g., '怎么都对不上'), and the tone carries a palpable sense of worry and distress, particularly in the ending phrase '项目恐怕会有麻烦了'. The breathiness adds to the feeling of nervous exhaustion.",
+    "reasoning_model_2": "The model completely fails the 'Content Accuracy' criteria. Instead of reading the required script ('这份紧急报告的数据好像出了问题...'), it generated a completely different, paraphrased text ('这报告里的数据，真的不对劲...'). Due to this major hallucination and failure to follow the basic instruction, the audio is scored as 0. Furthermore, regarding 'Voice Quality', the voice is relatively clear and bright, lacking the requested 'hoarse' (沙哑) characteristic. While it attempts a dramatic tone, the fundamental failure in content and voice texture makes it a complete failure.",
+    "model_comparison": "Model 1 is the clear winner. It accurately reproduces the script and perfectly captures both the requested hoarse voice quality and the anxious cognitive state. The audio sounds natural and fits the scenario precisely. Model 2 fails completely; it hallucinates a different script, violating the basic instruction, and fails to apply the requested hoarse voice quality. Therefore, Model 1 receives full marks while Model 2 receives 0 due to content hallucination and feature mismatch.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

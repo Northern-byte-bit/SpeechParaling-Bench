@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text '哇！我赢了！太棒了！' with perfect content matching. Crucially, it fully adheres to the command '带尖叫的方式' (in a screaming manner). The audio features a very high-pitched, strained, and loud vocal quality characteristic of screaming or shouting in extreme excitement. The voice even 'cracks' slightly (00:02), mimicking the physiological effect of pushing one's voice to the limit, which adds to the realism of the scream. The delivery is extremely expressive and energetic, perfectly aligning with the 'Non-verbal vocalization' requirement of screaming.",
+    "reasoning_model_2": "Model 2 synthesizes the text accurately with a cheerful and energetic tone. However, it completely fails to execute the specific paralinguistic instruction '带尖叫的方式' (in a screaming manner). The audio sounds like a standard, happy reading of the line at a normal conversational volume and pitch. There is no strained vocalization, high pitch modulation, or shouting intensity. While the emotion is positive, it does not meet the specific requirement for the requested vocal feature (screaming).",
+    "model_comparison": "Model 1 is the clear winner. The user specifically requested the line to be spoken 'in a screaming manner'. Model 1 successfully modulated the voice to sound like a high-pitched, intense shout/scream, effectively utilizing non-verbal vocal characteristics (pitch strain, volume, timbre change) to fulfill the prompt. Model 2 merely read the text with a happy tone but failed to alter the vocal mode to a scream, resulting in a generic output that ignored the core constraint of the prompt.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

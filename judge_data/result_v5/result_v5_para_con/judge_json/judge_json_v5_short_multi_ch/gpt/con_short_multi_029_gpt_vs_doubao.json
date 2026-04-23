@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "1. **Content Accuracy**: The voice content '这是我最后一次警告你' perfectly matches the script with no errors. \n2. **Fluency and Naturalness**: The speech is very fluent and natural. The rhythm flows smoothly without mechanical artifacts. \n3. **Paralinguistic Compliance - CORE**: \n- **语速 (Speed)**: The model executes the 'fast speaking rate' command effectively. The entire sentence is completed in approximately 1.5 seconds (0.0s-1.5s), conveying a strong sense of urgency and anger appropriate for a warning. \n- **重音 (Stress)**: regarding the instruction to stress '是', the model raises the pitch slightly on '是' (0.2s), but the emphasis is relatively subtle. The fast pace causes the stress to be somewhat glossed over, making it less distinct than requested. The natural stress on '警告' is more prominent.",
+    "reasoning_model_2": "1. **Content Accuracy**: The content matches the script accurately. \n2. **Fluency and Naturalness**: The overall flow is somewhat disjointed. There is an unnatural pause after the stressed word, making it sound machine-like. \n3. **Paralinguistic Compliance - CORE**: \n- **语速 (Speed)**: The model fails to follow the 'fast speaking rate' instruction. The audio lasts about 3.0 seconds (0.0s-3.0s), which is a moderate to slow pace. The delivery lacks the requested urgency. \n- **重音 (Stress)**: The model executes the stress instruction on '是' very prominently (0.5s-0.9s). The word is significantly louder and elongated compared to the rest of the sentence, strictly adhering to this specific constraint.",
+    "model_comparison": "Model 1 (T1) demonstrates superior performance in terms of global prosody and usability. It successfully conveys the 'fast' speed and the urgency of a warning, which is the primary intent of the sentence. While its stress on '是' was subtle (scored 2), it maintained naturalness. Model 2 (T2) focused entirely on the local stress constraint (scoring 3 there) but failed significantly on the global speed constraint (scoring 1) and naturalness. A slow warning that heavily stresses 'is' sounds unnatural and fails to predict human preference for a realistic speech generation. Therefore, Model 1 is the winner.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

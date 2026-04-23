@@ -1,0 +1,14 @@
+{
+    "sample_index": 81,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a confused and puzzled tone: 'I'm a bit confused by these concepts you're talking about. Could you explain them in more detail?'",
+    "dimensions": [
+        "confused and puzzled"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

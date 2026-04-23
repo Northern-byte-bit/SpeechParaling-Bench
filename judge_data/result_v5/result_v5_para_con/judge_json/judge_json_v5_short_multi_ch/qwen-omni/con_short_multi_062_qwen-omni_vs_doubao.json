@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio content strictly follows the text '天哪，这真的是送给我的吗？太棒了！' with no errors. \n\n1. **Pitch**: From 0.0s to the end, the speaker uses an exceptionally high pitch (falsetto/head voice), distinctly adhering to the 'very high pitch' (极高音) command. This is a dramatic departure from a normal speaking voice, fitting the requirement perfectly.\n2. **Speed**: The delivery is rapid, particularly in the middle segment '这真的是送给我的吗' (0.8s - 2.2s), effectively capturing the 'fast' (快速) requirement associated with sudden excitement.\n3. **Emotion**: The emotion of 'surprise' (惊喜) is vividly conveyed throughout. The breathiness and upward inflection on '天哪' (0.0s - 0.7s) and the ecstatic burst of energy on '太棒了' (2.4s - end) sound genuinely thrilled and shocked. \n\nOverall, T1 successfully integrates all three paralinguistic features while remaining intelligible.",
+    "reasoning_model_2": "The audio content correctly matches the text '天哪，这真的是送给我的吗？太棒了！'. \n\n1. **Pitch**: The voice (0.0s - 4.0s) remains in a standard, mid-range female register. It does not attempt a 'very high pitch' (极高音) at all; it sounds like a default reading tone.\n2. **Speed**: The pacing is moderate to slow. There are distinct pauses (e.g., after '天哪'), and the articulation is measured rather than 'fast' (快速). It fails to convey the urgency of the prompt.\n3. **Emotion**: The emotional expression is very mild. While there is a slight pleasantness, it lacks the intensity of 'surprise' (惊喜). The tone is calm and polite rather than shocked or ecstatic. It sounds like a standard audiobook reading rather than an acted emotional response.\n\nOverall, T2 ignores the specific stylistic constraints requested.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. The prompt specifically requested extreme paralinguistic features: 'very high pitch', 'fast speed', and 'surprise'. \n\n- **Pitch**: Model 1 dramatically raised the pitch to a near-falsetto level, fulfilling the 'extreme' requirement. Model 2 used a standard conversational pitch, completely missing the instruction.\n- **Speed**: Model 1 spoke quickly and breathlessly, matching the excitement. Model 2 spoke at a leisurely, normal pace.\n- **Emotion**: Model 1 sounded genuinely shocked and ecstatic. Model 2 sounded calm and only faintly positive.\n\nModel 1 demonstrated excellent control over the requested features, whereas Model 2 behaved like a standard TTS model ignoring the style prompts.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

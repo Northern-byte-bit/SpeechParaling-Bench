@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the requested text '哇！这是给我的吗？太意外了！' without any errors. The emotional expression of surprise is vivid and authentic. At 00:00, the utterance of '哇' (Wow) is accompanied by a sharp intake of breath and high pitch, immediately establishing a tone of genuine shock. The question '这是给我的吗' (00:01) features a natural rising intonation indicating disbelief. The final phrase '太意外了' (00:02-00:03) is delivered with emphatic stress and energy, consistent with being pleasantly surprised. The pacing is dynamic and human-like.",
+    "reasoning_model_2": "The model generates the target text but commits a significant content accuracy error by hallucinating additional unrequested sentences ('简直不敢相信自己的眼睛。你居然记得我最喜欢这个...'). While the target segment (00:00-00:03) does convey a tone of surprise, it is relatively restrained and sounds more like a polite, standard reading compared to a genuine emotional reaction. The surprise is present but lacks the dynamic pitch variation and intensity found in human speech for such a classic exclamation. The severe content hallucination violates the instruction constraints.",
+    "model_comparison": "Model 1 is superior in both content accuracy and emotional expressiveness. Model 1 adhered strictly to the script, whereas Model 2 added significant unrequested text (hallucination), which is a major flaw. In terms of the 'Surprise' emotion, Model 1 delivered a much more convincing performance with dramatic pitch shifts, breathiness, and energy appropriate for the text 'Wow!'. Model 2's delivery was flatter and felt more like a calm narration than an immediate emotional reaction.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the text to be spoken with an 'extremely fast speed' (极快速). Model 1 executes this perfectly. The audio (0:00-0:09) features a speaker delivering the lines with high urgency and a rapid articulation rate, mimicking an excited game commentator or player. The pacing is breathless and energetic, significantly faster than normal speech, which aligns precisely with the 'extremely fast' instruction. The content is accurate, and the prosody, while fast, remains intelligible and natural within the context of the requested style.",
+    "reasoning_model_2": "The user requested 'extremely fast speed'. Model 2 (0:00-0:12) completely ignores this instruction. The audio is delivered at a standard, moderate, and calm reading pace. There is no attempt to speed up the delivery; in fact, the measured pauses and clear articulation make it sound like a standard audiobook narration rather than a fast-paced game recap. Consequently, the target feature is entirely absent.",
+    "model_comparison": "The primary criterion for this evaluation is the control of 'speech speed' (语速), specifically requested to be 'extremely fast'. Model 1 demonstrates excellent adherence to this instruction, providing a high-energy, rapid-fire delivery that fits the context of the text perfectly. Model 2 fails to modify the speech speed at all, delivering the text at a normal, default pace. Therefore, Model 1 is the clear winner as it correctly implements the requested paralinguistic feature, whereas Model 2 ignores it.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 137,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hesitant tone: 'I'm still considering whether to choose computer science or artificial intelligence; both have great prospects, but I'm worried if my interest can be sustained. This is truly a difficult decision.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

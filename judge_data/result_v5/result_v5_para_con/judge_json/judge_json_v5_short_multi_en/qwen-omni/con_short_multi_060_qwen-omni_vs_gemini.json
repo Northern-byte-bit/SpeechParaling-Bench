@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the correct text content 'My toy is broken, and it can never be fixed again.' consistently with the script. \n\n1. **Emotion**: The tone is calm, soft, and slightly melancholy. While it touches on the 'sad' aspect, it completely misses the 'crying' instruction. The delivery sounds like a resigned adult quietly stating a fact rather than someone in distress. (0:00-0:05)\n2. **Non-Linguistic Vocalizations**: The prompt explicitly asks to read 'with crying', and the evaluation dimension requires Non-Linguistic Vocalizations (e.g., sobbing, sniffling). The audio contains purely speech with no such vocalizations. \n3. **Volume**: The prompt requests the audio to be read 'loudly'. The generated audio is soft and quiet, which is the opposite of the command.",
+    "reasoning_model_2": "The model generates the correct text content 'My toy is broken, and it can never be fixed again.' consistently with the script.\n\n1. **Emotion**: The audio adopts a whiny, complaining tone with elongated vowels (e.g., 'brooo-ken' at 0:01). This effectively conveys a 'sad' and distressed emotion, much closer to the persona of someone upset about a broken toy than Model 1. However, it still lacks the intensity of actual 'crying' (voice cracking, trembling). \n2. **Non-Linguistic Vocalizations**: Like Model 1, this model fails to generate specific non-linguistic sounds like sobbing or heavy breathing that would satisfy the 'crying' requirement in this dimension.\n3. **Volume**: The volume is moderate to conversational. While the projection is better than Model 1 due to the whiny nature, it does not meet the criteria of 'loudly' (e.g., shouting or high projection).",
+    "model_comparison": "Model 2 is superior to Model 1, although both fail to fully satisfy all constraints. \n\nIn terms of **Emotion**, Model 2 captures the distress and sadness of the scenario significantly better than Model 1, which sounds too calm and detached. Model 2 uses a whiny prosody that aligns with the context of a broken toy, whereas Model 1 sounds like a standard TTS voice with a slight sad filter. \n\nRegarding **Non-Linguistic Vocalizations**, both models failed to produce crying sounds (sobs/sniffs), resulting in a tie at 0.\n\nFor **Volume**, both failed to generate a 'loud' audio. However, Model 1 was notably soft/quiet (opposite of the prompt), while Model 2 maintained a standard conversational volume, making it slightly less incorrect than Model 1.",
+    "score_1_1": 1,
+    "score_2_1": 2,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 0,
+    "winner_2": 0,
+    "score_1_3": 0,
+    "score_2_3": 1,
+    "winner_3": 2
+}

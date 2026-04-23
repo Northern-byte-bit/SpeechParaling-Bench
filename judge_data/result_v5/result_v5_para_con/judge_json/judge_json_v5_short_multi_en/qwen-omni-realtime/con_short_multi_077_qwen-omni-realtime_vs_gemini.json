@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio content 'Run, there is a snake' (00:00-00:01). Although there is a minor expansion of the contraction 'There's' to 'There is', the core content is accurate and the meaning is preserved. \n\n1. **Emotion (Fearful):** The voice exhibits clear signs of fear, including breathiness and a trembling tone, effectively conveying the 'fearful' emotion required.\n2. **Pitch (High):** The speaker utilizes a high pitch throughout the short segment, consistent with a scream or urgent warning, matching the 'high pitch' instruction.\n3. **Rhythm (Rushed):** The sentence is spoken very quickly (approx 1 second duration), with urgent pacing that fits the 'rushed rhythm' requirement.\n\nOverall, the model successfully integrates all three paralinguistic features while maintaining naturalness.",
+    "reasoning_model_2": "The model generates the audio starting with 'Run, there's a snake' but then continues with a significant amount of hallucinated text: 'Run, run, run. Oh god it's moving, it's right there. Don't look, don't stop just run, run, run, please, please, please' (00:00-00:09). \n\n1. **Content Accuracy:** This is a critical failure. The user explicitly requested to read a specific sentence. The model added approximately 7-8 seconds of unrequested dialogue. According to the evaluation criterion, if the voice content is clearly inconsistent with the script due to additions, the score is penalized heavily (falling into the 0 category for content inconsistency).\n2. **Paralinguistic Features:** While the hallucinated speech does sound fearful, high-pitched, and rushed, the evaluation is constrained by the strict adherence to the requested script. Since the content accuracy condition for higher scores (1, 2, or 3) is not met (Level 1 requires 'Core content is accurate'), the model fails the evaluation criteria significantly.",
+    "model_comparison": "Model 1 (T1) followed the instructions well, producing the target sentence with the correct paralinguistic features (Fearful, High Pitch, Rushed Rhythm). Although it slightly expanded 'There's' to 'There is', this is a minor text normalization nuance that does not detract from the overall quality or accuracy. Model 2 (T2), conversely, suffered from severe hallucination, generating a long dramatic monologue instead of reading the single requested sentence. Under the 'Detailed Scoring Standard', a score of 0 applies when 'Voice content is clearly inconsistent with the script'. Since T2 failed the primary constraint of reading the specific text, T1 is the clear winner across all dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

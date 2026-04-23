@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the script '我的钥匙不见了，怎么办？'. \n\nRegarding '音质' (Voice Quality - Hoarse): The voice exhibits a distinct texture throughout the clip. From 0.0s to the end, the speaker uses a breathy, gravelly vocal fry that perfectly simulates a 'hoarse' (沙哑) voice. It sounds physically strained, aligning with the prompt.\n\nRegarding '认知状态' (Cognitive State - Anxious): The emotional delivery is excellent. There is a perceptible tremor in the voice (0:01-0:02), and the pacing is hurried and breathless. The intonation on '怎么办' rises sharply with a desperate quality, effectively conveying high anxiety and panic.",
+    "reasoning_model_2": "Model 2 accurately follows the script content. \n\nRegarding '音质' (Voice Quality - Hoarse): The model fails completely in this dimension. The voice produced is a clear, bright, standard female TTS voice with no trace of hoarseness, raspiness, or vocal strain. It contradicts the '沙哑' requirement.\n\nRegarding '认知状态' (Cognitive State - Anxious): The delivery is largely neutral and calm. While there is a standard question intonation at the end, it sounds like a casual inquiry rather than someone in a state of anxiety or panic. The pacing is steady and relaxed, lacking the urgency or tension required for '焦虑'.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. It successfully modifies the voice texture to sound hoarse and imbues the speech with a convincing, trembling anxiety. Model 2 produces a standard, clear reading style that ignores both the specific voice quality instruction (hoarseness) and the emotional instruction (anxiety), resulting in a generic output that does not meet the user's specific constraints.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

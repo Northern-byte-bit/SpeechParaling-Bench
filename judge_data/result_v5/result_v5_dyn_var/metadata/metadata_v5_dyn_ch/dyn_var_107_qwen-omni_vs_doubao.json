@@ -1,0 +1,14 @@
+{
+    "sample_index": 107,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用冷淡的态度开始，然后逐渐转变为热情说：我对这场见面会没抱太大期望。不过见到本人后，他的表演真的太棒了，简直超出了我的想象！",
+    "dimensions": [
+        "态度"
+    ],
+    "candidate_position": 1,
+    "winner_position": 1,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

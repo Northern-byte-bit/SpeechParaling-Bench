@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 perfectly generates the requested text '关键在于沟通，我们必须保持开放。' without any errors or additions. Regarding the specific instruction to emphasize '关键' (Key), the model executes this well. At timestamp 00:00-00:01, the word '关键' is pronounced with clear articulation, a firm tone, and a slight increase in intensity relative to the rest of the sentence. The pacing is natural, and the stress is distinct without being unnatural. The model follows all instructions, including content constraints and paralinguistic features.",
+    "reasoning_model_2": "Model 2 speaks the target sentence '关键在于沟通，我们必须保持开放' (00:00-00:03), but explicitly fails the content accuracy criterion by hallucinating and adding a significant amount of unrequested text (00:04-00:24), continuing for over 20 seconds. While the stress on '关键' at 00:00 is acceptable and the voice is natural, the massive addition of text violates the core requirement to read *this specific sentence*. According to the evaluation criteria, additions are a negative factor for content accuracy. The failure to stop after the requested text makes the output non-compliant with the prompt constraints.",
+    "model_comparison": "Model 1 is the clear winner. It followed the content instructions perfectly, synthesizing only the requested text, and successfully applied the requested stress (重音) on the word '关键'. Model 2, while having a natural voice quality, failed significantly on content accuracy by generating a long, unrequested monologue after the target sentence. This excessive addition violates the user's specific command format. Therefore, Model 1 demonstrates superior control and adherence to instructions.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

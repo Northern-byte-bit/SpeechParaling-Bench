@@ -1,0 +1,14 @@
+{
+    "sample_index": 138,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a hesitant tone: 'Should we go to the beach or go hiking? I think both places are fun, but time is limited, so we can only choose one. Which place do you think is better for relaxing?'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

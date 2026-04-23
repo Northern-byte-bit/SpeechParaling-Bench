@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on the Content Accuracy dimension. The user requested the specific sentence '这部电影太感人了，我忍不住哭了。', but the model hallucinated a substantial amount of additional text, producing: '呜呜呜，这部电影太感人了，我实在忍不住哭了出来，眼泪哗哗的掉...'. Regarding the paralinguistic feature '非语言发声' (Non-verbal vocalization), the model explicitly reads the onomatopoeia 'Wu wu wu' (00:00-00:01) as text rather than generating a natural non-verbal crying sound. While the overall tone is sad, the reliance on added text and verbalized sound effects constitutes a major flaw.",
+    "reasoning_model_2": "Model 2 demonstrates perfect Content Accuracy, adhering strictly to the requested script without any additions or omissions. Regarding the '非语言发声' (Non-verbal vocalization) dimension, the model successfully generates a realistic non-verbal sobbing/sniffing sound (00:00-00:01) before the speech begins. This sound is natural and distinctly non-verbal. The subsequent speech ('这部电影...') maintains a shaky, emotional tone consistent with the crying context, effectively integrating the feature.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 violates the strict Content Accuracy criterion by hallucinating a long extension to the script. Furthermore, Model 1's execution of the 'crying' instruction relies on reading the text 'Wu wu wu' (verbalizing an onomatopoeia) rather than producing a genuine non-verbal acoustic feature. Model 2, conversely, follows the script exactly and produces a high-quality, authentic non-verbal sob/sniff at the start, fulfilling the specific feature request naturally and accurately.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

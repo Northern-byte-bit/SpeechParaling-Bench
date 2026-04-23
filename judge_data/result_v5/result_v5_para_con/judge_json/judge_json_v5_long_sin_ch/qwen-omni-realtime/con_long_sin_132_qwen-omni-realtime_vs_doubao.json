@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on Content Accuracy. While it starts with the requested text, it continues to hallucinate and generate several additional sentences ('心跳快得想要蹦出来... fundamental text additions') that were not in the prompt. Regarding the 'Fear' emotion, the performance is poor. The tone is high-pitched, fast-paced, and energetic, resembling an enthusiastic storytelling style or even a cheerful anime character rather than someone expressing genuine fear or 'lingering dread' (心有余悸). The brightness and energy of the voice contradict the requested emotion of fear and uneasiness.",
+    "reasoning_model_2": "Model 2 demonstrates excellent Content Accuracy, reading the script exactly as requested with no additions or omissions. In terms of the 'Fear' emotion, the model performs very well. The voice is lower, breathy, and exhibits a trembling quality consistent with being scared. The pacing is slower with appropriate pauses that suggest hesitation and unease. The tone effectively conveys the feeling of being 'shaken' after a nightmare, aligning perfectly with the command.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 hallucinates a significant amount of text, violating the content constraints, and its emotional delivery is too energetic and bright, failing to capture the requested fear. Model 2 follows the text perfectly and delivers a convincing, fearful performance with appropriate prosody (trembling, breathiness) that matches the semantic context.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

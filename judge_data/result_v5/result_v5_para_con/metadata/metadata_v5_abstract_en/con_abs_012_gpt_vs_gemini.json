@@ -1,0 +1,14 @@
+{
+    "sample_index": 12,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with an evil tone: 'Soon, the entire world will bend to my will, and you are merely the first sacrifice.'",
+    "dimensions": [
+        "evil"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

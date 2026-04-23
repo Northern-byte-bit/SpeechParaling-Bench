@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the speech content '这个讲座真没意思，听得我直打哈欠' (00:00-00:03) with high content accuracy and clear pronunciation. However, regarding the specific paralinguistic command '请用带哈欠的方式' (in a yawning manner), the model fails completely. The delivery is standard, neutral, and alert. There is no audible yawning sound, nor is there any modification to the voice quality (such as vowel stretching, breathiness, or pitch changes) that usually accompanies the physical act of yawning. It essentially reads the script without the required style.",
+    "reasoning_model_2": "The model successfully incorporates the required paralinguistic feature. It begins with a very distinct and natural non-verbal vocalization of a yawn (00:00-00:01). The subsequent speech '这个讲座真没意思...' (00:01-00:07) is delivered with a tired, dragging, and slightly distorted prosody that perfectly mimics someone speaking while yawning or feeling extremely lethargic. The pacing and breath support reflect the physiological state requested. The content is accurate, and the transition from the yawn to speech is fluid and natural.",
+    "model_comparison": "The user's command explicitly requested the speech to be delivered 'in a yawning manner' (带哈欠的方式). Model 1 (T1) completely ignored this stylistic requirement, providing a standard, neutral reading of the text. It lacks any non-verbal vocalizations or prosodic changes associated with yawning. Model 2 (T2), on the other hand, perfectly executed the instruction by starting with a realistic yawn sound and maintaining a lethargic, yawning-influenced tone throughout the sentence. T2 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

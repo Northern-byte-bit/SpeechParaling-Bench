@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio content accurately matches the script '我太累了，想休息' without errors. In terms of the 'Cognitive State' (Fatigue), the model performs excellently. From 0.0s to 1.5s, the phrase '我太累了' is delivered with a downward inflection and a sighing quality, effectively conveying exhaustion. The pause before '想休息' and the trailing off at the end (1.8s-2.8s) are very natural and synonymous with being tired. Regarding 'Timbre' (Deep/Thick - 浑厚), the voice is a standard male voice with decent depth, but it feels slightly more 'breath-heavy' and soft rather than distinctly 'thick' or 'resonant' in a bass-heavy sense. It is pleasant but perhaps lacks the extreme 'heaviness' implied by '浑厚'.",
+    "reasoning_model_2": "The audio content is accurate. Regarding 'Timbre' (Deep/Thick - 浑厚), this model exhibits a significantly lower fundamental frequency and stronger chest resonance compared to Model 1. The voice has a rich, thick texture that aligns perfectly with the descriptor '浑厚'. Regarding 'Cognitive State' (Fatigue), the performance is also outstanding. The pacing is slow and heavy. Specifically, the vocal fry (creakiness) heard towards the end of the sentence (around 2.5s-3.0s) adds a visceral layer of physical exhaustion. The lethargy is palpable throughout the delivery.",
+    "model_comparison": "Both models successfully generate the text with high intelligibility and clearly convey the requested state of fatigue. However, on the dimension of 'Timbre' (音质), Model 2 matches the prompt '浑厚' (deep/thick/resonant) much better than Model 1. Model 1 has a pleasant voice, but it leans towards a standard male range, whereas Model 2 has a distinctly deeper, bass-rich quality. On the dimension of 'Cognitive State' (认知状态), both models score highly (3), as both sound authentically tired. Model 1 uses breathiness effectively, while Model 2 uses vocal fry and a heavier pace. Since both are fully correct representations of fatigue, this dimension is a tie, though Model 2's timbre enhances the perception of 'heaviness' associated with the fatigue.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0
+}

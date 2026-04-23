@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails significantly on Content Accuracy. While the user strictly requested to read only the sentence 'Why did you make your room such a mess again?!', the model hallucinates and adds substantial extra dialogue ('I can't believe you're doing this all over again. This is the third time this week.') from 00:03 to 00:08. Regarding the Emotion dimension (00:00 - 00:02), the tone adopted is one of exasperated whining or complaining rather than a distinct 'angry' emotion. It lacks the aggression, sternness, or intensity typically associated with anger, sounding more like a grievance than an angry outburst.",
+    "reasoning_model_2": "The model achieves perfect Content Accuracy, reading exactly the requested text without additions or omissions (00:00 - 00:04). In terms of Emotion, the model successfully conveys anger through a stern, authoritative, and scolding tone. There is clear emphasis on key words like 'Why', 'room', 'mess', and 'again', effectively simulating a parent scolding a child. The pacing is deliberate, and the prosody aligns well with the punctuation and the requested emotional context.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 violates the core instruction by hallucinating two additional sentences not present in the prompt. furthermore, Model 1's emotional expression is closer to 'whining' or 'annoyance' rather than true anger. Model 2 follows the text constraints perfectly and delivers a vocal performance that captures the requested 'angry' emotion vividly through appropriate stress and tone.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

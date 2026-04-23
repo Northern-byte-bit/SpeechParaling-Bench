@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with perfect content accuracy. Regarding the paralinguistic features:\n1. **Cognitive State (Confidence):** The delivery is professional and clear, but the pacing is quite slow and deliberate (lasting 18 seconds). While clear, this slow tempo reads more as a cautious dictation than a 'confident' business assertion. The tone is steady but lacks the dynamic energy and assertiveness usually associated with high confidence in a corporate context.\n2. **Stress:** The model attempts to emphasize key points like 'clearly' (00:05), 'definitely' (00:09), and 'significant' (00:11). However, it achieves this largely by inserting frequent pauses before and after these phrases (e.g., 00:04, 00:06), which creates a staccato, segmented flow rather than natural emphatic stress.\n3. **Timbre:** The voice is a standard, clear female timbre. While pleasant and high-quality, it sounds somewhat standard for a TTS system and lacks the specific depth or texture usually described as a 'rich voice'.",
+    "reasoning_model_2": "Model 2 generates the audio with perfect content accuracy. Regarding the paralinguistic features:\n1. **Cognitive State (Confidence):** The model delivers the text with a brisk, assertive pace (finishing in 14 seconds). The flow is continuous and authoritative, effectively conveying a strong sense of confidence and certainty in the market report findings.\n2. **Stress:** The model naturally emphasizes key words such as 'thorough' (00:01), 'clearly' (00:04), 'definitely' (00:07), and 'boost' (00:09) through pitch modulation and intensity rather than artificial pausing. This results in a dynamic and engaging delivery.\n3. **Timbre:** The voice is a male timbre with good resonance and depth, fitting the description of a 'rich voice' well. It sounds grounded and professional.",
+    "model_comparison": "Both models accurately speak the text. Model 2 is the clear winner across all dimensions. \n\nIn terms of **Cognitive State**, Model 2 captures the 'confident tone' much better; its faster, fluid delivery sounds like a professional pitching a successful strategy, whereas Model 1's slow, paused delivery sounds like someone carefully reading a script. \n\nFor **Stress**, Model 2 integrates emphasis naturally into the prosody (pitch and volume changes), while Model 1 relies on disjointed pausing to highlight words, which sounds mechanical. \n\nRegarding **Timbre**, Model 2 offers a more resonant and textured voice that aligns better with the user's request for a 'rich voice', compared to Model 1's standard, flatter TTS voice.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

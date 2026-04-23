@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model accurately generates the text 'Why are you always like this?!' [0:00-0:02]. Regarding the 'Volume' dimension, the audio strictly adheres to the 'shouting manner' instruction; the voice is projected with high intensity and loudness consistent with shouting. In terms of 'Emotion', the speaker conveys a strong sense of anger and desperation, matching the shouted delivery naturally. The vocal strain and energy level are indistinguishable from a human expressing high-arousal frustration. The performance is vivid and spot-on.",
+    "reasoning_model_2": "The model generates the correct text [0:00-0:03], but fails significantly on the paralinguistic features. Regarding 'Volume', the audio is delivered at a standard conversational level, completely ignoring the instruction to use a 'shouting manner'. Regarding 'Emotion', the tone conveys mild sternness or annoyance rather than the requested 'angry emotion'. The delivery is too calm and composed, lacking the intensity required by the prompt. It sounds like a standard reading rather than an emotional outburst.",
+    "model_comparison": "Model 1 is superior in both dimensions. T1 successfully executes the 'shouting' command, raising the volume and vocal tension to match a realistic shout. T1 also captures the specific 'angry' emotion with high fidelity, blending it naturally with the shouting style. In contrast, T2 fails to shout, delivering the line at a normal volume. T2's emotional expression is also weak, registering only as mild annoyance rather than the requested anger. T1 followed all instructions, whereas T2 largely ignored the stylistic constraints.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

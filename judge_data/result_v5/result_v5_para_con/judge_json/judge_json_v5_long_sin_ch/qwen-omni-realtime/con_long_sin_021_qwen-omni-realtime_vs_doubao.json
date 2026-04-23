@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates a female voice with a distinctly high pitch (Soprano range). Throughout the audio (e.g., 00:00-00:05), the tone is bright, sharp, and youthful, resembling an energetic anime-style character. The user explicitly requested 'Medium Pitch' (中音). The generated audio contradicts this instruction by providing a 'High Pitch' voice. While the content is accurate and fluency is generally acceptable (though slightly rushed at the end '吃得开心' 00:09), the model fails the core requirement of the specific feature control task.",
+    "reasoning_model_2": "The model generates a male voice that sits in a natural, standard speaking range. The pitch is neither a deep, resonant bass nor a high falsetto, fitting well within the definition of a 'Medium Pitch' (Baritone/Tenor range) for a male speaker. The delivery from 00:00 to 00:12 is calm and steady. The model successfully adheres to the user's command to use a medium pitch, and the speech is fluent and natural.",
+    "model_comparison": "The evaluation focuses on the 'Feature Control' of 'Pitch' (音高). The user command explicitly requested the text be read with a 'Medium Pitch' (中音). Model 1 (T1) failed to follow this instruction, generating a very high-pitched, bright female voice suitable for 'High Pitch' requests but incorrect for 'Medium'. Model 2 (T2) generated a male voice with a balanced, moderate pitch that accurately reflects the 'Medium' descriptor. Therefore, Model 2 is superior as it correctly followed the specific paralinguistic constraint.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

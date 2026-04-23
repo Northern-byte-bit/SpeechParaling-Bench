@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model successfully generates the audio with high content accuracy, matching the script perfectly. regarding the paralinguistic features:\n1. **Timbre (Hoarse):** The voice exhibits a distinct hoarseness throughout the entire clip (0:00-0:15). It sounds breathy, raspy, and strained, effectively simulating a person who has lost their voice or is speaking with a rough throat condition. This is a 3/3 performance for the 'hoarse' requirement.\n2. **Cognitive State (Anxious):** The anxiety is palpable. The speaker uses audible intakes of breath and a hesitant, trembling delivery style that conveys urgency and worry. Specifically, the phrasing around 'The boss is pushing hard' (0:09) and 'project might be in trouble' (0:13) sounds genuinely stressed and concerned. The combination of the hoarse texture and the shaky prosody creates a convincing portrayal of an anxious state.",
+    "reasoning_model_2": "The model generates the correct text content, but fails significantly on the specific paralinguistic instructions:\n1. **Timbre (Hoarse):** The generated voice is a standard, clean, and clear feminine voice. There is absolutely no roughness, raspiness, or breathiness associated with a 'hoarse' voice. It sounds like a polished narration, which is completely incorrect based on the prompt. Score: 0.\n2. **Cognitive State (Anxious):** The emotional delivery is largely neutral. While there is a slight increase in pace, the tone remains calm and composed. It does not convey the requested anxiety or the urgency implied by the text. It sounds like a standard reading rather than an emotional performance.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. Model 1 strictly followed the user's prompt, delivering a voice that was both textually accurate and stylistically correct (hoarse and anxious). The hoarseness was consistent and realistic, and the anxiety was conveyed through breathing and prosody. Model 2, in contrast, ignored the stylistic instructions. It provided a clear, clean voice instead of a hoarse one, and the tone was neutral instead of anxious. Model 2 failed to meet the core requirements of the prompt.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

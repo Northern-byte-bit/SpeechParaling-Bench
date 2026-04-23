@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model successfully integrates all requested paralinguistic features. \n1. **Non-Linguistic Vocalizations**: The audio begins with a distinct audible breath/exhalation \"Ah\" (approx. 0.0s - 0.8s), perfectly satisfying the command for a \"sigh\".\n2. **Cognitive State**: The prosody is slow, with elongated vowels in \"long\" and \"rest\", and a descending pitch contour that effectively conveys a sense of exhaustion and relief (tired tone).\n3. **Volume**: The overall intensity is low, breathy, and soft, strictly adhering to the \"quietly\" constraint.\n4. **Fluency**: The transition from the sigh to speech is natural.",
+    "reasoning_model_2": "The model fails to incorporate the specific stylistic constraints.\n1. **Non-Linguistic Vocalizations**: The audio content is \"After a long day, I can finally rest\" without any preceding or succeeding sigh. The requested \"sigh\" feature is completely absent.\n2. **Cognitive State**: The delivery sounds like a standard neutral reading. It lacks the weary, heavy weight expected of a \"tired\" tone; the pacing is too regular and energetic for the context.\n3. **Volume**: The projection is at a normal conversational level, failing to meet the \"quietly\" requirement.\n4. **Content**: Accurate to the text script, but misses the extra-linguistic instructions.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. It followed the negative/additive constraints by generating a specific non-linguistic sound ('Ah' / sigh) which Model 2 completely ignored. Furthermore, Model 1 successfully modulated its prosody to sound tired and quiet, whereas Model 2 produced a standard, neutral, and normal-volume speech sample that disregarded the atmospheric instructions.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

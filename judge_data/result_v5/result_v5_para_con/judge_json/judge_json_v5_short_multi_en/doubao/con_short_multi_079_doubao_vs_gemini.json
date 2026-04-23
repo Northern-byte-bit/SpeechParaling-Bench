@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 generates the correct text, but fails significantly on the paralinguistic instructions. \n1. **Pace**: The entire sentence is rushed, lasting only about 2 seconds. This is a fast pace, not the requested 'medium pace'.\n2. **Attitude**: Due to the rushed nature, the tone feels perfunctory and slightly breathless rather than 'polite' and sincere. It lacks the warmth associated with a polite expression of gratitude.\n3. **Stress**: The instruction required 'heavy stress' on the word 'very'. At timestamp 00:01, the word 'very' is spoken quickly and flatly, with no pitch accent, elongation, or intensity increase. The model completely ignored this specific control command.",
+    "reasoning_model_2": "Model 2 follows all instructions with high fidelity.\n1. **Pace**: The speech lasts nearly 5 seconds, demonstrating a deliberate and measured 'medium pace' that allows for clear articulation.\n2. **Attitude**: The tone is calm, professional, and sincere, accurately reflecting the requested 'polite tone'.\n3. **Stress**: The model successfully applies heavy stress to the target word. At the interval 00:01-00:02, the word 'very' is significantly elongated and spoken with a pitch variation that highlights it relative to the surrounding text, satisfying the 'heavy stress' requirement perfectly.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 failed to control the pace (speaking too fast), failed to convey a convincingly polite attitude (sounding rushed), and completely missed the instruction to stress the word 'very'. In contrast, Model 2 delivered a natural, polite performance with a perfect medium pace and correctly emphasized the specific word requested by the user.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with accurate content, matching the script perfectly. However, it fails completely regarding the specific paralinguistic instruction to use a 'whispering volume' (耳语的音量). throughout the entire clip (0:00-0:09), the speech is produced with full vocal fold vibration (voiced speech), sounding like a standard narration or conversational tone rather than a whisper. While the tone is polite, it lacks the breathy, unvoiced characteristic and reduced volume required for a whisper. Therefore, it does not satisfy the core feature constraint.",
+    "reasoning_model_2": "The model generates the audio with accurate content and perfectly adheres to the paralinguistic instruction. From 0:00 to 0:09, the audio is delivered in a genuine whisper. The speech is unvoiced and breathy, significantly reducing the volume while maintaining clarity and natural prosody. The style fits the context of being in a movie theater ('嘘，电影马上就要开始...') perfectly, creating an immersive and accurate representation of the requested 'whisper'.",
+    "model_comparison": "The user command explicitly requested the text to be spoken with a 'whispering volume'. Model 1 failed to execute this controllable feature, producing standard voiced speech that sounds like a normal narration. Model 2, on the other hand, successfully generated a realistic whisper, modifying the phonation mode to be unvoiced and breathy as appropriate for the context. Consequently, Model 2 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails to execute the specific instruction regarding Non-Linguistic Vocalizations. Instead of generating the sound of a sigh, the model literally reads the word 'Sigh' at the beginning of the audio (0:00-0:01). While the overall tone of the speech has a weary quality that aligns with the sentiment, the explicit pronunciation of the stage direction/sound marker 'Sigh' constitutes a failure in feature control. The model treats the instruction as part of the spoken text rather than a paralinguistic trigger.",
+    "reasoning_model_2": "Model 2 perfectly executes the instruction. At the very beginning (0:00-0:02), the model produces a distinct, natural-sounding deep breath/sigh, effectively interpreting the text 'Sigh' as a non-linguistic vocalization marker rather than spoken text. Following the sigh, the speech 'This child is really getting harder to manage...' is delivered with a resigned, weary tone that perfectly matches the context. The transition from the non-linguistic sound to speech is fluid and natural.",
+    "model_comparison": "Model 2 is the clear winner. The user command explicitly asked to read the sentence 'with a sigh' and provided text starting with 'Sigh'. Model 2 correctly interpreted this context, generating an actual non-linguistic sigh sound and omitting the word 'Sigh' from the spoken track, which is the expected behavior for high-quality paralinguistic control. Model 1, conversely, failed to generate the non-linguistic vocalization and instead read the word 'Sigh' phonetically, failing the core requirement of the prompt.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

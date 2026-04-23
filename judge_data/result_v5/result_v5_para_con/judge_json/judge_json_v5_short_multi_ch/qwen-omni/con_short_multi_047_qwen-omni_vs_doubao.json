@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text content '哟，我们的大学霸又在图书馆啊' without any errors. Regarding the paralinguistic features: \n1. **音高 (Pitch):** The model uses a bright, high-pitched female voice that sounds very natural and effortless. It satisfies the 'High Pitch' constraint perfectly (e.g., the high starting pitch on '哟' at 0.0s).\n2. **态度 (Attitude):** The 'Teasing' tone is vividly expressed. The elongation of '哟' and the playful, slightly wavy intonation on the final particle '啊' (around 2.5s) effectively convey a friendly, mocking banter. The prosody is fluent and indistinguishable from human speech.",
+    "reasoning_model_2": "Model 2 synthesizes the text content accurately. However, the paralinguistic performance has noticeable flaws:\n1. **音高 (Pitch):** While the pitch is technically high, it sounds unnatural, resembling a forced falsetto or a digitally pitch-shifted 'chipmunk' voice. This negatively impacts the naturalness score despite meeting the raw pitch height requirement.\n2. **态度 (Attitude):** The model attempts a teasing tone through exaggerated pitch fluctuations, but because the voice texture is synthetic and strained, the attitude comes across as comical or robotic rather than a genuine human emotion. The expression is discernible but lacks the nuance and realism of Model 1.",
+    "model_comparison": "In comparing the two models, Model 1 is the clear winner across both dimensions due to its superior naturalness. While both models adhere to the 'High Pitch' instruction, Model 1 does so with a realistic voice, whereas Model 2 sounds synthetic and strained. Similarly, for 'Attitude', Model 1 conveys a natural, playful teasing tone, while Model 2's expression is hampered by its artificial voice quality, making the emotion feel performative rather than genuine. Model 1 provides a high-quality, human-like generation.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

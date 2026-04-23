@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly on **Content Accuracy**. The user requested the specific sentence \"巴黎是法国的首都，也是最大城市。\" (Paris is the capital of France, and also the largest city). However, the model hallucinated and expanded the text to: \"巴黎是法国的首都，同时也是该国面积最大，人口最多的城市，具有重要的政治经济和文化地位。\" (00:00-00:07). This major deviation violates the script adherence requirement. Regarding the **Paralinguistic Compliance (Neutral)**, the tone used is energetic, bright, and sounds like a promotional documentary narration rather than a neutral, flat statement. The pitch variation is high and expressiveness is too strong for a 'neutral' command. Due to the content failure, the score is penalized heavily.",
+    "reasoning_model_2": "Model 2 demonstrates perfect **Content Accuracy**, reading the script \"巴黎是法国的首都，也是最大城市。\" exactly as requested (00:00-00:03). Regarding **Paralinguistic Compliance (Neutral)**, the model performs excellently. The tone is calm, objective, and informative. There is no exaggerated intonation or emotional coloring; the pitch is stable and the pacing is measured. It perfectly embodies the 'neutral' emotion requested for a factual statement.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 completely failed to adhere to the requested text script, generating a long, expanded description instead of the target sentence. Additionally, Model 1's tone was enthusiastic and promotional, which contradicts the 'neutral' requirement. Model 2 followed the text instruction perfectly and delivered the audio with a spot-on neutral, objective tone.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

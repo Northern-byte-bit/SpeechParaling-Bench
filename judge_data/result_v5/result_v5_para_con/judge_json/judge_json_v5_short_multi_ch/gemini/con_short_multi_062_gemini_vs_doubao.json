@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with accurate content matching the script '天哪，这真的是送给我的吗？太棒了！'. \n\n1. **Pitch (音高):** The voice is manipulated to an extremely high pitch, sounding like a falsetto or pitch-shifted male voice. This strictly adheres to the 'extremely high' (极高音) instruction, although it impacts naturalness, making it sound somewhat cartoonish.\n2. **Speed (语速):** The speaking rate is moderate to slow, not 'fast' (快速). There are distinct, lingering pauses after '天哪' (approx 00:01) and before '太棒了', dragging the total duration to over 4 seconds for a short sentence. It fails the speed constraint.\n3. **Emotion (情感):** The intonation conveys surprise (upswings, energy), matching the 'surprised' (惊喜) requirement. However, the unnatural quality of the voice slightly detracts from the emotional connection, making it feel performative rather than genuine.",
+    "reasoning_model_2": "The model generates the audio with perfect content accuracy and high fidelity. \n\n1. **Pitch (音高):** The voice is naturally high-pitched (likely a female or youthful voice), fitting the 'high pitch' requirement effectively without the artifacting seen in Model 1. It sounds bright and clear.\n2. **Speed (语速):** The speaking rate is noticeably faster than Model 1, completing the sentence in roughly 3 seconds. The flow is fluid with minimal pausing, satisfying the 'fast' (快速) instruction well.\n3. **Emotion (情感):** The emotion of 'surprise' (惊喜) is vivid and natural. The delivery on '天哪' and '太棒了' is energetic and joyous, sounding very human-like and expressive.",
+    "model_comparison": "Both models successfully modify the pitch to be high, though they achieve it differently. Model 1 forces a voice into an extreme, somewhat unnatural falsetto, while Model 2 uses a naturally high-pitched voice profile. Model 1 is arguably 'higher' in a distorted sense, but Model 2 is high and pleasant. The decisive difference lies in Speed and Naturalness. Model 2 follows the 'fast' command much better, delivering a rapid, fluid sentence, whereas Model 1 is slow with dragging pauses. Model 2 also expresses the 'surprise' emotion more naturally, whereas Model 1 sounds artificial due to the pitch strain. Model 2 is the superior generation.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

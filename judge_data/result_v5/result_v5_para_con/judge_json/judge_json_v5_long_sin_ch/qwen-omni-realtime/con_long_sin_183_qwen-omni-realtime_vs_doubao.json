@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model fails strictly on Content Accuracy. The user provided a specific script to read ('上次咱们去的那家新开的火锅店味道真的不错...'), but the model hallucinated a completely different text ('...真是绝了... 涮得刚刚好...'). Although the topic remains related to hotpot, the wording is entirely changed, constituting a Score 0 error ('Voice content is clearly inconsistent with the script'). Regarding the target feature 'Non-verbal vocalization' (非语言发声), the model read the instruction '咂嘴' as the text 'Za zui za zui' (00:00) instead of generating the actual sound effect of smacking lips. Therefore, it failed both the content and feature requirements.",
+    "reasoning_model_2": "The model fails strictly on Content Accuracy. It ignored the provided script almost entirely and instead generated a short conversational response ('嗯，确实好吃，我现在都还想吃呢'), which is a Score 0 error. Regarding the target feature 'Non-verbal vocalization', the model read the instruction '咂嘴' as text (00:00) instead of performing the sound. While it did generate a non-verbal sound '嗯' (Hmm) at 00:01, this does not match the requested 'smacking lips' feature and does not compensate for the complete failure in script adherence.",
+    "model_comparison": "Both models receive a score of 0. They both failed the primary constraint of Content Accuracy by not reading the provided script: Model 1 improvised a descriptive paragraph, while Model 2 generated a short dialogue response. Additionally, both failed the 'Non-verbal vocalization' feature control by reading the prompt trigger '咂嘴' as spoken text rather than performing the sound effect. Since both failed completely on all criteria, it is a tie.",
+    "score_1_1": 0,
+    "score_2_1": 0,
+    "winner_1": 0
+}

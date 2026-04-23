@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio correctly speaks the text '妈妈，这是什么呀？好好玩' with high content accuracy. \n1. **Age (0.0s-2.5s):** The voice has a higher pitch suitable for a child, but the timbre lacks the subtle breathiness and articulation quirks of a real child, sounding slightly like a pitch-shifted adult or a standard TTS voice (Score: 2). \n2. **Speed (0.0s-2.5s):** The speaking rate is moderate and clearly articulated. It does not exhibit the 'Fast' (快速) characteristic requested in the prompt, remaining at a standard storytelling pace (Score: 1). \n3. **Cognitive State (0.0s-2.5s):** The tone in the first segment '这是什么呀' (0.5s-1.2s) has a questioning inflection, indicating some curiosity. However, the phrase '好好玩' (1.5s-2.5s) is delivered with a relatively flat and stable pitch, lacking the dynamic excitement or 'playfulness' expected from the prompt (Score: 2).",
+    "reasoning_model_2": "The audio accurately reproduces the script with no errors. \n1. **Age (0.0s-1.8s):** The model generates a very convincing child's voice, featuring natural tonal fluctuations and a brighter resonance that feels authentic (Score: 3). \n2. **Speed (0.0s-1.8s):** The speech is noticeably accelerated, compressing the sentence into a shorter duration (~1.8s) compared to Model 1. This rush conveys urgency and excitement, perfectly matching the 'Fast' command (Score: 3). \n3. **Cognitive State (0.0s-1.8s):** The emotional expression is vivid. The question '这是什么呀' ends with a sharp, high-rising terminal that emphasizes strong curiosity. The final segment '好好玩' is delivered with a bouncy, joyful tone, effectively capturing the requested state (Score: 3).",
+    "model_comparison": "Model 2 demonstrates superior performance across all requested paralinguistic dimensions. regarding **Age**, Model 2 offers a more natural and authentic child-like timbre compared to the slightly synthetic quality of Model 1. regarding **Speed**, Model 2 successfully adheres to the 'Fast' constraint, whereas Model 1 defaults to a normal speaking pace. regarding **Cognitive State**, Model 2 captures the 'Curiosity' and excitement with much greater dynamic range and expressiveness than Model 1. Consequently, Model 2 is the clear winner.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

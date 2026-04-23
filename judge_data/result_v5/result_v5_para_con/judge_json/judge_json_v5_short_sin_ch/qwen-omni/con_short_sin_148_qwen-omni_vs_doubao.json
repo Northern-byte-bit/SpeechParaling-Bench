@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested a 'curious' tone (Cognitive State). In the generated audio, the model captures the interrogative nature of the sentence with a rising intonation at the end (00:02-00:03), which suggests curiosity. However, there is a distinct content error: the character '的' (de) is mispronounced or substituted with '个' (ge) at timestamp 00:01, resulting in the phrase '装个' instead of '装的'. This makes the sentence grammatically incorrect and disrupts the naturalness. Due to the content accuracy issue, which is a prerequisite for a high score, the model is penalized despite the acceptable tone.",
+    "reasoning_model_2": "The model perfectly follows the text script with no errors. Regarding the paralinguistic feature 'Cognitive State' (Curiosity), the audio demonstrates excellent control. There is a natural build-up in pitch, with specific emphasis placed on the word '到底' (on earth) around 00:01-00:02, and a high rising terminal on '什么呀' (00:03), which vividly conveys a sense of genuine wonder and intrigue. The speech is fluent and human-like.",
+    "model_comparison": "Model 2 (T2) is the clear winner. Model 1 (T1) failed to synthesize the text accurately, substituting a character ('的' -> '个') which resulted in a grammatically awkward sentence. While T1's tone was adequately curious, the content error violates the first criterion of Content Accuracy. Model 2 produced the text perfectly and delivered a highly expressive performance, using pitch and stress dynamics to clearly and vividly portray the cognitive state of curiosity.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

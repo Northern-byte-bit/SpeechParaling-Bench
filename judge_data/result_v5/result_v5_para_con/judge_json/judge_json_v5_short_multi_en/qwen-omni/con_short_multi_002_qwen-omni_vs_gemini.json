@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio correctly speaks the content 'My keys are gone, what should I do?' without errors. However, regarding the required paralinguistic features, the performance is poor. \n1. **Cognitive State (Anxious):** The tone is remarkably calm, slow, and measured (0.0s - 2.5s). There is a slight downward inflection that suggests sadness or mild resignation, but it completely lacks the tension, pace, or urgency associated with anxiety. \n2. **Timbre (Hoarse):** The voice is crystal clear and smooth. There is absolutely no roughness, raspiness, or strain in the vocal quality. It sounds like a standard, high-quality TTS voice with no textural modification.",
+    "reasoning_model_2": "The audio accurately produces the text. \n1. **Cognitive State (Anxious):** The model effectively conveys anxiety. The pitch is higher and unstable, with a whining quality particularly noticeable on 'what should I do?' (1.8s - 3.0s). The delivery sounds distressed and worried, matching the 'anxious' prompt well. \n2. **Timbre (Hoarse):** The timbre is distinctly modified to sound hoarse. There is a noticeable raspiness and breathy strain throughout the clip, especially on the word 'gone' and the phrase 'what should I do'. It successfully mimics a voice that is losing its strength or is strained.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Model 1 essentially ignored the stylistic instructions, producing a clean, calm reading that was the opposite of 'hoarse' and 'anxious'. Model 2 successfully modulated the audio to sound both texturally hoarse (raspy/strained) and emotionally anxious (distressed/high-pitched), fulfilling the user's complex command.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

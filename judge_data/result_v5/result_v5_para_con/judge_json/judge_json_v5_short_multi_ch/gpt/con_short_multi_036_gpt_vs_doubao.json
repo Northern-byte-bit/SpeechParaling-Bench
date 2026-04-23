@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates a highly convincing elderly voice, characterized by a slower pace, lower pitch, and a natural breathy texture that fits the 'Age' dimension perfectly (Score 3). The paralinguistic feature of 'Stress' is also executed well; the speaker distinctively emphasizes the word '健康' (Health) between 00:02 and 00:03 using increased intensity and a slight elongation, while the 'a' particle at the end adds a natural emotional release. The prosody is fluent and human-like.",
+    "reasoning_model_2": "The model produces a voice that falls within the elderly category (Dimension: Age) due to its low pitch and slow tempo, but the timbre sounds somewhat mechanical and lacks the organic raspiness or tremor of a real elderly speaker, making it less natural (Score 2). Regarding the 'Stress' dimension, the delivery is relatively monotonic; the word '健康' (00:03) is spoken clearly but without any significant change in pitch, volume, or duration to distinguish it from the rest of the sentence, thus failing to meet the specific emphasis command (Score 1).",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. For 'Age', Model 1 captures the subtle textures (tremor, breathiness) of an elderly voice significantly better than Model 2, which sounds more like a standard TTS with lowered pitch. For 'Stress', Model 1 accurately follows the instruction to emphasize '健康' through dynamic prosodic changes, whereas Model 2 delivers the sentence with a flat intonation that ignores the emphasis requirement.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

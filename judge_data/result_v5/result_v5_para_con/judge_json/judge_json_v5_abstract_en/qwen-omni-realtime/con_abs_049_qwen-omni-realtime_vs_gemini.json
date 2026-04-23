@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 fails strictly on Content Accuracy. The user command explicitly asked to read a specific sentence: 'My secret to losing weight is to talk about it, then keep eating. Works every time!'. Instead, Model 1 generated a completely different, improvised monologue: 'Oh my secret to losing weight, I just announce it loudly to the universe while secretly ordering another slice of pizza...' (00:00-00:17). According to the detailed scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0. Therefore, despite the audio having a fluent and somewhat expressive tone, the complete hallucination of the text results in a score of 0 for all dimensions.",
+    "reasoning_model_2": "Model 2 follows the text script perfectly, ensuring Content Accuracy. Regarding the 'Humorous' dimension, the model introduces a natural, genuine-sounding laugh at the very beginning (00:00-00:02), effectively establishing the requested tone immediately. The prosody throughout is bouncy and lighthearted. For the 'Witty' dimension, the model uses excellent comedic timing, particularly the pause before the punchline '...then keep eating' (00:05) and the self-satisfied, ironic inflection on 'Works every time' (00:07). The delivery feels human-like and accurately captures the intended irony of the script.",
+    "model_comparison": "There is a stark difference in performance. Model 1 completely disregarded the text constraints, generating a hallucinated script that, while thematically related, was not what was requested. This constitutes a critical failure. Model 2, on the other hand, adhered strictly to the text while successfully integrating the requested paralinguistic features. It added a non-verbal laugh that enhanced the humor without altering the linguistic content and used prosody effectively to convey wit. Model 2 is the clear winner.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

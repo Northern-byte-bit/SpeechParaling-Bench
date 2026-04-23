@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the script with no pronunciation errors. \n\nRegarding the 'Pause' dimension: The model inserts a very distinct and deliberate pause after the word 'Yesterday' (approx. 00:00 - 00:01), effectively separating it from the rest of the sentence as requested. \n\nRegarding the 'Timbre' dimension: The voice exhibits a strong, consistent hoarseness. It sounds raspy, breathy, and strained, perfectly mimicking the vocal quality of someone who has lost their voice or worked late as described in the text. The timbre is maintained naturally throughout the clip.",
+    "reasoning_model_2": "Model 2 follows the script text accurately. \n\nRegarding the 'Pause' dimension: The model places a pause after 'Yesterday' (approx. 00:00 - 00:01). While present, it functions more like a standard grammatical comma pause rather than a specifically emphasized 'clear pause' distinct from normal prosody, but it technically meets the requirement.\n\nRegarding the 'Timbre' dimension: The model completely fails to execute the 'hoarse voice' instruction. The generated voice is high-pitched, clean, clear, and youthful (resembling a standard anime-style TTS voice). There is absolutely no raspiness or hoarseness detected; in fact, the voice is the antithesis of hoarse.",
+    "model_comparison": "In the Pause dimension, both models successfully inserted a pause after 'Yesterday'. Model 1's pause felt slightly more deliberate and fitting with the weary context, but both technically satisfied the constraint, resulting in a tie for this specific feature.\n\nIn the Timbre dimension, there is a massive disparity. Model 1 perfectly simulated a hoarse, raspy voice consistent with the persona defined in the prompt. Model 2 ignored the timbre instruction entirely, producing a clean, clear, high-pitched voice that contradicts the text content ('my voice is hoarse'). Therefore, Model 1 is the clear winner for Timbre and the overall superior generation.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

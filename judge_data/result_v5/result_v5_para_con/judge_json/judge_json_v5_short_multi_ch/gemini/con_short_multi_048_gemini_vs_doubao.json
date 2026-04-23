@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the text content '昨天我加班到很晚，嗓子都哑了'. \n\nRegarding the dimension '音质' (Timbre/Voice Quality): The voice is exceptionally hoarse, breathy, and strained, effectively simulating a person who has lost their voice or is extremely tired. It captures the '沙哑' (hoarse) characteristic vividly (Score 3).\n\nRegarding the dimension '停顿' (Pause): There is a distinct and deliberate silence after the word '昨天' (ending approx. 00:01) before the next phrase begins (approx. 00:01.5). This aligns perfectly with the instruction to pause noticeably after 'yesterday' (Score 3).",
+    "reasoning_model_2": "Model 2 accurately follows the text content. \n\nRegarding the dimension '音质' (Timbre/Voice Quality): The generated audio features a clear, bright, and standard female TTS voice. There is absolutely no trace of hoarseness or strain. It completely fails to execute the '沙哑的声音' (hoarse voice) instruction, presenting the opposite characteristic (clean voice) (Score 0).\n\nRegarding the dimension '停顿' (Pause): The model places a clear pause after '昨天' (ending approx. 00:00.6) before continuing with '我加班' (approx. 00:01.0). The pause is noticeable and grammatically appropriate, satisfying the specific instruction (Score 3).",
+    "model_comparison": "Model 1 is the clear winner overall due to its successful execution of the voice quality constraint. Model 1 perfectly captures the 'hoarse' (沙哑) quality required by the prompt, creating a realistic and expressive audio that matches the persona of someone with a lost voice. Model 2, while fluent and correct in text and pausing, fails completely on the 'hoarse' aspect, using a standard clear voice instead. On the 'pause' dimension, both models performed well, inserting a noticeable break after the target word, resulting in a tie for that specific feature. However, Model 1's adherence to the difficult timbre constraint makes it superior.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0
+}

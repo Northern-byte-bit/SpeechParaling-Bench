@@ -1,0 +1,14 @@
+{
+    "sample_index": 28,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a bright timbre: 'Good morning students! A new day has begun; I hope everyone can devote themselves to their studies with full enthusiasm. Today we will conduct an interesting science experiment, are you all excited?'",
+    "dimensions": [
+        "Timbre"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

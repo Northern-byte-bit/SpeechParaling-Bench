@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 completely fails to adhere to the paralinguistic instruction. Instead of performing the act of crying or adding non-linguistic sobbing sounds, the model reads the target sentence in a fast, upbeat, and energetic tone (00:00-00:01). Furthermore, it hallucinates and reads out a long description of the emotion ('my voice cracks a little, tears welling up...') starting at 00:03, rather than simply speaking the requested text. There are no non-linguistic vocalizations present; the audio is a narration of a script rather than an emotional performance.",
+    "reasoning_model_2": "Model 2 successfully integrates the requested non-linguistic vocalization. It begins with a distinct audible intake of breath/sob (00:00) before speaking. The delivery of the text is slow, breathless, and carries a sad tone consistent with crying. While there is a minor text deviation (expanding 'I'm' to 'I am'), the core requirement of 'Non-Linguistic Vocalizations' (specifically the crying breath) is executed clearly and naturally at the start of the clip.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 misunderstood the prompt, reading a description of crying in a happy voice rather than actually simulating crying or producing non-linguistic sounds. Model 1 also added significant hallucinated content. Model 2 correctly interpreted the prompt, adding a realistic sobbing breath at the beginning and maintaining the appropriate emotional affect throughout the short sentence.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

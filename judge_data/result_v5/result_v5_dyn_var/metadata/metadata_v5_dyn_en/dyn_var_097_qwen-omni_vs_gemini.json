@@ -1,0 +1,14 @@
+{
+    "sample_index": 97,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a curious tone initially, gradually transitioning to a doubting tone: 'This movie looks interesting, the trailer is great! But is it really as good as people say? I'm starting to doubt if its reputation is exaggerated.'",
+    "dimensions": [
+        "Cognitive State"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

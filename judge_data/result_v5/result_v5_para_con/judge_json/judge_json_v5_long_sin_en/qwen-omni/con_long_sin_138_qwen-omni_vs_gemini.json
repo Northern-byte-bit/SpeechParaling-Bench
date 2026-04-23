@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with perfect content accuracy, matching the script word-for-word. However, regarding the core requirement of a 'hesitant tone', the performance is lacking. The delivery is quite fluent and brisk (0:00-0:04), with a steady rhythm that does not convey uncertainty or the cognitive process of weighing options. There are no significant pauses, stammering, or tentative intonation shifts usually associated with hesitancy. It sounds like a standard, cheerful reading of a question rather than someone struggling to make a choice.",
+    "reasoning_model_2": "The model demonstrates excellent control over the requested 'hesitant tone'. From the very beginning, the speaker introduces significant pauses, such as after 'Should we' (0:00-0:02) and 'I think' (0:04-0:05), which effectively simulate the process of thinking. The prosody features elongated vowels (e.g., on 'beach' and 'hiking') and a rising, uncertain pitch that sounds genuinely tentative. The pacing is deliberately slower, reinforcing the cognitive state of indecision requested in the prompt.",
+    "model_comparison": "Model 2 is the clear winner in this comparison. While both models achieved perfect content accuracy, they differ drastically in their paralinguistic performance. Model 1 provided a standard, fluent TTS output that completely missed the stylistic instruction to sound 'hesitant'. In contrast, Model 2 successfully modulated pitch, rhythm, and pausing to create a vivid and natural simulation of hesitation. The pauses and uncertain intonation in T2 made the audio sound like a genuine human thinking aloud, whereas T1 sounded robotic in its consistency.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

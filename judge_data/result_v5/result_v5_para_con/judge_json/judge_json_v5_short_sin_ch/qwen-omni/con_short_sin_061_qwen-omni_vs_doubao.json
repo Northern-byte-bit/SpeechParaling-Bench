@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the correct text content: '救命啊，这里有人受伤了'. However, regarding the core requirement 'shouting volume' (喊叫的音量), the audio completely fails. The voice sounds like a young child speaking in a calm, slightly cutesy manner (0.0s - 3.4s). There is no increase in volume, projection, or intensity associated with shouting. The tone is flat and conversational, lacking the urgency or loudness required by the prompt. It sounds like a casual reading rather than a cry for help.",
+    "reasoning_model_2": "The model generates the correct text content with perfect accuracy. Crucially, it adheres strictly to the 'shouting volume' requirement. From the very beginning (0.0s), the speaker (an adult male voice) projects their voice significantly, simulating a genuine shout. The pitch is elevated, and the vocal intensity is high, consistent with someone yelling 'Help!' across a distance. The urgency and volume dynamics are vividly portrayed (0.0s - 2.8s), making it a high-quality execution of the prompt.",
+    "model_comparison": "There is a stark contrast between the two models. T1 completely ignores the 'shouting volume' instruction, delivering the line in a quiet, normal speaking voice that contradicts the context of calling for help. T2, on the other hand, perfectly executes the command, delivering a loud, projected, and urgent shout that fits the scenario of 'someone is hurt'. T2 is the clear winner as it is the only model that followed the paralinguistic instruction.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

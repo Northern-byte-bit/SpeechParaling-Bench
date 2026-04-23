@@ -1,0 +1,14 @@
+{
+    "sample_index": 102,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with emphasis on the word 'absolutely': 'You absolutely cannot be careless in this exam again, the grade for this course is very important to you, directly affecting whether you can graduate smoothly, so you must take it seriously.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

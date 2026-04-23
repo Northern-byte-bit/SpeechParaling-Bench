@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio with a distinct paralinguistic addition: a playful giggle ('he-he') at the very beginning (0.0s-0.4s), which immediately establishes a 'teasing' attitude. The sentence 'You are such a lazy bug' follows (0.4s-1.8s) with a bouncy, dynamic pitch contour. The emphasis on 'such' and the playful fall on 'bug' contribute to a lighthearted rhythm. Although the model expands the contraction 'You're' to 'You are', the delivery is natural, fluent, and perfectly captures the requested style.",
+    "reasoning_model_2": "The model reads the text 'You are such a lazy bug' (expanding 'You're' to 'You are') with a relatively flat and serious tone. There is no discernible 'teasing' quality; it sounds more like a neutral statement or a mild, serious scolding. The rhythm is standard and monotonous (0.0s-1.5s), lacking the requested 'lighthearted' bounce or variation. The expression is stiff and does not convey the target paralinguistic features.",
+    "model_comparison": "Model 1 clearly outperforms Model 2 in both dimensions. T1 effectively utilizes non-speech sounds (a giggle) and prosodic variation to convey a vivid teasing attitude and a lighthearted rhythm. T2, in contrast, delivers a flat, neutral reading that fails to capture the requested emotional nuance or rhythmic style. T1's interpretation is lively and human-like, while T2 feels mechanical and emotionally detached from the prompt's requirements.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

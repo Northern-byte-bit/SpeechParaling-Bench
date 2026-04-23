@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio content '你为什么又把房间弄得这么乱' accurately (00:00-00:02). However, regarding the core requirement 'angry emotion' (情感：生气), the performance is poor. The tone is extremely calm, soft, and gentle, sounding more like a quiet inquiry or a resigned observation rather than a scolding. There are no paralinguistic features of anger such as increased volume, sharpness, fast pace, or strained pitch. The expression contradicts the requested emotion, effectively delivering a neutral or calm tone instead of anger.",
+    "reasoning_model_2": "The model generates the audio content accurately. Regarding the 'angry emotion' requirement, the model performs excellently. From 00:00 to 00:01, the speaker adopts a faster pace, higher pitch, and louder volume typical of anger. The emphasis on '又' (again) and the sharp, falling intonation on '这么乱' clearly convey frustration and impatience. The prosody is natural and vividly embodies the feeling of scolding someone for a repeated mistake, fully satisfying the user's command.",
+    "model_comparison": "Both models achieve high scores in content accuracy and fluency, producing intelligible and natural-sounding speech. However, there is a significant disparity in the 'Paralinguistic Compliance' for the requested 'Angry' emotion. Model 1 completely fails to convey anger, delivering the line with a calm and gentle tone that fits the opposite of the requested emotion. Model 2, in contrast, successfully utilizes pitch, speed, and stress to create a vivid and realistic angry tone. Therefore, Model 2 is superior.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

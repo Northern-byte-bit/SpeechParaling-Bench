@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Content Accuracy: The model accurately synthesizes the text '这是我最后一次警告你' with no missing or wrong words. \nFluency and Naturalness: The speech is fluent and natural, with a steady rhythm and clear articulation. There are no mechanical artifacts.\nParalinguistic Compliance - 语速 (Speed): The speaking rate is moderate to slow, typical of a standard reading style. It fails to adhere to the 'fast speed' (快速) instruction, lacking the requested urgency.\nParalinguistic Compliance - 重音 (Stress): The stress is naturally placed on the semantic focus '最后' (last), which is linguistically correct for a general warning but ignores the specific user command to stress the word '是'. The word '是' is pronounced with standard flat intonation.",
+    "reasoning_model_2": "Content Accuracy: The text content '这是我最后一次警告你' is perfectly accurate.\nFluency and Naturalness: The audio maintains high fluency despite the increased speed. It sounds natural and human-like.\nParalinguistic Compliance - 语速 (Speed): The model successfully executes the 'fast speed' command. The duration is noticeably shorter, and the syllables are delivered rapidly, conveying a sense of urgency and anger appropriate for a warning.\nParalinguistic Compliance - 重音 (Stress): The model clearly places heavy emphasis on the word '是' (at the very beginning), utilizing increased loudness and a pitch accent. This strictly follows the specific instruction '在“是”一词加上重音'.",
+    "model_comparison": "Both models achieve perfect content accuracy and high naturalness. However, Model 1 fails to follow the specific paralinguistic instructions regarding speed and stress location. It speaks at a normal pace and stresses the semantically standard '最后' instead of the requested '是'. Model 2 demonstrates superior controllability by strictly adhering to the prompt: it significantly increases the speaking rate and accurately places the stress on '是' as requested. Therefore, Model 2 is the clear winner in both dimensions.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 45,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a decisive and quick tone: 'No means no, there's nothing to discuss. This matter ends here.'",
+    "dimensions": [
+        "decisive and quick"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

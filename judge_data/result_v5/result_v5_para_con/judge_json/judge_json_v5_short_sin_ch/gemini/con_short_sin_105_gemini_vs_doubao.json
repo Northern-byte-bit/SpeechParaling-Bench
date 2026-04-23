@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the correct text content '关键在于沟通，我们必须保持开放。' with accurate pronunciation and good fluency. The voice is stable and clear. However, regarding the specific instruction to emphasize '关键' (Key), the model performs poorly. Within the timestamp 00:00-00:01, the word '关键' flows directly into the rest of the sentence with standard pitch and intensity, indistinguishable from the stress placed on '沟通'. There is no acoustic prominence, pause, or tonal shift to indicate emphasis. Consequently, it fails the specific paralinguistic requirement.",
+    "reasoning_model_2": "The model accurately generates the text content. To fulfill the instruction of emphasizing '关键', the model adopts a strategy of distinct articulation and pausing. At 00:00-00:01, '关键' is spoken clearly, followed by a noticeable pause before '在于沟通'. This prosodic break effectively draws the listener's attention to the target word, successfully conveying emphasis. Although the overall pacing is slow and somewhat didactic (resembling a dictation style), it perfectly adheres to the user's command to stress the specific word.",
+    "model_comparison": "Both models generate the correct text. The core differentiator is the adherence to the 'emphasize' instruction. Model 1 provides a fluent but standard reading where '关键' receives no special treatment, effectively ignoring the paralinguistic prompt. Model 2 actively modifies the prosody by isolating '关键' with a pause and distinct articulation, thereby successfully achieving the requested emphasis. Although Model 1 is more fluid, Model 2 is the only one that followed the specific instruction.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

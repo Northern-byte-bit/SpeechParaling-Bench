@@ -1,0 +1,18 @@
+{
+    "sample_index": 57,
+    "candidate_name": "gemini",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用正常音量，在“正确”上重读，怀疑地说：你确定这个菜谱是正确的吗？我怎么觉得不对劲。",
+    "dimensions": [
+        "音量",
+        "重音",
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 1,
+    "winner_position_3": 0
+}

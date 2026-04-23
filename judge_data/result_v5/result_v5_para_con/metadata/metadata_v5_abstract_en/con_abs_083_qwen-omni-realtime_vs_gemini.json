@@ -1,0 +1,14 @@
+{
+    "sample_index": 83,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a cautious and conservative attitude: 'Investment carries risks. Although the prospects are tempting, we still need to remain vigilant about potential uncertainties.'",
+    "dimensions": [
+        "cautious and conservative"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

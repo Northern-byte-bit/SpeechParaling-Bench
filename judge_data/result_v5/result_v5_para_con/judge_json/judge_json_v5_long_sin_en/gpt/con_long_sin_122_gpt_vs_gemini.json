@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The audio accurately captures the target emotion of 'angry,' specifically interpreting it as parental exasperation and frustration, which fits the context perfectly. From 00:00 to 00:03, the speaker uses a stressed, scolding tone. Between 00:03 and 00:06 ('how many times...'), the pitch rises, increasing the perceived intensity. In the final segment (00:08-00:13), the voice takes on a pleading, high-pitched quality typical of someone who is fed up, effectively conveying the emotional weight of 'stop making me angry.' The content is accurate, though 'It's' is expanded to 'It is' (00:06), which is a minor deviation. The speech is fluent and natural.",
+    "reasoning_model_2": "The model fails to effectively convey the 'angry' emotion. While the initial phrase (00:00-00:03) carries a lower, slightly stern pitch, the delivery quickly loses emotional momentum. From 00:06 onwards ('It is always like this...'), the tone becomes flat, calm, and conversational. The final plea (00:08-00:11) lacks any sign of frustration or anger, sounding like a neutral narrator reading a script rather than a character expressing emotion. Like Model 1, it also expands 'It's' to 'It is'.",
+    "model_comparison": "Model 1 is the clear winner as it successfully incorporates the paralinguistic features of anger and exasperation required by the prompt. It uses dynamic changes in pitch and stress to simulate a scolding parent. In contrast, Model 2 delivers a performance that is largely flat and devoid of the requested emotion, sounding like a standard, calm reading despite the context of the text.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

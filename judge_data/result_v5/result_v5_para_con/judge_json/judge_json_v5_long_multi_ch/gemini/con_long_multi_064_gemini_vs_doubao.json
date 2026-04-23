@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio content accurately according to the script. However, regarding the core instruction 'shouting volume' (喊叫的音量), the model fails completely. Throughout the entire clip (0:00-0:10), the voice remains at a standard, calm, conversational volume, resembling a generic audiobook narrator rather than someone shouting a command. Regarding 'slowly' (缓慢), the pacing is moderate to slightly slow, but lacks the deliberate elongation associated with urging someone. Regarding 'emphasized' (强调), the tone is flat and consistent; there is no specific stress placed on key phrases like '关键时刻' or '坚持住' to convey urgency or importance. The overall delivery is too relaxed for the context.",
+    "reasoning_model_2": "The model generates the audio content accurately. Regarding 'shouting volume' (喊叫的音量), the model successfully adopts a projection style that simulates shouting or speaking very loudly to a distant target (0:00-0:16). The vocal quality has the necessary strain and projection. Regarding 'slowly' (缓慢), the audio is significantly slowed down (total duration is notably longer than Model 1), with distinct pauses between phrases (e.g., between '注意' and '不要回头') and elongated syllables, fulfilling the instruction perfectly. Regarding 'emphasized' (强调), the shouting style naturally lends strong stress to every phrase, particularly effective on '冲过终点线' and '坚持住', clearly conveying the high-stakes atmosphere.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. Model 1 failed to follow the stylistic instructions, producing a calm, conversational reading that contradicted the request for 'shouting', 'slowly', and 'emphasis'. Model 1's volume was standard, and its tone was neutral. In contrast, Model 2 accurately interpreted the 'shouting volume' constraint, producing a voice that sounded like it was projecting loudly. Consequently, Model 2 also handled the 'slowly' and 'emphasized' instructions much better, using the shouting style to naturally elongate words and add heavy stress to the commands. Model 2's performance was fully compliant with the specific paralinguistic requirements.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

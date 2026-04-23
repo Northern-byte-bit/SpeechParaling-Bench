@@ -1,0 +1,16 @@
+{
+    "sample_index": 22,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用低音的声调伤心地说: 他真的走了，我好难过。",
+    "dimensions": [
+        "音高",
+        "情感"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

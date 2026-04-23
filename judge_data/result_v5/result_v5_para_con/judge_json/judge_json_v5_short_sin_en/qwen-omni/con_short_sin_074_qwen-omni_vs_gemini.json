@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully integrates the required paralinguistic feature 'whisper' into the generated audio. From the very beginning (0:00) to the end, the speech is produced without vocal cord vibration, relying entirely on breathy phonation characteristic of a true whisper. The volume is perceptually lower and intimate, fitting the context of the sentence 'This news, absolutely cannot be leaked.' The prosody is natural, with a deliberate pause after 'news' that respects the punctuation in the prompt, enhancing the secretive tone. The content is accurate with no errors.",
+    "reasoning_model_2": "The model generates the text content accurately, but it completely fails to adhere to the 'whisper' instruction. The audio is delivered in a standard, full-voice (modal) phonation with normal volume and projection throughout the entire clip (0:00-end). There is no auditory evidence of whispering; the tone is declarative and conversational rather than secretive. Additionally, the prosody feels slightly rushed compared to the requested punctuation, lacking the dramatic pause implied by the comma.",
+    "model_comparison": "Model 1 is the clear winner. It strictly followed the user's explicit command to read the sentence with a whisper, modifying the vocal characteristics (phonation type and volume) to perfectly match the request. Model 2 ignored the 'whisper' constraint entirely, producing audio in a normal speaking voice with standard volume. While both models got the text correct, Model 2's failure to control the volume/style dimension results in a much lower score.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

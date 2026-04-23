@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the requested sentence with zero content errors. In terms of the cognitive state (anxiety), the audio demonstrates a clear shift in tone. From 00:00 to 00:02 ('The exam results are about to be announced'), the pacing is deliberate and slightly heavy, suggesting apprehension. From 00:03 to 00:05 ('I am a bit nervous'), the speaker's voice exhibits a slight tremble and breathiness, effectively conveying the requested nervousness. The emotion is discernible and fits the context well without being over-exaggerated, meeting the criteria for a high score.",
+    "reasoning_model_2": "This model fails significantly on the 'Content Accuracy' dimension. The prompt explicitly requested the model to 'read this sentence', but the model hallucinated a substantial amount of additional text (from 00:05 to 00:16: 'really, my hands are shaking a little...'). While the emotional expression of anxiety in the generated speech is actually quite vivid and dramatic (shaking voice, rapid pacing), the severe violation of the content constraint renders the output inconsistent with the script. According to the scoring standard, if the voice content is clearly inconsistent with the script, it warrants a score of 0, regardless of the emotional quality.",
+    "model_comparison": "Model 1 followed all instructions, providing accurate content with a naturally anxious tone that fits the request. Model 2, while emotionally expressive, failed the fundamental instruction by hallucinating several extra sentences that were not in the prompt. Therefore, Model 1 is the clear winner for adhering to the prompt constraints.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

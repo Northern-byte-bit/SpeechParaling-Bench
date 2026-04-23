@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the provided text script without any additions or omissions. Regarding the specific instruction to emphasize the word 'is', the model executes this effectively. At timestamp 00:02, the speaker notably slows down and isolates the word 'is', applying a distinct tonal shift and duration elongation that creates the requested prominence. While the overall pacing is quite slow and deliberate, the target paralinguistic feature (Stress) is clearly identifiable and correctly placed.",
+    "reasoning_model_2": "Model 2 fails significantly in Content Accuracy. While it reads the target sentence, it hallucinates and appends a substantial amount of extra text ('Yes, it's the best and I mean it') that was not in the prompt. Regarding the 'Stress' dimension, within the target sentence (00:00-00:01), the delivery is fast and flat, with standard prosody that places stress on 'best' rather than 'is'. The requested emphasis on 'is' is completely absent. The combination of content hallucination and failure to follow the specific style instruction results in a very poor performance.",
+    "model_comparison": "Model 1 is the clear winner. It adhered strictly to the content constraints and successfully implemented the requested emphasis on the word 'is' through prosodic changes (timing and pitch). Model 2 failed on multiple fronts: it hallucinated extra text, violating content accuracy, and it failed to apply the requested stress pattern, delivering the line with a standard, rushed prosody that ignored the user's specific command.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

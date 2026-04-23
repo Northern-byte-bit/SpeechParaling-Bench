@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 failed strictly on Content Accuracy. The user requested to say '天呐！好恐怖的画面！', but the model generated a long, hallucinated script ('啊，啊，天呐...我头皮都炸了...哇哇哇...'), adding significant extraneous content. Regarding the paralinguistic feature 'Screaming' (尖叫), the model adopted a trembling, frightened, and breathy tone rather than a screaming one. While it included non-verbal interjections like 'Ah' and 'Wa', these were part of the unauthorized text additions. The expression sounded more like a scared whisper than a scream.",
+    "reasoning_model_2": "Model 2 demonstrated perfect Content Accuracy, speaking exactly the requested text '天呐！好恐怖的画面！' without any additions or omissions. Regarding the paralinguistic feature, the model successfully implemented the 'screaming' instruction. The voice was high-pitched, loud, and strained, effectively simulating a scream of terror while maintaining intelligibility. The pacing and intensity matched the requested emotion well.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed significantly on content accuracy by hallucinating a large amount of unrequested text. Furthermore, Model 1's interpretation of 'screaming' was closer to a frightened whisper/tremble, whereas Model 2 correctly altered the vocal projection to a high-pitched shout/scream, accurately fulfilling the specific paralinguistic request '带尖叫的方式' (in a screaming manner) while keeping the content correct.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

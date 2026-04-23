@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with a female voice. Content-wise, there is a minor omission: the script requires '...别挡我的路', but the model says '...别挡我路', omitting the particle '的'. Regarding the required attitude 'rude' (粗鲁), the delivery at 00:00-00:01 is dismissive and sounds slightly annoyed or impatient, but it lacks genuine aggression or harshness. The tone feels more like a petulant complaint than a truly rude command. The voice is too soft and polished to fully convey the requested negative social attitude.",
+    "reasoning_model_2": "The model generates the audio with a male voice. Content-wise, it perfectly matches the script '滚开，别挡我的路'. regarding the required attitude 'rude' (粗鲁), the performance is excellent. At 00:00, the word '滚开' is delivered with strong projection and a harsh attack. The subsequent phrase '别挡我的路' is spoken with a commanding, aggressive rhythm and increased volume. The vocal tension and pacing accurately reflect a rude and hostile demeanor.",
+    "model_comparison": "Model 2 is significantly superior to Model 1. First, Model 2 follows the text script exactly, whereas Model 1 omits a character. Second, and most importantly for the 'Feature Control' evaluation, Model 2 successfully conveys the 'rude' attitude with high intensity, appropriate volume, and aggressive prosody. Model 1's interpretation is too mild, sounding merely annoyed rather than rude, failing to meet the core paralinguistic requirement effectively.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

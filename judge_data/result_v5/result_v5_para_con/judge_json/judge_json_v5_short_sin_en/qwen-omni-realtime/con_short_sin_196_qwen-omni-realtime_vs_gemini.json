@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the requested text 'Oh, you're such a genius, messing things up again.' without any errors. The timestamps indicate the key expressive segments: at 00:00-00:02 ('Oh, you're such a genius'), the speaker uses an elongated, slightly weary and patronizing tone with a pitch drop on 'genius', which effectively signals sarcasm. At 00:02-00:04 ('messing things up again'), the delivery maintains a flat, disappointed affect characteristic of sarcastic resignation. The audio is fluent and natural. The model successfully integrates the 'Attitude' (sarcasm) into the correct text.",
+    "reasoning_model_2": "The model fails the Content Accuracy criterion significantly. The requested text was 'Oh, you're such a genius, messing things up again.' However, the model generates: 'Wow, you're such a genius. Really outdone yourself this time, didn't you? Like who even needs a plan when you're this effortlessly chaotic? Bravo, truly.' It changes 'Oh' to 'Wow', omits the second half of the target sentence ('messing things up again'), and hallucinates three additional sentences. According to the scoring standard, a score of 0 is assigned because the voice content is clearly inconsistent with the script.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact text with the requested sarcastic attitude. Model 2, while using a sarcastic tone, completely failed to read the specific sentence provided, altering the beginning and hallucinating a large amount of extra text. Due to the severe content accuracy violation by Model 2, Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

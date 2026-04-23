@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text '嗯，就这样吧。' with high naturalness. Regarding the paralinguistic features:\n1. **Attitude (态度):** The model captures the 'perfunctory' (敷衍) attitude exceptionally well. The tone is low, breathy, and sounds like a resigned sigh (0.0s-0.7s '嗯...'), conveying a sense of exhaustion and lack of interest that fits the prompt perfectly.\n2. **Rhythm (节奏):** The instruction '断续' (intermittent/staccato) is interpreted here as a lethargic, broken flow. There is a distinct, dragging pause after the initial '嗯', and the subsequent phrase '就这样吧' feels loosely connected, reinforcing the 'can't be bothered' vibe. The rhythm naturally supports the requested attitude.",
+    "reasoning_model_2": "Model 2 synthesizes the text accurately with clear pronunciation and good fluency. However, regarding the paralinguistic features:\n1. **Attitude (态度):** The tone is relatively neutral and standard. While it is not overly energetic, it lacks the specific 'perfunctory' or dismissive quality requested. It sounds more like a polite or standard agreement rather than someone who is敷衍 (敷衍/perfunctory).\n2. **Rhythm (节奏):** The rhythm follows standard punctuation (comma pause), resulting in a clear 'En, [pause] jiu zhe yang ba'. While there is a break, it feels like a grammatical pause rather than a stylistic 'intermittent' rhythm intended to convey an attitude. It lacks the distinctive broken quality requested.",
+    "model_comparison": "Model 1 is the clear winner. Model 1's audio effectively acts out the persona of someone being perfunctory and dismissive. The sighing timbre, the dragging rhythm, and the low energy perfectly match the command '敷衍' and '断续'. Model 2, in contrast, produces a high-quality but standard reading of the text. It fails to inject the specific emotional coloring required by the prompt, sounding too neutral and polite. Model 1 demonstrates superior control over paralinguistic features.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

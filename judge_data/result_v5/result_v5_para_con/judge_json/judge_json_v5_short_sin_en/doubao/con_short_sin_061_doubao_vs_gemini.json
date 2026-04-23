@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text 'Help! Someone is injured here!' accurately. From 0:00 to 0:03, the audio exhibits a distinct change in vocal timbre consistent with shouting. The speaker uses increased vocal effort, higher pitch, and projection, creating a sense of urgency and distance. The tone effectively mimics a person yelling for assistance in an emergency, satisfying the 'shouting manner' and 'Volume' requirements perfectly. The delivery sounds natural for the context.",
+    "reasoning_model_2": "The model generates the text accurately between 0:00 and 0:03. While the delivery is animated and the volume/pitch are elevated compared to neutral speech, the style resembles an exaggerated or surprised exclamation (like a 'stage call') rather than a genuine, visceral shout for help. The voice remains too clean and lacks the acoustic strain or raw projection typically heard when someone shouts due to an injury. It conveys energy but falls short of a convincing 'shouting manner'.",
+    "model_comparison": "Both models accurately speak the text. However, Model 1 (T1) demonstrates superior control over the 'Volume' and 'Shouting manner' features. T1 modifies the phonation style to simulate the physical act of shouting (strained vocal cords, high projection), fitting the context of an emergency. Model 2 (T2) increases pitch and emphasis but retains a more standard 'reading' quality that sounds like acting surprised rather than shouting. T1 is more authentic to the specific paralinguistic command.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1
+}

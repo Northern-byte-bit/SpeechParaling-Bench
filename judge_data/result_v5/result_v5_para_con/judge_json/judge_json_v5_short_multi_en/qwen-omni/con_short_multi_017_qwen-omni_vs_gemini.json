@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "1. Content Accuracy: The model output is 'Oh no, there is not enough time'. The script requested 'there's', so the model expanded the contraction. This is a minor accuracy issue (Score 2 range for content) but does not alter meaning. 2. Fluency: The timestamps (00:00-00:02) suggest a concise and fluent delivery. 3. Cognitive State (Nervous): The total duration is approximately 2 seconds. A fast speaking rate is a key acoustic correlate of nervousness and urgency, especially for the text 'not enough time'. The delivery aligns well with the semantic context of panic. 4. Pitch: The urgency implies a higher tension and thus likely meets the high pitch requirement effectively.",
+    "reasoning_model_2": "1. Content Accuracy: The model also output 'Oh no, there is not enough time', expanding the contraction 'there's'. 2. Fluency: The timestamps (00:00-00:03) indicate a duration of 3 seconds. 3. Cognitive State (Nervous): A 3-second duration for this short sentence suggests a significantly slower pace compared to Model 1. A slow delivery contradicts the urgency of 'not enough time', making the tone sound dragging, lethargic, or calm rather than nervous. It fails to convey the required anxiety. 4. Pitch: The slower, dragging pace is inconsistent with the tension required for a high pitch, likely resulting in a flatter or lower intonation.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions due to its temporal characteristics. The shorter duration (2s) of Model 1 naturally conveys the 'nervous' urgency and 'high pitch' tension requested by the prompt. Model 2's longer duration (3s) results in a sluggish delivery that directly contradicts the semantic meaning of 'not enough time' and the requested nervous emotional state. While both models had a minor content deviation (expanding 'there's' to 'there is'), Model 1's paralinguistic performance is semantically congruent, whereas Model 2's is not.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

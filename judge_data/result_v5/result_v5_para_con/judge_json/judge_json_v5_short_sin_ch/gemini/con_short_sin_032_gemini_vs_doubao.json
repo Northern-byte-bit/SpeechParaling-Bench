@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the text '我已经喊了一整晚，现在说不出话了' accurately (00:00-00:05). The pacing is slow, and the tone suggests exhaustion or weakness, which partially aligns with the context of the sentence. However, the specific instruction was to use a 'hoarse' (沙哑) voice quality. The audio exhibits a relatively clean, soft, and smooth female timbre. While there is a slight breathiness consistent with being tired, it lacks the acoustic roughness, vocal fry, or strain associated with a damaged voice that has been shouting all night. The voice is too melodious and clear to be considered 'hoarse'.",
+    "reasoning_model_2": "The model generates the text accurately (00:00-00:06). The voice quality is distinctively hoarse, featuring significant breathiness, raspiness, and vocal strain. From the very beginning ('我已经...'), the speaker sounds like they are struggling to phonate, mimicking the physical effect of strained vocal cords perfectly. The delivery is halting and weak, which reinforces the semantic meaning of the text. This is a vivid and accurate execution of the 'hoarse' constraint.",
+    "model_comparison": "Model 2 is significantly superior in adhering to the specific paralinguistic instruction 'hoarse' (沙哑). While Model 1 correctly interprets the *sentiment* of the text (sounding tired/weak), it fails to alter the *voice quality* (timbre) to be hoarse; it remains smooth and clean. Model 2, on the other hand, drastically alters the timbre to sound raspy, strained, and rough, perfectly matching the description of someone who has lost their voice from shouting. Model 2's performance on the core feature is vivid and spot-on.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

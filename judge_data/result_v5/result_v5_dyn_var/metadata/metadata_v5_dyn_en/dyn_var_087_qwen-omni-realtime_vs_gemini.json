@@ -1,0 +1,14 @@
+{
+    "sample_index": 87,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence starting with a disgusted emotion and gradually calming down to a neutral emotion: 'It's my least favorite math class again, so boring. But for graduation, I still have to listen carefully.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

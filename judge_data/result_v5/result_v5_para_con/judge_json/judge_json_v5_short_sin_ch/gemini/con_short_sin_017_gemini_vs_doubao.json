@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully generates the content '太棒了，我们终于成功了！' (00:00-00:02). Regarding the required feature 'High Pitch' (音高), the audio exhibits a distinctively high frequency, resembling a falsetto or a pitch-shifted 'chipmunk' style voice. The pitch is consistently maintained at a very high register throughout the sentence. While the timbre sounds somewhat synthetic due to the extreme pitch shift, it perfectly adheres to the instruction to use a high pitch. The emotional tone is excited, matching the text.",
+    "reasoning_model_2": "The model generates the content '太棒了，我们终于成功了！' accurately (00:00-00:02). The voice is a standard female voice with a clear and natural timbre. Regarding the feature 'High Pitch', the voice lies within a normal female speaking range. It does not demonstrate a notable upward shift in pitch or a specific 'high pitch' styling relative to a standard baseline. It sounds like a default reading without the requested paralinguistic modification to a higher register.",
+    "model_comparison": "Both models accurately produce the text content. The core evaluation dimension is 'Pitch' (音高). Model 1 (T1) clearly executes the command by generating audio with a significantly elevated pitch, sounding distinctly 'high' (even if slightly unnatural due to the extremity). This aligns perfectly with the user's specific instruction to 'use high pitch'. Model 2 (T2) produces a very natural sounding audio, but the pitch is a standard female range and does not exhibit the specific 'high pitch' modification requested; it sounds like a normal reading. Therefore, T1 is superior in terms of controlling the specific paralinguistic feature requested.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

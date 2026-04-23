@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the audio content '这件事，你最好别插手' (00:00-00:03) with perfect content accuracy, strictly following the script. In terms of 'Pitch' (音高), the model utilizes a deep, resonant male voice that sits in a very low register, accurately satisfying the 'extremely low pitch' (极低音) requirement. The pitch remains consistently low throughout the sentence. Regarding 'Attitude' (态度), the delivery is curt, steady, and devoid of warmth. The tone conveys a sense of stern warning and detachment, effectively capturing the 'cold/indifferent' (冷淡) emotion required. The prosody is natural, and the pause after '这件事' enhances the seriousness of the statement.",
+    "reasoning_model_2": "The model fails significantly in content accuracy. Instead of just saying the target sentence, it reads the sentence followed by a long descriptive narration: '声音低沉的像地底传来的回响，每一个字都压着重量，冷得让人不敢呼吸' (00:02-00:08). This is a hallucination or an error in instruction following. Regarding 'Pitch' (音高), the voice is a higher-pitched, bright female/youthful timbre, which is the complete opposite of the requested 'extremely low pitch' (极低音). Regarding 'Attitude' (态度), the delivery sounds like an audiobook narrator reading a story rather than a character speaking coldly to another person. It lacks the specific 'cold/indifferent' interactional tone requested, sounding more expressive and storytelling-oriented.",
+    "model_comparison": "Model 1 is superior in all aspects. It correctly follows the content instructions and accurately renders the paralinguistic features. Its pitch is appropriately deep, and the attitude is suitably cold and stern. Model 2 fails completely on multiple levels: it generates extra content (reading a description instead of acting it out), uses a high-pitched voice that contradicts the 'extremely low pitch' command, and adopts a storytelling tone rather than the requested cold attitude. Model 2's performance is a clear failure to control the specified features.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

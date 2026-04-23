@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 successfully interprets the text '咳咳' (cough cough) as a non-verbal paralinguistic instruction rather than reading the words literally. From 00:00 to 00:01, it produces two distinct, realistic coughing sounds, effectively creating the 'Non-verbal vocalization' requested in the prompt. Following the cough, it says '我想说几句' clearly. However, it omits the initial character '嗯' (Mmm) from the script. Despite this minor content omission, the execution of the core requirement—generating the specific non-verbal sound of coughing—is vivid and natural.",
+    "reasoning_model_2": "Model 2 fails to execute the specific paralinguistic instruction. It reads the text '嗯' (Mmm) and '我想说几句' (I want to say a few words) with a natural tone, but it completely ignores the '咳咳' (cough cough) portion of the script and the command to speak 'in a way that involves coughing'. There is no non-verbal coughing sound generated at any point; it simply skips that part of the text/instruction entirely. Therefore, it fails the core evaluation dimension.",
+    "model_comparison": "The prompt specifically requested the audio to be generated 'with a cough' (带咳嗽的方式) and the text included '咳咳'. Model 1 (T1) successfully demonstrated the 'Non-verbal vocalization' capability by converting '咳咳' into realistic coughing audio events. Although T1 missed the initial particle '嗯', it fulfilled the primary paralinguistic challenge. Model 2 (T2) failed completely to generate the coughing sound, ignoring the core constraint of the prompt. Thus, T1 is the clear winner for the 'Non-verbal vocalization' dimension.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

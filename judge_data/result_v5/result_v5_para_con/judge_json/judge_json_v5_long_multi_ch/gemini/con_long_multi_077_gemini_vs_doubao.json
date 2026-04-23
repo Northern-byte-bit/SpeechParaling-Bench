@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio from Model 1 strictly adheres to the user's stylistic commands. \n1. **Pitch**: From the very first phrase '天呐！' (0.0s), the voice adopts a significantly high pitch, maintaining this elevated, shrill tone throughout the clip to signify high stress.\n2. **Rhythm**: The pacing is extremely rapid and breathless. Segments like '速度快得吓人！' and '心跳得好快' are delivered with a rushed urgency, mimicking a panic attack without unnatural pauses.\n3. **Emotion**: The speaker sounds genuinely terrified. The voice trembles on lines like '我真的好害怕', and the breathiness accurately conveys the physiological reaction to fear. The performance is vivid and spot-on.",
+    "reasoning_model_2": "The audio from Model 2 fails to implement the specific paralinguistic features requested.\n1. **Pitch**: The voice remains in a comfortable, standard mid-range suitable for audiobook narration but ignores the 'high pitch' instruction. There is no significant elevation in tone even at the exclamations.\n2. **Rhythm**: The rhythm is moderate and steady. The speaker pauses clearly at commas (e.g., '天呐，... 刚刚...'), resulting in a calm flow that directly contradicts the 'urgent/rapid' requirement.\n3. **Emotion**: The emotional delivery is flat; it sounds like a narrator reading a script rather than a character experiencing the event. There is a lack of intensity, trembling, or fear in the voice.",
+    "model_comparison": "Model 1 is the clear winner across all three dimensions. It accurately interprets and applies the 'High Pitch', 'Rapid Rhythm', and 'Fearful Emotion' constraints, creating a highly immersive and realistic audio clip that perfectly matches the user's intent. Model 2, while fluent and clear, produces a default, neutral reading style that completely disregards the specific style control instructions. The difference is significant, with Model 1 sounding like a scared victim and Model 2 sounding like a calm narrator.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 1,
+    "winner_3": 1
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model detects the user's 'Sad' emotion and 'Youthful' dramatic expression ('my youth is over, boohoo') and adopts a highly empathetic, gentle, and comforting paralinguistic strategy. From 00:00 ('I'm really sorry to hear that'), the tone is soft, lower in pitch, and paced slowly to convey genuine sympathy. The pause before 'to hear that' (00:01) feels very human and thoughtful. In addressing the 'Youthful' aspect, specifically the hyperbolic claim that their youth is over, the model responds with validation rather than dismissal ('You're allowed to feel this way' at 00:05), using a serious, respectful tone that treats the user's distress as valid. The audio is fluent, natural, and emotionally resonant throughout.",
+    "reasoning_model_2": "The model responds with a tone that is fluent but emotionally mismatched. While the text acknowledges the situation, the paralinguistic delivery is surprisingly upbeat and pragmatic. At 00:00 ('It's tough when something you love ends'), the inflection is matter-of-fact, lacking the gravity required for a 'Sad' user. At 00:06, the suggestion to 'discover some new groups' is delivered with a bright, optimistic lift that feels dismissive of the user's current grief. Regarding the 'Youthful' context, the model sounds like a peer but fails to employ a strategy of patience or comfort, instead rushing to solutions in a way that might alienate a distressed young fan. The prosody sounds slightly 'customer-service' like rather than genuinely empathetic.",
+    "model_comparison": "Model 1 demonstrates a superior understanding of the user's paralinguistic context. It correctly identifies the need for emotional support and responds with a vocal strategy that is soft, slow, and validating (matching 'Emotion: Sad'). It handles the 'Age: Youthful' dramatic flair with maturity and patience. Model 2, conversely, fails the 'Paralinguistic Alignment' criteria significantly. Its tone is too bright, casual, and solution-oriented, which clashes with the user's expression of sadness and loss. While Model 2 is fluent, the lack of acoustic empathy makes it a poor response for the specific emotional context provided.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1
+}

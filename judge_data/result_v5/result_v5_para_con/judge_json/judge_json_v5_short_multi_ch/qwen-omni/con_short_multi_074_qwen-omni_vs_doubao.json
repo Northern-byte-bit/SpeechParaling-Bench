@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio with normal volume, consistent with the 'Volume' requirement. The emotion is maintained as neutral throughout, fitting the 'Emotion' criteria. However, regarding 'Content Accuracy', the model hallucinates the instruction text '今天说' (Today say) at the beginning, reading '今天说项目进展，今天必须完成' instead of the requested '项目进展，今天必须完成。'. Regarding the 'Stress' dimension, the model fails to place significant emphasis on the target word '今天' (Today) within the core sentence. The prosody is relatively flat (0.5s-2.5s), and the word '今天' (around 1.5s) blends in with the rest of the sentence without the requested prominence or intensity increase.",
+    "reasoning_model_2": "The model produces audio at a consistent, normal volume, satisfying the 'Volume' dimension. The tone is kept neutral and professional, meeting the 'Emotion' requirement. Similar to Model 1, it suffers from a content error by including the hallucinated phrase '今天说' at the start. However, in terms of 'Stress', this model performs significantly better. At the timestamp corresponding to the second '今天' (approx 1.6s-2.1s) in '今天必须完成', there is a noticeable increase in pitch and duration, effectively highlighting the urgency and fulfilling the command to 'stress Today'. The contrast makes the key information stand out clearly despite the initial content flaw.",
+    "model_comparison": "Both models fail in Content Accuracy by including the instruction fragment '今天说' at the beginning of the speech, which is a significant hallucination. However, evaluations of paralinguistic features are independent. \n\n1. **Volume (音量):** Both models use a normal, clear volume appropriate for the context. (Tie)\n2. **Emotion (情感):** Both models maintain a steady, neutral tone suitable for a project update. (Tie)\n3. **Stress (重音):** Model 2 clearly outperforms Model 1. Model 1 reads the sentence flatly, while Model 2 accurately applies the requested stress to '今天' (Today) in the clause '今天必须完成', making the time constraint prominent as intended by the user. \n\nTherefore, Model 2 is the winner due to its superior adherence to the specific stress control instruction.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

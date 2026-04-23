@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates a voice that sounds like an adult male, satisfying the 'Age' criterion. Regarding 'Cognitive State', the hesitant tone is effectively conveyed through pacing and prosody; specifically, there are noticeable pauses after 'education' (00:01) and 'further' (00:03), and the delivery of 'I am worried' (00:04) is slow and burdened, clearly expressing concern. In terms of 'Content Accuracy', there is a very minor expansion of the contraction 'I'm' to 'I am', which is a negligible deviation. The 'Volume' is somewhat soft and breathy, consistent with a hesitant demeanor, but remains audible and falls within an acceptable range for 'normal volume' given the emotional context.",
+    "reasoning_model_2": "The model generates a voice that sounds like an adult female, satisfying the 'Age' criterion. The 'Volume' is clear, consistent, and strictly 'normal'. The 'Cognitive State' of hesitation is also well-rendered, with appropriate pauses at 00:02 and 00:04, and a concerned tone on 'I am worried' (00:05). However, the model fails significantly in 'Content Accuracy' by adding a hallucinated sentence, 'What do you think?', at the end of the clip (00:09). According to the evaluation criterion, content errors prevent a score of 3, limiting the model's performance scores across dimensions despite the high quality of the paralinguistic features themselves.",
+    "model_comparison": "Model 1 is the clear winner. It adheres strictly to the provided script (with only a trivial text normalization of 'I'm' to 'I am') and delivers a convincing performance that integrates the requested age, volume, and hesitant tone. Model 2, while producing high-quality audio with good volume and tone, fails the core requirement of content accuracy by hallucinating an additional sentence ('What do you think?'). This major instruction-following failure makes Model 2 inferior to Model 1, which faithfully executes the command.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 2,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

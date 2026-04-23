@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the model to read a specific sentence: '听说新开的那家主题乐园特别刺激，有各种惊险的过山车和奇特的互动项目，我们周末一定要去体验一下，肯定能玩得非常尽兴。'. However, Model 1 significantly altered the text content. The actual speech generated is: '听说新开的那家主题乐园特别刺激，各种惊险过山车和奇特互动项目全都有。我们周末必须去一趟，肯定玩得超尽兴，根本停不下来。' (00:00-00:12). This constitutes a major hallucination and rephrasing error where the model failed to adhere to the script provided. According to the evaluation criterion, if the voice content is clearly inconsistent with the script, it must receive a score of 0.",
+    "reasoning_model_2": "Model 2 follows the text script perfectly with no errors, omissions, or additions (00:00-00:09). Regarding the required paralinguistic feature 'fast speed' (语速), the model performs excellently. The entire utterance is delivered in about 9 seconds, which is noticeably faster than a neutral speaking rate while maintaining high clarity and articulation. The pacing conveys the excitement and urgency inherent in the text (e.g., the rapid delivery of '有各种惊险的过山车...' at 00:02-00:05). The prosody is natural, and the fast tempo is consistent throughout the clip, satisfying the user's command effectively.",
+    "model_comparison": "Model 1 failed the fundamental requirement of Content Accuracy by paraphrasing the text instead of reading it verbatim. This automatic failure results in a score of 0 regardless of its speaking speed. Model 2, on the other hand, adhered strictly to the text and successfully applied the 'fast speed' constraint, delivering a natural, energetic, and rapid speech that perfectly fits the context of the prompt. Therefore, Model 2 is the clear winner.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

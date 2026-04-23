@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model accurately generates the text content '没问题，这个项目我能搞定' without errors. Regarding the dimension '音高' (Pitch), the voice generated is a female voice with a noticeably high pitch, leaning towards a sweet or youthful timbre, which deviates somewhat from the requested 'medium tone' (中音), appearing closer to high pitch. Regarding the dimension '认知状态' (Confidence), the delivery is fast, breezy, and casual (00:00-00:02). While it doesn't sound insecure, the tone is more 'friendly' or 'cute' rather than professionally 'confident'. The intonation is light, lacking the weight and firmness usually associated with a confident declaration of capability.",
+    "reasoning_model_2": "The model accurately generates the text content. Regarding '音高' (Pitch), the voice is a male voice in a clear mid-range frequency. It is neither deep/bass nor high/falsetto, adhering well to the 'medium tone' instruction. Regarding '认知状态' (Confidence), the model performs excellent. The phrase '没问题' is delivered with certainty (00:00-00:01), and '这个项目我能搞定' (00:01-00:02) is spoken with a steady rhythm, firm stress, and a decisive downward inflection at the end. This prosody effectively conveys a strong sense of reliability and self-assurance.",
+    "model_comparison": "In terms of Content Accuracy, both models are perfect. Regarding '音高' (Pitch), T1 uses a higher-pitched female voice which feels arguably above 'medium', while T2 uses a standard mid-range male voice that fits the 'medium' description more naturally. Regarding '认知状态' (Confidence), T2 is significantly superior. T1's expression is casual and light-hearted, whereas T2 employs firm stress, steady pacing, and definitive intonation to clearly project confidence and reliability, matching the user's intent to 'handle a project'. T2 aligns better with both specific paralinguistic requirements.",
+    "score_1_1": 2,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

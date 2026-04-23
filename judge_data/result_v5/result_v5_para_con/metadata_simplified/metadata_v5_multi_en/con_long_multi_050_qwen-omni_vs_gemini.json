@@ -1,0 +1,16 @@
+{
+    "sample_index": 50,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a steady rhythm and a neutral emotion: 'Based on the data we currently possess, there is a certain deviation between market feedback and expectations. We need to further analyze the reasons and adjust our strategy.'",
+    "dimensions": [
+        "Emotion",
+        "Rhythm"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

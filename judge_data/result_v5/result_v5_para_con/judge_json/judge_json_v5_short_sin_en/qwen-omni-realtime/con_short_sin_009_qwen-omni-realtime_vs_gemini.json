@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user requested the specific text: \"I'll go to the gym to work out tomorrow morning.\" However, Model 1 generated completely different content: \"I'll head to the gym tomorrow morning to get in a solid workout, no excuses.\" This is a failure in Content Accuracy. Regarding the target feature 'Age' (adult voice), the audio features a very high-pitched, synthetic voice that sounds like a young child or a cartoon character (often associated with pitch-shifted 'chipmunk' effects), rather than a natural adult voice. Due to the complete deviation from the script and the failure to provide an adult voice, this receives a score of 0.",
+    "reasoning_model_2": "Model 2 follows the script perfectly, saying \"I'll go to the gym to work out tomorrow morning.\" The voice is that of a mature adult female. The tone is calm, the pacing is natural, and the vocal timbre clearly falls within the adult range, lacking the high pitch of a child or the tremors of an elderly voice. It successfully executes the command for an 'adult voice' with high fidelity.",
+    "model_comparison": "Model 1 fails significantly on both content accuracy (hallucinating extra phrases and changing words) and the paralinguistic feature (producing a child-like/cartoonish high-pitched voice instead of an adult voice). Model 2 delivers the correct script with 100% accuracy and uses a convincing, natural adult voice. Model 2 is the clear winner.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

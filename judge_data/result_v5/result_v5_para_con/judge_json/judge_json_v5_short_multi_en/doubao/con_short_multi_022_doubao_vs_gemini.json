@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio content 'He really left, I am so sad.' Note that it expands the contraction 'I'm' to 'I am', which is a minor content deviation. Regarding the 'Sad Emotion' dimension, the delivery (00:00-00:04) is remarkably flat and neutral. The tone sounds conversational or expository rather than emotional. There is no trembling, breathiness, or slower pacing typically associated with sadness; it sounds like a standard TTS reading a script. Regarding the 'Low Pitch' dimension, the voice is a standard mid-range female timbre. It does not exhibit a noticeably low pitch or a drop in register to convey the requested paralinguistic feature. The performance is fluent but fails to capture the requested style.",
+    "reasoning_model_2": "Model 2 generates the audio content 'He really left, I'm so sad,' perfectly matching the text script. Regarding the 'Sad Emotion' dimension, the model excels. From 00:00 to 00:02, the voice is breathy, quiet, and carries a tone of resignation and melancholy. The pacing is appropriately subdued, effectively conveying the feeling of sadness. Regarding the 'Low Pitch' dimension, the voice is a deep, low-pitched male timbre (or significantly lowered pitch), which aligns perfectly with the user's command for 'low pitch'. The combination of the deep voice and the somber delivery makes the audio very natural and expressive of the target parameters.",
+    "model_comparison": "In comparing the two models, Model 2 is the clear winner across both dimensions. Model 1 provides a standard, neutral reading that fails to incorporate either the sad emotion or the low pitch effectively; it also slightly alters the text ('I am' vs 'I'm'). Model 2, conversely, delivers a highly expressive performance. The emotion is palpable through breathiness and pacing, and the pitch is distinctly low as requested. Model 2 accurately interprets and executes the paralinguistic commands.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model successfully incorporates the non-linguistic vocalization 'Ah~' at the very beginning (00:00-00:01). The sound is produced with a breathy, elongated exhale that strongly resembles a yawn or a deep weary sigh, perfectly matching the 'yawn' instruction. The following text 'I am so sleepy...' (00:01-00:06) is delivered with a dragged, lethargic rhythm and softer projection, maintaining the sleepy persona established by the initial vocalization. The content is accurate, and the transition from the vocalization to speech is natural.",
+    "reasoning_model_2": "The model fails to produce the specific non-linguistic vocalization part of the script ('Ah~'). The audio begins directly with 'I am so sleepy' (00:00), effectively omitting the segment where the yawn was most likely intended to be placed. Without the 'Ah~', there is no distinct non-linguistic vocalization present. While the tone is slightly subdued, it lacks the explicit 'yawn' feature requested in the prompt, and the omission of text constitutes a content error.",
+    "model_comparison": "Model 1 is the clear winner. It accurately follows the script including the 'Ah~' and modifies the phonation of this segment to sound like a genuine yawn/sigh, fulfilling the paralinguistic requirement. Model 2 completely omits the 'Ah~' segment, thereby failing to perform the non-linguistic vocalization and failing content accuracy. Model 1 demonstrates superior control over feature generation and script fidelity.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

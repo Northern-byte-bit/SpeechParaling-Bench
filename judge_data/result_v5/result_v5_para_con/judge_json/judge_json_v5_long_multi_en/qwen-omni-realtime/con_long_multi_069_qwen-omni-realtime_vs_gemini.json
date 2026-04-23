@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately identifies the paralinguistic instructions embedded in the prompt. \n\n1. **Cognitive State**: The model adopts a visibly exhausted and weary persona throughout the clip (00:01-00:17). The pacing is slow, the articulation is slightly slurred and heavy, and the prosody is flat, perfectly conveying the feeling of the body being 'about to fall apart'. The tone matches the 'tired' requirement perfectly.\n2. **Non-Linguistic Vocalizations**: Instead of reading the word 'Sigh' from the text, the model interprets it as a stage direction and executes a genuine, audible breathy sigh at 00:00. Furthermore, it naturally inserts additional breathy sighs at 00:06 and 00:11, enhancing the realism of the tired state.\n3. **Volume**: The entire speech is delivered in a low, breathy, and soft register, strictly adhering to the 'quietly' constraint. It sounds intimate and drained of energy.",
+    "reasoning_model_2": "Model 2 fails to adhere to the specific paralinguistic constraints provided in the prompt.\n\n1. **Cognitive State**: The tone is upbeat, bright, and energetic (e.g., 00:01-00:03 'Today's workload was truly astonishing'). The pacing is brisk, and the pitch is relatively high, which is the complete opposite of a 'tired' tone or someone whose body is falling apart.\n2. **Non-Linguistic Vocalizations**: At 00:00, the model reads the text 'Sigh' literally (pronounced strangely like 'Zai' or 'Sai') rather than performing the vocal act of sighing. It fails to interpret the non-linguistic prompt.\n3. **Volume**: The volume is projected clearly at a standard conversational level, ignoring the instruction to speak 'quietly'.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. \n\n**Cognitive State**: Model 1 perfectly captures the requested 'tired' tone with slow pacing and heavy prosody, whereas Model 2 sounds energetic and upbeat, completely failing the prompt.\n\n**Non-Linguistic Vocalizations**: Model 1 correctly interprets 'Sigh...' as an instruction to perform a sound and executes a realistic audible sigh at the beginning (and adds others naturally). Model 2 incorrectly reads the text as a spoken word (and mispronounces it), failing to generate the non-linguistic feature.\n\n**Volume**: Model 1 successfully lowers its volume to a quiet, breathy level suitable for the context. Model 2 speaks at a normal, loud volume.\n\nModel 1 demonstrates a high level of controllability and understanding of context, while Model 2 treats the prompt purely as text-to-read without stylistic adjustment.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model correctly generates the content '那声音太可怕了' (00:00-00:02) with accurate pronunciation. However, it fails significantly in the paralinguistic dimensions. regarding 'Volume' (Whisper), the speech is delivered in a normal, modal voice (full vocal fold vibration) rather than a whisper. The acoustic characteristic is that of standard reading, completely ignoring the '耳语' (whisper) instruction. Regarding 'Emotion' (Fear), because the voice is a standard read-aloud tone, it lacks the trembling, breathiness, or urgency associated with fear. The delivery sounds neutral to slightly serious, but definitely not 'scared', resulting in a mismatch with the prompt's emotional requirement.",
+    "reasoning_model_2": "The model accurately synthesizes the text '那声音太可怕了' (00:00-00:02). In terms of 'Volume', the model successfully switches to an unvoiced, breathy phonation, perfectly capturing the characteristics of a 'whisper' (耳语). This creates an immediate sense of intimacy and tension. Regarding 'Emotion', the whispering style naturally enhances the fearful atmosphere. The prosody includes a slight tremble and a hushed urgency that effectively conveys the feeling of being terrified and trying to avoid detection. The integration of the whisper volume and the fearful tone is natural and vivid.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. The prompt explicitly required a 'whispering volume'. Model 1 failed this binary constraint by using a normal, voiced speaking style, whereas Model 2 correctly produced a whisper (unvoiced speech). This difference heavily impacts the second dimension, 'Emotion'. Model 1's normal voice made the fear emotion sound inauthentic or non-existent (sounding more like a statement). Model 2 utilized the whisper to reinforce the emotion of fear, resulting in a highly coherent and expressive audio that met all user constraints.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

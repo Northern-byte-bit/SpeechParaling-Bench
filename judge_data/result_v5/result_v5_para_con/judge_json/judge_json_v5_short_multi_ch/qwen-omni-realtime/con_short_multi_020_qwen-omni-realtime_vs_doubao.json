@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the provided text script: '你真是个天才，又把事情搞砸了' without any hallucinations. \n\nRegarding the dimension '节奏' (Rhythm): The user requested '抑扬顿挫' (cadenced/rising and falling). The model's delivery (00:00-00:04) is relatively slow and flat. While there is a pause between the two clauses, the intonation is mostly descending and lacks the dynamic pitch variation associated with '抑扬顿挫'. It sounds more weary and heavy than rhythmically modulated. \n\nRegarding the dimension '态度' (Attitude): The user requested '讽刺' (Sarcastic). The model elongates the word '天才' (00:01) and uses a lower, tired pitch to convey the opposite meaning of the words. It successfully sounds like someone who is resignedly mocking a failure, fitting the definition of sarcasm, though it lacks the biting sharpness of a more active mockery. The emotional expression is discernible but feels a bit passive.",
+    "reasoning_model_2": "Model 2 fails the fundamental requirement of Content Accuracy. The user requested to read a specific sentence: '你真是个天才，又把事情搞砸了。'. Model 2 instead generates a 22-second long monologue containing multiple hallucinated sentences (e.g., '天才到连锅都炒糊了', '连地板都替你鼓掌了', etc.) and omits the specific second clause of the original prompt entirely. \n\nAccording to the evaluation criterion, a score of 0 applies when 'Voice content is clearly inconsistent with the script'. Since the model completely disregarded the text constraints and hallucinated a script, it is impossible to evaluate the target features on the *requested* content. Therefore, it receives a score of 0 for both dimensions due to severe content failure.",
+    "model_comparison": "Model 1 followed the text instructions perfectly, whereas Model 2 completely failed on content accuracy by hallucinating a long, unrequested script. While Model 2's audio sounded expressive, its failure to adhere to the requested text renders it a failure in a controlled generation task. Model 1 provided a valid, if somewhat rhythmically flat, attempt at the prompt. Model 1 wins by default due to Model 2's catastrophic failure to speak the correct text.",
+    "score_1_1": 1,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 2,
+    "score_2_2": 0,
+    "winner_2": 1
+}

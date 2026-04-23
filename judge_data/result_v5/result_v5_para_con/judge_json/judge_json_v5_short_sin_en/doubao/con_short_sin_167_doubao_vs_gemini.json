@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 fails significantly in Content Accuracy. The generated audio cuts off abruptly mid-sentence, producing only 'Finally finished, I can finally...', completely omitting 'breathe a sigh of relief.' due to the audio ending prematurely. While the voice has a tired, breathy quality that attempts to match the mood, the incomplete content is a critical failure. According to the Global Considerations, extremely poor audio with missing content results in a score of 0. No distinct non-linguistic sigh vocalization was completed before the cutoff.",
+    "reasoning_model_2": "Model 2 demonstrates excellent performance. Content Accuracy is perfect (3/3), reading the full text clearly. Fluency and Naturalness are high, with a human-like prosody. regarding the Paralinguistic Compliance (Non-Linguistic Vocalizations), the model successfully inserts a distinct, audible sigh (a heavy exhalation sound) roughly between 'finished' and 'I can finally' (around 0:02), and the overall tone reflects relief and exhaustion. The integration of the sigh is natural and enhances the semantic meaning of the text.",
+    "model_comparison": "Model 1 is disqualified due to severe content truncation; it fails to finish the sentence, resulting in a score of 0. Model 2, in contrast, delivers the complete text with high fluency and successfully incorporates the requested non-linguistic vocalization (a sigh) at a natural point in the sentence. Model 2 captures the intended paralinguistic feature and 'relief' emotion perfectly.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

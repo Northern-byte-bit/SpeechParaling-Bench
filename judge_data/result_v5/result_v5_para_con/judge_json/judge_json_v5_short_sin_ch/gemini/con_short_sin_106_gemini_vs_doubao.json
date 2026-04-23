@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 synthesizes the text '不许挑食，把菜都吃完' accurately. The voice sounds like a young male. Regarding the specific instruction to emphasize '不许' (No allowed/Must not): In the segment 0:00-0:01, the phrase '不许' is spoken quite rapidly and blends directly into '挑食'. Acoustically, there is no significant increase in loudness, duration, or pitch change on '不许' to mark it as emphasized. In fact, the stress seems to fall more naturally on the object '挑食' or '菜'. While the audio is fluent and intelligible, it fails to execute the specific paralinguistic control requested by the user.",
+    "reasoning_model_2": "Model 2 synthesizes the text accurately with a clear female voice. In response to the instruction to emphasize '不许': The model executes this by articulating '不许' (0:00-0:01) very clearly and firmly, followed by a noticeable pause (0:01-0:02) before continuing with '挑食'. This prosodic break and the deliberate enunciation of the first two characters effectively create a strong emphasis, drawing the listener's attention exactly where requested. The tone is authoritative and clear.",
+    "model_comparison": "The user explicitly requested to emphasize the word '不许'. Model 1 failed to do this; it read the sentence with a flat or standard prosody where '不许' was rushed and not prominent. Model 2 successfully implemented the instruction by using a firm tone and a strategic pause after the target word, making '不许' stand out significantly. Therefore, Model 2 is the clear winner for following the feature control command.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

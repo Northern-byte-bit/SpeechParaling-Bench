@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The user explicitly requested the sentence to be read with a scream, focusing on the Non-Linguistic Vocalization of the interjection 'Ah!'. Model 1 completely fails to adhere to this instruction. At 00:00, the 'Ah' is delivered with a low-energy, flat intonation, resembling a mild sigh or a calm realization rather than a scream. The subsequent phrase 'there is a mouse there' (00:01-00:02) continues in a neutral, monotone reading style with absolutely no trace of fear, urgency, or high volume. The audio sounds like a standard text-to-speech reading without any paralinguistic modification.",
+    "reasoning_model_2": "Model 2 follows the instruction effectively. At 00:00, the vocalization 'Ah!' is produced with high intensity, sharp attack, and a fearful tone, accurately mimicking a scream or a loud gasp of shock. The emotion carries over into the rest of the sentence 'There is a mouse there' (00:01-00:02), which is delivered with the appropriate urgency and breathless quality associated with finding a mouse. The Non-Linguistic Vocalization is natural and vivid, perfectly matching the context and command.",
+    "model_comparison": "Model 2 is the clear winner as it correctly implements the 'scream' instruction. Model 1 ignored the paralinguistic command entirely, producing a flat and neutral reading that contradicts the semantic content of the script (fear of a mouse) and the explicit user prompt. Model 2 successfully modulated the pitch and energy to create a convincing scream on the interjection 'Ah!' and maintained the fearful tone, demonstrating superior control over non-linguistic vocalizations.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2
+}

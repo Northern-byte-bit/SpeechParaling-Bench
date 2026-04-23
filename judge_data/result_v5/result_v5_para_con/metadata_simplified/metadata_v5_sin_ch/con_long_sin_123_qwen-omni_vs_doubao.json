@@ -1,0 +1,14 @@
+{
+    "sample_index": 123,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用生气的情绪说：我已经等了你半个小时了，为什么每次约会你都迟到？你到底有没有把我放在心上？我真的受够了，下次再这样我就不等了！",
+    "dimensions": [
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model fails to strictly follow the provided script, adding '今天说' (Today say) at the beginning (00:00), which appears to be reading part of the prompt instructions. Regarding the evaluation dimensions: 1. **Volume**: The volume is normal and consistent throughout. 2. **Emotion**: The tone is generally neutral, though the addition of extra words makes it sound slightly casual/conversational rather than strictly professional. 3. **Stress**: The user requested stress on '今天' (Today). Due to the content error, the model says 'Jintian shuo...' (00:00) and then 'Jintian bixu wancheng' (00:01). The stress on the target '今天' (second one) is weak and flat; the prominence is lost due to the initial hallucination and lack of prosodic emphasis on the keyword in the main clause. Due to the content error violating the scoring criteria for a perfect score, the maximum score is capped.",
+    "reasoning_model_2": "The model includes the correct target sentence but follows it with a significant hallucination/continuation: '我会按计划推进，确保不延误' (I will proceed according to plan...), which was not in the script. Regarding the evaluation dimensions: 1. **Volume**: The volume is normal and stable. 2. **Emotion**: The tone is neutral and professional, fitting the 'project progress' context well. 3. **Stress**: In the target phrase '项目进展，今天必须完成' (00:00-00:01), the word '今天' is articulated with a slight pause and pitch prominence, effectively conveying the required emphasis within the neutral tone. However, the score is capped due to the significant content addition (hallucination) which violates the strict content accuracy requirement for a score of 3.",
+    "model_comparison": "Both models fail the 'Content Accuracy' criterion significantly. Model 1 (T1) incorporates prompt instructions ('今天说') into the speech, disrupting the sentence structure. Model 2 (T2) hallucinates a conversational continuation after the target text. According to the scoring rubric, neither can achieve a score of 3 due to these content flaws. Comparing the paralinguistic features: Both models achieve the required 'Normal Volume' and 'Neutral Emotion'. However, on the 'Stress' dimension, Model 2 performs better. T2 correctly emphasizes '今天' within the target sentence structure. T1's stress is confused by its reading error (saying 'Today' twice) and the target instance lacks necessary emphasis. Therefore, Model 2 is superior in conveying the target features despite the content addition.",
+    "score_1_1": 2,
+    "score_2_1": 2,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 2,
+    "winner_2": 0,
+    "score_1_3": 1,
+    "score_2_3": 2,
+    "winner_3": 2
+}

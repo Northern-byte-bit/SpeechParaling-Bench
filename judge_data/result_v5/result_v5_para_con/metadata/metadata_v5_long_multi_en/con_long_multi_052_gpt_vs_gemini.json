@@ -1,0 +1,18 @@
+{
+    "sample_index": 52,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a child voice, a very fast pace, and a surprised emotion: 'Oh my goodness! I actually caught a shiny Pokémon, this is absolutely incredible! I never thought I could be this lucky!'",
+    "dimensions": [
+        "Age",
+        "Emotion",
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2,
+    "winner_position_3": 2
+}

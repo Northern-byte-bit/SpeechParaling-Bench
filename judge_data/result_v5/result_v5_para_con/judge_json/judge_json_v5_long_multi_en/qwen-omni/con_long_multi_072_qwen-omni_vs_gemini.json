@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately synthesizes the text with high fluency and naturalness. However, regarding the paralinguistic requirements: \n1. **Attitude (Cold):** The tone is professional and polite, bordering on warm or neutral narration. It lacks the required 'cold,' distancing, or authoritative affect necessary for the context of an 'unchangeable policy.' Ideally, the voice should sound more detached or stern.\n2. **Pitch (Very Low):** The pitch falls within a standard mid-range for a female voice. It does not exhibit the requested 'very low' characteristic.\n3. **Rhythm (Steady):** The rhythm follows natural prosody with standard conversational intonation curves (rising and falling). While fluent, it is not particularly 'steady' or monotonous in the stylistic sense requested to convey rigidity.",
+    "reasoning_model_2": "Model 2 synthesizes the text accurately with excellent clarity. Regarding the paralinguistic requirements:\n1. **Attitude (Cold):** The delivery is notably detached, formal, and serious. The enunciation is crisp and lacks warmth, effectively conveying the 'cold' and strict nature of the command (e.g., 'unchangeable policy').\n2. **Pitch (Very Low):** The voice possesses a deeper resonance and sits in a lower register compared to typical synthesis, satisfying the 'very low pitch' constraint relatively well for the voice type.\n3. **Rhythm (Steady):** The speaker adopts a slower, more measured pace. There is a distinct steadiness to the delivery, with consistent spacing between words that reinforces the authoritative and non-negotiable nature of the message.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 across all three requested dimensions. \n\n**Attitude:** Model 1 sounds like a standard, pleasant IVR or audiobook narrator (neutral/warm), failing to capture the 'cold' tone. Model 2 successfully adopts a stern, bureaucratic, and detached persona that fits the 'cold' description perfectly.\n\n**Pitch:** Model 1 is in a standard/medium register. Model 2 is noticeably deeper and more resonant, adhering closer to the 'very low pitch' instruction.\n\n**Rhythm:** Model 1 has natural, conversational prosody with pitch variation. Model 2 utilizes a deliberate, slow, and highly consistent cadence ('steady rhythm') that enhances the severity of the text. \n\nTherefore, Model 2 is the clear winner as it faithfully implements all specific style control commands.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 2,
+    "score_2_3": 3,
+    "winner_3": 2
+}

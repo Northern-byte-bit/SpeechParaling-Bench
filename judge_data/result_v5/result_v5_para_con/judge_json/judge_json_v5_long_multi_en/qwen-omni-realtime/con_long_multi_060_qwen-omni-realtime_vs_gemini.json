@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 completely fails to convey the required emotion. The prompt asks for 'crying' and 'sad emotion', yet the audio is delivered with a cheerful, upbeat, and standard reading tone (e.g., 0:00-0:05). Regarding Non-Linguistic Vocalizations, the model literally reads the words 'sniffle sniffle' at 0:06-0:07 instead of generating the corresponding sound effect. For Volume, the speech is at a standard conversational level, ignoring the instruction to speak 'loudly'. The content accuracy is high as it follows the script word-for-word, but the paralinguistic performance is non-existent.",
+    "reasoning_model_2": "Model 2 successfully alters its tone to sound sad and whining, fitting the 'sad emotion' requirement significantly better than Model 1, although it sounds more like a quiet whine than 'loud crying'. It fails the content accuracy slightly by changing 'Mom' to 'Mommy' (0:00) and 'Dad's' to 'Daddy's' (0:04). For Non-Linguistic Vocalizations, it also fails by reading the words 'sniffle sniffle' textually at 0:10-0:12 rather than performing the sound. Regarding Volume, the audio is quite soft and subdued, which directly contradicts the command to speak 'loudly'.",
+    "model_comparison": "In terms of Emotion, Model 2 is the clear winner; despite its imperfections (sounding more whiny/soft than loud/crying), it attempts and conveys sadness, whereas Model 1 provides a completely inappropriate cheerful tone. For Non-Linguistic Vocalizations, both models fail by reading the onomatopoeia 'sniffle sniffle' as text, resulting in a tie (score 0). For Volume, both models fail to adhere to the 'loudly' instruction; Model 1 is standard volume while Model 2 is soft, resulting in a low-score tie. Model 2 is preferred overall solely due to the presence of the correct emotional valence.",
+    "score_1_1": 0,
+    "score_2_1": 2,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 0,
+    "winner_2": 0,
+    "score_1_3": 0,
+    "score_2_3": 0,
+    "winner_3": 0
+}

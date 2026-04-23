@@ -1,0 +1,16 @@
+{
+    "sample_index": 6,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very low pitch and a slow pace: 'This matter is not trivial.'",
+    "dimensions": [
+        "Pace",
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 0,
+    "winner_position_2": 2
+}

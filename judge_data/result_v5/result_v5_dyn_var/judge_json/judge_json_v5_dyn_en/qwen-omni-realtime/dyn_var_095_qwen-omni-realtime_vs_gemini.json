@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 accurately follows the provided script with perfect content accuracy. The paralinguistic expression is handled effectively: the initial segment (00:00 - 00:04) uses a slower pace and distinct pauses ('My child's grades this time...') to convey the required hesitant tone. The transition occurs naturally around 00:06, where the pace quickens and the pitch adjusts to sound more urgent and worried ('He seems to have been playing...'), effectively capturing the anxious tone for the remainder of the clip. The generation meets all criteria for content and dynamic adjustment.",
+    "reasoning_model_2": "Model 2 fails significantly on the Content Accuracy dimension. It rewrites parts of the target sentence (e.g., changing 'playing a lot recently' to 'playing so much lately', 'if this continues' to 'if this keeps going') and hallucinates a significant extension to the script at the end ('I mean, I really don't know. It's just...'). While the emotional expression is actually quite high-quality—with convincing hesitation (stammers at start) and anxiety—the failure to adhere to the specified text is a major issue according to the evaluation criteria.",
+    "model_comparison": "Model 1 is the clear winner because it strictly adheres to the user's command regarding the text script while successfully implementing the requested tonal shift. Model 2, while expressive and natural-sounding in its paralinguistics, fails the fundamental constraint of reading the specific sentence provided, engaging in paraphrasing and hallucination. In a controlled evaluation, accurate text adherence is a prerequisite.",
+    "score_1": 3,
+    "score_2": 1,
+    "winner": 1
+}

@@ -1,0 +1,18 @@
+{
+    "sample_index": 53,
+    "candidate_name": "gemini",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "用耳语的音量，在“秘密”一词后明显停顿，紧张地说: 你听说了吗？那个转学生好像有一个大秘密。我昨天无意中听到了一些，现在想想还有点害怕呢。",
+    "dimensions": [
+        "音量",
+        "停顿",
+        "认知状态"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 2,
+    "winner_position_3": 1
+}

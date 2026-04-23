@@ -1,0 +1,14 @@
+{
+    "sample_index": 91,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请先用困惑的状态开始，然后逐渐转变为自信说：这份报告...我有点不明白这个数据来源，但经过仔细核对，我现在确定这些分析都是准确无误的，项目方向也清晰了。",
+    "dimensions": [
+        "认知状态"
+    ],
+    "candidate_position": 1,
+    "winner_position": 2,
+    "status": "Success",
+    "category": "dynamic_adjustment"
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "In terms of 'Non-verbal vocalization' (非语言发声), Model 1 completely fails at timestamp 00:00 by reading the text instruction '(咳嗽)' aloud as the word 'Késou' instead of generating the actual sound of a cough. Regarding 'Attitude' (态度), the delivery is relatively flat and mechanical; while it follows the text, it sounds like a standard reading rather than a rude, angry person shouting late at night. The emotional intensity is low. For 'Volume' (音量), the audio lacks the acoustic characteristics of shouting or high projection (such as vocal strain); it maintains a normal speaking volume throughout, failing to meet the requirement to 'speak loudly'.",
+    "reasoning_model_2": "In terms of 'Non-verbal vocalization' (非语言发声), Model 2 correctly interprets the instruction at 00:00, generating a realistic coughing sound before speaking. Regarding 'Attitude' (态度), the model successfully adopts a rude, aggressive, and complaining tone (00:01-00:13), with sharp intonation and prosody that clearly conveys anger and impatience. For 'Volume' (音量), the speaker's voice exhibits the timbre and strain associated with shouting/projecting voice loudly, effectively fulfilling the 'speak loudly' constraint in a natural way.",
+    "model_comparison": "Model 2 demonstrates superior performance across all evaluated dimensions. Model 1 commits a critical error in the Non-verbal vocalization dimension by reading the prompt instruction as text ('Késou') instead of performing the sound. Furthermore, Model 1's expression of attitude and volume is flat and mechanical, resembling a standard reading. In contrast, Model 2 generates a natural cough, and the speech that follows is vividly rude and shouted, accurately reflecting the paralinguistic requirements of the prompt.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

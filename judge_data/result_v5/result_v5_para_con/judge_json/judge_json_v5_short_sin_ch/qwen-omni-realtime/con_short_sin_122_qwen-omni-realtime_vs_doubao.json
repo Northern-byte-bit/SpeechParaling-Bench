@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately generates the spoken content '这简直是欺骗！我无法接受。' without any errors or hallucinations (00:00-00:02). The emotional expression is highly consistent with the 'angry' (生气) prompt. The speaker uses a loud, forceful volume and emphatic stress on keywords like '简直' (simply) and '欺骗' (deception), effectively conveying indignation and rage. The pacing is natural for an angry outburst, and the prosody sounds authentic.",
+    "reasoning_model_2": "The model fails the Content Accuracy criterion significantly. The user requested the specific text '这简直是欺骗！我无法接受。', but the model generated: '这简直是欺骗，我绝对无法接受，你居然敢这样对我，我真是气到爆炸。' (00:00-00:06). It added the word '绝对' (absolutely) and two entire extra sentences. According to the scoring standard, if the voice content is clearly inconsistent with the script, the score must be 0, regardless of the emotional tone (which was somewhat complaining/angry but compromised by the hallucination).",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact text with a convincing, high-quality angry emotion. Model 2 failed to adhere to the requested script, adding significant unauthorized text (hallucination). Therefore, Model 1 is the clear winner due to Model 2's critical content failure.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

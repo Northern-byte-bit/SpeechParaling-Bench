@@ -1,0 +1,16 @@
+{
+    "sample_index": 6,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very low pitch and a slow pace: 'Children, do you know that a long, long time ago, an ancient legend was passed down on this land. Back then, people's lives were much harder than they are now, but they also knew how to cherish things more.'",
+    "dimensions": [
+        "Pace",
+        "Pitch"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1,
+    "winner_position_2": 1
+}

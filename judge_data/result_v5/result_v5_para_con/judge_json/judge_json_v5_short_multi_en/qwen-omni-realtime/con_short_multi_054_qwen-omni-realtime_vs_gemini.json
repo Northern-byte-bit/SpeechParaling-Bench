@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the audio content 'Wow, this new cafe is great! Let's come again next time!' perfectly matching the script. Regarding the paralinguistic features: \n1. **Emotion**: The tone is visibly happy and enthusiastic, particularly on the words 'Wow' (00:00) and 'great' (00:02), fulfilling the 'happy emotion' requirement.\n2. **Pitch**: The speaker adopts a higher register throughout the clip, utilizing upward inflections that align well with the 'high pitch' instruction.\n3. **Rhythm**: The pacing is brisk and bouncy (total duration ~5s), with a fluid cadence that effectively conveys a 'lighthearted rhythm'.\nThe audio is natural, fluent, and accurately follows all instructions.",
+    "reasoning_model_2": "The model fails the fundamental criterion of Content Accuracy. The user requested the specific sentence: 'Wow, this new cafe is great! Let's come again next time!'. However, the model generated: 'Oh, wow, this new cafe is just fantastic isn't it? I can't wait to swing by again next time. Let's totally do that, yeah?'. \nAccording to the scoring criteria, a score of 0 must be assigned if the voice content is clearly inconsistent with the script or the meaning is completely changed due to major errors/additions. Since the model completely hallucinated a new script, it receives a 0 for all dimensions regardless of paralinguistic performance.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the correct text with the requested high pitch, lighthearted rhythm, and happy emotion. The audio was natural and expressive. Model 2 completely failed to read the requested text, substituting it with a much longer, hallucinated script ('...just fantastic isn't it? I can't wait...'). This is a catastrophic failure in instruction following regarding the content. Therefore, Model 1 wins significantly across all dimensions.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 0,
+    "winner_3": 1
+}

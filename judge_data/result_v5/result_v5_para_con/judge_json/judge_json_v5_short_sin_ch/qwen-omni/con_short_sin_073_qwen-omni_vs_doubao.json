@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the audio with an added sound '嘘' (Shh) at the beginning (0:00-0:01), which was not in the requested text '我悄悄告诉你，他就是老板'. Regarding the target paralinguistic feature 'whisper' (耳语) and 'volume' (音量), the model fails to produce a genuine whisper. Instead, it uses a 'stage whisper' or a low-projection voiced tone where vocal cord vibration is clearly audible throughout the sentence. It sounds like a normal voice speaking quietly rather than an unvoiced whisper. While the intonation suggests secrecy, the acoustic characteristic of a whisper is missing.",
+    "reasoning_model_2": "The model follows the script perfectly without any additions or omissions. Regarding the target feature 'whisper' (耳语) and 'volume' (音量), the audio is a textbook example of a genuine whisper. The speech is unvoiced (lacking vocal cord vibration) and relies entirely on breathy articulation, which accurately reflects the physics of whispering. The volume is appropriately low and intimate, creating a strong sense of a secret being shared close to the listener's ear (ASMR-like quality). The pacing is natural for a secretive statement.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in this evaluation. The user specifically requested a 'whisper' (耳语). Model 1 produced a quiet, voiced speech (phonated), which is not a true whisper. Model 1 also added an unrequested interjection ('嘘') to the start of the sentence. Model 2 produced a high-fidelity, unvoiced whisper that sounds extremely natural and strictly adheres to the provided text. Model 2 correctly interpreted and executed the physical acoustic requirements of the command.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

@@ -1,0 +1,14 @@
+{
+    "sample_index": 113,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a neutral emotion: 'I plan to leave at seven tomorrow morning, first go to the supermarket to buy some daily necessities, and then go to the library to borrow a few books. In the afternoon, I will arrange for fitness, and prepare dinner in the evening.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

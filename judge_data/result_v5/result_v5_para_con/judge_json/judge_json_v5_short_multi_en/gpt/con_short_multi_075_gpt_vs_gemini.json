@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The model generates the content accurately ('Hey! Don't block the way, move aside!'). Regarding paralinguistic features: \n1. **Non-Linguistic Vocalizations (Coughing):** The audio successfully integrates coughing sounds at the beginning (00:00) and at the end (00:03). The coughs sound organic and consistent with the voice acting.\n2. **Attitude (Rude):** The tone is stern, direct, and impatient (00:01-00:02). While not extremely aggressive, it effectively conveys a dismissive and rude demeanor suitable for the command.\n3. **Volume (Loudly):** The speaker uses a forceful, projected delivery. It is louder than conversational speech, though it stops short of full-blown shouting. It satisfies the 'loudly' constraint reasonably well by increasing vocal weight and projection.",
+    "reasoning_model_2": "The model generates the content accurately. Regarding paralinguistic features:\n1. **Non-Linguistic Vocalizations (Coughing):** The audio starts with distinct coughing sounds (00:00-00:01). The execution is clear.\n2. **Attitude (Rude):** The speech segment (00:02-00:05) has a cheerful, polite, and bright intonation. The pitch contour is upward and friendly, which completely contradicts the user's instruction to use a 'rude tone'. It sounds like a polite request rather than a rude command.\n3. **Volume (Loudly):** The volume is at a standard conversational level. There is no attempt to project the voice or sound 'loud' in a manner consistent with someone shouting to clear a way.",
+    "model_comparison": "Model 1 is the clear winner. Model 1 successfully incorporates all three elements: it includes coughing, adopts a stern/rude attitude, and projects the voice with increased volume. Model 2 only succeeds in the coughing dimension. Crucially, Model 2 fails completely on the 'Attitude' dimension by delivering the line with a happy, polite tone instead of a rude one, and fails on the 'Volume' dimension by speaking at a normal conversational level. Model 1's integration of the coughing at both the start and end also feels slightly more natural for the character portrayal.",
+    "score_1_1": 2,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 3,
+    "winner_2": 0,
+    "score_1_3": 2,
+    "score_2_3": 0,
+    "winner_3": 1
+}

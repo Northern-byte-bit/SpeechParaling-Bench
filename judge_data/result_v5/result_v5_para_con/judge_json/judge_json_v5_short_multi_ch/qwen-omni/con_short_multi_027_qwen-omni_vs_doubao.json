@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The user requested the text be spoken with 'extremely high pitch' (极高音) and 'loudly' (大声). Model 1 successfully modifies the vocal characteristics to meet these requirements. From 00:00 to 00:03, the voice is projected in a very high, almost falsetto-like scream. The vocal effort is clearly high, indicating a loud volume (shouting). The delivery is consistent with someone excitedly shouting 'I found it!' from a distance or with great excitement. The content is accurate to the script. The naturalness is acceptable given the extreme nature of the request, sounding like a genuine shout.",
+    "reasoning_model_2": "Model 2 generates a very clear and natural-sounding audio, but it completely fails to adhere to the specific paralinguistic instructions. Throughout the clip (00:00-00:02), the voice remains in a standard, neutral female register (conversational pitch) and speaks at a normal conversational volume. There is no attempt to raise the pitch to an 'extremely high' level, nor is there any 'loud' or shouting vocal quality. It sounds like a standard TTS reading without the requested expressive modifiers.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. The prompt explicitly requested 'extremely high pitch' and 'loud volume'. Model 1 followed these instructions precisely, generating a high-pitched shout that matches the description. Model 2 ignored the instructions entirely, producing a standard, conversational reading of the text which, while high in audio fidelity, receives a score of 0 for failing the specific feature control constraints.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

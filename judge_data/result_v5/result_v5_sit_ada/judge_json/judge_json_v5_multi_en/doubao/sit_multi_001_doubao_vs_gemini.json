@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model responds with a brief, direct question: \"What movie are you watching?\" (00:00-00:01). This response is semantically relevant to the topic of a movie but fails completely in terms of paralinguistic alignment. It ignores the user's explicit emotional cues (\"Haha\", \"so funny\", \"can't stop laughing\"). The tone implied by this text is neutral and transactional, lacking the required \"Emotion: Happy\". There is no attempt to mirror the user's laughter or high energy, resulting in a flat interaction that does not demonstrate situational adaptation.",
+    "reasoning_model_2": "The model responds with \"I'm glad you're enjoying it\" (00:00-00:01) before asking \"What kind of movie is it?\" (00:01-00:03). This response demonstrates excellent situational adaptation. By explicitly verbally acknowledging the user's enjoyment (\"I'm glad\"), the model aligns its content with the \"Emotion: Happy\" requirement, facilitating a warm and empathetic prosody. The conversational filler anticipates and validates the user's state, creating a natural space for a smiling or light-hearted delivery that corresponds well with the user's \"Non-Linguistic Vocalizations: With Laughter\".",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in terms of situational adaptation and paralinguistic alignment. The user's input is highly emotional and includes laughter. Model 1 ignores this context entirely, providing a utilitarian response that would sound cold or indifferent in this context. Model 2, conversely, employs a social strategy of validation (\"I'm glad you're enjoying it\"), which naturally aligns with a happy and warm vocal delivery. Model 2's approach correctly adapts to the user's persona and emotional state, whereas Model 1 treats the input purely as a data query.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 2,
+    "winner_2": 2
+}

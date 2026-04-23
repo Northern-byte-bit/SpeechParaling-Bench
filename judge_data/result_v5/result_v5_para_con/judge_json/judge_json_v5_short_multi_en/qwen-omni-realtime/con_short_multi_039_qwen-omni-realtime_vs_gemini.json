@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model successfully slows down the reading of the sentence, stretching the short text 'Oh, when will these days ever end' to 5 seconds. However, the execution of the 'very slow pace' is highly unnatural. The audio sounds robotic and disjointed, with distinct, unnatural pauses between almost every word (e.g., 'Oh' [00:00], 'when' [00:01], 'will' [00:02]), resembling a mechanical concatenation of words rather than a fluid, slow human utterance. Regarding the 'Non-Linguistic Vocalizations' (sigh), the model fails completely. At 00:00, it simply pronounces the word 'Oh' in a flat, standard tone. There is no audible breathiness, exhalation, or emotional weight characteristic of a sigh.",
+    "reasoning_model_2": "The model performs exceptionally well on both dimensions. Regarding 'Non-Linguistic Vocalizations', at timestamp 00:00-00:01, the model produces a distinct, breathy, and weary vocalization on the word 'Oh', effectively turning it into a realistic sigh as requested. Regarding 'Pace', the model adheres to the 'very slow' instruction (00:01-00:05) but does so with high naturalness. The elongation of vowels and the weary prosody convey the feeling of exhaustion implied by the text, rather than just mechanically slowing down the playback speed. The flow is continuous and human-like.",
+    "model_comparison": "Model 2 is significantly superior in both dimensions. \n\nFor 'Non-Linguistic Vocalizations', Model 2 generates a clear, emotive sigh integrated with the word 'Oh', whereas Model 1 simply reads the word 'Oh' without any non-linguistic characteristics.\n\nFor 'Pace', while both models read slowly, Model 1 achieves this through a choppy, robotic delivery that scores very low on fluency and naturalness. Model 2, in contrast, achieves a slow pace through natural prosodic lengthening and emotional expression, resulting in a high-quality, human-like output. Model 1's mechanical tone severely degrades the listening experience, while Model 2 captures the target style perfectly.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

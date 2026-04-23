@@ -1,0 +1,183 @@
+======= 各模型最终得分 (各维度及总分均采用加权逻辑) =======
+
+=== doubao ===
+  Overall: 153.15
+  停顿: 1.21
+  年龄: 7.50
+  态度: 22.75
+  情感: 15.67
+  节奏: 12.32
+  认知状态: 22.75
+  语速: 8.56
+  重音: 3.55
+  非语言发声: 21.26
+  音质: 13.09
+  音量: 9.63
+  音高: 11.91
+
+=== gpt ===
+  Overall: 73.50
+  停顿: 3.00
+  年龄: 5.00
+  态度: 5.50
+  情感: 7.00
+  节奏: 12.00
+  认知状态: 5.00
+  语速: 6.50
+  重音: 12.00
+  非语言发声: 3.50
+  音质: 5.50
+  音量: 7.50
+  音高: 1.00
+
+=== gemini ===
+  Overall: 56.00
+  停顿: 2.00
+  年龄: 5.00
+  态度: 4.00
+  情感: 3.50
+  节奏: 6.00
+  认知状态: 2.00
+  语速: 8.00
+  重音: 11.00
+  非语言发声: 2.50
+  音质: 6.00
+  音量: 1.50
+  音高: 4.50
+
+=== qwen-omni ===
+  Overall: 31.00
+  停顿: 1.50
+  年龄: 2.50
+  态度: 3.50
+  情感: 4.00
+  节奏: 3.00
+  认知状态: 1.00
+  语速: 2.50
+  重音: 6.00
+  非语言发声: 2.50
+  音质: 2.00
+  音量: 1.50
+  音高: 1.00
+
+=== qwen-omni-realtime ===
+  Overall: 11.50
+  停顿: 0.00
+  年龄: 0.00
+  态度: 1.00
+  情感: 0.00
+  节奏: 1.00
+  认知状态: 0.00
+  语速: 0.50
+  重音: 3.00
+  非语言发声: 2.00
+  音质: 1.00
+  音量: 1.00
+  音高: 2.00
+
+
+======= 维度排名详情 =======
+
+【维度：Overall】
+  doubao: 153.15
+  gpt: 73.50
+  gemini: 56.00
+  qwen-omni: 31.00
+  qwen-omni-realtime: 11.50
+
+【维度：停顿】
+  gpt: 3.00
+  gemini: 2.00
+  qwen-omni: 1.50
+  doubao: 1.21
+  qwen-omni-realtime: 0.00
+
+【维度：年龄】
+  doubao: 7.50
+  gemini: 5.00
+  gpt: 5.00
+  qwen-omni: 2.50
+  qwen-omni-realtime: 0.00
+
+【维度：态度】
+  doubao: 22.75
+  gpt: 5.50
+  gemini: 4.00
+  qwen-omni: 3.50
+  qwen-omni-realtime: 1.00
+
+【维度：情感】
+  doubao: 15.67
+  gpt: 7.00
+  qwen-omni: 4.00
+  gemini: 3.50
+  qwen-omni-realtime: 0.00
+
+【维度：节奏】
+  doubao: 12.32
+  gpt: 12.00
+  gemini: 6.00
+  qwen-omni: 3.00
+  qwen-omni-realtime: 1.00
+
+【维度：认知状态】
+  doubao: 22.75
+  gpt: 5.00
+  gemini: 2.00
+  qwen-omni: 1.00
+  qwen-omni-realtime: 0.00
+
+【维度：语速】
+  doubao: 8.56
+  gemini: 8.00
+  gpt: 6.50
+  qwen-omni: 2.50
+  qwen-omni-realtime: 0.50
+
+【维度：重音】
+  gpt: 12.00
+  gemini: 11.00
+  qwen-omni: 6.00
+  doubao: 3.55
+  qwen-omni-realtime: 3.00
+
+【维度：非语言发声】
+  doubao: 21.26
+  gpt: 3.50
+  gemini: 2.50
+  qwen-omni: 2.50
+  qwen-omni-realtime: 2.00
+
+【维度：音质】
+  doubao: 13.09
+  gemini: 6.00
+  gpt: 5.50
+  qwen-omni: 2.00
+  qwen-omni-realtime: 1.00
+
+【维度：音量】
+  doubao: 9.63
+  gpt: 7.50
+  gemini: 1.50
+  qwen-omni: 1.50
+  qwen-omni-realtime: 1.00
+
+【维度：音高】
+  doubao: 11.91
+  gemini: 4.50
+  qwen-omni-realtime: 2.00
+  gpt: 1.00
+  qwen-omni: 1.00
+
+
+======= 跳过的样本 =======
+149, 148, 150, 147, 105, 94
+
+======= Baseline 与各 Candidate 比较的【Overall 原始得分】 =======
+
+### Baseline: doubao ###
+  vs gemini: 154.00
+  vs gpt: 136.50
+  vs qwen-omni: 175.00
+  vs qwen-omni-realtime: 196.50
+

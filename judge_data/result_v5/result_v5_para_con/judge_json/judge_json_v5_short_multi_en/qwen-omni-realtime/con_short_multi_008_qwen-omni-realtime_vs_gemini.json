@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model fails significantly in Content Accuracy. Instead of simply reading the target sentence, it hallucinates a script describing its internal state ('I'm yelling', 'I'm furious') and continues with extra dialogue ('I can't take it anymore...'). Regarding the target features: 1. Emotion: The tone delivered is not 'angry' but rather whiny, pleading, and tearful (00:00-00:08), which conveys sadness or helplessness rather than the requested anger. 2. Volume: Despite the hallucinated text claiming 'I'm yelling', the volume is conversational and soft, lacking any projection or shouting characteristics. The audio fails to meet the core requirements of the prompt.",
+    "reasoning_model_2": "The model follows the script perfectly with no hallucinations or errors (00:00-00:02). 1. Emotion: The delivery captures a clear 'angry' emotion. The tone is sharp, frustrated, and scolding, effectively conveying the intended sentiment. 2. Volume: The speaker uses a 'shouting manner' effectively by projecting the voice, stressing keywords ('Why', 'Always'), and maintaining a high energy level consistent with an angry outburst. The performance is natural and spot-on for the requested features.",
+    "model_comparison": "Model 2 is superior in all aspects. Model 1 suffers from severe content hallucinations, reciting a meta-commentary about the emotion rather than expressing it. Furthermore, Model 1's delivery is soft and whiny, completely failing the 'Shouting' and 'Angry' requirements. Model 2 accurately adheres to the text and delivers a convincing performance that is both loud (Volume) and frustrated (Emotion), matching the user's command perfectly.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2
+}

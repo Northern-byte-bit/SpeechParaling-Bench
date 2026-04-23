@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model accurately reproduces the content '太棒了，我们终于成功了！' without any errors (00:00-00:02). Regarding the paralinguistic feature '音高' (Pitch), the audio demonstrates a significantly elevated pitch throughout the entire segment. The voice sounds distinctly higher than a natural baseline, effectively achieving the requested 'high pitch' characteristic while maintaining clarity and high energy. The expression is consistent with the semantic excitement of the text.",
+    "reasoning_model_2": "The model has a severe content accuracy failure. While it starts with the target sentence '太棒了，我们终于成功了！' (00:00-00:02), it immediately continues to read a long, unrequested descriptive passage ('声音拔的高高的，像庆祝的礼炮一样...') until the end of the clip (00:02-00:11). This violates the script constraints. Regarding the '音高' (Pitch) dimension, the voice during the target segment is a standard female register with an enthusiastic tone. It does not exhibit the distinct 'high pitch' modification requested in the command, sounding more like a normal speaking voice than a stylized high-pitch output.",
+    "model_comparison": "Model 1 is superior in all aspects. It strictly follows the content script and effectively implements the 'high pitch' feature, resulting in a distinct and accurate audio generation. Model 2 fails significantly in content accuracy by hallucinating/reading extra descriptive text (instruction leakage) and does not achieve a distinct 'high pitch' effect, merely sounding like a standard excited voice. Therefore, Model 1 wins definitively.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

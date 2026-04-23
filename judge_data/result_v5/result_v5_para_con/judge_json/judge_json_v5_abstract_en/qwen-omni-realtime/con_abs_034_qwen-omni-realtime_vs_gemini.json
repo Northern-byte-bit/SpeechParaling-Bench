@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 strictly adheres to the provided text script, accurately capturing the stammers 'it, it' and 'I, I' without adding or omitting words. The audio exhibits a high degree of naturalness, utilizing breathiness, pauses (00:00-00:02, 00:04), and pitch instability to simulate genuine fear. The 'trembling' aspect is vividly realized through a shaky vocal delivery, particularly noticeable on the words 'thing' (00:01) and 'look' (00:07). The fear is palpable, characterized by a hesitant, breathless tone that perfectly matches the command.",
+    "reasoning_model_2": "Model 2 fails significantly in content accuracy. While it reads the initial part of the sentence, it hallucinates and adds a substantial amount of text not present in the prompt (e.g., 'my hands are shaking, my breath is so shallow...'). Paralinguistically, the performance is weak. The voice sounds more like a standard reading with a slight urgency or generic worry rather than 'fearful'. Critically, it lacks the 'trembling' characteristic entirely; the voice is stable, the pacing is too fast and rhythmic for a scared speaker, and it sounds robotic compared to a human expression of fear.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. It followed the text constraint perfectly and delivered a highly expressive performance that genuinely sounded scared and shaky. Model 2 hallucinated a large portion of text, violating the content constraints, and failed to produce the required paralinguistic features. Model 2's tone was stable and rushed, lacking the breathlessness and tremor required for fear and trembling.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 0,
+    "winner_2": 1
+}

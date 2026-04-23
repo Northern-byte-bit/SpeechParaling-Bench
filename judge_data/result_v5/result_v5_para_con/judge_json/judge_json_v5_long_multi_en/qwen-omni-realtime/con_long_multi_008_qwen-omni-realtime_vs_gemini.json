@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model failed significantly on Content Accuracy. The generated speech completely paraphrased the target text (e.g., changing 'emphasized countless times' to 'stressed this over and over', and 'strictly follow the procedure' to 'follow procedure exactly'). According to the scoring standard, voice content clearly inconsistent with the script results in a score of 0. Furthermore, regarding the paralinguistic features, the tone was 'annoyed' or 'whiny' (00:00-00:09) rather than the requested 'shouting' and 'angry'. The volume was conversational, not shouting. Due to the severe content hallucination, the model receives a 0.",
+    "reasoning_model_2": "The model achieved perfect Content Accuracy, reading the script verbatim (00:00-00:14). Regarding the 'Emotion' dimension, the model conveyed a tone of 'stern frustration' or 'cold anger' rather than the requested 'shouting manner'. The delivery was controlled and articulate, lacking the explosive intensity or high arousal associated with shouting. Regarding 'Volume', the speech remained at a standard conversational level throughout, failing to exhibit the requested 'shouting' loudness. While the speech was natural and fluent (Score 3 for Fluency), the failure to shout limits the paralinguistic scores to 1, as the specific 'shouting' feature was not expressed, though the negative emotional valence was present.",
+    "model_comparison": "Model 2 is the clear winner because Model 1 failed the most basic requirement of Text-to-Speech: reading the correct text. Model 1 paraphrased the entire prompt, which is a critical failure in Content Accuracy, leading to a score of 0. Model 2 followed the script perfectly. Regarding the requested style (Shouting/Angry), both models struggled. Model 1 sounded whiny and Model 2 sounded stern/frustrated, but neither produced a 'shouting' voice. However, Model 2's output is a valid generation with high audio quality and correct text, whereas Model 1's output is unusable due to the text mismatch.",
+    "score_1_1": 0,
+    "score_2_1": 1,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 1,
+    "winner_2": 2
+}

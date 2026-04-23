@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio T1 accurately reproduces the text content '非常感谢您的帮助' without errors (0.0s-1.8s). Regarding the fluency, the speech is natural, smooth, and free of mechanical artifacts. However, regarding the core paralinguistic features: \n1. **Volume (音量)**: The speaker uses a standard, conversational volume level. There is no attempt to project the voice or speak 'loudly' (大声) as requested. The amplitude and vocal effort sound like a normal indoor interaction. \n2. **Attitude (真诚)**: The tone is polite, pleasant, and gentle. While it conveys gratitude, it feels more like a standard polite response rather than a deeply 'sincere' or emphasized expression requested in conjunction with the loud volume. It is acceptable but lacks intensity.",
+    "reasoning_model_2": "The audio T2 accurately reproduces the text content '非常感谢您的帮助' (0.0s-2.0s). The fluency is high with natural prosody. Regarding the core paralinguistic features: \n1. **Volume (音量)**: The speaker clearly increases vocal effort and projection. The voice sounds like someone shouting or calling out across a distance, effectively capturing the 'loud' (大声) requirement through acoustic projection rather than just digital gain. \n2. **Attitude (真诚)**: The loud delivery is accompanied by a very earnest and enthusiastic tone. The specific stress on '非常' and '帮助' combined with the breathiness associated with louder speech conveys a strong sense of heartfelt gratitude, matching the 'sincere' (真诚) requirement perfectly.",
+    "model_comparison": "Both models generated the correct text with high fluency. However, T2 significantly outperforms T1 in adhering to the specific paralinguistic instructions. The prompt explicitly asked for a 'loud volume'. T1 ignored this, delivering the line in a calm, normal conversational tone. T2, conversely, utilized a projected voice style consistent with speaking loudly or shouting, which matched the instruction perfectly. Furthermore, T2's attitude felt more intensely sincere due to the energy in the voice, whereas T1 was merely polite. Therefore, T2 is the clear winner on both dimensions.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

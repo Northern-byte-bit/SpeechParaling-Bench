@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 fails to adhere to the paralinguistic instructions. \n\n1. **Pace**: The speech is delivered rapidly, compressing the entire sentence into approximately 2 seconds (00:00-00:02). This directly contradicts the instruction for a 'slow pace'. \n2. **Stress**: Due to the rushed delivery, there is no discernible emphasis on the word 'here'. The intonation is flat and robotic, failing to highlight the target word. \n3. **Volume**: The audio uses a standard, conversational volume and tone. There is no 'shouting manner' or vocal projection associated with calling out to someone. \nOverall, the model produced the correct text but failed to implement any of the requested style controls.",
+    "reasoning_model_2": "Model 2 successfully executes all paralinguistic instructions. \n\n1. **Pace**: The speech is noticeably slow and deliberate, spanning roughly 6 seconds. There are significant pauses between phrases (e.g., 00:01 and 00:03) and elongation of vowels, matching the 'slow pace' requirement perfectly. \n2. **Stress**: The model places clear emphasis on the word 'here' (00:05-00:06). The word is elongated and pitched down slightly to mark the end of the statement with weight, distinct from the rest of the sentence. \n3. **Volume**: The vocal quality simulates a 'shouting manner' or projecting voice (often called 'calling out'). The timbre suggests the speaker is exerting effort to be heard over a distance (e.g., the initial 'Hey' at 00:00-00:01), fulfilling the volume/style requirement vividly.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. \n\n**Pace**: Model 1 rushed the text (approx. 2s total), ignoring the 'slow' constraint entirely. Model 2 followed the instruction perfectly, elongating words and inserting pauses for a total duration of approx. 6s. \n\n**Stress**: Model 1 failed to emphasize 'here' due to its robotic and fast delivery. Model 2 effectively utilized duration and pitch to place heavy stress on 'here' as requested. \n\n**Volume**: Model 1 spoke in a conversational, indoor voice. Model 2 simulated a shouting/projecting voice suitable for the context 'Can you hear me?', accurately reflecting the 'shouting manner'. \n\nModel 1 failed to implement any of the control features, while Model 2 implemented all of them naturally and accurately.",
+    "score_1_1": 0,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 0,
+    "score_2_3": 3,
+    "winner_3": 2
+}

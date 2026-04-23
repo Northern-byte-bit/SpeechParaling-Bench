@@ -1,0 +1,14 @@
+{
+    "sample_index": 48,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a very fast pace: 'Sorry, I have to go, the next bus is leaving!'",
+    "dimensions": [
+        "Pace"
+    ],
+    "candidate_position": 2,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

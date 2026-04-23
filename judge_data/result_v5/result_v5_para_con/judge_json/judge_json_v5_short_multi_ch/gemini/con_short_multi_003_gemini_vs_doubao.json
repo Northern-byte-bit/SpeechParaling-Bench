@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the text '快看，我发现了一只小猫咪' accurately. However, regarding the paralinguistic features: \n1. **Pitch (音高):** The audio uses a standard female voice. While female voices have a naturally higher fundamental frequency than male voices, the delivery here is a standard reading tone. It does not exhibit the 'extremely high' (极高音) characteristic requested, such as a falsetto, scream, or heightened excitement. It sounds like a default generation.\n2. **Speed (语速):** The speech is not fast. There is a very distinct and lengthy pause (0:00-0:01) between '快看' and the rest of the sentence. The overall pacing is moderate to slow, failing the 'fast' (快速) requirement.",
+    "reasoning_model_2": "The model generates the text accurately. \n1. **Pitch (音高):** The speaker adopts a very high-pitched, excited tone. The voice sounds like it is straining into a higher register (head voice/falsetto) to convey surprise and urgency, effectively meeting the 'extremely high' pitch requirement in an expressive manner.\n2. **Speed (语速):** The delivery is noticeably fast. The phrase '快看' is exclaimed quickly, and the subsequent sentence '我发现了一只小猫咪' is spoken with high urgency and speed, flowing without unnecessary pauses. This matches the 'fast' requirement perfectly.",
+    "model_comparison": "Model 2 is significantly superior to Model 1 in adhering to the user's specific paralinguistic commands. Model 1 essentially ignored the style instructions, producing a standard, calm, moderate-speed reading. Model 2 captured the dramatic nature of the request, raising the pitch significantly to sound like an excited shout and increasing the speaking rate to convey urgency. Model 2 wins decisively on both dimensions.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

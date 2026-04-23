@@ -1,0 +1,14 @@
+{
+    "sample_index": 40,
+    "candidate_name": "gpt",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a rigid and dogmatic tone: 'Everything has its fixed order; one must not overstep the bounds. The ancestral laws must not be changed.'",
+    "dimensions": [
+        "rigid and dogmatic"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

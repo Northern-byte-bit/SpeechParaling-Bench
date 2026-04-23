@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 accurately speaks the text with perfect content matching and high fluency. Regarding the specific paralinguistic instructions: \n1. **Cognitive State (Doubting):** The delivery is quite rapid (total duration ~4s). While the intonation rises at the end of the question ('correct?'), the overall pace feels efficient and confident rather than hesitant or doubting. It lacks the pauses or slower tempo usually associated with uncertainty. \n2. **Stress:** The word 'correct' (approx 0:02) receives standard sentence-final emphasis. However, due to the fast pace, the 'heavy' nature of the stress requested is not distinct; it blends into the flow of the sentence.\n3. **Volume:** The volume is consistent and normal throughout.",
+    "reasoning_model_2": "Model 2 delivers the script with accurate content and a very natural, expressive flow. \n1. **Cognitive State (Doubting):** The model excels here. The total duration is longer (~6s), incorporating natural pauses and elongation (e.g., the gap between 'correct?' and 'I feel like...'). The prosody in the second sentence ('I feel like... something's off' at 0:04-0:06) clearly conveys hesitation and contemplation, perfectly matching a doubting tone.\n2. **Stress:** The stress on 'correct' (0:02-0:03) is achieved through elongation and a clear pitch movement, making it stand out heavily against the rest of the sentence, fulfilling the 'heavy stress' requirement effectively within the context of the emotion.\n3. **Volume:** The volume is maintained at a normal level.",
+    "model_comparison": "Model 2 is the clear winner. While both models generate high-quality audio in terms of fidelity and volume, Model 2 captures the 'Cognitive State' (Doubting) much more effectively. Model 1 reads the sentence somewhat quickly (4s), making it sound more like a standard inquiry than a moment of doubt. Model 2 uses pacing, pauses, and intonation (6s duration) to authentically simulate hesitation and uncertainty. Furthermore, Model 2's slower delivery allows the 'heavy stress' on the word 'correct' to land more weightily and naturally compared to Model 1's standard emphasis.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 3,
+    "winner_3": 0
+}

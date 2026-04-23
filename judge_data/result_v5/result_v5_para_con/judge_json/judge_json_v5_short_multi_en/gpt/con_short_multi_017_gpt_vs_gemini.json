@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 generates the audio with high fidelity and naturalness. Regarding content accuracy, the model expands the contraction 'there's' to 'there is', saying 'Oh no, there is not enough time', but otherwise follows the script. In terms of the required dimensions: \n1. **Cognitive State (Nervous):** From 00:00 to 00:02, the speaker exhibits a clear sense of urgency and anxiety. The delivery is fast-paced, breathless, and creates a convincing impression of panic and nervousness.\n2. **Pitch:** The voice maintains a consistently high pitch throughout the utterance, accurately adhering to the user's specific acoustic constraint.",
+    "reasoning_model_2": "Model 2 generates fluent audio with natural prosody. Like Model 1, it expands 'there's' to 'there is'. Regarding the required dimensions:\n1. **Cognitive State (Nervous):** The delivery (00:00-00:03) sounds concerned and dramatic, but it lacks the frenetic energy or tension typically associated with a 'nervous' tone. It sounds more like a realization of a problem rather than an anxious reaction. The pacing is slower than Model 1.\n2. **Pitch:** The pitch is predominantly in the medium range. Notably, at the end of the sentence (around 00:02), the pitch drops significantly on the word 'time', which directly contradicts the instruction for a 'high pitch'.",
+    "model_comparison": "Both models expanded the contraction 'there's' to 'there is', so they are equal in terms of strict content accuracy. However, regarding the paralinguistic features, Model 1 is the clear winner. Model 1 successfully implemented the 'high pitch' constraint, whereas Model 2 used a medium-to-low pitch. Furthermore, Model 1 captured the 'nervous' cognitive state much more effectively through faster pacing and a breathless tone, while Model 2 sounded merely concerned or dramatic.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

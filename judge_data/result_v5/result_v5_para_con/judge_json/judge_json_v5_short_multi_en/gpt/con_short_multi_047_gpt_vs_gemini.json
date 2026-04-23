@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model demonstrates excellent adherence to the user's command. Regarding **Content Accuracy**, the speech matches the script perfectly. For **Paralinguistic Compliance**, the model successfully adopts a **High Pitch** (Dimension 2) immediately from the starting 'Oh' (00:00), maintaining an elevated register throughout the sentence that distinguishes it from a neutral speaking voice. The **Attitude** (Dimension 1) is clearly teasing; the delivery of 'resident genius' (00:01-00:02) features a mocking, melodic contour, and the sentence ends with a sharp upward inflection on 'again?' (00:03), effectively conveying the sarcastic, questioning nature of the text. The expression is vivid and natural.",
+    "reasoning_model_2": "The model achieves correct **Content Accuracy** and generally good **Fluency**. However, it struggles with the specific feature controls. Regarding **Pitch** (Dimension 2), the voice remains in a standard, neutral range, failing to execute the specific 'high pitch' command. The **Attitude** (Dimension 1) contains a hint of sarcasm, particularly a slight drawl on 'genius' (00:01), but the overall delivery is quite flat and lacks the energy of a 'teasing' tone. The sentence ends with a downward or flat intonation on 'again' (00:03), which makes it sound more like a bored statement than a playful tease, missing the requested emotional nuance.",
+    "model_comparison": "Model 1 is the clear winner across both dimensions. It accurately interprets the 'High Pitch' constraint, shifting the vocal register up significantly compared to a neutral baseline, whereas Model 2 ignores this instruction, staying in a standard range. In terms of 'Attitude', Model 1 utilizes dynamic intonation and a questioning lift at the end to create a vivid teasing effect. Model 2 provides a much more subdued, flatter performance that barely registers as teasing. Model 1 effectively combines the high pitch with the teasing tone to fully satisfy the prompt.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1
+}

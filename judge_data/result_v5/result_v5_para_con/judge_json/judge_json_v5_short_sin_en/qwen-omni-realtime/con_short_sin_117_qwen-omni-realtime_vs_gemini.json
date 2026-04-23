@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 attempts to express the happy emotion, but it fails significantly in Content Accuracy. While the core sentence 'I passed my exam! I can finally relax now' is present (00:00-00:02), the model hallucinates and adds a substantial amount of extra text: 'What a relief, and I'm so happy about it' (00:03-00:05). This violates the instruction to read the specific sentence without additions. The emotional tone is upbeat and happy, matching the target emotion, but the hallucination is a major flaw in instruction following.",
+    "reasoning_model_2": "Model 2 follows the instructions perfectly. Content Accuracy is flawless with no additions or omissions. In terms of Emotion (Happy), the model delivers an excellent performance. The phrase 'I passed my exam!' (00:00-00:02) is delivered with high pitch and genuine excitement. The second part, 'I can finally relax now' (00:02-00:04), transitions naturally into a tone of happy relief, effectively capturing the nuance of the text. The prosody is natural and human-like.",
+    "model_comparison": "Model 2 is the clear winner. Model 1 failed the negative constraint regarding content accuracy by adding an entire extra sentence not found in the prompt script. While Model 1's tone was happy, the content violation is a significant penalty. Model 2 adhered strictly to the text and provided a high-quality, nuanced emotional performance that distinguished between excitement and relief within the scope of happiness.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2
+}

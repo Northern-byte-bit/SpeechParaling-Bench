@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model generates the content 'Getting up so early, it is really tough.' The script 'it's' is expanded to 'it is', which is a minor variation but acceptable. Crucially, the text transcript does not contain the word 'Yawn', implying the model attempted to perform the action paralinguistically rather than reading it as text. The delivery is assumed to integrate the yawning sound effects into the prosody of the speech, modifying the articulation of 'early' or 'tough' to simulate a tired, yawning state, fitting the criteria for a natural execution of the command.",
+    "reasoning_model_2": "The generated speech for Model 2 contains the word 'Yawning' at the very beginning ('Yawning Getting up so early...'). This indicates a severe instruction-following failure where the model read the requested paralinguistic feature as part of the script instead of performing it as a non-linguistic vocalization. This destroys the naturalness and content accuracy, as the listener hears the word 'Yawning' explicitly spoken. Consequently, the core requirement to read the sentence *with* a yawn is not met; it read the sentence *and* the command.",
+    "model_comparison": "Model 1 followed the instructions correctly by keeping the content clean and (inferentially) applying the paralinguistic effect to the speech signal. Model 2 failed significantly by hallucinating the instruction 'Yawning' into the spoken output. This is a 'leakage' of the prompt into the generation, rendering the audio unnatural and incorrect regarding the script. Therefore, Model 1 is superior as it differentiates between the style command and the text to be spoken.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

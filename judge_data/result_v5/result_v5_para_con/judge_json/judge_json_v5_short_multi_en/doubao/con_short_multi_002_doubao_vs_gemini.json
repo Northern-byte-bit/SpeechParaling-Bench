@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The model generates the correct text content 'My keys are gone, what should I do?'. However, regarding the paralinguistic features, it fails significantly. The 'Cognitive State' of anxiety is barely present; the delivery sounds like a standard, calm, and polished reading with perhaps a very slight hint of concern, but lacks the urgency, tension, or panic associated with anxiety (00:00-00:04). Furthermore, the 'Timbre' is completely incorrect based on the prompt. The voice is clear, resonant, and clean, showing absolutely no signs of being 'hoarse', rough, or strained. It sounds like a standard, high-quality TTS voice without the requested texture.",
+    "reasoning_model_2": "The model accurately speaks the text 'My keys are gone, what should I do?'. The 'Cognitive State' is handled excellently; the pacing is slower, and the intonation reflects helplessness and worry (00:00-00:04). The rising inflection on 'do' effectively conveys panic. Regarding 'Timbre', the voice adopts a breathy, strained quality. While it leans slightly more towards a 'whispery/breathy' texture than a deep, gravelly 'hoarseness', it successfully simulates a voice that is failing or strained due to distress, effectively meeting the user's intent for a non-standard, textured voice profile commanded by the emotional context.",
+    "model_comparison": "Model 2 is the clear winner across both dimensions. Model 1 provided a standard, clear reading that ignored the specific paralinguistic instructions. It was neither hoarse nor genuinely anxious. Model 2, in contrast, delivered a performance that was clearly acted. The anxiety was palpable through the breathiness and prosody, and the timbre was modified to be strained and weak, aligning well with the request for a hoarse/distressed voice. Model 2 successfully interpreted the dramatic requirements of the prompt, whereas Model 1 failed to modulate the voice features.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 2,
+    "winner_2": 2
+}

@@ -1,0 +1,16 @@
+{
+    "sample_index": 31,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用青年的声音厌恶地说: 啊，我最讨厌吃这个了！",
+    "dimensions": [
+        "年龄",
+        "情感"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio from Model 1 demonstrates exceptional adherence to all specified constraints. \n1. **Non-verbal vocalization (非语言发声):** The audio begins with a distinct, natural exhalation/sigh (00:00-00:01) corresponding to '唉……' and '叹气后', setting a mood of exhaustion immediately.\n2. **Volume (音量):** The speaker maintains a consistently 'small' or quiet volume throughout the clip. The voice is breathy and soft, lacking projection, which aligns perfectly with the instruction '小声的音量'.\n3. **Cognitive State (认知状态):** The portrayal of fatigue ('疲劳地说') is highly convincing. The pacing is slow, with slight dragging of syllables (e.g., '散架了' at 00:06-00:07). The tone sounds weak and drained, effectively conveying the feeling that the speaker is physically 'falling apart' and wants to 'lie down'. The breathing patterns integrated into the speech further enhance the perception of a tired cognitive state.",
+    "reasoning_model_2": "The audio from Model 2 follows the content well but struggles with the paralinguistic constraints.\n1. **Non-verbal vocalization (非语言发声):** The model produces a sigh at the beginning (00:00-00:01). However, it sounds slightly more staged and less organically connected to the subsequent speech compared to a natural exhausted sigh.\n2. **Volume (音量):** The instruction required 'quiet volume' (小声). Model 2 uses a relatively standard conversational volume. While not loud, it projects clearly and lacks the subdued, intimate quality of a truly 'quiet' or whispered voice expected from the prompt.\n3. **Cognitive State (认知状态):** While the tone is somewhat complaining and indicates some weariness, it lacks the depth of 'fatigue' requested. The articulation is too crisp and energetic (e.g., '大得惊人' at 00:03-00:04 has significant emphasis and energy). It sounds more like someone annoyed than someone who is 'falling apart' and exhausted.",
+    "model_comparison": "Model 1 is the clear winner across all dimensions. \n\nIn terms of **Non-verbal vocalization**, both models included the sigh, but Model 1's sigh felt more breathy and natural, seamlessly transitioning into the speech.\n\nRegarding **Volume**, Model 1 strictly adhered to '小声' (quiet volume) by utilizing a soft, breathy vocal quality. Model 2 failed to lower the volume significantly, speaking in a near-normal register.\n\nFor **Cognitive State**, Model 1 captured the essence of 'fatigue' and 'falling apart' through slower pacing, breathiness, and a weak tone. Model 2 sounded too energetic and clear, missing the requested lethargy and exhaustion. Model 1 provided a much more realistic simulation of the specific user command.",
+    "score_1_1": 3,
+    "score_2_1": 2,
+    "winner_1": 1,
+    "score_1_2": 3,
+    "score_2_2": 1,
+    "winner_2": 1,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

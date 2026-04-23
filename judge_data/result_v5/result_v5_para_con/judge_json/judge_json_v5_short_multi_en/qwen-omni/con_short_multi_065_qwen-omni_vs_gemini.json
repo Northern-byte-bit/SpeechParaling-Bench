@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "The audio correctly speaks the text 'Oh, you're late again! Did you stay up too late last night?'. However, it completely fails to incorporate the requested paralinguistic features. There is absolutely no laughter present (Non-Linguistic Vocalizations). The tone (Attitude) is relatively flat and neutral, perhaps slightly concerned, but lacks the specific 'teasing' quality requested. The rhythm is somewhat stilted and mechanical, lacking a 'lighthearted' flow. It sounds like a standard, lower-quality TTS generation without stylistic control.",
+    "reasoning_model_2": "The audio begins with a clear, natural laugh (00:00-00:01), successfully satisfying the 'Non-Linguistic Vocalizations' requirement. The speaker then delivers the lines with significant pitch variation and a bouncy cadence, perfectly capturing a 'lighthearted rhythm'. The tone is distinctly 'teasing', particularly noticeable in the playful elongation of the word 'late' and the upward inflection on the question. The delivery sounds natural and human-like, fully adhering to the user's prompt.",
+    "model_comparison": "Model 2 is the clear winner across all dimensions. \n\n1. **Attitude**: Model 1 is flat and neutral (Score 1), failing to convey a teasing tone. Model 2 is vivid, playful, and distinctly teasing (Score 3).\n2. **Non-Linguistic Vocalizations**: Model 1 failed to generate the required laughter entirely (Score 0). Model 2 generated a natural-sounding laugh at the beginning (Score 3).\n3. **Rhythm**: Model 1 was somewhat robotic and stiff (Score 1). Model 2 used a bouncy, dynamic rhythm that perfectly matched the 'lighthearted' description (Score 3). \n\nModel 2 followed all instructions effectively, while Model 1 ignored the stylistic constraints.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 0,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 1,
+    "score_2_3": 3,
+    "winner_3": 2
+}

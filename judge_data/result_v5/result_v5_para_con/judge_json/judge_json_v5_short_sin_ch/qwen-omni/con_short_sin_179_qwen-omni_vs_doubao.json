@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 demonstrates excellent compliance with the user's command. At 00:00-00:01, there is a very distinct and natural non-verbal vocalization of a yawn (audible intake of breath and release). Following this, from 00:01 to 00:05, the spoken content '这么早就要起床，真是太难了' is delivered with a drowsy, lethargic tone that perfectly matches the physiological state of someone yawning. The pacing is slow and the enunciation is slightly dragged, enhancing the realism of the 'sleepy' context. The content is accurate, and the transition from the non-verbal yawn to speech is seamless.",
+    "reasoning_model_2": "Model 2 fails to incorporate the required paralinguistic feature. The audio from 00:00 to 00:02 contains the correct text '这么早就要起床，真是太难了', but it is spoken at a relatively fast, energetic pace with a tone that sounds more like a quick complaint than a sleepy yawn. There is no audible non-verbal yawn sound (intake of breath or characteristic vocalization) at the beginning or during the speech. Consequently, it does not fulfill the core requirement of '带哈欠的方式' (in a yawning manner).",
+    "model_comparison": "Model 1 is the clear winner. The user specifically requested the speech to be delivered 'with a yawn'. Model 1 included an explicit, realistic yawn sound at the beginning and adapted the prosody of the speech to sound sleepy and lethargic, perfectly aligning with the instruction. Model 2 merely read the text with a slightly annoyed tone but completely omitted the yawning sound and the associated lethargic prosody, failing the core 'Feature Control' task.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1
+}

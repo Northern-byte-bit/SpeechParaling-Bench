@@ -1,0 +1,16 @@
+{
+    "sample_index": 7,
+    "candidate_name": "qwen-omni-realtime",
+    "baseline_name": "doubao",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "请用圆润的声音热情地说：欢迎光临！请尽管品尝。",
+    "dimensions": [
+        "音质",
+        "态度"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2,
+    "winner_position_2": 2
+}

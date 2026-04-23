@@ -1,0 +1,14 @@
+{
+    "sample_index": 100,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with emphasis on the word 'must': 'This report, you must send it to me before the end of the day, because we need to submit it to the client first thing tomorrow morning, there is no room for delay.'",
+    "dimensions": [
+        "Stress"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 2
+}

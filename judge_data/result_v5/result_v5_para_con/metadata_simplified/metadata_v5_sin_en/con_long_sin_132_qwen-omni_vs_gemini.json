@@ -1,0 +1,14 @@
+{
+    "sample_index": 132,
+    "candidate_name": "qwen-omni",
+    "baseline_name": "gemini",
+    "judger_model": "gemini-3-pro-preview",
+    "demand": "Please read this sentence with a fearful emotion: 'I had a very scary dream, dreaming that I couldn't find my way home, and everything around me was pitch black. Even after waking up, I still felt a lingering fear and a deep sense of unease.'",
+    "dimensions": [
+        "Emotion"
+    ],
+    "candidate_position": 1,
+    "status": "Success",
+    "category": "feature_control",
+    "winner_position_1": 1
+}

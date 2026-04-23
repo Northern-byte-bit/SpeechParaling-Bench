@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the content requirements, delivering the phrase '你真是太逗了' clearly. Regarding the paralinguistic features:\n1. **Speed (语速):** The speech is delivered at a moderate pace (approx. 0.5s-2.0s), fitting the 'medium speed' requirement well. It is neither rushed nor dragging.\n2. **Non-verbal Vocalization (非语言发声):** The model interprets the text '哈哈' (Haha) as a laughing sound at the beginning (0.0s-0.5s). However, the phonetic realization sounds distinctly like 'Hehe' (呵呵) rather than the requested 'Haha' (哈哈). While it successfully conveys the 'smiling' tone (笑着说) and the act of laughing, the specific sound deviates slightly from the textual onomatopoeia. The overall tone remains consistent with the requested emotion.",
+    "reasoning_model_2": "Model 2 delivers the script accurately with high naturalness. Regarding the paralinguistic features:\n1. **Speed (语速):** The delivery speed is moderate and conversational, matching the 'medium speed' constraint perfectly. The rhythm is natural.\n2. **Non-verbal Vocalization (非语言发声):** The model generates a very natural sounding laugh at the beginning (0.0s-0.8s) that aligns phonetically with 'Haha' (open vowel sound). The transition from the laughter to the speech '你真是太逗了' is seamless, and the 'smiling' tone is maintained throughout the sentence, making the expression vivid and authentic.",
+    "model_comparison": "Both models successfully adhere to the core commands of medium speed and a laughing tone. \n\n**Speed:** Both models maintain a moderate, natural pace appropriate for the context. This dimension is a tie.\n\n**Non-verbal Vocalization:** Model 2 outperforms Model 1 in this dimension. The command specified the text '哈哈' (Haha). Model 2 produced a laugh that phonetically matches 'Haha' (open mouth laughter) and sounded more organic. Model 1 produced a laugh that sounded like 'Hehe' (closed mouth laughter/chuckle), which, while expressive, deviates slightly from the specific text provided. Model 2's laughter also felt more integrated with the subsequent speech flow.",
+    "score_1_1": 3,
+    "score_2_1": 3,
+    "winner_1": 0,
+    "score_1_2": 2,
+    "score_2_2": 3,
+    "winner_2": 2
+}

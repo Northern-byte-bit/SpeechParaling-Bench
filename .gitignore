@@ -1,0 +1,61 @@
+# Audio datasets (to be downloaded from HuggingFace)
+audio_dataset_ch/**/*.wav
+audio_dataset_en/**/*.wav
+
+# Model outputs - baseline (to be downloaded from HuggingFace)
+api_models/doubao/output_ch/**/*.wav
+api_models/doubao/output_en/**/*.wav
+api_models/gemini/output_ch/**/*.wav
+api_models/gemini/output_en/**/*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+*.env
+.env
+*_key.txt
+*_token.txt
+
+# Upload scripts (contain tokens)
+upload_hf.py
+create_github_repo.py

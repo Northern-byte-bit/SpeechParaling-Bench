@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "Model 1 strictly follows the content instruction, reading the text '嗯，真没想到，会是这个结果呢。' exactly as requested. In terms of the 'Attitude' (Sarcasm), the audio starts with a prolonged, thoughtful 'Hmm' (00:00), setting a tone of skepticism or feigned contemplation. The phrase '真没想到' (00:01) is delivered with a relatively flat, unimpressed pitch rather than genuine surprise, and the final segment '会是这个结果呢' (00:02-00:03) ends with a slightly dismissive lilt. This mismatch between the literal words (expressing surprise) and the bored, indifferent delivery effectively creates a dry, sarcastic irony, implying the result was actually expected or underwhelming. The fluency is high and natural.",
+    "reasoning_model_2": "Model 2 completely fails the 'Content Accuracy' criterion. Instead of reading the specified sentence '嗯，真没想到会是这个结果呢。', it hallucinates a long, elaborated paragraph starting with '哦，真是令人惊叹啊...' (Oh, truly amazing...). While the tone of the generated speech is expressive and sarcastic, the model failed the fundamental constraint of text-to-speech generation by altering the script entirely. According to the evaluation standards, when voice content is clearly inconsistent with the script, the score must be 0.",
+    "model_comparison": "Model 1 followed the user's command perfectly, delivering the correct text with a subtle, dry sarcastic tone that fits the context well. Model 2 failed significantly on Content Accuracy, generating a completely different script than what was prompted. Therefore, Model 1 is the clear winner as Model 2's output is invalid due to content hallucination.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}

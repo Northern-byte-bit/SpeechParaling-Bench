@@ -1,0 +1,14 @@
+{
+    "reasoning_model_1": "Model 1 successfully executes the 'extremely high pitch' instruction. The voice is raised to a near-falsetto or cartoon-like high register (00:00-00:04), distinct from a natural speaking voice, adhering strictly to the 'extreme' modifier. Regarding emotion, the model conveys a very strong sense of 'surprise' (惊喜) through dynamic intonation changes and the high pitch itself, making the excitement palpable. However, regarding 'speed' (快速), the model performs poorly. The articulation is drawn out, particularly on '天—哪—' (00:00-00:01) and '太—棒—了' (00:03-00:04). The overall duration is nearly 5 seconds, which feels slow and emphatic rather than 'fast'. The content accuracy is perfect.",
+    "reasoning_model_2": "Model 2 generates a natural-sounding female voice with perfect content accuracy. In terms of 'speed', it performs well; the sentence flows quickly and naturally (00:00-00:03), capturing the requested pace better than Model 1. However, regarding 'pitch' (音高), the model fails to follow the instruction for 'extremely high pitch'. It uses a standard, comfortable pitch range typical of a normal conversation, ignoring the 'extremely high' constraint. For 'emotion', it conveys a polite and pleasant surprise, which is correct in category but lacks the high intensity that usually accompanies the requested specific pitch and speed commands, feeling more like a standard reading than a burst of excitement.",
+    "model_comparison": "In the dimension of Pitch (音高), Model 1 is the clear winner as it drastically altered its voice to be 'extremely high' as requested, whereas Model 2 used a standard pitch. In the dimension of Speed (语速), Model 2 is the clear winner; it delivered the line quickly and fluently, while Model 1 was slow and dragged out syllables. In the dimension of Emotion (情感), Model 1 wins because its exaggerated tone matches the dramatic nature of the prompt ('Oh my god!', 'Really?'), conveying vivid surprise, whereas Model 2 sounded somewhat reserved and generic. Overall, Model 1 followed the specific style constraints (Pitch, Emotion) better, despite failing on Speed.",
+    "score_1_1": 3,
+    "score_2_1": 1,
+    "winner_1": 1,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2,
+    "score_1_3": 3,
+    "score_2_3": 2,
+    "winner_3": 1
+}

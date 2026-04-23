@@ -1,0 +1,11 @@
+{
+    "reasoning_model_1": "The audio accurately recites the script 'My keys are gone, what should I do?' with good fluency and naturalness. However, it fails to meet the paralinguistic requirements effectively. \n1. **Cognitive State (Anxious):** The delivery is slow, calm, and melancholic (00:00-00:03). It sounds resigned or sad rather than anxious. There is no sense of urgency, panic, or fast pacing that characterizes anxiety.\n2. **Timbre (Hoarse):** The voice is relatively clear with only a very slight vocal fry or creak at the end of the sentence. It does not exhibit the rough, raspy, or strained quality defined as 'hoarse'.",
+    "reasoning_model_2": "The audio accurately recites the script and demonstrates excellent control over the required features. \n1. **Cognitive State (Anxious):** The speaker sounds genuinely stressed and urgent. The breathiness and the desperate inflection on 'What should I do?' (00:01-00:03) clearly convey a state of panic and anxiety.\n2. **Timbre (Hoarse):** The voice has a distinct rough, breathy, and strained texture throughout the clip. It sounds like a 'stage whisper' or a voice strained by stress, which perfectly aligns with the request for a hoarse voice.",
+    "model_comparison": "Model 2 significantly outperforms Model 1 on both dimensions. regarding **Cognitive State**, Model 1 interprets the text with a sad/resigned tone that contradicts the requested 'anxious' tone, whereas Model 2 delivers the lines with appropriate urgency, breathlessness, and panic. Regarding **Timbre**, Model 1 offers a mostly standard voice with minimal texture, while Model 2 successfully generates a voice that sounds physically hoarse and strained. Model 2 followed the specific stylistic instructions, while Model 1 largely ignored them.",
+    "score_1_1": 1,
+    "score_2_1": 3,
+    "winner_1": 2,
+    "score_1_2": 1,
+    "score_2_2": 3,
+    "winner_2": 2
+}

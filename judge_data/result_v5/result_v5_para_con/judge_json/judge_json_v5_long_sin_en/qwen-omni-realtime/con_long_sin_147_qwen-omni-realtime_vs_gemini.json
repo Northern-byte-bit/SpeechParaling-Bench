@@ -1,0 +1,8 @@
+{
+    "reasoning_model_1": "The model strictly follows the provided text script with 100% accuracy. Paralinguistically, the audio effectively conveys the 'tired' cognitive state. The pacing is deliberately slowed down (e.g., 'Last night...' at 00:00-00:02), and the delivery features a heavy, lethargic timbre characteristic of exhaustion. The pitch drops at the end of phrases (e.g., 'muddled' at 00:10), and the overall energy is low, mimicking someone struggling to stay awake. There are no fluency issues; the pauses are natural for a tired person.",
+    "reasoning_model_2": "The model completely fails the Content Accuracy criterion. Instead of reading the requested sentence, it hallucinates a paraphrased version: 'Ugh, last night, I stayed up till 3 AM cramming for the exam... My head's all foggy... I swear I'm gonna nod off...'. While the meaning is preserved, the script is entirely different from the prompt. Furthermore, the tone is more akin to energetic complaining or annoyance rather than the lethargic, heavy 'tiredness' requested. The energy level is too high for someone whose eyes 'can't even stay open'. Due to the severe content mismatch, this receives the lowest score.",
+    "model_comparison": "Model 1 followed the instructions perfectly, delivering the exact text with a highly appropriate, lethargic, and weary tone that matches the requested 'tired' cognitive state. Model 2 failed significantly on content accuracy, rewriting the entire script into colloquial slang ('cramming', 'nod off', 'foggy'). Additionally, Model 2's delivery was too energetic and sounded more like a complaint than genuine exhaustion. Model 1 is the clear winner.",
+    "score_1_1": 3,
+    "score_2_1": 0,
+    "winner_1": 1
+}
